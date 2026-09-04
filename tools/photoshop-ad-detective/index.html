@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Student-led Multimedia exploration of creative advertising, photo manipulation, and Photoshop compositing." />
+  <title>Photoshop Ad Detective | Multimedia</title>
+  <style>
+    :root{
+      --bg:#0b1020;--panel:#11182c;--panel2:#151f38;--text:#f6f8ff;--muted:#aab5d1;
+      --line:#2a3655;--accent:#8b5cf6;--accent2:#22d3ee;--good:#34d399;--warn:#fbbf24;
+      --shadow:0 18px 45px rgba(0,0,0,.28);--radius:22px;
+    }
+    *{box-sizing:border-box}
+    html{scroll-behavior:smooth}
+    body{margin:0;font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;background:
+      radial-gradient(circle at 15% 0%,rgba(139,92,246,.22),transparent 30%),
+      radial-gradient(circle at 90% 10%,rgba(34,211,238,.14),transparent 25%),var(--bg);color:var(--text);line-height:1.55}
+    a{color:inherit}
+    .wrap{width:min(1180px,92vw);margin:auto}
+    header{padding:54px 0 28px}
+    .eyebrow{display:inline-flex;gap:8px;align-items:center;border:1px solid var(--line);background:rgba(255,255,255,.04);padding:7px 12px;border-radius:999px;color:#d8def0;font-size:.83rem;font-weight:750;letter-spacing:.04em;text-transform:uppercase}
+    h1{font-size:clamp(2.6rem,7vw,5.7rem);line-height:.92;letter-spacing:-.055em;margin:18px 0 18px;max-width:920px}
+    .gradient{background:linear-gradient(90deg,#c4b5fd,#67e8f9,#fde68a);-webkit-background-clip:text;background-clip:text;color:transparent}
+    .lede{font-size:clamp(1.05rem,2vw,1.3rem);color:var(--muted);max-width:760px;margin:0 0 22px}
+    .goal{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:30px}
+    .goal div{background:rgba(255,255,255,.04);border:1px solid var(--line);border-radius:16px;padding:16px}
+    .goal strong{display:block;font-size:1.05rem}.goal span{color:var(--muted);font-size:.92rem}
+    .sticky{position:sticky;top:0;z-index:20;background:rgba(11,16,32,.88);backdrop-filter:blur(14px);border-top:1px solid rgba(255,255,255,.05);border-bottom:1px solid var(--line)}
+    .sticky-inner{display:flex;align-items:center;gap:14px;padding:10px 0}
+    .progress-track{height:8px;background:#202945;border-radius:99px;overflow:hidden;flex:1}.progress-fill{height:100%;width:0;background:linear-gradient(90deg,var(--accent),var(--accent2));transition:width .25s ease}
+    .progress-label{font-size:.82rem;color:var(--muted);white-space:nowrap}
+    section{padding:54px 0}
+    .section-head{display:flex;justify-content:space-between;gap:20px;align-items:end;margin-bottom:22px}
+    .section-head h2{font-size:clamp(1.7rem,3vw,2.65rem);letter-spacing:-.035em;margin:0}.section-head p{max-width:620px;margin:0;color:var(--muted)}
+    .steps{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}
+    .step{border:1px solid var(--line);border-radius:18px;background:var(--panel);padding:18px}.num{width:34px;height:34px;border-radius:10px;background:linear-gradient(135deg,var(--accent),#5b21b6);display:grid;place-items:center;font-weight:900;margin-bottom:12px}.step p{color:var(--muted);margin:6px 0 0;font-size:.92rem}
+    .gallery{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}
+    .ad-card{overflow:hidden;border:1px solid var(--line);background:var(--panel);border-radius:var(--radius);box-shadow:var(--shadow);display:flex;flex-direction:column}
+    .ad-card.feature{grid-column:1/-1;display:grid;grid-template-columns:1.15fr .85fr}
+    .image-wrap{background:#0c1327;min-height:320px;display:grid;place-items:center;overflow:hidden}
+    .ad-card.feature .image-wrap{min-height:500px}
+    .image-wrap img{width:100%;height:100%;object-fit:cover;display:block;transition:transform .35s ease}.ad-card:hover img{transform:scale(1.018)}
+    .card-body{padding:21px;display:flex;flex-direction:column;gap:11px;flex:1}.tag{display:inline-block;font-size:.76rem;color:#dbeafe;border:1px solid #334266;background:#17213b;padding:5px 9px;border-radius:999px;width:max-content;font-weight:700}.card-body h3{font-size:1.35rem;line-height:1.15;margin:0}.card-body p{color:var(--muted);margin:0}.look-for{font-size:.9rem;color:#d9e1f4!important}.actions{display:flex;flex-wrap:wrap;gap:9px;margin-top:auto;padding-top:5px}
+    button,.btn{appearance:none;border:0;border-radius:12px;padding:11px 14px;font:inherit;font-weight:800;cursor:pointer;text-decoration:none;display:inline-flex;align-items:center;justify-content:center;gap:7px}.primary{background:linear-gradient(135deg,var(--accent),#6d28d9);color:white}.secondary{background:#202a46;color:#edf2ff;border:1px solid #344261}.ghost{background:transparent;color:#cbd5e1;border:1px solid var(--line)}button:hover,.btn:hover{filter:brightness(1.08)}
+    .note{border-left:4px solid var(--accent2);background:rgba(34,211,238,.07);padding:14px 16px;border-radius:0 14px 14px 0;color:#d8e7f1;margin:20px 0 0}
+    .analysis-grid{display:grid;gap:18px}.analysis{background:var(--panel);border:1px solid var(--line);border-radius:var(--radius);padding:22px}.analysis h3{margin:0 0 16px;font-size:1.35rem}.field{margin:14px 0}.field label{display:block;font-weight:800;margin-bottom:7px}.hint{display:block;color:var(--muted);font-size:.86rem;font-weight:500;margin-top:2px}input,textarea,select{width:100%;border:1px solid #33415f;background:#0e1629;color:var(--text);border-radius:12px;padding:12px 13px;font:inherit;outline:none}textarea{min-height:92px;resize:vertical}input:focus,textarea:focus,select:focus{border-color:var(--accent2);box-shadow:0 0 0 3px rgba(34,211,238,.1)}
+    .techniques{display:flex;flex-wrap:wrap;gap:8px}.techniques label{font-size:.87rem;padding:8px 10px;background:#18223d;border:1px solid #33415f;border-radius:999px;cursor:pointer}.techniques input{width:auto;margin-right:5px;accent-color:var(--accent)}
+    .challenge{display:grid;grid-template-columns:1fr 1fr;gap:18px}.challenge-card{background:linear-gradient(145deg,#151f38,#10172a);border:1px solid var(--line);border-radius:var(--radius);padding:22px}
+    .big-question{font-size:clamp(1.5rem,3vw,2.5rem);line-height:1.12;letter-spacing:-.03em;margin:10px 0 18px}
+    .toolbar{display:flex;flex-wrap:wrap;gap:10px;margin-top:20px}.status{font-size:.86rem;color:var(--good);min-height:1.4em;margin-top:8px}
+    footer{padding:46px 0 70px;color:var(--muted);font-size:.9rem;border-top:1px solid var(--line)}
+    @media(max-width:820px){.goal,.steps,.gallery,.challenge{grid-template-columns:1fr}.ad-card.feature{grid-column:auto;display:flex}.ad-card.feature .image-wrap{min-height:340px}.sticky-inner{gap:8px}.progress-label{display:none}}
+    @media print{body{background:white;color:black}.sticky,.actions,.toolbar,.eyebrow{display:none!important}.wrap{width:100%}.analysis,.challenge-card,.ad-card{break-inside:avoid;border:1px solid #bbb;box-shadow:none;background:white}.card-body p,.section-head p,.hint,.goal span{color:#333}textarea,input,select{border:1px solid #999;color:black;background:white}.gradient{color:black;background:none}.image-wrap{max-height:300px}section{padding:25px 0}}
+  </style>
+</head>
+<body>
+  <header class="wrap">
+    <div class="eyebrow">Multimedia · Photoshop Warm-Up</div>
+    <h1>Photoshop <span class="gradient">Ad Detective</span></h1>
+    <p class="lede">Before you learn Photoshop, investigate how designers make impossible images feel believable. Your job is to look closely, reverse-engineer the choices, and invent an idea of your own.</p>
+    <div class="goal">
+      <div><strong>Look</strong><span>Explore five examples of creative advertising and compositing.</span></div>
+      <div><strong>Think</strong><span>Choose three ads and explain how you think they were built.</span></div>
+      <div><strong>Create</strong><span>Pitch an original “impossible image” ad concept of your own.</span></div>
+    </div>
+  </header>
+
+  <div class="sticky">
+    <div class="wrap sticky-inner">
+      <strong>Activity progress</strong>
+      <div class="progress-track"><div class="progress-fill" id="progressFill"></div></div>
+      <span class="progress-label" id="progressLabel">0% complete</span>
+    </div>
+  </div>
+
+  <main>
+    <section class="wrap">
+      <div class="section-head"><h2>How this works</h2><p>You do not need to know Photoshop vocabulary yet. Make good guesses. Next week, we will return to your ideas when we learn selections, layers and masks.</p></div>
+      <div class="steps">
+        <div class="step"><div class="num">1</div><strong>Explore</strong><p>Open the ads below. Zoom in and look for clues.</p></div>
+        <div class="step"><div class="num">2</div><strong>Choose 3</strong><p>Select the three ads you find most interesting.</p></div>
+        <div class="step"><div class="num">3</div><strong>Reverse-engineer</strong><p>Explain what was combined, changed or manipulated.</p></div>
+        <div class="step"><div class="num">4</div><strong>Invent</strong><p>Create a concept that would be impossible to photograph normally.</p></div>
+      </div>
+    </section>
+
+    <section class="wrap" id="gallery">
+      <div class="section-head"><h2>Creative ad gallery</h2><p>Do not just ask, “Is this Photoshopped?” Ask: <strong>What had to change to make the idea work?</strong></p></div>
+
+      <div class="gallery">
+        <article class="ad-card feature">
+          <div class="image-wrap"><img src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/75635043499641.57fba4d53e7ef.jpg" alt="Fanta concept print advertisement combining an orange with the top of a drink can" loading="lazy"></div>
+          <div class="card-body">
+            <span class="tag">Simple idea · strong execution</span>
+            <h3>Fanta — Fruit + Can</h3>
+            <p>A concept campaign by Gregorio Manetti. The project description explains that the top of a can was combined with fruit and finished in Photoshop.</p>
+            <p class="look-for"><strong>Look for:</strong> clean selections, shape matching, highlights, texture, splash effects and colour consistency.</p>
+            <div class="actions"><button class="primary analyze" data-ad="Fanta — Fruit + Can">Analyze this ad</button><a class="btn secondary" href="https://www.behance.net/gallery/43499641/Fanta-Print-Ads" target="_blank" rel="noopener">View source ↗</a></div>
+          </div>
+        </article>
+
+        <article class="ad-card">
+          <div class="image-wrap"><img src="https://campaignsoftheworld.com/wp-content/uploads/2015/09/Splashdown-Waterpark-Girl-cotw.jpg" alt="Splashdown Waterpark print ad using surreal photo retouching" loading="lazy"></div>
+          <div class="card-body">
+            <span class="tag">Surreal retouching</span><h3>Splashdown Waterpark</h3>
+            <p>The visual joke exaggerates what an intense waterslide might do to you.</p>
+            <p class="look-for"><strong>Look for:</strong> body/clothing manipulation, masks, careful edges and believable lighting.</p>
+            <div class="actions"><button class="primary analyze" data-ad="Splashdown Waterpark">Analyze this ad</button><a class="btn secondary" href="https://campaignsoftheworld.com/creative-print-ads/splashdown-waterpark/" target="_blank" rel="noopener">View campaign ↗</a></div>
+          </div>
+        </article>
+
+        <article class="ad-card">
+          <div class="image-wrap"><img src="https://campaignsoftheworld.com/wp-content/uploads/2018/02/sherlock_stayintheshadows_02_COTW.jpg" alt="Sherlock anti-theft advertisement using dramatic CGI and retouching" loading="lazy"></div>
+          <div class="card-body">
+            <span class="tag">CGI + retouching</span><h3>Sherlock — Stay in the Shadows</h3>
+            <p>Light itself becomes the “thief,” pointing toward an unprotected car while the protected vehicle remains unnoticed.</p>
+            <p class="look-for"><strong>Look for:</strong> lighting direction, colour grading, atmosphere, compositing and visual hierarchy.</p>
+            <div class="actions"><button class="primary analyze" data-ad="Sherlock — Stay in the Shadows">Analyze this ad</button><a class="btn secondary" href="https://campaignsoftheworld.com/creative-print-ads/sherlock-sometimes-its-good-to-stay-in-the-shadows/" target="_blank" rel="noopener">View campaign ↗</a></div>
+          </div>
+        </article>
+
+        <article class="ad-card">
+          <div class="image-wrap"><img src="https://mir-s3-cdn-cf.behance.net/project_modules/1400/adc819194350221.65fabb7b04975.jpg" alt="Sun Magic orange juice advertising photomontage with multiple photographic elements" loading="lazy"></div>
+          <div class="card-body">
+            <span class="tag">Photomontage process</span><h3>Sun Magic — Orange Juice</h3>
+            <p>A Photoshop photomontage built from multiple separate visual elements. The project page includes process and before/after material.</p>
+            <p class="look-for"><strong>Look for:</strong> cut-outs, scale, perspective, colour matching, overlaps and edge cleanup.</p>
+            <div class="actions"><button class="primary analyze" data-ad="Sun Magic — Orange Juice">Analyze this ad</button><a class="btn secondary" href="https://www.behance.net/gallery/194350221/Sun-Magic-Advertising-Photo-Manipulation-Poster" target="_blank" rel="noopener">See the process ↗</a></div>
+          </div>
+        </article>
+
+        <article class="ad-card">
+          <div class="image-wrap"><img src="https://mir-s3-cdn-cf.behance.net/project_modules/max_3840_webp/9c5516243919747.698bb59bb6bfc.jpg" alt="Advertising photo montage showing astronauts in space and a roll of Python tape" loading="lazy"></div>
+          <div class="card-body">
+            <span class="tag">2026 Photoshop montage</span><h3>Python Tape — Space Composite</h3>
+            <p>A 2026 advertising photo-montage exercise that combines many source images into one deliberately impossible scene.</p>
+            <p class="look-for"><strong>Look for:</strong> multiple source images, scale, reflections, shadows, colour balance and depth.</p>
+            <div class="actions"><button class="primary analyze" data-ad="Python Tape — Space Composite">Analyze this ad</button><a class="btn secondary" href="https://www.behance.net/gallery/243919747/Foto-Montaje-Publicitario-Photoshop" target="_blank" rel="noopener">See images + process ↗</a></div>
+          </div>
+        </article>
+      </div>
+      <div class="note"><strong>Remember:</strong> the best manipulation is not always the most complicated. A strong concept can be simple, clear and memorable.</div>
+    </section>
+
+    <section class="wrap" id="analysis">
+      <div class="section-head"><h2>Choose 3 ads to investigate</h2><p>Click <strong>Analyze this ad</strong> above or choose an ad from each menu. Your work saves automatically on this browser.</p></div>
+      <div class="analysis-grid" id="analysisGrid"></div>
+    </section>
+
+    <section class="wrap" id="reverse">
+      <div class="section-head"><h2>Reverse-engineer your favourite</h2><p>Imagine you were given all the original photos. What order would you work in?</p></div>
+      <div class="challenge">
+        <div class="challenge-card">
+          <div class="field"><label for="favorite">My favourite ad</label><input id="favorite" data-save placeholder="Name the ad"></div>
+          <div class="field"><label for="workflow">My predicted Photoshop workflow<span class="hint">Example: background → cut out product → resize → mask → add shadow → colour correction → text</span></label><textarea id="workflow" data-save placeholder="Write the steps in the order you think the designer followed..."></textarea></div>
+          <div class="field"><label for="hardest">What would be the hardest part to make believable?</label><textarea id="hardest" data-save></textarea></div>
+        </div>
+        <div class="challenge-card">
+          <span class="tag">Big idea</span>
+          <div class="big-question">Which matters more in a great Photoshop ad: <span class="gradient">technical skill</span> or the <span class="gradient">original idea</span>?</div>
+          <div class="field"><label for="bigAnswer">Defend your answer.</label><textarea id="bigAnswer" data-save placeholder="Use at least one ad from the gallery as evidence."></textarea></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="wrap" id="create">
+      <div class="section-head"><h2>Invent your own impossible ad</h2><p>You are not making it in Photoshop today. You are designing the idea first.</p></div>
+      <div class="challenge-card">
+        <div class="challenge">
+          <div>
+            <div class="field"><label for="product">Product or cause</label><input id="product" data-save placeholder="Headphones, shoe, camera, snack, school event..."></div>
+            <div class="field"><label for="message">Message<span class="hint">What should the audience understand or feel?</span></label><textarea id="message" data-save></textarea></div>
+            <div class="field"><label for="impossible">The impossible visual</label><textarea id="impossible" data-save placeholder="Describe the image you would create."></textarea></div>
+          </div>
+          <div>
+            <div class="field"><label for="imagesNeeded">Images I would need</label><textarea id="imagesNeeded" data-save placeholder="List the photos or elements you would collect."></textarea></div>
+            <div class="field"><label for="toolsNeeded">Photoshop moves I predict I would need</label><textarea id="toolsNeeded" data-save placeholder="Cut out, resize, blend, add shadows, change colour..."></textarea></div>
+            <div class="field"><label for="slogan">Optional slogan</label><input id="slogan" data-save placeholder="Short and memorable"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="toolbar">
+        <button class="primary" id="copyBtn">Copy answers for Google Doc</button>
+        <button class="secondary" onclick="window.print()">Print / Save PDF</button>
+        <button class="ghost" id="clearBtn">Clear my answers</button>
+      </div>
+      <div class="status" id="status" aria-live="polite"></div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap">Multimedia · Photoshop Ad Detective · Student exploration activity. External campaign images remain the property of their respective creators and are linked to their source pages for educational analysis.</div>
+  </footer>
+
+<script>
+const ads = ["Fanta — Fruit + Can","Splashdown Waterpark","Sherlock — Stay in the Shadows","Sun Magic — Orange Juice","Python Tape — Space Composite"];
+const techniques = ["Selections / cut-outs","Layers","Layer masks","Resize / transform","Perspective / warp","Colour correction","Shadows","Lighting","Textures","Brushes","Cloning / healing","Typography"];
+const questions = [
+  ["What is being advertised?","Identify the product, service or cause."],
+  ["What is the main idea?","Explain the ad in one sentence."],
+  ["What part would be impossible or difficult to photograph normally?","Point to the manipulation or visual trick."],
+  ["What images or elements were probably combined?","List at least three if possible."],
+  ["What makes the composite believable?","Consider light, shadows, colour, scale, perspective and edges."],
+  ["What do your eyes notice first — and why?","Think about contrast, size, colour and placement."],
+  ["Would the ad still work without words? Why or why not?","Explain what the image communicates on its own."],
+  ["Creativity score out of 10 — defend it.","Do not just give a number. Explain your reasoning."]
+];
+
+function makeAnalysis(n){
+  const box=document.createElement('article'); box.className='analysis'; box.id=`analysis-${n}`;
+  const options=['<option value="">Choose an ad…</option>',...ads.map(a=>`<option>${a}</option>`)].join('');
+  const qs=questions.map((q,i)=>`<div class="field"><label for="a${n}q${i}">${i+1}. ${q[0]}<span class="hint">${q[1]}</span></label><textarea id="a${n}q${i}" data-save></textarea></div>`).join('');
+  const tech=techniques.map((t,i)=>`<label><input type="checkbox" data-save id="a${n}t${i}"> ${t}</label>`).join('');
+  box.innerHTML=`<h3>Ad Analysis ${n}</h3><div class="field"><label for="a${n}name">Advertisement</label><select id="a${n}name" data-save>${options}</select></div>${qs}<div class="field"><label>Which techniques do you think were used?<span class="hint">Choose as many as make sense. You are allowed to guess.</span></label><div class="techniques">${tech}</div></div>`;
+  return box;
+}
+const grid=document.getElementById('analysisGrid'); [1,2,3].forEach(n=>grid.appendChild(makeAnalysis(n)));
+
+const fields=()=>Array.from(document.querySelectorAll('[data-save]'));
+function save(){
+  const data={}; fields().forEach(el=>data[el.id]=el.type==='checkbox'?el.checked:el.value); localStorage.setItem('photoshopAdDetective',JSON.stringify(data)); updateProgress();
+}
+function load(){
+  try{const data=JSON.parse(localStorage.getItem('photoshopAdDetective')||'{}'); fields().forEach(el=>{if(data[el.id]!==undefined){if(el.type==='checkbox')el.checked=data[el.id];else el.value=data[el.id];}});}catch(e){} updateProgress();
+}
+function updateProgress(){
+  const keyFields=fields().filter(el=>el.type!=='checkbox'); const complete=keyFields.filter(el=>String(el.value).trim().length>2).length; const pct=Math.round(complete/keyFields.length*100); document.getElementById('progressFill').style.width=pct+'%'; document.getElementById('progressLabel').textContent=pct+'% complete';
+}
+document.addEventListener('input',e=>{if(e.target.matches('[data-save]'))save()}); document.addEventListener('change',e=>{if(e.target.matches('[data-save]'))save()});
+
+document.querySelectorAll('.analyze').forEach(btn=>btn.addEventListener('click',()=>{
+  const ad=btn.dataset.ad; const selects=[1,2,3].map(n=>document.getElementById(`a${n}name`)); let target=selects.find(s=>!s.value)||selects[0]; target.value=ad; save(); target.closest('.analysis').scrollIntoView({behavior:'smooth',block:'start'}); target.focus();
+}));
+
+function val(id){const el=document.getElementById(id);return el?el.value.trim():''}
+function analysisText(n){
+  let out=`AD ANALYSIS ${n}\nAdvertisement: ${val(`a${n}name`)}\n`;
+  questions.forEach((q,i)=>out+=`\n${i+1}. ${q[0]}\n${val(`a${n}q${i}`)}\n`);
+  const chosen=techniques.filter((t,i)=>document.getElementById(`a${n}t${i}`).checked); out+=`\nTechniques I think were used: ${chosen.join(', ')||'—'}\n`; return out;
+}
+function allAnswers(){
+  return `PHOTOSHOP AD DETECTIVE — MULTIMEDIA\n\n${analysisText(1)}\n------------------------------\n${analysisText(2)}\n------------------------------\n${analysisText(3)}\n\nREVERSE-ENGINEER MY FAVOURITE\nFavourite ad: ${val('favorite')}\n\nPredicted workflow:\n${val('workflow')}\n\nHardest part to make believable:\n${val('hardest')}\n\nBIG QUESTION\nWhich matters more — technical skill or the original idea?\n${val('bigAnswer')}\n\nMY IMPOSSIBLE AD CONCEPT\nProduct or cause: ${val('product')}\n\nMessage:\n${val('message')}\n\nImpossible visual:\n${val('impossible')}\n\nImages needed:\n${val('imagesNeeded')}\n\nPhotoshop moves I predict I would need:\n${val('toolsNeeded')}\n\nOptional slogan: ${val('slogan')}\n`;
+}
+document.getElementById('copyBtn').addEventListener('click',async()=>{
+  const status=document.getElementById('status'); try{await navigator.clipboard.writeText(allAnswers());status.textContent='✓ Answers copied. Open your Google Doc and paste.';}catch(e){status.textContent='Copy was blocked by the browser. Use Print / Save PDF instead.';} setTimeout(()=>status.textContent='',5000);
+});
+document.getElementById('clearBtn').addEventListener('click',()=>{
+  if(confirm('Clear all answers saved on this browser?')){localStorage.removeItem('photoshopAdDetective');fields().forEach(el=>{if(el.type==='checkbox')el.checked=false;else el.value='';});updateProgress();document.getElementById('status').textContent='Answers cleared.';}
+});
+load();
+</script>
+</body>
+</html>
