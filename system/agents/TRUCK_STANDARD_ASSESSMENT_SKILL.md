@@ -42,19 +42,26 @@ Never auto-convert self-report into the teacher 1–4 judgement.
 ## Defence / Reflection
 Create 5–8 defence questions; teacher normally selects 2–3 based on evidence gaps. Include explanation, reasoning, audience/design, troubleshooting/revision and transfer.
 
-Required reflection stays short:
-- skills used and why
-- one revision/problem
-- one transfer possibility
-
 ## Outputs
 - `assessment-pack.json`
 - `knowledge-check.csv`
 - `student-skill-reflection.md`
 - `teacher-key.md`
 - `video-checkpoints.json`
+- `forms-spec.json` — self-contained input for the Google Apps Script generator
 
-Preserve all canonical project, skill, outcome and evidence IDs so HTML/PDF, Scribe It, Evidence Map and PowerSchool stay synchronized.
+## forms-spec.json requirement
+The Google Forms spec must be self-contained. The Apps Script must not need to parse Markdown or CSV.
+
+Include:
+- `spec_version`, `project_id`, `project_title`
+- course configurations
+- every knowledge item with ID, prompt, options, correct index, skills/outcomes/step ID
+- bounded technical/design skill choices with student-friendly labels
+- one transfer prompt
+- teacher evidence checkpoints with canonical evidence IDs, type, skills and outcomes
+
+Preserve all canonical project, skill, outcome and evidence IDs so HTML/PDF, Scribe It, Google Forms, Evidence Map and PowerSchool stay synchronized.
 
 ## Anti-drift rules
 - no invented skills or outcomes
