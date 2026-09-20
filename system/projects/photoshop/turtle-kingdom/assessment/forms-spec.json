@@ -1,0 +1,359 @@
+{
+  "spec_version": "1.0",
+  "project_id": "PS-TURTLE-KINGDOM",
+  "project_title": "Turtle Kingdom",
+  "course_configs": [
+    {
+      "course_id": "MM12",
+      "module_id": "M1",
+      "outcome_codes": [
+        "1.1",
+        "1.3",
+        "1.4",
+        "1.5",
+        "4.1"
+      ]
+    }
+  ],
+  "student_form": {
+    "description": "Complete the Turtle Kingdom knowledge check, identify evidence of your technical/design learning, and answer the transfer prompt."
+  },
+  "knowledge_check": {
+    "items": [
+      {
+        "id": "TK-KC-01",
+        "type": "multiple_choice",
+        "prompt": "Why is a layer mask preferable to permanently erasing the turtle edge?",
+        "choices": [
+          "It lets hidden pixels be restored and refined later",
+          "It automatically matches colour",
+          "It increases image resolution",
+          "It flattens the file"
+        ],
+        "correct_index": 0,
+        "points": 1,
+        "skill_ids": [
+          "PS-LAY-01"
+        ],
+        "outcome_codes": [
+          "MM12 1.1"
+        ],
+        "step_id": ""
+      },
+      {
+        "id": "TK-KC-02",
+        "type": "multiple_choice",
+        "prompt": "When placing a castle on a curved shell, what must be checked first?",
+        "choices": [
+          "Whether the castle has a bright colour",
+          "Scale, perspective and the contact area where it meets the shell",
+          "Whether the file is JPEG",
+          "Whether the sky is blue"
+        ],
+        "correct_index": 1,
+        "points": 1,
+        "skill_ids": [
+          "PS-TRN-02"
+        ],
+        "outcome_codes": [
+          "MM12 1.1"
+        ],
+        "step_id": ""
+      },
+      {
+        "id": "TK-KC-03",
+        "type": "multiple_choice",
+        "prompt": "What does a tight contact shadow under the turtle or castle mainly communicate?",
+        "choices": [
+          "Where objects touch or sit close to a surface",
+          "The file naming convention",
+          "The colour profile",
+          "That the layer is rasterized"
+        ],
+        "correct_index": 0,
+        "points": 1,
+        "skill_ids": [
+          "PS-LGT-02"
+        ],
+        "outcome_codes": [
+          "MM12 1.4"
+        ],
+        "step_id": ""
+      },
+      {
+        "id": "TK-KC-04",
+        "type": "multiple_choice",
+        "prompt": "Why should the castle and turtle be adjusted into a similar colour/light family?",
+        "choices": [
+          "So separate sources feel like they belong in the same scene",
+          "So every object has identical colour",
+          "To remove all contrast",
+          "To avoid using masks"
+        ],
+        "correct_index": 0,
+        "points": 1,
+        "skill_ids": [
+          "PS-LGT-02",
+          "PS-TON-01"
+        ],
+        "outcome_codes": [
+          "MM12 1.4"
+        ],
+        "step_id": ""
+      },
+      {
+        "id": "TK-KC-05",
+        "type": "multiple_choice",
+        "prompt": "If the castle looks pasted on even though its mask is clean, what should you inspect next?",
+        "choices": [
+          "Light direction, scale, contact shadow and colour integration",
+          "Only the filename",
+          "Only the layer name",
+          "Nothing"
+        ],
+        "correct_index": 0,
+        "points": 1,
+        "skill_ids": [
+          "PS-LGT-02",
+          "GD-CRIT-01"
+        ],
+        "outcome_codes": [
+          "MM12 1.4"
+        ],
+        "step_id": ""
+      },
+      {
+        "id": "TK-KC-06",
+        "type": "multiple_choice",
+        "prompt": "What makes the turtle/castle idea a visual metaphor rather than random decoration?",
+        "choices": [
+          "The relationship suggests protection/home/community through the impossible combination",
+          "The turtle is large",
+          "There are many layers",
+          "The castle is old"
+        ],
+        "correct_index": 0,
+        "points": 1,
+        "skill_ids": [
+          "GD-MET-01"
+        ],
+        "outcome_codes": [
+          "MM12 1.5"
+        ],
+        "step_id": ""
+      },
+      {
+        "id": "TK-KC-07",
+        "type": "multiple_choice",
+        "prompt": "Why should distant elements usually have less contrast/detail than foreground elements?",
+        "choices": [
+          "Atmospheric depth helps communicate distance",
+          "Photoshop requires it",
+          "It reduces file size",
+          "It makes masking unnecessary"
+        ],
+        "correct_index": 0,
+        "points": 1,
+        "skill_ids": [
+          "PS-LGT-02",
+          "GD-HIE-01"
+        ],
+        "outcome_codes": [
+          "MM12 1.4"
+        ],
+        "step_id": ""
+      },
+      {
+        "id": "TK-KC-08",
+        "type": "multiple_choice",
+        "prompt": "What is the strongest Level 4 transfer evidence after this project?",
+        "choices": [
+          "Recreating the exact tutorial again",
+          "Applying the integration principles to a different impossible composite and explaining the changes",
+          "Memorizing keyboard shortcuts",
+          "Exporting the same JPEG twice"
+        ],
+        "correct_index": 1,
+        "points": 1,
+        "skill_ids": [
+          "GD-CRIT-01",
+          "GEN-EVD-01"
+        ],
+        "outcome_codes": [
+          "MM12 4.1"
+        ],
+        "step_id": ""
+      }
+    ]
+  },
+  "skill_reflection": {
+    "technical_skills": [
+      {
+        "id": "PS-SEL-01",
+        "label": "Selection / isolation"
+      },
+      {
+        "id": "PS-LAY-01",
+        "label": "Layer masks"
+      },
+      {
+        "id": "PS-TRN-02",
+        "label": "Warp / perspective / form fitting"
+      },
+      {
+        "id": "PS-LGT-02",
+        "label": "Match light and colour"
+      },
+      {
+        "id": "PS-BLD-02",
+        "label": "Blending modes"
+      },
+      {
+        "id": "PS-TON-01",
+        "label": "Curves / Levels"
+      },
+      {
+        "id": "PS-OUT-01",
+        "label": "Export / delivery"
+      }
+    ],
+    "design_skills": [
+      {
+        "id": "GD-HIE-01",
+        "label": "Visual hierarchy"
+      },
+      {
+        "id": "GD-MET-01",
+        "label": "Visual metaphor"
+      },
+      {
+        "id": "GD-AUD-01",
+        "label": "Audience and purpose"
+      },
+      {
+        "id": "GD-CRIT-01",
+        "label": "Critique and revision"
+      }
+    ],
+    "independence_options": [
+      "Followed the example closely",
+      "Needed some prompts/checkpoints",
+      "Worked independently",
+      "Adapted or extended the skill"
+    ]
+  },
+  "transfer": {
+    "id": "TK-TRF-01",
+    "prompt": "Design a different impossible “world carried by a creature/object” concept. Name two integration techniques you would reuse and two visual decisions that must change for the new audience or idea.",
+    "skill_ids": [
+      "GD-HIE-01",
+      "GD-CRIT-01"
+    ],
+    "outcome_codes": [
+      "MM12 1.5",
+      "MM12 4.1"
+    ]
+  },
+  "teacher_evidence": {
+    "checkpoints": [
+      {
+        "evidence_id": "TK-OBS-01",
+        "evidence_type": "Observation",
+        "title": "Selection / mask refinement",
+        "skill_ids": [
+          "PS-SEL-01",
+          "PS-LAY-01"
+        ],
+        "outcome_codes": [
+          "MM12 1.1"
+        ]
+      },
+      {
+        "evidence_id": "TK-OBS-02",
+        "evidence_type": "Observation",
+        "title": "Shell platform warp / form fitting",
+        "skill_ids": [
+          "PS-TRN-02"
+        ],
+        "outcome_codes": [
+          "MM12 1.1"
+        ]
+      },
+      {
+        "evidence_id": "TK-OBS-03",
+        "evidence_type": "Observation",
+        "title": "Light / colour integration",
+        "skill_ids": [
+          "PS-LGT-02",
+          "PS-TON-01"
+        ],
+        "outcome_codes": [
+          "MM12 1.4"
+        ]
+      },
+      {
+        "evidence_id": "TK-CON-01",
+        "evidence_type": "Conversation",
+        "title": "Visual metaphor / audience reasoning",
+        "skill_ids": [
+          "GD-MET-01",
+          "GD-AUD-01"
+        ],
+        "outcome_codes": [
+          "MM12 1.5",
+          "MM12 4.1"
+        ]
+      },
+      {
+        "evidence_id": "TK-CON-02",
+        "evidence_type": "Conversation",
+        "title": "Integration / revision reasoning",
+        "skill_ids": [
+          "GD-CRIT-01",
+          "PS-LGT-02"
+        ],
+        "outcome_codes": [
+          "MM12 1.4"
+        ]
+      },
+      {
+        "evidence_id": "TK-PRO-01",
+        "evidence_type": "Product",
+        "title": "Layered editable composite",
+        "skill_ids": [
+          "PS-LAY-01",
+          "PS-TRN-02"
+        ],
+        "outcome_codes": [
+          "MM12 1.1",
+          "MM12 1.3"
+        ]
+      },
+      {
+        "evidence_id": "TK-PRO-02",
+        "evidence_type": "Product",
+        "title": "Final Turtle Kingdom composite",
+        "skill_ids": [
+          "PS-LGT-02",
+          "GD-HIE-01",
+          "GD-MET-01"
+        ],
+        "outcome_codes": [
+          "MM12 1.4",
+          "MM12 1.5"
+        ]
+      },
+      {
+        "evidence_id": "TK-PRO-03",
+        "evidence_type": "Product",
+        "title": "Final export",
+        "skill_ids": [
+          "PS-OUT-01"
+        ],
+        "outcome_codes": [
+          "MM12 1.3"
+        ]
+      }
+    ]
+  }
+}
