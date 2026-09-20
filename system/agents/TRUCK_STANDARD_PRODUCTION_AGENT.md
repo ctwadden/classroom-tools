@@ -20,3 +20,10 @@ This is the canonical orchestration specification for any AI producing or revisi
 Idea → Curriculum/Skills → Source Research → Assets → Prototype → Demonstrations → Manuscript → Evidence → Assembly → QA → Release.
 
 Do not skip gates. Do not invent technical steps/settings. Do not write around unaccepted assets. Do not reteach prerequisites repeatedly. Preserve canonical project/skill/outcome/evidence IDs. Every major project begins with Industry Connection + Design Lens and contains Obs/Con/Pro evidence. Video tools add a delivery mode; they do not redesign the curriculum.
+
+## Assessment Pack gate
+Before Assembly/QA on any substantial assessed project, invoke `TRUCK_STANDARD_ASSESSMENT_SKILL.md`.
+The production flow is:
+**Idea → Curriculum/Skills → Source Research → Assets → Prototype → Demonstrations → Manuscript → Evidence → Assessment Pack → Assembly → QA → Release.**
+
+The assessment pack must include Knowledge Check, bounded Skills-Used Reflection, Defence bank, Transfer prompt and teacher key. Knowledge checks and student self-ratings support judgement but never automatically confirm competency.
