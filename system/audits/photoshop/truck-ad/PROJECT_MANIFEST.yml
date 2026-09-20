@@ -1,43 +1,39 @@
-project_id: PS-TRUCK-AD
-version: 2.0-RC
-title: Truck Ad - Built for More
-software: Photoshop
-status: RELEASE_CANDIDATE
-
+id: PS-TRUCK-AD
+title: Built for the Wild — Truck Advertisement
+domain: photoshop
+software:
+  name: Adobe Photoshop
+  tested_version: "pending school preflight"
 courses:
-  multimedia_12:
-    primary_outcomes: [1.1, 1.4, 1.5]
-    supporting_outcomes: [1.3, 4.1]
-  communications_technology_11:
-    primary_outcomes: [4.4]
-    supporting_outcomes: [4.1, 4.2, 4.3, 4.5, 1.4]
-
-prerequisites:
-  - PS-FND-01
-  - PS-LAY-01
-  - PS-BRS-01
-  - PS-SEL-01
-  - PS-TRN-01
-
-target_competencies:
-  - PS-SMO-01
-  - PS-FLT-01
-  - PS-BLD-02
-  - PS-TYP-01
-  - PS-DES-01
-  - PS-OUT-01
-  - GEN-EVD-01
-  - GEN-QA-01
-
-evidence_ids:
-  - TA-OBS-01
-  - TA-CON-01
-  - TA-OBS-02
-  - TA-CON-02
-  - TA-PRO-01
-  - TA-PRO-02
-  - TA-PRO-03
-  - TA-QA-01
-
-release_blocker:
-  - quick teacher preflight on the installed school Photoshop build
+  - id: MM12
+    module: M1
+    primary_outcomes: ["1.5"]
+    supporting_outcomes: ["1.1","1.3","1.4","4.1"]
+    powerschool_assignment_id: M1-O5-Sum-Pro-TruckAd
+  - id: COM11
+    module: M4
+    primary_outcomes: ["4.4"]
+    supporting_outcomes: ["1.4","4.1","4.2","4.3","4.5"]
+    powerschool_assignment_id: M4-O4-Sum-Pro-TruckAd
+skills:
+  prerequisites: [PS-FND-01,PS-LAY-01,PS-BRS-01,PS-SEL-01,PS-TRN-01]
+  new: [PS-FLT-01]
+  reinforced: [PS-SMO-01,PS-BLD-02,PS-TYP-01,PS-DES-01,PS-OUT-01]
+  design: [GD-CON-01,GD-HIE-01,GD-ALN-01,GD-TYP-01,GD-AUD-01,GD-MET-01,GD-CRIT-01]
+assessment:
+  evidence_ids: [TA-OBS-01,TA-CON-01,TA-OBS-02,TA-CON-02,TA-PRO-01,TA-PRO-02,TA-PRO-03,TA-QA-01]
+  count_tutorial_completion_as_mastery: false
+video:
+  status: optional_delivery_not_yet_created
+  provider: Scribe It
+  url: null
+qa:
+  source_verified: true
+  assets_verified: true
+  prototype_verified: false
+  demonstrations_complete: true
+  manuscript_complete: true
+  evidence_map_complete: true
+  html_qa: true
+  pdf_qa: true
+  truck_standard_status: Release Candidate
