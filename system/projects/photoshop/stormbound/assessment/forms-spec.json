@@ -1,0 +1,362 @@
+{
+  "spec_version": "1.0",
+  "project_id": "PS-STORMBOUND",
+  "project_title": "Stormbound · Snakefinger",
+  "course_configs": [
+    {
+      "course_id": "MM12",
+      "module_id": "M1",
+      "outcome_codes": [
+        "1.1",
+        "1.3",
+        "1.4",
+        "1.5",
+        "4.1"
+      ]
+    }
+  ],
+  "student_form": {
+    "description": "Complete the Stormbound · Snakefinger knowledge check, identify evidence of your technical/design learning, and answer the transfer prompt."
+  },
+  "knowledge_check": {
+    "items": [
+      {
+        "id": "SB-KC-01",
+        "type": "multiple_choice",
+        "prompt": "Why should clone/paint texture work be placed on a separate layer when possible?",
+        "choices": [
+          "It keeps the correction editable and easier to revise",
+          "It automatically creates rain",
+          "It increases resolution",
+          "It removes the need for selections"
+        ],
+        "correct_index": 0,
+        "points": 1,
+        "skill_ids": [
+          "PS-RET-01",
+          "PS-LAY-01"
+        ],
+        "outcome_codes": [
+          "MM12 1.1"
+        ],
+        "step_id": ""
+      },
+      {
+        "id": "SB-KC-02",
+        "type": "multiple_choice",
+        "prompt": "What makes rain feel deeper instead of like one flat overlay?",
+        "choices": [
+          "Multiple scales/blur amounts and depth layers",
+          "Using one identical streak everywhere",
+          "Flattening the document",
+          "Turning off contrast"
+        ],
+        "correct_index": 0,
+        "points": 1,
+        "skill_ids": [
+          "PS-FLT-01"
+        ],
+        "outcome_codes": [
+          "MM12 1.4"
+        ],
+        "step_id": ""
+      },
+      {
+        "id": "SB-KC-03",
+        "type": "multiple_choice",
+        "prompt": "Why is Screen a useful starting blend mode for bright lightning on a dark scene?",
+        "choices": [
+          "It tends to let lighter pixels contribute while darker pixels recede",
+          "It always sharpens the image",
+          "It creates vector paths",
+          "It changes perspective"
+        ],
+        "correct_index": 0,
+        "points": 1,
+        "skill_ids": [
+          "PS-BLD-02"
+        ],
+        "outcome_codes": [
+          "MM12 1.4"
+        ],
+        "step_id": ""
+      },
+      {
+        "id": "SB-KC-04",
+        "type": "multiple_choice",
+        "prompt": "If lightning is bright but does not feel like it belongs in the scene, what is likely missing?",
+        "choices": [
+          "Light spill / local illumination on nearby forms",
+          "A new filename",
+          "More canvas size",
+          "A second export"
+        ],
+        "correct_index": 0,
+        "points": 1,
+        "skill_ids": [
+          "PS-LGT-02"
+        ],
+        "outcome_codes": [
+          "MM12 1.4"
+        ],
+        "step_id": ""
+      },
+      {
+        "id": "SB-KC-05",
+        "type": "multiple_choice",
+        "prompt": "Why should a flying crow use motion cues that match its movement?",
+        "choices": [
+          "Motion blur supports direction/speed and avoids a frozen cutout look",
+          "It makes the bird larger",
+          "It fixes colour automatically",
+          "It removes the background"
+        ],
+        "correct_index": 0,
+        "points": 1,
+        "skill_ids": [
+          "PS-FLT-01"
+        ],
+        "outcome_codes": [
+          "MM12 1.4"
+        ],
+        "step_id": ""
+      },
+      {
+        "id": "SB-KC-06",
+        "type": "multiple_choice",
+        "prompt": "What should the viewer notice first in a cinematic key-art poster?",
+        "choices": [
+          "The intended focal subject/message defined by hierarchy",
+          "Every element equally",
+          "The smallest rain streak",
+          "The layer panel"
+        ],
+        "correct_index": 0,
+        "points": 1,
+        "skill_ids": [
+          "GD-HIE-01"
+        ],
+        "outcome_codes": [
+          "MM12 1.4"
+        ],
+        "step_id": ""
+      },
+      {
+        "id": "SB-KC-07",
+        "type": "multiple_choice",
+        "prompt": "Why keep atmosphere, subject and light effects on separate layers/groups?",
+        "choices": [
+          "It makes client-style revisions possible without rebuilding the entire image",
+          "It guarantees realism",
+          "It reduces all file sizes",
+          "It prevents masking"
+        ],
+        "correct_index": 0,
+        "points": 1,
+        "skill_ids": [
+          "PS-LAY-01"
+        ],
+        "outcome_codes": [
+          "MM12 1.3"
+        ],
+        "step_id": ""
+      },
+      {
+        "id": "SB-KC-08",
+        "type": "multiple_choice",
+        "prompt": "What would demonstrate transfer after Stormbound?",
+        "choices": [
+          "Applying atmosphere/light/motion principles to a different genre poster and defending the changes",
+          "Repeating the same rain recipe exactly",
+          "Naming all layers the same",
+          "Copying the finished poster"
+        ],
+        "correct_index": 0,
+        "points": 1,
+        "skill_ids": [
+          "GD-CRIT-01",
+          "GEN-EVD-01"
+        ],
+        "outcome_codes": [
+          "MM12 4.1"
+        ],
+        "step_id": ""
+      }
+    ]
+  },
+  "skill_reflection": {
+    "technical_skills": [
+      {
+        "id": "PS-SEL-01",
+        "label": "Selection / isolation"
+      },
+      {
+        "id": "PS-LAY-01",
+        "label": "Layer masks"
+      },
+      {
+        "id": "PS-RET-01",
+        "label": "Clone Stamp"
+      },
+      {
+        "id": "PS-WRP-01",
+        "label": "Controlled deformation"
+      },
+      {
+        "id": "PS-FLT-01",
+        "label": "Filters / motion effects"
+      },
+      {
+        "id": "PS-BLD-02",
+        "label": "Blending modes"
+      },
+      {
+        "id": "PS-LGT-02",
+        "label": "Light / colour integration"
+      },
+      {
+        "id": "PS-OUT-01",
+        "label": "Export / delivery"
+      }
+    ],
+    "design_skills": [
+      {
+        "id": "GD-HIE-01",
+        "label": "Visual hierarchy"
+      },
+      {
+        "id": "GD-CON-01",
+        "label": "Contrast"
+      },
+      {
+        "id": "GD-AUD-01",
+        "label": "Audience / genre"
+      },
+      {
+        "id": "GD-CRIT-01",
+        "label": "Critique and revision"
+      }
+    ],
+    "independence_options": [
+      "Followed the example closely",
+      "Needed some prompts/checkpoints",
+      "Worked independently",
+      "Adapted or extended the skill"
+    ]
+  },
+  "transfer": {
+    "id": "SB-TRF-01",
+    "prompt": "Reimagine the same technical skills for a different genre (sci-fi, comedy, adventure, documentary). Explain which atmosphere, colour, motion and hierarchy decisions must change and which compositing skills transfer.",
+    "skill_ids": [
+      "GD-HIE-01",
+      "GD-CRIT-01"
+    ],
+    "outcome_codes": [
+      "MM12 1.5",
+      "MM12 4.1"
+    ]
+  },
+  "teacher_evidence": {
+    "checkpoints": [
+      {
+        "evidence_id": "SB-OBS-01",
+        "evidence_type": "Observation",
+        "title": "Snake/hand edge and texture integration",
+        "skill_ids": [
+          "PS-SEL-01",
+          "PS-LAY-01",
+          "PS-RET-01"
+        ],
+        "outcome_codes": [
+          "MM12 1.1"
+        ]
+      },
+      {
+        "evidence_id": "SB-OBS-02",
+        "evidence_type": "Observation",
+        "title": "Rain / motion construction",
+        "skill_ids": [
+          "PS-FLT-01"
+        ],
+        "outcome_codes": [
+          "MM12 1.1",
+          "MM12 1.4"
+        ]
+      },
+      {
+        "evidence_id": "SB-OBS-03",
+        "evidence_type": "Observation",
+        "title": "Lightning / atmospheric integration",
+        "skill_ids": [
+          "PS-BLD-02",
+          "PS-LGT-02"
+        ],
+        "outcome_codes": [
+          "MM12 1.4"
+        ]
+      },
+      {
+        "evidence_id": "SB-CON-01",
+        "evidence_type": "Conversation",
+        "title": "Genre / focal hierarchy reasoning",
+        "skill_ids": [
+          "GD-HIE-01",
+          "GD-AUD-01"
+        ],
+        "outcome_codes": [
+          "MM12 1.4",
+          "MM12 1.5"
+        ]
+      },
+      {
+        "evidence_id": "SB-CON-02",
+        "evidence_type": "Conversation",
+        "title": "Troubleshooting / revision",
+        "skill_ids": [
+          "GD-CRIT-01"
+        ],
+        "outcome_codes": [
+          "MM12 4.1"
+        ]
+      },
+      {
+        "evidence_id": "SB-PRO-01",
+        "evidence_type": "Product",
+        "title": "Layered editable poster master",
+        "skill_ids": [
+          "PS-LAY-01",
+          "PS-FLT-01"
+        ],
+        "outcome_codes": [
+          "MM12 1.1",
+          "MM12 1.3"
+        ]
+      },
+      {
+        "evidence_id": "SB-PRO-02",
+        "evidence_type": "Product",
+        "title": "Final cinematic poster composite",
+        "skill_ids": [
+          "PS-LGT-02",
+          "GD-HIE-01",
+          "GD-CON-01"
+        ],
+        "outcome_codes": [
+          "MM12 1.4",
+          "MM12 1.5"
+        ]
+      },
+      {
+        "evidence_id": "SB-PRO-03",
+        "evidence_type": "Product",
+        "title": "Final export",
+        "skill_ids": [
+          "PS-OUT-01"
+        ],
+        "outcome_codes": [
+          "MM12 1.3"
+        ]
+      }
+    ]
+  }
+}
