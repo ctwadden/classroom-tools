@@ -1,0 +1,392 @@
+{
+  "spec_version": "1.0",
+  "project_id": "PS-LEMON-BURST",
+  "project_title": "Lemon Burst",
+  "course_configs": [
+    {
+      "course_id": "MM12",
+      "module_id": "M1",
+      "outcome_codes": [
+        "1.1",
+        "1.3",
+        "1.4",
+        "1.5",
+        "4.1"
+      ]
+    },
+    {
+      "course_id": "COM11",
+      "module_id": "M4",
+      "outcome_codes": [
+        "4.1",
+        "4.2",
+        "4.3",
+        "4.4",
+        "4.5"
+      ]
+    }
+  ],
+  "student_form": {
+    "description": "Complete the Lemon Burst knowledge check, identify evidence of your technical/design learning, and answer the transfer prompt."
+  },
+  "knowledge_check": {
+    "items": [
+      {
+        "id": "LB-KC-01",
+        "type": "multiple_choice",
+        "prompt": "Why is the can split into separate top/middle/bottom layers?",
+        "choices": [
+          "So each section can be moved/rotated and integrated independently",
+          "To reduce image resolution",
+          "To avoid using masks",
+          "Because Photoshop cannot transform a whole can"
+        ],
+        "correct_index": 0,
+        "points": 1,
+        "skill_ids": [
+          "PS-LAY-01",
+          "PS-SEL-02"
+        ],
+        "outcome_codes": [
+          "MM12 1.1",
+          "CT11 4.4"
+        ],
+        "step_id": ""
+      },
+      {
+        "id": "LB-KC-02",
+        "type": "multiple_choice",
+        "prompt": "Why is Warp useful when fitting a lemon slice into a cut can gap?",
+        "choices": [
+          "It allows local shape adjustment so the slice follows the can opening",
+          "It automatically creates shadows",
+          "It changes the brand colour",
+          "It removes the background"
+        ],
+        "correct_index": 0,
+        "points": 1,
+        "skill_ids": [
+          "PS-TRN-02"
+        ],
+        "outcome_codes": [
+          "MM12 1.1"
+        ],
+        "step_id": ""
+      },
+      {
+        "id": "LB-KC-03",
+        "type": "multiple_choice",
+        "prompt": "What is the purpose of clipped Curves adjustments on individual can sections?",
+        "choices": [
+          "To shape light/shadow locally while keeping the correction editable",
+          "To flatten the file",
+          "To create vector paths",
+          "To change canvas size"
+        ],
+        "correct_index": 0,
+        "points": 1,
+        "skill_ids": [
+          "PS-TON-01"
+        ],
+        "outcome_codes": [
+          "MM12 1.4"
+        ],
+        "step_id": ""
+      },
+      {
+        "id": "LB-KC-04",
+        "type": "multiple_choice",
+        "prompt": "Why do the can gaps need darkness/contact shadow near the inserted slices?",
+        "choices": [
+          "It creates depth and makes the cut relationship believable",
+          "It makes the file smaller",
+          "It hides the label",
+          "It replaces masking"
+        ],
+        "correct_index": 0,
+        "points": 1,
+        "skill_ids": [
+          "PS-LGT-02"
+        ],
+        "outcome_codes": [
+          "MM12 1.4"
+        ],
+        "step_id": ""
+      },
+      {
+        "id": "LB-KC-05",
+        "type": "multiple_choice",
+        "prompt": "What should remain the strongest focal point in a beverage key visual?",
+        "choices": [
+          "The product/brand hero defined by the brief",
+          "Every fruit equally",
+          "The smallest splash",
+          "The background texture"
+        ],
+        "correct_index": 0,
+        "points": 1,
+        "skill_ids": [
+          "GD-HIE-01",
+          "GD-BRD-01"
+        ],
+        "outcome_codes": [
+          "MM12 1.4",
+          "MM12 1.5"
+        ],
+        "step_id": ""
+      },
+      {
+        "id": "LB-KC-06",
+        "type": "multiple_choice",
+        "prompt": "Why add motion blur to some flying slices rather than all objects?",
+        "choices": [
+          "Selective blur supports depth and direction while preserving a readable hero product",
+          "Blur always improves quality",
+          "It reduces file size",
+          "It corrects colour"
+        ],
+        "correct_index": 0,
+        "points": 1,
+        "skill_ids": [
+          "PS-FLT-01"
+        ],
+        "outcome_codes": [
+          "MM12 1.4"
+        ],
+        "step_id": ""
+      },
+      {
+        "id": "LB-KC-07",
+        "type": "multiple_choice",
+        "prompt": "If fruit/splash effects overwhelm the can, what should be revised first?",
+        "choices": [
+          "Hierarchy, scale, contrast and layer relationships",
+          "Only the filename",
+          "Only export settings",
+          "Nothing"
+        ],
+        "correct_index": 0,
+        "points": 1,
+        "skill_ids": [
+          "GD-HIE-01",
+          "GD-CRIT-01"
+        ],
+        "outcome_codes": [
+          "MM12 1.4"
+        ],
+        "step_id": ""
+      },
+      {
+        "id": "LB-KC-08",
+        "type": "multiple_choice",
+        "prompt": "What demonstrates transfer after Lemon Burst?",
+        "choices": [
+          "Adapting the construction/lighting principles to a different flavour or fictional brand while changing colour, fruit, motion and audience decisions",
+          "Copying the exact Fanta layout",
+          "Using the same green background every time",
+          "Repeating keyboard shortcuts"
+        ],
+        "correct_index": 0,
+        "points": 1,
+        "skill_ids": [
+          "GD-BRD-01",
+          "GD-AUD-01",
+          "GD-CRIT-01"
+        ],
+        "outcome_codes": [
+          "MM12 4.1"
+        ],
+        "step_id": ""
+      }
+    ]
+  },
+  "skill_reflection": {
+    "technical_skills": [
+      {
+        "id": "PS-SEL-02",
+        "label": "Pen Tool / precise selections"
+      },
+      {
+        "id": "PS-LAY-01",
+        "label": "Masks / layer organization"
+      },
+      {
+        "id": "PS-TRN-02",
+        "label": "Warp / transform"
+      },
+      {
+        "id": "PS-TON-01",
+        "label": "Curves / Levels"
+      },
+      {
+        "id": "PS-LGT-02",
+        "label": "Light / contact integration"
+      },
+      {
+        "id": "PS-FLT-01",
+        "label": "Motion / filter effects"
+      },
+      {
+        "id": "PS-OUT-01",
+        "label": "Export / delivery"
+      }
+    ],
+    "design_skills": [
+      {
+        "id": "GD-HIE-01",
+        "label": "Visual hierarchy"
+      },
+      {
+        "id": "GD-COL-01",
+        "label": "Colour roles"
+      },
+      {
+        "id": "GD-TYP-01",
+        "label": "Typography / label communication"
+      },
+      {
+        "id": "GD-BRD-01",
+        "label": "Brand consistency"
+      },
+      {
+        "id": "GD-AUD-01",
+        "label": "Audience and purpose"
+      },
+      {
+        "id": "GD-CRIT-01",
+        "label": "Critique and revision"
+      }
+    ],
+    "independence_options": [
+      "Followed the example closely",
+      "Needed some prompts/checkpoints",
+      "Worked independently",
+      "Adapted or extended the skill"
+    ]
+  },
+  "transfer": {
+    "id": "LB-TRF-01",
+    "prompt": "Create a plan for a different flavour or fictional beverage brand. Name two Photoshop techniques you would reuse and three brand/audience decisions you would change. Explain why.",
+    "skill_ids": [
+      "GD-HIE-01",
+      "GD-CRIT-01"
+    ],
+    "outcome_codes": [
+      "CT11 4.4",
+      "CT11 4.5"
+    ]
+  },
+  "teacher_evidence": {
+    "checkpoints": [
+      {
+        "evidence_id": "LB-OBS-01",
+        "evidence_type": "Observation",
+        "title": "Precise can segmentation / layer order",
+        "skill_ids": [
+          "PS-SEL-02",
+          "PS-LAY-01"
+        ],
+        "outcome_codes": [
+          "MM12 1.1",
+          "CT11 4.4"
+        ]
+      },
+      {
+        "evidence_id": "LB-OBS-02",
+        "evidence_type": "Observation",
+        "title": "Slice warp / fit",
+        "skill_ids": [
+          "PS-TRN-02"
+        ],
+        "outcome_codes": [
+          "MM12 1.1",
+          "CT11 4.4"
+        ]
+      },
+      {
+        "evidence_id": "LB-OBS-03",
+        "evidence_type": "Observation",
+        "title": "Shadow / light integration",
+        "skill_ids": [
+          "PS-TON-01",
+          "PS-LGT-02"
+        ],
+        "outcome_codes": [
+          "MM12 1.4",
+          "CT11 4.1"
+        ]
+      },
+      {
+        "evidence_id": "LB-CON-01",
+        "evidence_type": "Conversation",
+        "title": "Brand / audience / hierarchy reasoning",
+        "skill_ids": [
+          "GD-BRD-01",
+          "GD-AUD-01",
+          "GD-HIE-01"
+        ],
+        "outcome_codes": [
+          "MM12 1.5",
+          "MM12 4.1",
+          "CT11 4.4"
+        ]
+      },
+      {
+        "evidence_id": "LB-CON-02",
+        "evidence_type": "Conversation",
+        "title": "Motion / depth reasoning",
+        "skill_ids": [
+          "PS-FLT-01",
+          "GD-CRIT-01"
+        ],
+        "outcome_codes": [
+          "MM12 1.4"
+        ]
+      },
+      {
+        "evidence_id": "LB-PRO-01",
+        "evidence_type": "Product",
+        "title": "Layered editable key visual",
+        "skill_ids": [
+          "PS-LAY-01",
+          "PS-TRN-02",
+          "PS-TON-01"
+        ],
+        "outcome_codes": [
+          "MM12 1.1",
+          "MM12 1.3"
+        ]
+      },
+      {
+        "evidence_id": "LB-PRO-02",
+        "evidence_type": "Product",
+        "title": "Final beverage advertisement",
+        "skill_ids": [
+          "PS-LGT-02",
+          "GD-HIE-01",
+          "GD-COL-01",
+          "GD-BRD-01"
+        ],
+        "outcome_codes": [
+          "MM12 1.4",
+          "MM12 1.5",
+          "CT11 4.1",
+          "CT11 4.2",
+          "CT11 4.4"
+        ]
+      },
+      {
+        "evidence_id": "LB-PRO-03",
+        "evidence_type": "Product",
+        "title": "Final export",
+        "skill_ids": [
+          "PS-OUT-01"
+        ],
+        "outcome_codes": [
+          "MM12 1.3",
+          "CT11 4.5"
+        ]
+      }
+    ]
+  }
+}
