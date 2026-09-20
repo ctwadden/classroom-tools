@@ -1,4 +1,4 @@
-# PHOTOSHOP SKILLS — Canonical Registry v3
+# PHOTOSHOP SKILLS — Canonical Registry v4
 
 Canonical IDs used by project manifests, the master workbook, Outcome Evidence Map / Evidence Studio, Scribe It video metadata, feedback, Google assessment automation, and PowerSchool descriptions.
 
@@ -15,6 +15,8 @@ Canonical IDs used by project manifests, the master workbook, Outcome Evidence M
 | PS-TRN-01 | Transform & Perspective | Scale, rotate, align | Foundation | Transforms without unintended distortion and aligns with purpose. |
 | PS-TRN-02 | Transform & Perspective | Distort / Perspective / Warp | Intermediate | Reshapes an asset to match form/perspective credibly. |
 | PS-WRP-01 | Transform & Perspective | Puppet Warp / controlled deformation | Intermediate | Places and controls deformation pins to change pose/form while protecting silhouette, joints and texture continuity. |
+| PS-SHP-01 | Vector & Shape Construction | Shape layers / vector construction | Foundation | Builds and edits live shape layers/paths while preserving fill, stroke, path and size editability. |
+| PS-EFX-01 | Retouching & Effects | Layer Styles / non-destructive depth effects | Intermediate | Uses editable Layer Styles such as Bevel & Emboss, Stroke or Shadow purposefully. |
 | PS-TYP-01 | Graphic Communication | Photoshop type construction | Foundation | Keeps type editable and controls size, tracking, leading and alignment. |
 | PS-SMO-01 | Non-destructive Construction | Smart Objects | Intermediate | Preserves source content through transforms and filters. |
 | PS-BLD-01 | Colour, Light & Integration | Blend If | Intermediate | Uses tonal blending intentionally. |
