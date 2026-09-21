@@ -1,38 +1,56 @@
 id: PS-STORMBOUND
-title: "Stormbound · Snakefinger"
-domain: "Photoshop"
-status: release_candidate
-truck_standard_version: "2.0+assessment"
+title: Stormbound · Snakefinger
+domain: Photoshop
+status: release_candidate_unverified
+truck_standard_version: 2.0+assessment
 courses:
-  - MM12
+- MM12
 outcomes:
-  - "MM12 1.1"
-  - "MM12 1.3"
-  - "MM12 1.4"
-  - "MM12 1.5"
-  - "MM12 4.1"
+- MM12 1.1
+- MM12 1.3
+- MM12 1.4
+- MM12 1.5
+- MM12 4.1
 technical_skills:
-  - PS-SEL-01
-  - PS-LAY-01
-  - PS-RET-01
-  - PS-WRP-01
-  - PS-FLT-01
-  - PS-BLD-02
-  - PS-LGT-02
-  - PS-OUT-01
+- PS-SEL-01
+- PS-LAY-01
+- PS-RET-01
+- PS-WRP-01
+- PS-FLT-01
+- PS-BLD-02
+- PS-LGT-02
+- PS-OUT-01
 design_skills:
-  - GD-HIE-01
-  - GD-CON-01
-  - GD-AUD-01
-  - GD-CRIT-01
+- GD-HIE-01
+- GD-CON-01
+- GD-AUD-01
+- GD-CRIT-01
 assessment:
   forms_spec: assessment/forms-spec.json
-  student_launcher: "https://script.google.com/a/macros/gnspes.ca/s/AKfycbxqHbAwEwbvdMrOGY4eP4Yu-z8PXqMsA-MfMGBFoTA5CoDbOA4sUv1LsXbYfFMWmrcP/exec?project=PS-STORMBOUND&type=student"
+  student_launcher: https://script.google.com/a/macros/gnspes.ca/s/AKfycbxqHbAwEwbvdMrOGY4eP4Yu-z8PXqMsA-MfMGBFoTA5CoDbOA4sUv1LsXbYfFMWmrcP/exec?project=PS-STORMBOUND&type=student
 industry_connection:
-  title: "Professional TV / movie poster workflow · modular Photoshop key art"
-  url: "https://www.adobe.com/learn/firefly/web/create-cinematic-posters-photoshop-firefly-assets"
+  title: Professional TV / movie poster workflow · modular Photoshop key art
+  url: https://www.adobe.com/learn/firefly/web/create-cinematic-posters-photoshop-firefly-assets
 qa:
   source_traceability: pass_or_preserved_from_existing
   assets: existing_pack_requires_rights_review_where_not_teacher_owned
   technical_preflight: required_on_school_installation
   html_pdf_structure: release_candidate
+  truck_standard_layout_lock: true
+  video_alignment_metadata: true
+  verified: false
+resources:
+  workbook_html: workbook.html
+  step_map: Step_Map.csv
+  video_manifest: video-manifest.json
+  video_contract: ../../../integration/VIDEO_WORKBOOK_CONTRACT.md
+steps:
+  core_count: 40
+  project_step_id_range: SB-S01..SB-S40
+  anchor_range: '#step-1..#step-40'
+video:
+  status: awaiting_recording
+  provider: Scribe It / YouTube
+  manifest: video-manifest.json
+  contract: ../../../integration/VIDEO_WORKBOOK_CONTRACT.md
+  video_url: null

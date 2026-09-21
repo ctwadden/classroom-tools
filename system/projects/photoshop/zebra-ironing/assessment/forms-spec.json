@@ -10,7 +10,7 @@
   "knowledge_check":{"items":[
     {"id":"ZI-KC-01","type":"multiple_choice","prompt":"Why keep the zebra and foreleg work non-destructive with masks and Smart Objects?","choices":["It makes the file smaller","It preserves source pixels and lets you revise edges or pose","It automatically fixes lighting","It converts the image to vector"],"correct_index":1,"points":1,"skill_ids":["PS-LAY-01","PS-SMO-01"],"outcome_codes":["MM12 1.1","CT11 4.4"],"step_id":"ZI-S04-ZI-S14"},
     {"id":"ZI-KC-02","type":"multiple_choice","prompt":"Why place Puppet Warp pins near major joints and areas that should remain controlled?","choices":["To create random distortion","To control where deformation happens and protect important areas","To sharpen the image","To change colour"],"correct_index":1,"points":1,"skill_ids":["PS-WRP-01"],"outcome_codes":["MM12 1.1","CT11 4.4"],"step_id":"ZI-S13"},
-    {"id":"ZI-KC-03","type":"multiple_choice","prompt":"Why hide the loose iron cable with a mask instead of erasing it permanently?","choices":["Masks increase resolution","A mask is recoverable if you need hidden pixels later","Erasing always changes colour","Masks automatically add shadows"],"correct_index":1,"points":1,"skill_ids":["PS-LAY-01"],"outcome_codes":["MM12 1.1","CT11 4.4"],"step_id":"ZI-S09"},
+    {"id":"ZI-KC-03","type":"multiple_choice","prompt":"Why hide the loose iron cable with a mask instead of erasing it permanently?","choices":["Masks increase resolution","A mask is recoverable if you need hidden pixels later","Erasing always causes colour shifts","Masks automatically add shadows"],"correct_index":1,"points":1,"skill_ids":["PS-LAY-01"],"outcome_codes":["MM12 1.1","CT11 4.4"],"step_id":"ZI-S09"},
     {"id":"ZI-KC-04","type":"multiple_choice","prompt":"Why is one continuous stripe patch useful for the hanging coat?","choices":["It keeps stripe direction and continuity more believable across the fold","It guarantees perfect lighting","It prevents all distortion","It removes the need for masks"],"correct_index":0,"points":1,"skill_ids":["PS-TRN-02","PS-WRP-01"],"outcome_codes":["MM12 1.1","CT11 4.4"],"step_id":"ZI-S15-ZI-S18"},
     {"id":"ZI-KC-05","type":"multiple_choice","prompt":"What is the main job of the tight shadow directly under the iron?","choices":["Decoration","To create contact so the iron feels seated on the fabric","To make the whole image darker","To hide the handle"],"correct_index":1,"points":1,"skill_ids":["PS-LGT-02"],"outcome_codes":["MM12 1.4","CT11 4.1"],"step_id":"ZI-S21"},
     {"id":"ZI-KC-06","type":"multiple_choice","prompt":"Why inspect cutout edges on both light and dark temporary backgrounds?","choices":["To compare file sizes","Different backgrounds reveal halos or fringes that may be invisible on one tone","To flatten the document","To change the zebra pattern"],"correct_index":1,"points":1,"skill_ids":["PS-LAY-01","GD-CRIT-01"],"outcome_codes":["MM12 1.1","CT11 4.4"],"step_id":"ZI-S26"},
@@ -19,19 +19,10 @@
   ]},
   "skill_reflection":{
     "technical_skills":[
-      {"id":"PS-LAY-01","label":"Layers / masks"},
-      {"id":"PS-SMO-01","label":"Smart Objects"},
-      {"id":"PS-WRP-01","label":"Puppet Warp / controlled deformation"},
-      {"id":"PS-TRN-02","label":"Warp / form fitting"},
-      {"id":"PS-LGT-02","label":"Light / colour / contact integration"},
-      {"id":"PS-OUT-01","label":"Export / delivery"}
+      {"id":"PS-LAY-01","label":"Layers / masks"},{"id":"PS-SMO-01","label":"Smart Objects"},{"id":"PS-WRP-01","label":"Puppet Warp / controlled deformation"},{"id":"PS-TRN-02","label":"Warp / form fitting"},{"id":"PS-LGT-02","label":"Light / colour / contact integration"},{"id":"PS-OUT-01","label":"Export / delivery"}
     ],
     "design_skills":[
-      {"id":"GD-HIE-01","label":"Visual hierarchy"},
-      {"id":"GD-ALN-01","label":"Alignment"},
-      {"id":"GD-MET-01","label":"Visual metaphor"},
-      {"id":"GD-AUD-01","label":"Audience and purpose"},
-      {"id":"GD-CRIT-01","label":"Critique and revision"}
+      {"id":"GD-HIE-01","label":"Visual hierarchy"},{"id":"GD-ALN-01","label":"Alignment"},{"id":"GD-MET-01","label":"Visual metaphor"},{"id":"GD-AUD-01","label":"Audience and purpose"},{"id":"GD-CRIT-01","label":"Critique and revision"}
     ],
     "independence_options":["Followed the example closely","Needed some prompts/checkpoints","Worked independently","Adapted or extended the skill"]
   },

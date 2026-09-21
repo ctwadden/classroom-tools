@@ -244,7 +244,7 @@
   },
   "transfer": {
     "id": "TK-TRF-01",
-    "prompt": "Design a different impossible “world carried by a creature/object” concept. Name two integration techniques you would reuse and two visual decisions that must change for the new audience or idea.",
+    "prompt": "Design a different impossible \u201cworld carried by a creature/object\u201d concept. Name two integration techniques you would reuse and two visual decisions that must change for the new audience or idea.",
     "skill_ids": [
       "GD-HIE-01",
       "GD-CRIT-01"

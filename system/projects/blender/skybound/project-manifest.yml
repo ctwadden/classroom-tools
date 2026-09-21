@@ -1,41 +1,59 @@
 id: BL-SKYBOUND
-title: "Skybound · First 3D Expedition"
-domain: "Blender + Photoshop"
-status: release_candidate
-truck_standard_version: "2.0+assessment"
+title: Skybound · First 3D Expedition
+domain: Blender + Photoshop
+status: release_candidate_unverified
+truck_standard_version: 2.0+assessment
 courses:
-  - MM12
-  - COM11
+- MM12
+- COM11
 outcomes:
-  - "MM12 2.1"
-  - "MM12 2.3"
-  - "MM12 2.4"
-  - "MM12 2.5"
-  - "CT11 8.2"
-  - "CT11 8.3"
+- MM12 2.1
+- MM12 2.3
+- MM12 2.4
+- MM12 2.5
+- CT11 8.2
+- CT11 8.3
 technical_skills:
-  - BL-NAV-01
-  - BL-IMP-01
-  - BL-TRN-01
-  - BL-HIE-01
-  - BL-MAT-01
-  - BL-CAM-01
-  - BL-LGT-01
-  - BL-RND-01
-  - PS-LGT-02
+- BL-NAV-01
+- BL-IMP-01
+- BL-TRN-01
+- BL-HIE-01
+- BL-MAT-01
+- BL-CAM-01
+- BL-LGT-01
+- BL-RND-01
+- PS-LGT-02
 design_skills:
-  - GD-HIE-01
-  - GD-AUD-01
-  - GD-BRD-01
-  - GD-CRIT-01
+- GD-HIE-01
+- GD-AUD-01
+- GD-BRD-01
+- GD-CRIT-01
 assessment:
   forms_spec: assessment/forms-spec.json
-  student_launcher: "https://script.google.com/a/macros/gnspes.ca/s/AKfycbxqHbAwEwbvdMrOGY4eP4Yu-z8PXqMsA-MfMGBFoTA5CoDbOA4sUv1LsXbYfFMWmrcP/exec?project=BL-SKYBOUND&type=student"
+  student_launcher: https://script.google.com/a/macros/gnspes.ca/s/AKfycbxqHbAwEwbvdMrOGY4eP4Yu-z8PXqMsA-MfMGBFoTA5CoDbOA4sUv1LsXbYfFMWmrcP/exec?project=BL-SKYBOUND&type=student
 industry_connection:
-  title: "Lidl CG hot-air balloon campaign · 3D model composited into live-action plates"
-  url: "https://glasspuppet.com/blogs/news/project-case-study-coolr-x-lidl"
+  title: Lidl CG hot-air balloon campaign · 3D model composited into live-action plates
+  url: https://glasspuppet.com/blogs/news/project-case-study-coolr-x-lidl
 qa:
   source_traceability: pass_or_preserved_from_existing
   assets: existing_pack_requires_rights_review_where_not_teacher_owned
   technical_preflight: required_on_school_installation
   html_pdf_structure: release_candidate
+  truck_standard_layout_lock: true
+  video_alignment_metadata: true
+  verified: false
+resources:
+  workbook_html: workbook.html
+  step_map: Step_Map.csv
+  video_manifest: video-manifest.json
+  video_contract: ../../../integration/VIDEO_WORKBOOK_CONTRACT.md
+steps:
+  core_count: 32
+  project_step_id_range: SK-S01..SK-S32
+  anchor_range: '#step-1..#step-32'
+video:
+  status: awaiting_recording
+  provider: Scribe It / YouTube
+  manifest: video-manifest.json
+  contract: ../../../integration/VIDEO_WORKBOOK_CONTRACT.md
+  video_url: null

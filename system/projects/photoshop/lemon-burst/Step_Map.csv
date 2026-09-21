@@ -1,0 +1,16 @@
+<PARSED TEXT FOR SHEET: 1 / 1 TABS
+TAB NAME: lemon-burst__Step_Map.csv>index,project_id,project_step_id,step_number,anchor,title,skill_ids,design_skill_ids,evidence_ids,video_priority
+0,PS-LEMON-BURST,LB-S01,1,step-1,Choose your route and set up the folder,PS-FND-01;PS-BLD-02;PS-TYP-01;PS-SHP-01;PS-OUT-01;PS-DES-01,GD-TYP-01;GD-CRIT-01,,Short
+1,PS-LEMON-BURST,LB-S02,2,step-2,Create the Photoshop document,PS-FND-01;PS-LAY-01;PS-BLD-02;PS-OUT-01;PS-DES-01,GD-COL-01;GD-CRIT-01,,Core
+2,PS-LEMON-BURST,LB-S03,3,step-3,Design or place the can label,PS-LAY-01;PS-TRN-01;PS-TYP-01;PS-DES-01,GD-TYP-01;GD-BRD-01;GD-CRIT-01;GD-CON-01,,Core
+3,PS-LEMON-BURST,LB-S04,4,step-4,"Cut out the can, slice and lemon",PS-SEL-01;PS-LAY-01;PS-TRN-01;PS-SHP-01;PS-DES-01,GD-CRIT-01;GD-REP-01,,Core
+4,PS-LEMON-BURST,LB-S05,5,step-5,Build the split can with three copies,PS-SEL-01;PS-LAY-01;PS-SEL-02;PS-SMO-01;PS-TRN-01;PS-LGT-02;PS-DES-01,GD-ALN-01;GD-CRIT-01;GD-REP-01,LB-OBS-01,Core
+5,PS-LEMON-BURST,LB-S06,6,step-6,Fit lemon slices into the gaps,PS-LAY-01;PS-TRN-01;PS-TRN-02;PS-LGT-02;PS-SHP-01,GD-MET-01;GD-CRIT-01,LB-OBS-02,Core
+6,PS-LEMON-BURST,LB-S07,7,step-7,Shadow the gaps and contact points,PS-SEL-01;PS-LAY-01;PS-LGT-02;PS-SHP-01,GD-MET-01;GD-CRIT-01;GD-CON-01,,Core
+7,PS-LEMON-BURST,LB-S08,8,step-8,Shape the can lighting,PS-LAY-01;PS-TRN-01;PS-TON-01;PS-LGT-02;PS-SHP-01,GD-CRIT-01;GD-CON-01;GD-REP-01,LB-OBS-03,Core
+8,PS-LEMON-BURST,LB-S09,9,step-9,Build the background,PS-LAY-01;PS-TRN-01;PS-LGT-02;PS-DES-01,GD-HIE-01;GD-CRIT-01;GD-CON-01,,Core
+9,PS-LEMON-BURST,LB-S10,10,step-10,Place the water splash,PS-SEL-01;PS-LAY-01;PS-TRN-01;PS-LGT-02;PS-SHP-01;PS-DES-01,GD-MET-01;GD-CRIT-01,,Core
+10,PS-LEMON-BURST,LB-S11,11,step-11,Add whole lemons and leaves at the base,PS-TRN-01;PS-TON-01;PS-LGT-02;PS-DES-01,GD-HIE-01;GD-COL-01;GD-CRIT-01;GD-CON-01,,Core
+11,PS-LEMON-BURST,LB-S12,12,step-12,Add flying slices and motion blur,PS-TRN-01;PS-LGT-02;PS-FLT-01;PS-DES-01,GD-CRIT-01;GD-REP-01,,Core
+12,PS-LEMON-BURST,LB-S13,13,step-13,Polish the full composition,PS-SEL-01;PS-LAY-01;PS-TRN-01;PS-TON-01;PS-RET-01;PS-FLT-01;PS-SHP-01;PS-DES-01,GD-HIE-01;GD-COL-01;GD-CRIT-01;GD-REP-01,LB-CON-01;LB-CON-02,Core
+13,PS-LEMON-BURST,LB-S14,14,step-14,Export and submit the final work,PS-SEL-01;PS-LAY-01;PS-BLD-02;PS-OUT-01;PS-DES-01,GD-COL-01;GD-CRIT-01,LB-PRO-01;LB-PRO-02;LB-PRO-03,Short

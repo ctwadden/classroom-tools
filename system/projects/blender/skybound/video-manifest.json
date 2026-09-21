@@ -1,0 +1,924 @@
+{
+  "schema_version": "truck-video.1",
+  "project_id": "BL-SKYBOUND",
+  "video_title": "Skybound · First 3D Expedition — Video Companion",
+  "version": "1.0.0",
+  "provider": "YouTube / Scribe It",
+  "status": "awaiting_recording",
+  "video_url": null,
+  "youtube_video_id": null,
+  "chapters": [
+    {
+      "chapter_id": "VID-SK-S01",
+      "project_step_id": "SK-S01",
+      "anchor": "step-1",
+      "title": "Set up your expedition",
+      "planned_start": null,
+      "actual_start": null,
+      "actual_end": null,
+      "skill_ids": [
+        "BL-NAV-01",
+        "BL-IMP-01",
+        "BL-MAT-01",
+        "BL-LGT-01",
+        "BL-RND-01",
+        "PS-FND-01",
+        "PS-SEL-01",
+        "PS-LAY-01",
+        "PS-LGT-02",
+        "PS-OUT-01",
+        "PS-DES-01"
+      ],
+      "design_skill_ids": [
+        "GD-CRIT-01"
+      ],
+      "evidence_ids": [],
+      "refresher_links": []
+    },
+    {
+      "chapter_id": "VID-SK-S02",
+      "project_step_id": "SK-S02",
+      "anchor": "step-2",
+      "title": "Find your way around Blender",
+      "planned_start": null,
+      "actual_start": null,
+      "actual_end": null,
+      "skill_ids": [
+        "BL-NAV-01",
+        "BL-IMP-01",
+        "BL-TRN-01",
+        "BL-CAM-01",
+        "BL-LGT-01",
+        "BL-RND-01",
+        "PS-SEL-01",
+        "PS-LAY-01",
+        "PS-BLD-02",
+        "PS-LGT-02",
+        "PS-SHP-01"
+      ],
+      "design_skill_ids": [
+        "GD-CRIT-01"
+      ],
+      "evidence_ids": [],
+      "refresher_links": []
+    },
+    {
+      "chapter_id": "VID-SK-S03",
+      "project_step_id": "SK-S03",
+      "anchor": "step-3",
+      "title": "Import the four-part classroom model",
+      "planned_start": null,
+      "actual_start": null,
+      "actual_end": null,
+      "skill_ids": [
+        "BL-NAV-01",
+        "BL-IMP-01",
+        "BL-TRN-01",
+        "BL-MAT-01",
+        "BL-CAM-01",
+        "BL-LGT-01",
+        "PS-SEL-01",
+        "PS-LAY-01",
+        "PS-TRN-01",
+        "PS-LGT-02"
+      ],
+      "design_skill_ids": [
+        "GD-CRIT-01",
+        "GD-REP-01"
+      ],
+      "evidence_ids": [],
+      "refresher_links": []
+    },
+    {
+      "chapter_id": "VID-SK-S04",
+      "project_step_id": "SK-S04",
+      "anchor": "step-4",
+      "title": "Orbit, pan and zoom without moving the model",
+      "planned_start": null,
+      "actual_start": null,
+      "actual_end": null,
+      "skill_ids": [
+        "BL-NAV-01",
+        "BL-IMP-01",
+        "BL-TRN-01",
+        "BL-CAM-01",
+        "BL-RND-01",
+        "PS-SEL-01",
+        "PS-LAY-01"
+      ],
+      "design_skill_ids": [
+        "GD-CRIT-01"
+      ],
+      "evidence_ids": [
+        "SK-OBS-01"
+      ],
+      "refresher_links": []
+    },
+    {
+      "chapter_id": "VID-SK-S05",
+      "project_step_id": "SK-S05",
+      "anchor": "step-5",
+      "title": "Identify the pieces you will control",
+      "planned_start": null,
+      "actual_start": null,
+      "actual_end": null,
+      "skill_ids": [
+        "BL-NAV-01",
+        "BL-IMP-01",
+        "BL-TRN-01",
+        "BL-MAT-01",
+        "PS-SEL-01",
+        "PS-LAY-01",
+        "PS-TRN-01"
+      ],
+      "design_skill_ids": [
+        "GD-CRIT-01"
+      ],
+      "evidence_ids": [],
+      "refresher_links": []
+    },
+    {
+      "chapter_id": "VID-SK-S06",
+      "project_step_id": "SK-S06",
+      "anchor": "step-6",
+      "title": "Parent the balloon to one controller",
+      "planned_start": null,
+      "actual_start": null,
+      "actual_end": null,
+      "skill_ids": [
+        "BL-NAV-01",
+        "BL-IMP-01",
+        "BL-TRN-01",
+        "BL-HIE-01",
+        "BL-MAT-01",
+        "BL-CAM-01",
+        "BL-LGT-01",
+        "PS-SEL-01",
+        "PS-LAY-01",
+        "PS-TRN-01",
+        "PS-LGT-02",
+        "PS-DES-01"
+      ],
+      "design_skill_ids": [
+        "GD-HIE-01",
+        "GD-CRIT-01",
+        "GD-REP-01"
+      ],
+      "evidence_ids": [],
+      "refresher_links": []
+    },
+    {
+      "chapter_id": "VID-SK-S07",
+      "project_step_id": "SK-S07",
+      "anchor": "step-7",
+      "title": "Practise transformations, then reset",
+      "planned_start": null,
+      "actual_start": null,
+      "actual_end": null,
+      "skill_ids": [
+        "BL-NAV-01",
+        "BL-IMP-01",
+        "BL-TRN-01",
+        "BL-HIE-01",
+        "BL-CAM-01",
+        "PS-SEL-01",
+        "PS-LAY-01",
+        "PS-TRN-01",
+        "PS-FLT-01",
+        "PS-TYP-01",
+        "PS-DES-01"
+      ],
+      "design_skill_ids": [
+        "GD-HIE-01",
+        "GD-TYP-01",
+        "GD-CRIT-01"
+      ],
+      "evidence_ids": [
+        "SK-OBS-02"
+      ],
+      "refresher_links": []
+    },
+    {
+      "chapter_id": "VID-SK-S08",
+      "project_step_id": "SK-S08",
+      "anchor": "step-8",
+      "title": "Smooth the fabric, not the geometry",
+      "planned_start": null,
+      "actual_start": null,
+      "actual_end": null,
+      "skill_ids": [
+        "BL-NAV-01",
+        "BL-IMP-01",
+        "BL-TRN-01",
+        "BL-MAT-01",
+        "BL-LGT-01",
+        "BL-RND-01",
+        "PS-SEL-01",
+        "PS-LAY-01",
+        "PS-LGT-02",
+        "PS-SHP-01"
+      ],
+      "design_skill_ids": [
+        "GD-CRIT-01"
+      ],
+      "evidence_ids": [],
+      "refresher_links": []
+    },
+    {
+      "chapter_id": "VID-SK-S09",
+      "project_step_id": "SK-S09",
+      "anchor": "step-9",
+      "title": "Open the material workspace",
+      "planned_start": null,
+      "actual_start": null,
+      "actual_end": null,
+      "skill_ids": [
+        "BL-NAV-01",
+        "BL-IMP-01",
+        "BL-MAT-01",
+        "BL-CAM-01",
+        "BL-LGT-01",
+        "BL-RND-01",
+        "PS-SEL-01",
+        "PS-LAY-01",
+        "PS-BLD-02",
+        "PS-LGT-02"
+      ],
+      "design_skill_ids": [
+        "GD-CRIT-01"
+      ],
+      "evidence_ids": [],
+      "refresher_links": []
+    },
+    {
+      "chapter_id": "VID-SK-S10",
+      "project_step_id": "SK-S10",
+      "anchor": "step-10",
+      "title": "Connect the image to the material",
+      "planned_start": null,
+      "actual_start": null,
+      "actual_end": null,
+      "skill_ids": [
+        "BL-NAV-01",
+        "BL-TRN-01",
+        "BL-HIE-01",
+        "BL-MAT-01",
+        "BL-CAM-01",
+        "BL-RND-01",
+        "PS-SEL-01",
+        "PS-LAY-01",
+        "PS-TRN-01",
+        "PS-SHP-01",
+        "PS-DES-01"
+      ],
+      "design_skill_ids": [
+        "GD-COL-01",
+        "GD-BRD-01",
+        "GD-CRIT-01"
+      ],
+      "evidence_ids": [],
+      "refresher_links": []
+    },
+    {
+      "chapter_id": "VID-SK-S11",
+      "project_step_id": "SK-S11",
+      "anchor": "step-11",
+      "title": "Inspect the existing UV map",
+      "planned_start": null,
+      "actual_start": null,
+      "actual_end": null,
+      "skill_ids": [
+        "BL-NAV-01",
+        "BL-IMP-01",
+        "BL-MAT-01",
+        "BL-CAM-01",
+        "PS-SEL-01",
+        "PS-LAY-01",
+        "PS-TRN-01",
+        "PS-RET-01",
+        "PS-DES-01"
+      ],
+      "design_skill_ids": [
+        "GD-HIE-01",
+        "GD-ALN-01",
+        "GD-CRIT-01"
+      ],
+      "evidence_ids": [],
+      "refresher_links": []
+    },
+    {
+      "chapter_id": "VID-SK-S12",
+      "project_step_id": "SK-S12",
+      "anchor": "step-12",
+      "title": "Give the fabric a believable surface",
+      "planned_start": null,
+      "actual_start": null,
+      "actual_end": null,
+      "skill_ids": [
+        "BL-NAV-01",
+        "BL-HIE-01",
+        "BL-MAT-01",
+        "BL-CAM-01",
+        "BL-LGT-01",
+        "BL-RND-01",
+        "PS-SEL-01",
+        "PS-LAY-01",
+        "PS-LGT-02",
+        "PS-TYP-01"
+      ],
+      "design_skill_ids": [
+        "GD-COL-01",
+        "GD-TYP-01",
+        "GD-CRIT-01",
+        "GD-CON-01"
+      ],
+      "evidence_ids": [],
+      "refresher_links": []
+    },
+    {
+      "chapter_id": "VID-SK-S13",
+      "project_step_id": "SK-S13",
+      "anchor": "step-13",
+      "title": "Add a fixed camera",
+      "planned_start": null,
+      "actual_start": null,
+      "actual_end": null,
+      "skill_ids": [
+        "BL-NAV-01",
+        "BL-IMP-01",
+        "BL-TRN-01",
+        "BL-HIE-01",
+        "BL-MAT-01",
+        "BL-CAM-01",
+        "BL-RND-01",
+        "PS-SEL-01",
+        "PS-LAY-01",
+        "PS-TRN-01",
+        "PS-TYP-01"
+      ],
+      "design_skill_ids": [
+        "GD-TYP-01",
+        "GD-CRIT-01"
+      ],
+      "evidence_ids": [],
+      "refresher_links": []
+    },
+    {
+      "chapter_id": "VID-SK-S14",
+      "project_step_id": "SK-S14",
+      "anchor": "step-14",
+      "title": "Set a consistent render canvas",
+      "planned_start": null,
+      "actual_start": null,
+      "actual_end": null,
+      "skill_ids": [
+        "BL-NAV-01",
+        "BL-TRN-01",
+        "BL-HIE-01",
+        "BL-MAT-01",
+        "BL-CAM-01",
+        "BL-RND-01",
+        "PS-SEL-01",
+        "PS-LAY-01",
+        "PS-TRN-01"
+      ],
+      "design_skill_ids": [
+        "GD-COL-01",
+        "GD-CRIT-01",
+        "GD-REP-01"
+      ],
+      "evidence_ids": [],
+      "refresher_links": []
+    },
+    {
+      "chapter_id": "VID-SK-S15",
+      "project_step_id": "SK-S15",
+      "anchor": "step-15",
+      "title": "Light the balloon from the scene’s left",
+      "planned_start": null,
+      "actual_start": null,
+      "actual_end": null,
+      "skill_ids": [
+        "BL-NAV-01",
+        "BL-IMP-01",
+        "BL-TRN-01",
+        "BL-CAM-01",
+        "BL-LGT-01",
+        "BL-RND-01",
+        "PS-SEL-01",
+        "PS-LAY-01",
+        "PS-TRN-01",
+        "PS-BLD-02",
+        "PS-LGT-02"
+      ],
+      "design_skill_ids": [
+        "GD-COL-01",
+        "GD-CRIT-01"
+      ],
+      "evidence_ids": [],
+      "refresher_links": []
+    },
+    {
+      "chapter_id": "VID-SK-S16",
+      "project_step_id": "SK-S16",
+      "anchor": "step-16",
+      "title": "Add gentle fill and ambient light",
+      "planned_start": null,
+      "actual_start": null,
+      "actual_end": null,
+      "skill_ids": [
+        "BL-NAV-01",
+        "BL-IMP-01",
+        "BL-TRN-01",
+        "BL-HIE-01",
+        "BL-MAT-01",
+        "BL-CAM-01",
+        "BL-LGT-01",
+        "BL-RND-01",
+        "PS-SEL-01",
+        "PS-LAY-01",
+        "PS-TRN-01",
+        "PS-LGT-02"
+      ],
+      "design_skill_ids": [
+        "GD-COL-01",
+        "GD-CRIT-01",
+        "GD-CON-01"
+      ],
+      "evidence_ids": [],
+      "refresher_links": []
+    },
+    {
+      "chapter_id": "VID-SK-S17",
+      "project_step_id": "SK-S17",
+      "anchor": "step-17",
+      "title": "Test one lighting decision at a time",
+      "planned_start": null,
+      "actual_start": null,
+      "actual_end": null,
+      "skill_ids": [
+        "BL-NAV-01",
+        "BL-MAT-01",
+        "BL-CAM-01",
+        "BL-LGT-01",
+        "BL-RND-01",
+        "PS-SEL-01",
+        "PS-LAY-01",
+        "PS-LGT-02",
+        "PS-DES-01"
+      ],
+      "design_skill_ids": [
+        "GD-COL-01",
+        "GD-BRD-01",
+        "GD-CRIT-01",
+        "GD-CON-01"
+      ],
+      "evidence_ids": [
+        "SK-OBS-03",
+        "SK-CON-01"
+      ],
+      "refresher_links": []
+    },
+    {
+      "chapter_id": "VID-SK-S18",
+      "project_step_id": "SK-S18",
+      "anchor": "step-18",
+      "title": "Set up a truly transparent render",
+      "planned_start": null,
+      "actual_start": null,
+      "actual_end": null,
+      "skill_ids": [
+        "BL-NAV-01",
+        "BL-IMP-01",
+        "BL-HIE-01",
+        "BL-MAT-01",
+        "BL-CAM-01",
+        "BL-LGT-01",
+        "BL-RND-01",
+        "PS-SEL-01",
+        "PS-LAY-01",
+        "PS-TRN-01",
+        "PS-LGT-02"
+      ],
+      "design_skill_ids": [
+        "GD-COL-01",
+        "GD-CRIT-01"
+      ],
+      "evidence_ids": [],
+      "refresher_links": []
+    },
+    {
+      "chapter_id": "VID-SK-S19",
+      "project_step_id": "SK-S19",
+      "anchor": "step-19",
+      "title": "Save and inspect the small test render",
+      "planned_start": null,
+      "actual_start": null,
+      "actual_end": null,
+      "skill_ids": [
+        "BL-NAV-01",
+        "BL-MAT-01",
+        "BL-LGT-01",
+        "BL-RND-01",
+        "PS-SEL-01",
+        "PS-LAY-01",
+        "PS-LGT-02",
+        "PS-TYP-01",
+        "PS-OUT-01"
+      ],
+      "design_skill_ids": [
+        "GD-COL-01",
+        "GD-TYP-01",
+        "GD-CRIT-01"
+      ],
+      "evidence_ids": [],
+      "refresher_links": []
+    },
+    {
+      "chapter_id": "VID-SK-S20",
+      "project_step_id": "SK-S20",
+      "anchor": "step-20",
+      "title": "Render two genuinely different 3D views",
+      "planned_start": null,
+      "actual_start": null,
+      "actual_end": null,
+      "skill_ids": [
+        "BL-NAV-01",
+        "BL-TRN-01",
+        "BL-HIE-01",
+        "BL-MAT-01",
+        "BL-CAM-01",
+        "BL-LGT-01",
+        "BL-RND-01",
+        "PS-SEL-01",
+        "PS-LAY-01",
+        "PS-TRN-01",
+        "PS-LGT-02",
+        "PS-OUT-01",
+        "PS-DES-01"
+      ],
+      "design_skill_ids": [
+        "GD-CRIT-01"
+      ],
+      "evidence_ids": [],
+      "refresher_links": []
+    },
+    {
+      "chapter_id": "VID-SK-S21",
+      "project_step_id": "SK-S21",
+      "anchor": "step-21",
+      "title": "Save a portable editable scene",
+      "planned_start": null,
+      "actual_start": null,
+      "actual_end": null,
+      "skill_ids": [
+        "BL-NAV-01",
+        "BL-IMP-01",
+        "BL-HIE-01",
+        "BL-MAT-01",
+        "BL-CAM-01",
+        "BL-LGT-01",
+        "BL-RND-01",
+        "PS-FND-01",
+        "PS-SEL-01",
+        "PS-LAY-01",
+        "PS-TRN-01",
+        "PS-BLD-02",
+        "PS-LGT-02",
+        "PS-OUT-01",
+        "PS-DES-01"
+      ],
+      "design_skill_ids": [
+        "GD-HIE-01",
+        "GD-CRIT-01"
+      ],
+      "evidence_ids": [
+        "SK-PRO-01"
+      ],
+      "refresher_links": []
+    },
+    {
+      "chapter_id": "VID-SK-S22",
+      "project_step_id": "SK-S22",
+      "anchor": "step-22",
+      "title": "Start the Photoshop composition",
+      "planned_start": null,
+      "actual_start": null,
+      "actual_end": null,
+      "skill_ids": [
+        "BL-NAV-01",
+        "BL-CAM-01",
+        "BL-RND-01",
+        "PS-FND-01",
+        "PS-SEL-01",
+        "PS-LAY-01",
+        "PS-TRN-01",
+        "PS-LGT-02",
+        "PS-TYP-01",
+        "PS-DES-01"
+      ],
+      "design_skill_ids": [
+        "GD-ALN-01",
+        "GD-COL-01",
+        "GD-CRIT-01"
+      ],
+      "evidence_ids": [],
+      "refresher_links": []
+    },
+    {
+      "chapter_id": "VID-SK-S23",
+      "project_step_id": "SK-S23",
+      "anchor": "step-23",
+      "title": "Place the landscape without flattening it",
+      "planned_start": null,
+      "actual_start": null,
+      "actual_end": null,
+      "skill_ids": [
+        "BL-IMP-01",
+        "BL-CAM-01",
+        "BL-LGT-01",
+        "PS-FND-01",
+        "PS-SEL-01",
+        "PS-LAY-01",
+        "PS-SMO-01",
+        "PS-TRN-01",
+        "PS-BLD-02",
+        "PS-LGT-02",
+        "PS-FLT-01",
+        "PS-DES-01"
+      ],
+      "design_skill_ids": [
+        "GD-CRIT-01"
+      ],
+      "evidence_ids": [],
+      "refresher_links": []
+    },
+    {
+      "chapter_id": "VID-SK-S24",
+      "project_step_id": "SK-S24",
+      "anchor": "step-24",
+      "title": "Place your transparent balloon render",
+      "planned_start": null,
+      "actual_start": null,
+      "actual_end": null,
+      "skill_ids": [
+        "BL-NAV-01",
+        "BL-IMP-01",
+        "BL-TRN-01",
+        "BL-HIE-01",
+        "BL-CAM-01",
+        "BL-RND-01",
+        "PS-SEL-01",
+        "PS-LAY-01",
+        "PS-SMO-01",
+        "PS-TRN-01",
+        "PS-BLD-02",
+        "PS-SHP-01",
+        "PS-OUT-01",
+        "PS-DES-01"
+      ],
+      "design_skill_ids": [
+        "GD-CRIT-01"
+      ],
+      "evidence_ids": [],
+      "refresher_links": []
+    },
+    {
+      "chapter_id": "VID-SK-S25",
+      "project_step_id": "SK-S25",
+      "anchor": "step-25",
+      "title": "Match tone with a clipped adjustment",
+      "planned_start": null,
+      "actual_start": null,
+      "actual_end": null,
+      "skill_ids": [
+        "BL-NAV-01",
+        "BL-LGT-01",
+        "BL-RND-01",
+        "PS-SEL-01",
+        "PS-LAY-01",
+        "PS-TRN-01",
+        "PS-TON-01",
+        "PS-LGT-02",
+        "PS-FLT-01"
+      ],
+      "design_skill_ids": [
+        "GD-CRIT-01",
+        "GD-CON-01"
+      ],
+      "evidence_ids": [],
+      "refresher_links": []
+    },
+    {
+      "chapter_id": "VID-SK-S26",
+      "project_step_id": "SK-S26",
+      "anchor": "step-26",
+      "title": "Guide a subtle highlight with a mask",
+      "planned_start": null,
+      "actual_start": null,
+      "actual_end": null,
+      "skill_ids": [
+        "BL-MAT-01",
+        "BL-LGT-01",
+        "BL-RND-01",
+        "PS-SEL-01",
+        "PS-LAY-01",
+        "PS-TON-01",
+        "PS-LGT-02",
+        "PS-FLT-01",
+        "PS-TYP-01"
+      ],
+      "design_skill_ids": [
+        "GD-COL-01",
+        "GD-TYP-01",
+        "GD-CRIT-01",
+        "GD-CON-01"
+      ],
+      "evidence_ids": [],
+      "refresher_links": []
+    },
+    {
+      "chapter_id": "VID-SK-S27",
+      "project_step_id": "SK-S27",
+      "anchor": "step-27",
+      "title": "Add depth without hiding your work",
+      "planned_start": null,
+      "actual_start": null,
+      "actual_end": null,
+      "skill_ids": [
+        "BL-IMP-01",
+        "BL-HIE-01",
+        "BL-CAM-01",
+        "BL-RND-01",
+        "PS-SEL-01",
+        "PS-LAY-01",
+        "PS-TRN-01",
+        "PS-LGT-02",
+        "PS-TYP-01",
+        "PS-DES-01"
+      ],
+      "design_skill_ids": [
+        "GD-COL-01",
+        "GD-TYP-01",
+        "GD-BRD-01",
+        "GD-CRIT-01"
+      ],
+      "evidence_ids": [],
+      "refresher_links": []
+    },
+    {
+      "chapter_id": "VID-SK-S28",
+      "project_step_id": "SK-S28",
+      "anchor": "step-28",
+      "title": "Unify the scene with a restrained grade",
+      "planned_start": null,
+      "actual_start": null,
+      "actual_end": null,
+      "skill_ids": [
+        "BL-TRN-01",
+        "BL-LGT-01",
+        "BL-RND-01",
+        "PS-SEL-01",
+        "PS-LAY-01",
+        "PS-TRN-02",
+        "PS-TON-01",
+        "PS-LGT-02",
+        "PS-FLT-01"
+      ],
+      "design_skill_ids": [
+        "GD-COL-01",
+        "GD-CRIT-01"
+      ],
+      "evidence_ids": [],
+      "refresher_links": []
+    },
+    {
+      "chapter_id": "VID-SK-S29",
+      "project_step_id": "SK-S29",
+      "anchor": "step-29",
+      "title": "Round-trip one revision through Blender",
+      "planned_start": null,
+      "actual_start": null,
+      "actual_end": null,
+      "skill_ids": [
+        "BL-NAV-01",
+        "BL-IMP-01",
+        "BL-TRN-01",
+        "BL-HIE-01",
+        "BL-CAM-01",
+        "BL-LGT-01",
+        "BL-RND-01",
+        "PS-SEL-01",
+        "PS-LAY-01",
+        "PS-SMO-01",
+        "PS-TRN-01",
+        "PS-LGT-02"
+      ],
+      "design_skill_ids": [
+        "GD-CRIT-01"
+      ],
+      "evidence_ids": [
+        "SK-CON-02"
+      ],
+      "refresher_links": []
+    },
+    {
+      "chapter_id": "VID-SK-S30",
+      "project_step_id": "SK-S30",
+      "anchor": "step-30",
+      "title": "Inspect at 100%, then at thumbnail size",
+      "planned_start": null,
+      "actual_start": null,
+      "actual_end": null,
+      "skill_ids": [
+        "BL-NAV-01",
+        "BL-TRN-01",
+        "BL-LGT-01",
+        "BL-RND-01",
+        "PS-SEL-01",
+        "PS-LAY-01",
+        "PS-TRN-01",
+        "PS-BLD-02",
+        "PS-LGT-02",
+        "PS-FLT-01",
+        "PS-SHP-01",
+        "PS-DES-01"
+      ],
+      "design_skill_ids": [
+        "GD-BRD-01",
+        "GD-CRIT-01",
+        "GD-CON-01"
+      ],
+      "evidence_ids": [],
+      "refresher_links": []
+    },
+    {
+      "chapter_id": "VID-SK-S31",
+      "project_step_id": "SK-S31",
+      "anchor": "step-31",
+      "title": "Save the editable work and export the artwork",
+      "planned_start": null,
+      "actual_start": null,
+      "actual_end": null,
+      "skill_ids": [
+        "BL-NAV-01",
+        "BL-TRN-01",
+        "BL-HIE-01",
+        "BL-RND-01",
+        "PS-FND-01",
+        "PS-SEL-01",
+        "PS-LAY-01",
+        "PS-TRN-01",
+        "PS-BLD-02",
+        "PS-TYP-01",
+        "PS-OUT-01",
+        "PS-DES-01"
+      ],
+      "design_skill_ids": [
+        "GD-COL-01",
+        "GD-TYP-01",
+        "GD-CRIT-01"
+      ],
+      "evidence_ids": [
+        "SK-PRO-02",
+        "SK-PRO-03"
+      ],
+      "refresher_links": []
+    },
+    {
+      "chapter_id": "VID-SK-S32",
+      "project_step_id": "SK-S32",
+      "anchor": "step-32",
+      "title": "Explain the decisions, not just the clicks",
+      "planned_start": null,
+      "actual_start": null,
+      "actual_end": null,
+      "skill_ids": [
+        "BL-IMP-01",
+        "BL-TRN-01",
+        "BL-HIE-01",
+        "BL-MAT-01",
+        "BL-LGT-01",
+        "BL-RND-01",
+        "PS-SEL-01",
+        "PS-LAY-01",
+        "PS-TRN-01",
+        "PS-BLD-02",
+        "PS-LGT-02",
+        "PS-TYP-01",
+        "PS-OUT-01",
+        "PS-DES-01"
+      ],
+      "design_skill_ids": [
+        "GD-HIE-01",
+        "GD-TYP-01",
+        "GD-CRIT-01"
+      ],
+      "evidence_ids": [
+        "SK-CON-01",
+        "SK-CON-02"
+      ],
+      "refresher_links": []
+    }
+  ]
+}

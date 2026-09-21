@@ -1,7 +1,7 @@
 {
   "spec_version": "1.0",
   "project_id": "BL-SKYBOUND",
-  "project_title": "Skybound · First 3D Expedition",
+  "project_title": "Skybound \u00b7 First 3D Expedition",
   "course_configs": [
     {
       "course_id": "MM12",
@@ -23,7 +23,7 @@
     }
   ],
   "student_form": {
-    "description": "Complete the Skybound · First 3D Expedition knowledge check, identify evidence of your technical/design learning, and answer the transfer prompt."
+    "description": "Complete the Skybound \u00b7 First 3D Expedition knowledge check, identify evidence of your technical/design learning, and answer the transfer prompt."
   },
   "knowledge_check": {
     "items": [

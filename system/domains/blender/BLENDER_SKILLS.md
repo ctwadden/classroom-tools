@@ -1,14 +1,12 @@
-# BLENDER SKILLS REGISTRY v1
+# BLENDER_SKILLS.md — Canonical starter registry
 
-These IDs are canonical across tutorials, video chapters, Google Forms, Evidence_Log and the Outcome Evidence Map.
-
-| ID | Competency | Level | Evidence standard |
-|---|---|---|---|
-| BL-NAV-01 | 3D viewport navigation | Foundation | Orbits, pans, zooms and selects without accidentally moving scene objects. |
-| BL-IMP-01 | Import OBJ / asset inspection | Foundation | Imports and checks geometry, scale/orientation, parts and material slots. |
-| BL-TRN-01 | Move / rotate / scale in 3D | Foundation | Transforms deliberately and can reset/correct unintended transforms. |
-| BL-HIE-01 | Object hierarchy / parenting | Intermediate | Creates and explains parent-child relationships for an assembled asset. |
-| BL-MAT-01 | Basic materials / texture connection | Intermediate | Connects/edits basic materials and explains visible surface response. |
-| BL-CAM-01 | Camera framing / perspective | Intermediate | Frames intentionally and considers perspective/scale for the intended composite. |
-| BL-LGT-01 | Basic key/fill lighting | Intermediate | Places/adjusts light to support form and agree with the intended environment. |
-| BL-RND-01 | Transparent render / export | Intermediate | Produces a clean transparent render/output for downstream compositing. |
+| Skill ID | Skill | Evidence standard |
+|---|---|---|
+| BL-NAV-01 | 3D viewport navigation | Orbits, pans, zooms and selects without accidentally moving scene objects. |
+| BL-IMP-01 | Import OBJ / asset inspection | Imports a model, checks parts/scale/orientation and expected geometry/material slots. |
+| BL-TRN-01 | Move / rotate / scale in 3D | Transforms deliberately and can reset/correct unintended transforms. |
+| BL-HIE-01 | Object hierarchy / parenting | Creates/explains parent-child control relationships. |
+| BL-MAT-01 | Basic materials / texture connection | Connects/edits a material or texture and explains the surface effect. |
+| BL-CAM-01 | Camera framing / perspective | Frames intentionally and considers perspective/scale for the intended composite. |
+| BL-LGT-01 | Basic key/fill lighting | Places/adjusts lights to support form and downstream compositing. |
+| BL-RND-01 | Transparent render / image export | Produces a clean render with appropriate transparency/output settings. |
