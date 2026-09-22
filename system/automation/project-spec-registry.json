@@ -1,5 +1,5 @@
 {
-  "registry_version": "1.1",
+  "registry_version": "1.2",
   "source": "Technology Learning System",
   "projects": [
     {
@@ -36,6 +36,11 @@
       "project_id": "PS-LEMON-BURST",
       "active": true,
       "forms_spec_url": "https://raw.githubusercontent.com/ctwadden/classroom-tools/technology-learning-system-v3/system/projects/photoshop/lemon-burst/assessment/forms-spec.json"
+    },
+    {
+      "project_id": "PS-DROP-DAY",
+      "active": true,
+      "forms_spec_url": "https://raw.githubusercontent.com/ctwadden/classroom-tools/technology-learning-system-v3/system/projects/photoshop/drop-day/assessment/forms-spec.json"
     }
   ]
 }
