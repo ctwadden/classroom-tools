@@ -1,0 +1,1248 @@
+{
+  "schema_version": "1.0",
+  "project_id": "PS-DROP-DAY",
+  "assistant_coach_url": "https://gemini.google.com/gem/1ySXJPfNy0hCfESu8EzsD3vuexPiuKQKo?usp=sharing",
+  "contexts": [
+    {
+      "project_id": "PS-DROP-DAY",
+      "project_step_id": "DD-S01",
+      "step_number": 1,
+      "title": "Open the product job and protect the source",
+      "course_options": [
+        "COM11",
+        "MM12"
+      ],
+      "skill_ids": [
+        "PS-FND-01"
+      ],
+      "outcome_codes": [
+        "MM12-1.1",
+        "MM12-1.3",
+        "COM11-4.4"
+      ],
+      "evidence_ids": [
+        "DD-PRO-01"
+      ],
+      "task_status": "guided_practice",
+      "assessed_cognition": [
+        "carry out the step in the learner's own file",
+        "visually check the result against the step requirements"
+      ],
+      "scaffoldable_actions": [
+        "clarify the listed menu/tool route",
+        "chunk the existing actions",
+        "explain the named Photoshop feature",
+        "point to the step's WHY/CHECK/FIX",
+        "help troubleshoot a mismatch without editing the file"
+      ],
+      "prohibited_assistance": [
+        "take control of the learner's file",
+        "invent settings not supplied by the workbook",
+        "claim the work is graded/mastered"
+      ],
+      "resources": [
+        "#step-1",
+        "WHY",
+        "CHECK",
+        "FIX"
+      ],
+      "completion_requirements": [
+        "complete DD-S01 in the learner's editable file",
+        "use the step CHECK criteria",
+        "keep the required editability"
+      ]
+    },
+    {
+      "project_id": "PS-DROP-DAY",
+      "project_step_id": "DD-S02",
+      "step_number": 2,
+      "title": "Remove a small spot with automatic sampling",
+      "course_options": [
+        "COM11",
+        "MM12"
+      ],
+      "skill_ids": [
+        "PS-RET-01",
+        "PS-BRS-01"
+      ],
+      "outcome_codes": [
+        "MM12-1.1",
+        "COM11-4.4"
+      ],
+      "evidence_ids": [],
+      "task_status": "guided_practice",
+      "assessed_cognition": [
+        "carry out the step in the learner's own file",
+        "visually check the result against the step requirements"
+      ],
+      "scaffoldable_actions": [
+        "clarify the listed menu/tool route",
+        "chunk the existing actions",
+        "explain the named Photoshop feature",
+        "point to the step's WHY/CHECK/FIX",
+        "help troubleshoot a mismatch without editing the file"
+      ],
+      "prohibited_assistance": [
+        "take control of the learner's file",
+        "invent settings not supplied by the workbook",
+        "claim the work is graded/mastered"
+      ],
+      "resources": [
+        "#step-2",
+        "WHY",
+        "CHECK",
+        "FIX"
+      ],
+      "completion_requirements": [
+        "complete DD-S02 in the learner's editable file",
+        "use the step CHECK criteria",
+        "keep the required editability"
+      ]
+    },
+    {
+      "project_id": "PS-DROP-DAY",
+      "project_step_id": "DD-S03",
+      "step_number": 3,
+      "title": "Choose your own sample for the thread repair",
+      "course_options": [
+        "COM11",
+        "MM12"
+      ],
+      "skill_ids": [
+        "PS-RET-01",
+        "PS-BRS-01"
+      ],
+      "outcome_codes": [
+        "MM12-1.1",
+        "MM12-1.3",
+        "COM11-4.4"
+      ],
+      "evidence_ids": [
+        "DD-CON-01"
+      ],
+      "task_status": "guided_practice",
+      "assessed_cognition": [
+        "carry out the step in the learner's own file",
+        "visually check the result against the step requirements"
+      ],
+      "scaffoldable_actions": [
+        "clarify the listed menu/tool route",
+        "chunk the existing actions",
+        "explain the named Photoshop feature",
+        "point to the step's WHY/CHECK/FIX",
+        "help troubleshoot a mismatch without editing the file"
+      ],
+      "prohibited_assistance": [
+        "take control of the learner's file",
+        "invent settings not supplied by the workbook",
+        "claim the work is graded/mastered"
+      ],
+      "resources": [
+        "#step-3",
+        "WHY",
+        "CHECK",
+        "FIX"
+      ],
+      "completion_requirements": [
+        "complete DD-S03 in the learner's editable file",
+        "use the step CHECK criteria",
+        "keep the required editability"
+      ]
+    },
+    {
+      "project_id": "PS-DROP-DAY",
+      "project_step_id": "DD-S04",
+      "step_number": 4,
+      "title": "Rebuild the pale sole with Clone Stamp",
+      "course_options": [
+        "COM11",
+        "MM12"
+      ],
+      "skill_ids": [
+        "PS-RET-01",
+        "PS-BRS-01"
+      ],
+      "outcome_codes": [
+        "MM12-1.1",
+        "MM12-1.3",
+        "COM11-4.4"
+      ],
+      "evidence_ids": [
+        "DD-OBS-01",
+        "DD-CON-01"
+      ],
+      "task_status": "guided_practice",
+      "assessed_cognition": [
+        "carry out the step in the learner's own file",
+        "visually check the result against the step requirements"
+      ],
+      "scaffoldable_actions": [
+        "clarify the listed menu/tool route",
+        "chunk the existing actions",
+        "explain the named Photoshop feature",
+        "point to the step's WHY/CHECK/FIX",
+        "help troubleshoot a mismatch without editing the file"
+      ],
+      "prohibited_assistance": [
+        "take control of the learner's file",
+        "invent settings not supplied by the workbook",
+        "claim the work is graded/mastered"
+      ],
+      "resources": [
+        "#step-4",
+        "WHY",
+        "CHECK",
+        "FIX"
+      ],
+      "completion_requirements": [
+        "complete DD-S04 in the learner's editable file",
+        "use the step CHECK criteria",
+        "keep the required editability"
+      ]
+    },
+    {
+      "project_id": "PS-DROP-DAY",
+      "project_step_id": "DD-S05",
+      "step_number": 5,
+      "title": "Make a selection of the whole shoe",
+      "course_options": [
+        "COM11",
+        "MM12"
+      ],
+      "skill_ids": [
+        "PS-SEL-01"
+      ],
+      "outcome_codes": [
+        "MM12-1.1",
+        "COM11-4.4"
+      ],
+      "evidence_ids": [],
+      "task_status": "guided_practice",
+      "assessed_cognition": [
+        "carry out the step in the learner's own file",
+        "visually check the result against the step requirements"
+      ],
+      "scaffoldable_actions": [
+        "clarify the listed menu/tool route",
+        "chunk the existing actions",
+        "explain the named Photoshop feature",
+        "point to the step's WHY/CHECK/FIX",
+        "help troubleshoot a mismatch without editing the file"
+      ],
+      "prohibited_assistance": [
+        "take control of the learner's file",
+        "invent settings not supplied by the workbook",
+        "claim the work is graded/mastered"
+      ],
+      "resources": [
+        "#step-5",
+        "WHY",
+        "CHECK",
+        "FIX"
+      ],
+      "completion_requirements": [
+        "complete DD-S05 in the learner's editable file",
+        "use the step CHECK criteria",
+        "keep the required editability"
+      ]
+    },
+    {
+      "project_id": "PS-DROP-DAY",
+      "project_step_id": "DD-S06",
+      "step_number": 6,
+      "title": "Refine a manufactured edge—not hair",
+      "course_options": [
+        "COM11",
+        "MM12"
+      ],
+      "skill_ids": [
+        "PS-SEL-01"
+      ],
+      "outcome_codes": [
+        "MM12-1.1",
+        "MM12-1.3",
+        "COM11-4.4"
+      ],
+      "evidence_ids": [],
+      "task_status": "guided_practice",
+      "assessed_cognition": [
+        "carry out the step in the learner's own file",
+        "visually check the result against the step requirements"
+      ],
+      "scaffoldable_actions": [
+        "clarify the listed menu/tool route",
+        "chunk the existing actions",
+        "explain the named Photoshop feature",
+        "point to the step's WHY/CHECK/FIX",
+        "help troubleshoot a mismatch without editing the file"
+      ],
+      "prohibited_assistance": [
+        "take control of the learner's file",
+        "invent settings not supplied by the workbook",
+        "claim the work is graded/mastered"
+      ],
+      "resources": [
+        "#step-6",
+        "WHY",
+        "CHECK",
+        "FIX"
+      ],
+      "completion_requirements": [
+        "complete DD-S06 in the learner's editable file",
+        "use the step CHECK criteria",
+        "keep the required editability"
+      ]
+    },
+    {
+      "project_id": "PS-DROP-DAY",
+      "project_step_id": "DD-S07",
+      "step_number": 7,
+      "title": "Mask the photograph and its repairs together",
+      "course_options": [
+        "COM11",
+        "MM12"
+      ],
+      "skill_ids": [
+        "PS-LAY-01",
+        "PS-SEL-01"
+      ],
+      "outcome_codes": [
+        "MM12-1.1",
+        "MM12-1.3",
+        "COM11-4.4"
+      ],
+      "evidence_ids": [
+        "DD-PRO-01"
+      ],
+      "task_status": "guided_practice",
+      "assessed_cognition": [
+        "carry out the step in the learner's own file",
+        "visually check the result against the step requirements"
+      ],
+      "scaffoldable_actions": [
+        "clarify the listed menu/tool route",
+        "chunk the existing actions",
+        "explain the named Photoshop feature",
+        "point to the step's WHY/CHECK/FIX",
+        "help troubleshoot a mismatch without editing the file"
+      ],
+      "prohibited_assistance": [
+        "take control of the learner's file",
+        "invent settings not supplied by the workbook",
+        "claim the work is graded/mastered"
+      ],
+      "resources": [
+        "#step-7",
+        "WHY",
+        "CHECK",
+        "FIX"
+      ],
+      "completion_requirements": [
+        "complete DD-S07 in the learner's editable file",
+        "use the step CHECK criteria",
+        "keep the required editability"
+      ]
+    },
+    {
+      "project_id": "PS-DROP-DAY",
+      "project_step_id": "DD-S08",
+      "step_number": 8,
+      "title": "Start the advertisement with a clear document size",
+      "course_options": [
+        "COM11",
+        "MM12"
+      ],
+      "skill_ids": [
+        "PS-FND-01",
+        "PS-OUT-01",
+        "GD-ALN-01"
+      ],
+      "outcome_codes": [
+        "MM12-1.3",
+        "COM11-4.4",
+        "COM11-4.5"
+      ],
+      "evidence_ids": [],
+      "task_status": "guided_practice",
+      "assessed_cognition": [
+        "carry out the step in the learner's own file",
+        "visually check the result against the step requirements"
+      ],
+      "scaffoldable_actions": [
+        "clarify the listed menu/tool route",
+        "chunk the existing actions",
+        "explain the named Photoshop feature",
+        "point to the step's WHY/CHECK/FIX",
+        "help troubleshoot a mismatch without editing the file"
+      ],
+      "prohibited_assistance": [
+        "take control of the learner's file",
+        "invent settings not supplied by the workbook",
+        "claim the work is graded/mastered"
+      ],
+      "resources": [
+        "#step-8",
+        "WHY",
+        "CHECK",
+        "FIX"
+      ],
+      "completion_requirements": [
+        "complete DD-S08 in the learner's editable file",
+        "use the step CHECK criteria",
+        "keep the required editability"
+      ]
+    },
+    {
+      "project_id": "PS-DROP-DAY",
+      "project_step_id": "DD-S09",
+      "step_number": 9,
+      "title": "Build the studio background and floor",
+      "course_options": [
+        "COM11",
+        "MM12"
+      ],
+      "skill_ids": [
+        "PS-SHP-01",
+        "PS-ADJ-01",
+        "PS-DES-01",
+        "GD-COL-01",
+        "GD-HIE-01"
+      ],
+      "outcome_codes": [
+        "MM12-1.1",
+        "MM12-1.4",
+        "COM11-4.1",
+        "COM11-4.2",
+        "COM11-4.4"
+      ],
+      "evidence_ids": [],
+      "task_status": "guided_practice",
+      "assessed_cognition": [
+        "carry out the step in the learner's own file",
+        "visually check the result against the step requirements"
+      ],
+      "scaffoldable_actions": [
+        "clarify the listed menu/tool route",
+        "chunk the existing actions",
+        "explain the named Photoshop feature",
+        "point to the step's WHY/CHECK/FIX",
+        "help troubleshoot a mismatch without editing the file"
+      ],
+      "prohibited_assistance": [
+        "take control of the learner's file",
+        "invent settings not supplied by the workbook",
+        "claim the work is graded/mastered"
+      ],
+      "resources": [
+        "#step-9",
+        "WHY",
+        "CHECK",
+        "FIX"
+      ],
+      "completion_requirements": [
+        "complete DD-S09 in the learner's editable file",
+        "use the step CHECK criteria",
+        "keep the required editability"
+      ]
+    },
+    {
+      "project_id": "PS-DROP-DAY",
+      "project_step_id": "DD-S10",
+      "step_number": 10,
+      "title": "Add the accent disc and a soft display shadow",
+      "course_options": [
+        "COM11",
+        "MM12"
+      ],
+      "skill_ids": [
+        "PS-SHP-01",
+        "PS-FLT-01",
+        "PS-BLD-02",
+        "GD-COL-01",
+        "GD-CON-01"
+      ],
+      "outcome_codes": [
+        "MM12-1.1",
+        "MM12-1.4",
+        "COM11-4.1",
+        "COM11-4.2",
+        "COM11-4.4"
+      ],
+      "evidence_ids": [],
+      "task_status": "guided_practice",
+      "assessed_cognition": [
+        "carry out the step in the learner's own file",
+        "visually check the result against the step requirements"
+      ],
+      "scaffoldable_actions": [
+        "clarify the listed menu/tool route",
+        "chunk the existing actions",
+        "explain the named Photoshop feature",
+        "point to the step's WHY/CHECK/FIX",
+        "help troubleshoot a mismatch without editing the file"
+      ],
+      "prohibited_assistance": [
+        "take control of the learner's file",
+        "invent settings not supplied by the workbook",
+        "claim the work is graded/mastered"
+      ],
+      "resources": [
+        "#step-10",
+        "WHY",
+        "CHECK",
+        "FIX"
+      ],
+      "completion_requirements": [
+        "complete DD-S10 in the learner's editable file",
+        "use the step CHECK criteria",
+        "keep the required editability"
+      ]
+    },
+    {
+      "project_id": "PS-DROP-DAY",
+      "project_step_id": "DD-S11",
+      "step_number": 11,
+      "title": "Construct a three-face product display",
+      "course_options": [
+        "COM11",
+        "MM12"
+      ],
+      "skill_ids": [
+        "PS-SHP-01",
+        "PS-DES-01",
+        "GD-CON-01",
+        "GD-HIE-01"
+      ],
+      "outcome_codes": [
+        "MM12-1.1",
+        "MM12-1.4",
+        "COM11-4.1",
+        "COM11-4.4"
+      ],
+      "evidence_ids": [],
+      "task_status": "guided_practice",
+      "assessed_cognition": [
+        "carry out the step in the learner's own file",
+        "visually check the result against the step requirements"
+      ],
+      "scaffoldable_actions": [
+        "clarify the listed menu/tool route",
+        "chunk the existing actions",
+        "explain the named Photoshop feature",
+        "point to the step's WHY/CHECK/FIX",
+        "help troubleshoot a mismatch without editing the file"
+      ],
+      "prohibited_assistance": [
+        "take control of the learner's file",
+        "invent settings not supplied by the workbook",
+        "claim the work is graded/mastered"
+      ],
+      "resources": [
+        "#step-11",
+        "WHY",
+        "CHECK",
+        "FIX"
+      ],
+      "completion_requirements": [
+        "complete DD-S11 in the learner's editable file",
+        "use the step CHECK criteria",
+        "keep the required editability"
+      ]
+    },
+    {
+      "project_id": "PS-DROP-DAY",
+      "project_step_id": "DD-S12",
+      "step_number": 12,
+      "title": "Place the prepared shoe without flattening your work",
+      "course_options": [
+        "COM11",
+        "MM12"
+      ],
+      "skill_ids": [
+        "PS-SMO-01",
+        "PS-TRN-01"
+      ],
+      "outcome_codes": [
+        "MM12-1.1",
+        "MM12-1.3",
+        "COM11-4.4"
+      ],
+      "evidence_ids": [],
+      "task_status": "guided_practice",
+      "assessed_cognition": [
+        "carry out the step in the learner's own file",
+        "visually check the result against the step requirements"
+      ],
+      "scaffoldable_actions": [
+        "clarify the listed menu/tool route",
+        "chunk the existing actions",
+        "explain the named Photoshop feature",
+        "point to the step's WHY/CHECK/FIX",
+        "help troubleshoot a mismatch without editing the file"
+      ],
+      "prohibited_assistance": [
+        "take control of the learner's file",
+        "invent settings not supplied by the workbook",
+        "claim the work is graded/mastered"
+      ],
+      "resources": [
+        "#step-12",
+        "WHY",
+        "CHECK",
+        "FIX"
+      ],
+      "completion_requirements": [
+        "complete DD-S12 in the learner's editable file",
+        "use the step CHECK criteria",
+        "keep the required editability"
+      ]
+    },
+    {
+      "project_id": "PS-DROP-DAY",
+      "project_step_id": "DD-S13",
+      "step_number": 13,
+      "title": "Add a broad ambient shadow beneath the shoe",
+      "course_options": [
+        "COM11",
+        "MM12"
+      ],
+      "skill_ids": [
+        "PS-FLT-01",
+        "PS-BLD-02",
+        "PS-LGT-02",
+        "GD-CON-01"
+      ],
+      "outcome_codes": [
+        "MM12-1.1",
+        "MM12-1.4",
+        "COM11-4.1",
+        "COM11-4.4"
+      ],
+      "evidence_ids": [],
+      "task_status": "guided_practice",
+      "assessed_cognition": [
+        "carry out the step in the learner's own file",
+        "visually check the result against the step requirements"
+      ],
+      "scaffoldable_actions": [
+        "clarify the listed menu/tool route",
+        "chunk the existing actions",
+        "explain the named Photoshop feature",
+        "point to the step's WHY/CHECK/FIX",
+        "help troubleshoot a mismatch without editing the file"
+      ],
+      "prohibited_assistance": [
+        "take control of the learner's file",
+        "invent settings not supplied by the workbook",
+        "claim the work is graded/mastered"
+      ],
+      "resources": [
+        "#step-13",
+        "WHY",
+        "CHECK",
+        "FIX"
+      ],
+      "completion_requirements": [
+        "complete DD-S13 in the learner's editable file",
+        "use the step CHECK criteria",
+        "keep the required editability"
+      ]
+    },
+    {
+      "project_id": "PS-DROP-DAY",
+      "project_step_id": "DD-S14",
+      "step_number": 14,
+      "title": "Make contact at the heel and forefoot",
+      "course_options": [
+        "COM11",
+        "MM12"
+      ],
+      "skill_ids": [
+        "PS-BRS-01",
+        "PS-BLD-02",
+        "PS-LGT-02",
+        "GD-CON-01"
+      ],
+      "outcome_codes": [
+        "MM12-1.1",
+        "MM12-1.4",
+        "COM11-4.1",
+        "COM11-4.4"
+      ],
+      "evidence_ids": [],
+      "task_status": "guided_practice",
+      "assessed_cognition": [
+        "carry out the step in the learner's own file",
+        "visually check the result against the step requirements"
+      ],
+      "scaffoldable_actions": [
+        "clarify the listed menu/tool route",
+        "chunk the existing actions",
+        "explain the named Photoshop feature",
+        "point to the step's WHY/CHECK/FIX",
+        "help troubleshoot a mismatch without editing the file"
+      ],
+      "prohibited_assistance": [
+        "take control of the learner's file",
+        "invent settings not supplied by the workbook",
+        "claim the work is graded/mastered"
+      ],
+      "resources": [
+        "#step-14",
+        "WHY",
+        "CHECK",
+        "FIX"
+      ],
+      "completion_requirements": [
+        "complete DD-S14 in the learner's editable file",
+        "use the step CHECK criteria",
+        "keep the required editability"
+      ]
+    },
+    {
+      "project_id": "PS-DROP-DAY",
+      "project_step_id": "DD-S15",
+      "step_number": 15,
+      "title": "Select the accent colour—not the whole product",
+      "course_options": [
+        "COM11",
+        "MM12"
+      ],
+      "skill_ids": [
+        "PS-COL-01",
+        "PS-SEL-01",
+        "GD-COL-01"
+      ],
+      "outcome_codes": [
+        "MM12-1.1",
+        "COM11-4.2",
+        "COM11-4.4"
+      ],
+      "evidence_ids": [
+        "DD-OBS-02"
+      ],
+      "task_status": "guided_practice",
+      "assessed_cognition": [
+        "carry out the step in the learner's own file",
+        "visually check the result against the step requirements"
+      ],
+      "scaffoldable_actions": [
+        "clarify the listed menu/tool route",
+        "chunk the existing actions",
+        "explain the named Photoshop feature",
+        "point to the step's WHY/CHECK/FIX",
+        "help troubleshoot a mismatch without editing the file"
+      ],
+      "prohibited_assistance": [
+        "take control of the learner's file",
+        "invent settings not supplied by the workbook",
+        "claim the work is graded/mastered"
+      ],
+      "resources": [
+        "#step-15",
+        "WHY",
+        "CHECK",
+        "FIX"
+      ],
+      "completion_requirements": [
+        "complete DD-S15 in the learner's editable file",
+        "use the step CHECK criteria",
+        "keep the required editability"
+      ]
+    },
+    {
+      "project_id": "PS-DROP-DAY",
+      "project_step_id": "DD-S16",
+      "step_number": 16,
+      "title": "Create the teal colourway and a controlled contrast adjustment",
+      "course_options": [
+        "COM11",
+        "MM12"
+      ],
+      "skill_ids": [
+        "PS-COL-01",
+        "PS-ADJ-01",
+        "PS-TON-01",
+        "PS-LAY-01",
+        "GD-COL-01",
+        "GD-CON-01"
+      ],
+      "outcome_codes": [
+        "MM12-1.1",
+        "MM12-1.4",
+        "COM11-4.1",
+        "COM11-4.2",
+        "COM11-4.4"
+      ],
+      "evidence_ids": [
+        "DD-OBS-02",
+        "DD-CON-02"
+      ],
+      "task_status": "guided_practice",
+      "assessed_cognition": [
+        "carry out the step in the learner's own file",
+        "visually check the result against the step requirements"
+      ],
+      "scaffoldable_actions": [
+        "clarify the listed menu/tool route",
+        "chunk the existing actions",
+        "explain the named Photoshop feature",
+        "point to the step's WHY/CHECK/FIX",
+        "help troubleshoot a mismatch without editing the file"
+      ],
+      "prohibited_assistance": [
+        "take control of the learner's file",
+        "invent settings not supplied by the workbook",
+        "claim the work is graded/mastered"
+      ],
+      "resources": [
+        "#step-16",
+        "WHY",
+        "CHECK",
+        "FIX"
+      ],
+      "completion_requirements": [
+        "complete DD-S16 in the learner's editable file",
+        "use the step CHECK criteria",
+        "keep the required editability"
+      ]
+    },
+    {
+      "project_id": "PS-DROP-DAY",
+      "project_step_id": "DD-S17",
+      "step_number": 17,
+      "title": "Build a live, outline headline",
+      "course_options": [
+        "COM11",
+        "MM12"
+      ],
+      "skill_ids": [
+        "PS-TYP-01",
+        "PS-EFX-01",
+        "GD-HIE-01",
+        "GD-CON-01",
+        "GD-TYP-01"
+      ],
+      "outcome_codes": [
+        "MM12-1.1",
+        "MM12-1.4",
+        "MM12-1.5",
+        "COM11-4.1",
+        "COM11-4.3",
+        "COM11-4.4"
+      ],
+      "evidence_ids": [],
+      "task_status": "guided_practice",
+      "assessed_cognition": [
+        "carry out the step in the learner's own file",
+        "visually check the result against the step requirements"
+      ],
+      "scaffoldable_actions": [
+        "clarify the listed menu/tool route",
+        "chunk the existing actions",
+        "explain the named Photoshop feature",
+        "point to the step's WHY/CHECK/FIX",
+        "help troubleshoot a mismatch without editing the file"
+      ],
+      "prohibited_assistance": [
+        "take control of the learner's file",
+        "invent settings not supplied by the workbook",
+        "claim the work is graded/mastered"
+      ],
+      "resources": [
+        "#step-17",
+        "WHY",
+        "CHECK",
+        "FIX"
+      ],
+      "completion_requirements": [
+        "complete DD-S17 in the learner's editable file",
+        "use the step CHECK criteria",
+        "keep the required editability"
+      ]
+    },
+    {
+      "project_id": "PS-DROP-DAY",
+      "project_step_id": "DD-S18",
+      "step_number": 18,
+      "title": "Add the solid headline and the message",
+      "course_options": [
+        "COM11",
+        "MM12"
+      ],
+      "skill_ids": [
+        "PS-TYP-01",
+        "GD-HIE-01",
+        "GD-ALN-01",
+        "GD-TYP-01"
+      ],
+      "outcome_codes": [
+        "MM12-1.4",
+        "MM12-1.5",
+        "MM12-4.1",
+        "COM11-1.4",
+        "COM11-4.1",
+        "COM11-4.3",
+        "COM11-4.4"
+      ],
+      "evidence_ids": [],
+      "task_status": "guided_practice",
+      "assessed_cognition": [
+        "carry out the step in the learner's own file",
+        "visually check the result against the step requirements"
+      ],
+      "scaffoldable_actions": [
+        "clarify the listed menu/tool route",
+        "chunk the existing actions",
+        "explain the named Photoshop feature",
+        "point to the step's WHY/CHECK/FIX",
+        "help troubleshoot a mismatch without editing the file"
+      ],
+      "prohibited_assistance": [
+        "take control of the learner's file",
+        "invent settings not supplied by the workbook",
+        "claim the work is graded/mastered"
+      ],
+      "resources": [
+        "#step-18",
+        "WHY",
+        "CHECK",
+        "FIX"
+      ],
+      "completion_requirements": [
+        "complete DD-S18 in the learner's editable file",
+        "use the step CHECK criteria",
+        "keep the required editability"
+      ]
+    },
+    {
+      "project_id": "PS-DROP-DAY",
+      "project_step_id": "DD-S19",
+      "step_number": 19,
+      "title": "Add the studio identity, rule and colour accents",
+      "course_options": [
+        "COM11",
+        "MM12"
+      ],
+      "skill_ids": [
+        "PS-TYP-01",
+        "PS-SHP-01",
+        "GD-ALN-01",
+        "GD-REP-01",
+        "GD-COL-01",
+        "GD-BRD-01"
+      ],
+      "outcome_codes": [
+        "MM12-1.4",
+        "MM12-1.5",
+        "MM12-4.1",
+        "COM11-1.4",
+        "COM11-4.1",
+        "COM11-4.2",
+        "COM11-4.3",
+        "COM11-4.4"
+      ],
+      "evidence_ids": [],
+      "task_status": "guided_practice",
+      "assessed_cognition": [
+        "carry out the step in the learner's own file",
+        "visually check the result against the step requirements"
+      ],
+      "scaffoldable_actions": [
+        "clarify the listed menu/tool route",
+        "chunk the existing actions",
+        "explain the named Photoshop feature",
+        "point to the step's WHY/CHECK/FIX",
+        "help troubleshoot a mismatch without editing the file"
+      ],
+      "prohibited_assistance": [
+        "take control of the learner's file",
+        "invent settings not supplied by the workbook",
+        "claim the work is graded/mastered"
+      ],
+      "resources": [
+        "#step-19",
+        "WHY",
+        "CHECK",
+        "FIX"
+      ],
+      "completion_requirements": [
+        "complete DD-S19 in the learner's editable file",
+        "use the step CHECK criteria",
+        "keep the required editability"
+      ]
+    },
+    {
+      "project_id": "PS-DROP-DAY",
+      "project_step_id": "DD-S20",
+      "step_number": 20,
+      "title": "Complete the action panel and honest footer",
+      "course_options": [
+        "COM11",
+        "MM12"
+      ],
+      "skill_ids": [
+        "PS-TYP-01",
+        "PS-SHP-01",
+        "GD-HIE-01",
+        "GD-CTA-01",
+        "GD-AUD-01"
+      ],
+      "outcome_codes": [
+        "MM12-1.5",
+        "MM12-4.1",
+        "COM11-1.4",
+        "COM11-4.3",
+        "COM11-4.4"
+      ],
+      "evidence_ids": [],
+      "task_status": "guided_practice",
+      "assessed_cognition": [
+        "carry out the step in the learner's own file",
+        "visually check the result against the step requirements"
+      ],
+      "scaffoldable_actions": [
+        "clarify the listed menu/tool route",
+        "chunk the existing actions",
+        "explain the named Photoshop feature",
+        "point to the step's WHY/CHECK/FIX",
+        "help troubleshoot a mismatch without editing the file"
+      ],
+      "prohibited_assistance": [
+        "take control of the learner's file",
+        "invent settings not supplied by the workbook",
+        "claim the work is graded/mastered"
+      ],
+      "resources": [
+        "#step-20",
+        "WHY",
+        "CHECK",
+        "FIX"
+      ],
+      "completion_requirements": [
+        "complete DD-S20 in the learner's editable file",
+        "use the step CHECK criteria",
+        "keep the required editability"
+      ]
+    },
+    {
+      "project_id": "PS-DROP-DAY",
+      "project_step_id": "DD-S21",
+      "step_number": 21,
+      "title": "Run the craft check before the revision",
+      "course_options": [
+        "COM11",
+        "MM12"
+      ],
+      "skill_ids": [
+        "GEN-QA-01",
+        "PS-LAY-01",
+        "PS-SMO-01",
+        "GD-CRIT-01"
+      ],
+      "outcome_codes": [
+        "MM12-1.3",
+        "MM12-1.4",
+        "COM11-4.1",
+        "COM11-4.4"
+      ],
+      "evidence_ids": [
+        "DD-QA-01"
+      ],
+      "task_status": "guided_practice_with_evidence",
+      "assessed_cognition": [
+        "inspect the file and identify a meaningful craft/integration issue",
+        "choose an appropriate revision"
+      ],
+      "scaffoldable_actions": [
+        "provide a QA checklist",
+        "clarify what to inspect at 100% vs fit-on-screen",
+        "explain how to open embedded Smart Object contents"
+      ],
+      "prohibited_assistance": [
+        "make the final quality judgement for the learner",
+        "choose the revision before the learner attempts diagnosis"
+      ],
+      "resources": [
+        "#step-21",
+        "WHY",
+        "CHECK",
+        "FIX"
+      ],
+      "completion_requirements": [
+        "edges, masks, clipping and shadows inspected",
+        "at least one issue checked/revised if needed",
+        "editable structure preserved"
+      ]
+    },
+    {
+      "project_id": "PS-DROP-DAY",
+      "project_step_id": "DD-S22",
+      "step_number": 22,
+      "title": "Respond to the client: create a coral colourway",
+      "course_options": [
+        "COM11",
+        "MM12"
+      ],
+      "skill_ids": [
+        "PS-COL-01",
+        "PS-ADJ-01",
+        "GD-COL-01",
+        "GD-BRD-01",
+        "GD-AUD-01"
+      ],
+      "outcome_codes": [
+        "MM12-1.1",
+        "MM12-1.4",
+        "MM12-1.5",
+        "MM12-4.1",
+        "COM11-1.4",
+        "COM11-4.1",
+        "COM11-4.2",
+        "COM11-4.4"
+      ],
+      "evidence_ids": [
+        "DD-PRO-02"
+      ],
+      "task_status": "guided_practice",
+      "assessed_cognition": [
+        "carry out the step in the learner's own file",
+        "visually check the result against the step requirements"
+      ],
+      "scaffoldable_actions": [
+        "clarify the listed menu/tool route",
+        "chunk the existing actions",
+        "explain the named Photoshop feature",
+        "point to the step's WHY/CHECK/FIX",
+        "help troubleshoot a mismatch without editing the file"
+      ],
+      "prohibited_assistance": [
+        "take control of the learner's file",
+        "invent settings not supplied by the workbook",
+        "claim the work is graded/mastered"
+      ],
+      "resources": [
+        "#step-22",
+        "WHY",
+        "CHECK",
+        "FIX"
+      ],
+      "completion_requirements": [
+        "complete DD-S22 in the learner's editable file",
+        "use the step CHECK criteria",
+        "keep the required editability"
+      ]
+    },
+    {
+      "project_id": "PS-DROP-DAY",
+      "project_step_id": "DD-S23",
+      "step_number": 23,
+      "title": "Show that you understand the technique",
+      "course_options": [
+        "COM11",
+        "MM12"
+      ],
+      "skill_ids": [
+        "PS-LAY-01",
+        "PS-COL-01",
+        "PS-TYP-01",
+        "GEN-EVD-01",
+        "GEN-QA-01",
+        "GD-CRIT-01",
+        "GD-AUD-01"
+      ],
+      "outcome_codes": [
+        "MM12-1.1",
+        "MM12-1.4",
+        "MM12-1.5",
+        "COM11-1.4",
+        "COM11-4.2",
+        "COM11-4.3",
+        "COM11-4.4"
+      ],
+      "evidence_ids": [
+        "DD-TRF-01",
+        "DD-CON-02"
+      ],
+      "task_status": "independent_transfer",
+      "assessed_cognition": [
+        "select the correct existing control for each changed-brief request",
+        "restore the hidden mask detail without Undo/History",
+        "explain the difference between source repair, silhouette mask, colour mask, clipping and whole-layer opacity"
+      ],
+      "scaffoldable_actions": [
+        "clarify the wording of the changed brief",
+        "remind the learner where to locate a mask, adjustment or Type layer",
+        "explain a Photoshop control using a different example",
+        "provide a self-check checklist without naming the correct control"
+      ],
+      "prohibited_assistance": [
+        "tell the learner which specific control solves each assessed change",
+        "give a complete repair recipe",
+        "write the learner's explanation",
+        "perform or simulate the assessed edit for the learner"
+      ],
+      "resources": [
+        "#step-23",
+        "WHY",
+        "CHECK",
+        "FIX"
+      ],
+      "completion_requirements": [
+        "small label changed while main headline remains intact",
+        "one intended accent restored while other colour changes remain",
+        "hidden cutout-mask detail restored without Undo/History",
+        "learner can explain the relevant controls"
+      ]
+    },
+    {
+      "project_id": "PS-DROP-DAY",
+      "project_step_id": "DD-S24",
+      "step_number": 24,
+      "title": "Export, reopen and hand over the work",
+      "course_options": [
+        "COM11",
+        "MM12"
+      ],
+      "skill_ids": [
+        "PS-OUT-01",
+        "GEN-QA-01"
+      ],
+      "outcome_codes": [
+        "MM12-1.3",
+        "COM11-4.5"
+      ],
+      "evidence_ids": [
+        "DD-PRO-03"
+      ],
+      "task_status": "guided_practice",
+      "assessed_cognition": [
+        "carry out the step in the learner's own file",
+        "visually check the result against the step requirements"
+      ],
+      "scaffoldable_actions": [
+        "clarify the listed menu/tool route",
+        "chunk the existing actions",
+        "explain the named Photoshop feature",
+        "point to the step's WHY/CHECK/FIX",
+        "help troubleshoot a mismatch without editing the file"
+      ],
+      "prohibited_assistance": [
+        "take control of the learner's file",
+        "invent settings not supplied by the workbook",
+        "claim the work is graded/mastered"
+      ],
+      "resources": [
+        "#step-24",
+        "WHY",
+        "CHECK",
+        "FIX"
+      ],
+      "completion_requirements": [
+        "complete DD-S24 in the learner's editable file",
+        "use the step CHECK criteria",
+        "keep the required editability"
+      ]
+    }
+  ]
+}
