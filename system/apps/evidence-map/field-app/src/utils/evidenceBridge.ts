@@ -303,7 +303,11 @@ class EvidenceBridgeService {
         for (const ev of chunk) {
           const receipt = results[ev.event_id];
           if (receipt && receipt.ok) {
-            if (!receipt.revision_id) { errors.push('Server receipt has no revision. Capture remains on device.'); errorCount++; continue; }
+            if (receipt.record_id !== ev.event_id || typeof receipt.revision_id !== 'string' || !/^[a-f0-9]{64}$/.test(receipt.revision_id)) {
+              const message = 'Server receipt does not confirm this capture and revision. Capture remains on device.';
+              await markEventError(ev.event_id, message);
+              errors.push(message); errorCount++; continue;
+            }
             await markEventConfirmed(ev, receipt.revision_id, receipt.mapping_status);
             syncedCount++;
           } else if (receipt && !receipt.ok) {
