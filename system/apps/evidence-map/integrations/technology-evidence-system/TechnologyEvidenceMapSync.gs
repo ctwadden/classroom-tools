@@ -21,7 +21,7 @@
 
 const EM = {
   SYNC_SHEET: 'Evidence Map Sync',
-  SYNC_HEADERS: ['event_id','source_form_id','source_response_id','canonical_id','stream','learner_id','status','attempt_count','last_attempt_at','evidence_map_record_id','error_message'],
+  SYNC_HEADERS: ['event_id','source_form_id','source_response_id','canonical_id','stream','learner_id','status','attempt_count','last_attempt_at','evidence_map_record_id','error_message','revision_id','source_revision'],
   PROPS: { url:'EVIDENCE_MAP_INGEST_URL', secret:'EVIDENCE_MAP_INGEST_SECRET', idSecret:'LEARNER_ID_SECRET' },
   // Evidence_Log evidence_type -> Evidence Map stream. Metadata rows are never appended, so never seen here.
   STREAMS: { 'support':'support','knowledge':'knowledge','reflection':'reflection','transfer candidate':'transfer',
@@ -90,11 +90,31 @@ function emSyncSheet_(){
   let sh=ss.getSheetByName(EM.SYNC_SHEET);
   if(!sh){ sh=ss.insertSheet(EM.SYNC_SHEET); sh.getRange(1,1,1,EM.SYNC_HEADERS.length).setValues([EM.SYNC_HEADERS]); sh.setFrozenRows(1);
     sh.getRange(1,1,1,EM.SYNC_HEADERS.length).setFontWeight('bold').setBackground('#153140').setFontColor('#ffffff'); }
+  else {
+    const headers=sh.getRange(1,1,1,EM.SYNC_HEADERS.length).getValues()[0];
+    // Preserve the original eleven columns. Only extend an exact known layout.
+    EM.SYNC_HEADERS.forEach((name,i)=>{
+      if(headers[i]!==name && !(i>=11 && headers[i]==='')) throw new Error('Evidence Map Sync header mismatch at column '+(i+1));
+      if(i>=11 && headers[i]==='' && sh.getLastRow()>1 && sh.getRange(2,i+1,sh.getLastRow()-1,1).getValues().some(r=>r[0]!==''))
+        throw new Error('Evidence Map Sync extension column is already in use: '+(i+1));
+    });
+    EM.SYNC_HEADERS.slice(11).forEach((name,j)=>{
+      if(headers[j+11]==='') sh.getRange(1,j+12).setValue(name).setFontWeight('bold').setBackground('#153140').setFontColor('#ffffff');
+    });
+  }
   return sh;
 }
 function emSyncIndex_(sh){ const idx={}; if(sh.getLastRow()<2) return idx;
   const v=sh.getRange(2,1,sh.getLastRow()-1,EM.SYNC_HEADERS.length).getValues();
-  v.forEach((r,i)=>{ idx[r[0]]={row:i+2, status:r[6], attempts:Number(r[7])||0}; }); return idx; }
+  v.forEach((r,i)=>{ idx[r[0]]={row:i+2,status:r[6],attempts:Number(r[7])||0,record_id:r[9],revision_id:r[11],source_revision:r[12]}; }); return idx; }
+
+function emValidReceipt_(ev,r){
+  return !!r && r.ok===true && r.record_id===ev.event_id && /^[a-f0-9]{64}$/.test(String(r.revision_id||''));
+}
+function emAlreadyConfirmed_(ev,entry){
+  return !!entry && entry.status==='ok' && Number(entry.source_revision)===ev.source_revision &&
+    emValidReceipt_(ev,{ok:true,record_id:entry.record_id,revision_id:entry.revision_id});
+}
 
 function emPost_(events){
   const res=UrlFetchApp.fetch(emProp_(EM.PROPS.url), { method:'post', contentType:'application/json', muteHttpExceptions:true,
@@ -105,11 +125,15 @@ function emPost_(events){
 }
 function emReceipts_(sh, idx, events, results){
   const now=new Date();
-  events.forEach(ev=>{ const r=results[ev.event_id]||{}; const status = r.ok ? 'ok' : 'pending';
+  events.forEach(ev=>{ const r=(results||{})[ev.event_id]||{}; const valid=emValidReceipt_(ev,r); const status=valid?'ok':'pending';
     const attempts=(idx[ev.event_id] ? (idx[ev.event_id].attempts||0) : 0)+1;
-    const rowData=[ev.event_id,ev.source_form_id,ev.source_response_id,ev.canonical_id,ev.stream,ev.learner_id,status,attempts,now,r.record_id||'',r.error||''];
-    if(idx[ev.event_id]){ idx[ev.event_id].status=status; idx[ev.event_id].attempts=attempts; sh.getRange(idx[ev.event_id].row,1,1,EM.SYNC_HEADERS.length).setValues([rowData]); }
-    else { sh.appendRow(rowData); idx[ev.event_id]={row:sh.getLastRow(),status:status,attempts:attempts}; } });
+    const error=valid?'':String(r.error||'Missing or mismatched Evidence Map revision receipt').slice(0,300);
+    const rowData=[ev.event_id,ev.source_form_id,ev.source_response_id,ev.canonical_id,ev.stream,ev.learner_id,status,attempts,now,valid?r.record_id:'',error,valid?r.revision_id:'',ev.source_revision];
+    let row=idx[ev.event_id] && idx[ev.event_id].row;
+    if(row) sh.getRange(row,1,1,EM.SYNC_HEADERS.length).setValues([rowData]);
+    else { sh.appendRow(rowData); row=sh.getLastRow(); }
+    idx[ev.event_id]={row:row,status:status,attempts:attempts,record_id:rowData[9],revision_id:rowData[11],source_revision:ev.source_revision};
+  });
 }
 
 /** HOOK — call immediately after appendEvidence_ appends a row. Best-effort; never throws. */
@@ -118,7 +142,7 @@ function emOnEvidenceAppended_(o){
     if(!emConfigured_()) return;
     const ev=emBuildEvent_(o); if(!ev) return;
     const sh=emSyncSheet_(); const idx=emSyncIndex_(sh);
-    if(idx[ev.event_id] && idx[ev.event_id].status==='ok') return;
+    if(emAlreadyConfirmed_(ev,idx[ev.event_id])) return;
     let results;
     try{ results=emPost_([ev]); }catch(e){ results={}; results[ev.event_id]={ok:false,error:String(e.message).slice(0,300)}; }
     emReceipts_(sh, idx, [ev], results);
@@ -132,17 +156,17 @@ function emReadEvidenceLog_(){
   return vals.filter(r=>r.some(v=>v!==''&&v!==null)).map(r=>{ const o={}; h.forEach((k,i)=>o[k]=r[i]); return o; });
 }
 
-/** Push every Evidence_Log row that is not already confirmed ('ok'). Idempotent; safe to rerun. */
+/** Retry rows without a valid receipt for this source revision. Stable event IDs make replay idempotent. */
 function emSyncAll_(force, silent){
   if(!emConfigured_()){ SpreadsheetApp.getUi().alert('Set EVIDENCE_MAP_INGEST_URL, EVIDENCE_MAP_INGEST_SECRET and LEARNER_ID_SECRET in Script Properties first.'); return; }
   const sh=emSyncSheet_(); let idx=emSyncIndex_(sh);
-  const events=emReadEvidenceLog_().map(emBuildEvent_).filter(Boolean).filter(ev=> force || !(idx[ev.event_id] && idx[ev.event_id].status==='ok'));
+  const events=emReadEvidenceLog_().map(emBuildEvent_).filter(Boolean).filter(ev=> force || !emAlreadyConfirmed_(ev,idx[ev.event_id]));
   let okc=0; const deadline=Date.now()+210000;
   for(let i=0;i<events.length && Date.now()<deadline;i+=EM.BATCH){
     const batch=events.slice(i,i+EM.BATCH); let results;
     try{ results=emPost_(batch); }catch(e){ results={}; batch.forEach(ev=>results[ev.event_id]={ok:false,error:String(e.message).slice(0,300)}); }
     emReceipts_(sh, idx, batch, results);
-    okc+=batch.filter(ev=>results[ev.event_id]&&results[ev.event_id].ok).length;
+    okc+=batch.filter(ev=>emValidReceipt_(ev,(results||{})[ev.event_id])).length;
   }
   if(!silent)SpreadsheetApp.getUi().alert('Evidence Map sync: '+okc+'/'+events.length+' events confirmed. Pending rows will retry.');
   return {confirmed:okc,attempted:events.length};
