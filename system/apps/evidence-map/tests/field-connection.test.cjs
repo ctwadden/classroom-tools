@@ -48,3 +48,30 @@ test('Google mirror preserves the complete contextual support record in its exis
  const e=C.normalizeEvent(event({event_id:'support-google-fixture',stream:'support',level_raw:null,canonical_id:'LI-D02',outcome_codes_raw:'',support_detail:detail}),'field');
  g.context.ecFieldMirror_([e],[]);assert.deepEqual(JSON.parse(g.rows[1][g.headers.indexOf('support_context')]),detail);assert.equal(g.rows[1][g.headers.indexOf('suggested_achievement')],'');
 });
+
+test('field queue rejects mismatched or malformed receipts without removing pending evidence',async()=>{
+ for(const receipt of [{ok:true,record_id:'another-event',revision_id:'a'.repeat(64)},{ok:true,record_id:'field_fixture_1',revision_id:'not-a-hash'},{ok:true,revision_id:'a'.repeat(64)}]){
+  let confirmed=0;
+  const b=client({getPendingEvents:async()=>[event()],markEventConfirmed:async()=>confirmed++,markEventError:async()=>{},fetch:async()=>new Response(JSON.stringify({results:{field_fixture_1:receipt}}))});
+  const r=await b.syncPendingQueue();assert.equal(confirmed,0);assert.equal(r.errorCount,1);
+ }
+});
+test('lost response retains the capture; retry confirms once and only the matching Google revision is mirrored',async()=>{
+ let pending=[event()],confirmed=[],attempt=0,mirrorRevision='b'.repeat(64);
+ const revision='a'.repeat(64),b=client({getPendingEvents:async()=>pending,getConfirmedEvents:async()=>confirmed,markEventError:async()=>{},markEventConfirmed:async(e,revision_id)=>{pending=pending.filter(p=>p.event_id!==e.event_id);confirmed=[{...e,revision_id}];},fetch:async url=>{
+  if(url.includes('mirror-status'))return new Response(JSON.stringify({course_id:'MM12',receipts:[{event_id:'field_fixture_1',revision_id:mirrorRevision}]}));
+  if(!attempt++)throw Error('Connection dropped after server accepted request');
+  return new Response(JSON.stringify({results:{field_fixture_1:{ok:true,record_id:'field_fixture_1',revision_id:revision,dedup:true}}}));
+ }});
+ assert.equal((await b.syncPendingQueue()).errorCount,1);assert.equal(pending.length,1);
+ assert.equal((await b.syncPendingQueue()).syncedCount,1);assert.equal(pending.length,0);assert.equal(confirmed.length,1);
+ await b.updateMirrorReceipts();assert.notEqual(confirmed[0].google_mirror_status,'mirrored');
+ mirrorRevision=revision;await b.updateMirrorReceipts();assert.equal(confirmed[0].google_mirror_status,'mirrored');
+});
+test('backup-storage quota failure preserves the pending capture',async()=>{
+ let code=stripTypeScriptTypes(fs.readFileSync('field-app/src/utils/indexedDb.ts','utf8'),{mode:'strip'}).replace(/import\s+[\s\S]*?\sfrom\s+['"][^'"]+['"];?/g,'').replace(/\bexport\s+/g,'');
+ const data=new Map([['pending_event_field_fixture_1',JSON.stringify(event())]]),context={console,window:{},catalogueData:{},localStorage:{getItem:k=>data.get(k),removeItem:k=>data.delete(k),setItem(){throw Error('Quota exceeded');}}};
+ vm.runInNewContext(code+'\nthis.confirm=markEventConfirmed;',context);
+ await assert.rejects(context.confirm(event(),'a'.repeat(64)),/Quota/);
+ assert.ok(data.has('pending_event_field_fixture_1'));
+});

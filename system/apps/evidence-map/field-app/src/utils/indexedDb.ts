@@ -159,8 +159,9 @@ export async function markEventConfirmed(event: FieldEvent, revisionId?: string,
       tx.onerror = () => reject(tx.error);
     });
   } catch (err) {
-    localStorage.removeItem(`pending_event_${event.event_id}`);
+    // A full backup store must leave the unsent copy intact for retry.
     localStorage.setItem(`confirmed_event_${event.event_id}`, JSON.stringify(confirmedEvent));
+    localStorage.removeItem(`pending_event_${event.event_id}`);
   }
 }
 
