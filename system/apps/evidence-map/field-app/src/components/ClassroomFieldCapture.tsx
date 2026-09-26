@@ -147,7 +147,7 @@ export const ClassroomFieldCapture: React.FC<ClassroomFieldCaptureProps> = ({
     if(d){setTeacherNote(d.teacherNote);setArtifactUrl(d.artifactUrl);setAchievementLevel(d.achievementLevel);setSupportContext(d.supportContext);setVoiceNoteId(d.voiceNoteId);setTranscriptText(d.transcriptText);setTranscriptReviewed(d.transcriptReviewed);setCommentDraftId(d.commentDraftId);setIsObservation(d.isObservation);setIsConversation(d.isConversation);setIsProduct(d.isProduct);}
   };
   const handleSelectLearner=(id:string)=>{stash();setSelectedLearnerId(id);restore(id,selectedRubricId,selectedCriterionId);};
-  const handleRubric=(id:string)=>{launch.current=null;stash();const r=rubrics.find(r=>rubricKey(r)===id);const criterion=r?.criteria[0]?.id||'';setSelectedRubricId(id);setSelectedCriterionId(criterion);restore(selectedLearnerId,id,criterion);};
+  const handleRubric=(id:string)=>{launch.current=null;setSnapshotNotice('');stash();const r=rubrics.find(r=>rubricKey(r)===id);const criterion=r?.criteria[0]?.id||'';setSelectedRubricId(id);setSelectedCriterionId(criterion);restore(selectedLearnerId,id,criterion);};
   const handleCriterion=(id:string)=>{stash();setSelectedCriterionId(id);restore(selectedLearnerId,selectedRubricId,id);};
   const handleCourse=(course:CourseId)=>{if(course===selectedCourse)return;launch.current=null;stash();activeCourse.current=course;++requestSequence.current;clearForm();setRoster([]);setRubrics([]);setSelectedLearnerId('');setSelectedRubricId('');setSelectedCriterionId('');setSearchStudent('');setLastRefreshedAt(null);setSelectedCourse(course);};
   async function noteCoverage(course:CourseId,serverEvents:any[]=[]){
@@ -575,6 +575,7 @@ export const ClassroomFieldCapture: React.FC<ClassroomFieldCaptureProps> = ({
               onChange={(e) => handleRubric(e.target.value)}
               className="w-full px-3.5 py-2.5 rounded-xl bg-slate-50 border border-slate-200 text-sm font-medium text-slate-900 focus:bg-white focus:ring-2 focus:ring-indigo-500 focus:border-indigo-500 min-h-[44px]"
             >
+              <option value="" disabled>Choose an approved assignment rubric</option>
               {rubrics.map((r) => (
                 <option key={rubricKey(r)} value={rubricKey(r)}>
                   {r.title} (v{r.version})
