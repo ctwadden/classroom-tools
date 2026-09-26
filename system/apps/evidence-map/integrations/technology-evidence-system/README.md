@@ -59,3 +59,30 @@ test Google Form  →  Apps Script (appendEvidence_)  →  Evidence_Log
    →  emOnEvidenceAppended_  →  Bearer ingest  →  Netlify Blobs  →  Evidence Map shows correct learner/outcome
 ```
 Confirm in the `Evidence Map Sync` tab that each event row shows `status = ok` with an `evidence_map_record_id`. Send the same form response twice → exactly one stored event (idempotency). Take Netlify down → submission still succeeds and the row is `pending`; run **Sync pending** → it becomes `ok`.
+
+## Verified delivery receipts — 25 September 2026
+
+The sync log retains the original eleven columns and appends `revision_id` and
+`source_revision`. A delivery is confirmed only when the response contains literal
+`ok: true`, the requested event ID, and a 64-character hexadecimal revision ID.
+A missing, malformed or mismatched receipt stays pending. Previously successful
+rows without a revision receipt retry once using their existing event IDs and
+source revision; the dashboard deduplicates them. Unknown headers or occupied
+extension columns stop migration rather than overwrite Sheet content.
+
+Validation: `node --test integrations/technology-evidence-system/sync-receipts.test.cjs`.
+The installed Google code confirmed all 12 existing events; each receipt matched
+its exact dashboard revision. Before/after snapshots showed unchanged roster,
+evidence and judgments. Four synthetic field records were also mirrored twice
+by the installed Google runtime into the separate `Integration QA Field` tab:
+revision IDs, rubric identity and structured support survived without duplicate
+rows. This fixture test did not exercise the Netlify-to-Google network fetch or
+a new Form submission. The temporary test function was removed after validation.
+
+Form events still carry the recorded checkpoint, skill and outcome references;
+existing Form Item Map / Evidence_Log schemas do not establish the rubric version
+and criterion actually used. Do not attach a newer draft rubric retrospectively.
+Future binding requires an explicitly approved assignment/rubric version and a
+versioned Form mapping; knowledge/reflection entries must remain distinct from
+teacher-confirmed achievement. The repaired receipt alone does not establish
+rubric alignment or academic competence.
