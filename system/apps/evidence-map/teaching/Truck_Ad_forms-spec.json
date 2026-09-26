@@ -1,0 +1,38 @@
+{
+  "spec_version": "1.0",
+  "project_id": "PS-TRUCK-AD",
+  "project_title": "Truck Ad",
+  "course_configs": [
+    {"course_id":"MM12","module_id":"M1","outcome_codes":["1.1","1.3","1.4","1.5"]},
+    {"course_id":"COM11","module_id":"M4","outcome_codes":["1.4","4.1","4.2","4.3","4.4","4.5"]}
+  ],
+  "student_form": {"description":"Complete the Truck Ad knowledge check, identify evidence of your technical/design learning, and answer the transfer prompt."},
+  "knowledge_check": {"items":[
+    {"id":"TA-KC-01","type":"multiple_choice","prompt":"Why should the truck be converted to a Smart Object before applying supported filters?","choices":["It automatically increases image resolution","It keeps the original pixels and lets supported filters remain editable","It automatically removes the background","It changes the document to CMYK"],"correct_index":1,"points":1,"correct_feedback":"Correct - Smart Objects preserve source pixels and let supported filters remain editable as Smart Filters.","incorrect_feedback":"Review the Smart Object / Smart Filter relationship.","skill_ids":["PS-SMO-01","PS-FLT-01"],"outcome_codes":["MM12 1.1","CT11 4.4"],"step_id":"TA-S02"},
+    {"id":"TA-KC-02","type":"multiple_choice","prompt":"When painting on a Smart Filter mask, what does black paint do?","choices":["Makes the filter stronger","Hides the filter effect in the painted area","Deletes the original pixels","Changes the filter to grayscale"],"correct_index":1,"points":1,"skill_ids":["PS-FLT-01","PS-LAY-01"],"outcome_codes":["MM12 1.1","CT11 4.4"],"step_id":"TA-S04"},
+    {"id":"TA-KC-03","type":"multiple_choice","prompt":"Why is Multiply a logical starting blend mode for a light paper texture?","choices":["It lets darker texture detail affect the image while lighter areas recede","It always makes an image sharper","It removes all colour from the texture","It automatically matches perspective"],"correct_index":0,"points":1,"skill_ids":["PS-BLD-02"],"outcome_codes":["MM12 1.1","CT11 4.4"],"step_id":"TA-S05"},
+    {"id":"TA-KC-04","type":"multiple_choice","prompt":"The bull becomes the first thing you notice instead of the truck. What is the main design problem?","choices":["Resolution","Visual hierarchy","File naming","Colour mode"],"correct_index":1,"points":1,"skill_ids":["GD-HIE-01","PS-DES-01"],"outcome_codes":["MM12 1.4","CT11 4.1"],"step_id":"TA-S13"},
+    {"id":"TA-KC-05","type":"multiple_choice","prompt":"What is the main communication purpose of the bull?","choices":["To demonstrate masking only","To act as a visual metaphor for strength/toughness","To make the image symmetrical","To fill empty space"],"correct_index":1,"points":1,"skill_ids":["GD-MET-01","GD-AUD-01"],"outcome_codes":["MM12 1.5","CT11 4.4"],"step_id":"TA-S08"},
+    {"id":"TA-KC-06","type":"multiple_choice","prompt":"Which approach is most likely to create a professional-looking type block?","choices":["Place every word wherever there is empty space","Use shared alignment edges/guides and deliberate size relationships","Use a different font for every line","Centre every line automatically"],"correct_index":1,"points":1,"skill_ids":["PS-TYP-01","GD-ALN-01","GD-TYP-01"],"outcome_codes":["MM12 1.4","CT11 4.3"],"step_id":"TA-S09"},
+    {"id":"TA-KC-07","type":"multiple_choice","prompt":"Which file best demonstrates editable masks, Smart Filters and live type?","choices":["A screenshot","A flattened JPEG","The layered PSD","A thumbnail"],"correct_index":2,"points":1,"skill_ids":["PS-SMO-01","PS-TYP-01","PS-OUT-01"],"outcome_codes":["MM12 1.3","CT11 4.4"],"step_id":"TA-S15"},
+    {"id":"TA-KC-08","type":"multiple_choice","prompt":"If the truck were advertised to a different target audience, what should be reconsidered first?","choices":["Only the filename","The visual language, message, type, colour and supporting imagery","Only layer order","Nothing"],"correct_index":1,"points":1,"skill_ids":["GD-AUD-01","GD-COL-01","GD-TYP-01","PS-DES-01"],"outcome_codes":["MM12 1.5","CT11 1.4","CT11 4.4"],"step_id":"TA-S14"}
+  ]},
+  "skill_reflection": {
+    "technical_skills":[
+      {"id":"PS-SMO-01","label":"Smart Objects"},{"id":"PS-FLT-01","label":"Smart Filters / filter masks"},{"id":"PS-LAY-01","label":"Layer Masks"},{"id":"PS-BLD-02","label":"Blending Modes"},{"id":"PS-TYP-01","label":"Photoshop Typography"},{"id":"PS-OUT-01","label":"Export / Output"}
+    ],
+    "design_skills":[
+      {"id":"GD-HIE-01","label":"Visual hierarchy"},{"id":"GD-ALN-01","label":"Alignment"},{"id":"GD-COL-01","label":"Colour relationships"},{"id":"GD-TYP-01","label":"Typography as communication"},{"id":"GD-AUD-01","label":"Audience and purpose"},{"id":"GD-MET-01","label":"Visual metaphor"},{"id":"GD-CRIT-01","label":"Critique and revision"}
+    ],
+    "independence_options":["Followed the example closely","Needed some prompts/checkpoints","Worked independently","Adapted or extended the skill"]
+  },
+  "transfer":{"id":"TA-TRF-01","prompt":"The same truck is now marketed to a different audience. Identify one technical skill you would keep and one design strategy you would change. Explain why.","skill_ids":["GD-AUD-01","PS-DES-01"],"outcome_codes":["MM12 1.5","CT11 1.4","CT11 4.4"]},
+  "teacher_evidence":{"checkpoints":[
+    {"evidence_id":"TA-OBS-01","evidence_type":"Observation","title":"Smart Filter mask repair","skill_ids":["PS-FLT-01","PS-LAY-01"],"outcome_codes":["MM12 1.1","CT11 4.4"]},
+    {"evidence_id":"TA-CON-01","evidence_type":"Conversation","title":"Blend-mode reasoning","skill_ids":["PS-BLD-02"],"outcome_codes":["MM12 1.1","MM12 1.4","CT11 4.1","CT11 4.4"]},
+    {"evidence_id":"TA-OBS-02","evidence_type":"Observation","title":"Typography / hierarchy revision","skill_ids":["PS-TYP-01","GD-HIE-01","GD-ALN-01"],"outcome_codes":["MM12 1.4","CT11 4.1","CT11 4.3"]},
+    {"evidence_id":"TA-CON-02","evidence_type":"Conversation","title":"Audience / message defence","skill_ids":["GD-AUD-01","GD-MET-01"],"outcome_codes":["MM12 1.5","CT11 1.4","CT11 4.4"]},
+    {"evidence_id":"TA-PRO-02","evidence_type":"Product","title":"Final advertisement","skill_ids":["PS-DES-01","PS-BLD-02","PS-TYP-01","GD-HIE-01","GD-AUD-01"],"outcome_codes":["MM12 1.4","MM12 1.5","CT11 4.1","CT11 4.4"]},
+    {"evidence_id":"TA-QA-01","evidence_type":"Observation+Conversation","title":"Critique and revision","skill_ids":["GD-CRIT-01","PS-DES-01"],"outcome_codes":["MM12 1.4","CT11 1.4","CT11 4.1"]}
+  ]}
+}
