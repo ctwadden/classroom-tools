@@ -86,3 +86,37 @@ Future binding requires an explicitly approved assignment/rubric version and a
 versioned Form mapping; knowledge/reflection entries must remain distinct from
 teacher-confirmed achievement. The repaired receipt alone does not establish
 rubric alignment or academic competence.
+
+## Criterion-bound teacher Forms (prepared, not activated)
+
+`FormRubricBinding.gs` supports optional frozen `teacher_evidence.criterion_choices`
+in a Form specification. Each label selects exactly one course, checkpoint and
+criterion. A shared checkpoint never duplicates one level across multiple criteria.
+Explicit `unbound: true` choices preserve general evidence for courses whose
+rubric is still draft. Legacy specifications keep their existing behavior.
+
+Generation checks the exact approved, capture-ready rubric from Evidence Map
+before creating a Form, including checkpoint, outcome and sampled-skill links.
+The registered `SPEC_<form_id>` snapshot preserves the choices used by that Form.
+The teacher response stores its context in an additive `rubric_context_json`
+column at the end of Evidence_Log (created only on the first bound response).
+Unknown headers or an occupied extension column stop the write. Existing rows
+keep their original context on replay. Only bound O/C/P events use source revision
+3 and carry rubric/version/criterion fields; legacy events remain revision 2.
+Knowledge, reflection, transfer candidates and support cannot acquire this context.
+Google provenance still does not confirm dashboard achievement.
+
+The proposed Truck Ad spec is in `teaching/reviews/Truck_Ad_forms-spec_v2_DRAFT.json`;
+the human review is `teaching/reviews/Truck_Ad_Rubric_Review.html`. It restores the
+workbook's existing TA-PRO-01 layered-product checkpoint, gives MM12 nine explicit
+criterion choices, and preserves six general COM11 choices. Neither draft is
+registered in the live source registry. The current student and teacher Forms
+remain active. Activate only after teacher review of MM12-TRUCK-AD-R1 version
+2026-09-25.2; generate/register only the replacement teacher Form so the existing
+student knowledge/reflection link is preserved. Then verify a designated new
+submission through the receipt and dashboard path.
+
+Run `node --test integrations/technology-evidence-system/form-rubric-binding.test.cjs`
+for the binding contract and `node --test tests/*.test.cjs integrations/technology-evidence-system/*.test.cjs`
+for related regression checks. A passing local test does not certify a newly
+created Google Form or a physical iPad offline/reconnect workflow.

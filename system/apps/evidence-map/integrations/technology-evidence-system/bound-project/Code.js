@@ -200,6 +200,7 @@ function escapeAttr_(value) { return escapeHtml_(value).replace(/'/g,'&#39;'); }
 
 function generateProjectForms_(ss, spec) {
   validateSpec_(spec);
+  fbPreflight_(spec); // Fail before creating either Form when a referenced rubric is not approved.
 
   const studentBuild = buildStudentForm_(ss, spec);
   const teacherBuild = buildTeacherForm_(ss, spec);
@@ -271,6 +272,7 @@ function addSkillReflectionBlock_(ss, form, spec, role, title, skills, growthOnl
 }
 
 function buildTeacherForm_(ss, spec) {
+  const approvedRubrics=fbPreflight_(spec)||[];
   const form = FormApp.create(`${spec.project_title} - Teacher Evidence Capture`);
   form.setDescription('Fast teacher capture for Observation, Conversation and Product evidence. Student self-reports do not auto-confirm competency.');
   form.setProgressBar(true);
@@ -281,10 +283,12 @@ function buildTeacherForm_(ss, spec) {
   mapItem_(ss, form, student, spec, 'META-STUDENT', 'Metadata', [], [], '', 'student');
 
   const checkpoints = spec.teacher_evidence?.checkpoints || [];
-  const checkpoint = form.addListItem().setTitle('Evidence checkpoint').setChoiceValues(checkpoints.map(c => `${c.evidence_id} - ${c.title}`)).setRequired(true);
+  const checkpoint = form.addListItem().setTitle('Evidence checkpoint').setChoiceValues(fbChoices_(spec).length ? fbChoices_(spec).map(c=>c.choice_label) : checkpoints.map(c => `${c.evidence_id} - ${c.title}`)).setRequired(true);
+  if(fbChoices_(spec).length)checkpoint.setHelpText("Select one criterion for this observation, conversation or product. Use another capture if assessing a second criterion. General evidence has no approved rubric attached.");
   mapItem_(ss, form, checkpoint, spec, 'META-CHECKPOINT', 'Metadata', [], [], '', 'checkpoint');
 
   const level = form.addMultipleChoiceItem().setTitle('Current evidence level').setChoiceValues(TS.LEVELS).setRequired(true);
+  if(approvedRubrics.length)level.setHelpText('Judge only the selected criterion. IE means insufficient evidence. Support is recorded separately.\n\n'+fbGuidance_(approvedRubrics));
   mapItem_(ss, form, level, spec, 'META-LEVEL', 'Metadata', [], [], '', 'level');
 
   const independence = form.addMultipleChoiceItem().setTitle('Independence observed').setChoiceValues(TS.INDEPENDENCE).setRequired(true);
@@ -342,9 +346,10 @@ function onTeacherEvidenceSubmit(e) {
       if (meta) vals[meta.field_role] = stringifyResponse_(ir.getResponse());
     });
     const studentBits = (vals.student || '').split(' | ');
-    const checkpointId = (vals.checkpoint || '').split(' - ')[0];
+    const choice=fbSelection_(project.spec,vals.checkpoint,studentBits[2]);
+    const checkpointId = choice ? choice.checkpoint_id : (vals.checkpoint || '').split(' - ')[0];
     const cp = (project.spec.teacher_evidence?.checkpoints || []).find(c => c.evidence_id === checkpointId) || {};
-    appendEvidence_({timestamp: response.getTimestamp(), student_email: studentBits[1] || '', student_name: studentBits[0] || '', course_id: studentBits[2] || '', project_id: project.project_id, canonical_id: checkpointId, evidence_type: cp.evidence_type || 'Teacher evidence', skill_ids: (cp.skill_ids || []).join(';'), outcome_codes: (cp.outcome_codes || []).join(';'), response_value: vals.checkpoint || '', auto_score: '', level: vals.level || '', independence: vals.independence || '', teacher_note: vals.teacher_note || '', teacher_verified: true, source_form_id: form.getId(), source_response_id: response.getId()});
+    appendEvidence_({timestamp: response.getTimestamp(), student_email: studentBits[1] || '', student_name: studentBits[0] || '', course_id: studentBits[2] || '', project_id: project.project_id, canonical_id: checkpointId, evidence_type: cp.evidence_type || 'Teacher evidence', skill_ids: (choice && !choice.unbound ? choice.skill_ids : cp.skill_ids || []).join(';'), outcome_codes: (choice && !choice.unbound ? choice.outcome_codes : cp.outcome_codes || []).join(';'), rubric_context_json: fbContext_(project.spec,choice), response_value: vals.checkpoint || '', auto_score: '', level: vals.level || '', independence: vals.independence || '', teacher_note: vals.teacher_note || '', teacher_verified: true, source_form_id: form.getId(), source_response_id: response.getId()});
   } catch (err) { logError_('ERROR', err.stack || err.message, 'onTeacherEvidenceSubmit'); }
 }
 
@@ -589,7 +594,8 @@ function routeTeacherSpreadsheetSubmit_(e, ctx, sourceResponseId) {
   const note = getNamedValue_(named, 'Evidence note - what did the student actually do or explain?') || '';
 
   const studentBits = String(student).split(' | ');
-  const checkpointId = String(checkpoint).split(' - ')[0].trim();
+  const choice=fbSelection_(project.spec,checkpoint,studentBits[2]);
+  const checkpointId = choice ? choice.checkpoint_id : String(checkpoint).split(' - ')[0].trim();
 
   if (!checkpointId) throw new Error('Teacher submission did not contain an Evidence checkpoint.');
 
@@ -606,8 +612,9 @@ function routeTeacherSpreadsheetSubmit_(e, ctx, sourceResponseId) {
     project_id: ctx.project_id,
     canonical_id: checkpointId,
     evidence_type: cp.evidence_type || 'Teacher evidence',
-    skill_ids: (cp.skill_ids || []).join(';'),
-    outcome_codes: (cp.outcome_codes || []).join(';'),
+    skill_ids: (choice && !choice.unbound ? choice.skill_ids : cp.skill_ids || []).join(';'),
+    outcome_codes: (choice && !choice.unbound ? choice.outcome_codes : cp.outcome_codes || []).join(';'),
+    rubric_context_json: fbContext_(project.spec,choice),
     response_value: String(checkpoint),
     auto_score: '',
     level: String(level),
@@ -1226,12 +1233,19 @@ function getRoster_(ss, courseConfigs) {
 
 function appendEvidence_(obj) {
   const sh = SpreadsheetApp.getActive().getSheetByName(TS.SHEETS.EVIDENCE);
-  // Per-item idempotency permits recovery after a partially normalized response.
-  const rows=sh.getLastRow()>1?sh.getRange(2,1,sh.getLastRow()-1,17).getValues():[];
-  const exists=rows.some(r=>String(r[5])===String(obj.canonical_id)&&String(r[15])===String(obj.source_form_id)&&String(r[16])===String(obj.source_response_id));
-  if(!exists)sh.appendRow([obj.timestamp,obj.student_email,obj.student_name,obj.course_id,obj.project_id,obj.canonical_id,obj.evidence_type,obj.skill_ids,obj.outcome_codes,obj.response_value,obj.auto_score,obj.level,obj.independence,obj.teacher_note,obj.teacher_verified,obj.source_form_id,obj.source_response_id]);
+  // Existing responses keep their original context, even when a Form/spec changes later.
+  const rows=sh.getLastRow()>1?sh.getRange(2,1,sh.getLastRow()-1,18).getValues():[];
+  const existing=rows.find(r=>String(r[5])===String(obj.canonical_id)&&String(r[15])===String(obj.source_form_id)&&String(r[16])===String(obj.source_response_id));
+  if(existing){obj=Object.assign({},obj,{rubric_context_json:existing[17]||''});}
+  else {
+    if(obj.rubric_context_json){fbEventContext_(obj);fbEnsureLogContext_(sh);}
+    const row=[obj.timestamp,obj.student_email,obj.student_name,obj.course_id,obj.project_id,obj.canonical_id,obj.evidence_type,obj.skill_ids,obj.outcome_codes,obj.response_value,obj.auto_score,obj.level,obj.independence,obj.teacher_note,obj.teacher_verified,obj.source_form_id,obj.source_response_id];
+    if(obj.rubric_context_json)row.push(obj.rubric_context_json);
+    sh.appendRow(row);
+  }
   try { emOnEvidenceAppended_(obj); } catch (e) { logError_('WARN', e.message, 'emSync'); }
 }
+
 
 function scoreQuizItem_(itemResponse) {
   try { return itemResponse.getScore(); } catch (e) { return ''; }
