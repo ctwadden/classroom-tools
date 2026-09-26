@@ -17,7 +17,7 @@ import {
   getSetting, 
   setSetting 
 } from '../utils/indexedDb';
-import { evidenceBridge } from '../utils/evidenceBridge';
+import { evidenceBridge, readFieldLaunch, chooseFieldRubric } from '../utils/evidenceBridge';
 import { 
   Eye, 
   MessageSquare, 
@@ -65,7 +65,8 @@ export const ClassroomFieldCapture: React.FC<ClassroomFieldCaptureProps> = ({
   onNavigateToSync,
 }) => {
   // 1. Course Selection
-  const [selectedCourse, setSelectedCourse] = useState<CourseId>('MM12');
+  const launch = useRef(readFieldLaunch(window.location.search));
+  const [selectedCourse, setSelectedCourse] = useState<CourseId>(launch.current?.course || 'MM12');
   
   // 2. Roster and Selected Learner
   const [roster, setRoster] = useState<Learner[]>([]);
@@ -146,9 +147,9 @@ export const ClassroomFieldCapture: React.FC<ClassroomFieldCaptureProps> = ({
     if(d){setTeacherNote(d.teacherNote);setArtifactUrl(d.artifactUrl);setAchievementLevel(d.achievementLevel);setSupportContext(d.supportContext);setVoiceNoteId(d.voiceNoteId);setTranscriptText(d.transcriptText);setTranscriptReviewed(d.transcriptReviewed);setCommentDraftId(d.commentDraftId);setIsObservation(d.isObservation);setIsConversation(d.isConversation);setIsProduct(d.isProduct);}
   };
   const handleSelectLearner=(id:string)=>{stash();setSelectedLearnerId(id);restore(id,selectedRubricId,selectedCriterionId);};
-  const handleRubric=(id:string)=>{stash();const r=rubrics.find(r=>rubricKey(r)===id);const criterion=r?.criteria[0]?.id||'';setSelectedRubricId(id);setSelectedCriterionId(criterion);restore(selectedLearnerId,id,criterion);};
+  const handleRubric=(id:string)=>{launch.current=null;stash();const r=rubrics.find(r=>rubricKey(r)===id);const criterion=r?.criteria[0]?.id||'';setSelectedRubricId(id);setSelectedCriterionId(criterion);restore(selectedLearnerId,id,criterion);};
   const handleCriterion=(id:string)=>{stash();setSelectedCriterionId(id);restore(selectedLearnerId,selectedRubricId,id);};
-  const handleCourse=(course:CourseId)=>{if(course===selectedCourse)return;stash();activeCourse.current=course;++requestSequence.current;clearForm();setRoster([]);setRubrics([]);setSelectedLearnerId('');setSelectedRubricId('');setSelectedCriterionId('');setSearchStudent('');setLastRefreshedAt(null);setSelectedCourse(course);};
+  const handleCourse=(course:CourseId)=>{if(course===selectedCourse)return;launch.current=null;stash();activeCourse.current=course;++requestSequence.current;clearForm();setRoster([]);setRubrics([]);setSelectedLearnerId('');setSelectedRubricId('');setSelectedCriterionId('');setSearchStudent('');setLastRefreshedAt(null);setSelectedCourse(course);};
   async function noteCoverage(course:CourseId,serverEvents:any[]=[]){
     const local=[...await getPendingEvents(),...await getConfirmedEvents()];
     const today=new Date().toLocaleDateString('en-CA');
@@ -171,7 +172,9 @@ export const ClassroomFieldCapture: React.FC<ClassroomFieldCaptureProps> = ({
     setRoster(learners);setRubrics(available);
     const preference=await getSetting('active_rubric','');
     if(sequence!==requestSequence.current||activeCourse.current!==course)return;
-    const r=available.find(r=>rubricKey(r)===selectedRubricId)||available.find(r=>rubricKey(r)===preference)||available[0];
+    const requested=launch.current?.course===course?launch.current.rubricKey:undefined;
+    const r=chooseFieldRubric(available,requested,selectedRubricId,preference);
+    if(requested&&!r)setSnapshotNotice('The requested rubric version is not approved or available for this class. Refresh, or choose an available rubric explicitly.');
     const rid=r?rubricKey(r):'',cid=r?.criteria.find(c=>c.id===selectedCriterionId)?.id||r?.criteria[0]?.id||'';
     const lid=learners.find(l=>l.learner_id===selectedLearnerId)?.learner_id||learners[0]?.learner_id||'';
     if(lid!==selectedLearnerId||rid!==selectedRubricId||cid!==selectedCriterionId){stash();restore(lid,rid,cid,course);}
@@ -179,7 +182,9 @@ export const ClassroomFieldCapture: React.FC<ClassroomFieldCaptureProps> = ({
     await noteCoverage(course,serverEvents);
   };
   useEffect(()=>{
-    getSetting<CourseId>('active_course','MM12').then(c=>{if(c!==selectedCourse)handleCourse(c);});
+    if(!launch.current)getSetting<CourseId>('active_course','MM12').then(c=>{if(c!==selectedCourse)handleCourse(c);});
+    // Keep the selected context in state; future rubric-library navigation uses its own selection.
+    const url=new URL(window.location.href);['course','rubric','version'].forEach(k=>url.searchParams.delete(k));window.history.replaceState(null,'',url.pathname+url.search+url.hash);
     getPendingEvents().then(e=>setPendingCount(e.length));
     const on=()=>setIsOnline(true),off=()=>setIsOnline(false);
     window.addEventListener('online',on);window.addEventListener('offline',off);
@@ -929,8 +934,12 @@ export const ClassroomFieldCapture: React.FC<ClassroomFieldCaptureProps> = ({
           learner={currentStudent}
           courseId={selectedCourse}
           onSaved={async () => {
+            window.dispatchEvent(new Event('em-field-updated'));
+            if(navigator.onLine)await evidenceBridge.syncPendingQueue();
             const pending = await getPendingEvents();
             setPendingCount(pending.length);
+            setSuccessToast(pending.length ? 'Assessment saved on this device. Open Saved & pending to check delivery.' : 'Assessment sent to Evidence Map. Open Saved & pending to check the Google receipt.');
+            setTimeout(()=>setSuccessToast(null),6000);
           }}
         />
       )}

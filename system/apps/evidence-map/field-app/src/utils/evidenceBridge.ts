@@ -25,6 +25,20 @@ import {
 export const API_BASE_URL = 'https://outcome-evidence-map.netlify.app';
 export const API_PATH = '/.netlify/functions/evidence-bridge';
 
+export function readFieldLaunch(search: string): {course: CourseId; rubricKey?: string} | null {
+  const params = new URLSearchParams(search), course = params.get('course');
+  if (!['MM12', 'COM11', 'IBDS'].includes(course || '')) return null;
+  const id = params.get('rubric'), version = params.get('version');
+  return {course: course as CourseId, ...(id || version ? {rubricKey: id && version ? `${id}@${version}` : 'invalid-request'} : {})};
+}
+
+export function chooseFieldRubric(available: ApprovedRubric[], requested: string | undefined, selected: string, preference: string): ApprovedRubric | undefined {
+  const key = (r: ApprovedRubric) => `${r.id}@${r.version}`;
+  // A missing requested version must never silently open a different assessment.
+  if (requested) return available.find(r => key(r) === requested);
+  return available.find(r => key(r) === selected) || available.find(r => key(r) === preference) || available[0];
+}
+
 export interface BridgeStatus {
   online: boolean;
   authenticated: boolean;
