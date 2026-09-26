@@ -120,3 +120,11 @@ test('IBDS briefs preserve separate disciplinary and formal assessment rules', (
   assert.match(Core.workbookBrief(pkg),/local practice rubrics from official Paper\/IA instruments/);
   assert.equal(pkg.rubrics.some(r=>r.course==='MM12'),false);
 });
+
+test('iPad links retain course and exact approved assignment rubric, never a draft or foreign course',()=>{
+ const r={course:'IBDS',id:'IBDS-CASE',version:'2026.1',status:'approved',capture_ready:true};
+ const u=new URL(Core.fieldCaptureUrl('IBDS',r),'https://example.test');
+ assert.equal(u.pathname,'/field/');assert.equal(u.searchParams.get('course'),'IBDS');assert.equal(u.searchParams.get('rubric'),r.id);assert.equal(u.searchParams.get('version'),r.version);
+ assert.equal(Core.fieldCaptureUrl('IBDS',{...r,status:'draft'}),null);assert.equal(Core.fieldCaptureUrl('MM12',r),null);assert.equal(Core.fieldCaptureUrl('IBDS',{...r,capture_ready:false}),null);
+ assert.throws(()=>Core.fieldCaptureUrl('UNKNOWN'));
+});

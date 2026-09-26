@@ -118,7 +118,16 @@
       (s.course === 'IBDS' ? 'Use the Digital Society reasoning structure. Verify the current syllabus and distinguish local practice rubrics from official Paper/IA instruments. Include mechanism explanation, sources, analysis, alternatives and justified judgment; never fabricate an official paper or markscheme.\n' : 'Teach SELECT FIRST → ACTIONS → WHY → CHECK → FIX. Preserve the strong Truck Ad explanations and meaningful design decisions; do not merely reskin an unrelated workbook.\n') +
       '\n## Completion check\nA workbook file alone is not completion. Verify assets, links, instruction, timing, rubric alignment and return metadata. Evidence Map remains the main dashboard; Google owns roster and intake; /field/ captures against the same approved rubric. Report unfinished work honestly. No student records or credentials are included in this brief.\n';
   }
-  const api = { bands, methods, eligible, roster, summarise, reviewRows, reviewCSV, assignmentPackage, assignmentEvidence, workbookBrief };
+  function fieldCaptureUrl(course, rubric) {
+    if (!['MM12','COM11','IBDS'].includes(course)) throw new Error('Unknown course');
+    const params = new URLSearchParams({course});
+    if (rubric) {
+      if (rubric.course !== course || rubric.status !== 'approved' || !rubric.capture_ready || !rubric.id || !rubric.version) return null;
+      params.set('rubric', rubric.id); params.set('version', rubric.version);
+    }
+    return '/field/?' + params.toString();
+  }
+  const api = { fieldCaptureUrl, bands, methods, eligible, roster, summarise, reviewRows, reviewCSV, assignmentPackage, assignmentEvidence, workbookBrief };
   if (typeof module !== 'undefined' && module.exports) module.exports = api;
   else root.EvidenceDashboard = api;
 })(typeof globalThis !== 'undefined' ? globalThis : this);

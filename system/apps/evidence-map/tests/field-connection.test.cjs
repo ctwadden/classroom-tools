@@ -75,3 +75,10 @@ test('backup-storage quota failure preserves the pending capture',async()=>{
  await assert.rejects(context.confirm(event(),'a'.repeat(64)),/Quota/);
  assert.ok(data.has('pending_event_field_fixture_1'));
 });
+
+test('dashboard launch chooses the exact rubric version and never substitutes a different assessment',()=>{
+ const code=stripTypeScriptTypes(fs.readFileSync('field-app/src/utils/evidenceBridge.ts','utf8'),{mode:'strip'}).replace(/import\s+[\s\S]*?\sfrom\s+['"][^'"]+['"];?/g,'').replace(/\bexport\s+/g,'');const context={URLSearchParams};vm.runInNewContext(code+'\nthis.launch=readFieldLaunch;this.choose=chooseFieldRubric;',context);
+ const r={id:'IBDS-CASE',version:'v1'},newer={id:'IBDS-CASE',version:'v2'};const launch=context.launch('?course=IBDS&rubric=IBDS-CASE&version=v1');assert.equal(launch.course,'IBDS');assert.equal(launch.rubricKey,'IBDS-CASE@v1');
+ assert.equal(context.choose([r,newer],launch.rubricKey,'IBDS-CASE@v2',''),r);assert.equal(context.choose([newer],launch.rubricKey,'',''),undefined);
+ assert.equal(context.launch('?course=UNKNOWN'),null);assert.equal(context.choose([r],context.launch('?course=IBDS&rubric=IBDS-CASE').rubricKey,'',''),undefined);
+});
