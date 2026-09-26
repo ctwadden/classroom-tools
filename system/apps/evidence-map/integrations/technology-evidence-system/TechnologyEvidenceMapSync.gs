@@ -81,6 +81,8 @@ function emBuildEvent_(o){
     source_response_id: String(o.source_response_id||''),
     timestamp: (o.timestamp instanceof Date) ? o.timestamp.toISOString() : String(o.timestamp||'')
   };
+  const context=typeof fbEventContext_==='function'?fbEventContext_(o):null;
+  if(context){ev.rubric_id=context.rubric_id;ev.rubric_version=context.rubric_version;ev.criterion_id=context.criterion_id;ev.source_revision=3;}
   if(stream==='knowledge') Object.assign(ev, emKnowledge_(o.source_form_id, o.canonical_id, o.response_value));
   return ev;
 }
