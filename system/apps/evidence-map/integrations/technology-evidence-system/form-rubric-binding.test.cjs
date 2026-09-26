@@ -55,3 +55,9 @@ test('the Form includes the approved descriptors beside the level choice',()=>{
 test('pair generation validates approval before creating even the student Form',()=>{
  const c=setup();c.validateSpec_=()=>{};c.ecFetch_=()=>({rubrics:[]});let created=0;c.buildStudentForm_=()=>{created++;};assert.throws(()=>c.generateProjectForms_({},spec),/approved/);assert.equal(created,0);
 });
+test('release builds into an already restricted unpublished Form without creating another',()=>{
+ const c=setup(),items=[];const form={setDescription(){return this;},setProgressBar(){return this;},setConfirmationMessage(){return this;},addListItem(){return item();},addMultipleChoiceItem(){return item();},addParagraphTextItem(){return item();}};
+ function item(){const i={setTitle(v){this.title=v;return this;},setChoiceValues(v){this.choices=v;return this;},setRequired(){return this;},setHelpText(v){this.help=v;return this;}};items.push(i);return i;}
+ c.FormApp={create:()=>{throw Error('must reuse restricted Form');}};c.getRoster_=()=>[{name:'QA',email:'qa@example.invalid',course:'MM12'}];c.mapItem_=()=>{};c.attachFormDestination_=()=> 'QA responses';
+ const result=c.buildTeacherForm_({},spec,form);assert.equal(result.form,form);assert.equal(items.find(i=>i.title==='Evidence checkpoint').choices.length,15);assert.ok(items.find(i=>i.title==='Current evidence level').help.includes(approved.criteria[0].descriptors.Secure));
+});

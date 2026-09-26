@@ -87,7 +87,7 @@ versioned Form mapping; knowledge/reflection entries must remain distinct from
 teacher-confirmed achievement. The repaired receipt alone does not establish
 rubric alignment or academic competence.
 
-## Criterion-bound teacher Forms (prepared, not activated)
+## Criterion-bound teacher Forms
 
 `FormRubricBinding.gs` supports optional frozen `teacher_evidence.criterion_choices`
 in a Form specification. Each label selects exactly one course, checkpoint and
@@ -106,15 +106,37 @@ keep their original context on replay. Only bound O/C/P events use source revisi
 Knowledge, reflection, transfer candidates and support cannot acquire this context.
 Google provenance still does not confirm dashboard achievement.
 
-The proposed Truck Ad spec is in `teaching/reviews/Truck_Ad_forms-spec_v2_DRAFT.json`;
-the human review is `teaching/reviews/Truck_Ad_Rubric_Review.html`. It restores the
-workbook's existing TA-PRO-01 layered-product checkpoint, gives MM12 nine explicit
-criterion choices, and preserves six general COM11 choices. Neither draft is
-registered in the live source registry. The current student and teacher Forms
-remain active. Activate only after teacher review of MM12-TRUCK-AD-R1 version
-2026-09-25.2; generate/register only the replacement teacher Form so the existing
-student knowledge/reflection link is preserved. Then verify a designated new
-submission through the receipt and dashboard path.
+The original review is preserved in `teaching/reviews/Truck_Ad_Rubric_Review.html`
+and `Truck_Ad_forms-spec_v2_DRAFT.json`. Chad approved MM12-TRUCK-AD-R1 version
+2026-09-25.2 and its 15 choices on 25 September 2026. The approved teacher-only
+release is `teaching/reviews/Truck_Ad_teacher_release_v2.json`.
+
+`TeacherFormRelease.gs` provides guarded, manual preparation and activation. It
+builds an unpublished Form, restricts responder access to the school owner, verifies
+the exact approved rubric, then publishes and switches only the teacher registry.
+The existing student knowledge/reflection Form and historical responses remain.
+The teacher release has `teacher_form_version: 2.0`; the project `spec_version: 1`
+is deliberately retained so the unchanged student pair still satisfies the existing
+generator's reuse check. Do not regenerate the pair from the old source spec.
+The new teacher's frozen `SPEC_<form_id>` holds its exact criterion choices.
+
+Activated teacher Form: `1x2BEb_IQOiSqAk9lAbzGuT68cPKot1sWvXCRhGpBfek`,
+response tab `Form Responses 23` (gid 781008343). The preceding teacher Form is
+inactive and closed to new responses with a replacement notice; its responses
+remain intact. The student Form `1da4cFPV-iUuk5ay1uA9y9Ay0z0GMUk-fLLPO8bnzJ5A`
+is unchanged. COM11 retains six explicitly general evidence choices; approval of
+the MM12 rubric does not approve a COM11 rubric.
+
+A browser submission under `INTEGRATION QA — NOT A STUDENT` was traced from the
+response tab through Evidence_Log to the production dashboard on 25 September.
+It selected TA-QA-01 / TA-MM-C2, rubric 2026-09-25.2, IE, source revision 3.
+Receipt/event ID: `8ee694daa3ba9a1736582c7afaa565be856bc40795dc71d16f588cfc91348da0`.
+Revision: `7120977a619b1ac96721cb612681ef5102ccde192ee0bba521a2f6313de2fe22`.
+The unrostered QA record is intentionally retained and labelled; it has no band or
+confirmed judgment. Its temporary Form option was removed after the check. Never
+use the manual QA helpers as triggers or submit a test against a real student.
+The source field `teacher_verified` is provenance; normalization correctly keeps
+the dashboard `teacher_verified: false` until actual teacher review.
 
 Run `node --test integrations/technology-evidence-system/form-rubric-binding.test.cjs`
 for the binding contract and `node --test tests/*.test.cjs integrations/technology-evidence-system/*.test.cjs`

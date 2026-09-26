@@ -271,9 +271,9 @@ function addSkillReflectionBlock_(ss, form, spec, role, title, skills, growthOnl
   }
 }
 
-function buildTeacherForm_(ss, spec) {
+function buildTeacherForm_(ss, spec, preparedForm) {
   const approvedRubrics=fbPreflight_(spec)||[];
-  const form = FormApp.create(`${spec.project_title} - Teacher Evidence Capture`);
+  const form = preparedForm || FormApp.create(`${spec.project_title} - Teacher Evidence Capture`);
   form.setDescription('Fast teacher capture for Observation, Conversation and Product evidence. Student self-reports do not auto-confirm competency.');
   form.setProgressBar(true);
   form.setConfirmationMessage('Evidence saved.');
