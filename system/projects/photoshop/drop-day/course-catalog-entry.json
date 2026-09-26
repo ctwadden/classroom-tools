@@ -1,0 +1,63 @@
+{
+  "workbook_id": "PS-DROP-DAY",
+  "project_id": "PS-DROP-DAY",
+  "title": "Drop Day",
+  "subtitle": "Sneaker-launch graphic · Photoshop Bootcamp Classes 4–6",
+  "course_ids": [
+    "COM11",
+    "MM12"
+  ],
+  "module_by_course": {
+    "COM11": "M4",
+    "MM12": "M1"
+  },
+  "route_order": 20,
+  "type": "project",
+  "status": "published_unverified",
+  "visible": true,
+  "student_url": "https://ctwadden.github.io/multimedia-12/photoshop/studio/drop-day/",
+  "teacher_url": null,
+  "assessment_url": "https://script.google.com/a/macros/gnspes.ca/s/AKfycbxqHbAwEwbvdMrOGY4eP4Yu-z8PXqMsA-MfMGBFoTA5CoDbOA4sUv1LsXbYfFMWmrcP/exec?project=PS-DROP-DAY&type=student",
+  "coach_url": "https://gemini.google.com/gem/1ySXJPfNy0hCfESu8EzsD3vuexPiuKQKo?usp=sharing",
+  "video_status": "awaiting_recording",
+  "outcome_codes": [
+    "COM11-1.4",
+    "COM11-4.1",
+    "COM11-4.2",
+    "COM11-4.3",
+    "COM11-4.4",
+    "COM11-4.5",
+    "MM12-1.1",
+    "MM12-1.3",
+    "MM12-1.4",
+    "MM12-1.5",
+    "MM12-4.1"
+  ],
+  "evidence_ids": [
+    "DD-OBS-01",
+    "DD-CON-01",
+    "DD-OBS-02",
+    "DD-CON-02",
+    "DD-PRO-01",
+    "DD-PRO-02",
+    "DD-PRO-03",
+    "DD-QA-01",
+    "DD-TRF-01"
+  ],
+  "builds_on": [
+    "PS-BELOW-THE-SURFACE"
+  ],
+  "prepares_for": [
+    "PS-ON-THE-COVER",
+    "PS-BOOTCAMP-CHECK"
+  ],
+  "tags": [
+    "photoshop",
+    "bootcamp",
+    "retouching",
+    "masking",
+    "colour",
+    "typography",
+    "product-advertising"
+  ]
+}

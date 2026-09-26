@@ -1,0 +1,621 @@
+{
+  "schema_version": "1.0",
+  "project_id": "PS-DROP-DAY",
+  "video_title": "Drop Day — Complete Photoshop Bootcamp Build",
+  "version": "1.0",
+  "provider": "Scribe It / YouTube",
+  "status": "awaiting_recording",
+  "video_url": null,
+  "youtube_video_id": null,
+  "chapters": [
+    {
+      "chapter_id": "VID-DD-S01",
+      "project_step_id": "DD-S01",
+      "anchor": "step-1",
+      "title": "Open the product job and protect the source",
+      "planned_start": null,
+      "actual_start": null,
+      "actual_end": null,
+      "skill_ids": [
+        "PS-FND-01"
+      ],
+      "design_skill_ids": [],
+      "outcome_codes": [
+        "MM12-1.1",
+        "MM12-1.3",
+        "COM11-4.4"
+      ],
+      "evidence_ids": [
+        "DD-PRO-01"
+      ],
+      "refresher_links": []
+    },
+    {
+      "chapter_id": "VID-DD-S02",
+      "project_step_id": "DD-S02",
+      "anchor": "step-2",
+      "title": "Remove a small spot with automatic sampling",
+      "planned_start": null,
+      "actual_start": null,
+      "actual_end": null,
+      "skill_ids": [
+        "PS-RET-01",
+        "PS-BRS-01"
+      ],
+      "design_skill_ids": [],
+      "outcome_codes": [
+        "MM12-1.1",
+        "COM11-4.4"
+      ],
+      "evidence_ids": [],
+      "refresher_links": []
+    },
+    {
+      "chapter_id": "VID-DD-S03",
+      "project_step_id": "DD-S03",
+      "anchor": "step-3",
+      "title": "Choose your own sample for the thread repair",
+      "planned_start": null,
+      "actual_start": null,
+      "actual_end": null,
+      "skill_ids": [
+        "PS-RET-01",
+        "PS-BRS-01"
+      ],
+      "design_skill_ids": [],
+      "outcome_codes": [
+        "MM12-1.1",
+        "MM12-1.3",
+        "COM11-4.4"
+      ],
+      "evidence_ids": [
+        "DD-CON-01"
+      ],
+      "refresher_links": []
+    },
+    {
+      "chapter_id": "VID-DD-S04",
+      "project_step_id": "DD-S04",
+      "anchor": "step-4",
+      "title": "Rebuild the pale sole with Clone Stamp",
+      "planned_start": null,
+      "actual_start": null,
+      "actual_end": null,
+      "skill_ids": [
+        "PS-RET-01",
+        "PS-BRS-01"
+      ],
+      "design_skill_ids": [],
+      "outcome_codes": [
+        "MM12-1.1",
+        "MM12-1.3",
+        "COM11-4.4"
+      ],
+      "evidence_ids": [
+        "DD-OBS-01",
+        "DD-CON-01"
+      ],
+      "refresher_links": []
+    },
+    {
+      "chapter_id": "VID-DD-S05",
+      "project_step_id": "DD-S05",
+      "anchor": "step-5",
+      "title": "Make a selection of the whole shoe",
+      "planned_start": null,
+      "actual_start": null,
+      "actual_end": null,
+      "skill_ids": [
+        "PS-SEL-01"
+      ],
+      "design_skill_ids": [],
+      "outcome_codes": [
+        "MM12-1.1",
+        "COM11-4.4"
+      ],
+      "evidence_ids": [],
+      "refresher_links": []
+    },
+    {
+      "chapter_id": "VID-DD-S06",
+      "project_step_id": "DD-S06",
+      "anchor": "step-6",
+      "title": "Refine a manufactured edge—not hair",
+      "planned_start": null,
+      "actual_start": null,
+      "actual_end": null,
+      "skill_ids": [
+        "PS-SEL-01"
+      ],
+      "design_skill_ids": [],
+      "outcome_codes": [
+        "MM12-1.1",
+        "MM12-1.3",
+        "COM11-4.4"
+      ],
+      "evidence_ids": [],
+      "refresher_links": []
+    },
+    {
+      "chapter_id": "VID-DD-S07",
+      "project_step_id": "DD-S07",
+      "anchor": "step-7",
+      "title": "Mask the photograph and its repairs together",
+      "planned_start": null,
+      "actual_start": null,
+      "actual_end": null,
+      "skill_ids": [
+        "PS-LAY-01",
+        "PS-SEL-01"
+      ],
+      "design_skill_ids": [],
+      "outcome_codes": [
+        "MM12-1.1",
+        "MM12-1.3",
+        "COM11-4.4"
+      ],
+      "evidence_ids": [
+        "DD-PRO-01"
+      ],
+      "refresher_links": []
+    },
+    {
+      "chapter_id": "VID-DD-S08",
+      "project_step_id": "DD-S08",
+      "anchor": "step-8",
+      "title": "Start the advertisement with a clear document size",
+      "planned_start": null,
+      "actual_start": null,
+      "actual_end": null,
+      "skill_ids": [
+        "PS-FND-01",
+        "PS-OUT-01"
+      ],
+      "design_skill_ids": [
+        "GD-ALN-01"
+      ],
+      "outcome_codes": [
+        "MM12-1.3",
+        "COM11-4.4",
+        "COM11-4.5"
+      ],
+      "evidence_ids": [],
+      "refresher_links": []
+    },
+    {
+      "chapter_id": "VID-DD-S09",
+      "project_step_id": "DD-S09",
+      "anchor": "step-9",
+      "title": "Build the studio background and floor",
+      "planned_start": null,
+      "actual_start": null,
+      "actual_end": null,
+      "skill_ids": [
+        "PS-SHP-01",
+        "PS-ADJ-01",
+        "PS-DES-01"
+      ],
+      "design_skill_ids": [
+        "GD-COL-01",
+        "GD-HIE-01"
+      ],
+      "outcome_codes": [
+        "MM12-1.1",
+        "MM12-1.4",
+        "COM11-4.1",
+        "COM11-4.2",
+        "COM11-4.4"
+      ],
+      "evidence_ids": [],
+      "refresher_links": []
+    },
+    {
+      "chapter_id": "VID-DD-S10",
+      "project_step_id": "DD-S10",
+      "anchor": "step-10",
+      "title": "Add the accent disc and a soft display shadow",
+      "planned_start": null,
+      "actual_start": null,
+      "actual_end": null,
+      "skill_ids": [
+        "PS-SHP-01",
+        "PS-FLT-01",
+        "PS-BLD-02"
+      ],
+      "design_skill_ids": [
+        "GD-COL-01",
+        "GD-CON-01"
+      ],
+      "outcome_codes": [
+        "MM12-1.1",
+        "MM12-1.4",
+        "COM11-4.1",
+        "COM11-4.2",
+        "COM11-4.4"
+      ],
+      "evidence_ids": [],
+      "refresher_links": []
+    },
+    {
+      "chapter_id": "VID-DD-S11",
+      "project_step_id": "DD-S11",
+      "anchor": "step-11",
+      "title": "Construct a three-face product display",
+      "planned_start": null,
+      "actual_start": null,
+      "actual_end": null,
+      "skill_ids": [
+        "PS-SHP-01",
+        "PS-DES-01"
+      ],
+      "design_skill_ids": [
+        "GD-CON-01",
+        "GD-HIE-01"
+      ],
+      "outcome_codes": [
+        "MM12-1.1",
+        "MM12-1.4",
+        "COM11-4.1",
+        "COM11-4.4"
+      ],
+      "evidence_ids": [],
+      "refresher_links": []
+    },
+    {
+      "chapter_id": "VID-DD-S12",
+      "project_step_id": "DD-S12",
+      "anchor": "step-12",
+      "title": "Place the prepared shoe without flattening your work",
+      "planned_start": null,
+      "actual_start": null,
+      "actual_end": null,
+      "skill_ids": [
+        "PS-SMO-01",
+        "PS-TRN-01"
+      ],
+      "design_skill_ids": [],
+      "outcome_codes": [
+        "MM12-1.1",
+        "MM12-1.3",
+        "COM11-4.4"
+      ],
+      "evidence_ids": [],
+      "refresher_links": []
+    },
+    {
+      "chapter_id": "VID-DD-S13",
+      "project_step_id": "DD-S13",
+      "anchor": "step-13",
+      "title": "Add a broad ambient shadow beneath the shoe",
+      "planned_start": null,
+      "actual_start": null,
+      "actual_end": null,
+      "skill_ids": [
+        "PS-FLT-01",
+        "PS-BLD-02",
+        "PS-LGT-02"
+      ],
+      "design_skill_ids": [
+        "GD-CON-01"
+      ],
+      "outcome_codes": [
+        "MM12-1.1",
+        "MM12-1.4",
+        "COM11-4.1",
+        "COM11-4.4"
+      ],
+      "evidence_ids": [],
+      "refresher_links": []
+    },
+    {
+      "chapter_id": "VID-DD-S14",
+      "project_step_id": "DD-S14",
+      "anchor": "step-14",
+      "title": "Make contact at the heel and forefoot",
+      "planned_start": null,
+      "actual_start": null,
+      "actual_end": null,
+      "skill_ids": [
+        "PS-BRS-01",
+        "PS-BLD-02",
+        "PS-LGT-02"
+      ],
+      "design_skill_ids": [
+        "GD-CON-01"
+      ],
+      "outcome_codes": [
+        "MM12-1.1",
+        "MM12-1.4",
+        "COM11-4.1",
+        "COM11-4.4"
+      ],
+      "evidence_ids": [],
+      "refresher_links": []
+    },
+    {
+      "chapter_id": "VID-DD-S15",
+      "project_step_id": "DD-S15",
+      "anchor": "step-15",
+      "title": "Select the accent colour—not the whole product",
+      "planned_start": null,
+      "actual_start": null,
+      "actual_end": null,
+      "skill_ids": [
+        "PS-COL-01",
+        "PS-SEL-01"
+      ],
+      "design_skill_ids": [
+        "GD-COL-01"
+      ],
+      "outcome_codes": [
+        "MM12-1.1",
+        "COM11-4.2",
+        "COM11-4.4"
+      ],
+      "evidence_ids": [
+        "DD-OBS-02"
+      ],
+      "refresher_links": []
+    },
+    {
+      "chapter_id": "VID-DD-S16",
+      "project_step_id": "DD-S16",
+      "anchor": "step-16",
+      "title": "Create the teal colourway and a controlled contrast adjustment",
+      "planned_start": null,
+      "actual_start": null,
+      "actual_end": null,
+      "skill_ids": [
+        "PS-COL-01",
+        "PS-ADJ-01",
+        "PS-TON-01",
+        "PS-LAY-01"
+      ],
+      "design_skill_ids": [
+        "GD-COL-01",
+        "GD-CON-01"
+      ],
+      "outcome_codes": [
+        "MM12-1.1",
+        "MM12-1.4",
+        "COM11-4.1",
+        "COM11-4.2",
+        "COM11-4.4"
+      ],
+      "evidence_ids": [
+        "DD-OBS-02",
+        "DD-CON-02"
+      ],
+      "refresher_links": []
+    },
+    {
+      "chapter_id": "VID-DD-S17",
+      "project_step_id": "DD-S17",
+      "anchor": "step-17",
+      "title": "Build a live, outline headline",
+      "planned_start": null,
+      "actual_start": null,
+      "actual_end": null,
+      "skill_ids": [
+        "PS-TYP-01",
+        "PS-EFX-01"
+      ],
+      "design_skill_ids": [
+        "GD-HIE-01",
+        "GD-CON-01",
+        "GD-TYP-01"
+      ],
+      "outcome_codes": [
+        "MM12-1.1",
+        "MM12-1.4",
+        "MM12-1.5",
+        "COM11-4.1",
+        "COM11-4.3",
+        "COM11-4.4"
+      ],
+      "evidence_ids": [],
+      "refresher_links": []
+    },
+    {
+      "chapter_id": "VID-DD-S18",
+      "project_step_id": "DD-S18",
+      "anchor": "step-18",
+      "title": "Add the solid headline and the message",
+      "planned_start": null,
+      "actual_start": null,
+      "actual_end": null,
+      "skill_ids": [
+        "PS-TYP-01"
+      ],
+      "design_skill_ids": [
+        "GD-HIE-01",
+        "GD-ALN-01",
+        "GD-TYP-01"
+      ],
+      "outcome_codes": [
+        "MM12-1.4",
+        "MM12-1.5",
+        "MM12-4.1",
+        "COM11-1.4",
+        "COM11-4.1",
+        "COM11-4.3",
+        "COM11-4.4"
+      ],
+      "evidence_ids": [],
+      "refresher_links": []
+    },
+    {
+      "chapter_id": "VID-DD-S19",
+      "project_step_id": "DD-S19",
+      "anchor": "step-19",
+      "title": "Add the studio identity, rule and colour accents",
+      "planned_start": null,
+      "actual_start": null,
+      "actual_end": null,
+      "skill_ids": [
+        "PS-TYP-01",
+        "PS-SHP-01"
+      ],
+      "design_skill_ids": [
+        "GD-ALN-01",
+        "GD-REP-01",
+        "GD-COL-01",
+        "GD-BRD-01"
+      ],
+      "outcome_codes": [
+        "MM12-1.4",
+        "MM12-1.5",
+        "MM12-4.1",
+        "COM11-1.4",
+        "COM11-4.1",
+        "COM11-4.2",
+        "COM11-4.3",
+        "COM11-4.4"
+      ],
+      "evidence_ids": [],
+      "refresher_links": []
+    },
+    {
+      "chapter_id": "VID-DD-S20",
+      "project_step_id": "DD-S20",
+      "anchor": "step-20",
+      "title": "Complete the action panel and honest footer",
+      "planned_start": null,
+      "actual_start": null,
+      "actual_end": null,
+      "skill_ids": [
+        "PS-TYP-01",
+        "PS-SHP-01"
+      ],
+      "design_skill_ids": [
+        "GD-HIE-01",
+        "GD-CTA-01",
+        "GD-AUD-01"
+      ],
+      "outcome_codes": [
+        "MM12-1.5",
+        "MM12-4.1",
+        "COM11-1.4",
+        "COM11-4.3",
+        "COM11-4.4"
+      ],
+      "evidence_ids": [],
+      "refresher_links": []
+    },
+    {
+      "chapter_id": "VID-DD-S21",
+      "project_step_id": "DD-S21",
+      "anchor": "step-21",
+      "title": "Run the craft check before the revision",
+      "planned_start": null,
+      "actual_start": null,
+      "actual_end": null,
+      "skill_ids": [
+        "GEN-QA-01",
+        "PS-LAY-01",
+        "PS-SMO-01"
+      ],
+      "design_skill_ids": [
+        "GD-CRIT-01"
+      ],
+      "outcome_codes": [
+        "MM12-1.3",
+        "MM12-1.4",
+        "COM11-4.1",
+        "COM11-4.4"
+      ],
+      "evidence_ids": [
+        "DD-QA-01"
+      ],
+      "refresher_links": []
+    },
+    {
+      "chapter_id": "VID-DD-S22",
+      "project_step_id": "DD-S22",
+      "anchor": "step-22",
+      "title": "Respond to the client: create a coral colourway",
+      "planned_start": null,
+      "actual_start": null,
+      "actual_end": null,
+      "skill_ids": [
+        "PS-COL-01",
+        "PS-ADJ-01"
+      ],
+      "design_skill_ids": [
+        "GD-COL-01",
+        "GD-BRD-01",
+        "GD-AUD-01"
+      ],
+      "outcome_codes": [
+        "MM12-1.1",
+        "MM12-1.4",
+        "MM12-1.5",
+        "MM12-4.1",
+        "COM11-1.4",
+        "COM11-4.1",
+        "COM11-4.2",
+        "COM11-4.4"
+      ],
+      "evidence_ids": [
+        "DD-PRO-02"
+      ],
+      "refresher_links": []
+    },
+    {
+      "chapter_id": "VID-DD-S23",
+      "project_step_id": "DD-S23",
+      "anchor": "step-23",
+      "title": "Show that you understand the technique",
+      "planned_start": null,
+      "actual_start": null,
+      "actual_end": null,
+      "skill_ids": [
+        "PS-LAY-01",
+        "PS-COL-01",
+        "PS-TYP-01",
+        "GEN-EVD-01",
+        "GEN-QA-01"
+      ],
+      "design_skill_ids": [
+        "GD-CRIT-01",
+        "GD-AUD-01"
+      ],
+      "outcome_codes": [
+        "MM12-1.1",
+        "MM12-1.4",
+        "MM12-1.5",
+        "COM11-1.4",
+        "COM11-4.2",
+        "COM11-4.3",
+        "COM11-4.4"
+      ],
+      "evidence_ids": [
+        "DD-TRF-01",
+        "DD-CON-02"
+      ],
+      "refresher_links": []
+    },
+    {
+      "chapter_id": "VID-DD-S24",
+      "project_step_id": "DD-S24",
+      "anchor": "step-24",
+      "title": "Export, reopen and hand over the work",
+      "planned_start": null,
+      "actual_start": null,
+      "actual_end": null,
+      "skill_ids": [
+        "PS-OUT-01",
+        "GEN-QA-01"
+      ],
+      "design_skill_ids": [],
+      "outcome_codes": [
+        "MM12-1.3",
+        "COM11-4.5"
+      ],
+      "evidence_ids": [
+        "DD-PRO-03"
+      ],
+      "refresher_links": []
+    }
+  ]
+}

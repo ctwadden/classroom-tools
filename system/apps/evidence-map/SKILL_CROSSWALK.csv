@@ -1,0 +1,35 @@
+tutorial_skill_id,tutorial_label,family,evidence_skill_ids,outcome_codes,rung,notes
+PS-FND-01,"Interface, workspace, file organization",Foundation & Workflow,ct-image-software-layers,communications-technology-11-4-4;mm12-o1;mm12-o5,F,Umbrella tool competency (4.4). File-org has no 1:1 competency; MM join is outcome-only (no mm image skill).
+PS-LAY-01,Layers and layer masks,Non-destructive Construction,ct-image-software-layers,communications-technology-11-4-4;mm12-o1,F,MM = outcome-only.
+PS-ADJ-01,Adjustment layers,"Colour, Light & Integration",ct-image-software-layers;ct-color-wheel,communications-technology-11-4-4;communications-technology-11-4-2;mm12-o1,F,MM = outcome-only.
+PS-TON-01,Levels and Curves,"Colour, Light & Integration",ct-image-software-layers;ct-color-wheel,communications-technology-11-4-4;communications-technology-11-4-2;mm12-o1,I,MM = outcome-only.
+PS-COL-01,Colour replacement / control,"Colour, Light & Integration",ct-color-wheel;ct-image-software-layers,communications-technology-11-4-2;communications-technology-11-4-4;mm12-o1,F,MM = outcome-only.
+PS-SEL-01,Select Subject / Object Selection,Selection & Isolation,ct-image-software-layers,communications-technology-11-4-4;mm12-o1,F,MM = outcome-only.
+PS-BRS-01,Brush control,Foundation & Workflow,ct-image-software-layers,communications-technology-11-4-4;mm12-o1,F,No dedicated brush competency; rolls up to 4.4. MM = outcome-only.
+PS-SEL-02,Pen Tool selection,Selection & Isolation,ct-image-software-layers,communications-technology-11-4-4;mm12-o1,I,MM = outcome-only.
+PS-TRN-01,"Scale, rotate, align",Transform & Perspective,ct-image-software-layers;ct-design-principles,communications-technology-11-4-4;communications-technology-11-4-1;mm12-o1,F,Align touches design principles (4.1). MM = outcome-only.
+PS-TRN-02,Distort / Perspective / Warp,Transform & Perspective,ct-image-software-layers,communications-technology-11-4-4;mm12-o1,I,MM = outcome-only.
+PS-TYP-01,Photoshop type construction,Graphic Communication,ct-typography;ct-image-software-layers,communications-technology-11-4-3;communications-technology-11-4-4;mm12-o1,F,MM = outcome-only.
+PS-SMO-01,Smart Objects,Non-destructive Construction,ct-image-software-layers,communications-technology-11-4-4;mm12-o5;mm12-o1,I,Non-destructive process (1.5). MM = outcome-only.
+PS-BLD-01,Blend If,"Colour, Light & Integration",ct-image-software-layers,communications-technology-11-4-4;mm12-o1,I,MM = outcome-only.
+PS-BLD-02,Blending modes,"Colour, Light & Integration",ct-image-software-layers,communications-technology-11-4-4;mm12-o1,I,MM = outcome-only.
+PS-LGT-01,Dodge and Burn,"Colour, Light & Integration",ct-image-software-layers;ct-photo-lighting,communications-technology-11-4-4;communications-technology-11-2-3;mm12-o1,I,Also photography lighting (2.3). MM = outcome-only.
+PS-LGT-02,Match light and colour,"Colour, Light & Integration",ct-image-software-layers;ct-photo-lighting;ct-color-wheel,communications-technology-11-4-4;communications-technology-11-2-3;communications-technology-11-4-2;mm12-o1,I,Compositing integration. MM = outcome-only.
+PS-RET-01,Clone Stamp,Retouching & Effects,ct-image-software-layers,communications-technology-11-4-4;mm12-o1,F,Retouching rolls up to 4.4. MM = outcome-only.
+PS-CAM-01,Adobe Camera Raw,"Colour, Light & Integration",ct-photo-camera;ct-image-software-layers,communications-technology-11-2-1;communications-technology-11-4-4;mm12-o1,I,Closest to camera capture (2.1). MM = outcome-only.
+PS-FLT-01,Filters and Smart Filters,Retouching & Effects,ct-image-software-layers,communications-technology-11-4-4;mm12-o5,I,Smart Filters -> 1.5 process. MM = outcome-only.
+PS-DES-01,Visual hierarchy and composition in Photoshop,Graphic Communication,ct-design-principles;ct-compose-message,communications-technology-11-4-1;communications-technology-11-4-4;mm12-o4,I,Design principles applied in-tool; audience (1.4). MM = outcome-only.
+PS-OUT-01,Web/export settings,Output & Delivery,ct-export-output,communications-technology-11-4-5;mm12-o5,F,Output competency (4.5). MM = outcome-only.
+GD-CON-01,Contrast,Bootcamp,ct-design-principles,communications-technology-11-4-1,F,Confirmed vs DESIGN_FOUNDATIONS_SKILLS.md.
+GD-HIE-01,Visual hierarchy,Bootcamp,ct-design-principles;ct-compose-message,communications-technology-11-4-1;communications-technology-11-4-4,F,
+GD-ALN-01,Alignment,Bootcamp,ct-design-principles,communications-technology-11-4-1,F,
+GD-PRO-01,Proximity / grouping,Bootcamp,ct-design-principles,communications-technology-11-4-1,F,Was not in the original map list; added from registry.
+GD-REP-01,Repetition / consistency,Bootcamp,ct-design-principles,communications-technology-11-4-1,F,
+GD-COL-01,Colour relationships and readability,Bootcamp,ct-color-wheel,communications-technology-11-4-2,F,
+GD-TYP-01,Typography as communication,Bootcamp,ct-typography,communications-technology-11-4-3,F,
+GD-AUD-01,Audience and purpose,Guided Projects,ct-design-brief;ct-compose-message,communications-technology-11-1-4;communications-technology-11-4-4,G,Audience/purpose = design brief (1.4).
+GD-MET-01,Visual metaphor,Guided Projects,ct-compose-message,communications-technology-11-4-4,G,Communicate a message (4.4).
+GD-BRD-01,Brand consistency,Client/Branding,ct-brand-identity,communications-technology-11-4-4;communications-technology-11-4-1,I,Added from registry. Brand identity competency (I).
+GD-DEM-01,Demographic fit,Client/Branding,ct-design-brief,communications-technology-11-1-4,I,Added from registry. Audience evidence -> design brief (1.4).
+GD-CTA-01,Message / call to action,Client/Branding,ct-compose-message,communications-technology-11-4-4,I,Added from registry.
+GD-CRIT-01,Critique and revision,All stages,ct-design-iterate;ct-design-defend,communications-technology-11-1-4,I,Iterate (G) + defend (I).

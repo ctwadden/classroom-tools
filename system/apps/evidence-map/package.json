@@ -1,0 +1,9 @@
+{
+  "name": "outcome-evidence-map",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Outcome Evidence Map — Netlify app + learning-event ingest.",
+  "dependencies": {
+    "@netlify/blobs": "^8.0.0"
+  }
+}

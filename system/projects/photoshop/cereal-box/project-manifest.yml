@@ -1,0 +1,88 @@
+id: PS-CEREAL-BOX
+title: DINO LOOPS - Cereal Box Packaging
+software: Photoshop
+stage: guided_advertising_build
+status: release_candidate_unverified
+industry_connection:
+  title: OffLimits
+  studio: Pentagram
+  source: https://www.pentagram.com/work/offlimits
+  teaching_connection: Packaging uses characters, typography, colour and repeated
+    rules to create a recognizable brand personality across products.
+client_simulation:
+  client: DINO LOOPS
+  audience: A fictional cereal shopper defined by the teacher/student brief
+  message: Playful, energetic cereal with a distinct character-led brand world
+courses:
+- course_id: MM12
+  primary_outcomes:
+  - '1.1'
+  - '1.4'
+  - '1.5'
+  supporting_outcomes:
+  - '1.3'
+  - '4.1'
+skills:
+  prerequisites:
+  - PS-FND-01
+  - PS-LAY-01
+  - PS-TRN-01
+  - PS-TYP-01
+  new:
+  - PS-SHP-01
+  - PS-EFX-01
+  reinforced:
+  - PS-SMO-01
+  - PS-FLT-01
+  - PS-TRN-02
+  - PS-LGT-02
+  - PS-DES-01
+  - PS-OUT-01
+  - GD-HIE-01
+  - GD-COL-01
+  - GD-TYP-01
+  - GD-BRD-01
+  - GD-AUD-01
+  - GD-CRIT-01
+evidence:
+  observation:
+  - CB-OBS-01
+  - CB-OBS-02
+  - CB-OBS-03
+  conversation:
+  - CB-CON-01
+  - CB-CON-02
+  product:
+  - CB-PRO-01
+  - CB-PRO-02
+  - CB-PRO-03
+  reflection:
+  - CB-REF-01
+  transfer:
+  - CB-TRF-01
+assessment:
+  pack_id: CB-AP-01
+  forms_spec: assessment/forms-spec.json
+  google_forms: true
+release_blockers:
+- Run a quick installed-school-Photoshop preflight for current Shape/Layer Style/Smart
+  Object menu labels.
+resources:
+  workbook_html: workbook.html
+  step_map: Step_Map.csv
+  video_manifest: video-manifest.json
+  video_contract: ../../../integration/VIDEO_WORKBOOK_CONTRACT.md
+steps:
+  core_count: 40
+  project_step_id_range: CB-S01..CB-S40
+  anchor_range: '#step-1..#step-40'
+video:
+  status: awaiting_recording
+  provider: Scribe It / YouTube
+  manifest: video-manifest.json
+  contract: ../../../integration/VIDEO_WORKBOOK_CONTRACT.md
+  video_url: null
+qa:
+  truck_standard_layout_lock: true
+  video_alignment_metadata: true
+  verified: false

@@ -1,0 +1,909 @@
+{
+  "schema_version": "truck-video.1",
+  "project_id": "PS-TURTLE-KINGDOM",
+  "video_title": "Turtle Kingdom — Video Companion",
+  "version": "1.0.0",
+  "provider": "YouTube / Scribe It",
+  "status": "awaiting_recording",
+  "video_url": null,
+  "youtube_video_id": null,
+  "chapters": [
+    {
+      "chapter_id": "VID-TK-S01",
+      "project_step_id": "TK-S01",
+      "anchor": "step-1",
+      "title": "Read the scene and collect the assets",
+      "planned_start": null,
+      "actual_start": null,
+      "actual_end": null,
+      "skill_ids": [
+        "PS-FND-01",
+        "PS-SEL-01",
+        "PS-LAY-01",
+        "PS-LGT-02",
+        "PS-OUT-01"
+      ],
+      "design_skill_ids": [
+        "GD-HIE-01",
+        "GD-MET-01",
+        "GD-CRIT-01"
+      ],
+      "evidence_ids": [],
+      "refresher_links": []
+    },
+    {
+      "chapter_id": "VID-TK-S02",
+      "project_step_id": "TK-S02",
+      "anchor": "step-2",
+      "title": "Create a manageable master document",
+      "planned_start": null,
+      "actual_start": null,
+      "actual_end": null,
+      "skill_ids": [
+        "PS-FND-01",
+        "PS-SEL-01",
+        "PS-LAY-01",
+        "PS-TRN-01",
+        "PS-LGT-02",
+        "PS-FLT-01",
+        "PS-DES-01"
+      ],
+      "design_skill_ids": [
+        "GD-ALN-01",
+        "GD-COL-01",
+        "GD-MET-01",
+        "GD-CRIT-01"
+      ],
+      "evidence_ids": [],
+      "refresher_links": []
+    },
+    {
+      "chapter_id": "VID-TK-S03",
+      "project_step_id": "TK-S03",
+      "anchor": "step-3",
+      "title": "Place the ocean without distorting it",
+      "planned_start": null,
+      "actual_start": null,
+      "actual_end": null,
+      "skill_ids": [
+        "PS-SEL-01",
+        "PS-LAY-01",
+        "PS-SMO-01",
+        "PS-TRN-01",
+        "PS-TRN-02"
+      ],
+      "design_skill_ids": [
+        "GD-COL-01",
+        "GD-CRIT-01",
+        "GD-REP-01"
+      ],
+      "evidence_ids": [],
+      "refresher_links": []
+    },
+    {
+      "chapter_id": "VID-TK-S04",
+      "project_step_id": "TK-S04",
+      "anchor": "step-4",
+      "title": "Mask the old sky, not the water",
+      "planned_start": null,
+      "actual_start": null,
+      "actual_end": null,
+      "skill_ids": [
+        "PS-SEL-01",
+        "PS-LAY-01",
+        "PS-TRN-01",
+        "PS-BLD-02"
+      ],
+      "design_skill_ids": [
+        "GD-CRIT-01"
+      ],
+      "evidence_ids": [],
+      "refresher_links": []
+    },
+    {
+      "chapter_id": "VID-TK-S05",
+      "project_step_id": "TK-S05",
+      "anchor": "step-5",
+      "title": "Fit the dramatic sky behind the horizon",
+      "planned_start": null,
+      "actual_start": null,
+      "actual_end": null,
+      "skill_ids": [
+        "PS-FND-01",
+        "PS-SEL-01",
+        "PS-LAY-01",
+        "PS-TRN-01",
+        "PS-LGT-02",
+        "PS-TYP-01",
+        "PS-SHP-01"
+      ],
+      "design_skill_ids": [
+        "GD-COL-01",
+        "GD-TYP-01",
+        "GD-CRIT-01"
+      ],
+      "evidence_ids": [],
+      "refresher_links": []
+    },
+    {
+      "chapter_id": "VID-TK-S06",
+      "project_step_id": "TK-S06",
+      "anchor": "step-6",
+      "title": "Bring the sea into the same colour family",
+      "planned_start": null,
+      "actual_start": null,
+      "actual_end": null,
+      "skill_ids": [
+        "PS-SEL-01",
+        "PS-LAY-01",
+        "PS-TRN-01",
+        "PS-TON-01",
+        "PS-LGT-02",
+        "PS-FLT-01",
+        "PS-TYP-01"
+      ],
+      "design_skill_ids": [
+        "GD-COL-01",
+        "GD-TYP-01",
+        "GD-CRIT-01",
+        "GD-CON-01",
+        "GD-REP-01"
+      ],
+      "evidence_ids": [],
+      "refresher_links": []
+    },
+    {
+      "chapter_id": "VID-TK-S07",
+      "project_step_id": "TK-S07",
+      "anchor": "step-7",
+      "title": "Select the turtle in its original photograph",
+      "planned_start": null,
+      "actual_start": null,
+      "actual_end": null,
+      "skill_ids": [
+        "PS-FND-01",
+        "PS-SEL-01",
+        "PS-LAY-01",
+        "PS-SMO-01",
+        "PS-TRN-01",
+        "PS-SHP-01"
+      ],
+      "design_skill_ids": [
+        "GD-CRIT-01"
+      ],
+      "evidence_ids": [],
+      "refresher_links": []
+    },
+    {
+      "chapter_id": "VID-TK-S08",
+      "project_step_id": "TK-S08",
+      "anchor": "step-8",
+      "title": "Refine the hard edges without losing anatomy",
+      "planned_start": null,
+      "actual_start": null,
+      "actual_end": null,
+      "skill_ids": [
+        "PS-SEL-01",
+        "PS-LAY-01",
+        "PS-TRN-01",
+        "PS-FLT-01"
+      ],
+      "design_skill_ids": [
+        "GD-COL-01",
+        "GD-CRIT-01",
+        "GD-CON-01"
+      ],
+      "evidence_ids": [
+        "TK-OBS-01"
+      ],
+      "refresher_links": []
+    },
+    {
+      "chapter_id": "VID-TK-S09",
+      "project_step_id": "TK-S09",
+      "anchor": "step-9",
+      "title": "Place the turtle at the intended scale",
+      "planned_start": null,
+      "actual_start": null,
+      "actual_end": null,
+      "skill_ids": [
+        "PS-SEL-01",
+        "PS-LAY-01",
+        "PS-TRN-01",
+        "PS-LGT-02",
+        "PS-SHP-01",
+        "PS-DES-01"
+      ],
+      "design_skill_ids": [
+        "GD-MET-01",
+        "GD-CRIT-01"
+      ],
+      "evidence_ids": [],
+      "refresher_links": []
+    },
+    {
+      "chapter_id": "VID-TK-S10",
+      "project_step_id": "TK-S10",
+      "anchor": "step-10",
+      "title": "Add a close contact shadow under the turtle",
+      "planned_start": null,
+      "actual_start": null,
+      "actual_end": null,
+      "skill_ids": [
+        "PS-SEL-01",
+        "PS-LAY-01",
+        "PS-TRN-01",
+        "PS-BLD-02",
+        "PS-TON-01",
+        "PS-LGT-02",
+        "PS-FLT-01",
+        "PS-SHP-01"
+      ],
+      "design_skill_ids": [
+        "GD-COL-01",
+        "GD-CRIT-01",
+        "GD-CON-01"
+      ],
+      "evidence_ids": [],
+      "refresher_links": []
+    },
+    {
+      "chapter_id": "VID-TK-S11",
+      "project_step_id": "TK-S11",
+      "anchor": "step-11",
+      "title": "Match the turtle before hiding part of its shell",
+      "planned_start": null,
+      "actual_start": null,
+      "actual_end": null,
+      "skill_ids": [
+        "PS-FND-01",
+        "PS-SEL-01",
+        "PS-LAY-01",
+        "PS-TRN-01",
+        "PS-BLD-02",
+        "PS-TON-01",
+        "PS-LGT-02"
+      ],
+      "design_skill_ids": [
+        "GD-COL-01",
+        "GD-CRIT-01",
+        "GD-CON-01"
+      ],
+      "evidence_ids": [],
+      "refresher_links": []
+    },
+    {
+      "chapter_id": "VID-TK-S12",
+      "project_step_id": "TK-S12",
+      "anchor": "step-12",
+      "title": "Extract a useful patch of real sand",
+      "planned_start": null,
+      "actual_start": null,
+      "actual_end": null,
+      "skill_ids": [
+        "PS-FND-01",
+        "PS-SEL-01",
+        "PS-LAY-01",
+        "PS-TRN-01",
+        "PS-TON-01",
+        "PS-LGT-02",
+        "PS-RET-01",
+        "PS-FLT-01"
+      ],
+      "design_skill_ids": [
+        "GD-CRIT-01",
+        "GD-CON-01"
+      ],
+      "evidence_ids": [],
+      "refresher_links": []
+    },
+    {
+      "chapter_id": "VID-TK-S13",
+      "project_step_id": "TK-S13",
+      "anchor": "step-13",
+      "title": "Shape the texture to the shell’s surface",
+      "planned_start": null,
+      "actual_start": null,
+      "actual_end": null,
+      "skill_ids": [
+        "PS-SEL-01",
+        "PS-LAY-01",
+        "PS-TRN-01",
+        "PS-TRN-02",
+        "PS-FLT-01",
+        "PS-SHP-01"
+      ],
+      "design_skill_ids": [
+        "GD-ALN-01",
+        "GD-CRIT-01"
+      ],
+      "evidence_ids": [
+        "TK-OBS-02"
+      ],
+      "refresher_links": []
+    },
+    {
+      "chapter_id": "VID-TK-S14",
+      "project_step_id": "TK-S14",
+      "anchor": "step-14",
+      "title": "Mask the sand to the upper shell",
+      "planned_start": null,
+      "actual_start": null,
+      "actual_end": null,
+      "skill_ids": [
+        "PS-SEL-01",
+        "PS-LAY-01",
+        "PS-TRN-01",
+        "PS-LGT-02",
+        "PS-SHP-01"
+      ],
+      "design_skill_ids": [
+        "GD-CRIT-01"
+      ],
+      "evidence_ids": [],
+      "refresher_links": []
+    },
+    {
+      "chapter_id": "VID-TK-S15",
+      "project_step_id": "TK-S15",
+      "anchor": "step-15",
+      "title": "Give the sand platform light and volume",
+      "planned_start": null,
+      "actual_start": null,
+      "actual_end": null,
+      "skill_ids": [
+        "PS-SEL-01",
+        "PS-LAY-01",
+        "PS-TRN-01",
+        "PS-TON-01",
+        "PS-LGT-02",
+        "PS-FLT-01"
+      ],
+      "design_skill_ids": [
+        "GD-COL-01",
+        "GD-CRIT-01",
+        "GD-CON-01"
+      ],
+      "evidence_ids": [],
+      "refresher_links": []
+    },
+    {
+      "chapter_id": "VID-TK-S16",
+      "project_step_id": "TK-S16",
+      "anchor": "step-16",
+      "title": "Start the main castle mask",
+      "planned_start": null,
+      "actual_start": null,
+      "actual_end": null,
+      "skill_ids": [
+        "PS-FND-01",
+        "PS-SEL-01",
+        "PS-LAY-01",
+        "PS-SMO-01",
+        "PS-TRN-01",
+        "PS-FLT-01",
+        "PS-SHP-01"
+      ],
+      "design_skill_ids": [
+        "GD-MET-01",
+        "GD-CRIT-01"
+      ],
+      "evidence_ids": [],
+      "refresher_links": []
+    },
+    {
+      "chapter_id": "VID-TK-S17",
+      "project_step_id": "TK-S17",
+      "anchor": "step-17",
+      "title": "Remove blue sky between the turrets",
+      "planned_start": null,
+      "actual_start": null,
+      "actual_end": null,
+      "skill_ids": [
+        "PS-SEL-01",
+        "PS-LAY-01",
+        "PS-TRN-01",
+        "PS-TON-01",
+        "PS-LGT-02",
+        "PS-RET-01"
+      ],
+      "design_skill_ids": [
+        "GD-COL-01",
+        "GD-MET-01",
+        "GD-CRIT-01",
+        "GD-CON-01"
+      ],
+      "evidence_ids": [],
+      "refresher_links": []
+    },
+    {
+      "chapter_id": "VID-TK-S18",
+      "project_step_id": "TK-S18",
+      "anchor": "step-18",
+      "title": "Clean, trim and save the main castle",
+      "planned_start": null,
+      "actual_start": null,
+      "actual_end": null,
+      "skill_ids": [
+        "PS-SEL-01",
+        "PS-LAY-01",
+        "PS-TRN-01",
+        "PS-LGT-02",
+        "PS-TYP-01",
+        "PS-SHP-01"
+      ],
+      "design_skill_ids": [
+        "GD-COL-01",
+        "GD-TYP-01",
+        "GD-MET-01",
+        "GD-CRIT-01",
+        "GD-CON-01"
+      ],
+      "evidence_ids": [],
+      "refresher_links": []
+    },
+    {
+      "chapter_id": "VID-TK-S19",
+      "project_step_id": "TK-S19",
+      "anchor": "step-19",
+      "title": "Place the main castle on the shell",
+      "planned_start": null,
+      "actual_start": null,
+      "actual_end": null,
+      "skill_ids": [
+        "PS-SEL-01",
+        "PS-LAY-01",
+        "PS-TRN-01",
+        "PS-TRN-02",
+        "PS-LGT-02",
+        "PS-SHP-01",
+        "PS-DES-01"
+      ],
+      "design_skill_ids": [
+        "GD-HIE-01",
+        "GD-MET-01",
+        "GD-CRIT-01"
+      ],
+      "evidence_ids": [],
+      "refresher_links": []
+    },
+    {
+      "chapter_id": "VID-TK-S20",
+      "project_step_id": "TK-S20",
+      "anchor": "step-20",
+      "title": "Blend the castle’s base into the sand",
+      "planned_start": null,
+      "actual_start": null,
+      "actual_end": null,
+      "skill_ids": [
+        "PS-SEL-01",
+        "PS-LAY-01",
+        "PS-TRN-01"
+      ],
+      "design_skill_ids": [
+        "GD-ALN-01",
+        "GD-COL-01",
+        "GD-MET-01",
+        "GD-CRIT-01"
+      ],
+      "evidence_ids": [],
+      "refresher_links": []
+    },
+    {
+      "chapter_id": "VID-TK-S21",
+      "project_step_id": "TK-S21",
+      "anchor": "step-21",
+      "title": "Extract the twin-tower gate and its opening",
+      "planned_start": null,
+      "actual_start": null,
+      "actual_end": null,
+      "skill_ids": [
+        "PS-FND-01",
+        "PS-SEL-01",
+        "PS-LAY-01",
+        "PS-SMO-01",
+        "PS-TRN-01",
+        "PS-BLD-02",
+        "PS-SHP-01"
+      ],
+      "design_skill_ids": [
+        "GD-COL-01",
+        "GD-MET-01",
+        "GD-CRIT-01",
+        "GD-CON-01"
+      ],
+      "evidence_ids": [],
+      "refresher_links": []
+    },
+    {
+      "chapter_id": "VID-TK-S22",
+      "project_step_id": "TK-S22",
+      "anchor": "step-22",
+      "title": "Arrange gates at two different depths",
+      "planned_start": null,
+      "actual_start": null,
+      "actual_end": null,
+      "skill_ids": [
+        "PS-FND-01",
+        "PS-SEL-01",
+        "PS-LAY-01",
+        "PS-SMO-01",
+        "PS-TRN-01",
+        "PS-TON-01",
+        "PS-LGT-02",
+        "PS-SHP-01",
+        "PS-DES-01"
+      ],
+      "design_skill_ids": [
+        "GD-HIE-01",
+        "GD-ALN-01",
+        "GD-MET-01",
+        "GD-CRIT-01",
+        "GD-CON-01"
+      ],
+      "evidence_ids": [],
+      "refresher_links": []
+    },
+    {
+      "chapter_id": "VID-TK-S23",
+      "project_step_id": "TK-S23",
+      "anchor": "step-23",
+      "title": "Paint restrained shadows at the building feet",
+      "planned_start": null,
+      "actual_start": null,
+      "actual_end": null,
+      "skill_ids": [
+        "PS-SEL-01",
+        "PS-LAY-01",
+        "PS-BLD-02",
+        "PS-LGT-02",
+        "PS-FLT-01"
+      ],
+      "design_skill_ids": [
+        "GD-MET-01",
+        "GD-CRIT-01",
+        "GD-CON-01"
+      ],
+      "evidence_ids": [],
+      "refresher_links": []
+    },
+    {
+      "chapter_id": "VID-TK-S24",
+      "project_step_id": "TK-S24",
+      "anchor": "step-24",
+      "title": "Match the castle pieces to one another",
+      "planned_start": null,
+      "actual_start": null,
+      "actual_end": null,
+      "skill_ids": [
+        "PS-SEL-01",
+        "PS-LAY-01",
+        "PS-TRN-01",
+        "PS-TON-01",
+        "PS-LGT-02"
+      ],
+      "design_skill_ids": [
+        "GD-COL-01",
+        "GD-MET-01",
+        "GD-CRIT-01",
+        "GD-CON-01",
+        "GD-REP-01"
+      ],
+      "evidence_ids": [],
+      "refresher_links": []
+    },
+    {
+      "chapter_id": "VID-TK-S25",
+      "project_step_id": "TK-S25",
+      "anchor": "step-25",
+      "title": "Prepare the cracked-earth foreground",
+      "planned_start": null,
+      "actual_start": null,
+      "actual_end": null,
+      "skill_ids": [
+        "PS-FND-01",
+        "PS-SEL-01",
+        "PS-LAY-01",
+        "PS-TRN-01",
+        "PS-TON-01",
+        "PS-LGT-02",
+        "PS-SHP-01"
+      ],
+      "design_skill_ids": [
+        "GD-COL-01",
+        "GD-CRIT-01"
+      ],
+      "evidence_ids": [],
+      "refresher_links": []
+    },
+    {
+      "chapter_id": "VID-TK-S26",
+      "project_step_id": "TK-S26",
+      "anchor": "step-26",
+      "title": "Make an irregular land-to-shore transition",
+      "planned_start": null,
+      "actual_start": null,
+      "actual_end": null,
+      "skill_ids": [
+        "PS-SEL-01",
+        "PS-LAY-01",
+        "PS-TRN-01",
+        "PS-LGT-02",
+        "PS-FLT-01",
+        "PS-DES-01"
+      ],
+      "design_skill_ids": [
+        "GD-CRIT-01",
+        "GD-CON-01",
+        "GD-REP-01"
+      ],
+      "evidence_ids": [],
+      "refresher_links": []
+    },
+    {
+      "chapter_id": "VID-TK-S27",
+      "project_step_id": "TK-S27",
+      "anchor": "step-27",
+      "title": "Harvest real foam from the ocean image",
+      "planned_start": null,
+      "actual_start": null,
+      "actual_end": null,
+      "skill_ids": [
+        "PS-SEL-01",
+        "PS-LAY-01",
+        "PS-TRN-01",
+        "PS-BLD-02",
+        "PS-TON-01",
+        "PS-LGT-02",
+        "PS-TYP-01"
+      ],
+      "design_skill_ids": [
+        "GD-COL-01",
+        "GD-TYP-01",
+        "GD-MET-01",
+        "GD-CRIT-01",
+        "GD-CON-01",
+        "GD-REP-01"
+      ],
+      "evidence_ids": [],
+      "refresher_links": []
+    },
+    {
+      "chapter_id": "VID-TK-S28",
+      "project_step_id": "TK-S28",
+      "anchor": "step-28",
+      "title": "Use split Blend If to remove darker water",
+      "planned_start": null,
+      "actual_start": null,
+      "actual_end": null,
+      "skill_ids": [
+        "PS-SEL-01",
+        "PS-LAY-01",
+        "PS-TRN-01",
+        "PS-BLD-02",
+        "PS-TON-01",
+        "PS-EFX-01"
+      ],
+      "design_skill_ids": [
+        "GD-CRIT-01",
+        "GD-CON-01"
+      ],
+      "evidence_ids": [],
+      "refresher_links": []
+    },
+    {
+      "chapter_id": "VID-TK-S29",
+      "project_step_id": "TK-S29",
+      "anchor": "step-29",
+      "title": "Reveal foam only where surfaces overlap",
+      "planned_start": null,
+      "actual_start": null,
+      "actual_end": null,
+      "skill_ids": [
+        "PS-SEL-01",
+        "PS-LAY-01",
+        "PS-TRN-01",
+        "PS-BLD-02",
+        "PS-LGT-02",
+        "PS-FLT-01"
+      ],
+      "design_skill_ids": [
+        "GD-CRIT-01",
+        "GD-REP-01"
+      ],
+      "evidence_ids": [],
+      "refresher_links": []
+    },
+    {
+      "chapter_id": "VID-TK-S30",
+      "project_step_id": "TK-S30",
+      "anchor": "step-30",
+      "title": "Separate distance with subtle horizon haze",
+      "planned_start": null,
+      "actual_start": null,
+      "actual_end": null,
+      "skill_ids": [
+        "PS-SEL-01",
+        "PS-LAY-01",
+        "PS-TRN-01",
+        "PS-BLD-02",
+        "PS-LGT-02",
+        "PS-FLT-01"
+      ],
+      "design_skill_ids": [
+        "GD-CRIT-01",
+        "GD-CON-01"
+      ],
+      "evidence_ids": [],
+      "refresher_links": []
+    },
+    {
+      "chapter_id": "VID-TK-S31",
+      "project_step_id": "TK-S31",
+      "anchor": "step-31",
+      "title": "Dodge and burn with editable Curves masks",
+      "planned_start": null,
+      "actual_start": null,
+      "actual_end": null,
+      "skill_ids": [
+        "PS-SEL-01",
+        "PS-LAY-01",
+        "PS-TRN-01",
+        "PS-BLD-02",
+        "PS-TON-01",
+        "PS-LGT-02"
+      ],
+      "design_skill_ids": [
+        "GD-COL-01",
+        "GD-CRIT-01",
+        "GD-CON-01",
+        "GD-REP-01"
+      ],
+      "evidence_ids": [
+        "TK-OBS-03"
+      ],
+      "refresher_links": []
+    },
+    {
+      "chapter_id": "VID-TK-S32",
+      "project_step_id": "TK-S32",
+      "anchor": "step-32",
+      "title": "Apply a restrained overall grade",
+      "planned_start": null,
+      "actual_start": null,
+      "actual_end": null,
+      "skill_ids": [
+        "PS-SEL-01",
+        "PS-LAY-01",
+        "PS-TRN-01",
+        "PS-TON-01",
+        "PS-LGT-02",
+        "PS-FLT-01"
+      ],
+      "design_skill_ids": [
+        "GD-COL-01",
+        "GD-CRIT-01",
+        "GD-CON-01"
+      ],
+      "evidence_ids": [],
+      "refresher_links": []
+    },
+    {
+      "chapter_id": "VID-TK-S33",
+      "project_step_id": "TK-S33",
+      "anchor": "step-33",
+      "title": "Guide attention with a gentle vignette",
+      "planned_start": null,
+      "actual_start": null,
+      "actual_end": null,
+      "skill_ids": [
+        "PS-SEL-01",
+        "PS-LAY-01",
+        "PS-TRN-01",
+        "PS-BLD-02",
+        "PS-TON-01",
+        "PS-LGT-02",
+        "PS-FLT-01",
+        "PS-DES-01"
+      ],
+      "design_skill_ids": [
+        "GD-HIE-01",
+        "GD-ALN-01",
+        "GD-CRIT-01",
+        "GD-CON-01"
+      ],
+      "evidence_ids": [],
+      "refresher_links": []
+    },
+    {
+      "chapter_id": "VID-TK-S34",
+      "project_step_id": "TK-S34",
+      "anchor": "step-34",
+      "title": "Run the four-join quality check",
+      "planned_start": null,
+      "actual_start": null,
+      "actual_end": null,
+      "skill_ids": [
+        "PS-FND-01",
+        "PS-SEL-01",
+        "PS-LAY-01",
+        "PS-TRN-01",
+        "PS-BLD-02",
+        "PS-TON-01",
+        "PS-LGT-02",
+        "PS-FLT-01",
+        "PS-SHP-01",
+        "PS-DES-01"
+      ],
+      "design_skill_ids": [
+        "GD-HIE-01",
+        "GD-COL-01",
+        "GD-BRD-01",
+        "GD-CRIT-01",
+        "GD-CON-01"
+      ],
+      "evidence_ids": [
+        "TK-CON-02"
+      ],
+      "refresher_links": []
+    },
+    {
+      "chapter_id": "VID-TK-S35",
+      "project_step_id": "TK-S35",
+      "anchor": "step-35",
+      "title": "Save the editable master and export a viewing copy",
+      "planned_start": null,
+      "actual_start": null,
+      "actual_end": null,
+      "skill_ids": [
+        "PS-FND-01",
+        "PS-SEL-01",
+        "PS-LAY-01",
+        "PS-SMO-01",
+        "PS-TRN-01",
+        "PS-LGT-02",
+        "PS-TYP-01",
+        "PS-OUT-01"
+      ],
+      "design_skill_ids": [
+        "GD-COL-01",
+        "GD-TYP-01",
+        "GD-MET-01",
+        "GD-CRIT-01"
+      ],
+      "evidence_ids": [
+        "TK-PRO-01",
+        "TK-PRO-02",
+        "TK-PRO-03"
+      ],
+      "refresher_links": []
+    },
+    {
+      "chapter_id": "VID-TK-S36",
+      "project_step_id": "TK-S36",
+      "anchor": "step-36",
+      "title": "Explain and demonstrate what you learned",
+      "planned_start": null,
+      "actual_start": null,
+      "actual_end": null,
+      "skill_ids": [
+        "PS-FND-01",
+        "PS-SEL-01",
+        "PS-LAY-01",
+        "PS-TRN-01",
+        "PS-TON-01",
+        "PS-LGT-02",
+        "PS-OUT-01"
+      ],
+      "design_skill_ids": [
+        "GD-COL-01",
+        "GD-CRIT-01",
+        "GD-REP-01"
+      ],
+      "evidence_ids": [
+        "TK-CON-01"
+      ],
+      "refresher_links": []
+    }
+  ]
+}

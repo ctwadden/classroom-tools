@@ -1,0 +1,456 @@
+{
+  "PS-TRUCK-AD": [
+    {
+      "step_id": "TA-S01",
+      "title": "Download the approved assets and create the working file",
+      "skill_ids": [
+        "PS-FND-01"
+      ],
+      "checkpoint_ids": []
+    },
+    {
+      "step_id": "TA-S02",
+      "title": "Make the truck editable and apply the Cutout look",
+      "skill_ids": [
+        "PS-SMO-01",
+        "PS-FLT-01"
+      ],
+      "checkpoint_ids": []
+    },
+    {
+      "step_id": "TA-S03",
+      "title": "Add controlled grain without flattening",
+      "skill_ids": [
+        "PS-FLT-01",
+        "PS-SMO-01"
+      ],
+      "checkpoint_ids": []
+    },
+    {
+      "step_id": "TA-S04",
+      "title": "Protect the truck detail with the Smart Filter mask",
+      "skill_ids": [
+        "PS-FLT-01",
+        "PS-LAY-01"
+      ],
+      "checkpoint_ids": [
+        "TA-OBS-01"
+      ]
+    },
+    {
+      "step_id": "TA-S05",
+      "title": "Blend the paper texture over the scene",
+      "skill_ids": [
+        "PS-BLD-02",
+        "PS-LAY-01",
+        "GD-CON-01"
+      ],
+      "checkpoint_ids": []
+    },
+    {
+      "step_id": "TA-S06",
+      "title": "Add the source-style vignette",
+      "skill_ids": [
+        "PS-TON-01",
+        "PS-LAY-01",
+        "GD-HIE-01"
+      ],
+      "checkpoint_ids": []
+    },
+    {
+      "step_id": "TA-S07",
+      "title": "Create the bull halftone treatment",
+      "skill_ids": [
+        "PS-FLT-01",
+        "PS-SMO-01",
+        "GD-MET-01"
+      ],
+      "checkpoint_ids": []
+    },
+    {
+      "step_id": "TA-S08",
+      "title": "Blend the bull into the ad",
+      "skill_ids": [
+        "PS-BLD-02",
+        "PS-LAY-01",
+        "GD-MET-01"
+      ],
+      "checkpoint_ids": [
+        "TA-CON-01"
+      ]
+    },
+    {
+      "step_id": "TA-S09",
+      "title": "Build the first headline block with alignment, not guessing",
+      "skill_ids": [
+        "PS-TYP-01",
+        "GD-HIE-01",
+        "GD-ALN-01",
+        "GD-TYP-01"
+      ],
+      "checkpoint_ids": [
+        "TA-OBS-02"
+      ]
+    },
+    {
+      "step_id": "TA-S10",
+      "title": "Make one reusable halftone type texture",
+      "skill_ids": [
+        "PS-FLT-01",
+        "PS-TYP-01",
+        "GD-REP-01"
+      ],
+      "checkpoint_ids": []
+    },
+    {
+      "step_id": "TA-S11",
+      "title": "Add oversized ghost type for depth",
+      "skill_ids": [
+        "PS-TYP-01",
+        "PS-BLD-02",
+        "GD-HIE-01",
+        "GD-REP-01"
+      ],
+      "checkpoint_ids": []
+    },
+    {
+      "step_id": "TA-S12",
+      "title": "Create the secondary type block and reuse the dot method",
+      "skill_ids": [
+        "PS-TYP-01",
+        "PS-FLT-01",
+        "GD-HIE-01",
+        "GD-ALN-01",
+        "GD-TYP-01"
+      ],
+      "checkpoint_ids": []
+    },
+    {
+      "step_id": "TA-S13",
+      "title": "Audit visual hierarchy and revise one decision",
+      "skill_ids": [
+        "PS-DES-01",
+        "GD-HIE-01",
+        "GD-CRIT-01"
+      ],
+      "checkpoint_ids": [
+        "TA-OBS-02",
+        "TA-QA-01"
+      ]
+    },
+    {
+      "step_id": "TA-S14",
+      "title": "Complete the evidence conversation",
+      "skill_ids": [
+        "PS-DES-01",
+        "GD-AUD-01",
+        "GD-MET-01"
+      ],
+      "checkpoint_ids": [
+        "TA-CON-02"
+      ]
+    },
+    {
+      "step_id": "TA-S15",
+      "title": "Inspect the layered product at 100%",
+      "skill_ids": [
+        "PS-SMO-01",
+        "PS-FLT-01",
+        "GD-CRIT-01"
+      ],
+      "checkpoint_ids": [
+        "TA-PRO-01",
+        "TA-QA-01"
+      ]
+    },
+    {
+      "step_id": "TA-S16",
+      "title": "Export, submit and connect the evidence",
+      "skill_ids": [
+        "PS-OUT-01"
+      ],
+      "checkpoint_ids": [
+        "TA-PRO-02",
+        "TA-PRO-03"
+      ]
+    }
+  ],
+  "PS-DROP-DAY": [
+    {
+      "step_id": "DD-S01",
+      "title": "Open the product job and protect the source",
+      "skill_ids": [
+        "PS-FND-01"
+      ],
+      "checkpoint_ids": [
+        "DD-PRO-01"
+      ]
+    },
+    {
+      "step_id": "DD-S02",
+      "title": "Remove a small spot with automatic sampling",
+      "skill_ids": [
+        "PS-RET-01",
+        "PS-BRS-01"
+      ],
+      "checkpoint_ids": []
+    },
+    {
+      "step_id": "DD-S03",
+      "title": "Choose your own sample for the thread repair",
+      "skill_ids": [
+        "PS-RET-01",
+        "PS-BRS-01"
+      ],
+      "checkpoint_ids": [
+        "DD-CON-01"
+      ]
+    },
+    {
+      "step_id": "DD-S04",
+      "title": "Rebuild the pale sole with Clone Stamp",
+      "skill_ids": [
+        "PS-RET-01",
+        "PS-BRS-01"
+      ],
+      "checkpoint_ids": [
+        "DD-OBS-01",
+        "DD-CON-01"
+      ]
+    },
+    {
+      "step_id": "DD-S05",
+      "title": "Make a selection of the whole shoe",
+      "skill_ids": [
+        "PS-SEL-01"
+      ],
+      "checkpoint_ids": []
+    },
+    {
+      "step_id": "DD-S06",
+      "title": "Refine a manufactured edge\u2014not hair",
+      "skill_ids": [
+        "PS-SEL-01"
+      ],
+      "checkpoint_ids": []
+    },
+    {
+      "step_id": "DD-S07",
+      "title": "Mask the photograph and its repairs together",
+      "skill_ids": [
+        "PS-LAY-01",
+        "PS-SEL-01"
+      ],
+      "checkpoint_ids": [
+        "DD-PRO-01"
+      ]
+    },
+    {
+      "step_id": "DD-S08",
+      "title": "Start the advertisement with a clear document size",
+      "skill_ids": [
+        "PS-FND-01",
+        "PS-OUT-01",
+        "GD-ALN-01"
+      ],
+      "checkpoint_ids": []
+    },
+    {
+      "step_id": "DD-S09",
+      "title": "Build the studio background and floor",
+      "skill_ids": [
+        "PS-SHP-01",
+        "PS-ADJ-01",
+        "PS-DES-01",
+        "GD-COL-01",
+        "GD-HIE-01"
+      ],
+      "checkpoint_ids": []
+    },
+    {
+      "step_id": "DD-S10",
+      "title": "Add the accent disc and a soft display shadow",
+      "skill_ids": [
+        "PS-SHP-01",
+        "PS-FLT-01",
+        "PS-BLD-02",
+        "GD-COL-01",
+        "GD-CON-01"
+      ],
+      "checkpoint_ids": []
+    },
+    {
+      "step_id": "DD-S11",
+      "title": "Construct a three-face product display",
+      "skill_ids": [
+        "PS-SHP-01",
+        "PS-DES-01",
+        "GD-CON-01",
+        "GD-HIE-01"
+      ],
+      "checkpoint_ids": []
+    },
+    {
+      "step_id": "DD-S12",
+      "title": "Place the prepared shoe without flattening your work",
+      "skill_ids": [
+        "PS-SMO-01",
+        "PS-TRN-01"
+      ],
+      "checkpoint_ids": []
+    },
+    {
+      "step_id": "DD-S13",
+      "title": "Add a broad ambient shadow beneath the shoe",
+      "skill_ids": [
+        "PS-FLT-01",
+        "PS-BLD-02",
+        "PS-LGT-02",
+        "GD-CON-01"
+      ],
+      "checkpoint_ids": []
+    },
+    {
+      "step_id": "DD-S14",
+      "title": "Make contact at the heel and forefoot",
+      "skill_ids": [
+        "PS-BRS-01",
+        "PS-BLD-02",
+        "PS-LGT-02",
+        "GD-CON-01"
+      ],
+      "checkpoint_ids": []
+    },
+    {
+      "step_id": "DD-S15",
+      "title": "Select the accent colour\u2014not the whole product",
+      "skill_ids": [
+        "PS-COL-01",
+        "PS-SEL-01",
+        "GD-COL-01"
+      ],
+      "checkpoint_ids": [
+        "DD-OBS-02"
+      ]
+    },
+    {
+      "step_id": "DD-S16",
+      "title": "Create the teal colourway and a controlled contrast adjustment",
+      "skill_ids": [
+        "PS-COL-01",
+        "PS-ADJ-01",
+        "PS-TON-01",
+        "PS-LAY-01",
+        "GD-COL-01",
+        "GD-CON-01"
+      ],
+      "checkpoint_ids": [
+        "DD-OBS-02",
+        "DD-CON-02"
+      ]
+    },
+    {
+      "step_id": "DD-S17",
+      "title": "Build a live, outline headline",
+      "skill_ids": [
+        "PS-TYP-01",
+        "PS-EFX-01",
+        "GD-HIE-01",
+        "GD-CON-01",
+        "GD-TYP-01"
+      ],
+      "checkpoint_ids": []
+    },
+    {
+      "step_id": "DD-S18",
+      "title": "Add the solid headline and the message",
+      "skill_ids": [
+        "PS-TYP-01",
+        "GD-HIE-01",
+        "GD-ALN-01",
+        "GD-TYP-01"
+      ],
+      "checkpoint_ids": []
+    },
+    {
+      "step_id": "DD-S19",
+      "title": "Add the studio identity, rule and colour accents",
+      "skill_ids": [
+        "PS-TYP-01",
+        "PS-SHP-01",
+        "GD-ALN-01",
+        "GD-REP-01",
+        "GD-COL-01",
+        "GD-BRD-01"
+      ],
+      "checkpoint_ids": []
+    },
+    {
+      "step_id": "DD-S20",
+      "title": "Complete the action panel and honest footer",
+      "skill_ids": [
+        "PS-TYP-01",
+        "PS-SHP-01",
+        "GD-HIE-01",
+        "GD-CTA-01",
+        "GD-AUD-01"
+      ],
+      "checkpoint_ids": []
+    },
+    {
+      "step_id": "DD-S21",
+      "title": "Run the craft check before the revision",
+      "skill_ids": [
+        "GEN-QA-01",
+        "PS-LAY-01",
+        "PS-SMO-01",
+        "GD-CRIT-01"
+      ],
+      "checkpoint_ids": [
+        "DD-QA-01"
+      ]
+    },
+    {
+      "step_id": "DD-S22",
+      "title": "Respond to the client: create a coral colourway",
+      "skill_ids": [
+        "PS-COL-01",
+        "PS-ADJ-01",
+        "GD-COL-01",
+        "GD-BRD-01",
+        "GD-AUD-01"
+      ],
+      "checkpoint_ids": [
+        "DD-PRO-02"
+      ]
+    },
+    {
+      "step_id": "DD-S23",
+      "title": "Show that you understand the technique",
+      "skill_ids": [
+        "PS-LAY-01",
+        "PS-COL-01",
+        "PS-TYP-01",
+        "GEN-EVD-01",
+        "GEN-QA-01",
+        "GD-CRIT-01",
+        "GD-AUD-01"
+      ],
+      "checkpoint_ids": [
+        "DD-TRF-01",
+        "DD-CON-02"
+      ]
+    },
+    {
+      "step_id": "DD-S24",
+      "title": "Export, reopen and hand over the work",
+      "skill_ids": [
+        "PS-OUT-01",
+        "GEN-QA-01"
+      ],
+      "checkpoint_ids": [
+        "DD-PRO-03"
+      ]
+    }
+  ]
+}

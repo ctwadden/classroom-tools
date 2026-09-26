@@ -1,0 +1,46 @@
+{
+  "registry_version": "1.2",
+  "source": "Technology Learning System",
+  "projects": [
+    {
+      "project_id": "PS-TRUCK-AD",
+      "active": true,
+      "forms_spec_url": "https://raw.githubusercontent.com/ctwadden/classroom-tools/technology-learning-system-v3/system/projects/photoshop/truck-ad/assessment/forms-spec.json"
+    },
+    {
+      "project_id": "PS-ZEBRA-IRONING",
+      "active": true,
+      "forms_spec_url": "https://raw.githubusercontent.com/ctwadden/classroom-tools/technology-learning-system-v3/system/projects/photoshop/zebra-ironing/assessment/forms-spec.json"
+    },
+    {
+      "project_id": "PS-CEREAL-BOX",
+      "active": true,
+      "forms_spec_url": "https://raw.githubusercontent.com/ctwadden/classroom-tools/technology-learning-system-v3/system/projects/photoshop/cereal-box/assessment/forms-spec.json"
+    },
+    {
+      "project_id": "PS-TURTLE-KINGDOM",
+      "active": true,
+      "forms_spec_url": "https://raw.githubusercontent.com/ctwadden/classroom-tools/technology-learning-system-v3/system/projects/photoshop/turtle-kingdom/assessment/forms-spec.json"
+    },
+    {
+      "project_id": "PS-STORMBOUND",
+      "active": true,
+      "forms_spec_url": "https://raw.githubusercontent.com/ctwadden/classroom-tools/technology-learning-system-v3/system/projects/photoshop/stormbound/assessment/forms-spec.json"
+    },
+    {
+      "project_id": "BL-SKYBOUND",
+      "active": true,
+      "forms_spec_url": "https://raw.githubusercontent.com/ctwadden/classroom-tools/technology-learning-system-v3/system/projects/blender/skybound/assessment/forms-spec.json"
+    },
+    {
+      "project_id": "PS-LEMON-BURST",
+      "active": true,
+      "forms_spec_url": "https://raw.githubusercontent.com/ctwadden/classroom-tools/technology-learning-system-v3/system/projects/photoshop/lemon-burst/assessment/forms-spec.json"
+    },
+    {
+      "project_id": "PS-DROP-DAY",
+      "active": true,
+      "forms_spec_url": "https://raw.githubusercontent.com/ctwadden/classroom-tools/technology-learning-system-v3/system/projects/photoshop/drop-day/assessment/forms-spec.json"
+    }
+  ]
+}

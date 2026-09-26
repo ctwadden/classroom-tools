@@ -1,0 +1,309 @@
+{
+  "schema_version": "truck-video.1",
+  "project_id": "PS-TRUCK-AD",
+  "video_title": "Built for the Wild — Truck Ad Photoshop Tutorial",
+  "version": "1.0.0",
+  "provider": "YouTube / Scribe It",
+  "status": "awaiting_recording",
+  "video_url": null,
+  "youtube_video_id": null,
+  "chapters": [
+    {
+      "chapter_id": "VID-TA-S01",
+      "project_step_id": "TA-S01",
+      "anchor": "step-1",
+      "title": "Download the approved assets and create the working file",
+      "planned_start": null,
+      "actual_start": null,
+      "actual_end": null,
+      "skill_ids": [
+        "PS-FND-01"
+      ],
+      "design_skill_ids": [],
+      "evidence_ids": [],
+      "refresher_links": []
+    },
+    {
+      "chapter_id": "VID-TA-S02",
+      "project_step_id": "TA-S02",
+      "anchor": "step-2",
+      "title": "Make the truck editable and apply the Cutout look",
+      "planned_start": null,
+      "actual_start": null,
+      "actual_end": null,
+      "skill_ids": [
+        "PS-SMO-01",
+        "PS-FLT-01"
+      ],
+      "design_skill_ids": [],
+      "evidence_ids": [],
+      "refresher_links": []
+    },
+    {
+      "chapter_id": "VID-TA-S03",
+      "project_step_id": "TA-S03",
+      "anchor": "step-3",
+      "title": "Add controlled grain without flattening",
+      "planned_start": null,
+      "actual_start": null,
+      "actual_end": null,
+      "skill_ids": [
+        "PS-FLT-01",
+        "PS-SMO-01"
+      ],
+      "design_skill_ids": [],
+      "evidence_ids": [],
+      "refresher_links": []
+    },
+    {
+      "chapter_id": "VID-TA-S04",
+      "project_step_id": "TA-S04",
+      "anchor": "step-4",
+      "title": "Protect the truck detail with the Smart Filter mask",
+      "planned_start": null,
+      "actual_start": null,
+      "actual_end": null,
+      "skill_ids": [
+        "PS-FLT-01",
+        "PS-LAY-01"
+      ],
+      "design_skill_ids": [],
+      "evidence_ids": [
+        "TA-OBS-01"
+      ],
+      "refresher_links": []
+    },
+    {
+      "chapter_id": "VID-TA-S05",
+      "project_step_id": "TA-S05",
+      "anchor": "step-5",
+      "title": "Blend the paper texture over the scene",
+      "planned_start": null,
+      "actual_start": null,
+      "actual_end": null,
+      "skill_ids": [
+        "PS-BLD-02",
+        "PS-LAY-01"
+      ],
+      "design_skill_ids": [
+        "GD-CON-01"
+      ],
+      "evidence_ids": [],
+      "refresher_links": []
+    },
+    {
+      "chapter_id": "VID-TA-S06",
+      "project_step_id": "TA-S06",
+      "anchor": "step-6",
+      "title": "Add the source-style vignette",
+      "planned_start": null,
+      "actual_start": null,
+      "actual_end": null,
+      "skill_ids": [
+        "PS-TON-01",
+        "PS-LAY-01"
+      ],
+      "design_skill_ids": [
+        "GD-HIE-01"
+      ],
+      "evidence_ids": [],
+      "refresher_links": []
+    },
+    {
+      "chapter_id": "VID-TA-S07",
+      "project_step_id": "TA-S07",
+      "anchor": "step-7",
+      "title": "Create the bull halftone treatment",
+      "planned_start": null,
+      "actual_start": null,
+      "actual_end": null,
+      "skill_ids": [
+        "PS-FLT-01",
+        "PS-SMO-01"
+      ],
+      "design_skill_ids": [
+        "GD-MET-01"
+      ],
+      "evidence_ids": [],
+      "refresher_links": []
+    },
+    {
+      "chapter_id": "VID-TA-S08",
+      "project_step_id": "TA-S08",
+      "anchor": "step-8",
+      "title": "Blend the bull into the ad",
+      "planned_start": null,
+      "actual_start": null,
+      "actual_end": null,
+      "skill_ids": [
+        "PS-BLD-02",
+        "PS-LAY-01"
+      ],
+      "design_skill_ids": [
+        "GD-MET-01"
+      ],
+      "evidence_ids": [
+        "TA-CON-01"
+      ],
+      "refresher_links": []
+    },
+    {
+      "chapter_id": "VID-TA-S09",
+      "project_step_id": "TA-S09",
+      "anchor": "step-9",
+      "title": "Build the first headline block with alignment, not guessing",
+      "planned_start": null,
+      "actual_start": null,
+      "actual_end": null,
+      "skill_ids": [
+        "PS-TYP-01"
+      ],
+      "design_skill_ids": [
+        "GD-HIE-01",
+        "GD-ALN-01",
+        "GD-TYP-01"
+      ],
+      "evidence_ids": [
+        "TA-OBS-02"
+      ],
+      "refresher_links": []
+    },
+    {
+      "chapter_id": "VID-TA-S10",
+      "project_step_id": "TA-S10",
+      "anchor": "step-10",
+      "title": "Make one reusable halftone type texture",
+      "planned_start": null,
+      "actual_start": null,
+      "actual_end": null,
+      "skill_ids": [
+        "PS-FLT-01",
+        "PS-TYP-01"
+      ],
+      "design_skill_ids": [
+        "GD-REP-01"
+      ],
+      "evidence_ids": [],
+      "refresher_links": []
+    },
+    {
+      "chapter_id": "VID-TA-S11",
+      "project_step_id": "TA-S11",
+      "anchor": "step-11",
+      "title": "Add oversized ghost type for depth",
+      "planned_start": null,
+      "actual_start": null,
+      "actual_end": null,
+      "skill_ids": [
+        "PS-TYP-01",
+        "PS-BLD-02"
+      ],
+      "design_skill_ids": [
+        "GD-HIE-01",
+        "GD-REP-01"
+      ],
+      "evidence_ids": [],
+      "refresher_links": []
+    },
+    {
+      "chapter_id": "VID-TA-S12",
+      "project_step_id": "TA-S12",
+      "anchor": "step-12",
+      "title": "Create the secondary type block and reuse the dot method",
+      "planned_start": null,
+      "actual_start": null,
+      "actual_end": null,
+      "skill_ids": [
+        "PS-TYP-01",
+        "PS-FLT-01"
+      ],
+      "design_skill_ids": [
+        "GD-HIE-01",
+        "GD-ALN-01",
+        "GD-TYP-01"
+      ],
+      "evidence_ids": [],
+      "refresher_links": []
+    },
+    {
+      "chapter_id": "VID-TA-S13",
+      "project_step_id": "TA-S13",
+      "anchor": "step-13",
+      "title": "Audit visual hierarchy and revise one decision",
+      "planned_start": null,
+      "actual_start": null,
+      "actual_end": null,
+      "skill_ids": [
+        "PS-DES-01"
+      ],
+      "design_skill_ids": [
+        "GD-HIE-01",
+        "GD-CRIT-01"
+      ],
+      "evidence_ids": [
+        "TA-OBS-02",
+        "TA-QA-01"
+      ],
+      "refresher_links": []
+    },
+    {
+      "chapter_id": "VID-TA-S14",
+      "project_step_id": "TA-S14",
+      "anchor": "step-14",
+      "title": "Complete the evidence conversation",
+      "planned_start": null,
+      "actual_start": null,
+      "actual_end": null,
+      "skill_ids": [
+        "PS-DES-01"
+      ],
+      "design_skill_ids": [
+        "GD-AUD-01",
+        "GD-MET-01"
+      ],
+      "evidence_ids": [
+        "TA-CON-02"
+      ],
+      "refresher_links": []
+    },
+    {
+      "chapter_id": "VID-TA-S15",
+      "project_step_id": "TA-S15",
+      "anchor": "step-15",
+      "title": "Inspect the layered product at 100%",
+      "planned_start": null,
+      "actual_start": null,
+      "actual_end": null,
+      "skill_ids": [
+        "PS-SMO-01",
+        "PS-FLT-01"
+      ],
+      "design_skill_ids": [
+        "GD-CRIT-01"
+      ],
+      "evidence_ids": [
+        "TA-PRO-01",
+        "TA-QA-01"
+      ],
+      "refresher_links": []
+    },
+    {
+      "chapter_id": "VID-TA-S16",
+      "project_step_id": "TA-S16",
+      "anchor": "step-16",
+      "title": "Export, submit and connect the evidence",
+      "planned_start": null,
+      "actual_start": null,
+      "actual_end": null,
+      "skill_ids": [
+        "PS-OUT-01"
+      ],
+      "design_skill_ids": [],
+      "evidence_ids": [
+        "TA-PRO-02",
+        "TA-PRO-03"
+      ],
+      "refresher_links": []
+    }
+  ]
+}
