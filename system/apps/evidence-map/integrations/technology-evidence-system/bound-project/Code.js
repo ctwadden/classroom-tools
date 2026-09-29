@@ -56,7 +56,7 @@ function setupTechnologyEvidenceSystem() {
   ensureSheet_(ss, TS.SHEETS.CONFIG, ['Key','Value','Notes']);
   ensureSheet_(ss, TS.SHEETS.PROJECTS, ['project_id','project_title','spec_version','spec_file_id','spec_file_name','spec_hash','status','student_form_url','teacher_form_url','last_synced']);
   ensureSheet_(ss, TS.SHEETS.REGISTRY, ['project_id','spec_version','form_type','form_id','form_url','response_sheet_name','active','created_at']);
-  ensureSheet_(ss, TS.SHEETS.ITEM_MAP, ['form_id','item_id','project_id','form_type','canonical_id','evidence_type','skill_ids','outcome_codes','step_id','field_role']);
+  ensureSheet_(ss, TS.SHEETS.ITEM_MAP, ['form_id','item_id','project_id','form_type','canonical_id','evidence_type','skill_ids','outcome_codes','step_id','field_role','lesson_id']);
   ensureSheet_(ss, TS.SHEETS.EVIDENCE, ['timestamp','student_email','student_name','course_id','project_id','canonical_id','evidence_type','skill_ids','outcome_codes','response_value','auto_score','level','independence','teacher_note','teacher_verified','source_form_id','source_response_id']);
   ensureSheet_(ss, TS.SHEETS.ROSTER, ['student_name','student_email','course_id','active']);
   ensureSheet_(ss, TS.SHEETS.ERRORS, ['timestamp','level','message','context']);
@@ -227,7 +227,7 @@ function buildStudentForm_(ss, spec) {
   form.setConfirmationMessage('Submitted. Return to the project tutorial and continue with your final evidence/submission instructions.');
 
   const courses = spec.course_configs || [];
-  if (courses.length > 1) {
+  if (courses.length) {
     const item = form.addListItem().setTitle('Course / class');
     item.setChoiceValues(courses.map(c => `${c.course_id}${c.module_id ? ' - '+c.module_id : ''}`));
     mapItem_(ss, form, item, spec, 'META-COURSE', 'Metadata', [], [], '', 'course_id');
@@ -241,7 +241,7 @@ function buildStudentForm_(ss, spec) {
     item.setChoices((q.choices || []).map((choice, idx) => item.createChoice(choice, idx === q.correct_index)));
     if (q.correct_feedback) item.setFeedbackForCorrect(FormApp.createFeedback().setText(q.correct_feedback).build());
     if (q.incorrect_feedback) item.setFeedbackForIncorrect(FormApp.createFeedback().setText(q.incorrect_feedback).build());
-    mapItem_(ss, form, item, spec, q.id, 'Knowledge', q.skill_ids, q.outcome_codes, q.step_id || '', 'knowledge');
+    mapItem_(ss, form, item, spec, q.id, 'Knowledge', q.skill_ids, q.outcome_codes, q.step_id || '', 'knowledge', q.lesson_id || '');
   });
 
   form.addSectionHeaderItem().setTitle('2 - Skills Used');
@@ -286,6 +286,7 @@ function buildTeacherForm_(ss, spec, preparedForm) {
   const checkpoint = form.addListItem().setTitle('Evidence checkpoint').setChoiceValues(fbChoices_(spec).length ? fbChoices_(spec).map(c=>c.choice_label) : checkpoints.map(c => `${c.evidence_id} - ${c.title}`)).setRequired(true);
   if(fbChoices_(spec).length)checkpoint.setHelpText("Select one criterion for this observation, conversation or product. Use another capture if assessing a second criterion. General evidence has no approved rubric attached.");
   mapItem_(ss, form, checkpoint, spec, 'META-CHECKPOINT', 'Metadata', [], [], '', 'checkpoint');
+  mapCheckpointChoices_(ss, form, spec, checkpoints);
 
   const level = form.addMultipleChoiceItem().setTitle('Current evidence level').setChoiceValues(TS.LEVELS).setRequired(true);
   if(approvedRubrics.length)level.setHelpText('Judge only the selected criterion. IE means insufficient evidence. Support is recorded separately.\n\n'+fbGuidance_(approvedRubrics));
@@ -293,6 +294,26 @@ function buildTeacherForm_(ss, spec, preparedForm) {
 
   const independence = form.addMultipleChoiceItem().setTitle('Independence observed').setChoiceValues(TS.INDEPENDENCE).setRequired(true);
   mapItem_(ss, form, independence, spec, 'META-INDEPENDENCE', 'Metadata', [], [], '', 'independence');
+
+  form.addSectionHeaderItem().setTitle('Support used (separate from achievement)');
+  const supportDimension = form.addListItem().setTitle('Support dimension (optional)').setChoiceValues([
+    'Not recorded','LI-D01 - Get Started','LI-D02 - Understand Directions',
+    'LI-D03 - Find / Submit / Navigate Resources','LI-D04 - Make This Work for Me / Access Format',
+    'LI-D05 - Troubleshoot','LI-D06 - Ask for Help Effectively','LI-D07 - Self-Check','LI-D08 - Plan and Organize'
+  ]).setRequired(true);
+  mapItem_(ss, form, supportDimension, spec, 'META-SUPPORT-DIMENSION', 'Metadata', [], [], '', 'support_dimension');
+  const supportLevel = form.addMultipleChoiceItem().setTitle('Support level (optional)').setChoiceValues(['Not recorded','1 - Guided','2 - Supported','3 - Independent','4 - Transfer']).setRequired(true);
+  mapItem_(ss, form, supportLevel, spec, 'META-SUPPORT-LEVEL', 'Metadata', [], [], '', 'support_level');
+  const supportContext = form.addTextItem().setTitle('Support task context (optional)').setHelpText('If support is recorded: name the task or moment.').setRequired(false);
+  mapItem_(ss, form, supportContext, spec, 'META-SUPPORT-CONTEXT', 'Metadata', [], [], '', 'support_context');
+  const supportBarrier = form.addParagraphTextItem().setTitle('Support barrier or difficulty (optional)').setRequired(false);
+  mapItem_(ss, form, supportBarrier, spec, 'META-SUPPORT-BARRIER', 'Metadata', [], [], '', 'support_barrier');
+  const supportStrategy = form.addParagraphTextItem().setTitle('Support strategy used (optional)').setRequired(false);
+  mapItem_(ss, form, supportStrategy, spec, 'META-SUPPORT-STRATEGY', 'Metadata', [], [], '', 'support_strategy');
+  const supportResult = form.addMultipleChoiceItem().setTitle('Did the support help? (optional)').setChoiceValues(['Not recorded','Helped','Partly helped','Did not help','Not checked yet']).setRequired(true);
+  mapItem_(ss, form, supportResult, spec, 'META-SUPPORT-RESULT', 'Metadata', [], [], '', 'support_result');
+  const supportNext = form.addParagraphTextItem().setTitle('Support next action (optional)').setRequired(false);
+  mapItem_(ss, form, supportNext, spec, 'META-SUPPORT-NEXT', 'Metadata', [], [], '', 'support_next_action');
 
   const note = form.addParagraphTextItem().setTitle('Evidence note - what did the student actually do or explain?').setRequired(true);
   mapItem_(ss, form, note, spec, 'META-NOTE', 'Metadata', [], [], '', 'teacher_note');
@@ -469,6 +490,7 @@ function onAssessmentSpreadsheetSubmit(e) {
     const ctx=resolveSpreadsheetSubmissionContext_(e);
     if(!ctx){logError_('WARN','Unresolved form identity; raw response retained.',e.range.getSheet().getName());return;}
     const responseId=`sheet:${e.range.getSheet().getSheetId()}:row:${e.range.getRow()}`;
+    if(typeof dsRouteSpreadsheet_==='function' && dsRouteSpreadsheet_(e,ctx,responseId))return;
     if(ctx.form_type==='teacher')routeTeacherSpreadsheetSubmit_(e,ctx,responseId);
     else routeStudentSpreadsheetSubmit_(e,ctx,responseId);
   }catch(err){logError_('ERROR',err.message,'onAssessmentSpreadsheetSubmit');throw err;}
@@ -592,6 +614,13 @@ function routeTeacherSpreadsheetSubmit_(e, ctx, sourceResponseId) {
   const level = getNamedValue_(named, 'Current evidence level') || '';
   const independence = getNamedValue_(named, 'Independence observed') || '';
   const note = getNamedValue_(named, 'Evidence note - what did the student actually do or explain?') || '';
+  const supportDimensionRaw = getNamedValue_(named, 'Support dimension (optional)') || '';
+  const supportLevelRaw = getNamedValue_(named, 'Support level (optional)') || '';
+  const supportContext = getNamedValue_(named, 'Support task context (optional)') || '';
+  const supportBarrier = getNamedValue_(named, 'Support barrier or difficulty (optional)') || '';
+  const supportStrategy = getNamedValue_(named, 'Support strategy used (optional)') || '';
+  const supportResult = getNamedValue_(named, 'Did the support help? (optional)') || '';
+  const supportNext = getNamedValue_(named, 'Support next action (optional)') || '';
 
   const studentBits = String(student).split(' | ');
   const choice=fbSelection_(project.spec,checkpoint,studentBits[2]);
@@ -599,31 +628,54 @@ function routeTeacherSpreadsheetSubmit_(e, ctx, sourceResponseId) {
 
   if (!checkpointId) throw new Error('Teacher submission did not contain an Evidence checkpoint.');
 
-  if (evidenceEventExists_(ctx.form_id, sourceResponseId, checkpointId)) return;
-
   const cp = (project.spec.teacher_evidence?.checkpoints || [])
     .find(c => String(c.evidence_id) === checkpointId) || {};
 
-  appendEvidence_({
-    timestamp,
-    student_email: studentBits[1] || '',
-    student_name: studentBits[0] || '',
-    course_id: studentBits[2] || '',
-    project_id: ctx.project_id,
-    canonical_id: checkpointId,
-    evidence_type: cp.evidence_type || 'Teacher evidence',
-    skill_ids: (choice && !choice.unbound ? choice.skill_ids : cp.skill_ids || []).join(';'),
-    outcome_codes: (choice && !choice.unbound ? choice.outcome_codes : cp.outcome_codes || []).join(';'),
-    rubric_context_json: fbContext_(project.spec,choice),
-    response_value: String(checkpoint),
-    auto_score: '',
-    level: String(level),
-    independence: String(independence),
-    teacher_note: String(note),
-    teacher_verified: true,
-    source_form_id: ctx.form_id,
-    source_response_id: sourceResponseId
-  });
+  if (!evidenceEventExists_(ctx.form_id, sourceResponseId, checkpointId)) {
+    appendEvidence_({
+      timestamp,
+      student_email: studentBits[1] || '',
+      student_name: studentBits[0] || '',
+      course_id: studentBits[2] || '',
+      project_id: ctx.project_id,
+      canonical_id: checkpointId,
+      evidence_type: cp.evidence_type || 'Teacher evidence',
+      skill_ids: (choice && !choice.unbound ? choice.skill_ids : cp.skill_ids || []).join(';'),
+      outcome_codes: (choice && !choice.unbound ? choice.outcome_codes : cp.outcome_codes || []).join(';'),
+      rubric_context_json: fbContext_(project.spec,choice),
+      response_value: String(checkpoint),
+      auto_score: '',
+      level: String(level),
+      independence: String(independence),
+      teacher_note: String(note),
+      teacher_verified: true,
+      source_form_id: ctx.form_id,
+      source_response_id: sourceResponseId
+    });
+  }
+
+  const supportDimension = String(supportDimensionRaw).split(' - ')[0].trim();
+  const supportLevelMatch = String(supportLevelRaw).match(/^([1-4])\b/);
+  const hasSupport = /^LI-D0[1-8]$/.test(supportDimension) && !!supportLevelMatch;
+  if (hasSupport) {
+    if (!supportContext || !supportStrategy || !['Helped','Partly helped','Did not help','Not checked yet'].includes(String(supportResult))) {
+      logError_('WARN','Support record omitted: task context, strategy and result are required when a dimension and level are selected.',`${ctx.project_id}:${checkpointId}`);
+      return;
+    }
+    const supportCanonicalId = `${checkpointId}:${supportDimension}`;
+    if (!evidenceEventExists_(ctx.form_id, sourceResponseId, supportCanonicalId)) {
+      const supportPayload = {step_id: cp.step_id || '', support_detail: {
+        dimension_id: supportDimension, level: Number(supportLevelMatch[1]), context: String(supportContext),
+        barrier: String(supportBarrier), strategy: String(supportStrategy), result: String(supportResult), next_action: String(supportNext)
+      }};
+      appendEvidence_({
+        timestamp, student_email: studentBits[1] || '', student_name: studentBits[0] || '', course_id: studentBits[2] || '',
+        project_id: ctx.project_id, canonical_id: supportCanonicalId, evidence_type: 'Support', skill_ids: '', outcome_codes: '',
+        response_value: JSON.stringify(supportPayload), auto_score: '', level: '', independence: '', teacher_note: String(supportStrategy),
+        teacher_verified: true, step_id: cp.step_id || '', source_form_id: ctx.form_id, source_response_id: sourceResponseId
+      });
+    }
+  }
 }
 
 
@@ -1154,8 +1206,24 @@ function upsertProjectSpecFromUrl_(ss, spec, sourceUrl, hash) {
   } else sh.appendRow(row);
 }
 
-function mapItem_(ss, form, item, spec, canonicalId, evidenceType, skillIds, outcomeCodes, stepId, fieldRole) {
-  ss.getSheetByName(TS.SHEETS.ITEM_MAP).appendRow([form.getId(),String(item.getId()),spec.project_id, evidenceType==='Metadata' ? (form.getTitle().includes('Teacher')?'teacher':'student') : (form.getTitle().includes('Teacher')?'teacher':'student'),canonicalId,evidenceType,(skillIds||[]).join(';'),(outcomeCodes||[]).join(';'),stepId||'',fieldRole||'']);
+function ensureFormItemMapLessonColumn_(ss) {
+  const sh = ss.getSheetByName(TS.SHEETS.ITEM_MAP);
+  if (!sh) throw new Error('Form Item Map sheet is missing. Run initialization first.');
+  if (String(sh.getRange(1,11).getValue() || '').trim() === '') sh.getRange(1,11).setValue('lesson_id');
+  return sh;
+}
+
+function mapItem_(ss, form, item, spec, canonicalId, evidenceType, skillIds, outcomeCodes, stepId, fieldRole, lessonId) {
+  ensureFormItemMapLessonColumn_(ss).appendRow([form.getId(),String(item.getId()),spec.project_id, evidenceType==='Metadata' ? (form.getTitle().includes('Teacher')?'teacher':'student') : (form.getTitle().includes('Teacher')?'teacher':'student'),canonicalId,evidenceType,(skillIds||[]).join(';'),(outcomeCodes||[]).join(';'),stepId||'',fieldRole||'',lessonId||'']);
+}
+
+function mapCheckpointChoices_(ss, form, spec, checkpoints) {
+  const sh = ensureFormItemMapLessonColumn_(ss);
+  (checkpoints || []).forEach(cp => sh.appendRow([
+    form.getId(),`CHECKPOINT:${cp.evidence_id}`,spec.project_id,'teacher',cp.evidence_id,
+    cp.evidence_type || 'Teacher evidence',(cp.skill_ids || []).join(';'),(cp.outcome_codes || []).join(';'),
+    cp.step_id || '','checkpoint_choice',cp.lesson_id || ''
+  ]));
 }
 
 function registerForm_(ss, spec, type, form, responseSheetName) {
