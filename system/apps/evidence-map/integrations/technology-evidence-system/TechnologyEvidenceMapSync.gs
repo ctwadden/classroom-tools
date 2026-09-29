@@ -84,6 +84,13 @@ function emBuildEvent_(o){
   const context=typeof fbEventContext_==='function'?fbEventContext_(o):null;
   if(context){ev.rubric_id=context.rubric_id;ev.rubric_version=context.rubric_version;ev.criterion_id=context.criterion_id;ev.source_revision=3;}
   if(stream==='knowledge') Object.assign(ev, emKnowledge_(o.source_form_id, o.canonical_id, o.response_value));
+  if(stream==='support') {
+    try {
+      const payload=JSON.parse(String(o.response_value||'{}'));
+      if(payload.step_id)ev.step_id=String(payload.step_id);
+      if(payload.support_detail)ev.support_detail=payload.support_detail;
+    } catch(e) {}
+  }
   return ev;
 }
 

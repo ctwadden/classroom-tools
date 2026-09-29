@@ -484,7 +484,6 @@ function installScalableEvidenceRouter() {
  * The single spreadsheet form-submit handler.
  */
 function onAssessmentSpreadsheetSubmit(e) {
-  const lock=LockService.getScriptLock();lock.waitLock(25000);
   try {
     if(!e||!e.range)throw new Error('Missing spreadsheet submission event.');
     const ctx=resolveSpreadsheetSubmissionContext_(e);
@@ -494,7 +493,6 @@ function onAssessmentSpreadsheetSubmit(e) {
     if(ctx.form_type==='teacher')routeTeacherSpreadsheetSubmit_(e,ctx,responseId);
     else routeStudentSpreadsheetSubmit_(e,ctx,responseId);
   }catch(err){logError_('ERROR',err.message,'onAssessmentSpreadsheetSubmit');throw err;}
-  finally{lock.releaseLock();}
 }
 
 function routeStudentSpreadsheetSubmit_(e, ctx, sourceResponseId) {
@@ -1301,16 +1299,23 @@ function getRoster_(ss, courseConfigs) {
 
 function appendEvidence_(obj) {
   const sh = SpreadsheetApp.getActive().getSheetByName(TS.SHEETS.EVIDENCE);
-  // Existing responses keep their original context, even when a Form/spec changes later.
-  const rows=sh.getLastRow()>1?sh.getRange(2,1,sh.getLastRow()-1,18).getValues():[];
-  const existing=rows.find(r=>String(r[5])===String(obj.canonical_id)&&String(r[15])===String(obj.source_form_id)&&String(r[16])===String(obj.source_response_id));
-  if(existing){obj=Object.assign({},obj,{rubric_context_json:existing[17]||''});}
-  else {
-    if(obj.rubric_context_json){fbEventContext_(obj);fbEnsureLogContext_(sh);}
-    const row=[obj.timestamp,obj.student_email,obj.student_name,obj.course_id,obj.project_id,obj.canonical_id,obj.evidence_type,obj.skill_ids,obj.outcome_codes,obj.response_value,obj.auto_score,obj.level,obj.independence,obj.teacher_note,obj.teacher_verified,obj.source_form_id,obj.source_response_id];
-    if(obj.rubric_context_json)row.push(obj.rubric_context_json);
-    sh.appendRow(row);
+  const lock=LockService.getScriptLock();
+  lock.waitLock(30000);
+  try {
+    // Existing responses keep their original context, even when a Form/spec changes later.
+    const rows=sh.getLastRow()>1?sh.getRange(2,1,sh.getLastRow()-1,18).getValues():[];
+    const existing=rows.find(r=>String(r[5])===String(obj.canonical_id)&&String(r[15])===String(obj.source_form_id)&&String(r[16])===String(obj.source_response_id));
+    if(existing){obj=Object.assign({},obj,{rubric_context_json:existing[17]||''});}
+    else {
+      if(obj.rubric_context_json){fbEventContext_(obj);fbEnsureLogContext_(sh);}
+      const row=[obj.timestamp,obj.student_email,obj.student_name,obj.course_id,obj.project_id,obj.canonical_id,obj.evidence_type,obj.skill_ids,obj.outcome_codes,obj.response_value,obj.auto_score,obj.level,obj.independence,obj.teacher_note,obj.teacher_verified,obj.source_form_id,obj.source_response_id];
+      if(obj.rubric_context_json)row.push(obj.rubric_context_json);
+      sh.appendRow(row);
+    }
+  } finally {
+    lock.releaseLock();
   }
+  // Network delivery runs outside the write lock so another Form submission can normalize.
   try { emOnEvidenceAppended_(obj); } catch (e) { logError_('WARN', e.message, 'emSync'); }
 }
 
