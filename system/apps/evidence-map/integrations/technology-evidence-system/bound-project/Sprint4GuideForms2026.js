@@ -130,3 +130,13 @@ function qaS4MakeItMatterStudent(){return s4QASubmit_('make-it-matter-v2','stude
 function qaS4MakeItMatterTeacher(){return s4QASubmit_('make-it-matter-v2','teacher');}
 function qaS4BuildItTrueStudent(){return s4QASubmit_('com11-build-it-true-v2','student');}
 function qaS4BuildItTrueTeacher(){return s4QASubmit_('com11-build-it-true-v2','teacher');}
+function replayS4LastLightTeacherQA(){
+  const reg=getActiveProjectFormPair_('last-light-v1','2026-09-30.1').teacher;
+  const sh=SpreadsheetApp.openById(S4_GUIDE_FORMS.sheet).getSheetByName(reg.response_sheet_name);
+  const row=2,headers=sh.getRange(1,1,1,sh.getLastColumn()).getValues()[0],values=sh.getRange(row,1,1,sh.getLastColumn()).getValues()[0];
+  if(!String(values[1]).startsWith('QA TEST — NOT A STUDENT | cwadden@gnspes.ca | MM12') || String(values[values.length-1]).toLowerCase()!=='cwadden@gnspes.ca')
+    throw new Error('Retained QA row identity changed; no replay attempted.');
+  const namedValues={};headers.forEach((h,i)=>{if(h)namedValues[String(h)]=[String(values[i]??'')];});
+  onAssessmentSpreadsheetSubmit({range:sh.getRange(row,1),namedValues});
+  return {form_id:reg.form_id,source_response_id:'sheet:'+sh.getSheetId()+':row:'+row};
+}

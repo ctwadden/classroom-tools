@@ -19,7 +19,7 @@ function guideEvidenceProject_(spec,courseId,email,role,name){
   // The owner may run labelled synthetic submissions. This is never a learner identity.
   const synthetic=emailNorm==='cwadden@gnspes.ca'&&(role==='student'||/^QA TEST\b/.test(String(name||'')));
   if(!match&&!synthetic)throw new Error('Email/course not in the active Roster; raw response retained.');
-  if(role==='teacher'&&match&&match.name!==String(name||''))throw new Error('Teacher learner choice does not match the Roster.');
+  if(role==='teacher'&&match&&!synthetic&&match.name!==String(name||''))throw new Error('Teacher learner choice does not match the Roster.');
   return map[course];
 }
 function guideOutcomeCodes_(codes,courseId,spec){
