@@ -507,6 +507,7 @@ function routeStudentSpreadsheetSubmit_(e, ctx, sourceResponseId) {
   let courseId = '';
   const courseValue = getNamedValue_(named, 'Course / class');
   if (courseValue) courseId = String(courseValue).split(' - ')[0].trim();
+  const evidenceProjectId = guideEvidenceProject_(project.spec, courseId, email, 'student', '');
 
   const reflectionLines = [];
 
@@ -526,11 +527,11 @@ function routeStudentSpreadsheetSubmit_(e, ctx, sourceResponseId) {
           student_email: email,
           student_name: '',
           course_id: courseId,
-          project_id: ctx.project_id,
+          project_id: evidenceProjectId,
           canonical_id: meta.canonical_id,
           evidence_type: 'Knowledge',
           skill_ids: meta.skill_ids,
-          outcome_codes: meta.outcome_codes,
+          outcome_codes: guideOutcomeCodes_(meta.outcome_codes, courseId),
           response_value: String(response),
           auto_score: scoreMultipleChoiceResponse_(info.item, response),
           level: '',
@@ -551,11 +552,11 @@ function routeStudentSpreadsheetSubmit_(e, ctx, sourceResponseId) {
           student_email: email,
           student_name: '',
           course_id: courseId,
-          project_id: ctx.project_id,
+          project_id: evidenceProjectId,
           canonical_id: meta.canonical_id,
           evidence_type: 'Transfer candidate',
           skill_ids: meta.skill_ids,
-          outcome_codes: meta.outcome_codes,
+          outcome_codes: guideOutcomeCodes_(meta.outcome_codes, courseId),
           response_value: String(response),
           auto_score: '',
           level: '',
@@ -582,7 +583,7 @@ function routeStudentSpreadsheetSubmit_(e, ctx, sourceResponseId) {
       student_email: email,
       student_name: '',
       course_id: courseId,
-      project_id: ctx.project_id,
+      project_id: evidenceProjectId,
       canonical_id: reflectionId,
       evidence_type: 'Reflection',
       skill_ids: '',
@@ -621,6 +622,7 @@ function routeTeacherSpreadsheetSubmit_(e, ctx, sourceResponseId) {
   const supportNext = getNamedValue_(named, 'Support next action (optional)') || '';
 
   const studentBits = String(student).split(' | ');
+  const evidenceProjectId = guideEvidenceProject_(project.spec, studentBits[2], studentBits[1], 'teacher', studentBits[0]);
   const choice=fbSelection_(project.spec,checkpoint,studentBits[2]);
   const checkpointId = choice ? choice.checkpoint_id : String(checkpoint).split(' - ')[0].trim();
 
@@ -635,11 +637,11 @@ function routeTeacherSpreadsheetSubmit_(e, ctx, sourceResponseId) {
       student_email: studentBits[1] || '',
       student_name: studentBits[0] || '',
       course_id: studentBits[2] || '',
-      project_id: ctx.project_id,
+      project_id: evidenceProjectId,
       canonical_id: checkpointId,
       evidence_type: cp.evidence_type || 'Teacher evidence',
       skill_ids: (choice && !choice.unbound ? choice.skill_ids : cp.skill_ids || []).join(';'),
-      outcome_codes: (choice && !choice.unbound ? choice.outcome_codes : cp.outcome_codes || []).join(';'),
+      outcome_codes: guideOutcomeCodes_((choice && !choice.unbound ? choice.outcome_codes : cp.outcome_codes || []).join(';'), studentBits[2]),
       rubric_context_json: fbContext_(project.spec,choice),
       response_value: String(checkpoint),
       auto_score: '',
@@ -668,7 +670,7 @@ function routeTeacherSpreadsheetSubmit_(e, ctx, sourceResponseId) {
       }};
       appendEvidence_({
         timestamp, student_email: studentBits[1] || '', student_name: studentBits[0] || '', course_id: studentBits[2] || '',
-        project_id: ctx.project_id, canonical_id: supportCanonicalId, evidence_type: 'Support', skill_ids: '', outcome_codes: '',
+        project_id: evidenceProjectId, canonical_id: supportCanonicalId, evidence_type: 'Support', skill_ids: '', outcome_codes: '',
         response_value: JSON.stringify(supportPayload), auto_score: '', level: '', independence: '', teacher_note: String(supportStrategy),
         teacher_verified: true, step_id: cp.step_id || '', source_form_id: ctx.form_id, source_response_id: sourceResponseId
       });

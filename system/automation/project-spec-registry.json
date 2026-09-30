@@ -56,6 +56,16 @@
       "project_id": "mm12-26-s03-bundle",
       "active": true,
       "forms_spec_url": "https://raw.githubusercontent.com/ctwadden/classroom-tools/technology-learning-system-v3/system/projects/multimedia/shot-on-purpose/assessment/forms-spec.json"
+    },
+    {
+      "project_id": "camera-lab-photo-desk-v1",
+      "active": true,
+      "forms_spec_url": "https://raw.githubusercontent.com/ctwadden/classroom-tools/technology-learning-system-v3/system/projects/multimedia/photo-desk/assessment/forms-spec.json"
+    },
+    {
+      "project_id": "com11-s03-document-it-v1",
+      "active": true,
+      "forms_spec_url": "https://raw.githubusercontent.com/ctwadden/classroom-tools/technology-learning-system-v3/system/projects/communication/document-it/assessment/forms-spec.json"
     }
   ]
 }
