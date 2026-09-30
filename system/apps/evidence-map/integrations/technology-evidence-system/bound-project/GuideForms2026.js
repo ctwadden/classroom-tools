@@ -61,3 +61,14 @@ function readPhotoDeskDocumentItForms(){
   const ss=SpreadsheetApp.openById(GUIDE_FORMS_2026.sheet),sh=ss.getSheetByName(TS.SHEETS.REGISTRY),rows=sh.getDataRange().getValues().slice(1);
   return GUIDE_FORMS_2026.ids.map(id=>({source_project_id:id,forms:rows.filter(r=>r[0]===id&&String(r[6]).toLowerCase()==='true').map(r=>({type:r[2],id:r[3],url:r[4],response_sheet:r[5]}))}));
 }
+// Recover only the labelled synthetic response after a transient lock timeout.
+// The normal router's source-row ID and append deduplication prevent duplicate events.
+function replayPhotoDeskQARow(){
+  const ss=SpreadsheetApp.openById(GUIDE_FORMS_2026.sheet),sh=ss.getSheetByName('Form Responses 65');
+  const headers=sh.getRange(1,1,1,sh.getLastColumn()).getValues()[0];
+  const values=sh.getRange(2,1,1,sh.getLastColumn()).getValues()[0];
+  if(!values.some(v=>String(v).startsWith('QA TEST')) || !values.some(v=>String(v)==='cwadden@gnspes.ca'))
+    throw new Error('QA row identity changed; no replay attempted.');
+  const namedValues={};headers.forEach((h,i)=>{if(h)namedValues[String(h)]=[String(values[i]??'')];});
+  onAssessmentSpreadsheetSubmit({range:sh.getRange(2,1),namedValues});
+}

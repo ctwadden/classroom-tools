@@ -508,6 +508,9 @@ function routeStudentSpreadsheetSubmit_(e, ctx, sourceResponseId) {
   const courseValue = getNamedValue_(named, 'Course / class');
   if (courseValue) courseId = String(courseValue).split(' - ')[0].trim();
   const evidenceProjectId = guideEvidenceProject_(project.spec, courseId, email, 'student', '');
+  // Guide Forms produce several rows per submission. Let the existing timed
+  // Evidence Map sync deliver them together, avoiding network work per item.
+  const deferSync = Boolean(project.spec.assessment_bundle_by_course);
 
   const reflectionLines = [];
 
@@ -539,7 +542,8 @@ function routeStudentSpreadsheetSubmit_(e, ctx, sourceResponseId) {
           teacher_note: '',
           teacher_verified: false,
           source_form_id: ctx.form_id,
-          source_response_id: sourceResponseId
+          source_response_id: sourceResponseId,
+          defer_sync: deferSync
         });
       }
       return;
@@ -564,7 +568,8 @@ function routeStudentSpreadsheetSubmit_(e, ctx, sourceResponseId) {
           teacher_note: 'Teacher verification required before Extending evidence.',
           teacher_verified: false,
           source_form_id: ctx.form_id,
-          source_response_id: sourceResponseId
+          source_response_id: sourceResponseId,
+          defer_sync: deferSync
         });
       }
       return;
@@ -595,7 +600,8 @@ function routeStudentSpreadsheetSubmit_(e, ctx, sourceResponseId) {
       teacher_note: 'Student self-report; use to guide teacher follow-up.',
       teacher_verified: false,
       source_form_id: ctx.form_id,
-      source_response_id: sourceResponseId
+      source_response_id: sourceResponseId,
+      defer_sync: deferSync
     });
   }
 }
@@ -629,6 +635,7 @@ function routeTeacherSpreadsheetSubmit_(e, ctx, sourceResponseId) {
 
   const studentBits = String(student).split(' | ');
   const evidenceProjectId = guideEvidenceProject_(project.spec, studentBits[2], studentBits[1], 'teacher', studentBits[0]);
+  const deferSync = Boolean(project.spec.assessment_bundle_by_course);
   const choice=fbSelection_(project.spec,checkpoint,studentBits[2]);
   const checkpointId = choice ? choice.checkpoint_id : String(checkpoint).split(' - ')[0].trim();
 
@@ -656,7 +663,8 @@ function routeTeacherSpreadsheetSubmit_(e, ctx, sourceResponseId) {
       teacher_note: String(note),
       teacher_verified: true,
       source_form_id: ctx.form_id,
-      source_response_id: sourceResponseId
+      source_response_id: sourceResponseId,
+      defer_sync: deferSync
     });
   }
 
@@ -678,7 +686,8 @@ function routeTeacherSpreadsheetSubmit_(e, ctx, sourceResponseId) {
         timestamp, student_email: studentBits[1] || '', student_name: studentBits[0] || '', course_id: studentBits[2] || '',
         project_id: evidenceProjectId, canonical_id: supportCanonicalId, evidence_type: 'Support', skill_ids: '', outcome_codes: '',
         response_value: JSON.stringify(supportPayload), auto_score: '', level: '', independence: '', teacher_note: String(supportStrategy),
-        teacher_verified: true, step_id: cp.step_id || '', source_form_id: ctx.form_id, source_response_id: sourceResponseId
+        teacher_verified: true, step_id: cp.step_id || '', source_form_id: ctx.form_id, source_response_id: sourceResponseId,
+        defer_sync: deferSync
       });
     }
   }
@@ -1307,7 +1316,10 @@ function getRoster_(ss, courseConfigs) {
 
 function appendEvidence_(obj) {
   const sh = SpreadsheetApp.getActive().getSheetByName(TS.SHEETS.EVIDENCE);
-  const lock=LockService.getScriptLock();
+  // The timed dashboard sync can hold the script lock for a full network
+  // round-trip. A document lock protects the Sheet append independently so
+  // live Form submissions do not time out while that sync runs.
+  const lock=LockService.getDocumentLock();
   lock.waitLock(30000);
   try {
     // Existing responses keep their original context, even when a Form/spec changes later.
@@ -1324,7 +1336,9 @@ function appendEvidence_(obj) {
     lock.releaseLock();
   }
   // Network delivery runs outside the write lock so another Form submission can normalize.
-  try { emOnEvidenceAppended_(obj); } catch (e) { logError_('WARN', e.message, 'emSync'); }
+  if (!obj.defer_sync) {
+    try { emOnEvidenceAppended_(obj); } catch (e) { logError_('WARN', e.message, 'emSync'); }
+  }
 }
 
 
