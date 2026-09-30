@@ -42,7 +42,9 @@ function releasePhotoDeskDocumentItForms(){
     }
     if(!(pair.student&&pair.teacher))throw new Error('Form registration incomplete: '+id);
     const student=FormApp.openById(pair.student.form_id),teacher=FormApp.openById(pair.teacher.form_id);
-    student.setCollectEmail(true);student.setRequireLogin(true);
+    // Verified email is set and checked in Forms response settings. Calling
+    // setCollectEmail(true) here would downgrade it to responder-entered email.
+    student.setRequireLogin(true);
     teacher.setRequireLogin(true);
     const level=teacher.getItems(FormApp.ItemType.MULTIPLE_CHOICE).map(i=>i.asMultipleChoiceItem()).find(i=>i.getTitle()==='Current evidence level');
     if(!level)throw new Error('Teacher achievement field missing: '+id);

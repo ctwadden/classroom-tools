@@ -606,6 +606,12 @@ function routeTeacherSpreadsheetSubmit_(e, ctx, sourceResponseId) {
   if (!project) throw new Error(`Could not resolve project spec for ${ctx.form_id}`);
 
   const named = e.namedValues || {};
+  // Guide teacher Forms may be reachable by other school accounts. Only a
+  // verified teacher email can turn a response into achievement evidence.
+  if (project.spec.assessment_bundle_by_course &&
+      findEmailValue_(named).trim().toLowerCase() !== 'cwadden@gnspes.ca') {
+    throw new Error('Teacher capture denied: verified teacher account required; raw Form response retained.');
+  }
   const timestamp = getSpreadsheetSubmitTimestamp_(e);
 
   const student = getNamedValue_(named, 'Student') || '';
