@@ -177,7 +177,11 @@ function emSyncAll_(force, silent){
     emReceipts_(sh, idx, batch, results);
     okc+=batch.filter(ev=>emValidReceipt_(ev,(results||{})[ev.event_id])).length;
   }
-  if(!silent)SpreadsheetApp.getUi().alert('Evidence Map sync: '+okc+'/'+events.length+' events confirmed. Pending rows will retry.');
+  if(!silent){
+    const message='Evidence Map sync: '+okc+'/'+events.length+' events confirmed. Pending rows will retry.';
+    try{ SpreadsheetApp.getUi().alert(message); }
+    catch(e){ console.log(message); } // Editor/background runs have no spreadsheet UI.
+  }
   return {confirmed:okc,attempted:events.length};
 }
 function syncPendingEvidenceToEvidenceMap(){ emSyncAll_(); }
