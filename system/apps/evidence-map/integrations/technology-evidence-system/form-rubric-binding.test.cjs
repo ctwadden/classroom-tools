@@ -4,7 +4,7 @@ const headers=['timestamp','student_email','student_name','course_id','project_i
 function sheet(rows=[headers]){return {rows:structuredClone(rows),getLastRow(){return this.rows.length;},appendRow(r){this.rows.push([...r]);},getRange(row,col,count=1,width=1){const sh=this;return {getValues(){return Array.from({length:count},(_,i)=>Array.from({length:width},(_,j)=>sh.rows[row+i-1]?.[col+j-1]??''));},setValues(v){v.forEach((r,i)=>r.forEach((x,j)=>{sh.rows[row+i-1]??=[];sh.rows[row+i-1][col+j-1]=x;}));return this;},setValue(v){return this.setValues([[v]]);},setFontWeight(){return this;},setBackground(){return this;},setFontColor(){return this;}};}};}
 function setup(sh=sheet()){
  const lock={waitLock(){},releaseLock(){}};
- const c=vm.createContext({Date,console,LockService:{getScriptLock:()=>lock,getDocumentLock:()=>lock},SpreadsheetApp:{getActive:()=>({getSheetByName:()=>sh})}});
+ const c=vm.createContext({Date,console,LockService:{getScriptLock:()=>lock,getDocumentLock:()=>lock},SpreadsheetApp:{getActive:()=>({getSheetByName:()=>sh}),flush(){}}});
  for(const n of ['TechnologyEvidenceMapSync','FormRubricBinding'])vm.runInContext(fs.readFileSync(root+'/'+n+'.gs','utf8'),c);
  vm.runInContext(fs.readFileSync(root+'/bound-project/Code.js','utf8'),c);
  c.sha256_=s=>crypto.createHash('sha256').update(s).digest('hex');c.ecLearnerId_=()=> 'synthetic-learner';c.ecStep_=()=> 'TA-S04';c.ecFetch_=()=>({rubrics:[approved]});c.logError_=()=>{};c.emKnowledge_=()=>({});c.guideEvidenceProject_=spec=>spec.project_id;c.guideOutcomeCodes_=codes=>codes;return c;

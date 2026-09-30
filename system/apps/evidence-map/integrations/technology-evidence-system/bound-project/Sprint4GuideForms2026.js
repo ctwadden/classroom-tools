@@ -107,8 +107,16 @@ function s4QASubmit_(projectId,role){
     const namedValues={};headers.forEach((h,i)=>{if(h)namedValues[String(h)]=[String(values[i]??'')];});
     const email=findEmailValue_(namedValues).trim().toLowerCase();
     if(email!=='cwadden@gnspes.ca')throw new Error('QA verified email missing; row retained without manual evidence routing.');
-    onAssessmentSpreadsheetSubmit({range:sh.getRange(row,1),namedValues});
-    const log=ss.getSheetByName(TS.SHEETS.EVIDENCE),all=log.getDataRange().getValues(),source='sheet:'+sh.getSheetId()+':row:'+row;
+    // A scripted FormResponse fires the installed spreadsheet submit trigger.
+    // Do not manually invoke the router at the same time: it can double-write.
+    const log=ss.getSheetByName(TS.SHEETS.EVIDENCE),source='sheet:'+sh.getSheetId()+':row:'+row;
+    for(let n=0;n<20;n++){
+      SpreadsheetApp.flush();
+      const found=log.getDataRange().getValues().slice(1).some(r=>String(r[16])===source&&String(r[15])===reg.form_id);
+      if(found)break;
+      Utilities.sleep(500);
+    }
+    const all=log.getDataRange().getValues();
     const matching=all.slice(1).filter(r=>String(r[16])===source&&String(r[15])===reg.form_id);
     return {project_id:projectId,role,form_id:reg.form_id,response_sheet:reg.response_sheet_name,response_row:row,source_response_id:source,evidence_rows:matching.length,verified_email:true,form_response_id:submitted.getId()};
   }finally{

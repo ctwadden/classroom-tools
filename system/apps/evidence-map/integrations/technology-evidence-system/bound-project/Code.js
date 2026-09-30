@@ -1349,6 +1349,8 @@ function appendEvidence_(obj) {
       const row=[obj.timestamp,obj.student_email,obj.student_name,obj.course_id,obj.project_id,obj.canonical_id,obj.evidence_type,obj.skill_ids,obj.outcome_codes,obj.response_value,obj.auto_score,obj.level,obj.independence,obj.teacher_note,obj.teacher_verified,obj.source_form_id,obj.source_response_id];
       if(obj.rubric_context_json)row.push(obj.rubric_context_json);
       sh.appendRow(row);
+      // Commit before releasing the lock so a simultaneous submit sees this row.
+      SpreadsheetApp.flush();
     }
   } finally {
     lock.releaseLock();
