@@ -50,7 +50,8 @@ function releasePhotoDeskDocumentItForms(){
     const sh=ss.getSheetByName(TS.SHEETS.PROJECTS),rows=sh.getDataRange().getValues();
     const at=rows.findIndex((r,i)=>i>0&&r[0]===id);
     if(at>0)sh.getRange(at+1,7,1,4).setValues([['Forms current',student.getPublishedUrl(),teacher.getPublishedUrl(),new Date()]]);
-    out.push({source_project_id:id,student_url:student.getPublishedUrl(),teacher_url:teacher.getPublishedUrl(),verified_email:student.collectsEmail(),student_login:student.requiresLogin(),teacher_login:teacher.requiresLogin(),student_form_id:student.getId(),teacher_form_id:teacher.getId()});
+    // Project and Form Registry are the durable readback; avoid a second Forms edit/read call here.
+    out.push({source_project_id:id,student_url:pair.student.form_url,teacher_url:pair.teacher.form_url,student_form_id:pair.student.form_id,teacher_form_id:pair.teacher.form_id});
   });
   return {forms:out,router_triggers:ScriptApp.getProjectTriggers().filter(t=>t.getHandlerFunction()==='onAssessmentSpreadsheetSubmit').length};
 }
