@@ -22,7 +22,8 @@ function guideEvidenceProject_(spec,courseId,email,role,name){
   if(role==='teacher'&&match&&match.name!==String(name||''))throw new Error('Teacher learner choice does not match the Roster.');
   return map[course];
 }
-function guideOutcomeCodes_(codes,courseId){
+function guideOutcomeCodes_(codes,courseId,spec){
+  if(!spec||!spec.assessment_bundle_by_course)return String(codes||'');
   return String(codes||'').split(';').filter(code=>code.startsWith(String(courseId||'')+'-')).join(';');
 }
 function releasePhotoDeskDocumentItForms(){
