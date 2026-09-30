@@ -63,3 +63,62 @@ function readSprint4GuideForms(){
   const ss=SpreadsheetApp.openById(S4_GUIDE_FORMS.sheet),sh=ss.getSheetByName(TS.SHEETS.REGISTRY),rows=sh.getDataRange().getValues().slice(1);
   return S4_GUIDE_FORMS.entries.map(([id,,openDate])=>({id,open_date:openDate,forms:rows.filter(r=>r[0]===id&&String(r[6]).toLowerCase()==='true').map(r=>({type:r[2],form_id:r[3],form_url:r[4],response_sheet:r[5]}))}));
 }
+
+function s4QASubmit_(projectId,role){
+  const pair=getActiveProjectFormPair_(projectId,'2026-09-30.1');
+  const reg=role==='student'?pair.student:pair.teacher;
+  if(!reg)throw new Error('QA Form not registered: '+projectId+' '+role);
+  const ss=SpreadsheetApp.openById(S4_GUIDE_FORMS.sheet),form=FormApp.openById(reg.form_id),sh=ss.getSheetByName(reg.response_sheet_name);
+  if(!sh)throw new Error('QA response tab missing.');
+  const wasAccepting=form.isAcceptingResponses(),before=sh.getLastRow();
+  const qaLabel='QA TEST — NOT A STUDENT | cwadden@gnspes.ca | '+(projectId.startsWith('com11')?'COM11':'MM12');
+  let studentItem=null,oldChoices=[];
+  try{
+    if(role==='student')form.setAcceptingResponses(true);
+    else{
+      s4RestrictOwner_(form);
+      studentItem=form.getItems(FormApp.ItemType.LIST).map(i=>i.asListItem()).find(i=>i.getTitle()==='Student');
+      if(!studentItem)throw new Error('Teacher Student choice missing.');
+      oldChoices=studentItem.getChoices().map(c=>c.getValue());
+      studentItem.setChoiceValues(oldChoices.concat([qaLabel]));
+    }
+    let response=form.createResponse();
+    for(const item of form.getItems()){
+      const type=item.getType(),title=item.getTitle();
+      if(type===FormApp.ItemType.LIST){
+        const field=item.asListItem(),choices=field.getChoices().map(c=>c.getValue());
+        const value=title==='Student'?qaLabel:choices[0];
+        if(!value)throw new Error('QA choice missing: '+title);
+        response=response.withItemResponse(field.createResponse(value));
+      }else if(type===FormApp.ItemType.MULTIPLE_CHOICE){
+        const field=item.asMultipleChoiceItem(),choices=field.getChoices().map(c=>c.getValue());
+        const value=title==='Current evidence level'?'IE':title==='Support dimension (optional)'?'Not recorded':title==='Support level (optional)'?'Not recorded':title==='Did the support help? (optional)'?'Not recorded':choices[0];
+        response=response.withItemResponse(field.createResponse(value));
+      }else if(type===FormApp.ItemType.PARAGRAPH_TEXT){
+        response=response.withItemResponse(item.asParagraphTextItem().createResponse('QA TEST — synthetic response only; no learner work or achievement.'));
+      }else if(type===FormApp.ItemType.TEXT){
+        response=response.withItemResponse(item.asTextItem().createResponse('QA TEST'));
+      }
+    }
+    const submitted=response.submit();
+    for(let n=0;n<8&&sh.getLastRow()<=before;n++){SpreadsheetApp.flush();Utilities.sleep(500);}
+    if(sh.getLastRow()!==before+1)throw new Error('QA Form response tab did not gain exactly one row.');
+    const row=before+1,values=sh.getRange(row,1,1,sh.getLastColumn()).getValues()[0],headers=sh.getRange(1,1,1,sh.getLastColumn()).getValues()[0];
+    const namedValues={};headers.forEach((h,i)=>{if(h)namedValues[String(h)]=[String(values[i]??'')];});
+    const email=findEmailValue_(namedValues).trim().toLowerCase();
+    if(email!=='cwadden@gnspes.ca')throw new Error('QA verified email missing; row retained without manual evidence routing.');
+    onAssessmentSpreadsheetSubmit({range:sh.getRange(row,1),namedValues});
+    const log=ss.getSheetByName(TS.SHEETS.EVIDENCE),all=log.getDataRange().getValues(),source='sheet:'+sh.getSheetId()+':row:'+row;
+    const matching=all.slice(1).filter(r=>String(r[16])===source&&String(r[15])===reg.form_id);
+    return {project_id:projectId,role,form_id:reg.form_id,response_sheet:reg.response_sheet_name,response_row:row,source_response_id:source,evidence_rows:matching.length,verified_email:true,form_response_id:submitted.getId()};
+  }finally{
+    if(role==='student')form.setAcceptingResponses(wasAccepting);
+    if(studentItem)studentItem.setChoiceValues(oldChoices);
+  }
+}
+function qaS4LastLightStudent(){return s4QASubmit_('last-light-v1','student');}
+function qaS4LastLightTeacher(){return s4QASubmit_('last-light-v1','teacher');}
+function qaS4MakeItMatterStudent(){return s4QASubmit_('make-it-matter-v2','student');}
+function qaS4MakeItMatterTeacher(){return s4QASubmit_('make-it-matter-v2','teacher');}
+function qaS4BuildItTrueStudent(){return s4QASubmit_('com11-build-it-true-v2','student');}
+function qaS4BuildItTrueTeacher(){return s4QASubmit_('com11-build-it-true-v2','teacher');}
