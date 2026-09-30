@@ -9,6 +9,20 @@ const S4_GUIDE_FORMS={
   ]
 };
 
+function s4RestrictOwner_(form){
+  for(const p of tfrPermissions_(form.getId())){
+    if(p.role==='owner'){
+      if(p.emailAddress&&p.emailAddress!=='cwadden@gnspes.ca')throw new Error('Unexpected teacher Form owner.');
+      continue;
+    }
+    const url='https://www.googleapis.com/drive/v3/files/'+encodeURIComponent(form.getId())+'/permissions/'+encodeURIComponent(p.id);
+    const r=UrlFetchApp.fetch(url,{method:'delete',headers:{Authorization:'Bearer '+ScriptApp.getOAuthToken()},muteHttpExceptions:true});
+    if(r.getResponseCode()!==204)throw new Error('Could not remove non-owner teacher Form access; HTTP '+r.getResponseCode());
+  }
+  if(tfrPermissions_(form.getId()).some(p=>p.type==='anyone'||p.type==='domain'||(p.role!=='owner'&&p.emailAddress!=='cwadden@gnspes.ca')))
+    throw new Error('Teacher Form still has non-owner responder access.');
+}
+
 function releaseSprint4GuideForms(){
   const ss=SpreadsheetApp.openById(S4_GUIDE_FORMS.sheet);
   const triggers=ScriptApp.getProjectTriggers().filter(t=>t.getHandlerFunction()==='onAssessmentSpreadsheetSubmit'&&t.getEventType()===ScriptApp.EventType.ON_FORM_SUBMIT);
@@ -30,6 +44,7 @@ function releaseSprint4GuideForms(){
     student.setRequireLogin(true);
     student.setAcceptingResponses(false);
     teacher.setRequireLogin(true);
+    s4RestrictOwner_(teacher);
     const level=teacher.getItems(FormApp.ItemType.MULTIPLE_CHOICE).map(i=>i.asMultipleChoiceItem()).find(i=>i.getTitle()==='Current evidence level');
     if(!level)throw new Error('Teacher level missing: '+id);
     level.setChoiceValues(['Beginning','Developing','Secure','Extending','IE']);

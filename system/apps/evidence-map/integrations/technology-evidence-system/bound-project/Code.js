@@ -332,6 +332,7 @@ function buildTeacherForm_(ss, spec, preparedForm) {
   const responseSheetName = attachFormDestination_(ss, form);
   if (spec.teacher_evidence?.owner_only) {
     if (!form.isPublished()) form.setPublished(true);
+    s4RestrictOwner_(form);
     if (tfrPermissions_(form.getId()).some(p => p.type === 'anyone' || p.type === 'domain' ||
       (p.role !== 'owner' && p.emailAddress !== 'cwadden@gnspes.ca')))
       throw new Error('Teacher Form responder access is broader than owner-only; registration stopped.');
