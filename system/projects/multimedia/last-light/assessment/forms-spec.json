@@ -1,0 +1,478 @@
+{
+  "spec_version": "2026-09-30.1",
+  "project_id": "last-light-v1",
+  "project_title": "Last Light — MM12 Sprint 4",
+  "course_configs": [
+    {
+      "course_id": "MM12",
+      "module_id": "M1",
+      "outcome_codes": [
+        "MM12-2.1",
+        "MM12-2.2",
+        "MM12-2.3",
+        "MM12-2.4",
+        "MM12-2.5",
+        "MM12-3.3"
+      ]
+    }
+  ],
+  "assessment_bundle_by_course": {
+    "MM12": "mm12-26-s04-bundle"
+  },
+  "student_form": {
+    "description": "Eight knowledge questions from Knowledge first, then the guide's five evidence questions and a skill reflection. Verified school email required. Student answers are not achievement confirmation."
+  },
+  "knowledge_check": {
+    "items": [
+      {
+        "id": "last-light-v1:k01",
+        "type": "multiple_choice",
+        "prompt": "Which visible clue best establishes where a scene's main light comes from?",
+        "choices": [
+          "Highlights face the source and shadows point away",
+          "Every edge is equally bright",
+          "Shadows point toward the source",
+          "Only the title is bright"
+        ],
+        "correct_index": 0,
+        "points": 1,
+        "correct_feedback": "A consistent source explains both highlight and shadow direction.",
+        "incorrect_feedback": "A consistent source explains both highlight and shadow direction.",
+        "skill_ids": [
+          "PS-LGT-02"
+        ],
+        "outcome_codes": [
+          "MM12-2.1",
+          "MM12-2.2",
+          "MM12-2.3",
+          "MM12-2.4",
+          "MM12-2.5",
+          "MM12-3.3"
+        ],
+        "step_id": "step-1",
+        "lesson_id": "mm12-26-s04-d01"
+      },
+      {
+        "id": "last-light-v1:k02",
+        "type": "multiple_choice",
+        "prompt": "If a lamp is the source, how should its illumination change farther away?",
+        "choices": [
+          "It should become uniformly brighter",
+          "It should switch colour at every edge",
+          "Distance has no effect",
+          "It should usually fade with distance"
+        ],
+        "correct_index": 3,
+        "points": 1,
+        "correct_feedback": "Fall-off makes a painted source believable.",
+        "incorrect_feedback": "Fall-off makes a painted source believable.",
+        "skill_ids": [
+          "PS-LGT-02"
+        ],
+        "outcome_codes": [
+          "MM12-2.1",
+          "MM12-2.2",
+          "MM12-2.3",
+          "MM12-2.4",
+          "MM12-2.5",
+          "MM12-3.3"
+        ],
+        "step_id": "step-4",
+        "lesson_id": "mm12-26-s04-d01"
+      },
+      {
+        "id": "last-light-v1:k03",
+        "type": "multiple_choice",
+        "prompt": "Why invert a Curves adjustment mask before brushing with white?",
+        "choices": [
+          "To delete the source photo",
+          "To turn the whole frame white",
+          "To reveal the brightening only where light falls",
+          "To flatten the file"
+        ],
+        "correct_index": 2,
+        "points": 1,
+        "correct_feedback": "An inverted black mask hides the adjustment until white reveals it locally.",
+        "incorrect_feedback": "An inverted black mask hides the adjustment until white reveals it locally.",
+        "skill_ids": [
+          "PS-ADJ-01",
+          "PS-LAY-01"
+        ],
+        "outcome_codes": [
+          "MM12-2.1",
+          "MM12-2.2",
+          "MM12-2.3",
+          "MM12-2.4",
+          "MM12-2.5",
+          "MM12-3.3"
+        ],
+        "step_id": "step-4",
+        "lesson_id": "mm12-26-s04-d01"
+      },
+      {
+        "id": "last-light-v1:k04",
+        "type": "multiple_choice",
+        "prompt": "Which colour pairing most clearly separates warm motivated light from cool shadow?",
+        "choices": [
+          "Pure white on all surfaces",
+          "Warm highlights against cooler darker areas",
+          "Identical hue and value everywhere",
+          "Random colour on each layer"
+        ],
+        "correct_index": 1,
+        "points": 1,
+        "correct_feedback": "Controlled warm/cool contrast helps the source read.",
+        "incorrect_feedback": "Controlled warm/cool contrast helps the source read.",
+        "skill_ids": [
+          "PS-LGT-02"
+        ],
+        "outcome_codes": [
+          "MM12-2.1",
+          "MM12-2.2",
+          "MM12-2.3",
+          "MM12-2.4",
+          "MM12-2.5",
+          "MM12-3.3"
+        ],
+        "step_id": "step-6",
+        "lesson_id": "mm12-26-s04-d02"
+      },
+      {
+        "id": "last-light-v1:k05",
+        "type": "multiple_choice",
+        "prompt": "What makes a rim highlight believable on a cut-out figure?",
+        "choices": [
+          "It appears on the edge facing the source",
+          "It outlines every edge equally",
+          "It points opposite every ray",
+          "It replaces the subject mask"
+        ],
+        "correct_index": 0,
+        "points": 1,
+        "correct_feedback": "The edge receiving light should face the source.",
+        "incorrect_feedback": "The edge receiving light should face the source.",
+        "skill_ids": [
+          "PS-LGT-02"
+        ],
+        "outcome_codes": [
+          "MM12-2.1",
+          "MM12-2.2",
+          "MM12-2.3",
+          "MM12-2.4",
+          "MM12-2.5",
+          "MM12-3.3"
+        ],
+        "step_id": "step-7",
+        "lesson_id": "mm12-26-s04-d02"
+      },
+      {
+        "id": "last-light-v1:k06",
+        "type": "multiple_choice",
+        "prompt": "Why keep glow, rays and colour grading on editable layers?",
+        "choices": [
+          "They make the PSD smaller than a JPEG",
+          "They remove the need for masks",
+          "They guarantee a strong story",
+          "They can be revised when the source moves"
+        ],
+        "correct_index": 3,
+        "points": 1,
+        "correct_feedback": "Editable controls make the independent relight possible.",
+        "incorrect_feedback": "Editable controls make the independent relight possible.",
+        "skill_ids": [
+          "PS-LAY-01"
+        ],
+        "outcome_codes": [
+          "MM12-2.1",
+          "MM12-2.2",
+          "MM12-2.3",
+          "MM12-2.4",
+          "MM12-2.5",
+          "MM12-3.3"
+        ],
+        "step_id": "step-8",
+        "lesson_id": "mm12-26-s04-d02"
+      },
+      {
+        "id": "last-light-v1:k07",
+        "type": "multiple_choice",
+        "prompt": "In a poster hierarchy, what should usually read before the billing block?",
+        "choices": [
+          "Export filename",
+          "Layer names",
+          "Title and key art",
+          "Every credit equally"
+        ],
+        "correct_index": 2,
+        "points": 1,
+        "correct_feedback": "The title and key art carry the first read; credits are subordinate.",
+        "incorrect_feedback": "The title and key art carry the first read; credits are subordinate.",
+        "skill_ids": [
+          "GD-HIE-01",
+          "PS-TYP-01"
+        ],
+        "outcome_codes": [
+          "MM12-2.1",
+          "MM12-2.2",
+          "MM12-2.3",
+          "MM12-2.4",
+          "MM12-2.5",
+          "MM12-3.3"
+        ],
+        "step_id": "step-13",
+        "lesson_id": "mm12-26-s04-d04"
+      },
+      {
+        "id": "last-light-v1:k08",
+        "type": "multiple_choice",
+        "prompt": "After moving the light to the other side, which check is strongest?",
+        "choices": [
+          "Judge the JPEG without reopening the PSD",
+          "Compare every highlight, rim, ray and shadow against the new source",
+          "Move only the glow",
+          "Keep old shadows to save time"
+        ],
+        "correct_index": 1,
+        "points": 1,
+        "correct_feedback": "The practical check tests coordinated changes, not one isolated effect.",
+        "incorrect_feedback": "The practical check tests coordinated changes, not one isolated effect.",
+        "skill_ids": [
+          "PS-LGT-02",
+          "GD-CRIT-01"
+        ],
+        "outcome_codes": [
+          "MM12-2.1",
+          "MM12-2.2",
+          "MM12-2.3",
+          "MM12-2.4",
+          "MM12-2.5",
+          "MM12-3.3"
+        ],
+        "step_id": "step-14",
+        "lesson_id": "mm12-26-s04-d04"
+      }
+    ]
+  },
+  "evidence_questions": [
+    {
+      "id": "last-light-v1:e01",
+      "prompt": "What is your light source, and why is it believable in this scene?",
+      "step_id": "step-14",
+      "lesson_id": "mm12-26-s04-d04",
+      "skill_ids": [
+        "PS-LAY-01",
+        "PS-ADJ-01",
+        "PS-TON-01",
+        "PS-BLD-02",
+        "PS-LGT-02",
+        "PS-TYP-01",
+        "GD-HIE-01",
+        "GD-CRIT-01"
+      ],
+      "outcome_codes": [
+        "MM12-2.1",
+        "MM12-2.2",
+        "MM12-2.3",
+        "MM12-2.4",
+        "MM12-2.5",
+        "MM12-3.3"
+      ]
+    },
+    {
+      "id": "last-light-v1:e02",
+      "prompt": "Which layer made the biggest difference, and what does its mask look like?",
+      "step_id": "step-14",
+      "lesson_id": "mm12-26-s04-d04",
+      "skill_ids": [
+        "PS-LAY-01",
+        "PS-ADJ-01",
+        "PS-TON-01",
+        "PS-BLD-02",
+        "PS-LGT-02",
+        "PS-TYP-01",
+        "GD-HIE-01",
+        "GD-CRIT-01"
+      ],
+      "outcome_codes": [
+        "MM12-2.1",
+        "MM12-2.2",
+        "MM12-2.3",
+        "MM12-2.4",
+        "MM12-2.5",
+        "MM12-3.3"
+      ]
+    },
+    {
+      "id": "last-light-v1:e03",
+      "prompt": "Which layers did you change to move the light, and why those?",
+      "step_id": "step-14",
+      "lesson_id": "mm12-26-s04-d04",
+      "skill_ids": [
+        "PS-LAY-01",
+        "PS-ADJ-01",
+        "PS-TON-01",
+        "PS-BLD-02",
+        "PS-LGT-02",
+        "PS-TYP-01",
+        "GD-HIE-01",
+        "GD-CRIT-01"
+      ],
+      "outcome_codes": [
+        "MM12-2.1",
+        "MM12-2.2",
+        "MM12-2.3",
+        "MM12-2.4",
+        "MM12-2.5",
+        "MM12-3.3"
+      ]
+    },
+    {
+      "id": "last-light-v1:e04",
+      "prompt": "How do the light colour and shadow colour support your story?",
+      "step_id": "step-14",
+      "lesson_id": "mm12-26-s04-d04",
+      "skill_ids": [
+        "PS-LAY-01",
+        "PS-ADJ-01",
+        "PS-TON-01",
+        "PS-BLD-02",
+        "PS-LGT-02",
+        "PS-TYP-01",
+        "GD-HIE-01",
+        "GD-CRIT-01"
+      ],
+      "outcome_codes": [
+        "MM12-2.1",
+        "MM12-2.2",
+        "MM12-2.3",
+        "MM12-2.4",
+        "MM12-2.5",
+        "MM12-3.3"
+      ]
+    },
+    {
+      "id": "last-light-v1:e05",
+      "prompt": "What does your 5-second teaser add that the still poster cannot?",
+      "step_id": "step-14",
+      "lesson_id": "mm12-26-s04-d04",
+      "skill_ids": [
+        "PS-LAY-01",
+        "PS-ADJ-01",
+        "PS-TON-01",
+        "PS-BLD-02",
+        "PS-LGT-02",
+        "PS-TYP-01",
+        "GD-HIE-01",
+        "GD-CRIT-01"
+      ],
+      "outcome_codes": [
+        "MM12-2.1",
+        "MM12-2.2",
+        "MM12-2.3",
+        "MM12-2.4",
+        "MM12-2.5",
+        "MM12-3.3"
+      ]
+    }
+  ],
+  "skill_reflection": {
+    "technical_skills": [
+      {
+        "id": "PS-LAY-01",
+        "label": "PS-LAY-01"
+      },
+      {
+        "id": "PS-ADJ-01",
+        "label": "PS-ADJ-01"
+      },
+      {
+        "id": "PS-TON-01",
+        "label": "PS-TON-01"
+      },
+      {
+        "id": "PS-BLD-02",
+        "label": "PS-BLD-02"
+      },
+      {
+        "id": "PS-LGT-02",
+        "label": "PS-LGT-02"
+      },
+      {
+        "id": "PS-TYP-01",
+        "label": "PS-TYP-01"
+      }
+    ],
+    "design_skills": [
+      {
+        "id": "GD-HIE-01",
+        "label": "GD-HIE-01"
+      },
+      {
+        "id": "GD-CRIT-01",
+        "label": "GD-CRIT-01"
+      }
+    ],
+    "independence_options": [
+      "Followed the example closely",
+      "Needed some prompts/checkpoints",
+      "Worked independently",
+      "Adapted or extended the skill"
+    ]
+  },
+  "transfer": {
+    "id": "last-light-v1:next-target",
+    "prompt": "Name one skill, locate its evidence in your files, explain when you used it, and choose your next target after the changed brief.",
+    "skill_ids": [
+      "PS-LAY-01",
+      "PS-ADJ-01",
+      "PS-TON-01",
+      "PS-BLD-02",
+      "PS-LGT-02",
+      "PS-TYP-01",
+      "GD-HIE-01",
+      "GD-CRIT-01"
+    ],
+    "outcome_codes": [
+      "MM12-2.1",
+      "MM12-2.2",
+      "MM12-2.3",
+      "MM12-2.4",
+      "MM12-2.5",
+      "MM12-3.3"
+    ],
+    "step_id": "step-14",
+    "lesson_id": "mm12-26-s04-d04",
+    "teacher_verification_required": true
+  },
+  "teacher_evidence": {
+    "owner_only": true,
+    "checkpoints": [
+      {
+        "evidence_id": "last-light-v1:step-14",
+        "evidence_type": "Product",
+        "title": "Step 14: Practical check: move the light",
+        "skill_ids": [
+          "PS-LAY-01",
+          "PS-ADJ-01",
+          "PS-TON-01",
+          "PS-BLD-02",
+          "PS-LGT-02",
+          "PS-TYP-01",
+          "GD-HIE-01",
+          "GD-CRIT-01"
+        ],
+        "outcome_codes": [
+          "MM12-2.1",
+          "MM12-2.2",
+          "MM12-2.3",
+          "MM12-2.4",
+          "MM12-2.5",
+          "MM12-3.3"
+        ],
+        "step_id": "step-14",
+        "lesson_id": "mm12-26-s04-d04",
+        "practical_check": true
+      }
+    ]
+  }
+}

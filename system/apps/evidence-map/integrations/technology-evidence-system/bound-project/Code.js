@@ -244,6 +244,14 @@ function buildStudentForm_(ss, spec) {
     mapItem_(ss, form, item, spec, q.id, 'Knowledge', q.skill_ids, q.outcome_codes, q.step_id || '', 'knowledge', q.lesson_id || '');
   });
 
+  if ((spec.evidence_questions || []).length) {
+    form.addSectionHeaderItem().setTitle('Evidence from your own guide');
+    spec.evidence_questions.forEach(q => {
+      const item=form.addParagraphTextItem().setTitle(q.prompt).setRequired(true);
+      mapItem_(ss, form, item, spec, q.id, 'Reflection', q.skill_ids || [], q.outcome_codes || [], q.step_id || '', 'evidence_answer', q.lesson_id || '');
+    });
+  }
+
   form.addSectionHeaderItem().setTitle('2 - Skills Used');
   const sr = spec.skill_reflection || {};
   addSkillReflectionBlock_(ss, form, spec, 'technical', 'Technical skill that mattered most', sr.technical_skills || []);
@@ -273,7 +281,10 @@ function addSkillReflectionBlock_(ss, form, spec, role, title, skills, growthOnl
 
 function buildTeacherForm_(ss, spec, preparedForm) {
   const approvedRubrics=fbPreflight_(spec)||[];
-  const form = preparedForm || FormApp.create(`${spec.project_title} - Teacher Evidence Capture`);
+  const form = preparedForm || (spec.teacher_evidence?.owner_only
+    ? FormApp.create(`${spec.project_title} - Teacher Evidence Capture`, false)
+    : FormApp.create(`${spec.project_title} - Teacher Evidence Capture`));
+  if (spec.teacher_evidence?.owner_only && !preparedForm) tfrPrivate_(form);
   form.setDescription('Fast teacher capture for Observation, Conversation and Product evidence. Student self-reports do not auto-confirm competency.');
   form.setProgressBar(true);
   form.setConfirmationMessage('Evidence saved.');
@@ -319,6 +330,12 @@ function buildTeacherForm_(ss, spec, preparedForm) {
   mapItem_(ss, form, note, spec, 'META-NOTE', 'Metadata', [], [], '', 'teacher_note');
 
   const responseSheetName = attachFormDestination_(ss, form);
+  if (spec.teacher_evidence?.owner_only) {
+    if (!form.isPublished()) form.setPublished(true);
+    if (tfrPermissions_(form.getId()).some(p => p.type === 'anyone' || p.type === 'domain' ||
+      (p.role !== 'owner' && p.emailAddress !== 'cwadden@gnspes.ca')))
+      throw new Error('Teacher Form responder access is broader than owner-only; registration stopped.');
+  }
   return {form, responseSheetName};
 }
 
