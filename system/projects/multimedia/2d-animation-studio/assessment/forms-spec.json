@@ -1,0 +1,456 @@
+{
+  "spec_version": "2026-10-01.1",
+  "project_id": "mm12-2d-animation-studio-v1",
+  "project_title": "2D Animation Studio — MM12 Sprint 7",
+  "course_configs": [
+    {
+      "course_id": "MM12",
+      "module_id": "M2",
+      "outcome_codes": [
+        "MM12-4.1",
+        "MM12-4.2",
+        "MM12-4.3",
+        "MM12-4.4",
+        "MM12-4.5"
+      ]
+    }
+  ],
+  "assessment_bundle_by_course": {
+    "MM12": "mm12-26-s07-bundle"
+  },
+  "student_form": {
+    "description": "Eight knowledge questions from Knowledge first, five guide evidence questions, and a skill reflection. Verified school email required. Self-report is not achievement confirmation."
+  },
+  "knowledge_check": {
+    "items": [
+      {
+        "id": "mm12-2d-animation-studio-v1:k01",
+        "type": "multiple_choice",
+        "prompt": "At 24 frames per second, animating on twos usually means how many drawings per second?",
+        "choices": [
+          "12",
+          "24",
+          "48",
+          "6"
+        ],
+        "correct_index": 0,
+        "points": 1,
+        "correct_feedback": "One drawing is exposed for two frames, so 24 frames use 12 drawings.",
+        "incorrect_feedback": "One drawing is exposed for two frames, so 24 frames use 12 drawings.",
+        "skill_ids": [],
+        "outcome_codes": [
+          "MM12-4.1",
+          "MM12-4.2",
+          "MM12-4.3",
+          "MM12-4.4",
+          "MM12-4.5"
+        ],
+        "step_id": "step-3",
+        "lesson_id": "mm12-26-s07-d02"
+      },
+      {
+        "id": "mm12-2d-animation-studio-v1:k02",
+        "type": "multiple_choice",
+        "prompt": "What is the difference between timing and spacing?",
+        "choices": [
+          "Timing is colour; spacing is sound",
+          "They both mean only frame rate",
+          "Timing is layer order; spacing is palette",
+          "Timing is frame count; spacing is distance between drawings"
+        ],
+        "correct_index": 3,
+        "points": 1,
+        "correct_feedback": "Timing controls duration; spacing controls how far the subject moves between drawings.",
+        "incorrect_feedback": "Timing controls duration; spacing controls how far the subject moves between drawings.",
+        "skill_ids": [],
+        "outcome_codes": [
+          "MM12-4.1",
+          "MM12-4.2",
+          "MM12-4.3",
+          "MM12-4.4",
+          "MM12-4.5"
+        ],
+        "step_id": "step-3",
+        "lesson_id": "mm12-26-s07-d02"
+      },
+      {
+        "id": "mm12-2d-animation-studio-v1:k03",
+        "type": "multiple_choice",
+        "prompt": "Where should the ball drawings usually be closest together?",
+        "choices": [
+          "At every frame equally",
+          "Only after export",
+          "Near the top, where it slows",
+          "Near the ground, where it moves fastest"
+        ],
+        "correct_index": 2,
+        "points": 1,
+        "correct_feedback": "Closer drawings create slower motion at the top of the bounce.",
+        "incorrect_feedback": "Closer drawings create slower motion at the top of the bounce.",
+        "skill_ids": [],
+        "outcome_codes": [
+          "MM12-4.1",
+          "MM12-4.2",
+          "MM12-4.3",
+          "MM12-4.4",
+          "MM12-4.5"
+        ],
+        "step_id": "step-4",
+        "lesson_id": "mm12-26-s07-d02"
+      },
+      {
+        "id": "mm12-2d-animation-studio-v1:k04",
+        "type": "multiple_choice",
+        "prompt": "What should remain approximately constant through squash and stretch?",
+        "choices": [
+          "Frame number",
+          "Volume",
+          "Height alone",
+          "Width alone"
+        ],
+        "correct_index": 1,
+        "points": 1,
+        "correct_feedback": "Preserving volume keeps the shape believable while it deforms.",
+        "incorrect_feedback": "Preserving volume keeps the shape believable while it deforms.",
+        "skill_ids": [],
+        "outcome_codes": [
+          "MM12-4.1",
+          "MM12-4.2",
+          "MM12-4.3",
+          "MM12-4.4",
+          "MM12-4.5"
+        ],
+        "step_id": "step-4",
+        "lesson_id": "mm12-26-s07-d02"
+      },
+      {
+        "id": "mm12-2d-animation-studio-v1:k05",
+        "type": "multiple_choice",
+        "prompt": "Which four key phases repeat in a walk cycle?",
+        "choices": [
+          "Contact, down, passing, up",
+          "Rough, line, colour, render",
+          "Wide, medium, close, cut",
+          "Record, mark, mouth, export"
+        ],
+        "correct_index": 0,
+        "points": 1,
+        "correct_feedback": "Contact, down, passing and up form the walk pattern.",
+        "incorrect_feedback": "Contact, down, passing and up form the walk pattern.",
+        "skill_ids": [],
+        "outcome_codes": [
+          "MM12-4.1",
+          "MM12-4.2",
+          "MM12-4.3",
+          "MM12-4.4",
+          "MM12-4.5"
+        ],
+        "step_id": "step-8",
+        "lesson_id": "mm12-26-s07-d04"
+      },
+      {
+        "id": "mm12-2d-animation-studio-v1:k06",
+        "type": "multiple_choice",
+        "prompt": "What is follow-through in a walk?",
+        "choices": [
+          "Both arms stop exactly with the feet",
+          "The background moves at the same speed",
+          "The mouth changes on every frame",
+          "Loose parts lag behind and settle after the main motion"
+        ],
+        "correct_index": 3,
+        "points": 1,
+        "correct_feedback": "A dragging detail continues briefly after the main body motion.",
+        "incorrect_feedback": "A dragging detail continues briefly after the main body motion.",
+        "skill_ids": [],
+        "outcome_codes": [
+          "MM12-4.1",
+          "MM12-4.2",
+          "MM12-4.3",
+          "MM12-4.4",
+          "MM12-4.5"
+        ],
+        "step_id": "step-9",
+        "lesson_id": "mm12-26-s07-d05"
+      },
+      {
+        "id": "mm12-2d-animation-studio-v1:k07",
+        "type": "multiple_choice",
+        "prompt": "What is the mouth chart used for?",
+        "choices": [
+          "Mapping image textures",
+          "Painting vertex weights",
+          "Choosing a small set of shapes matched to speech sounds",
+          "Setting camera exposure"
+        ],
+        "correct_index": 2,
+        "points": 1,
+        "correct_feedback": "Lip sync uses phonemes and reusable mouth shapes rather than drawing each letter.",
+        "incorrect_feedback": "Lip sync uses phonemes and reusable mouth shapes rather than drawing each letter.",
+        "skill_ids": [],
+        "outcome_codes": [
+          "MM12-4.1",
+          "MM12-4.2",
+          "MM12-4.3",
+          "MM12-4.4",
+          "MM12-4.5"
+        ],
+        "step_id": "step-11",
+        "lesson_id": "mm12-26-s07-d06"
+      },
+      {
+        "id": "mm12-2d-animation-studio-v1:k08",
+        "type": "multiple_choice",
+        "prompt": "Why might the mouth drawing change one frame before the sound?",
+        "choices": [
+          "It guarantees every vowel has the same shape",
+          "It helps the visible mouth read in sync with the heard phoneme",
+          "It lowers the frame rate",
+          "It removes the need for markers"
+        ],
+        "correct_index": 1,
+        "points": 1,
+        "correct_feedback": "The guide advises a slight visual lead so the sound and mouth read together.",
+        "incorrect_feedback": "The guide advises a slight visual lead so the sound and mouth read together.",
+        "skill_ids": [],
+        "outcome_codes": [
+          "MM12-4.1",
+          "MM12-4.2",
+          "MM12-4.3",
+          "MM12-4.4",
+          "MM12-4.5"
+        ],
+        "step_id": "step-13",
+        "lesson_id": "mm12-26-s07-d07"
+      }
+    ]
+  },
+  "evidence_questions": [
+    {
+      "id": "mm12-2d-animation-studio-v1:e01",
+      "prompt": "How did spacing change the feel of your ball?",
+      "step_id": "step-17",
+      "lesson_id": "mm12-26-s07-d09",
+      "skill_ids": [
+        "BL-NAV-01",
+        "BL-CAM-01",
+        "BL-RND-01",
+        "GD-HIE-01",
+        "GD-AUD-01",
+        "GD-CRIT-01",
+        "GD-REP-01"
+      ],
+      "outcome_codes": [
+        "MM12-4.1",
+        "MM12-4.2",
+        "MM12-4.3",
+        "MM12-4.4",
+        "MM12-4.5"
+      ]
+    },
+    {
+      "id": "mm12-2d-animation-studio-v1:e02",
+      "prompt": "What made your walk feel heavy or light?",
+      "step_id": "step-17",
+      "lesson_id": "mm12-26-s07-d09",
+      "skill_ids": [
+        "BL-NAV-01",
+        "BL-CAM-01",
+        "BL-RND-01",
+        "GD-HIE-01",
+        "GD-AUD-01",
+        "GD-CRIT-01",
+        "GD-REP-01"
+      ],
+      "outcome_codes": [
+        "MM12-4.1",
+        "MM12-4.2",
+        "MM12-4.3",
+        "MM12-4.4",
+        "MM12-4.5"
+      ]
+    },
+    {
+      "id": "mm12-2d-animation-studio-v1:e03",
+      "prompt": "How did you stop the feet sliding?",
+      "step_id": "step-17",
+      "lesson_id": "mm12-26-s07-d09",
+      "skill_ids": [
+        "BL-NAV-01",
+        "BL-CAM-01",
+        "BL-RND-01",
+        "GD-HIE-01",
+        "GD-AUD-01",
+        "GD-CRIT-01",
+        "GD-REP-01"
+      ],
+      "outcome_codes": [
+        "MM12-4.1",
+        "MM12-4.2",
+        "MM12-4.3",
+        "MM12-4.4",
+        "MM12-4.5"
+      ]
+    },
+    {
+      "id": "mm12-2d-animation-studio-v1:e04",
+      "prompt": "Which mouth shape mattered most in your line, and why?",
+      "step_id": "step-17",
+      "lesson_id": "mm12-26-s07-d09",
+      "skill_ids": [
+        "BL-NAV-01",
+        "BL-CAM-01",
+        "BL-RND-01",
+        "GD-HIE-01",
+        "GD-AUD-01",
+        "GD-CRIT-01",
+        "GD-REP-01"
+      ],
+      "outcome_codes": [
+        "MM12-4.1",
+        "MM12-4.2",
+        "MM12-4.3",
+        "MM12-4.4",
+        "MM12-4.5"
+      ]
+    },
+    {
+      "id": "mm12-2d-animation-studio-v1:e05",
+      "prompt": "What did the director’s note change, and which tools did you use?",
+      "step_id": "step-17",
+      "lesson_id": "mm12-26-s07-d09",
+      "skill_ids": [
+        "BL-NAV-01",
+        "BL-CAM-01",
+        "BL-RND-01",
+        "GD-HIE-01",
+        "GD-AUD-01",
+        "GD-CRIT-01",
+        "GD-REP-01"
+      ],
+      "outcome_codes": [
+        "MM12-4.1",
+        "MM12-4.2",
+        "MM12-4.3",
+        "MM12-4.4",
+        "MM12-4.5"
+      ]
+    }
+  ],
+  "skill_reflection": {
+    "technical_skills": [
+      {
+        "id": "BL-NAV-01",
+        "label": "BL-NAV-01"
+      },
+      {
+        "id": "BL-CAM-01",
+        "label": "BL-CAM-01"
+      },
+      {
+        "id": "BL-RND-01",
+        "label": "BL-RND-01"
+      }
+    ],
+    "design_skills": [
+      {
+        "id": "GD-HIE-01",
+        "label": "GD-HIE-01"
+      },
+      {
+        "id": "GD-AUD-01",
+        "label": "GD-AUD-01"
+      },
+      {
+        "id": "GD-CRIT-01",
+        "label": "GD-CRIT-01"
+      },
+      {
+        "id": "GD-REP-01",
+        "label": "GD-REP-01"
+      }
+    ],
+    "independence_options": [
+      "Followed the example closely",
+      "Needed some prompts/checkpoints",
+      "Worked independently",
+      "Adapted or extended the skill"
+    ]
+  },
+  "transfer": {
+    "id": "mm12-2d-animation-studio-v1:next-target",
+    "prompt": "Name one skill, locate its evidence in your files, explain when you used it, and choose a next target after the changed brief.",
+    "skill_ids": [
+      "BL-NAV-01",
+      "BL-CAM-01",
+      "BL-RND-01",
+      "GD-HIE-01",
+      "GD-AUD-01",
+      "GD-CRIT-01",
+      "GD-REP-01"
+    ],
+    "outcome_codes": [
+      "MM12-4.1",
+      "MM12-4.2",
+      "MM12-4.3",
+      "MM12-4.4",
+      "MM12-4.5"
+    ],
+    "step_id": "step-17",
+    "lesson_id": "mm12-26-s07-d09",
+    "teacher_verification_required": true
+  },
+  "teacher_evidence": {
+    "owner_only": true,
+    "checkpoints": [
+      {
+        "evidence_id": "mm12-2d-animation-studio-v1:step-17",
+        "evidence_type": "Product",
+        "title": "Step 17: Practical check: the director’s note",
+        "skill_ids": [
+          "BL-NAV-01",
+          "BL-CAM-01",
+          "BL-RND-01",
+          "GD-HIE-01",
+          "GD-AUD-01",
+          "GD-CRIT-01",
+          "GD-REP-01"
+        ],
+        "outcome_codes": [
+          "MM12-4.1",
+          "MM12-4.2",
+          "MM12-4.3",
+          "MM12-4.4",
+          "MM12-4.5"
+        ],
+        "step_id": "step-17",
+        "lesson_id": "mm12-26-s07-d09",
+        "practical_check": true
+      },
+      {
+        "evidence_id": "mm12-2d-animation-studio-v1:step-18",
+        "evidence_type": "Conversation",
+        "title": "Step 18: Render the final shot and defend it. Check 3.",
+        "skill_ids": [
+          "BL-NAV-01",
+          "BL-CAM-01",
+          "BL-RND-01",
+          "GD-HIE-01",
+          "GD-AUD-01",
+          "GD-CRIT-01",
+          "GD-REP-01"
+        ],
+        "outcome_codes": [
+          "MM12-4.1",
+          "MM12-4.2",
+          "MM12-4.3",
+          "MM12-4.4",
+          "MM12-4.5"
+        ],
+        "step_id": "step-18",
+        "lesson_id": "mm12-26-s07-d10",
+        "practical_check": false
+      }
+    ]
+  }
+}

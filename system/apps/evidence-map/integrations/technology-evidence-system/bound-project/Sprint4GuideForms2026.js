@@ -64,8 +64,8 @@ function readSprint4GuideForms(){
   return S4_GUIDE_FORMS.entries.map(([id,,openDate])=>({id,open_date:openDate,forms:rows.filter(r=>r[0]===id&&String(r[6]).toLowerCase()==='true').map(r=>({type:r[2],form_id:r[3],form_url:r[4],response_sheet:r[5]}))}));
 }
 
-function s4QASubmit_(projectId,role){
-  const pair=getActiveProjectFormPair_(projectId,'2026-09-30.1');
+function s4QASubmit_(projectId,role,version){
+  const pair=getActiveProjectFormPair_(projectId,version||'2026-09-30.1');
   const reg=role==='student'?pair.student:pair.teacher;
   if(!reg)throw new Error('QA Form not registered: '+projectId+' '+role);
   const ss=SpreadsheetApp.openById(S4_GUIDE_FORMS.sheet),form=FormApp.openById(reg.form_id),sh=ss.getSheetByName(reg.response_sheet_name);
