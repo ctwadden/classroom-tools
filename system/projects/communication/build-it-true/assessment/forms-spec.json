@@ -1,0 +1,437 @@
+{
+  "spec_version": "2026-09-30.1",
+  "project_id": "com11-build-it-true-v2",
+  "project_title": "Build It True v2 — COM11 Sprint 4",
+  "course_configs": [
+    {
+      "course_id": "COM11",
+      "module_id": "M1",
+      "outcome_codes": [
+        "COM11-1-3",
+        "COM11-1-4",
+        "COM11-1-7",
+        "COM11-3-1",
+        "COM11-3-2",
+        "COM11-3-3"
+      ]
+    }
+  ],
+  "assessment_bundle_by_course": {
+    "COM11": "com11-26-s04-bundle"
+  },
+  "student_form": {
+    "description": "Eight knowledge questions from Knowledge first, then the guide's five evidence questions and a skill reflection. Verified school email required. Student answers are not achievement confirmation."
+  },
+  "knowledge_check": {
+    "items": [
+      {
+        "id": "com11-build-it-true-v2:k01",
+        "type": "multiple_choice",
+        "prompt": "Why measure the actual plywood before modelling finger joints?",
+        "choices": [
+          "Its real thickness controls fit",
+          "It sets the animation frame rate",
+          "It determines the paint colour",
+          "It replaces the need for a drawing"
+        ],
+        "correct_index": 0,
+        "points": 1,
+        "correct_feedback": "Material measurements set the joint dimensions.",
+        "incorrect_feedback": "Material measurements set the joint dimensions.",
+        "skill_ids": [],
+        "outcome_codes": [
+          "COM11-1-3",
+          "COM11-1-4",
+          "COM11-1-7",
+          "COM11-3-1",
+          "COM11-3-2",
+          "COM11-3-3"
+        ],
+        "step_id": "step-3",
+        "lesson_id": "com11-26-s04-d02"
+      },
+      {
+        "id": "com11-build-it-true-v2:k02",
+        "type": "multiple_choice",
+        "prompt": "What is the job of a laser kerf test coupon?",
+        "choices": [
+          "Measure the battery current",
+          "Render the animation",
+          "Choose the scene's story",
+          "Check the cut width and joint clearance before the full job"
+        ],
+        "correct_index": 3,
+        "points": 1,
+        "correct_feedback": "A small fit test avoids wasting full panels.",
+        "incorrect_feedback": "A small fit test avoids wasting full panels.",
+        "skill_ids": [],
+        "outcome_codes": [
+          "COM11-1-3",
+          "COM11-1-4",
+          "COM11-1-7",
+          "COM11-3-1",
+          "COM11-3-2",
+          "COM11-3-3"
+        ],
+        "step_id": "step-7",
+        "lesson_id": "com11-26-s04-d04"
+      },
+      {
+        "id": "com11-build-it-true-v2:k03",
+        "type": "multiple_choice",
+        "prompt": "Which views help a maker read the same building accurately?",
+        "choices": [
+          "A colour swatch alone",
+          "A filename list",
+          "Dimensioned orthographic views and an assembly view",
+          "Only one perspective render"
+        ],
+        "correct_index": 2,
+        "points": 1,
+        "correct_feedback": "Technical views communicate shape and assembly from more than one direction.",
+        "incorrect_feedback": "Technical views communicate shape and assembly from more than one direction.",
+        "skill_ids": [],
+        "outcome_codes": [
+          "COM11-1-3",
+          "COM11-1-4",
+          "COM11-1-7",
+          "COM11-3-1",
+          "COM11-3-2",
+          "COM11-3-3"
+        ],
+        "step_id": "step-10",
+        "lesson_id": "com11-26-s04-d05"
+      },
+      {
+        "id": "com11-build-it-true-v2:k04",
+        "type": "multiple_choice",
+        "prompt": "What does a cam do in the Snowy Village mechanism?",
+        "choices": [
+          "Changes plywood thickness",
+          "Turns rotation into a follower's up-and-down movement",
+          "Supplies current to a motor",
+          "Cuts finger joints"
+        ],
+        "correct_index": 1,
+        "points": 1,
+        "correct_feedback": "The cam profile lifts the follower as it rotates.",
+        "incorrect_feedback": "The cam profile lifts the follower as it rotates.",
+        "skill_ids": [],
+        "outcome_codes": [
+          "COM11-1-3",
+          "COM11-1-4",
+          "COM11-1-7",
+          "COM11-3-1",
+          "COM11-3-2",
+          "COM11-3-3"
+        ],
+        "step_id": "step-13",
+        "lesson_id": "com11-26-s04-d07"
+      },
+      {
+        "id": "com11-build-it-true-v2:k05",
+        "type": "multiple_choice",
+        "prompt": "Why animate the mechanism before cutting or printing?",
+        "choices": [
+          "Find collisions and check range of motion",
+          "Guarantee a circuit works",
+          "Change the material thickness",
+          "Avoid measuring parts"
+        ],
+        "correct_index": 0,
+        "points": 1,
+        "correct_feedback": "An animated model is a cheap motion check, not a physical proof.",
+        "incorrect_feedback": "An animated model is a cheap motion check, not a physical proof.",
+        "skill_ids": [],
+        "outcome_codes": [
+          "COM11-1-3",
+          "COM11-1-4",
+          "COM11-1-7",
+          "COM11-3-1",
+          "COM11-3-2",
+          "COM11-3-3"
+        ],
+        "step_id": "step-14",
+        "lesson_id": "com11-26-s04-d07"
+      },
+      {
+        "id": "com11-build-it-true-v2:k06",
+        "type": "multiple_choice",
+        "prompt": "Why does the circuit plan need a separate driver and shared ground?",
+        "choices": [
+          "The driver adds colour to the LEDs",
+          "Ground replaces the power source",
+          "It increases the lot width",
+          "A controller signal cannot supply motor current; devices need a common reference"
+        ],
+        "correct_index": 3,
+        "points": 1,
+        "correct_feedback": "Power delivery and signal reference must both be planned.",
+        "incorrect_feedback": "Power delivery and signal reference must both be planned.",
+        "skill_ids": [],
+        "outcome_codes": [
+          "COM11-1-3",
+          "COM11-1-4",
+          "COM11-1-7",
+          "COM11-3-1",
+          "COM11-3-2",
+          "COM11-3-3"
+        ],
+        "step_id": "step-15",
+        "lesson_id": "com11-26-s04-d08"
+      },
+      {
+        "id": "com11-build-it-true-v2:k07",
+        "type": "multiple_choice",
+        "prompt": "Which change most directly requires regenerating the laser SVG?",
+        "choices": [
+          "A photo caption changes",
+          "The teacher changes the music",
+          "The plywood thickness changes from 3.0 to 2.7 mm",
+          "The team's story title changes"
+        ],
+        "correct_index": 2,
+        "points": 1,
+        "correct_feedback": "A new thickness changes joint geometry in the cut file.",
+        "incorrect_feedback": "A new thickness changes joint geometry in the cut file.",
+        "skill_ids": [],
+        "outcome_codes": [
+          "COM11-1-3",
+          "COM11-1-4",
+          "COM11-1-7",
+          "COM11-3-1",
+          "COM11-3-2",
+          "COM11-3-3"
+        ],
+        "step_id": "step-17",
+        "lesson_id": "com11-26-s04-d09"
+      },
+      {
+        "id": "com11-build-it-true-v2:k08",
+        "type": "multiple_choice",
+        "prompt": "What is the strongest handover check after a committee change?",
+        "choices": [
+          "The figure has more polygons",
+          "The model, laser file, assembly drawing and circuit plan still agree",
+          "The perspective render looks attractive",
+          "The old cut file opens"
+        ],
+        "correct_index": 1,
+        "points": 1,
+        "correct_feedback": "The different production files must describe the same revised design.",
+        "incorrect_feedback": "The different production files must describe the same revised design.",
+        "skill_ids": [],
+        "outcome_codes": [
+          "COM11-1-3",
+          "COM11-1-4",
+          "COM11-1-7",
+          "COM11-3-1",
+          "COM11-3-2",
+          "COM11-3-3"
+        ],
+        "step_id": "step-18",
+        "lesson_id": "com11-26-s04-d10"
+      }
+    ]
+  },
+  "evidence_questions": [
+    {
+      "id": "com11-build-it-true-v2:e01",
+      "prompt": "What does a visitor notice first in your scene, and how does your building help?",
+      "step_id": "step-17",
+      "lesson_id": "com11-26-s04-d09",
+      "skill_ids": [
+        "GD-AUD-01",
+        "GD-HIE-01",
+        "GD-CRIT-01",
+        "PS-OUT-01"
+      ],
+      "outcome_codes": [
+        "COM11-1-3",
+        "COM11-1-4",
+        "COM11-1-7",
+        "COM11-3-1",
+        "COM11-3-2",
+        "COM11-3-3"
+      ]
+    },
+    {
+      "id": "com11-build-it-true-v2:e02",
+      "prompt": "How did the measured plywood thickness change your joints?",
+      "step_id": "step-17",
+      "lesson_id": "com11-26-s04-d09",
+      "skill_ids": [
+        "GD-AUD-01",
+        "GD-HIE-01",
+        "GD-CRIT-01",
+        "PS-OUT-01"
+      ],
+      "outcome_codes": [
+        "COM11-1-3",
+        "COM11-1-4",
+        "COM11-1-7",
+        "COM11-3-1",
+        "COM11-3-2",
+        "COM11-3-3"
+      ]
+    },
+    {
+      "id": "com11-build-it-true-v2:e03",
+      "prompt": "What did the mechanism animation reveal before anything was made?",
+      "step_id": "step-17",
+      "lesson_id": "com11-26-s04-d09",
+      "skill_ids": [
+        "GD-AUD-01",
+        "GD-HIE-01",
+        "GD-CRIT-01",
+        "PS-OUT-01"
+      ],
+      "outcome_codes": [
+        "COM11-1-3",
+        "COM11-1-4",
+        "COM11-1-7",
+        "COM11-3-1",
+        "COM11-3-2",
+        "COM11-3-3"
+      ]
+    },
+    {
+      "id": "com11-build-it-true-v2:e04",
+      "prompt": "How does your circuit plan keep the scene safe and powered?",
+      "step_id": "step-17",
+      "lesson_id": "com11-26-s04-d09",
+      "skill_ids": [
+        "GD-AUD-01",
+        "GD-HIE-01",
+        "GD-CRIT-01",
+        "PS-OUT-01"
+      ],
+      "outcome_codes": [
+        "COM11-1-3",
+        "COM11-1-4",
+        "COM11-1-7",
+        "COM11-3-1",
+        "COM11-3-2",
+        "COM11-3-3"
+      ]
+    },
+    {
+      "id": "com11-build-it-true-v2:e05",
+      "prompt": "What did the committee change force you to regenerate, and how did you check it?",
+      "step_id": "step-17",
+      "lesson_id": "com11-26-s04-d09",
+      "skill_ids": [
+        "GD-AUD-01",
+        "GD-HIE-01",
+        "GD-CRIT-01",
+        "PS-OUT-01"
+      ],
+      "outcome_codes": [
+        "COM11-1-3",
+        "COM11-1-4",
+        "COM11-1-7",
+        "COM11-3-1",
+        "COM11-3-2",
+        "COM11-3-3"
+      ]
+    }
+  ],
+  "skill_reflection": {
+    "technical_skills": [
+      {
+        "id": "PS-OUT-01",
+        "label": "PS-OUT-01"
+      }
+    ],
+    "design_skills": [
+      {
+        "id": "GD-AUD-01",
+        "label": "GD-AUD-01"
+      },
+      {
+        "id": "GD-HIE-01",
+        "label": "GD-HIE-01"
+      },
+      {
+        "id": "GD-CRIT-01",
+        "label": "GD-CRIT-01"
+      }
+    ],
+    "independence_options": [
+      "Followed the example closely",
+      "Needed some prompts/checkpoints",
+      "Worked independently",
+      "Adapted or extended the skill"
+    ]
+  },
+  "transfer": {
+    "id": "com11-build-it-true-v2:next-target",
+    "prompt": "Name one skill, locate its evidence in your files, explain when you used it, and choose your next target after the changed brief.",
+    "skill_ids": [
+      "GD-AUD-01",
+      "GD-HIE-01",
+      "GD-CRIT-01",
+      "PS-OUT-01"
+    ],
+    "outcome_codes": [
+      "COM11-1-3",
+      "COM11-1-4",
+      "COM11-1-7",
+      "COM11-3-1",
+      "COM11-3-2",
+      "COM11-3-3"
+    ],
+    "step_id": "step-17",
+    "lesson_id": "com11-26-s04-d09",
+    "teacher_verification_required": true
+  },
+  "teacher_evidence": {
+    "owner_only": true,
+    "checkpoints": [
+      {
+        "evidence_id": "com11-build-it-true-v2:step-17",
+        "evidence_type": "Product",
+        "title": "Step 17: Practical check: change one requirement and update everything",
+        "skill_ids": [
+          "GD-AUD-01",
+          "GD-HIE-01",
+          "GD-CRIT-01",
+          "PS-OUT-01"
+        ],
+        "outcome_codes": [
+          "COM11-1-3",
+          "COM11-1-4",
+          "COM11-1-7",
+          "COM11-3-1",
+          "COM11-3-2",
+          "COM11-3-3"
+        ],
+        "step_id": "step-17",
+        "lesson_id": "com11-26-s04-d09",
+        "practical_check": true
+      },
+      {
+        "evidence_id": "com11-build-it-true-v2:step-18",
+        "evidence_type": "Conversation",
+        "title": "Step 18: Release the file pack and defend your design",
+        "skill_ids": [
+          "GD-AUD-01",
+          "GD-HIE-01",
+          "GD-CRIT-01",
+          "PS-OUT-01"
+        ],
+        "outcome_codes": [
+          "COM11-1-3",
+          "COM11-1-4",
+          "COM11-1-7",
+          "COM11-3-1",
+          "COM11-3-2",
+          "COM11-3-3"
+        ],
+        "step_id": "step-18",
+        "lesson_id": "com11-26-s04-d10",
+        "practical_check": false
+      }
+    ]
+  }
+}

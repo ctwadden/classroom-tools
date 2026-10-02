@@ -1,0 +1,26 @@
+project_id,project_step_id,step_number,anchor,title,skill_ids,design_skill_ids,outcome_codes,evidence_ids,video_priority
+PS-DROP-DAY,DD-S01,1,step-1,Open the product job and protect the source,PS-FND-01,,MM12-1.1;MM12-1.3;COM11-4.4,DD-PRO-01,Short
+PS-DROP-DAY,DD-S02,2,step-2,Remove a small spot with automatic sampling,PS-RET-01;PS-BRS-01,,MM12-1.1;COM11-4.4,,Core
+PS-DROP-DAY,DD-S03,3,step-3,Choose your own sample for the thread repair,PS-RET-01;PS-BRS-01,,MM12-1.1;MM12-1.3;COM11-4.4,DD-CON-01,Core
+PS-DROP-DAY,DD-S04,4,step-4,Rebuild the pale sole with Clone Stamp,PS-RET-01;PS-BRS-01,,MM12-1.1;MM12-1.3;COM11-4.4,DD-OBS-01;DD-CON-01,Core
+PS-DROP-DAY,DD-S05,5,step-5,Make a selection of the whole shoe,PS-SEL-01,,MM12-1.1;COM11-4.4,,Core
+PS-DROP-DAY,DD-S06,6,step-6,Refine a manufactured edge—not hair,PS-SEL-01,,MM12-1.1;MM12-1.3;COM11-4.4,,Core
+PS-DROP-DAY,DD-S07,7,step-7,Mask the photograph and its repairs together,PS-LAY-01;PS-SEL-01,,MM12-1.1;MM12-1.3;COM11-4.4,DD-PRO-01,Core
+PS-DROP-DAY,DD-S08,8,step-8,Start the advertisement with a clear document size,PS-FND-01;PS-OUT-01,GD-ALN-01,MM12-1.3;COM11-4.4;COM11-4.5,,Short
+PS-DROP-DAY,DD-S09,9,step-9,Build the studio background and floor,PS-SHP-01;PS-ADJ-01;PS-DES-01,GD-COL-01;GD-HIE-01,MM12-1.1;MM12-1.4;COM11-4.1;COM11-4.2;COM11-4.4,,Core
+PS-DROP-DAY,DD-S10,10,step-10,Add the accent disc and a soft display shadow,PS-SHP-01;PS-FLT-01;PS-BLD-02,GD-COL-01;GD-CON-01,MM12-1.1;MM12-1.4;COM11-4.1;COM11-4.2;COM11-4.4,,Core
+PS-DROP-DAY,DD-S11,11,step-11,Construct a three-face product display,PS-SHP-01;PS-DES-01,GD-CON-01;GD-HIE-01,MM12-1.1;MM12-1.4;COM11-4.1;COM11-4.4,,Core
+PS-DROP-DAY,DD-S12,12,step-12,Place the prepared shoe without flattening your work,PS-SMO-01;PS-TRN-01,,MM12-1.1;MM12-1.3;COM11-4.4,,Core
+PS-DROP-DAY,DD-S13,13,step-13,Add a broad ambient shadow beneath the shoe,PS-FLT-01;PS-BLD-02;PS-LGT-02,GD-CON-01,MM12-1.1;MM12-1.4;COM11-4.1;COM11-4.4,,Core
+PS-DROP-DAY,DD-S14,14,step-14,Make contact at the heel and forefoot,PS-BRS-01;PS-BLD-02;PS-LGT-02,GD-CON-01,MM12-1.1;MM12-1.4;COM11-4.1;COM11-4.4,,Core
+PS-DROP-DAY,DD-S15,15,step-15,Select the accent colour—not the whole product,PS-COL-01;PS-SEL-01,GD-COL-01,MM12-1.1;COM11-4.2;COM11-4.4,DD-OBS-02,Core
+PS-DROP-DAY,DD-S16,16,step-16,Create the teal colourway and a controlled contrast adjustment,PS-COL-01;PS-ADJ-01;PS-TON-01;PS-LAY-01,GD-COL-01;GD-CON-01,MM12-1.1;MM12-1.4;COM11-4.1;COM11-4.2;COM11-4.4,DD-OBS-02;DD-CON-02,Core
+PS-DROP-DAY,DD-S17,17,step-17,"Build a live, outline headline",PS-TYP-01;PS-EFX-01,GD-HIE-01;GD-CON-01;GD-TYP-01,MM12-1.1;MM12-1.4;MM12-1.5;COM11-4.1;COM11-4.3;COM11-4.4,,Core
+PS-DROP-DAY,DD-S18,18,step-18,Add the solid headline and the message,PS-TYP-01,GD-HIE-01;GD-ALN-01;GD-TYP-01,MM12-1.4;MM12-1.5;MM12-4.1;COM11-1.4;COM11-4.1;COM11-4.3;COM11-4.4,,Core
+PS-DROP-DAY,DD-S19,19,step-19,"Add the studio identity, rule and colour accents",PS-TYP-01;PS-SHP-01,GD-ALN-01;GD-REP-01;GD-COL-01;GD-BRD-01,MM12-1.4;MM12-1.5;MM12-4.1;COM11-1.4;COM11-4.1;COM11-4.2;COM11-4.3;COM11-4.4,,Core
+PS-DROP-DAY,DD-S20,20,step-20,Complete the action panel and honest footer,PS-TYP-01;PS-SHP-01,GD-HIE-01;GD-CTA-01;GD-AUD-01,MM12-1.5;MM12-4.1;COM11-1.4;COM11-4.3;COM11-4.4,,Core
+PS-DROP-DAY,DD-S21,21,step-21,Run the craft check before the revision,GEN-QA-01;PS-LAY-01;PS-SMO-01,GD-CRIT-01,MM12-1.3;MM12-1.4;COM11-4.1;COM11-4.4,DD-QA-01,Short
+PS-DROP-DAY,DD-S22,22,step-22,Respond to the client: create a coral colourway,PS-COL-01;PS-ADJ-01,GD-COL-01;GD-BRD-01;GD-AUD-01,MM12-1.1;MM12-1.4;MM12-1.5;MM12-4.1;COM11-1.4;COM11-4.1;COM11-4.2;COM11-4.4,DD-PRO-02,Core
+PS-DROP-DAY,DD-S23,23,step-23,Show that you understand the technique,PS-LAY-01;PS-COL-01;PS-TYP-01;GEN-EVD-01;GEN-QA-01,GD-CRIT-01;GD-AUD-01,MM12-1.1;MM12-1.4;MM12-1.5;COM11-1.4;COM11-4.2;COM11-4.3;COM11-4.4,DD-TRF-01;DD-CON-02,Core
+PS-DROP-DAY,DD-S24,24,step-24,"Export, reopen and hand over the work",PS-OUT-01;GEN-QA-01,,MM12-1.3;COM11-4.5,DD-PRO-03,Short
+

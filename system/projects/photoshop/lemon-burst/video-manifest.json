@@ -1,0 +1,345 @@
+{
+  "schema_version": "truck-video.1",
+  "project_id": "PS-LEMON-BURST",
+  "video_title": "Lemon Burst — Video Companion",
+  "version": "1.0.0",
+  "provider": "YouTube / Scribe It",
+  "status": "awaiting_recording",
+  "video_url": null,
+  "youtube_video_id": null,
+  "chapters": [
+    {
+      "chapter_id": "VID-LB-S01",
+      "project_step_id": "LB-S01",
+      "anchor": "step-1",
+      "title": "Choose your route and set up the folder",
+      "planned_start": null,
+      "actual_start": null,
+      "actual_end": null,
+      "skill_ids": [
+        "PS-FND-01",
+        "PS-BLD-02",
+        "PS-TYP-01",
+        "PS-SHP-01",
+        "PS-OUT-01",
+        "PS-DES-01"
+      ],
+      "design_skill_ids": [
+        "GD-TYP-01",
+        "GD-CRIT-01"
+      ],
+      "evidence_ids": [],
+      "refresher_links": []
+    },
+    {
+      "chapter_id": "VID-LB-S02",
+      "project_step_id": "LB-S02",
+      "anchor": "step-2",
+      "title": "Create the Photoshop document",
+      "planned_start": null,
+      "actual_start": null,
+      "actual_end": null,
+      "skill_ids": [
+        "PS-FND-01",
+        "PS-LAY-01",
+        "PS-BLD-02",
+        "PS-OUT-01",
+        "PS-DES-01"
+      ],
+      "design_skill_ids": [
+        "GD-COL-01",
+        "GD-CRIT-01"
+      ],
+      "evidence_ids": [],
+      "refresher_links": []
+    },
+    {
+      "chapter_id": "VID-LB-S03",
+      "project_step_id": "LB-S03",
+      "anchor": "step-3",
+      "title": "Design or place the can label",
+      "planned_start": null,
+      "actual_start": null,
+      "actual_end": null,
+      "skill_ids": [
+        "PS-LAY-01",
+        "PS-TRN-01",
+        "PS-TYP-01",
+        "PS-DES-01"
+      ],
+      "design_skill_ids": [
+        "GD-TYP-01",
+        "GD-BRD-01",
+        "GD-CRIT-01",
+        "GD-CON-01"
+      ],
+      "evidence_ids": [],
+      "refresher_links": []
+    },
+    {
+      "chapter_id": "VID-LB-S04",
+      "project_step_id": "LB-S04",
+      "anchor": "step-4",
+      "title": "Cut out the can, slice and lemon",
+      "planned_start": null,
+      "actual_start": null,
+      "actual_end": null,
+      "skill_ids": [
+        "PS-SEL-01",
+        "PS-LAY-01",
+        "PS-TRN-01",
+        "PS-SHP-01",
+        "PS-DES-01"
+      ],
+      "design_skill_ids": [
+        "GD-CRIT-01",
+        "GD-REP-01"
+      ],
+      "evidence_ids": [],
+      "refresher_links": []
+    },
+    {
+      "chapter_id": "VID-LB-S05",
+      "project_step_id": "LB-S05",
+      "anchor": "step-5",
+      "title": "Build the split can with three copies",
+      "planned_start": null,
+      "actual_start": null,
+      "actual_end": null,
+      "skill_ids": [
+        "PS-SEL-01",
+        "PS-LAY-01",
+        "PS-SEL-02",
+        "PS-SMO-01",
+        "PS-TRN-01",
+        "PS-LGT-02",
+        "PS-DES-01"
+      ],
+      "design_skill_ids": [
+        "GD-ALN-01",
+        "GD-CRIT-01",
+        "GD-REP-01"
+      ],
+      "evidence_ids": [
+        "LB-OBS-01"
+      ],
+      "refresher_links": []
+    },
+    {
+      "chapter_id": "VID-LB-S06",
+      "project_step_id": "LB-S06",
+      "anchor": "step-6",
+      "title": "Fit lemon slices into the gaps",
+      "planned_start": null,
+      "actual_start": null,
+      "actual_end": null,
+      "skill_ids": [
+        "PS-LAY-01",
+        "PS-TRN-01",
+        "PS-TRN-02",
+        "PS-LGT-02",
+        "PS-SHP-01"
+      ],
+      "design_skill_ids": [
+        "GD-MET-01",
+        "GD-CRIT-01"
+      ],
+      "evidence_ids": [
+        "LB-OBS-02"
+      ],
+      "refresher_links": []
+    },
+    {
+      "chapter_id": "VID-LB-S07",
+      "project_step_id": "LB-S07",
+      "anchor": "step-7",
+      "title": "Shadow the gaps and contact points",
+      "planned_start": null,
+      "actual_start": null,
+      "actual_end": null,
+      "skill_ids": [
+        "PS-SEL-01",
+        "PS-LAY-01",
+        "PS-LGT-02",
+        "PS-SHP-01"
+      ],
+      "design_skill_ids": [
+        "GD-MET-01",
+        "GD-CRIT-01",
+        "GD-CON-01"
+      ],
+      "evidence_ids": [],
+      "refresher_links": []
+    },
+    {
+      "chapter_id": "VID-LB-S08",
+      "project_step_id": "LB-S08",
+      "anchor": "step-8",
+      "title": "Shape the can lighting",
+      "planned_start": null,
+      "actual_start": null,
+      "actual_end": null,
+      "skill_ids": [
+        "PS-LAY-01",
+        "PS-TRN-01",
+        "PS-TON-01",
+        "PS-LGT-02",
+        "PS-SHP-01"
+      ],
+      "design_skill_ids": [
+        "GD-CRIT-01",
+        "GD-CON-01",
+        "GD-REP-01"
+      ],
+      "evidence_ids": [
+        "LB-OBS-03"
+      ],
+      "refresher_links": []
+    },
+    {
+      "chapter_id": "VID-LB-S09",
+      "project_step_id": "LB-S09",
+      "anchor": "step-9",
+      "title": "Build the background",
+      "planned_start": null,
+      "actual_start": null,
+      "actual_end": null,
+      "skill_ids": [
+        "PS-LAY-01",
+        "PS-TRN-01",
+        "PS-LGT-02",
+        "PS-DES-01"
+      ],
+      "design_skill_ids": [
+        "GD-HIE-01",
+        "GD-CRIT-01",
+        "GD-CON-01"
+      ],
+      "evidence_ids": [],
+      "refresher_links": []
+    },
+    {
+      "chapter_id": "VID-LB-S10",
+      "project_step_id": "LB-S10",
+      "anchor": "step-10",
+      "title": "Place the water splash",
+      "planned_start": null,
+      "actual_start": null,
+      "actual_end": null,
+      "skill_ids": [
+        "PS-SEL-01",
+        "PS-LAY-01",
+        "PS-TRN-01",
+        "PS-LGT-02",
+        "PS-SHP-01",
+        "PS-DES-01"
+      ],
+      "design_skill_ids": [
+        "GD-MET-01",
+        "GD-CRIT-01"
+      ],
+      "evidence_ids": [],
+      "refresher_links": []
+    },
+    {
+      "chapter_id": "VID-LB-S11",
+      "project_step_id": "LB-S11",
+      "anchor": "step-11",
+      "title": "Add whole lemons and leaves at the base",
+      "planned_start": null,
+      "actual_start": null,
+      "actual_end": null,
+      "skill_ids": [
+        "PS-TRN-01",
+        "PS-TON-01",
+        "PS-LGT-02",
+        "PS-DES-01"
+      ],
+      "design_skill_ids": [
+        "GD-HIE-01",
+        "GD-COL-01",
+        "GD-CRIT-01",
+        "GD-CON-01"
+      ],
+      "evidence_ids": [],
+      "refresher_links": []
+    },
+    {
+      "chapter_id": "VID-LB-S12",
+      "project_step_id": "LB-S12",
+      "anchor": "step-12",
+      "title": "Add flying slices and motion blur",
+      "planned_start": null,
+      "actual_start": null,
+      "actual_end": null,
+      "skill_ids": [
+        "PS-TRN-01",
+        "PS-LGT-02",
+        "PS-FLT-01",
+        "PS-DES-01"
+      ],
+      "design_skill_ids": [
+        "GD-CRIT-01",
+        "GD-REP-01"
+      ],
+      "evidence_ids": [],
+      "refresher_links": []
+    },
+    {
+      "chapter_id": "VID-LB-S13",
+      "project_step_id": "LB-S13",
+      "anchor": "step-13",
+      "title": "Polish the full composition",
+      "planned_start": null,
+      "actual_start": null,
+      "actual_end": null,
+      "skill_ids": [
+        "PS-SEL-01",
+        "PS-LAY-01",
+        "PS-TRN-01",
+        "PS-TON-01",
+        "PS-RET-01",
+        "PS-FLT-01",
+        "PS-SHP-01",
+        "PS-DES-01"
+      ],
+      "design_skill_ids": [
+        "GD-HIE-01",
+        "GD-COL-01",
+        "GD-CRIT-01",
+        "GD-REP-01"
+      ],
+      "evidence_ids": [
+        "LB-CON-01",
+        "LB-CON-02"
+      ],
+      "refresher_links": []
+    },
+    {
+      "chapter_id": "VID-LB-S14",
+      "project_step_id": "LB-S14",
+      "anchor": "step-14",
+      "title": "Export and submit the final work",
+      "planned_start": null,
+      "actual_start": null,
+      "actual_end": null,
+      "skill_ids": [
+        "PS-SEL-01",
+        "PS-LAY-01",
+        "PS-BLD-02",
+        "PS-OUT-01",
+        "PS-DES-01"
+      ],
+      "design_skill_ids": [
+        "GD-COL-01",
+        "GD-CRIT-01"
+      ],
+      "evidence_ids": [
+        "LB-PRO-01",
+        "LB-PRO-02",
+        "LB-PRO-03"
+      ],
+      "refresher_links": []
+    }
+  ]
+}

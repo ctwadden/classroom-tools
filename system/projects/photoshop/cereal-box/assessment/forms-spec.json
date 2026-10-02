@@ -1,0 +1,380 @@
+{
+  "spec_version": "1.0",
+  "project_id": "PS-CEREAL-BOX",
+  "project_title": "DINO LOOPS - Cereal Box Packaging",
+  "course_configs": [
+    {
+      "course_id": "MM12",
+      "module_id": "M1",
+      "outcome_codes": [
+        "1.1",
+        "1.3",
+        "1.4",
+        "1.5",
+        "4.1"
+      ]
+    }
+  ],
+  "student_form": {
+    "description": "Complete the DINO LOOPS knowledge check, identify evidence of your technical/design learning, and answer the transfer prompt."
+  },
+  "knowledge_check": {
+    "items": [
+      {
+        "id": "CB-KC-01",
+        "type": "multiple_choice",
+        "prompt": "Why are shape layers useful for the bowl, milk and mascot construction?",
+        "choices": [
+          "They automatically create a 3D model",
+          "They remain editable for fill, path and size changes instead of becoming fixed painted pixels",
+          "They remove the need for layers",
+          "They force every element to use the same colour"
+        ],
+        "correct_index": 1,
+        "points": 1,
+        "skill_ids": [
+          "PS-SHP-01"
+        ],
+        "outcome_codes": [
+          "MM12 1.1"
+        ],
+        "step_id": "CB-S05-CB-S09"
+      },
+      {
+        "id": "CB-KC-02",
+        "type": "multiple_choice",
+        "prompt": "What is the important difference between duplicating a Smart Object instance and using New Smart Object Via Copy?",
+        "choices": [
+          "There is no difference",
+          "A normal duplicate can share source contents; New Smart Object Via Copy creates independent source contents",
+          "The new copy is always smaller",
+          "Only the normal duplicate can be transformed"
+        ],
+        "correct_index": 1,
+        "points": 1,
+        "skill_ids": [
+          "PS-SMO-01"
+        ],
+        "outcome_codes": [
+          "MM12 1.1",
+          "MM12 1.3"
+        ],
+        "step_id": "CB-S15-CB-S16"
+      },
+      {
+        "id": "CB-KC-03",
+        "type": "multiple_choice",
+        "prompt": "Why should a cereal ring have a real transparent hole instead of a painted dark circle?",
+        "choices": [
+          "Transparency lets background/milk show through correctly when the ring is moved or rotated",
+          "It makes the file smaller",
+          "It prevents transforms",
+          "It guarantees a stronger colour"
+        ],
+        "correct_index": 0,
+        "points": 1,
+        "skill_ids": [
+          "PS-SHP-01"
+        ],
+        "outcome_codes": [
+          "MM12 1.1"
+        ],
+        "step_id": "CB-S10"
+      },
+      {
+        "id": "CB-KC-04",
+        "type": "multiple_choice",
+        "prompt": "What is the main purpose of the small contact shadows under cereal pieces?",
+        "choices": [
+          "To decorate empty space",
+          "To show where pieces touch or sit near the milk/bowl and improve depth",
+          "To hide the cereal colours",
+          "To make every ring identical"
+        ],
+        "correct_index": 1,
+        "points": 1,
+        "skill_ids": [
+          "PS-LGT-02"
+        ],
+        "outcome_codes": [
+          "MM12 1.4"
+        ],
+        "step_id": "CB-S19"
+      },
+      {
+        "id": "CB-KC-05",
+        "type": "multiple_choice",
+        "prompt": "Why should the cereal pieces in the bowl avoid a perfect grid?",
+        "choices": [
+          "A controlled irregular arrangement feels more natural and energetic",
+          "Photoshop cannot align objects",
+          "A grid always changes colour",
+          "It prevents Smart Objects from updating"
+        ],
+        "correct_index": 0,
+        "points": 1,
+        "skill_ids": [
+          "PS-DES-01",
+          "GD-HIE-01"
+        ],
+        "outcome_codes": [
+          "MM12 1.4"
+        ],
+        "step_id": "CB-S18"
+      },
+      {
+        "id": "CB-KC-06",
+        "type": "multiple_choice",
+        "prompt": "Replacing the O letters in DINO LOOPS with cereal rings primarily does what?",
+        "choices": [
+          "It integrates the product into the wordmark and strengthens the brand idea",
+          "It proves the Pen Tool was used",
+          "It removes the need for typography",
+          "It makes the brand more formal"
+        ],
+        "correct_index": 0,
+        "points": 1,
+        "skill_ids": [
+          "PS-TYP-01",
+          "GD-BRD-01",
+          "GD-TYP-01"
+        ],
+        "outcome_codes": [
+          "MM12 1.4",
+          "MM12 1.5"
+        ],
+        "step_id": "CB-S31"
+      },
+      {
+        "id": "CB-KC-07",
+        "type": "multiple_choice",
+        "prompt": "If the mascot and headline overpower the cereal product, what is the first design issue to diagnose?",
+        "choices": [
+          "Visual hierarchy",
+          "Resolution only",
+          "File naming",
+          "Colour mode only"
+        ],
+        "correct_index": 0,
+        "points": 1,
+        "skill_ids": [
+          "GD-HIE-01",
+          "PS-DES-01"
+        ],
+        "outcome_codes": [
+          "MM12 1.4"
+        ],
+        "step_id": "CB-S33"
+      },
+      {
+        "id": "CB-KC-08",
+        "type": "multiple_choice",
+        "prompt": "If DINO LOOPS is redesigned for a different target audience, what should be reconsidered while preserving useful technical construction?",
+        "choices": [
+          "Only the PSD filename",
+          "Brand voice, colour, typography, mascot/product emphasis and message",
+          "Only the canvas size",
+          "Nothing because packaging should look the same for everyone"
+        ],
+        "correct_index": 1,
+        "points": 1,
+        "skill_ids": [
+          "GD-AUD-01",
+          "GD-COL-01",
+          "GD-TYP-01",
+          "GD-BRD-01"
+        ],
+        "outcome_codes": [
+          "MM12 1.5",
+          "MM12 4.1"
+        ],
+        "step_id": "CB-S36"
+      }
+    ]
+  },
+  "skill_reflection": {
+    "technical_skills": [
+      {
+        "id": "PS-SHP-01",
+        "label": "Shape layers / vector construction"
+      },
+      {
+        "id": "PS-EFX-01",
+        "label": "Layer Styles / bevel and depth"
+      },
+      {
+        "id": "PS-SMO-01",
+        "label": "Smart Objects and instances"
+      },
+      {
+        "id": "PS-TRN-02",
+        "label": "Warp / perspective / fitting"
+      },
+      {
+        "id": "PS-LGT-02",
+        "label": "Contact shadows / visual integration"
+      },
+      {
+        "id": "PS-OUT-01",
+        "label": "Export / delivery"
+      }
+    ],
+    "design_skills": [
+      {
+        "id": "GD-HIE-01",
+        "label": "Visual hierarchy"
+      },
+      {
+        "id": "GD-COL-01",
+        "label": "Colour roles"
+      },
+      {
+        "id": "GD-TYP-01",
+        "label": "Typography as communication"
+      },
+      {
+        "id": "GD-BRD-01",
+        "label": "Brand consistency"
+      },
+      {
+        "id": "GD-AUD-01",
+        "label": "Audience and purpose"
+      },
+      {
+        "id": "GD-CRIT-01",
+        "label": "Critique and revision"
+      }
+    ],
+    "independence_options": [
+      "Followed the example closely",
+      "Needed some prompts/checkpoints",
+      "Worked independently",
+      "Adapted or extended the skill"
+    ]
+  },
+  "transfer": {
+    "id": "CB-TRF-01",
+    "prompt": "Create a plan for a second DINO LOOPS flavour or a cereal for a different audience. Name one technical construction skill you would reuse and two brand/design decisions you would change. Explain why.",
+    "skill_ids": [
+      "PS-SMO-01",
+      "GD-BRD-01",
+      "GD-AUD-01"
+    ],
+    "outcome_codes": [
+      "MM12 1.5",
+      "MM12 4.1"
+    ]
+  },
+  "teacher_evidence": {
+    "checkpoints": [
+      {
+        "evidence_id": "CB-OBS-01",
+        "evidence_type": "Observation",
+        "title": "Editable shape/vector construction",
+        "skill_ids": [
+          "PS-SHP-01"
+        ],
+        "outcome_codes": [
+          "MM12 1.1"
+        ]
+      },
+      {
+        "evidence_id": "CB-OBS-02",
+        "evidence_type": "Observation",
+        "title": "Smart Object source / instance control",
+        "skill_ids": [
+          "PS-SMO-01"
+        ],
+        "outcome_codes": [
+          "MM12 1.1",
+          "MM12 1.3"
+        ]
+      },
+      {
+        "evidence_id": "CB-OBS-03",
+        "evidence_type": "Observation",
+        "title": "Depth / contact integration",
+        "skill_ids": [
+          "PS-LGT-02",
+          "PS-TRN-02"
+        ],
+        "outcome_codes": [
+          "MM12 1.4"
+        ]
+      },
+      {
+        "evidence_id": "CB-CON-01",
+        "evidence_type": "Conversation",
+        "title": "Brand hierarchy / audience reasoning",
+        "skill_ids": [
+          "GD-HIE-01",
+          "GD-BRD-01",
+          "GD-AUD-01"
+        ],
+        "outcome_codes": [
+          "MM12 1.4",
+          "MM12 1.5",
+          "MM12 4.1"
+        ]
+      },
+      {
+        "evidence_id": "CB-CON-02",
+        "evidence_type": "Conversation",
+        "title": "Technical construction reasoning",
+        "skill_ids": [
+          "PS-SHP-01",
+          "PS-SMO-01",
+          "PS-EFX-01"
+        ],
+        "outcome_codes": [
+          "MM12 1.1",
+          "MM12 1.3"
+        ]
+      },
+      {
+        "evidence_id": "CB-PRO-01",
+        "evidence_type": "Product",
+        "title": "Layered editable front panel",
+        "skill_ids": [
+          "PS-SHP-01",
+          "PS-SMO-01",
+          "PS-TYP-01"
+        ],
+        "outcome_codes": [
+          "MM12 1.1",
+          "MM12 1.3"
+        ]
+      },
+      {
+        "evidence_id": "CB-PRO-02",
+        "evidence_type": "Product",
+        "title": "Final cereal packaging front",
+        "skill_ids": [
+          "PS-DES-01",
+          "GD-HIE-01",
+          "GD-COL-01",
+          "GD-TYP-01",
+          "GD-BRD-01",
+          "GD-AUD-01"
+        ],
+        "outcome_codes": [
+          "MM12 1.4",
+          "MM12 1.5",
+          "MM12 4.1"
+        ]
+      },
+      {
+        "evidence_id": "CB-PRO-03",
+        "evidence_type": "Product",
+        "title": "Final export / presentation mockup",
+        "skill_ids": [
+          "PS-OUT-01",
+          "PS-TRN-02"
+        ],
+        "outcome_codes": [
+          "MM12 1.3"
+        ]
+      }
+    ]
+  }
+}

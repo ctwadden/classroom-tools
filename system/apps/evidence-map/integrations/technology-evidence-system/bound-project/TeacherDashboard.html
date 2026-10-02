@@ -1,0 +1,107 @@
+<!doctype html>
+<html>
+<head>
+  <base target="_top">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Technology Evidence Dashboard</title>
+  <style>
+    :root{
+      --ink:#153140;--muted:#5d6b75;--line:#dfe7eb;--bg:#f6f9fb;--card:#fff;
+      --green:#1b8f5a;--green-soft:#e6f6ee;--amber:#b66a00;--amber-soft:#fff3dc;
+      --red:#b53a3a;--red-soft:#fdeaea;--blue:#2468b1;--blue-soft:#eaf2fb;--purple:#7556b7;--purple-soft:#f1edfb;
+    }
+    *{box-sizing:border-box} body{margin:0;background:var(--bg);font-family:Inter,Arial,sans-serif;color:var(--ink)}
+    .top{padding:22px 24px 18px;background:linear-gradient(135deg,#153140,#214f63);color:#fff;position:sticky;top:0;z-index:5;box-shadow:0 4px 18px rgba(15,33,45,.18)}
+    .toprow{display:flex;gap:16px;align-items:flex-start;justify-content:space-between}.eyebrow{font-size:12px;letter-spacing:.12em;text-transform:uppercase;opacity:.75;font-weight:700}
+    h1{font-size:28px;margin:4px 0 4px}.subtitle{font-size:13px;opacity:.82}.actions{display:flex;gap:8px;flex-wrap:wrap;justify-content:flex-end}
+    button,.btn{border:1px solid rgba(255,255,255,.28);background:rgba(255,255,255,.09);color:#fff;border-radius:10px;padding:9px 12px;font-weight:700;cursor:pointer}
+    button:hover,.btn:hover{background:rgba(255,255,255,.17)}
+    .filters{display:grid;grid-template-columns:1fr 1.35fr 1.35fr auto;gap:10px;margin-top:16px}
+    select,input{width:100%;border:1px solid rgba(255,255,255,.24);background:#fff;color:#17303c;border-radius:9px;padding:10px 11px;font-size:13px}
+    .wrap{padding:20px 24px 34px;max-width:1500px;margin:auto}
+    .notice{background:#fff;border:1px solid var(--line);border-left:4px solid var(--blue);padding:12px 14px;border-radius:10px;color:#40515b;font-size:12px;margin-bottom:16px}
+    .kpis{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:12px}.kpi{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:15px;min-height:102px;box-shadow:0 2px 8px rgba(20,49,64,.04)}
+    .kpi .label{font-size:11px;text-transform:uppercase;letter-spacing:.07em;color:var(--muted);font-weight:800}.kpi .value{font-size:30px;font-weight:800;margin:6px 0 2px}.kpi .meta{font-size:11px;color:var(--muted)}
+    .grid2{display:grid;grid-template-columns:1.15fr .85fr;gap:16px;margin-top:16px}.grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
+    .panel{background:#fff;border:1px solid var(--line);border-radius:14px;padding:16px;box-shadow:0 2px 8px rgba(20,49,64,.04)}
+    .panel h2{font-size:16px;margin:0 0 3px}.panel .sub{font-size:11px;color:var(--muted);margin-bottom:14px}
+    .barrow{display:grid;grid-template-columns:110px 1fr 40px;gap:8px;align-items:center;margin:9px 0}.barlabel{font-size:12px;font-weight:700}.bar{height:9px;background:#edf2f4;border-radius:20px;overflow:hidden}.fill{height:100%;border-radius:20px;background:var(--blue)}.barvalue{font-size:11px;text-align:right;color:var(--muted);font-weight:700}
+    .project{border:1px solid var(--line);border-radius:12px;padding:13px;margin:10px 0}.projecthead{display:flex;justify-content:space-between;gap:8px;align-items:flex-start}.project h3{font-size:14px;margin:0}.small{font-size:11px;color:var(--muted)}
+    .chips{display:flex;gap:5px;flex-wrap:wrap;margin-top:9px}.chip{font-size:10px;font-weight:800;padding:5px 7px;border-radius:20px;background:#eef3f5;color:#42545f}.chip.obs{background:var(--blue-soft);color:var(--blue)}.chip.con{background:var(--purple-soft);color:var(--purple)}.chip.pro{background:var(--green-soft);color:var(--green)}.chip.kn{background:var(--amber-soft);color:var(--amber)}
+    table{width:100%;border-collapse:collapse;font-size:12px} th{text-align:left;color:#60717a;font-size:10px;text-transform:uppercase;letter-spacing:.05em;padding:8px;border-bottom:1px solid var(--line)} td{padding:9px 8px;border-bottom:1px solid #edf1f3;vertical-align:top}
+    .studentrow{display:grid;grid-template-columns:minmax(170px,1.35fr) .72fr .8fr 1fr 1.1fr;gap:8px;align-items:center;padding:10px 0;border-bottom:1px solid #eef2f4}.studentrow:last-child{border-bottom:0}.studentname{font-weight:800;font-size:12px}.studentmeta{font-size:10px;color:var(--muted)}
+    .status{font-size:10px;font-weight:800;padding:5px 8px;border-radius:20px;display:inline-block}.ready{background:var(--green-soft);color:var(--green)}.building{background:var(--amber-soft);color:var(--amber)}.needs{background:var(--red-soft);color:var(--red)}
+    .missing{font-size:10px;color:var(--muted)}.missing b{color:var(--red)}
+    .skill{display:grid;grid-template-columns:95px 1fr 48px;gap:8px;align-items:center;margin:10px 0}.skillid{font-size:11px;font-weight:800}.coverage{height:8px;background:#edf1f3;border-radius:10px;overflow:hidden}.coverage div{height:100%;background:linear-gradient(90deg,#3f7ea0,#1b8f5a)}.pct{font-size:10px;color:var(--muted);text-align:right}
+    .empty{padding:24px;text-align:center;color:var(--muted);font-size:12px}.loading{padding:60px;text-align:center;color:#fff}.spinner{width:24px;height:24px;border:3px solid rgba(255,255,255,.3);border-top-color:#fff;border-radius:50%;animation:spin .8s linear infinite;margin:auto auto 10px}@keyframes spin{to{transform:rotate(360deg)}}
+    .err{background:#fee;border:1px solid #fbb;color:#8a2222;padding:12px;border-radius:10px}
+    .footer{font-size:10px;color:#7c8b93;padding-top:16px;text-align:right}
+    @media(max-width:1050px){.kpis{grid-template-columns:repeat(3,1fr)}.grid2{grid-template-columns:1fr}.filters{grid-template-columns:1fr 1fr}.studentrow{grid-template-columns:1fr 1fr 1fr}.studentrow>div:nth-child(4),.studentrow>div:nth-child(5){display:none}}
+  </style>
+</head>
+<body>
+  <div class="top">
+    <div class="toprow">
+      <div><div class="eyebrow">Teacher view · Evidence, not grades</div><h1>Technology Evidence Dashboard</h1><div class="subtitle" id="stamp">Loading evidence...</div></div>
+      <div class="actions"><button onclick="openRoster()">Roster</button><button onclick="openEvidence()">Evidence Log</button><button onclick="load()">Refresh</button></div>
+    </div>
+    <div class="filters">
+      <select id="course" onchange="load()"><option value="">All courses</option></select>
+      <select id="project" onchange="load()"><option value="">All projects</option></select>
+      <input id="student" placeholder="Search student name/email" onkeydown="if(event.key==='Enter')load()">
+      <button onclick="clearFilters()">Clear filters</button>
+    </div>
+  </div>
+  <div class="wrap">
+    <div class="notice"><b>Review ready ≠ mastered.</b> It means there is enough teacher-verified evidence to review: at least 3 records across at least 2 of Observation / Conversation / Product. Final competency judgement stays with the teacher.</div>
+    <div id="app"><div class="panel"><div class="empty">Loading dashboard…</div></div></div>
+    <div class="footer">Technology Learning System · Truck Standard evidence architecture</div>
+  </div>
+<script>
+let lastData=null;
+function gs(){return window.google && google.script && google.script.run ? google.script.run : null}
+function load(){
+  document.getElementById('app').innerHTML='<div class="panel"><div class="empty">Loading dashboard…</div></div>';
+  const filters={course:document.getElementById('course').value,project:document.getElementById('project').value,student:document.getElementById('student').value};
+  if(gs()) google.script.run.withSuccessHandler(render).withFailureHandler(showError).getTeacherDashboardData(filters);
+  else render(sampleData());
+}
+function showError(err){document.getElementById('app').innerHTML='<div class="err"><b>Dashboard error</b><br>'+escapeHtml(err && err.message ? err.message : String(err))+'</div>'}
+function render(d){
+  lastData=d; document.getElementById('stamp').textContent='Updated '+d.generatedAt;
+  hydrateFilters(d.options,d.filters);
+  const k=d.kpis;
+  let html=`<div class="kpis">
+    ${kpi('Active students',k.activeStudents,'Current filter')}
+    ${kpi('Students with verified evidence',k.verifiedStudents,'Captured through teacher form')}
+    ${kpi('Verified evidence',k.verifiedEvidence,'Obs / Con / Pro and teacher-verified')}
+    ${kpi('Review ready',k.reviewReady,'Enough evidence to review')}
+    ${kpi('Building evidence',k.building,'Some verified evidence')}
+    ${kpi('Needs evidence',k.needsEvidence,'No verified evidence yet')}
+  </div>`;
+  html+=`<div class="grid2"><div class="panel"><h2>Students at a glance</h2><div class="sub">Evidence coverage, not an automatic grade.</div>${studentsHtml(d.students)}</div>
+  <div><div class="panel"><h2>Evidence mix</h2><div class="sub">All evidence records in the current filter.</div>${mixHtml(d.evidenceMix)}</div>
+  <div class="panel" style="margin-top:16px"><h2>Skill coverage</h2><div class="sub">Captured evidence by canonical skill ID.</div>${skillsHtml(d.skills,d.kpis.activeStudents)}</div></div></div>`;
+  html+=`<div class="grid2"><div class="panel"><h2>Projects</h2><div class="sub">Activity and evidence volume.</div>${projectsHtml(d.projects)}</div>
+  <div class="panel"><h2>Recent teacher evidence</h2><div class="sub">Most recent capture records; outcome judgments are shown above.</div>${recentHtml(d.recent)}</div></div>`;
+  html='<div class="panel"><h2>Confirmed outcome progress</h2><p>These decisions come from the Evidence Map. Intake counts below do not create achievement levels.</p><p><a href="https://outcome-evidence-map.netlify.app/connected.html" target="_blank" rel="noopener">Open connected teacher dashboard</a></p>'+confirmedProgressHtml(d.confirmedProgress||[])+'</div>'+html;
+  document.getElementById('app').innerHTML=html;
+}
+function confirmedProgressHtml(rows){if(!rows.length)return '<p>No outcome judgments have been mirrored yet.</p>';return '<table><thead><tr><th>Learner</th><th>Outcome</th><th>Achievement</th><th>Support</th><th>Teacher comment</th><th>State</th></tr></thead><tbody>'+rows.map(r=>'<tr>'+['student_name','outcome_code','achievement','support_context','teacher_comment','review_status'].map(k=>'<td>'+escapeHtml(r[k]||'—')+'</td>').join('')+'</tr>').join('')+'</tbody></table>';}
+function kpi(label,value,meta){return `<div class="kpi"><div class="label">${escapeHtml(label)}</div><div class="value">${value}</div><div class="meta">${escapeHtml(meta)}</div></div>`}
+function studentsHtml(rows){if(!rows.length)return '<div class="empty">No active students match these filters.</div>';return rows.map(s=>{let cls=s.status==='Review ready'?'ready':s.status==='Needs evidence'?'needs':'building';let miss=s.missing.length?`Missing: <b>${s.missing.join(', ')}</b>`:'Obs/Con/Pro mix present';return `<div class="studentrow"><div><div class="studentname">${escapeHtml(s.name)}</div><div class="studentmeta">${escapeHtml(s.course)} · ${escapeHtml(s.email)}</div></div><div><span class="status ${cls}">${escapeHtml(s.status)}</span></div><div><b>${s.verifiedCount}</b> verified<div class="studentmeta">${s.totalEvidence} total records</div></div><div class="missing">${miss}</div><div><b>Evidence only</b><div class="studentmeta">Last: ${escapeHtml(s.lastEvidence)}</div></div></div>`}).join('')}
+function mixHtml(m){let entries=[['Observation',m.Observation,'#2468b1'],['Conversation',m.Conversation,'#7556b7'],['Product',m.Product,'#1b8f5a'],['Knowledge',m.Knowledge,'#b66a00'],['Reflection',m.Reflection,'#6b7d86'],['Transfer',m.Transfer,'#b34f87']];let max=Math.max(1,...entries.map(x=>x[1]));return entries.map(([l,v,c])=>`<div class="barrow"><div class="barlabel">${l}</div><div class="bar"><div class="fill" style="width:${Math.round(v/max*100)}%;background:${c}"></div></div><div class="barvalue">${v}</div></div>`).join('')}
+function projectsHtml(rows){if(!rows.length)return '<div class="empty">No project evidence yet.</div>';return rows.map(p=>`<div class="project"><div class="projecthead"><div><h3>${escapeHtml(p.title)}</h3><div class="small">${escapeHtml(p.id)} · ${p.students} student(s) · updated ${escapeHtml(p.lastUpdated)}</div></div><div><b>${p.verifiedEvidence}</b><div class="small">verified</div></div></div><div class="chips"><span class="chip obs">Obs ${p.Observation}</span><span class="chip con">Con ${p.Conversation}</span><span class="chip pro">Pro ${p.Product}</span><span class="chip kn">Know ${p.Knowledge}</span><span class="chip">Reflect ${p.Reflection}</span></div></div>`).join('')}
+function skillsHtml(rows,total){if(!rows.length)return '<div class="empty">No teacher-verified skill evidence yet.</div>';return rows.map(s=>`<div class="skill"><div class="skillid">${escapeHtml(s.id)}</div><div class="coverage"><div style="width:${s.coverage}%"></div></div><div class="pct">${s.students}/${total}</div></div>`).join('')}
+function recentHtml(rows){if(!rows.length)return '<div class="empty">No verified evidence yet.</div>';return `<table><thead><tr><th>Student</th><th>Type</th><th>Level</th><th>Evidence</th></tr></thead><tbody>${rows.map(r=>`<tr><td><b>${escapeHtml(r.student)}</b><div class="small">${escapeHtml(r.project)} · ${escapeHtml(r.timestamp)}</div></td><td>${escapeHtml(r.type)}</td><td>${escapeHtml(r.level)}</td><td><b>${escapeHtml(r.evidenceId)}</b><div class="small">${escapeHtml((r.note||'').slice(0,140))}</div></td></tr>`).join('')}</tbody></table>`}
+function hydrateFilters(opts,filters){const course=document.getElementById('course'),project=document.getElementById('project');const cv=course.value,pv=project.value;if(course.options.length<=1){opts.courses.forEach(v=>course.add(new Option(v,v)))}if(project.options.length<=1){opts.projects.forEach(p=>project.add(new Option(p.title,p.id)))}course.value=filters.course||cv;project.value=filters.project||pv}
+function clearFilters(){document.getElementById('course').value='';document.getElementById('project').value='';document.getElementById('student').value='';load()}
+function openEvidence(){if(gs())google.script.run.activateEvidenceLogSheet()}
+function openRoster(){if(gs())google.script.run.activateRosterSheet()}
+function escapeHtml(v){return String(v==null?'':v).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]))}
+function sampleData(){return {generatedAt:'Preview data',filters:{},options:{courses:['MM12'],projects:[{id:'PS-TRUCK-AD',title:'Truck Ad'}],students:[]},kpis:{activeStudents:3,verifiedStudents:2,verifiedEvidence:4,supportingEvidence:18,reviewReady:1,building:1,needsEvidence:1},evidenceMix:{Observation:2,Conversation:2,Product:0,Knowledge:16,Reflection:2,Transfer:2},projects:[{id:'PS-TRUCK-AD',title:'Truck Ad',students:3,verifiedEvidence:4,totalEvidence:22,Observation:2,Conversation:2,Product:0,Knowledge:16,Reflection:2,Transfer:2,lastUpdated:'Sep 20'}],students:[{name:'Alex Test',email:'alextest@example.com',course:'MM12',verifiedCount:1,totalEvidence:1,status:'Building evidence',missing:['Conversation','Product'],highestLevel:'4 - Transfer / Extend',lastEvidence:'Sep 20'},{name:'Parker Test',email:'parker@example.com',course:'MM12',verifiedCount:3,totalEvidence:3,status:'Review ready',missing:['Product'],highestLevel:'3 - Competent / Independent',lastEvidence:'Sep 20'},{name:'Student 3',email:'student3@example.com',course:'MM12',verifiedCount:0,totalEvidence:0,status:'Needs evidence',missing:['Observation','Conversation','Product'],highestLevel:'',lastEvidence:'—'}],skills:[{id:'PS-FLT-01',students:2,evidence:3,coverage:67},{id:'PS-BLD-02',students:1,evidence:1,coverage:33}],recent:[{student:'Alex Test',course:'MM12',project:'Truck Ad',evidenceId:'TA-OBS-01',type:'Observation',level:'4 - Transfer / Extend',timestamp:'Sep 20, 8:36 PM',note:'Adjusted Smart Filter mask independently.'}]}}
+load();
+</script>
+</body>
+</html>

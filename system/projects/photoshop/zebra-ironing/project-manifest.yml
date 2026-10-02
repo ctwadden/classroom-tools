@@ -1,0 +1,102 @@
+id: PS-ZEBRA-IRONING
+title: Press Your Stripes - Zebra Ironing Composite
+software: Photoshop
+stage: guided_advertising_build
+status: release_candidate_unverified
+industry_connection:
+  title: Pirelli - Power is Nothing Without Control
+  year: 1994
+  agency: Young & Rubicam
+  source: https://www.fondazionepirelli.org/en/publishing-project/advertising-with-a-capital-p/
+  teaching_connection: Use an impossible visual contradiction/metaphor to make a message
+    memorable.
+client_simulation:
+  client: Fresh Coat fabric care
+  audience: General consumer audience that should understand the visual joke in one
+    glance
+  message: A zebra literally presses its own stripes/coat.
+courses:
+- course_id: COM11
+  primary_outcomes:
+  - '4.4'
+  supporting_outcomes:
+  - '1.4'
+  - '4.1'
+  - '4.2'
+  - '4.3'
+  - '4.5'
+- course_id: MM12
+  primary_outcomes:
+  - '1.1'
+  - '1.4'
+  - '1.5'
+  supporting_outcomes:
+  - '1.3'
+  - '4.1'
+skills:
+  prerequisites:
+  - PS-FND-01
+  - PS-LAY-01
+  - PS-SEL-01
+  - PS-TRN-01
+  - PS-BRS-01
+  - PS-SMO-01
+  new:
+  - PS-WRP-01
+  reinforced:
+  - PS-TRN-02
+  - PS-LGT-02
+  - PS-DES-01
+  - PS-OUT-01
+  - GD-HIE-01
+  - GD-ALN-01
+  - GD-MET-01
+  - GD-AUD-01
+  - GD-CRIT-01
+evidence:
+  observation:
+  - ZI-OBS-01
+  - ZI-OBS-02
+  - ZI-OBS-03
+  conversation:
+  - ZI-CON-01
+  - ZI-CON-02
+  product:
+  - ZI-PRO-01
+  - ZI-PRO-02
+  - ZI-PRO-03
+  reflection:
+  - ZI-REF-01
+  transfer:
+  - ZI-TRF-01
+assessment:
+  pack_id: ZI-AP-01
+  forms_spec: assessment/forms-spec.json
+  google_forms: true
+student_resource:
+  html: Zebra_Ironing_Complete_Guide_v2_RC.html
+  pdf: Zebra_Ironing_Complete_Guide_v2_RC.pdf
+release_blockers:
+- Run installed-school-Photoshop preflight for Puppet Warp/menu path if the lab machine
+  version differs.
+- Record/confirm redistribution rights or substitute approved source images before
+  public starter-asset publication.
+resources:
+  workbook_html: workbook.html
+  step_map: Step_Map.csv
+  video_manifest: video-manifest.json
+  video_contract: ../../../integration/VIDEO_WORKBOOK_CONTRACT.md
+steps:
+  core_count: 30
+  project_step_id_range: ZI-S01..ZI-S30
+  anchor_range: '#step-1..#step-30'
+video:
+  status: awaiting_recording
+  provider: Scribe It / YouTube
+  manifest: video-manifest.json
+  contract: ../../../integration/VIDEO_WORKBOOK_CONTRACT.md
+  video_url: null
+qa:
+  truck_standard_layout_lock: true
+  video_alignment_metadata: true
+  verified: false

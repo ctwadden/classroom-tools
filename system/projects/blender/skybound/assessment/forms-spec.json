@@ -1,0 +1,383 @@
+{
+  "spec_version": "1.0",
+  "project_id": "BL-SKYBOUND",
+  "project_title": "Skybound \u00b7 First 3D Expedition",
+  "course_configs": [
+    {
+      "course_id": "MM12",
+      "module_id": "M2",
+      "outcome_codes": [
+        "2.1",
+        "2.3",
+        "2.4",
+        "2.5"
+      ]
+    },
+    {
+      "course_id": "COM11",
+      "module_id": "M8",
+      "outcome_codes": [
+        "8.2",
+        "8.3"
+      ]
+    }
+  ],
+  "student_form": {
+    "description": "Complete the Skybound \u00b7 First 3D Expedition knowledge check, identify evidence of your technical/design learning, and answer the transfer prompt."
+  },
+  "knowledge_check": {
+    "items": [
+      {
+        "id": "SK-KC-01",
+        "type": "multiple_choice",
+        "prompt": "Why should you orbit/pan/zoom the viewport instead of moving the model just to inspect it?",
+        "choices": [
+          "Inspection should not accidentally change object placement",
+          "The model will become higher resolution",
+          "It changes materials automatically",
+          "It creates a camera"
+        ],
+        "correct_index": 0,
+        "points": 1,
+        "skill_ids": [
+          "BL-NAV-01"
+        ],
+        "outcome_codes": [
+          "MM12 2.1"
+        ],
+        "step_id": ""
+      },
+      {
+        "id": "SK-KC-02",
+        "type": "multiple_choice",
+        "prompt": "What is the main purpose of parenting balloon parts to a controller?",
+        "choices": [
+          "To move/rotate the assembled balloon as one system while preserving child relationships",
+          "To increase polygon count",
+          "To export a JPEG",
+          "To remove materials"
+        ],
+        "correct_index": 0,
+        "points": 1,
+        "skill_ids": [
+          "BL-HIE-01"
+        ],
+        "outcome_codes": [
+          "MM12 2.1"
+        ],
+        "step_id": ""
+      },
+      {
+        "id": "SK-KC-03",
+        "type": "multiple_choice",
+        "prompt": "Why must scale be considered before compositing a 3D balloon into a photograph?",
+        "choices": [
+          "Scale cues determine whether the object feels physically plausible in the scene",
+          "Scale only affects file size",
+          "Scale changes the licence",
+          "Scale automatically fixes lighting"
+        ],
+        "correct_index": 0,
+        "points": 1,
+        "skill_ids": [
+          "BL-TRN-01",
+          "PS-LGT-02"
+        ],
+        "outcome_codes": [
+          "MM12 2.5"
+        ],
+        "step_id": ""
+      },
+      {
+        "id": "SK-KC-04",
+        "type": "multiple_choice",
+        "prompt": "What does a material control in a basic 3D workflow?",
+        "choices": [
+          "How the surface responds/looks, including colour/texture/roughness-related properties",
+          "The spreadsheet roster",
+          "The Photoshop canvas size",
+          "Only the camera position"
+        ],
+        "correct_index": 0,
+        "points": 1,
+        "skill_ids": [
+          "BL-MAT-01"
+        ],
+        "outcome_codes": [
+          "MM12 2.3"
+        ],
+        "step_id": ""
+      },
+      {
+        "id": "SK-KC-05",
+        "type": "multiple_choice",
+        "prompt": "Why should 3D lighting direction roughly agree with the background plate?",
+        "choices": [
+          "Conflicting light makes the inserted render feel separate from the photographed world",
+          "It changes object names",
+          "It increases render speed",
+          "It removes alpha"
+        ],
+        "correct_index": 0,
+        "points": 1,
+        "skill_ids": [
+          "BL-LGT-01",
+          "PS-LGT-02"
+        ],
+        "outcome_codes": [
+          "MM12 2.4",
+          "MM12 2.5"
+        ],
+        "step_id": ""
+      },
+      {
+        "id": "SK-KC-06",
+        "type": "multiple_choice",
+        "prompt": "Why render with a transparent background for the Photoshop stage?",
+        "choices": [
+          "It lets the balloon be composited over another image without a rectangular background",
+          "It makes the model editable in Photoshop as geometry",
+          "It removes all shadows",
+          "It changes the camera"
+        ],
+        "correct_index": 0,
+        "points": 1,
+        "skill_ids": [
+          "BL-RND-01"
+        ],
+        "outcome_codes": [
+          "MM12 2.5"
+        ],
+        "step_id": ""
+      },
+      {
+        "id": "SK-KC-07",
+        "type": "multiple_choice",
+        "prompt": "If the balloon render looks correct by itself but wrong in Photoshop, what should you inspect first?",
+        "choices": [
+          "Perspective/scale, light direction, edge/alpha quality and colour relationship",
+          "Only the filename",
+          "Only the Blender version",
+          "Only the font"
+        ],
+        "correct_index": 0,
+        "points": 1,
+        "skill_ids": [
+          "PS-LGT-02",
+          "GD-CRIT-01"
+        ],
+        "outcome_codes": [
+          "MM12 2.5"
+        ],
+        "step_id": ""
+      },
+      {
+        "id": "SK-KC-08",
+        "type": "multiple_choice",
+        "prompt": "What is strong transfer evidence after Skybound?",
+        "choices": [
+          "Importing/rendering a different 3D object and adapting camera/light/material/composite decisions for a new scene",
+          "Reopening the same file",
+          "Memorizing the orbit shortcut",
+          "Copying the same balloon twice"
+        ],
+        "correct_index": 0,
+        "points": 1,
+        "skill_ids": [
+          "BL-RND-01",
+          "GD-CRIT-01"
+        ],
+        "outcome_codes": [
+          "MM12 2.5"
+        ],
+        "step_id": ""
+      }
+    ]
+  },
+  "skill_reflection": {
+    "technical_skills": [
+      {
+        "id": "BL-NAV-01",
+        "label": "3D viewport navigation"
+      },
+      {
+        "id": "BL-IMP-01",
+        "label": "Import OBJ / asset inspection"
+      },
+      {
+        "id": "BL-TRN-01",
+        "label": "3D transforms"
+      },
+      {
+        "id": "BL-HIE-01",
+        "label": "Object hierarchy / parenting"
+      },
+      {
+        "id": "BL-MAT-01",
+        "label": "Materials / texture connection"
+      },
+      {
+        "id": "BL-CAM-01",
+        "label": "Camera framing"
+      },
+      {
+        "id": "BL-LGT-01",
+        "label": "Lighting"
+      },
+      {
+        "id": "BL-RND-01",
+        "label": "Transparent render / export"
+      },
+      {
+        "id": "PS-LGT-02",
+        "label": "Photoshop integration"
+      }
+    ],
+    "design_skills": [
+      {
+        "id": "GD-HIE-01",
+        "label": "Visual hierarchy"
+      },
+      {
+        "id": "GD-AUD-01",
+        "label": "Audience / purpose"
+      },
+      {
+        "id": "GD-BRD-01",
+        "label": "Brand integration"
+      },
+      {
+        "id": "GD-CRIT-01",
+        "label": "Critique and revision"
+      }
+    ],
+    "independence_options": [
+      "Followed the example closely",
+      "Needed some prompts/checkpoints",
+      "Worked independently",
+      "Adapted or extended the skill"
+    ]
+  },
+  "transfer": {
+    "id": "SK-TRF-01",
+    "prompt": "Choose a different 3D object (product, sign, vehicle or prop) and describe how you would adapt camera, material, lighting and Photoshop integration for a new photographed environment.",
+    "skill_ids": [
+      "GD-HIE-01",
+      "GD-CRIT-01"
+    ],
+    "outcome_codes": [
+      "CT11 8.2",
+      "CT11 8.3"
+    ]
+  },
+  "teacher_evidence": {
+    "checkpoints": [
+      {
+        "evidence_id": "SK-OBS-01",
+        "evidence_type": "Observation",
+        "title": "Viewport navigation / object selection",
+        "skill_ids": [
+          "BL-NAV-01"
+        ],
+        "outcome_codes": [
+          "MM12 2.1",
+          "CT11 8.2"
+        ]
+      },
+      {
+        "evidence_id": "SK-OBS-02",
+        "evidence_type": "Observation",
+        "title": "Transform / hierarchy control",
+        "skill_ids": [
+          "BL-TRN-01",
+          "BL-HIE-01"
+        ],
+        "outcome_codes": [
+          "MM12 2.1",
+          "CT11 8.2"
+        ]
+      },
+      {
+        "evidence_id": "SK-OBS-03",
+        "evidence_type": "Observation",
+        "title": "Material / camera / lighting setup",
+        "skill_ids": [
+          "BL-MAT-01",
+          "BL-CAM-01",
+          "BL-LGT-01"
+        ],
+        "outcome_codes": [
+          "MM12 2.3",
+          "MM12 2.4",
+          "CT11 8.3"
+        ]
+      },
+      {
+        "evidence_id": "SK-CON-01",
+        "evidence_type": "Conversation",
+        "title": "Why camera/light/material choices affect realism",
+        "skill_ids": [
+          "BL-CAM-01",
+          "BL-LGT-01",
+          "BL-MAT-01"
+        ],
+        "outcome_codes": [
+          "MM12 2.3",
+          "MM12 2.4"
+        ]
+      },
+      {
+        "evidence_id": "SK-CON-02",
+        "evidence_type": "Conversation",
+        "title": "2D/3D integration reasoning",
+        "skill_ids": [
+          "PS-LGT-02",
+          "GD-AUD-01"
+        ],
+        "outcome_codes": [
+          "MM12 2.5"
+        ]
+      },
+      {
+        "evidence_id": "SK-PRO-01",
+        "evidence_type": "Product",
+        "title": "Editable Blender scene",
+        "skill_ids": [
+          "BL-HIE-01",
+          "BL-MAT-01",
+          "BL-CAM-01",
+          "BL-LGT-01"
+        ],
+        "outcome_codes": [
+          "MM12 2.1",
+          "MM12 2.3",
+          "MM12 2.4"
+        ]
+      },
+      {
+        "evidence_id": "SK-PRO-02",
+        "evidence_type": "Product",
+        "title": "Transparent balloon render + Photoshop composite",
+        "skill_ids": [
+          "BL-RND-01",
+          "PS-LGT-02"
+        ],
+        "outcome_codes": [
+          "MM12 2.5",
+          "CT11 8.3"
+        ]
+      },
+      {
+        "evidence_id": "SK-PRO-03",
+        "evidence_type": "Product",
+        "title": "Final export / presentation",
+        "skill_ids": [
+          "BL-RND-01"
+        ],
+        "outcome_codes": [
+          "MM12 2.5"
+        ]
+      }
+    ]
+  }
+}

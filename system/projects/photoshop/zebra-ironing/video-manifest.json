@@ -1,0 +1,778 @@
+{
+  "schema_version": "truck-video.1",
+  "project_id": "PS-ZEBRA-IRONING",
+  "video_title": "Press Your Stripes - Zebra Ironing Composite — Video Companion",
+  "version": "1.0.0",
+  "provider": "YouTube / Scribe It",
+  "status": "awaiting_recording",
+  "video_url": null,
+  "youtube_video_id": null,
+  "chapters": [
+    {
+      "chapter_id": "VID-ZI-S01",
+      "project_step_id": "ZI-S01",
+      "anchor": "step-1",
+      "title": "Read the illusion before editing",
+      "planned_start": null,
+      "actual_start": null,
+      "actual_end": null,
+      "skill_ids": [
+        "PS-SEL-01",
+        "PS-LAY-01",
+        "PS-BLD-02",
+        "PS-LGT-02",
+        "PS-TYP-01",
+        "PS-DES-01"
+      ],
+      "design_skill_ids": [
+        "GD-TYP-01",
+        "GD-MET-01",
+        "GD-CRIT-01"
+      ],
+      "evidence_ids": [],
+      "refresher_links": []
+    },
+    {
+      "chapter_id": "VID-ZI-S02",
+      "project_step_id": "ZI-S02",
+      "anchor": "step-2",
+      "title": "Create and save the working document",
+      "planned_start": null,
+      "actual_start": null,
+      "actual_end": null,
+      "skill_ids": [
+        "PS-FND-01",
+        "PS-SEL-01",
+        "PS-LAY-01",
+        "PS-BLD-02",
+        "PS-TYP-01",
+        "PS-OUT-01"
+      ],
+      "design_skill_ids": [
+        "GD-COL-01",
+        "GD-TYP-01",
+        "GD-MET-01",
+        "GD-CRIT-01"
+      ],
+      "evidence_ids": [],
+      "refresher_links": []
+    },
+    {
+      "chapter_id": "VID-ZI-S03",
+      "project_step_id": "ZI-S03",
+      "anchor": "step-3",
+      "title": "Build a simple studio and layout guides",
+      "planned_start": null,
+      "actual_start": null,
+      "actual_end": null,
+      "skill_ids": [
+        "PS-SEL-01",
+        "PS-LAY-01",
+        "PS-TRN-01",
+        "PS-BLD-02",
+        "PS-LGT-02",
+        "PS-RET-01",
+        "PS-TYP-01"
+      ],
+      "design_skill_ids": [
+        "GD-ALN-01",
+        "GD-COL-01",
+        "GD-TYP-01",
+        "GD-CRIT-01",
+        "GD-CON-01"
+      ],
+      "evidence_ids": [],
+      "refresher_links": []
+    },
+    {
+      "chapter_id": "VID-ZI-S04",
+      "project_step_id": "ZI-S04",
+      "anchor": "step-4",
+      "title": "Place the rearing-zebra source",
+      "planned_start": null,
+      "actual_start": null,
+      "actual_end": null,
+      "skill_ids": [
+        "PS-FND-01",
+        "PS-SEL-01",
+        "PS-LAY-01",
+        "PS-SMO-01",
+        "PS-TRN-01",
+        "PS-BLD-02",
+        "PS-RET-01",
+        "PS-DES-01"
+      ],
+      "design_skill_ids": [
+        "GD-MET-01",
+        "GD-CRIT-01",
+        "GD-REP-01"
+      ],
+      "evidence_ids": [],
+      "refresher_links": []
+    },
+    {
+      "chapter_id": "VID-ZI-S05",
+      "project_step_id": "ZI-S05",
+      "anchor": "step-5",
+      "title": "Select the left zebra only",
+      "planned_start": null,
+      "actual_start": null,
+      "actual_end": null,
+      "skill_ids": [
+        "PS-SEL-01",
+        "PS-LAY-01",
+        "PS-TRN-01",
+        "PS-BLD-02",
+        "PS-DES-01"
+      ],
+      "design_skill_ids": [
+        "GD-MET-01",
+        "GD-CRIT-01"
+      ],
+      "evidence_ids": [],
+      "refresher_links": []
+    },
+    {
+      "chapter_id": "VID-ZI-S06",
+      "project_step_id": "ZI-S06",
+      "anchor": "step-6",
+      "title": "Refine fur, then output a mask",
+      "planned_start": null,
+      "actual_start": null,
+      "actual_end": null,
+      "skill_ids": [
+        "PS-SEL-01",
+        "PS-LAY-01",
+        "PS-TRN-01",
+        "PS-BLD-02",
+        "PS-FLT-01",
+        "PS-DES-01"
+      ],
+      "design_skill_ids": [
+        "GD-COL-01",
+        "GD-MET-01",
+        "GD-CRIT-01",
+        "GD-CON-01"
+      ],
+      "evidence_ids": [
+        "ZI-OBS-01"
+      ],
+      "refresher_links": []
+    },
+    {
+      "chapter_id": "VID-ZI-S07",
+      "project_step_id": "ZI-S07",
+      "anchor": "step-7",
+      "title": "Scale the animal and protect the cut-out",
+      "planned_start": null,
+      "actual_start": null,
+      "actual_end": null,
+      "skill_ids": [
+        "PS-SEL-01",
+        "PS-LAY-01",
+        "PS-SMO-01",
+        "PS-TRN-01",
+        "PS-BLD-02",
+        "PS-DES-01"
+      ],
+      "design_skill_ids": [
+        "GD-MET-01",
+        "GD-CRIT-01"
+      ],
+      "evidence_ids": [],
+      "refresher_links": []
+    },
+    {
+      "chapter_id": "VID-ZI-S08",
+      "project_step_id": "ZI-S08",
+      "anchor": "step-8",
+      "title": "Place the board behind the animal",
+      "planned_start": null,
+      "actual_start": null,
+      "actual_end": null,
+      "skill_ids": [
+        "PS-SEL-01",
+        "PS-LAY-01",
+        "PS-TRN-01",
+        "PS-TRN-02",
+        "PS-DES-01"
+      ],
+      "design_skill_ids": [
+        "GD-COL-01",
+        "GD-MET-01",
+        "GD-CRIT-01"
+      ],
+      "evidence_ids": [],
+      "refresher_links": []
+    },
+    {
+      "chapter_id": "VID-ZI-S09",
+      "project_step_id": "ZI-S09",
+      "anchor": "step-9",
+      "title": "Hide the loose cable without erasing the iron",
+      "planned_start": null,
+      "actual_start": null,
+      "actual_end": null,
+      "skill_ids": [
+        "PS-SEL-01",
+        "PS-LAY-01",
+        "PS-TRN-01"
+      ],
+      "design_skill_ids": [
+        "GD-ALN-01",
+        "GD-COL-01",
+        "GD-CRIT-01"
+      ],
+      "evidence_ids": [],
+      "refresher_links": []
+    },
+    {
+      "chapter_id": "VID-ZI-S10",
+      "project_step_id": "ZI-S10",
+      "anchor": "step-10",
+      "title": "Repair the cropped lower frame",
+      "planned_start": null,
+      "actual_start": null,
+      "actual_end": null,
+      "skill_ids": [
+        "PS-SEL-01",
+        "PS-LAY-01",
+        "PS-TRN-01",
+        "PS-BLD-02",
+        "PS-TON-01",
+        "PS-LGT-02",
+        "PS-RET-01"
+      ],
+      "design_skill_ids": [
+        "GD-COL-01",
+        "GD-MET-01",
+        "GD-CRIT-01",
+        "GD-CON-01"
+      ],
+      "evidence_ids": [],
+      "refresher_links": []
+    },
+    {
+      "chapter_id": "VID-ZI-S11",
+      "project_step_id": "ZI-S11",
+      "anchor": "step-11",
+      "title": "Lift the iron into a separate top layer",
+      "planned_start": null,
+      "actual_start": null,
+      "actual_end": null,
+      "skill_ids": [
+        "PS-SEL-01",
+        "PS-LAY-01",
+        "PS-TRN-01",
+        "PS-LGT-02",
+        "PS-TYP-01"
+      ],
+      "design_skill_ids": [
+        "GD-ALN-01",
+        "GD-TYP-01",
+        "GD-MET-01",
+        "GD-CRIT-01"
+      ],
+      "evidence_ids": [],
+      "refresher_links": []
+    },
+    {
+      "chapter_id": "VID-ZI-S12",
+      "project_step_id": "ZI-S12",
+      "anchor": "step-12",
+      "title": "Separate the working foreleg",
+      "planned_start": null,
+      "actual_start": null,
+      "actual_end": null,
+      "skill_ids": [
+        "PS-SEL-01",
+        "PS-LAY-01",
+        "PS-SMO-01",
+        "PS-TRN-01",
+        "PS-TRN-02",
+        "PS-WRP-01",
+        "PS-TYP-01",
+        "PS-DES-01"
+      ],
+      "design_skill_ids": [
+        "GD-ALN-01",
+        "GD-TYP-01",
+        "GD-MET-01",
+        "GD-CRIT-01"
+      ],
+      "evidence_ids": [],
+      "refresher_links": []
+    },
+    {
+      "chapter_id": "VID-ZI-S13",
+      "project_step_id": "ZI-S13",
+      "anchor": "step-13",
+      "title": "Pose the hoof with three anchor pins",
+      "planned_start": null,
+      "actual_start": null,
+      "actual_end": null,
+      "skill_ids": [
+        "PS-SEL-01",
+        "PS-LAY-01",
+        "PS-SMO-01",
+        "PS-TRN-01",
+        "PS-TRN-02",
+        "PS-WRP-01",
+        "PS-DES-01"
+      ],
+      "design_skill_ids": [
+        "GD-CRIT-01",
+        "GD-REP-01"
+      ],
+      "evidence_ids": [
+        "ZI-OBS-02"
+      ],
+      "refresher_links": []
+    },
+    {
+      "chapter_id": "VID-ZI-S14",
+      "project_step_id": "ZI-S14",
+      "anchor": "step-14",
+      "title": "Refine the grip and shoulder join",
+      "planned_start": null,
+      "actual_start": null,
+      "actual_end": null,
+      "skill_ids": [
+        "PS-SEL-01",
+        "PS-LAY-01",
+        "PS-TRN-01",
+        "PS-BLD-02",
+        "PS-LGT-02",
+        "PS-FLT-01",
+        "PS-DES-01"
+      ],
+      "design_skill_ids": [
+        "GD-MET-01",
+        "GD-CRIT-01"
+      ],
+      "evidence_ids": [],
+      "refresher_links": []
+    },
+    {
+      "chapter_id": "VID-ZI-S15",
+      "project_step_id": "ZI-S15",
+      "anchor": "step-15",
+      "title": "Extract a clean stripe patch",
+      "planned_start": null,
+      "actual_start": null,
+      "actual_end": null,
+      "skill_ids": [
+        "PS-FND-01",
+        "PS-SEL-01",
+        "PS-LAY-01",
+        "PS-TRN-01",
+        "PS-BLD-02",
+        "PS-TYP-01"
+      ],
+      "design_skill_ids": [
+        "GD-TYP-01",
+        "GD-MET-01",
+        "GD-CRIT-01"
+      ],
+      "evidence_ids": [],
+      "refresher_links": []
+    },
+    {
+      "chapter_id": "VID-ZI-S16",
+      "project_step_id": "ZI-S16",
+      "anchor": "step-16",
+      "title": "Place the coat between board and iron",
+      "planned_start": null,
+      "actual_start": null,
+      "actual_end": null,
+      "skill_ids": [
+        "PS-FND-01",
+        "PS-SEL-01",
+        "PS-LAY-01",
+        "PS-SMO-01",
+        "PS-TRN-01",
+        "PS-BLD-02",
+        "PS-DES-01"
+      ],
+      "design_skill_ids": [
+        "GD-MET-01",
+        "GD-CRIT-01"
+      ],
+      "evidence_ids": [],
+      "refresher_links": []
+    },
+    {
+      "chapter_id": "VID-ZI-S17",
+      "project_step_id": "ZI-S17",
+      "anchor": "step-17",
+      "title": "Warp one continuous texture over the edge",
+      "planned_start": null,
+      "actual_start": null,
+      "actual_end": null,
+      "skill_ids": [
+        "PS-SEL-01",
+        "PS-LAY-01",
+        "PS-SMO-01",
+        "PS-TRN-01",
+        "PS-TRN-02",
+        "PS-BLD-02",
+        "PS-LGT-02",
+        "PS-DES-01"
+      ],
+      "design_skill_ids": [
+        "GD-ALN-01",
+        "GD-CRIT-01"
+      ],
+      "evidence_ids": [],
+      "refresher_links": []
+    },
+    {
+      "chapter_id": "VID-ZI-S18",
+      "project_step_id": "ZI-S18",
+      "anchor": "step-18",
+      "title": "Shape the hem and fit the fabric",
+      "planned_start": null,
+      "actual_start": null,
+      "actual_end": null,
+      "skill_ids": [
+        "PS-SEL-01",
+        "PS-LAY-01",
+        "PS-TRN-01",
+        "PS-TRN-02",
+        "PS-BLD-02",
+        "PS-SHP-01",
+        "PS-DES-01"
+      ],
+      "design_skill_ids": [
+        "GD-ALN-01",
+        "GD-CRIT-01"
+      ],
+      "evidence_ids": [],
+      "refresher_links": []
+    },
+    {
+      "chapter_id": "VID-ZI-S19",
+      "project_step_id": "ZI-S19",
+      "anchor": "step-19",
+      "title": "Paint shadow folds on a clipped layer",
+      "planned_start": null,
+      "actual_start": null,
+      "actual_end": null,
+      "skill_ids": [
+        "PS-SEL-01",
+        "PS-LAY-01",
+        "PS-TRN-01",
+        "PS-TRN-02",
+        "PS-BLD-02",
+        "PS-TON-01",
+        "PS-LGT-02",
+        "PS-RET-01",
+        "PS-FLT-01",
+        "PS-DES-01"
+      ],
+      "design_skill_ids": [
+        "GD-COL-01",
+        "GD-CRIT-01",
+        "GD-CON-01"
+      ],
+      "evidence_ids": [],
+      "refresher_links": []
+    },
+    {
+      "chapter_id": "VID-ZI-S20",
+      "project_step_id": "ZI-S20",
+      "anchor": "step-20",
+      "title": "Add restrained highlights",
+      "planned_start": null,
+      "actual_start": null,
+      "actual_end": null,
+      "skill_ids": [
+        "PS-SEL-01",
+        "PS-LAY-01",
+        "PS-TRN-01",
+        "PS-BLD-02",
+        "PS-LGT-02",
+        "PS-FLT-01",
+        "PS-DES-01"
+      ],
+      "design_skill_ids": [
+        "GD-COL-01",
+        "GD-CRIT-01",
+        "GD-CON-01"
+      ],
+      "evidence_ids": [],
+      "refresher_links": []
+    },
+    {
+      "chapter_id": "VID-ZI-S21",
+      "project_step_id": "ZI-S21",
+      "anchor": "step-21",
+      "title": "Add a tight shadow beneath the iron",
+      "planned_start": null,
+      "actual_start": null,
+      "actual_end": null,
+      "skill_ids": [
+        "PS-SEL-01",
+        "PS-LAY-01",
+        "PS-TRN-01",
+        "PS-BLD-02",
+        "PS-LGT-02",
+        "PS-FLT-01",
+        "PS-DES-01"
+      ],
+      "design_skill_ids": [
+        "GD-CRIT-01",
+        "GD-CON-01"
+      ],
+      "evidence_ids": [
+        "ZI-OBS-03"
+      ],
+      "refresher_links": []
+    },
+    {
+      "chapter_id": "VID-ZI-S22",
+      "project_step_id": "ZI-S22",
+      "anchor": "step-22",
+      "title": "Separate fabric from the board",
+      "planned_start": null,
+      "actual_start": null,
+      "actual_end": null,
+      "skill_ids": [
+        "PS-SEL-01",
+        "PS-LAY-01",
+        "PS-TRN-01",
+        "PS-BLD-02",
+        "PS-TON-01",
+        "PS-LGT-02",
+        "PS-SHP-01",
+        "PS-DES-01"
+      ],
+      "design_skill_ids": [
+        "GD-CRIT-01",
+        "GD-CON-01"
+      ],
+      "evidence_ids": [],
+      "refresher_links": []
+    },
+    {
+      "chapter_id": "VID-ZI-S23",
+      "project_step_id": "ZI-S23",
+      "anchor": "step-23",
+      "title": "Anchor the hoof to the handle",
+      "planned_start": null,
+      "actual_start": null,
+      "actual_end": null,
+      "skill_ids": [
+        "PS-SEL-01",
+        "PS-LAY-01",
+        "PS-TRN-01",
+        "PS-BLD-02",
+        "PS-LGT-02",
+        "PS-DES-01"
+      ],
+      "design_skill_ids": [
+        "GD-CRIT-01",
+        "GD-CON-01"
+      ],
+      "evidence_ids": [],
+      "refresher_links": []
+    },
+    {
+      "chapter_id": "VID-ZI-S24",
+      "project_step_id": "ZI-S24",
+      "anchor": "step-24",
+      "title": "Ground the zebra and the stand",
+      "planned_start": null,
+      "actual_start": null,
+      "actual_end": null,
+      "skill_ids": [
+        "PS-SEL-01",
+        "PS-LAY-01",
+        "PS-LGT-02",
+        "PS-FLT-01",
+        "PS-DES-01"
+      ],
+      "design_skill_ids": [
+        "GD-COL-01",
+        "GD-MET-01",
+        "GD-CRIT-01",
+        "GD-CON-01"
+      ],
+      "evidence_ids": [],
+      "refresher_links": []
+    },
+    {
+      "chapter_id": "VID-ZI-S25",
+      "project_step_id": "ZI-S25",
+      "anchor": "step-25",
+      "title": "Match the photographed pieces",
+      "planned_start": null,
+      "actual_start": null,
+      "actual_end": null,
+      "skill_ids": [
+        "PS-SEL-01",
+        "PS-LAY-01",
+        "PS-TRN-01",
+        "PS-BLD-02",
+        "PS-TON-01",
+        "PS-LGT-02",
+        "PS-OUT-01",
+        "PS-DES-01"
+      ],
+      "design_skill_ids": [
+        "GD-COL-01",
+        "GD-MET-01",
+        "GD-CRIT-01",
+        "GD-CON-01"
+      ],
+      "evidence_ids": [],
+      "refresher_links": []
+    },
+    {
+      "chapter_id": "VID-ZI-S26",
+      "project_step_id": "ZI-S26",
+      "anchor": "step-26",
+      "title": "Do a two-background edge inspection",
+      "planned_start": null,
+      "actual_start": null,
+      "actual_end": null,
+      "skill_ids": [
+        "PS-SEL-01",
+        "PS-LAY-01",
+        "PS-TRN-01",
+        "PS-LGT-02",
+        "PS-RET-01",
+        "PS-TYP-01",
+        "PS-DES-01"
+      ],
+      "design_skill_ids": [
+        "GD-COL-01",
+        "GD-TYP-01",
+        "GD-MET-01",
+        "GD-CRIT-01",
+        "GD-CON-01"
+      ],
+      "evidence_ids": [
+        "ZI-CON-02"
+      ],
+      "refresher_links": []
+    },
+    {
+      "chapter_id": "VID-ZI-S27",
+      "project_step_id": "ZI-S27",
+      "anchor": "step-27",
+      "title": "Turn the composite into a visual advertisement",
+      "planned_start": null,
+      "actual_start": null,
+      "actual_end": null,
+      "skill_ids": [
+        "PS-FND-01",
+        "PS-SEL-01",
+        "PS-LAY-01",
+        "PS-TRN-01",
+        "PS-BLD-02",
+        "PS-TYP-01",
+        "PS-DES-01"
+      ],
+      "design_skill_ids": [
+        "GD-HIE-01",
+        "GD-COL-01",
+        "GD-TYP-01",
+        "GD-BRD-01",
+        "GD-AUD-01",
+        "GD-CRIT-01"
+      ],
+      "evidence_ids": [
+        "ZI-CON-01"
+      ],
+      "refresher_links": []
+    },
+    {
+      "chapter_id": "VID-ZI-S28",
+      "project_step_id": "ZI-S28",
+      "anchor": "step-28",
+      "title": "Audit the layer stack and save the master",
+      "planned_start": null,
+      "actual_start": null,
+      "actual_end": null,
+      "skill_ids": [
+        "PS-FND-01",
+        "PS-SEL-01",
+        "PS-LAY-01",
+        "PS-SMO-01",
+        "PS-TRN-01",
+        "PS-BLD-02",
+        "PS-LGT-02",
+        "PS-TYP-01",
+        "PS-OUT-01"
+      ],
+      "design_skill_ids": [
+        "GD-ALN-01",
+        "GD-TYP-01",
+        "GD-MET-01",
+        "GD-CRIT-01"
+      ],
+      "evidence_ids": [
+        "ZI-PRO-01"
+      ],
+      "refresher_links": []
+    },
+    {
+      "chapter_id": "VID-ZI-S29",
+      "project_step_id": "ZI-S29",
+      "anchor": "step-29",
+      "title": "Export a clean viewing copy",
+      "planned_start": null,
+      "actual_start": null,
+      "actual_end": null,
+      "skill_ids": [
+        "PS-FND-01",
+        "PS-SEL-01",
+        "PS-LAY-01",
+        "PS-TRN-01",
+        "PS-BLD-02",
+        "PS-TYP-01",
+        "PS-OUT-01",
+        "PS-DES-01"
+      ],
+      "design_skill_ids": [
+        "GD-ALN-01",
+        "GD-COL-01",
+        "GD-TYP-01",
+        "GD-MET-01",
+        "GD-CRIT-01"
+      ],
+      "evidence_ids": [
+        "ZI-PRO-02",
+        "ZI-PRO-03"
+      ],
+      "refresher_links": []
+    },
+    {
+      "chapter_id": "VID-ZI-S30",
+      "project_step_id": "ZI-S30",
+      "anchor": "step-30",
+      "title": "Submit evidence and explain one decision",
+      "planned_start": null,
+      "actual_start": null,
+      "actual_end": null,
+      "skill_ids": [
+        "PS-SEL-01",
+        "PS-LAY-01",
+        "PS-TRN-02",
+        "PS-BLD-02",
+        "PS-LGT-02",
+        "PS-OUT-01"
+      ],
+      "design_skill_ids": [
+        "GD-MET-01",
+        "GD-CRIT-01"
+      ],
+      "evidence_ids": [
+        "ZI-CON-01",
+        "ZI-CON-02"
+      ],
+      "refresher_links": []
+    }
+  ]
+}

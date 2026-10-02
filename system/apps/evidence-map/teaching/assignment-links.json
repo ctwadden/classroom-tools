@@ -1,0 +1,192 @@
+{
+  "version": "2026-09-25",
+  "note": "Explicit links into the existing course map. Missing links are preparation work, not permission to invent IDs or URLs.",
+  "sprints": [
+    {
+      "sprint_id": "mm12-26-s01",
+      "projects": [
+        {
+          "project_id": "PS-DROP-DAY",
+          "title": "Drop Day",
+          "role": "Classes 4\u20136 \u00b7 repair, isolate and style a sneaker advertisement",
+          "workbook_url": "https://ctwadden.github.io/multimedia-12/photoshop/studio/drop-day/?course=MM12",
+          "coach_url": "https://gemini.google.com/gem/1ySXJPfNy0hCfESu8EzsD3vuexPiuKQKo?usp=sharing",
+          "assessment_url": "https://script.google.com/a/macros/gnspes.ca/s/AKfycbxqHbAwEwbvdMrOGY4eP4Yu-z8PXqMsA-MfMGBFoTA5CoDbOA4sUv1LsXbYfFMWmrcP/exec?project=PS-DROP-DAY&type=student",
+          "rubric_ids": [],
+          "preparation": "Published workbook, coach and assessment links inspected on 24 September. A downloadable criterion-level rubric still needs reconciliation with this workbook; the full Bootcamp package is not certified.",
+          "order": 2
+        }
+      ],
+      "resources": [
+        {
+          "resource_key": "BOOT",
+          "order": 1,
+          "title": "Below the Surface",
+          "role": "Classes 1\u20133 \u00b7 construct, integrate and animate a shark documentary identity",
+          "workbook_url": "https://outcome-evidence-map.netlify.app/outputs/recovered-teaching-materials-2026-09-23/guides/Below_the_Surface_Student_Guide.html",
+          "pdf_url": "https://outcome-evidence-map.netlify.app/outputs/recovered-teaching-materials-2026-09-23/guides/Below_the_Surface_Student_Guide.pdf",
+          "preparation": "Existing 24-step student guide, with embedded source images and motion reference, restored unchanged. The guide includes practical checks; its saved responses stay in that browser. Coach, Google Forms and shared rubric connections still need registration. Photoshop rehearsal remains pending."
+        },
+        {
+          "resource_key": "COVER",
+          "order": 3,
+          "title": "On the Cover",
+          "role": "Classes 7\u20139 \u00b7 refine a portrait and build an editable magazine cover",
+          "workbook_url": "https://outcome-evidence-map.netlify.app/outputs/recovered-teaching-materials-2026-09-23/guides/On_the_Cover_Student_Guide.html",
+          "pdf_url": "https://outcome-evidence-map.netlify.app/outputs/recovered-teaching-materials-2026-09-23/guides/On_the_Cover_Student_Guide.pdf",
+          "preparation": "Existing 24-stage student guide, with embedded portrait, cover copy and construction references, restored unchanged. Its saved reflection stays in that browser. Coach, Google Forms and shared rubric connections still need registration. Photoshop rehearsal remains pending."
+        },
+        {
+          "order": 4,
+          "title": "Photoshop Foundations \u2014 Decode the Impossible",
+          "role": "Optional prerequisite or support lesson \u00b7 gallery, layer simulator, phone portal and out-of-bounds effect",
+          "workbook_url": "https://ctwadden.github.io/ps-01-photoshop-foundations/",
+          "preparation": "Existing published lesson with student source downloads. Use selectively for prerequisite practice; it is not an additional required class in the ten-class Bootcamp sequence."
+        }
+      ]
+    },
+    {
+      "sprint_id": "com11-26-s01",
+      "projects": [
+        {
+          "project_id": "PS-DROP-DAY",
+          "title": "Drop Day",
+          "role": "Classes 4\u20136 \u00b7 repair, isolate and style a sneaker advertisement",
+          "workbook_url": "https://ctwadden.github.io/multimedia-12/photoshop/studio/drop-day/?course=COM11",
+          "coach_url": "https://gemini.google.com/gem/1ySXJPfNy0hCfESu8EzsD3vuexPiuKQKo?usp=sharing",
+          "assessment_url": "https://script.google.com/a/macros/gnspes.ca/s/AKfycbxqHbAwEwbvdMrOGY4eP4Yu-z8PXqMsA-MfMGBFoTA5CoDbOA4sUv1LsXbYfFMWmrcP/exec?project=PS-DROP-DAY&type=student",
+          "rubric_ids": [],
+          "preparation": "Use the COM11 route and select the correct course in the assessment launcher. Shared instruction does not imply shared course outcome judgments. The shared criterion-level rubric is still to be reconciled.",
+          "order": 2
+        }
+      ],
+      "resources": [
+        {
+          "resource_key": "BOOT",
+          "order": 1,
+          "title": "Below the Surface",
+          "role": "Classes 1\u20133 \u00b7 construct, integrate and animate a shark documentary identity",
+          "workbook_url": "https://outcome-evidence-map.netlify.app/outputs/recovered-teaching-materials-2026-09-23/guides/Below_the_Surface_Student_Guide.html",
+          "pdf_url": "https://outcome-evidence-map.netlify.app/outputs/recovered-teaching-materials-2026-09-23/guides/Below_the_Surface_Student_Guide.pdf",
+          "preparation": "Existing 24-step student guide, with embedded source images and motion reference, restored unchanged. The guide includes practical checks; its saved responses stay in that browser. Coach, Google Forms and shared rubric connections still need registration. Photoshop rehearsal remains pending."
+        },
+        {
+          "resource_key": "COVER",
+          "order": 3,
+          "title": "On the Cover",
+          "role": "Classes 7\u20139 \u00b7 refine a portrait and build an editable magazine cover",
+          "workbook_url": "https://outcome-evidence-map.netlify.app/outputs/recovered-teaching-materials-2026-09-23/guides/On_the_Cover_Student_Guide.html",
+          "pdf_url": "https://outcome-evidence-map.netlify.app/outputs/recovered-teaching-materials-2026-09-23/guides/On_the_Cover_Student_Guide.pdf",
+          "preparation": "Existing 24-stage student guide, with embedded portrait, cover copy and construction references, restored unchanged. Its saved reflection stays in that browser. Coach, Google Forms and shared rubric connections still need registration. Photoshop rehearsal remains pending."
+        },
+        {
+          "order": 4,
+          "title": "Photoshop Foundations \u2014 Decode the Impossible",
+          "role": "Optional prerequisite or support lesson \u00b7 gallery, layer simulator, phone portal and out-of-bounds effect",
+          "workbook_url": "https://ctwadden.github.io/ps-01-photoshop-foundations/",
+          "preparation": "Existing published lesson with student source downloads. Use selectively for prerequisite practice; it is not an additional required class in the ten-class Bootcamp sequence."
+        }
+      ]
+    },
+    {
+      "sprint_id": "mm12-26-s02",
+      "projects": [
+        {
+          "project_id": "PS-TRUCK-AD",
+          "title": "Truck Ad",
+          "role": "Guided construction and an independent changed-audience version",
+          "workbook_url": "https://outcome-evidence-map.netlify.app/outputs/recovered-teaching-materials-2026-09-23/guides/Truck_Ad_Complete_Guide_v2_RC2.html",
+          "coach_url": "https://gemini.google.com/gem/1ySXJPfNy0hCfESu8EzsD3vuexPiuKQKo?usp=sharing",
+          "assessment_url": "https://docs.google.com/forms/d/e/1FAIpQLSfnm2tVKK_795ELevF44ywk1DxYCLlZad03ANGpsdSTWtxH4g/viewform",
+          "rubric_ids": [
+            "MM12-TRUCK-AD-R1"
+          ],
+          "recovered_reference": "outputs/recovered-teaching-materials-2026-09-23/guides/Truck_Ad_Complete_Guide_v2_RC2.html",
+          "preparation": "Recovered RC2 guide with the existing Coach and registered knowledge/reflection Form. The revised MM12 rubric maps original checkpoints and taught skills; teacher approval remains pending. Native Photoshop rehearsal and the supplied hero-image asset still require completion before classroom release.",
+          "source_url": "https://github.com/ctwadden/classroom-tools/blob/technology-learning-system-v3/system/projects/photoshop/truck-ad/project-manifest.yml",
+          "forms_spec_url": "https://raw.githubusercontent.com/ctwadden/classroom-tools/technology-learning-system-v3/system/projects/photoshop/truck-ad/assessment/forms-spec.json",
+          "original_rubric_url": "https://github.com/ctwadden/classroom-tools/blob/technology-learning-system-v3/system/audits/photoshop/truck-ad/TRUCK_AD_EVIDENCE_RUBRICS.md",
+          "source_checkpoints": [
+            {
+              "evidence_id": "TA-OBS-01",
+              "evidence_type": "Observation",
+              "title": "Smart Filter mask repair",
+              "skill_ids": [
+                "PS-FLT-01",
+                "PS-LAY-01"
+              ],
+              "criterion_ids": [
+                "TA-MM-C1"
+              ]
+            },
+            {
+              "evidence_id": "TA-CON-01",
+              "evidence_type": "Conversation",
+              "title": "Blend-mode reasoning",
+              "skill_ids": [
+                "PS-BLD-02"
+              ],
+              "criterion_ids": [
+                "TA-MM-C1"
+              ]
+            },
+            {
+              "evidence_id": "TA-OBS-02",
+              "evidence_type": "Observation",
+              "title": "Typography / hierarchy revision",
+              "skill_ids": [
+                "PS-TYP-01",
+                "GD-HIE-01",
+                "GD-ALN-01"
+              ],
+              "criterion_ids": [
+                "TA-MM-C2"
+              ]
+            },
+            {
+              "evidence_id": "TA-CON-02",
+              "evidence_type": "Conversation",
+              "title": "Audience / message defence",
+              "skill_ids": [
+                "GD-AUD-01",
+                "GD-MET-01"
+              ],
+              "criterion_ids": [
+                "TA-MM-C3"
+              ]
+            },
+            {
+              "evidence_id": "TA-PRO-02",
+              "evidence_type": "Product",
+              "title": "Final advertisement",
+              "skill_ids": [
+                "PS-DES-01",
+                "PS-BLD-02",
+                "PS-TYP-01",
+                "GD-HIE-01",
+                "GD-AUD-01"
+              ],
+              "criterion_ids": [
+                "TA-MM-C2",
+                "TA-MM-C3"
+              ]
+            },
+            {
+              "evidence_id": "TA-QA-01",
+              "evidence_type": "Observation+Conversation",
+              "title": "Critique and revision",
+              "skill_ids": [
+                "GD-CRIT-01",
+                "PS-DES-01"
+              ],
+              "criterion_ids": [
+                "TA-MM-C2",
+                "TA-MM-C3"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

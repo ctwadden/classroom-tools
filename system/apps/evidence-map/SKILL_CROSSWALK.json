@@ -1,0 +1,509 @@
+{
+ "artifact": "skill-crosswalk",
+ "version": 2,
+ "generated": "2026-09-21",
+ "source_of_truth": "Evidence Map SKILLS_RAW (ct-*/mm-*/ds-*) owns competency IDs and the grade path. PS-*/GD-* are the Truck Standard tutorial registry (PHOTOSHOP_SKILLS.md / DESIGN_FOUNDATIONS_SKILLS.md) and map IN via outcomes. Cross-system join = outcome code, never skill_id.",
+ "outcome_slug_rule": {
+  "COM11": "communications-technology-11-<strand>-<n>",
+  "MM12": "mm12-o<N> (o1..o5 = images 1.1-1.5; o6..o10 = 2.1-2.5; Sound module = sound-2015-<code>)",
+  "IBDS": "ds-u<unit2>-<n3>"
+ },
+ "rung_rule": "Tutorial tier normalised to F/G/I/A; competency rung lives on the SKILLS_RAW card and may differ.",
+ "known_gaps": [
+  "Multimedia image module has no competency skills; 21 PS rows join to MM via mm12-oN outcomes only.",
+  "GD-CRIT-01 spans all tiers."
+ ],
+ "crosswalk": [
+  {
+   "tutorial_skill_id": "PS-FND-01",
+   "tutorial_label": "Interface, workspace, file organization",
+   "family": "Foundation & Workflow",
+   "evidence_skill_ids": [
+    "ct-image-software-layers"
+   ],
+   "outcome_codes": [
+    "communications-technology-11-4-4",
+    "mm12-o1",
+    "mm12-o5"
+   ],
+   "rung": "F",
+   "notes": "Umbrella tool competency (4.4). File-org has no 1:1 competency; MM join is outcome-only (no mm image skill)."
+  },
+  {
+   "tutorial_skill_id": "PS-LAY-01",
+   "tutorial_label": "Layers and layer masks",
+   "family": "Non-destructive Construction",
+   "evidence_skill_ids": [
+    "ct-image-software-layers"
+   ],
+   "outcome_codes": [
+    "communications-technology-11-4-4",
+    "mm12-o1"
+   ],
+   "rung": "F",
+   "notes": "MM = outcome-only."
+  },
+  {
+   "tutorial_skill_id": "PS-ADJ-01",
+   "tutorial_label": "Adjustment layers",
+   "family": "Colour, Light & Integration",
+   "evidence_skill_ids": [
+    "ct-image-software-layers",
+    "ct-color-wheel"
+   ],
+   "outcome_codes": [
+    "communications-technology-11-4-4",
+    "communications-technology-11-4-2",
+    "mm12-o1"
+   ],
+   "rung": "F",
+   "notes": "MM = outcome-only."
+  },
+  {
+   "tutorial_skill_id": "PS-TON-01",
+   "tutorial_label": "Levels and Curves",
+   "family": "Colour, Light & Integration",
+   "evidence_skill_ids": [
+    "ct-image-software-layers",
+    "ct-color-wheel"
+   ],
+   "outcome_codes": [
+    "communications-technology-11-4-4",
+    "communications-technology-11-4-2",
+    "mm12-o1"
+   ],
+   "rung": "I",
+   "notes": "MM = outcome-only."
+  },
+  {
+   "tutorial_skill_id": "PS-COL-01",
+   "tutorial_label": "Colour replacement / control",
+   "family": "Colour, Light & Integration",
+   "evidence_skill_ids": [
+    "ct-color-wheel",
+    "ct-image-software-layers"
+   ],
+   "outcome_codes": [
+    "communications-technology-11-4-2",
+    "communications-technology-11-4-4",
+    "mm12-o1"
+   ],
+   "rung": "F",
+   "notes": "MM = outcome-only."
+  },
+  {
+   "tutorial_skill_id": "PS-SEL-01",
+   "tutorial_label": "Select Subject / Object Selection",
+   "family": "Selection & Isolation",
+   "evidence_skill_ids": [
+    "ct-image-software-layers"
+   ],
+   "outcome_codes": [
+    "communications-technology-11-4-4",
+    "mm12-o1"
+   ],
+   "rung": "F",
+   "notes": "MM = outcome-only."
+  },
+  {
+   "tutorial_skill_id": "PS-BRS-01",
+   "tutorial_label": "Brush control",
+   "family": "Foundation & Workflow",
+   "evidence_skill_ids": [
+    "ct-image-software-layers"
+   ],
+   "outcome_codes": [
+    "communications-technology-11-4-4",
+    "mm12-o1"
+   ],
+   "rung": "F",
+   "notes": "No dedicated brush competency; rolls up to 4.4. MM = outcome-only."
+  },
+  {
+   "tutorial_skill_id": "PS-SEL-02",
+   "tutorial_label": "Pen Tool selection",
+   "family": "Selection & Isolation",
+   "evidence_skill_ids": [
+    "ct-image-software-layers"
+   ],
+   "outcome_codes": [
+    "communications-technology-11-4-4",
+    "mm12-o1"
+   ],
+   "rung": "I",
+   "notes": "MM = outcome-only."
+  },
+  {
+   "tutorial_skill_id": "PS-TRN-01",
+   "tutorial_label": "Scale, rotate, align",
+   "family": "Transform & Perspective",
+   "evidence_skill_ids": [
+    "ct-image-software-layers",
+    "ct-design-principles"
+   ],
+   "outcome_codes": [
+    "communications-technology-11-4-4",
+    "communications-technology-11-4-1",
+    "mm12-o1"
+   ],
+   "rung": "F",
+   "notes": "Align touches design principles (4.1). MM = outcome-only."
+  },
+  {
+   "tutorial_skill_id": "PS-TRN-02",
+   "tutorial_label": "Distort / Perspective / Warp",
+   "family": "Transform & Perspective",
+   "evidence_skill_ids": [
+    "ct-image-software-layers"
+   ],
+   "outcome_codes": [
+    "communications-technology-11-4-4",
+    "mm12-o1"
+   ],
+   "rung": "I",
+   "notes": "MM = outcome-only."
+  },
+  {
+   "tutorial_skill_id": "PS-TYP-01",
+   "tutorial_label": "Photoshop type construction",
+   "family": "Graphic Communication",
+   "evidence_skill_ids": [
+    "ct-typography",
+    "ct-image-software-layers"
+   ],
+   "outcome_codes": [
+    "communications-technology-11-4-3",
+    "communications-technology-11-4-4",
+    "mm12-o1"
+   ],
+   "rung": "F",
+   "notes": "MM = outcome-only."
+  },
+  {
+   "tutorial_skill_id": "PS-SMO-01",
+   "tutorial_label": "Smart Objects",
+   "family": "Non-destructive Construction",
+   "evidence_skill_ids": [
+    "ct-image-software-layers"
+   ],
+   "outcome_codes": [
+    "communications-technology-11-4-4",
+    "mm12-o5",
+    "mm12-o1"
+   ],
+   "rung": "I",
+   "notes": "Non-destructive process (1.5). MM = outcome-only."
+  },
+  {
+   "tutorial_skill_id": "PS-BLD-01",
+   "tutorial_label": "Blend If",
+   "family": "Colour, Light & Integration",
+   "evidence_skill_ids": [
+    "ct-image-software-layers"
+   ],
+   "outcome_codes": [
+    "communications-technology-11-4-4",
+    "mm12-o1"
+   ],
+   "rung": "I",
+   "notes": "MM = outcome-only."
+  },
+  {
+   "tutorial_skill_id": "PS-BLD-02",
+   "tutorial_label": "Blending modes",
+   "family": "Colour, Light & Integration",
+   "evidence_skill_ids": [
+    "ct-image-software-layers"
+   ],
+   "outcome_codes": [
+    "communications-technology-11-4-4",
+    "mm12-o1"
+   ],
+   "rung": "I",
+   "notes": "MM = outcome-only."
+  },
+  {
+   "tutorial_skill_id": "PS-LGT-01",
+   "tutorial_label": "Dodge and Burn",
+   "family": "Colour, Light & Integration",
+   "evidence_skill_ids": [
+    "ct-image-software-layers",
+    "ct-photo-lighting"
+   ],
+   "outcome_codes": [
+    "communications-technology-11-4-4",
+    "communications-technology-11-2-3",
+    "mm12-o1"
+   ],
+   "rung": "I",
+   "notes": "Also photography lighting (2.3). MM = outcome-only."
+  },
+  {
+   "tutorial_skill_id": "PS-LGT-02",
+   "tutorial_label": "Match light and colour",
+   "family": "Colour, Light & Integration",
+   "evidence_skill_ids": [
+    "ct-image-software-layers",
+    "ct-photo-lighting",
+    "ct-color-wheel"
+   ],
+   "outcome_codes": [
+    "communications-technology-11-4-4",
+    "communications-technology-11-2-3",
+    "communications-technology-11-4-2",
+    "mm12-o1"
+   ],
+   "rung": "I",
+   "notes": "Compositing integration. MM = outcome-only."
+  },
+  {
+   "tutorial_skill_id": "PS-RET-01",
+   "tutorial_label": "Clone Stamp",
+   "family": "Retouching & Effects",
+   "evidence_skill_ids": [
+    "ct-image-software-layers"
+   ],
+   "outcome_codes": [
+    "communications-technology-11-4-4",
+    "mm12-o1"
+   ],
+   "rung": "F",
+   "notes": "Retouching rolls up to 4.4. MM = outcome-only."
+  },
+  {
+   "tutorial_skill_id": "PS-CAM-01",
+   "tutorial_label": "Adobe Camera Raw",
+   "family": "Colour, Light & Integration",
+   "evidence_skill_ids": [
+    "ct-photo-camera",
+    "ct-image-software-layers"
+   ],
+   "outcome_codes": [
+    "communications-technology-11-2-1",
+    "communications-technology-11-4-4",
+    "mm12-o1"
+   ],
+   "rung": "I",
+   "notes": "Closest to camera capture (2.1). MM = outcome-only."
+  },
+  {
+   "tutorial_skill_id": "PS-FLT-01",
+   "tutorial_label": "Filters and Smart Filters",
+   "family": "Retouching & Effects",
+   "evidence_skill_ids": [
+    "ct-image-software-layers"
+   ],
+   "outcome_codes": [
+    "communications-technology-11-4-4",
+    "mm12-o5"
+   ],
+   "rung": "I",
+   "notes": "Smart Filters -> 1.5 process. MM = outcome-only."
+  },
+  {
+   "tutorial_skill_id": "PS-DES-01",
+   "tutorial_label": "Visual hierarchy and composition in Photoshop",
+   "family": "Graphic Communication",
+   "evidence_skill_ids": [
+    "ct-design-principles",
+    "ct-compose-message"
+   ],
+   "outcome_codes": [
+    "communications-technology-11-4-1",
+    "communications-technology-11-4-4",
+    "mm12-o4"
+   ],
+   "rung": "I",
+   "notes": "Design principles applied in-tool; audience (1.4). MM = outcome-only."
+  },
+  {
+   "tutorial_skill_id": "PS-OUT-01",
+   "tutorial_label": "Web/export settings",
+   "family": "Output & Delivery",
+   "evidence_skill_ids": [
+    "ct-export-output"
+   ],
+   "outcome_codes": [
+    "communications-technology-11-4-5",
+    "mm12-o5"
+   ],
+   "rung": "F",
+   "notes": "Output competency (4.5). MM = outcome-only."
+  },
+  {
+   "tutorial_skill_id": "GD-CON-01",
+   "tutorial_label": "Contrast",
+   "family": "Bootcamp",
+   "evidence_skill_ids": [
+    "ct-design-principles"
+   ],
+   "outcome_codes": [
+    "communications-technology-11-4-1"
+   ],
+   "rung": "F",
+   "notes": "Confirmed vs DESIGN_FOUNDATIONS_SKILLS.md."
+  },
+  {
+   "tutorial_skill_id": "GD-HIE-01",
+   "tutorial_label": "Visual hierarchy",
+   "family": "Bootcamp",
+   "evidence_skill_ids": [
+    "ct-design-principles",
+    "ct-compose-message"
+   ],
+   "outcome_codes": [
+    "communications-technology-11-4-1",
+    "communications-technology-11-4-4"
+   ],
+   "rung": "F",
+   "notes": ""
+  },
+  {
+   "tutorial_skill_id": "GD-ALN-01",
+   "tutorial_label": "Alignment",
+   "family": "Bootcamp",
+   "evidence_skill_ids": [
+    "ct-design-principles"
+   ],
+   "outcome_codes": [
+    "communications-technology-11-4-1"
+   ],
+   "rung": "F",
+   "notes": ""
+  },
+  {
+   "tutorial_skill_id": "GD-PRO-01",
+   "tutorial_label": "Proximity / grouping",
+   "family": "Bootcamp",
+   "evidence_skill_ids": [
+    "ct-design-principles"
+   ],
+   "outcome_codes": [
+    "communications-technology-11-4-1"
+   ],
+   "rung": "F",
+   "notes": "Was not in the original map list; added from registry."
+  },
+  {
+   "tutorial_skill_id": "GD-REP-01",
+   "tutorial_label": "Repetition / consistency",
+   "family": "Bootcamp",
+   "evidence_skill_ids": [
+    "ct-design-principles"
+   ],
+   "outcome_codes": [
+    "communications-technology-11-4-1"
+   ],
+   "rung": "F",
+   "notes": ""
+  },
+  {
+   "tutorial_skill_id": "GD-COL-01",
+   "tutorial_label": "Colour relationships and readability",
+   "family": "Bootcamp",
+   "evidence_skill_ids": [
+    "ct-color-wheel"
+   ],
+   "outcome_codes": [
+    "communications-technology-11-4-2"
+   ],
+   "rung": "F",
+   "notes": ""
+  },
+  {
+   "tutorial_skill_id": "GD-TYP-01",
+   "tutorial_label": "Typography as communication",
+   "family": "Bootcamp",
+   "evidence_skill_ids": [
+    "ct-typography"
+   ],
+   "outcome_codes": [
+    "communications-technology-11-4-3"
+   ],
+   "rung": "F",
+   "notes": ""
+  },
+  {
+   "tutorial_skill_id": "GD-AUD-01",
+   "tutorial_label": "Audience and purpose",
+   "family": "Guided Projects",
+   "evidence_skill_ids": [
+    "ct-design-brief",
+    "ct-compose-message"
+   ],
+   "outcome_codes": [
+    "communications-technology-11-1-4",
+    "communications-technology-11-4-4"
+   ],
+   "rung": "G",
+   "notes": "Audience/purpose = design brief (1.4)."
+  },
+  {
+   "tutorial_skill_id": "GD-MET-01",
+   "tutorial_label": "Visual metaphor",
+   "family": "Guided Projects",
+   "evidence_skill_ids": [
+    "ct-compose-message"
+   ],
+   "outcome_codes": [
+    "communications-technology-11-4-4"
+   ],
+   "rung": "G",
+   "notes": "Communicate a message (4.4)."
+  },
+  {
+   "tutorial_skill_id": "GD-BRD-01",
+   "tutorial_label": "Brand consistency",
+   "family": "Client/Branding",
+   "evidence_skill_ids": [
+    "ct-brand-identity"
+   ],
+   "outcome_codes": [
+    "communications-technology-11-4-4",
+    "communications-technology-11-4-1"
+   ],
+   "rung": "I",
+   "notes": "Added from registry. Brand identity competency (I)."
+  },
+  {
+   "tutorial_skill_id": "GD-DEM-01",
+   "tutorial_label": "Demographic fit",
+   "family": "Client/Branding",
+   "evidence_skill_ids": [
+    "ct-design-brief"
+   ],
+   "outcome_codes": [
+    "communications-technology-11-1-4"
+   ],
+   "rung": "I",
+   "notes": "Added from registry. Audience evidence -> design brief (1.4)."
+  },
+  {
+   "tutorial_skill_id": "GD-CTA-01",
+   "tutorial_label": "Message / call to action",
+   "family": "Client/Branding",
+   "evidence_skill_ids": [
+    "ct-compose-message"
+   ],
+   "outcome_codes": [
+    "communications-technology-11-4-4"
+   ],
+   "rung": "I",
+   "notes": "Added from registry."
+  },
+  {
+   "tutorial_skill_id": "GD-CRIT-01",
+   "tutorial_label": "Critique and revision",
+   "family": "All stages",
+   "evidence_skill_ids": [
+    "ct-design-iterate",
+    "ct-design-defend"
+   ],
+   "outcome_codes": [
+    "communications-technology-11-1-4"
+   ],
+   "rung": "I",
+   "notes": "Iterate (G) + defend (I)."
+  }
+ ]
+}

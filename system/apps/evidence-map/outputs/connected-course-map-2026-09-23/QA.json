@@ -1,0 +1,79 @@
+{
+  "scope": "Planning view and production-blueprint checks, not teaching-package or live integration certification",
+  "checks": [
+    {
+      "check": "Sprint counts 9/9/16",
+      "passed": true
+    },
+    {
+      "check": "Core periods 86/86/144",
+      "passed": true
+    },
+    {
+      "check": "All 34 assessment bundles resolve",
+      "passed": true
+    },
+    {
+      "check": "All core lesson counts match",
+      "passed": true
+    },
+    {
+      "check": "All four blueprints point to existing sprints",
+      "passed": true
+    },
+    {
+      "check": "All 332 slots preserved",
+      "passed": true
+    },
+    {
+      "check": "No approved rubric falsely assigned",
+      "passed": true
+    },
+    {
+      "check": "IB IA minutes retained",
+      "passed": true
+    },
+    {
+      "check": "Browser script parses",
+      "passed": true
+    },
+    {
+      "check": "Page link resolves: ../01a0cb8c-aad2-7f02-a60a-699b7fb35558/index.html",
+      "passed": true
+    },
+    {
+      "check": "Page link resolves: Sprint_Assessment_Rubric_Register.csv",
+      "passed": true
+    },
+    {
+      "check": "Page link resolves: ../implementation-prompts-2026-09-23/07_CONNECTED_LESSON_PRODUCTION_PROMPT.md",
+      "passed": true
+    },
+    {
+      "check": "Page link resolves: FIELD_CAPTURE_CONNECTION.md",
+      "passed": true
+    },
+    {
+      "check": "Page link resolves: ../implementation-prompts-2026-09-23/06_FUTURE_IPAD_CONNECTION_PROMPT.md",
+      "passed": true
+    },
+    {
+      "check": "Page link resolves: README.md",
+      "passed": true
+    },
+    {
+      "check": "Page link resolves: LESSON_PRODUCTION_BLUEPRINTS.md",
+      "passed": true
+    },
+    {
+      "check": "Page link resolves: Course_Map.json",
+      "passed": true
+    },
+    {
+      "check": "Page link resolves: ../implementation-prompts-2026-09-23/START_HERE.html",
+      "passed": true
+    }
+  ],
+  "all_passed": true,
+  "browser_review": "Not completed: Chrome extension UI blocked automation. Static data, links and JavaScript syntax checks passed; no browser-rendering claim."
+}

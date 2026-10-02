@@ -1,0 +1,1000 @@
+{
+  "schema_version": "truck-video.1",
+  "project_id": "PS-STORMBOUND",
+  "video_title": "Stormbound · Snakefinger — Video Companion",
+  "version": "1.0.0",
+  "provider": "YouTube / Scribe It",
+  "status": "awaiting_recording",
+  "video_url": null,
+  "youtube_video_id": null,
+  "chapters": [
+    {
+      "chapter_id": "VID-SB-S01",
+      "project_step_id": "SB-S01",
+      "anchor": "step-1",
+      "title": "Plan the transformation, not just the weather",
+      "planned_start": null,
+      "actual_start": null,
+      "actual_end": null,
+      "skill_ids": [
+        "PS-FND-01",
+        "PS-SEL-01",
+        "PS-LAY-01",
+        "PS-TRN-01",
+        "PS-BLD-02",
+        "PS-LGT-02",
+        "PS-FLT-01",
+        "PS-TYP-01",
+        "PS-SHP-01",
+        "PS-OUT-01",
+        "PS-DES-01"
+      ],
+      "design_skill_ids": [
+        "GD-HIE-01",
+        "GD-TYP-01",
+        "GD-MET-01",
+        "GD-CRIT-01",
+        "GD-CON-01"
+      ],
+      "evidence_ids": [],
+      "refresher_links": []
+    },
+    {
+      "chapter_id": "VID-SB-S02",
+      "project_step_id": "SB-S02",
+      "anchor": "step-2",
+      "title": "Create the working document",
+      "planned_start": null,
+      "actual_start": null,
+      "actual_end": null,
+      "skill_ids": [
+        "PS-FND-01",
+        "PS-SEL-01",
+        "PS-LAY-01",
+        "PS-TRN-01",
+        "PS-BLD-02",
+        "PS-OUT-01",
+        "PS-DES-01"
+      ],
+      "design_skill_ids": [
+        "GD-COL-01",
+        "GD-CRIT-01"
+      ],
+      "evidence_ids": [],
+      "refresher_links": []
+    },
+    {
+      "chapter_id": "VID-SB-S03",
+      "project_step_id": "SB-S03",
+      "anchor": "step-3",
+      "title": "Build a layer structure you can understand",
+      "planned_start": null,
+      "actual_start": null,
+      "actual_end": null,
+      "skill_ids": [
+        "PS-FND-01",
+        "PS-SEL-01",
+        "PS-LAY-01",
+        "PS-TRN-01",
+        "PS-BLD-02",
+        "PS-LGT-02"
+      ],
+      "design_skill_ids": [
+        "GD-ALN-01",
+        "GD-COL-01",
+        "GD-CRIT-01",
+        "GD-CON-01"
+      ],
+      "evidence_ids": [],
+      "refresher_links": []
+    },
+    {
+      "chapter_id": "VID-SB-S04",
+      "project_step_id": "SB-S04",
+      "anchor": "step-4",
+      "title": "Place and tone the storm background",
+      "planned_start": null,
+      "actual_start": null,
+      "actual_end": null,
+      "skill_ids": [
+        "PS-SEL-01",
+        "PS-LAY-01",
+        "PS-TRN-01",
+        "PS-TON-01",
+        "PS-LGT-02",
+        "PS-DES-01"
+      ],
+      "design_skill_ids": [
+        "GD-CRIT-01",
+        "GD-CON-01"
+      ],
+      "evidence_ids": [],
+      "refresher_links": []
+    },
+    {
+      "chapter_id": "VID-SB-S05",
+      "project_step_id": "SB-S05",
+      "anchor": "step-5",
+      "title": "Mask the hand without deleting it",
+      "planned_start": null,
+      "actual_start": null,
+      "actual_end": null,
+      "skill_ids": [
+        "PS-SEL-01",
+        "PS-LAY-01",
+        "PS-RET-01"
+      ],
+      "design_skill_ids": [
+        "GD-COL-01",
+        "GD-CRIT-01",
+        "GD-CON-01"
+      ],
+      "evidence_ids": [],
+      "refresher_links": []
+    },
+    {
+      "chapter_id": "VID-SB-S06",
+      "project_step_id": "SB-S06",
+      "anchor": "step-6",
+      "title": "Place the hand on the diagonal",
+      "planned_start": null,
+      "actual_start": null,
+      "actual_end": null,
+      "skill_ids": [
+        "PS-SEL-01",
+        "PS-LAY-01",
+        "PS-SMO-01",
+        "PS-TRN-01",
+        "PS-SHP-01"
+      ],
+      "design_skill_ids": [
+        "GD-CRIT-01"
+      ],
+      "evidence_ids": [],
+      "refresher_links": []
+    },
+    {
+      "chapter_id": "VID-SB-S07",
+      "project_step_id": "SB-S07",
+      "anchor": "step-7",
+      "title": "Extract the snake and protect its tongue",
+      "planned_start": null,
+      "actual_start": null,
+      "actual_end": null,
+      "skill_ids": [
+        "PS-SEL-01",
+        "PS-LAY-01",
+        "PS-SMO-01",
+        "PS-LGT-02",
+        "PS-SHP-01"
+      ],
+      "design_skill_ids": [
+        "GD-CRIT-01",
+        "GD-CON-01"
+      ],
+      "evidence_ids": [],
+      "refresher_links": []
+    },
+    {
+      "chapter_id": "VID-SB-S08",
+      "project_step_id": "SB-S08",
+      "anchor": "step-8",
+      "title": "Make the snake a continuation of the finger",
+      "planned_start": null,
+      "actual_start": null,
+      "actual_end": null,
+      "skill_ids": [
+        "PS-SEL-01",
+        "PS-LAY-01",
+        "PS-SMO-01",
+        "PS-TRN-01",
+        "PS-FLT-01"
+      ],
+      "design_skill_ids": [
+        "GD-COL-01",
+        "GD-CRIT-01"
+      ],
+      "evidence_ids": [],
+      "refresher_links": []
+    },
+    {
+      "chapter_id": "VID-SB-S09",
+      "project_step_id": "SB-S09",
+      "anchor": "step-9",
+      "title": "Taper the neck without distorting the face",
+      "planned_start": null,
+      "actual_start": null,
+      "actual_end": null,
+      "skill_ids": [
+        "PS-SEL-01",
+        "PS-LAY-01",
+        "PS-TRN-01",
+        "PS-TRN-02"
+      ],
+      "design_skill_ids": [
+        "GD-CRIT-01"
+      ],
+      "evidence_ids": [],
+      "refresher_links": []
+    },
+    {
+      "chapter_id": "VID-SB-S10",
+      "project_step_id": "SB-S10",
+      "anchor": "step-10",
+      "title": "Hide the old fingertip, not the whole hand",
+      "planned_start": null,
+      "actual_start": null,
+      "actual_end": null,
+      "skill_ids": [
+        "PS-SEL-01",
+        "PS-LAY-01",
+        "PS-SMO-01",
+        "PS-TRN-01",
+        "PS-SHP-01"
+      ],
+      "design_skill_ids": [
+        "GD-MET-01",
+        "GD-CRIT-01"
+      ],
+      "evidence_ids": [],
+      "refresher_links": []
+    },
+    {
+      "chapter_id": "VID-SB-S11",
+      "project_step_id": "SB-S11",
+      "anchor": "step-11",
+      "title": "Lift the snake’s detail before sampling it",
+      "planned_start": null,
+      "actual_start": null,
+      "actual_end": null,
+      "skill_ids": [
+        "PS-SEL-01",
+        "PS-LAY-01",
+        "PS-TRN-01",
+        "PS-TON-01",
+        "PS-LGT-02",
+        "PS-RET-01"
+      ],
+      "design_skill_ids": [
+        "GD-CRIT-01",
+        "GD-CON-01"
+      ],
+      "evidence_ids": [],
+      "refresher_links": []
+    },
+    {
+      "chapter_id": "VID-SB-S12",
+      "project_step_id": "SB-S12",
+      "anchor": "step-12",
+      "title": "Prepare a safe Clone Stamp layer",
+      "planned_start": null,
+      "actual_start": null,
+      "actual_end": null,
+      "skill_ids": [
+        "PS-FND-01",
+        "PS-SEL-01",
+        "PS-LAY-01",
+        "PS-SMO-01",
+        "PS-TRN-01",
+        "PS-TON-01",
+        "PS-RET-01",
+        "PS-SHP-01"
+      ],
+      "design_skill_ids": [
+        "GD-ALN-01",
+        "GD-CRIT-01"
+      ],
+      "evidence_ids": [],
+      "refresher_links": []
+    },
+    {
+      "chapter_id": "VID-SB-S13",
+      "project_step_id": "SB-S13",
+      "anchor": "step-13",
+      "title": "Clone scales along the finger’s direction",
+      "planned_start": null,
+      "actual_start": null,
+      "actual_end": null,
+      "skill_ids": [
+        "PS-SEL-01",
+        "PS-LAY-01",
+        "PS-TRN-01",
+        "PS-RET-01",
+        "PS-TYP-01",
+        "PS-SHP-01"
+      ],
+      "design_skill_ids": [
+        "GD-TYP-01",
+        "GD-CRIT-01",
+        "GD-REP-01"
+      ],
+      "evidence_ids": [],
+      "refresher_links": []
+    },
+    {
+      "chapter_id": "VID-SB-S14",
+      "project_step_id": "SB-S14",
+      "anchor": "step-14",
+      "title": "Blend the scale-to-skin transition",
+      "planned_start": null,
+      "actual_start": null,
+      "actual_end": null,
+      "skill_ids": [
+        "PS-SEL-01",
+        "PS-LAY-01",
+        "PS-TRN-01",
+        "PS-BLD-02",
+        "PS-LGT-02",
+        "PS-RET-01",
+        "PS-FLT-01",
+        "PS-SHP-01"
+      ],
+      "design_skill_ids": [
+        "GD-CRIT-01",
+        "GD-CON-01",
+        "GD-REP-01"
+      ],
+      "evidence_ids": [
+        "SB-OBS-01"
+      ],
+      "refresher_links": []
+    },
+    {
+      "chapter_id": "VID-SB-S15",
+      "project_step_id": "SB-S15",
+      "anchor": "step-15",
+      "title": "Bring the hand into the same colour family",
+      "planned_start": null,
+      "actual_start": null,
+      "actual_end": null,
+      "skill_ids": [
+        "PS-SEL-01",
+        "PS-LAY-01",
+        "PS-TRN-01",
+        "PS-TON-01",
+        "PS-LGT-02",
+        "PS-RET-01"
+      ],
+      "design_skill_ids": [
+        "GD-COL-01",
+        "GD-CRIT-01",
+        "GD-REP-01"
+      ],
+      "evidence_ids": [],
+      "refresher_links": []
+    },
+    {
+      "chapter_id": "VID-SB-S16",
+      "project_step_id": "SB-S16",
+      "anchor": "step-16",
+      "title": "Isolate the crow’s feather silhouette",
+      "planned_start": null,
+      "actual_start": null,
+      "actual_end": null,
+      "skill_ids": [
+        "PS-SEL-01",
+        "PS-LAY-01",
+        "PS-SMO-01",
+        "PS-LGT-02",
+        "PS-FLT-01",
+        "PS-SHP-01"
+      ],
+      "design_skill_ids": [
+        "GD-CRIT-01",
+        "GD-CON-01"
+      ],
+      "evidence_ids": [],
+      "refresher_links": []
+    },
+    {
+      "chapter_id": "VID-SB-S17",
+      "project_step_id": "SB-S17",
+      "anchor": "step-17",
+      "title": "Balance the bird against the snake",
+      "planned_start": null,
+      "actual_start": null,
+      "actual_end": null,
+      "skill_ids": [
+        "PS-SEL-01",
+        "PS-LAY-01",
+        "PS-SMO-01",
+        "PS-TRN-01",
+        "PS-LGT-02",
+        "PS-SHP-01",
+        "PS-DES-01"
+      ],
+      "design_skill_ids": [
+        "GD-HIE-01",
+        "GD-CRIT-01"
+      ],
+      "evidence_ids": [],
+      "refresher_links": []
+    },
+    {
+      "chapter_id": "VID-SB-S18",
+      "project_step_id": "SB-S18",
+      "anchor": "step-18",
+      "title": "Match the crow’s exposure",
+      "planned_start": null,
+      "actual_start": null,
+      "actual_end": null,
+      "skill_ids": [
+        "PS-SEL-01",
+        "PS-LAY-01",
+        "PS-TRN-01",
+        "PS-TON-01",
+        "PS-LGT-02",
+        "PS-FLT-01"
+      ],
+      "design_skill_ids": [
+        "GD-CRIT-01",
+        "GD-CON-01"
+      ],
+      "evidence_ids": [],
+      "refresher_links": []
+    },
+    {
+      "chapter_id": "VID-SB-S19",
+      "project_step_id": "SB-S19",
+      "anchor": "step-19",
+      "title": "Prepare a lightning plate without buildings",
+      "planned_start": null,
+      "actual_start": null,
+      "actual_end": null,
+      "skill_ids": [
+        "PS-SEL-01",
+        "PS-LAY-01",
+        "PS-SMO-01",
+        "PS-BLD-02",
+        "PS-LGT-02",
+        "PS-TYP-01",
+        "PS-SHP-01"
+      ],
+      "design_skill_ids": [
+        "GD-TYP-01",
+        "GD-CRIT-01",
+        "GD-CON-01"
+      ],
+      "evidence_ids": [],
+      "refresher_links": []
+    },
+    {
+      "chapter_id": "VID-SB-S20",
+      "project_step_id": "SB-S20",
+      "anchor": "step-20",
+      "title": "Use Screen with a controlled dark background",
+      "planned_start": null,
+      "actual_start": null,
+      "actual_end": null,
+      "skill_ids": [
+        "PS-FND-01",
+        "PS-SEL-01",
+        "PS-LAY-01",
+        "PS-SMO-01",
+        "PS-TRN-01",
+        "PS-BLD-02",
+        "PS-TON-01",
+        "PS-LGT-02"
+      ],
+      "design_skill_ids": [
+        "GD-CRIT-01",
+        "GD-CON-01"
+      ],
+      "evidence_ids": [],
+      "refresher_links": []
+    },
+    {
+      "chapter_id": "VID-SB-S21",
+      "project_step_id": "SB-S21",
+      "anchor": "step-21",
+      "title": "Position the bolts and establish the light source",
+      "planned_start": null,
+      "actual_start": null,
+      "actual_end": null,
+      "skill_ids": [
+        "PS-SEL-01",
+        "PS-LAY-01",
+        "PS-TRN-01",
+        "PS-LGT-02",
+        "PS-FLT-01",
+        "PS-TYP-01",
+        "PS-DES-01"
+      ],
+      "design_skill_ids": [
+        "GD-HIE-01",
+        "GD-COL-01",
+        "GD-TYP-01",
+        "GD-CRIT-01",
+        "GD-CON-01"
+      ],
+      "evidence_ids": [],
+      "refresher_links": []
+    },
+    {
+      "chapter_id": "VID-SB-S22",
+      "project_step_id": "SB-S22",
+      "anchor": "step-22",
+      "title": "Shape the subjects with editable shade",
+      "planned_start": null,
+      "actual_start": null,
+      "actual_end": null,
+      "skill_ids": [
+        "PS-SEL-01",
+        "PS-LAY-01",
+        "PS-TRN-01",
+        "PS-BLD-02",
+        "PS-TON-01",
+        "PS-LGT-02"
+      ],
+      "design_skill_ids": [
+        "GD-CRIT-01",
+        "GD-CON-01",
+        "GD-REP-01"
+      ],
+      "evidence_ids": [],
+      "refresher_links": []
+    },
+    {
+      "chapter_id": "VID-SB-S23",
+      "project_step_id": "SB-S23",
+      "anchor": "step-23",
+      "title": "Add light only where a surface faces it",
+      "planned_start": null,
+      "actual_start": null,
+      "actual_end": null,
+      "skill_ids": [
+        "PS-SEL-01",
+        "PS-LAY-01",
+        "PS-TRN-01",
+        "PS-TON-01",
+        "PS-LGT-02",
+        "PS-FLT-01"
+      ],
+      "design_skill_ids": [
+        "GD-CRIT-01",
+        "GD-REP-01"
+      ],
+      "evidence_ids": [
+        "SB-OBS-03"
+      ],
+      "refresher_links": []
+    },
+    {
+      "chapter_id": "VID-SB-S24",
+      "project_step_id": "SB-S24",
+      "anchor": "step-24",
+      "title": "Blur the wings while keeping the head sharp",
+      "planned_start": null,
+      "actual_start": null,
+      "actual_end": null,
+      "skill_ids": [
+        "PS-SEL-01",
+        "PS-LAY-01",
+        "PS-SMO-01",
+        "PS-TRN-01",
+        "PS-TON-01",
+        "PS-LGT-02",
+        "PS-FLT-01",
+        "PS-TYP-01"
+      ],
+      "design_skill_ids": [
+        "GD-TYP-01",
+        "GD-CRIT-01"
+      ],
+      "evidence_ids": [],
+      "refresher_links": []
+    },
+    {
+      "chapter_id": "VID-SB-S25",
+      "project_step_id": "SB-S25",
+      "anchor": "step-25",
+      "title": "Create a separate, editable rain source",
+      "planned_start": null,
+      "actual_start": null,
+      "actual_end": null,
+      "skill_ids": [
+        "PS-FND-01",
+        "PS-SEL-01",
+        "PS-LAY-01",
+        "PS-SMO-01",
+        "PS-TRN-01",
+        "PS-TRN-02",
+        "PS-BLD-02",
+        "PS-TON-01",
+        "PS-FLT-01",
+        "PS-DES-01"
+      ],
+      "design_skill_ids": [
+        "GD-CRIT-01",
+        "GD-CON-01"
+      ],
+      "evidence_ids": [],
+      "refresher_links": []
+    },
+    {
+      "chapter_id": "VID-SB-S26",
+      "project_step_id": "SB-S26",
+      "anchor": "step-26",
+      "title": "Stretch noise into rain streaks",
+      "planned_start": null,
+      "actual_start": null,
+      "actual_end": null,
+      "skill_ids": [
+        "PS-SEL-01",
+        "PS-LAY-01",
+        "PS-SMO-01",
+        "PS-TRN-01",
+        "PS-TON-01",
+        "PS-FLT-01",
+        "PS-OUT-01"
+      ],
+      "design_skill_ids": [
+        "GD-COL-01",
+        "GD-CRIT-01"
+      ],
+      "evidence_ids": [
+        "SB-OBS-02"
+      ],
+      "refresher_links": []
+    },
+    {
+      "chapter_id": "VID-SB-S27",
+      "project_step_id": "SB-S27",
+      "anchor": "step-27",
+      "title": "Separate bright rain from the grey veil",
+      "planned_start": null,
+      "actual_start": null,
+      "actual_end": null,
+      "skill_ids": [
+        "PS-SEL-01",
+        "PS-LAY-01",
+        "PS-BLD-02",
+        "PS-TON-01",
+        "PS-LGT-02",
+        "PS-FLT-01"
+      ],
+      "design_skill_ids": [
+        "GD-CRIT-01",
+        "GD-CON-01"
+      ],
+      "evidence_ids": [],
+      "refresher_links": []
+    },
+    {
+      "chapter_id": "VID-SB-S28",
+      "project_step_id": "SB-S28",
+      "anchor": "step-28",
+      "title": "Place the far rain as one complete plate",
+      "planned_start": null,
+      "actual_start": null,
+      "actual_end": null,
+      "skill_ids": [
+        "PS-FND-01",
+        "PS-SEL-01",
+        "PS-LAY-01",
+        "PS-SMO-01",
+        "PS-TRN-01",
+        "PS-TRN-02",
+        "PS-BLD-02",
+        "PS-TON-01",
+        "PS-LGT-02",
+        "PS-FLT-01",
+        "PS-DES-01"
+      ],
+      "design_skill_ids": [
+        "GD-CRIT-01",
+        "GD-CON-01",
+        "GD-REP-01"
+      ],
+      "evidence_ids": [],
+      "refresher_links": []
+    },
+    {
+      "chapter_id": "VID-SB-S29",
+      "project_step_id": "SB-S29",
+      "anchor": "step-29",
+      "title": "Add a quieter near-rain layer",
+      "planned_start": null,
+      "actual_start": null,
+      "actual_end": null,
+      "skill_ids": [
+        "PS-SEL-01",
+        "PS-LAY-01",
+        "PS-SMO-01",
+        "PS-BLD-02",
+        "PS-LGT-02",
+        "PS-FLT-01",
+        "PS-TYP-01"
+      ],
+      "design_skill_ids": [
+        "GD-TYP-01",
+        "GD-CRIT-01",
+        "GD-CON-01"
+      ],
+      "evidence_ids": [],
+      "refresher_links": []
+    },
+    {
+      "chapter_id": "VID-SB-S30",
+      "project_step_id": "SB-S30",
+      "anchor": "step-30",
+      "title": "Protect the eyes and the transformation",
+      "planned_start": null,
+      "actual_start": null,
+      "actual_end": null,
+      "skill_ids": [
+        "PS-SEL-01",
+        "PS-LAY-01",
+        "PS-TRN-01",
+        "PS-LGT-02",
+        "PS-FLT-01",
+        "PS-DES-01"
+      ],
+      "design_skill_ids": [
+        "GD-HIE-01",
+        "GD-CRIT-01"
+      ],
+      "evidence_ids": [],
+      "refresher_links": []
+    },
+    {
+      "chapter_id": "VID-SB-S31",
+      "project_step_id": "SB-S31",
+      "anchor": "step-31",
+      "title": "Suggest wet surfaces with small highlights",
+      "planned_start": null,
+      "actual_start": null,
+      "actual_end": null,
+      "skill_ids": [
+        "PS-SEL-01",
+        "PS-LAY-01",
+        "PS-TRN-01",
+        "PS-LGT-02",
+        "PS-FLT-01",
+        "PS-SHP-01"
+      ],
+      "design_skill_ids": [
+        "GD-ALN-01",
+        "GD-COL-01",
+        "GD-CRIT-01",
+        "GD-CON-01"
+      ],
+      "evidence_ids": [],
+      "refresher_links": []
+    },
+    {
+      "chapter_id": "VID-SB-S32",
+      "project_step_id": "SB-S32",
+      "anchor": "step-32",
+      "title": "Build a tiny splash with a basic brush",
+      "planned_start": null,
+      "actual_start": null,
+      "actual_end": null,
+      "skill_ids": [
+        "PS-SEL-01",
+        "PS-LAY-01",
+        "PS-TRN-01",
+        "PS-LGT-02",
+        "PS-SHP-01"
+      ],
+      "design_skill_ids": [
+        "GD-COL-01",
+        "GD-CRIT-01"
+      ],
+      "evidence_ids": [],
+      "refresher_links": []
+    },
+    {
+      "chapter_id": "VID-SB-S33",
+      "project_step_id": "SB-S33",
+      "anchor": "step-33",
+      "title": "Vary impacts and drifting droplets",
+      "planned_start": null,
+      "actual_start": null,
+      "actual_end": null,
+      "skill_ids": [
+        "PS-SEL-01",
+        "PS-LAY-01",
+        "PS-TRN-01",
+        "PS-FLT-01",
+        "PS-TYP-01",
+        "PS-SHP-01"
+      ],
+      "design_skill_ids": [
+        "GD-TYP-01",
+        "GD-CRIT-01",
+        "GD-REP-01"
+      ],
+      "evidence_ids": [],
+      "refresher_links": []
+    },
+    {
+      "chapter_id": "VID-SB-S34",
+      "project_step_id": "SB-S34",
+      "anchor": "step-34",
+      "title": "Use mist sparingly to separate depth",
+      "planned_start": null,
+      "actual_start": null,
+      "actual_end": null,
+      "skill_ids": [
+        "PS-SEL-01",
+        "PS-LAY-01",
+        "PS-TRN-01",
+        "PS-TON-01",
+        "PS-LGT-02",
+        "PS-FLT-01",
+        "PS-SHP-01"
+      ],
+      "design_skill_ids": [
+        "GD-COL-01",
+        "GD-CRIT-01",
+        "GD-CON-01"
+      ],
+      "evidence_ids": [],
+      "refresher_links": []
+    },
+    {
+      "chapter_id": "VID-SB-S35",
+      "project_step_id": "SB-S35",
+      "anchor": "step-35",
+      "title": "Unify colour without crushing contrast",
+      "planned_start": null,
+      "actual_start": null,
+      "actual_end": null,
+      "skill_ids": [
+        "PS-SEL-01",
+        "PS-LAY-01",
+        "PS-BLD-02",
+        "PS-TON-01",
+        "PS-LGT-02",
+        "PS-FLT-01"
+      ],
+      "design_skill_ids": [
+        "GD-COL-01",
+        "GD-CRIT-01",
+        "GD-CON-01",
+        "GD-REP-01"
+      ],
+      "evidence_ids": [],
+      "refresher_links": []
+    },
+    {
+      "chapter_id": "VID-SB-S36",
+      "project_step_id": "SB-S36",
+      "anchor": "step-36",
+      "title": "Guide attention with an editable vignette",
+      "planned_start": null,
+      "actual_start": null,
+      "actual_end": null,
+      "skill_ids": [
+        "PS-SEL-01",
+        "PS-LAY-01",
+        "PS-TRN-01",
+        "PS-TON-01",
+        "PS-LGT-02",
+        "PS-FLT-01",
+        "PS-DES-01"
+      ],
+      "design_skill_ids": [
+        "GD-HIE-01",
+        "GD-ALN-01",
+        "GD-COL-01",
+        "GD-CRIT-01",
+        "GD-CON-01"
+      ],
+      "evidence_ids": [],
+      "refresher_links": []
+    },
+    {
+      "chapter_id": "VID-SB-S37",
+      "project_step_id": "SB-S37",
+      "anchor": "step-37",
+      "title": "Inspect the four places that reveal a composite",
+      "planned_start": null,
+      "actual_start": null,
+      "actual_end": null,
+      "skill_ids": [
+        "PS-SEL-01",
+        "PS-LAY-01",
+        "PS-TRN-01",
+        "PS-TON-01",
+        "PS-LGT-02",
+        "PS-FLT-01",
+        "PS-SHP-01"
+      ],
+      "design_skill_ids": [
+        "GD-CRIT-01",
+        "GD-CON-01",
+        "GD-REP-01"
+      ],
+      "evidence_ids": [
+        "SB-CON-02"
+      ],
+      "refresher_links": []
+    },
+    {
+      "chapter_id": "VID-SB-S38",
+      "project_step_id": "SB-S38",
+      "anchor": "step-38",
+      "title": "Document one purposeful revision",
+      "planned_start": null,
+      "actual_start": null,
+      "actual_end": null,
+      "skill_ids": [
+        "PS-FND-01",
+        "PS-SEL-01",
+        "PS-LAY-01",
+        "PS-TRN-01",
+        "PS-BLD-02",
+        "PS-LGT-02",
+        "PS-FLT-01",
+        "PS-SHP-01",
+        "PS-OUT-01",
+        "PS-DES-01"
+      ],
+      "design_skill_ids": [
+        "GD-HIE-01",
+        "GD-CRIT-01"
+      ],
+      "evidence_ids": [],
+      "refresher_links": []
+    },
+    {
+      "chapter_id": "VID-SB-S39",
+      "project_step_id": "SB-S39",
+      "anchor": "step-39",
+      "title": "Save the layered master and export the artwork",
+      "planned_start": null,
+      "actual_start": null,
+      "actual_end": null,
+      "skill_ids": [
+        "PS-FND-01",
+        "PS-SEL-01",
+        "PS-LAY-01",
+        "PS-SMO-01",
+        "PS-TRN-01",
+        "PS-LGT-02",
+        "PS-FLT-01",
+        "PS-TYP-01",
+        "PS-OUT-01",
+        "PS-DES-01"
+      ],
+      "design_skill_ids": [
+        "GD-ALN-01",
+        "GD-COL-01",
+        "GD-TYP-01",
+        "GD-CRIT-01"
+      ],
+      "evidence_ids": [
+        "SB-PRO-01",
+        "SB-PRO-02",
+        "SB-PRO-03"
+      ],
+      "refresher_links": []
+    },
+    {
+      "chapter_id": "VID-SB-S40",
+      "project_step_id": "SB-S40",
+      "anchor": "step-40",
+      "title": "Submit evidence, explain choices and credit sources",
+      "planned_start": null,
+      "actual_start": null,
+      "actual_end": null,
+      "skill_ids": [
+        "PS-FND-01",
+        "PS-SEL-01",
+        "PS-LAY-01",
+        "PS-BLD-02",
+        "PS-TON-01",
+        "PS-LGT-02",
+        "PS-FLT-01",
+        "PS-OUT-01"
+      ],
+      "design_skill_ids": [
+        "GD-COL-01",
+        "GD-CRIT-01",
+        "GD-CON-01"
+      ],
+      "evidence_ids": [
+        "SB-CON-01"
+      ],

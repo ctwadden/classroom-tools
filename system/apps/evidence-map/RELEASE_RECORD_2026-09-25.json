@@ -1,0 +1,47 @@
+{
+  "date": "2026-09-25",
+  "source_commit": "529179ab5f81bdd0a99f330afa1d9b3aba24ca14",
+  "source_merge_commit": "33c2805738682a53b61e93bcb8af7bb233216c6c",
+  "production_deploy_id": "6ab713c86a0dca788a96b2c7",
+  "previous_deploy_id": "6ab6e92c53fa98a5e33521a6",
+  "preview_deploy_id": "6ab7114ec9d95d2f94521de2",
+  "rubric_id": "MM12-TRUCK-AD-R1",
+  "rubric_version": "2026-09-25.2",
+  "rubric_status": "draft",
+  "node_tests_passed": 65,
+  "typescript_check": "passed",
+  "production_build": "passed",
+  "production_roster_evidence_judgments_preserved": true,
+  "synthetic_records_added_to_production": false,
+  "live_static_file_checks": {
+    "connected.js": {
+      "matches_source": true,
+      "sha256": "817ede59341aecfc45a7b7cab26d9595cbd75ac926c073c07c65fb5ea8b39687"
+    },
+    "learning-profile.js": {
+      "matches_source": true,
+      "sha256": "25dbbdf3b4f77825ab0bc3ed9db16d01f0d8db4a91fbffbf4d708ff3f2b2d09b"
+    },
+    "connected-catalogue.json": {
+      "matches_source": true,
+      "sha256": "71ab76d137aada0dd718e794d3cceec7b5a2baf7ae5cd8e0d3fef7ee1781bd3a"
+    },
+    "truck_ad": {
+      "version": "2026-09-25.2",
+      "review_ready": true,
+      "teacher_approved": false,
+      "workbook_http": 200,
+      "form_and_coach_links": true
+    },
+    "private_endpoint_anonymous_status": 401
+  },
+  "remaining_checks": [
+    "Teacher review of draft rubric",
+    "Controlled live Form/field capture to Google mirror and dashboard trial",
+    "Physical iPad offline/reconnect",
+    "Remaining criterion and competency mappings",
+    "Truck Ad assets and native Photoshop rehearsal",
+    "Learner-facing access and adaptation workflow",
+    "School gradebook import template"
+  ]
+}

@@ -1,0 +1,904 @@
+{
+ "artifact": "outcome-code-map",
+ "version": 1,
+ "generated": "2026-09-21",
+ "purpose": "Cross-system id contract. Distinct fields; never overload outcome_code (integration prompt Section 5).",
+ "rules": {
+  "COM11": "outcome_id communications-technology-11-<s>-<n> | outcome_code COM11-<s>-<n> | ps_outcome_code CT11-<s>-<n>",
+  "MM12": "outcome_id mm12-o<N> | outcome_code/ps MM12-<s>.<n> (strands 1-2)",
+  "IBDS": "outcome_id ds-u<uu>-<nnn> | outcome_code/ps DS-U<uu>-<nnn>"
+ },
+ "legacy_normalization": {
+  "MM12 1.1": "MM12-1.1 -> mm12-o1",
+  "CT11 4.4": "COM11-4-4 -> communications-technology-11-4-4"
+ },
+ "todo": [
+  "MM12 Sound module is remapped at runtime (sound-2015-*, curriculum-review.js) and MM strand-4 not yet emitted; reconcile against a live boot dump (allOutcomes) before adding.",
+  "Prompt Section 5 line ~359 shows 'COM11-4.4' (dot) once; the contract elsewhere uses 'COM11-4-4' (hyphen). This map uses HYPHEN for COM to match outcome_id; confirm."
+ ],
+ "count": 98,
+ "rows": [
+  {
+   "course_id": "COM11",
+   "outcome_id": "communications-technology-11-1-1",
+   "outcome_code": "COM11-1-1",
+   "ps_outcome_code": "CT11-1-1",
+   "display_code": "1.1",
+   "outcome_title": "History of communication",
+   "active": "true"
+  },
+  {
+   "course_id": "COM11",
+   "outcome_id": "communications-technology-11-1-2",
+   "outcome_code": "COM11-1-2",
+   "ps_outcome_code": "CT11-1-2",
+   "display_code": "1.2",
+   "outcome_title": "Career strengths (comm tech)",
+   "active": "true"
+  },
+  {
+   "course_id": "COM11",
+   "outcome_id": "communications-technology-11-1-3",
+   "outcome_code": "COM11-1-3",
+   "ps_outcome_code": "CT11-1-3",
+   "display_code": "1.3",
+   "outcome_title": "Professional portfolio",
+   "active": "true"
+  },
+  {
+   "course_id": "COM11",
+   "outcome_id": "communications-technology-11-1-4",
+   "outcome_code": "COM11-1-4",
+   "ps_outcome_code": "CT11-1-4",
+   "display_code": "1.4",
+   "outcome_title": "Persuade / entertain an audience",
+   "active": "true"
+  },
+  {
+   "course_id": "COM11",
+   "outcome_id": "communications-technology-11-1-5",
+   "outcome_code": "COM11-1-5",
+   "ps_outcome_code": "CT11-1-5",
+   "display_code": "1.5",
+   "outcome_title": "Social & environmental impact",
+   "active": "true"
+  },
+  {
+   "course_id": "COM11",
+   "outcome_id": "communications-technology-11-1-6",
+   "outcome_code": "COM11-1-6",
+   "ps_outcome_code": "CT11-1-6",
+   "display_code": "1.6",
+   "outcome_title": "Life-cycle analysis",
+   "active": "true"
+  },
+  {
+   "course_id": "COM11",
+   "outcome_id": "communications-technology-11-1-7",
+   "outcome_code": "COM11-1-7",
+   "ps_outcome_code": "CT11-1-7",
+   "display_code": "1.7",
+   "outcome_title": "Safe practices",
+   "active": "true"
+  },
+  {
+   "course_id": "COM11",
+   "outcome_id": "communications-technology-11-2-1",
+   "outcome_code": "COM11-2-1",
+   "ps_outcome_code": "CT11-2-1",
+   "display_code": "2.1",
+   "outcome_title": "Camera operation & care",
+   "active": "true"
+  },
+  {
+   "course_id": "COM11",
+   "outcome_id": "communications-technology-11-2-2",
+   "outcome_code": "COM11-2-2",
+   "ps_outcome_code": "CT11-2-2",
+   "display_code": "2.2",
+   "outcome_title": "Photo technique & composition",
+   "active": "true"
+  },
+  {
+   "course_id": "COM11",
+   "outcome_id": "communications-technology-11-2-3",
+   "outcome_code": "COM11-2-3",
+   "ps_outcome_code": "CT11-2-3",
+   "display_code": "2.3",
+   "outcome_title": "Scene lighting",
+   "active": "true"
+  },
+  {
+   "course_id": "COM11",
+   "outcome_id": "communications-technology-11-2-4",
+   "outcome_code": "COM11-2-4",
+   "ps_outcome_code": "CT11-2-4",
+   "display_code": "2.4",
+   "outcome_title": "Resolution & file formats",
+   "active": "true"
+  },
+  {
+   "course_id": "COM11",
+   "outcome_id": "communications-technology-11-4-1",
+   "outcome_code": "COM11-4-1",
+   "ps_outcome_code": "CT11-4-1",
+   "display_code": "4.1",
+   "outcome_title": "Principles & elements of design",
+   "active": "true"
+  },
+  {
+   "course_id": "COM11",
+   "outcome_id": "communications-technology-11-4-2",
+   "outcome_code": "COM11-4-2",
+   "ps_outcome_code": "CT11-4-2",
+   "display_code": "4.2",
+   "outcome_title": "Colour theory",
+   "active": "true"
+  },
+  {
+   "course_id": "COM11",
+   "outcome_id": "communications-technology-11-4-3",
+   "outcome_code": "COM11-4-3",
+   "ps_outcome_code": "CT11-4-3",
+   "display_code": "4.3",
+   "outcome_title": "Typography",
+   "active": "true"
+  },
+  {
+   "course_id": "COM11",
+   "outcome_id": "communications-technology-11-4-4",
+   "outcome_code": "COM11-4-4",
+   "ps_outcome_code": "CT11-4-4",
+   "display_code": "4.4",
+   "outcome_title": "Message with image + word",
+   "active": "true"
+  },
+  {
+   "course_id": "COM11",
+   "outcome_id": "communications-technology-11-4-5",
+   "outcome_code": "COM11-4-5",
+   "ps_outcome_code": "CT11-4-5",
+   "display_code": "4.5",
+   "outcome_title": "Web image output",
+   "active": "true"
+  },
+  {
+   "course_id": "COM11",
+   "outcome_id": "communications-technology-11-6-1",
+   "outcome_code": "COM11-6-1",
+   "ps_outcome_code": "CT11-6-1",
+   "display_code": "6.1",
+   "outcome_title": "Capture video safely",
+   "active": "true"
+  },
+  {
+   "course_id": "COM11",
+   "outcome_id": "communications-technology-11-6-2",
+   "outcome_code": "COM11-6-2",
+   "ps_outcome_code": "CT11-6-2",
+   "display_code": "6.2",
+   "outcome_title": "Sound tracks in video",
+   "active": "true"
+  },
+  {
+   "course_id": "COM11",
+   "outcome_id": "communications-technology-11-6-3",
+   "outcome_code": "COM11-6-3",
+   "ps_outcome_code": "CT11-6-3",
+   "display_code": "6.3",
+   "outcome_title": "Edit video",
+   "active": "true"
+  },
+  {
+   "course_id": "COM11",
+   "outcome_id": "communications-technology-11-6-4",
+   "outcome_code": "COM11-6-4",
+   "ps_outcome_code": "CT11-6-4",
+   "display_code": "6.4",
+   "outcome_title": "Compress for distribution",
+   "active": "true"
+  },
+  {
+   "course_id": "COM11",
+   "outcome_id": "communications-technology-11-7-1",
+   "outcome_code": "COM11-7-1",
+   "ps_outcome_code": "CT11-7-1",
+   "display_code": "7.1",
+   "outcome_title": "Studio roles & modalities",
+   "active": "true"
+  },
+  {
+   "course_id": "COM11",
+   "outcome_id": "communications-technology-11-7-2",
+   "outcome_code": "COM11-7-2",
+   "ps_outcome_code": "CT11-7-2",
+   "display_code": "7.2",
+   "outcome_title": "Broadcast equipment & signals",
+   "active": "true"
+  },
+  {
+   "course_id": "COM11",
+   "outcome_id": "communications-technology-11-7-3",
+   "outcome_code": "COM11-7-3",
+   "ps_outcome_code": "CT11-7-3",
+   "display_code": "7.3",
+   "outcome_title": "Produce a broadcast",
+   "active": "true"
+  },
+  {
+   "course_id": "COM11",
+   "outcome_id": "communications-technology-11-7-4",
+   "outcome_code": "COM11-7-4",
+   "ps_outcome_code": "CT11-7-4",
+   "display_code": "7.4",
+   "outcome_title": "Journalism story form",
+   "active": "true"
+  },
+  {
+   "course_id": "COM11",
+   "outcome_id": "communications-technology-11-8-1",
+   "outcome_code": "COM11-8-1",
+   "ps_outcome_code": "CT11-8-1",
+   "display_code": "8.1",
+   "outcome_title": "Storyboarding",
+   "active": "true"
+  },
+  {
+   "course_id": "COM11",
+   "outcome_id": "communications-technology-11-8-2",
+   "outcome_code": "COM11-8-2",
+   "ps_outcome_code": "CT11-8-2",
+   "display_code": "8.2",
+   "outcome_title": "Sequencing moving images",
+   "active": "true"
+  },
+  {
+   "course_id": "COM11",
+   "outcome_id": "communications-technology-11-8-3",
+   "outcome_code": "COM11-8-3",
+   "ps_outcome_code": "CT11-8-3",
+   "display_code": "8.3",
+   "outcome_title": "Create an animation",
+   "active": "true"
+  },
+  {
+   "course_id": "MM12",
+   "outcome_id": "mm12-o1",
+   "outcome_code": "MM12-1.1",
+   "ps_outcome_code": "MM12-1.1",
+   "display_code": "1.1",
+   "outcome_title": "apply techniques and procedures needed to ma…",
+   "active": "true"
+  },
+  {
+   "course_id": "MM12",
+   "outcome_id": "mm12-o2",
+   "outcome_code": "MM12-1.2",
+   "ps_outcome_code": "MM12-1.2",
+   "display_code": "1.2",
+   "outcome_title": "demonstrate an understanding of the cultural…",
+   "active": "true"
+  },
+  {
+   "course_id": "MM12",
+   "outcome_id": "mm12-o3",
+   "outcome_code": "MM12-1.3",
+   "ps_outcome_code": "MM12-1.3",
+   "display_code": "1.3",
+   "outcome_title": "demonstrate an awareness of the procedures i…",
+   "active": "true"
+  },
+  {
+   "course_id": "MM12",
+   "outcome_id": "mm12-o4",
+   "outcome_code": "MM12-1.4",
+   "ps_outcome_code": "MM12-1.4",
+   "display_code": "1.4",
+   "outcome_title": "apply principles of art and design to create…",
+   "active": "true"
+  },
+  {
+   "course_id": "MM12",
+   "outcome_id": "mm12-o5",
+   "outcome_code": "MM12-1.5",
+   "ps_outcome_code": "MM12-1.5",
+   "display_code": "1.5",
+   "outcome_title": "construct digital and electronic images whic…",
+   "active": "true"
+  },
+  {
+   "course_id": "MM12",
+   "outcome_id": "mm12-o6",
+   "outcome_code": "MM12-2.1",
+   "ps_outcome_code": "MM12-2.1",
+   "display_code": "2.1",
+   "outcome_title": "apply techniques and procedures needed to cr…",
+   "active": "true"
+  },
+  {
+   "course_id": "MM12",
+   "outcome_id": "mm12-o7",
+   "outcome_code": "MM12-2.2",
+   "ps_outcome_code": "MM12-2.2",
+   "display_code": "2.2",
+   "outcome_title": "demonstrate an understanding of the cultural…",
+   "active": "true"
+  },
+  {
+   "course_id": "MM12",
+   "outcome_id": "mm12-o8",
+   "outcome_code": "MM12-2.3",
+   "ps_outcome_code": "MM12-2.3",
+   "display_code": "2.3",
+   "outcome_title": "demonstrate an awareness of the procedures i…",
+   "active": "true"
+  },
+  {
+   "course_id": "MM12",
+   "outcome_id": "mm12-o9",
+   "outcome_code": "MM12-2.4",
+   "ps_outcome_code": "MM12-2.4",
+   "display_code": "2.4",
+   "outcome_title": "apply principles of art and design to create…",
+   "active": "true"
+  },
+  {
+   "course_id": "MM12",
+   "outcome_id": "mm12-o10",
+   "outcome_code": "MM12-2.5",
+   "ps_outcome_code": "MM12-2.5",
+   "display_code": "2.5",
+   "outcome_title": "constructed motion graphics which communicat…",
+   "active": "true"
+  },
+  {
+   "course_id": "IBDS",
+   "outcome_id": "ds-u01-001",
+   "outcome_code": "DS-U01-001",
+   "ps_outcome_code": "DS-U01-001",
+   "display_code": "U1.1",
+   "outcome_title": "Explain that 'digital society' is a conteste…",
+   "active": "true"
+  },
+  {
+   "course_id": "IBDS",
+   "outcome_id": "ds-u02-001",
+   "outcome_code": "DS-U02-001",
+   "ps_outcome_code": "DS-U02-001",
+   "display_code": "U2.1",
+   "outcome_title": "",
+   "active": "false"
+  },
+  {
+   "course_id": "IBDS",
+   "outcome_id": "ds-u02-002",
+   "outcome_code": "DS-U02-002",
+   "ps_outcome_code": "DS-U02-002",
+   "display_code": "U2.2",
+   "outcome_title": "Explain the concept of identity and how digi…",
+   "active": "true"
+  },
+  {
+   "course_id": "IBDS",
+   "outcome_id": "ds-u02-003",
+   "outcome_code": "DS-U02-003",
+   "ps_outcome_code": "DS-U02-003",
+   "display_code": "U2.3",
+   "outcome_title": "Explain how digital systems can redistribute…",
+   "active": "true"
+  },
+  {
+   "course_id": "IBDS",
+   "outcome_id": "ds-u02-004",
+   "outcome_code": "DS-U02-004",
+   "ps_outcome_code": "DS-U02-004",
+   "display_code": "U2.4",
+   "outcome_title": "Explain space as both physical and virtual i…",
+   "active": "true"
+  },
+  {
+   "course_id": "IBDS",
+   "outcome_id": "ds-u02-005",
+   "outcome_code": "DS-U02-005",
+   "ps_outcome_code": "DS-U02-005",
+   "display_code": "U2.5",
+   "outcome_title": "Explain systems thinking and how digital sys…",
+   "active": "true"
+  },
+  {
+   "course_id": "IBDS",
+   "outcome_id": "ds-u02-006",
+   "outcome_code": "DS-U02-006",
+   "ps_outcome_code": "DS-U02-006",
+   "display_code": "U2.6",
+   "outcome_title": "Explain how values and ethics are embedded i…",
+   "active": "true"
+  },
+  {
+   "course_id": "IBDS",
+   "outcome_id": "ds-u03-001",
+   "outcome_code": "DS-U03-001",
+   "ps_outcome_code": "DS-U03-001",
+   "display_code": "U3.1",
+   "outcome_title": "Explain how data is generated by individuals…",
+   "active": "true"
+  },
+  {
+   "course_id": "IBDS",
+   "outcome_id": "ds-u03-002",
+   "outcome_code": "DS-U03-002",
+   "ps_outcome_code": "DS-U03-002",
+   "display_code": "U3.2",
+   "outcome_title": "Explain how data is collected, stored and pr…",
+   "active": "true"
+  },
+  {
+   "course_id": "IBDS",
+   "outcome_id": "ds-u03-003",
+   "outcome_code": "DS-U03-003",
+   "ps_outcome_code": "DS-U03-003",
+   "display_code": "U3.3",
+   "outcome_title": "Distinguish between different types of data …",
+   "active": "true"
+  },
+  {
+   "course_id": "IBDS",
+   "outcome_id": "ds-u03-004",
+   "outcome_code": "DS-U03-004",
+   "ps_outcome_code": "DS-U03-004",
+   "display_code": "U3.4",
+   "outcome_title": "Explain how data can be aggregated, analysed…",
+   "active": "true"
+  },
+  {
+   "course_id": "IBDS",
+   "outcome_id": "ds-u03-005",
+   "outcome_code": "DS-U03-005",
+   "ps_outcome_code": "DS-U03-005",
+   "display_code": "U3.5",
+   "outcome_title": "Explain the concept of big data and how it c…",
+   "active": "true"
+  },
+  {
+   "course_id": "IBDS",
+   "outcome_id": "ds-u03-006",
+   "outcome_code": "DS-U03-006",
+   "ps_outcome_code": "DS-U03-006",
+   "display_code": "U3.6",
+   "outcome_title": "Analyse privacy, consent and surveillance is…",
+   "active": "true"
+  },
+  {
+   "course_id": "IBDS",
+   "outcome_id": "ds-u04-001",
+   "outcome_code": "DS-U04-001",
+   "ps_outcome_code": "DS-U04-001",
+   "display_code": "U4.1",
+   "outcome_title": "Explain what an algorithm is in the context …",
+   "active": "true"
+  },
+  {
+   "course_id": "IBDS",
+   "outcome_id": "ds-u04-002",
+   "outcome_code": "DS-U04-002",
+   "ps_outcome_code": "DS-U04-002",
+   "display_code": "U4.2",
+   "outcome_title": "Explain how algorithms are used to search, f…",
+   "active": "true"
+  },
+  {
+   "course_id": "IBDS",
+   "outcome_id": "ds-u04-003",
+   "outcome_code": "DS-U04-003",
+   "ps_outcome_code": "DS-U04-003",
+   "display_code": "U4.3",
+   "outcome_title": "Explain how machine learning systems can lea…",
+   "active": "true"
+  },
+  {
+   "course_id": "IBDS",
+   "outcome_id": "ds-u04-004",
+   "outcome_code": "DS-U04-004",
+   "ps_outcome_code": "DS-U04-004",
+   "display_code": "U4.4",
+   "outcome_title": "Analyse how recommender systems influence wh…",
+   "active": "true"
+  },
+  {
+   "course_id": "IBDS",
+   "outcome_id": "ds-u04-005",
+   "outcome_code": "DS-U04-005",
+   "ps_outcome_code": "DS-U04-005",
+   "display_code": "U4.5",
+   "outcome_title": "Explain how bias can enter algorithms and ma…",
+   "active": "true"
+  },
+  {
+   "course_id": "IBDS",
+   "outcome_id": "ds-u04-006",
+   "outcome_code": "DS-U04-006",
+   "ps_outcome_code": "DS-U04-006",
+   "display_code": "U4.6",
+   "outcome_title": "Evaluate impacts of algorithmic decision-mak…",
+   "active": "true"
+  },
+  {
+   "course_id": "IBDS",
+   "outcome_id": "ds-u05-001",
+   "outcome_code": "DS-U05-001",
+   "ps_outcome_code": "DS-U05-001",
+   "display_code": "U5.1",
+   "outcome_title": "Explain the basic components of a computer s…",
+   "active": "true"
+  },
+  {
+   "course_id": "IBDS",
+   "outcome_id": "ds-u05-002",
+   "outcome_code": "DS-U05-002",
+   "ps_outcome_code": "DS-U05-002",
+   "display_code": "U5.2",
+   "outcome_title": "Explain how software and hardware interact t…",
+   "active": "true"
+  },
+  {
+   "course_id": "IBDS",
+   "outcome_id": "ds-u05-003",
+   "outcome_code": "DS-U05-003",
+   "ps_outcome_code": "DS-U05-003",
+   "display_code": "U5.3",
+   "outcome_title": "Explain how operating systems manage resourc…",
+   "active": "true"
+  },
+  {
+   "course_id": "IBDS",
+   "outcome_id": "ds-u05-004",
+   "outcome_code": "DS-U05-004",
+   "ps_outcome_code": "DS-U05-004",
+   "display_code": "U5.4",
+   "outcome_title": "Explain how different types of devices (for …",
+   "active": "true"
+  },
+  {
+   "course_id": "IBDS",
+   "outcome_id": "ds-u05-005",
+   "outcome_code": "DS-U05-005",
+   "ps_outcome_code": "DS-U05-005",
+   "display_code": "U5.5",
+   "outcome_title": "Explain how computer performance and limitat…",
+   "active": "true"
+  },
+  {
+   "course_id": "IBDS",
+   "outcome_id": "ds-u06-001",
+   "outcome_code": "DS-U06-001",
+   "ps_outcome_code": "DS-U06-001",
+   "display_code": "U6.1",
+   "outcome_title": "Explain basic network concepts (for example,…",
+   "active": "true"
+  },
+  {
+   "course_id": "IBDS",
+   "outcome_id": "ds-u06-002",
+   "outcome_code": "DS-U06-002",
+   "ps_outcome_code": "DS-U06-002",
+   "display_code": "U6.2",
+   "outcome_title": "Explain differences between types of network…",
+   "active": "true"
+  },
+  {
+   "course_id": "IBDS",
+   "outcome_id": "ds-u06-003",
+   "outcome_code": "DS-U06-003",
+   "ps_outcome_code": "DS-U06-003",
+   "display_code": "U6.3",
+   "outcome_title": "Explain how the internet enables communicati…",
+   "active": "true"
+  },
+  {
+   "course_id": "IBDS",
+   "outcome_id": "ds-u06-004",
+   "outcome_code": "DS-U06-004",
+   "ps_outcome_code": "DS-U06-004",
+   "display_code": "U6.4",
+   "outcome_title": "Explain how data is transmitted across netwo…",
+   "active": "true"
+  },
+  {
+   "course_id": "IBDS",
+   "outcome_id": "ds-u06-005",
+   "outcome_code": "DS-U06-005",
+   "ps_outcome_code": "DS-U06-005",
+   "display_code": "U6.5",
+   "outcome_title": "Explain how wireless and mobile networks ena…",
+   "active": "true"
+  },
+  {
+   "course_id": "IBDS",
+   "outcome_id": "ds-u06-006",
+   "outcome_code": "DS-U06-006",
+   "ps_outcome_code": "DS-U06-006",
+   "display_code": "U6.6",
+   "outcome_title": "Explain basic cybersecurity risks (for examp…",
+   "active": "true"
+  },
+  {
+   "course_id": "IBDS",
+   "outcome_id": "ds-u07-001",
+   "outcome_code": "DS-U07-001",
+   "ps_outcome_code": "DS-U07-001",
+   "display_code": "U7.1",
+   "outcome_title": "Explain how digital media platforms host, di…",
+   "active": "true"
+  },
+  {
+   "course_id": "IBDS",
+   "outcome_id": "ds-u07-002",
+   "outcome_code": "DS-U07-002",
+   "ps_outcome_code": "DS-U07-002",
+   "display_code": "U7.2",
+   "outcome_title": "Explain how attention is measured and commod…",
+   "active": "true"
+  },
+  {
+   "course_id": "IBDS",
+   "outcome_id": "ds-u07-003",
+   "outcome_code": "DS-U07-003",
+   "ps_outcome_code": "DS-U07-003",
+   "display_code": "U7.3",
+   "outcome_title": "Analyse how digital media platforms shape ex…",
+   "active": "true"
+  },
+  {
+   "course_id": "IBDS",
+   "outcome_id": "ds-u07-004",
+   "outcome_code": "DS-U07-004",
+   "ps_outcome_code": "DS-U07-004",
+   "display_code": "U7.4",
+   "outcome_title": "Explain how misinformation, disinformation a…",
+   "active": "true"
+  },
+  {
+   "course_id": "IBDS",
+   "outcome_id": "ds-u07-005",
+   "outcome_code": "DS-U07-005",
+   "ps_outcome_code": "DS-U07-005",
+   "display_code": "U7.5",
+   "outcome_title": "Evaluate responses to harmful or misleading …",
+   "active": "true"
+  },
+  {
+   "course_id": "IBDS",
+   "outcome_id": "ds-u08-001",
+   "outcome_code": "DS-U08-001",
+   "ps_outcome_code": "DS-U08-001",
+   "display_code": "U8.1",
+   "outcome_title": "",
+   "active": "false"
+  },
+  {
+   "course_id": "IBDS",
+   "outcome_id": "ds-u08-002",
+   "outcome_code": "DS-U08-002",
+   "ps_outcome_code": "DS-U08-002",
+   "display_code": "U8.2",
+   "outcome_title": "",
+   "active": "false"
+  },
+  {
+   "course_id": "IBDS",
+   "outcome_id": "ds-u08-003",
+   "outcome_code": "DS-U08-003",
+   "ps_outcome_code": "DS-U08-003",
+   "display_code": "U8.3",
+   "outcome_title": "",
+   "active": "false"
+  },
+  {
+   "course_id": "IBDS",
+   "outcome_id": "ds-u08-004",
+   "outcome_code": "DS-U08-004",
+   "ps_outcome_code": "DS-U08-004",
+   "display_code": "U8.4",
+   "outcome_title": "",
+   "active": "false"
+  },
+  {
+   "course_id": "IBDS",
+   "outcome_id": "ds-u08-005",
+   "outcome_code": "DS-U08-005",
+   "ps_outcome_code": "DS-U08-005",
+   "display_code": "U8.5",
+   "outcome_title": "",
+   "active": "false"
+  },
+  {
+   "course_id": "IBDS",
+   "outcome_id": "ds-u08-006",
+   "outcome_code": "DS-U08-006",
+   "ps_outcome_code": "DS-U08-006",
+   "display_code": "U8.6",
+   "outcome_title": "",
+   "active": "false"
+  },
+  {
+   "course_id": "IBDS",
+   "outcome_id": "ds-u09-001",
+   "outcome_code": "DS-U09-001",
+   "ps_outcome_code": "DS-U09-001",
+   "display_code": "U9.1",
+   "outcome_title": "",
+   "active": "false"
+  },
+  {
+   "course_id": "IBDS",
+   "outcome_id": "ds-u09-002",
+   "outcome_code": "DS-U09-002",
+   "ps_outcome_code": "DS-U09-002",
+   "display_code": "U9.2",
+   "outcome_title": "",
+   "active": "false"
+  },
+  {
+   "course_id": "IBDS",
+   "outcome_id": "ds-u09-003",
+   "outcome_code": "DS-U09-003",
+   "ps_outcome_code": "DS-U09-003",
+   "display_code": "U9.3",
+   "outcome_title": "",
+   "active": "false"
+  },
+  {
+   "course_id": "IBDS",
+   "outcome_id": "ds-u09-004",
+   "outcome_code": "DS-U09-004",
+   "ps_outcome_code": "DS-U09-004",
+   "display_code": "U9.4",
+   "outcome_title": "",
+   "active": "false"
+  },
+  {
+   "course_id": "IBDS",
+   "outcome_id": "ds-u09-005",
+   "outcome_code": "DS-U09-005",
+   "ps_outcome_code": "DS-U09-005",
+   "display_code": "U9.5",
+   "outcome_title": "",
+   "active": "false"
+  },
+  {
+   "course_id": "IBDS",
+   "outcome_id": "ds-u10-001",
+   "outcome_code": "DS-U10-001",
+   "ps_outcome_code": "DS-U10-001",
+   "display_code": "U10.1",
+   "outcome_title": "",
+   "active": "false"
+  },
+  {
+   "course_id": "IBDS",
+   "outcome_id": "ds-u10-002",
+   "outcome_code": "DS-U10-002",
+   "ps_outcome_code": "DS-U10-002",
+   "display_code": "U10.2",
+   "outcome_title": "",
+   "active": "false"
+  },
+  {
+   "course_id": "IBDS",
+   "outcome_id": "ds-u10-003",
+   "outcome_code": "DS-U10-003",
+   "ps_outcome_code": "DS-U10-003",
+   "display_code": "U10.3",
+   "outcome_title": "",
+   "active": "false"
+  },
+  {
+   "course_id": "IBDS",
+   "outcome_id": "ds-u10-004",
+   "outcome_code": "DS-U10-004",
+   "ps_outcome_code": "DS-U10-004",
+   "display_code": "U10.4",
+   "outcome_title": "",
+   "active": "false"
+  },
+  {
+   "course_id": "IBDS",
+   "outcome_id": "ds-u10-005",
+   "outcome_code": "DS-U10-005",
+   "ps_outcome_code": "DS-U10-005",
+   "display_code": "U10.5",
+   "outcome_title": "",
+   "active": "false"
+  },
+  {
+   "course_id": "IBDS",
+   "outcome_id": "ds-u10-006",
+   "outcome_code": "DS-U10-006",
+   "ps_outcome_code": "DS-U10-006",
+   "display_code": "U10.6",
+   "outcome_title": "",
+   "active": "false"
+  },
+  {
+   "course_id": "IBDS",
+   "outcome_id": "ds-u10-007",
+   "outcome_code": "DS-U10-007",
+   "ps_outcome_code": "DS-U10-007",
+   "display_code": "U10.7",
+   "outcome_title": "",
+   "active": "false"
+  },
+  {
+   "course_id": "IBDS",
+   "outcome_id": "ds-u10-008",
+   "outcome_code": "DS-U10-008",
+   "ps_outcome_code": "DS-U10-008",
+   "display_code": "U10.8",
+   "outcome_title": "",
+   "active": "false"
+  },
+  {
+   "course_id": "IBDS",
+   "outcome_id": "ds-u12-001",
+   "outcome_code": "DS-U12-001",
+   "ps_outcome_code": "DS-U12-001",
+   "display_code": "U12.1",
+   "outcome_title": "",
+   "active": "false"
+  },
+  {
+   "course_id": "IBDS",
+   "outcome_id": "ds-u12-002",
+   "outcome_code": "DS-U12-002",
+   "ps_outcome_code": "DS-U12-002",
+   "display_code": "U12.2",
+   "outcome_title": "",
+   "active": "false"
+  },
+  {
+   "course_id": "IBDS",
+   "outcome_id": "ds-u12-003",
+   "outcome_code": "DS-U12-003",
+   "ps_outcome_code": "DS-U12-003",
+   "display_code": "U12.3",
+   "outcome_title": "Locate, select and evaluate diverse sources …",
+   "active": "true"
+  },
+  {
+   "course_id": "IBDS",
+   "outcome_id": "ds-u12-004",
+   "outcome_code": "DS-U12-004",
+   "ps_outcome_code": "DS-U12-004",
+   "display_code": "U12.4",
+   "outcome_title": "",
+   "active": "false"
+  },
+  {
+   "course_id": "IBDS",
+   "outcome_id": "ds-u12-005",
+   "outcome_code": "DS-U12-005",
+   "ps_outcome_code": "DS-U12-005",
+   "display_code": "U12.5",
+   "outcome_title": "",
+   "active": "false"
+  },
+  {
+   "course_id": "IBDS",
+   "outcome_id": "ds-u12-006",
+   "outcome_code": "DS-U12-006",
+   "ps_outcome_code": "DS-U12-006",
+   "display_code": "U12.6",
+   "outcome_title": "",
+   "active": "false"
+  },
+  {
+   "course_id": "IBDS",
+   "outcome_id": "ds-u12-007",
+   "outcome_code": "DS-U12-007",
+   "ps_outcome_code": "DS-U12-007",
+   "display_code": "U12.7",
+   "outcome_title": "",
+   "active": "false"
+  }
+ ]
+}
