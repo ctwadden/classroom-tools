@@ -1,0 +1,17 @@
+project_id,project_step_id,title,skill_ids,design_skill_ids,evidence_ids
+PS-TRUCK-AD,TA-S01,Download the approved assets and create the working file,PS-FND-01,,
+PS-TRUCK-AD,TA-S02,Make the truck editable and apply the Cutout look,PS-SMO-01;PS-FLT-01,,
+PS-TRUCK-AD,TA-S03,Add controlled grain without flattening,PS-FLT-01;PS-SMO-01,,
+PS-TRUCK-AD,TA-S04,Protect the truck detail with the Smart Filter mask,PS-FLT-01;PS-LAY-01,,TA-OBS-01
+PS-TRUCK-AD,TA-S05,Blend the paper texture over the scene,PS-BLD-02;PS-LAY-01,GD-CON-01,
+PS-TRUCK-AD,TA-S06,Add the source-style vignette,PS-TON-01;PS-LAY-01,GD-HIE-01,
+PS-TRUCK-AD,TA-S07,Create the bull halftone treatment,PS-FLT-01;PS-SMO-01,GD-MET-01,
+PS-TRUCK-AD,TA-S08,Blend the bull into the ad,PS-BLD-02;PS-LAY-01,GD-MET-01,TA-CON-01
+PS-TRUCK-AD,TA-S09,Build the first headline block with alignment not guessing,PS-TYP-01,GD-HIE-01;GD-ALN-01;GD-TYP-01,TA-OBS-02
+PS-TRUCK-AD,TA-S10,Make one reusable halftone type texture,PS-FLT-01;PS-TYP-01,GD-REP-01,
+PS-TRUCK-AD,TA-S11,Add oversized ghost type for depth,PS-TYP-01;PS-BLD-02,GD-HIE-01;GD-REP-01,
+PS-TRUCK-AD,TA-S12,Create the secondary type block and reuse the dot method,PS-TYP-01;PS-FLT-01,GD-HIE-01;GD-ALN-01;GD-TYP-01,
+PS-TRUCK-AD,TA-S13,Audit visual hierarchy and revise one decision,PS-DES-01,GD-HIE-01;GD-CRIT-01,TA-OBS-02;TA-QA-01
+PS-TRUCK-AD,TA-S14,Complete the evidence conversation,PS-DES-01,GD-AUD-01;GD-MET-01,TA-CON-02
+PS-TRUCK-AD,TA-S15,Inspect the layered product at 100%,PS-SMO-01;PS-FLT-01,GD-CRIT-01,TA-PRO-01;TA-QA-01
+PS-TRUCK-AD,TA-S16,Export submit and connect the evidence,PS-OUT-01,,TA-PRO-02;TA-PRO-03

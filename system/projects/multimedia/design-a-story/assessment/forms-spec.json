@@ -1,0 +1,461 @@
+{
+  "spec_version": "2026-10-10.1",
+  "project_id": "mm12-design-story-v1",
+  "project_title": "Multimedia 12 \u2014 Design a Story",
+  "course_configs": [
+    {
+      "course_id": "MM12",
+      "module_id": "M1",
+      "outcome_codes": [
+        "MM12-1.1",
+        "MM12-1.2",
+        "MM12-1.3",
+        "MM12-1.4",
+        "MM12-1.5"
+      ]
+    }
+  ],
+  "assessment_bundle_by_course": {
+    "MM12": "mm12-design-story-v1"
+  },
+  "identity_note": "New project-specific intake identity, checked against live Projects and Form Registry. General Module 1 evidence; no new formal Task, grade, calendar change or replacement of Last Light/Make It Matter.",
+  "student_form": {
+    "description": "Use your school account. Choose only the checkpoint you are completing. Reasoning is reviewed by your teacher; this is not an automatically marked practical assessment. Saved workbook/Design Lab drafts are not submitted until you press Submit here. Never share student work publicly."
+  },
+  "knowledge_check": {
+    "items": [
+      {
+        "id": "MM12-DESIGN-K01",
+        "type": "paragraph_text",
+        "title": "Reading priorities",
+        "prompt": "Use the unfamiliar advertisement displayed by your teacher. Name the first two things you notice, in order. Explain two specific visual decisions that create that reading order.",
+        "skill_ids": [
+          "mm12-skill-hierarchy"
+        ],
+        "outcome_codes": [
+          "MM12-1.4",
+          "MM12-1.5"
+        ],
+        "step_id": "01-poster-promise",
+        "evidence_type": "Knowledge"
+      },
+      {
+        "id": "MM12-DESIGN-K02",
+        "type": "paragraph_text",
+        "title": "Colour and readability",
+        "prompt": "Name the colour-wheel model and relationship in a palette you have studied. Explain the difference between hue and value, and why a harmonious palette can still be hard to read.",
+        "skill_ids": [
+          "mm12-skill-hierarchy"
+        ],
+        "outcome_codes": [
+          "MM12-1.4",
+          "MM12-1.5"
+        ],
+        "step_id": "01-poster-promise",
+        "evidence_type": "Knowledge"
+      },
+      {
+        "id": "MM12-DESIGN-K03",
+        "type": "paragraph_text",
+        "title": "Typography controls",
+        "prompt": "Explain kerning, tracking and leading. Give one visible spacing problem and choose the correct control to fix it. Explain why the other two controls would not address that problem.",
+        "skill_ids": [
+          "mm12-skill-hierarchy"
+        ],
+        "outcome_codes": [
+          "MM12-1.4",
+          "MM12-1.5"
+        ],
+        "step_id": "01-poster-promise",
+        "evidence_type": "Knowledge"
+      },
+      {
+        "id": "MM12-DESIGN-K04",
+        "type": "paragraph_text",
+        "title": "Recoverable image editing",
+        "prompt": "Explain selection versus a layer mask, and clipping an adjustment versus painting its mask. Describe one specific Photoshop control and the visible effect it should have. How would you recover from a wrong change?",
+        "skill_ids": [
+          "mm12-skill-layers",
+          "mm12-skill-integration"
+        ],
+        "outcome_codes": [
+          "MM12-1.1",
+          "MM12-1.3"
+        ],
+        "step_id": "02-believable-composite",
+        "evidence_type": "Knowledge"
+      },
+      {
+        "id": "MM12-DESIGN-K05",
+        "type": "paragraph_text",
+        "title": "Context and meaning",
+        "prompt": "Compare a historical and a current advertisement from the lesson. Give one visual observation, one contextual claim with its source, and one inference about the audience. Label each clearly; do not present an inference as a proven fact.",
+        "skill_ids": [
+          "mm12-skill-meaning"
+        ],
+        "outcome_codes": [
+          "MM12-1.2"
+        ],
+        "step_id": "01-poster-promise",
+        "evidence_type": "Knowledge"
+      },
+      {
+        "id": "MM12-DESIGN-K06",
+        "type": "paragraph_text",
+        "title": "Planning tools",
+        "prompt": "Explain how a mood board, a thumbnail sketch and an artboard each help plan an advertisement. Describe the different decision each one supports before the final Photoshop build.",
+        "skill_ids": [
+          "mm12-skill-delivery"
+        ],
+        "outcome_codes": [
+          "MM12-1.3"
+        ],
+        "step_id": "03-art-director",
+        "evidence_type": "Knowledge"
+      }
+    ]
+  },
+  "student_routes": [
+    {
+      "id": "knowledge",
+      "label": "Knowledge check",
+      "title": "Knowledge check \u2014 explain the concepts",
+      "items": [
+        {
+          "id": "MM12-DESIGN-K01",
+          "type": "paragraph_text",
+          "title": "Reading priorities",
+          "prompt": "Use the unfamiliar advertisement displayed by your teacher. Name the first two things you notice, in order. Explain two specific visual decisions that create that reading order.",
+          "skill_ids": [
+            "mm12-skill-hierarchy"
+          ],
+          "outcome_codes": [
+            "MM12-1.4",
+            "MM12-1.5"
+          ],
+          "step_id": "01-poster-promise",
+          "evidence_type": "Knowledge"
+        },
+        {
+          "id": "MM12-DESIGN-K02",
+          "type": "paragraph_text",
+          "title": "Colour and readability",
+          "prompt": "Name the colour-wheel model and relationship in a palette you have studied. Explain the difference between hue and value, and why a harmonious palette can still be hard to read.",
+          "skill_ids": [
+            "mm12-skill-hierarchy"
+          ],
+          "outcome_codes": [
+            "MM12-1.4",
+            "MM12-1.5"
+          ],
+          "step_id": "01-poster-promise",
+          "evidence_type": "Knowledge"
+        },
+        {
+          "id": "MM12-DESIGN-K03",
+          "type": "paragraph_text",
+          "title": "Typography controls",
+          "prompt": "Explain kerning, tracking and leading. Give one visible spacing problem and choose the correct control to fix it. Explain why the other two controls would not address that problem.",
+          "skill_ids": [
+            "mm12-skill-hierarchy"
+          ],
+          "outcome_codes": [
+            "MM12-1.4",
+            "MM12-1.5"
+          ],
+          "step_id": "01-poster-promise",
+          "evidence_type": "Knowledge"
+        },
+        {
+          "id": "MM12-DESIGN-K04",
+          "type": "paragraph_text",
+          "title": "Recoverable image editing",
+          "prompt": "Explain selection versus a layer mask, and clipping an adjustment versus painting its mask. Describe one specific Photoshop control and the visible effect it should have. How would you recover from a wrong change?",
+          "skill_ids": [
+            "mm12-skill-layers",
+            "mm12-skill-integration"
+          ],
+          "outcome_codes": [
+            "MM12-1.1",
+            "MM12-1.3"
+          ],
+          "step_id": "02-believable-composite",
+          "evidence_type": "Knowledge"
+        },
+        {
+          "id": "MM12-DESIGN-K05",
+          "type": "paragraph_text",
+          "title": "Context and meaning",
+          "prompt": "Compare a historical and a current advertisement from the lesson. Give one visual observation, one contextual claim with its source, and one inference about the audience. Label each clearly; do not present an inference as a proven fact.",
+          "skill_ids": [
+            "mm12-skill-meaning"
+          ],
+          "outcome_codes": [
+            "MM12-1.2"
+          ],
+          "step_id": "01-poster-promise",
+          "evidence_type": "Knowledge"
+        },
+        {
+          "id": "MM12-DESIGN-K06",
+          "type": "paragraph_text",
+          "title": "Planning tools",
+          "prompt": "Explain how a mood board, a thumbnail sketch and an artboard each help plan an advertisement. Describe the different decision each one supports before the final Photoshop build.",
+          "skill_ids": [
+            "mm12-skill-delivery"
+          ],
+          "outcome_codes": [
+            "MM12-1.3"
+          ],
+          "step_id": "03-art-director",
+          "evidence_type": "Knowledge"
+        }
+      ]
+    },
+    {
+      "id": "lab",
+      "label": "Design Lab reflection",
+      "title": "Design Lab \u2014 predict, compare, defend",
+      "items": [
+        {
+          "id": "MM12-DESIGN-LAB01",
+          "prompt": "Which studio did you use (composition, colour or typography)? State your prediction, the single change you tested and the visible before/after result. Explain what the comparison means for this audience.",
+          "skill_ids": [
+            "mm12-skill-hierarchy"
+          ],
+          "outcome_codes": [
+            "MM12-1.4",
+            "MM12-1.5"
+          ],
+          "step_id": "design-lab",
+          "type": "paragraph_text",
+          "evidence_type": "Reflection"
+        },
+        {
+          "id": "MM12-DESIGN-LAB02",
+          "prompt": "Paste a link to your exported visual study and decision log in your school Drive folder, shared with your teacher. If you cannot share a file yet, paste the decision log here and explain where the visual study will be handed in. Do not publish student work.",
+          "skill_ids": [
+            "mm12-skill-delivery"
+          ],
+          "outcome_codes": [
+            "MM12-1.3"
+          ],
+          "step_id": "design-lab",
+          "type": "paragraph_text",
+          "evidence_type": "Reflection"
+        },
+        {
+          "id": "MM12-DESIGN-LAB03",
+          "prompt": "What needs correction or another test? Name a specific next change and what visible evidence would show that it helped.",
+          "skill_ids": [
+            "mm12-skill-hierarchy"
+          ],
+          "outcome_codes": [
+            "MM12-1.4",
+            "MM12-1.5"
+          ],
+          "step_id": "design-lab",
+          "type": "paragraph_text",
+          "evidence_type": "Reflection"
+        }
+      ]
+    },
+    {
+      "id": "proposal",
+      "label": "Proposal and planning",
+      "title": "Proposal \u2014 audience, alternatives and sources",
+      "items": [
+        {
+          "id": "MM12-DESIGN-PROP01",
+          "prompt": "Paste your exported proposal response record here, or link the record, credited mood board and three thumbnails in your school Drive folder shared with your teacher. State the audience, message and intended viewing context.",
+          "skill_ids": [
+            "mm12-skill-delivery"
+          ],
+          "outcome_codes": [
+            "MM12-1.3"
+          ],
+          "step_id": "proposal",
+          "type": "paragraph_text",
+          "evidence_type": "Reflection"
+        },
+        {
+          "id": "MM12-DESIGN-PROP02",
+          "prompt": "Explain which direction you chose and one direction you rejected. Identify a colour/type choice, the visual sources you may use and their permissions. Explain the first test you will run.",
+          "skill_ids": [
+            "mm12-skill-hierarchy",
+            "mm12-skill-meaning"
+          ],
+          "outcome_codes": [
+            "MM12-1.2",
+            "MM12-1.4",
+            "MM12-1.5"
+          ],
+          "step_id": "proposal",
+          "type": "paragraph_text",
+          "evidence_type": "Reflection"
+        }
+      ]
+    },
+    {
+      "id": "final",
+      "label": "Final reflection and evidence handoff",
+      "title": "Final reflection \u2014 decisions and evidence",
+      "items": [
+        {
+          "id": "MM12-DESIGN-FINAL00",
+          "prompt": "Link your school Drive submission folder shared with your teacher: layered PSD, final PNG, planning, alternatives, before/after test evidence and source/AI log. Confirm the teacher can open the folder. A public portfolio link is optional and does not replace the editable source.",
+          "skill_ids": [
+            "mm12-skill-delivery",
+            "mm12-skill-layers"
+          ],
+          "outcome_codes": [
+            "MM12-1.1",
+            "MM12-1.3"
+          ],
+          "step_id": "03-art-director",
+          "type": "paragraph_text",
+          "evidence_type": "Reflection"
+        },
+        {
+          "id": "MM12-DESIGN-FINAL01",
+          "prompt": "What changed after testing with two viewers? Refer to a specific before/after feature and explain why you accepted or rejected the feedback.",
+          "skill_ids": [
+            "mm12-skill-hierarchy"
+          ],
+          "outcome_codes": [
+            "MM12-1.4",
+            "MM12-1.5"
+          ],
+          "step_id": "03-art-director",
+          "type": "paragraph_text",
+          "evidence_type": "Reflection"
+        },
+        {
+          "id": "MM12-DESIGN-FINAL02",
+          "prompt": "Explain one independent technical choice. Identify the layer/control in your editable source and the visible effect that proves what it did.",
+          "skill_ids": [
+            "mm12-skill-layers",
+            "mm12-skill-integration"
+          ],
+          "outcome_codes": [
+            "MM12-1.1",
+            "MM12-1.3"
+          ],
+          "step_id": "02-believable-composite",
+          "type": "paragraph_text",
+          "evidence_type": "Reflection"
+        },
+        {
+          "id": "MM12-DESIGN-FINAL03",
+          "prompt": "What limitation remains? Name your next target, the evidence you will look for and any support you used or need. Support is recorded separately from achievement.",
+          "skill_ids": [
+            "mm12-skill-delivery"
+          ],
+          "outcome_codes": [
+            "MM12-1.3"
+          ],
+          "step_id": "03-art-director",
+          "type": "paragraph_text",
+          "evidence_type": "Reflection"
+        }
+      ]
+    }
+  ],
+  "skill_reflection": {
+    "skill_ids": [
+      "mm12-skill-delivery",
+      "mm12-skill-hierarchy",
+      "mm12-skill-integration",
+      "mm12-skill-layers",
+      "mm12-skill-meaning"
+    ]
+  },
+  "teacher_evidence": {
+    "owner_only": true,
+    "checkpoints": [
+      {
+        "evidence_id": "MM12-DESIGN-O01",
+        "title": "Observation \u2014 editable layers and masks",
+        "evidence_type": "Observation",
+        "skill_ids": [
+          "mm12-skill-layers"
+        ],
+        "outcome_codes": [
+          "MM12-1.1",
+          "MM12-1.3"
+        ],
+        "step_id": "02-believable-composite",
+        "look_for": "Watch the student identify source layers, demonstrate a mask/adjustment, undo or revise it, and explain the visible result. A flattened image does not establish this skill."
+      },
+      {
+        "evidence_id": "MM12-DESIGN-P01",
+        "title": "Product \u2014 integration and light",
+        "evidence_type": "Product",
+        "skill_ids": [
+          "mm12-skill-integration"
+        ],
+        "outcome_codes": [
+          "MM12-1.1",
+          "MM12-1.4"
+        ],
+        "step_id": "02-believable-composite",
+        "look_for": "Inspect layered PSD and final export for edge quality, consistent light/value and deliberate focal emphasis. Ask the student to explain one decision."
+      },
+      {
+        "evidence_id": "MM12-DESIGN-P02",
+        "title": "Product \u2014 hierarchy, colour and type",
+        "evidence_type": "Product",
+        "skill_ids": [
+          "mm12-skill-hierarchy"
+        ],
+        "outcome_codes": [
+          "MM12-1.4",
+          "MM12-1.5"
+        ],
+        "step_id": "01-poster-promise",
+        "look_for": "Inspect first/second reading priorities, readable value contrast and intentional type spacing at intended viewing size. Refer to two specific visual features."
+      },
+      {
+        "evidence_id": "MM12-DESIGN-C01",
+        "title": "Conversation \u2014 context and audience",
+        "evidence_type": "Conversation",
+        "skill_ids": [
+          "mm12-skill-meaning"
+        ],
+        "outcome_codes": [
+          "MM12-1.2"
+        ],
+        "step_id": "01-poster-promise",
+        "look_for": "Ask the student to separate observation, sourced context and inference, and defend the intended audience/message with evidence."
+      },
+      {
+        "evidence_id": "MM12-DESIGN-P03",
+        "title": "Product \u2014 planning and delivery",
+        "evidence_type": "Product",
+        "skill_ids": [
+          "mm12-skill-delivery"
+        ],
+        "outcome_codes": [
+          "MM12-1.3"
+        ],
+        "step_id": "03-art-director",
+        "look_for": "Inspect credited mood board, three distinct thumbnails, two design alternatives, editable master, correctly sized export and source/AI log."
+      },
+      {
+        "evidence_id": "MM12-DESIGN-C02",
+        "title": "Conversation \u2014 testing and revision",
+        "evidence_type": "Conversation",
+        "skill_ids": [
+          "mm12-skill-hierarchy"
+        ],
+        "outcome_codes": [
+          "MM12-1.4",
+          "MM12-1.5"
+        ],
+        "step_id": "03-art-director",
+        "look_for": "Ask what two viewer responses changed. Compare before/after evidence, a rejected alternative and a remaining limitation. Completion alone is insufficient."
+      }
+    ],
+    "rubric_status": "General O/C/P evidence only. The six published project rubric dimensions remain a proposed teaching rubric until approved/capture-ready criteria exist in the live library; do not fabricate a rubric binding."
+  }
+}

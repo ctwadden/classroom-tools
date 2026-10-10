@@ -1,0 +1,507 @@
+{
+  "spec_version": "2026-10-02.1",
+  "project_id": "mm12-into-the-world-v1",
+  "project_title": "Into the World — MM12 Sprint 8",
+  "course_configs": [
+    {
+      "course_id": "MM12",
+      "module_id": "M2",
+      "outcome_codes": [
+        "MM12-2.1",
+        "MM12-2.2",
+        "MM12-2.3",
+        "MM12-2.4",
+        "MM12-2.5",
+        "MM12-4.1",
+        "MM12-4.2",
+        "MM12-4.4"
+      ]
+    }
+  ],
+  "assessment_bundle_by_course": {
+    "MM12": "mm12-26-s08-bundle"
+  },
+  "student_form": {
+    "description": "Eight knowledge questions from Knowledge first, five guide evidence questions and skill reflection. Verified school email required. Self-report is not achievement."
+  },
+  "knowledge_check": {
+    "items": [
+      {
+        "id": "mm12-into-the-world-v1:k01",
+        "type": "multiple_choice",
+        "prompt": "What does parallax mean when the camera moves?",
+        "choices": [
+          "Near points shift more than far points",
+          "All points shift equally",
+          "Far points shift more than near points",
+          "Only the actor moves"
+        ],
+        "correct_index": 0,
+        "points": 1,
+        "correct_feedback": "Near points shift more as the camera moves.",
+        "incorrect_feedback": "Near points shift more as the camera moves.",
+        "skill_ids": [],
+        "outcome_codes": [
+          "MM12-2.1",
+          "MM12-2.2",
+          "MM12-2.3",
+          "MM12-2.4",
+          "MM12-2.5",
+          "MM12-4.1",
+          "MM12-4.2",
+          "MM12-4.4"
+        ],
+        "step_id": "step-6",
+        "lesson_id": "mm12-26-s08-d03"
+      },
+      {
+        "id": "mm12-into-the-world-v1:k02",
+        "type": "multiple_choice",
+        "prompt": "What does camera tracking calculate from markers at varied depths?",
+        "choices": [
+          "The actor dialogue",
+          "The texture resolution",
+          "The sound level",
+          "The camera path"
+        ],
+        "correct_index": 3,
+        "points": 1,
+        "correct_feedback": "Tracking markers help reconstruct the camera movement.",
+        "incorrect_feedback": "Tracking markers help reconstruct the camera movement.",
+        "skill_ids": [],
+        "outcome_codes": [
+          "MM12-2.1",
+          "MM12-2.2",
+          "MM12-2.3",
+          "MM12-2.4",
+          "MM12-2.5",
+          "MM12-4.1",
+          "MM12-4.2",
+          "MM12-4.4"
+        ],
+        "step_id": "step-8",
+        "lesson_id": "mm12-26-s08-d04"
+      },
+      {
+        "id": "mm12-into-the-world-v1:k03",
+        "type": "multiple_choice",
+        "prompt": "What is the target camera solve error in the guide?",
+        "choices": [
+          "Exactly 5 pixels",
+          "Zero frames",
+          "Under 1 pixel",
+          "Under 10 pixels"
+        ],
+        "correct_index": 2,
+        "points": 1,
+        "correct_feedback": "The guide targets a solve error below one pixel.",
+        "incorrect_feedback": "The guide targets a solve error below one pixel.",
+        "skill_ids": [],
+        "outcome_codes": [
+          "MM12-2.1",
+          "MM12-2.2",
+          "MM12-2.3",
+          "MM12-2.4",
+          "MM12-2.5",
+          "MM12-4.1",
+          "MM12-4.2",
+          "MM12-4.4"
+        ],
+        "step_id": "step-8",
+        "lesson_id": "mm12-26-s08-d04"
+      },
+      {
+        "id": "mm12-into-the-world-v1:k04",
+        "type": "multiple_choice",
+        "prompt": "What does a keyer do?",
+        "choices": [
+          "Changes audio timing",
+          "Makes one colour transparent",
+          "Builds a 3D model",
+          "Calculates camera focal length"
+        ],
+        "correct_index": 1,
+        "points": 1,
+        "correct_feedback": "Keying creates transparency from a selected colour.",
+        "incorrect_feedback": "Keying creates transparency from a selected colour.",
+        "skill_ids": [],
+        "outcome_codes": [
+          "MM12-2.1",
+          "MM12-2.2",
+          "MM12-2.3",
+          "MM12-2.4",
+          "MM12-2.5",
+          "MM12-4.1",
+          "MM12-4.2",
+          "MM12-4.4"
+        ],
+        "step_id": "step-10",
+        "lesson_id": "mm12-26-s08-d05"
+      },
+      {
+        "id": "mm12-into-the-world-v1:k05",
+        "type": "multiple_choice",
+        "prompt": "What does a garbage matte remove?",
+        "choices": [
+          "Unwanted areas outside the useful keyed subject",
+          "Only the actor shadow",
+          "Camera lens distortion",
+          "All background texture"
+        ],
+        "correct_index": 0,
+        "points": 1,
+        "correct_feedback": "A garbage matte removes unwanted areas the keyer cannot identify.",
+        "incorrect_feedback": "A garbage matte removes unwanted areas the keyer cannot identify.",
+        "skill_ids": [],
+        "outcome_codes": [
+          "MM12-2.1",
+          "MM12-2.2",
+          "MM12-2.3",
+          "MM12-2.4",
+          "MM12-2.5",
+          "MM12-4.1",
+          "MM12-4.2",
+          "MM12-4.4"
+        ],
+        "step_id": "step-10",
+        "lesson_id": "mm12-26-s08-d05"
+      },
+      {
+        "id": "mm12-into-the-world-v1:k06",
+        "type": "multiple_choice",
+        "prompt": "Why must the world be scaled in real metres?",
+        "choices": [
+          "It reduces the video frame rate",
+          "It makes all materials glow",
+          "It replaces camera tracking",
+          "The filmed person has a fixed real size"
+        ],
+        "correct_index": 3,
+        "points": 1,
+        "correct_feedback": "Real scale lets the person and environment agree.",
+        "incorrect_feedback": "Real scale lets the person and environment agree.",
+        "skill_ids": [],
+        "outcome_codes": [
+          "MM12-2.1",
+          "MM12-2.2",
+          "MM12-2.3",
+          "MM12-2.4",
+          "MM12-2.5",
+          "MM12-4.1",
+          "MM12-4.2",
+          "MM12-4.4"
+        ],
+        "step_id": "step-3",
+        "lesson_id": "mm12-26-s08-d02"
+      },
+      {
+        "id": "mm12-into-the-world-v1:k07",
+        "type": "multiple_choice",
+        "prompt": "What must remain aligned across the shot for convincing grounding?",
+        "choices": [
+          "The audio waveform and sky",
+          "The UI panels",
+          "The feet and ground contact",
+          "Only the title text"
+        ],
+        "correct_index": 2,
+        "points": 1,
+        "correct_feedback": "Feet must meet the ground throughout the shot.",
+        "incorrect_feedback": "Feet must meet the ground throughout the shot.",
+        "skill_ids": [],
+        "outcome_codes": [
+          "MM12-2.1",
+          "MM12-2.2",
+          "MM12-2.3",
+          "MM12-2.4",
+          "MM12-2.5",
+          "MM12-4.1",
+          "MM12-4.2",
+          "MM12-4.4"
+        ],
+        "step_id": "step-12",
+        "lesson_id": "mm12-26-s08-d06"
+      },
+      {
+        "id": "mm12-into-the-world-v1:k08",
+        "type": "multiple_choice",
+        "prompt": "Which lighting features should agree between actor and world?",
+        "choices": [
+          "Only frame count",
+          "Direction, shadow, brightness and colour temperature",
+          "Only render resolution",
+          "Only object names"
+        ],
+        "correct_index": 1,
+        "points": 1,
+        "correct_feedback": "Lighting direction and colour must be matched before and after shooting.",
+        "incorrect_feedback": "Lighting direction and colour must be matched before and after shooting.",
+        "skill_ids": [],
+        "outcome_codes": [
+          "MM12-2.1",
+          "MM12-2.2",
+          "MM12-2.3",
+          "MM12-2.4",
+          "MM12-2.5",
+          "MM12-4.1",
+          "MM12-4.2",
+          "MM12-4.4"
+        ],
+        "step_id": "step-4",
+        "lesson_id": "mm12-26-s08-d02"
+      }
+    ]
+  },
+  "evidence_questions": [
+    {
+      "id": "mm12-into-the-world-v1:e01",
+      "prompt": "What made your world believable, and what was its light direction?",
+      "step_id": "step-17",
+      "lesson_id": "mm12-26-s08-d09",
+      "skill_ids": [
+        "BL-CAM-01",
+        "BL-LGT-01",
+        "BL-RND-01",
+        "GD-AUD-01",
+        "GD-HIE-01",
+        "GD-CRIT-01",
+        "PS-LGT-02"
+      ],
+      "outcome_codes": [
+        "MM12-2.1",
+        "MM12-2.2",
+        "MM12-2.3",
+        "MM12-2.4",
+        "MM12-2.5",
+        "MM12-4.1",
+        "MM12-4.2",
+        "MM12-4.4"
+      ]
+    },
+    {
+      "id": "mm12-into-the-world-v1:e02",
+      "prompt": "What was your solve error, and what did you do to lower it?",
+      "step_id": "step-17",
+      "lesson_id": "mm12-26-s08-d09",
+      "skill_ids": [
+        "BL-CAM-01",
+        "BL-LGT-01",
+        "BL-RND-01",
+        "GD-AUD-01",
+        "GD-HIE-01",
+        "GD-CRIT-01",
+        "PS-LGT-02"
+      ],
+      "outcome_codes": [
+        "MM12-2.1",
+        "MM12-2.2",
+        "MM12-2.3",
+        "MM12-2.4",
+        "MM12-2.5",
+        "MM12-4.1",
+        "MM12-4.2",
+        "MM12-4.4"
+      ]
+    },
+    {
+      "id": "mm12-into-the-world-v1:e03",
+      "prompt": "What did the garbage matte remove that the keyer could not?",
+      "step_id": "step-17",
+      "lesson_id": "mm12-26-s08-d09",
+      "skill_ids": [
+        "BL-CAM-01",
+        "BL-LGT-01",
+        "BL-RND-01",
+        "GD-AUD-01",
+        "GD-HIE-01",
+        "GD-CRIT-01",
+        "PS-LGT-02"
+      ],
+      "outcome_codes": [
+        "MM12-2.1",
+        "MM12-2.2",
+        "MM12-2.3",
+        "MM12-2.4",
+        "MM12-2.5",
+        "MM12-4.1",
+        "MM12-4.2",
+        "MM12-4.4"
+      ]
+    },
+    {
+      "id": "mm12-into-the-world-v1:e04",
+      "prompt": "How did you keep the feet on the ground?",
+      "step_id": "step-17",
+      "lesson_id": "mm12-26-s08-d09",
+      "skill_ids": [
+        "BL-CAM-01",
+        "BL-LGT-01",
+        "BL-RND-01",
+        "GD-AUD-01",
+        "GD-HIE-01",
+        "GD-CRIT-01",
+        "PS-LGT-02"
+      ],
+      "outcome_codes": [
+        "MM12-2.1",
+        "MM12-2.2",
+        "MM12-2.3",
+        "MM12-2.4",
+        "MM12-2.5",
+        "MM12-4.1",
+        "MM12-4.2",
+        "MM12-4.4"
+      ]
+    },
+    {
+      "id": "mm12-into-the-world-v1:e05",
+      "prompt": "What did the client card change, and which stage did you edit?",
+      "step_id": "step-17",
+      "lesson_id": "mm12-26-s08-d09",
+      "skill_ids": [
+        "BL-CAM-01",
+        "BL-LGT-01",
+        "BL-RND-01",
+        "GD-AUD-01",
+        "GD-HIE-01",
+        "GD-CRIT-01",
+        "PS-LGT-02"
+      ],
+      "outcome_codes": [
+        "MM12-2.1",
+        "MM12-2.2",
+        "MM12-2.3",
+        "MM12-2.4",
+        "MM12-2.5",
+        "MM12-4.1",
+        "MM12-4.2",
+        "MM12-4.4"
+      ]
+    }
+  ],
+  "skill_reflection": {
+    "technical_skills": [
+      {
+        "id": "BL-CAM-01",
+        "label": "BL-CAM-01"
+      },
+      {
+        "id": "BL-LGT-01",
+        "label": "BL-LGT-01"
+      },
+      {
+        "id": "BL-RND-01",
+        "label": "BL-RND-01"
+      },
+      {
+        "id": "PS-LGT-02",
+        "label": "PS-LGT-02"
+      }
+    ],
+    "design_skills": [
+      {
+        "id": "GD-AUD-01",
+        "label": "GD-AUD-01"
+      },
+      {
+        "id": "GD-HIE-01",
+        "label": "GD-HIE-01"
+      },
+      {
+        "id": "GD-CRIT-01",
+        "label": "GD-CRIT-01"
+      }
+    ],
+    "independence_options": [
+      "Followed the example closely",
+      "Needed some prompts/checkpoints",
+      "Worked independently",
+      "Adapted or extended the skill"
+    ]
+  },
+  "transfer": {
+    "id": "mm12-into-the-world-v1:next-target",
+    "prompt": "Name one skill, locate evidence in your shot files, explain its use, and choose your next target.",
+    "skill_ids": [
+      "BL-CAM-01",
+      "BL-LGT-01",
+      "BL-RND-01",
+      "GD-AUD-01",
+      "GD-HIE-01",
+      "GD-CRIT-01",
+      "PS-LGT-02"
+    ],
+    "outcome_codes": [
+      "MM12-2.1",
+      "MM12-2.2",
+      "MM12-2.3",
+      "MM12-2.4",
+      "MM12-2.5",
+      "MM12-4.1",
+      "MM12-4.2",
+      "MM12-4.4"
+    ],
+    "step_id": "step-17",
+    "lesson_id": "mm12-26-s08-d09",
+    "teacher_verification_required": true
+  },
+  "teacher_evidence": {
+    "owner_only": true,
+    "checkpoints": [
+      {
+        "evidence_id": "mm12-into-the-world-v1:step-17",
+        "evidence_type": "Product",
+        "title": "Step 17: Practical check: the client’s change",
+        "skill_ids": [
+          "BL-CAM-01",
+          "BL-LGT-01",
+          "BL-RND-01",
+          "GD-AUD-01",
+          "GD-HIE-01",
+          "GD-CRIT-01",
+          "PS-LGT-02"
+        ],
+        "outcome_codes": [
+          "MM12-2.1",
+          "MM12-2.2",
+          "MM12-2.3",
+          "MM12-2.4",
+          "MM12-2.5",
+          "MM12-4.1",
+          "MM12-4.2",
+          "MM12-4.4"
+        ],
+        "step_id": "step-17",
+        "lesson_id": "mm12-26-s08-d09",
+        "practical_check": true
+      },
+      {
+        "evidence_id": "mm12-into-the-world-v1:step-18",
+        "evidence_type": "Conversation",
+        "title": "Step 18: Render the final shot and defend it",
+        "skill_ids": [
+          "BL-CAM-01",
+          "BL-LGT-01",
+          "BL-RND-01",
+          "GD-AUD-01",
+          "GD-HIE-01",
+          "GD-CRIT-01",
+          "PS-LGT-02"
+        ],
+        "outcome_codes": [
+          "MM12-2.1",
+          "MM12-2.2",
+          "MM12-2.3",
+          "MM12-2.4",
+          "MM12-2.5",
+          "MM12-4.1",
+          "MM12-4.2",
+          "MM12-4.4"
+        ],
+        "step_id": "step-18",
+        "lesson_id": "mm12-26-s08-d10",
+        "practical_check": false
+      }
+    ]
+  }
+}

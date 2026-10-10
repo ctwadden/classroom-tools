@@ -1,0 +1,1000 @@
+{
+  "schema_version": "truck-video.1",
+  "project_id": "PS-CEREAL-BOX",
+  "video_title": "DINO LOOPS - Cereal Box Packaging — Video Companion",
+  "version": "1.0.0",
+  "provider": "YouTube / Scribe It",
+  "status": "awaiting_recording",
+  "video_url": null,
+  "youtube_video_id": null,
+  "chapters": [
+    {
+      "chapter_id": "VID-CB-S01",
+      "project_step_id": "CB-S01",
+      "anchor": "step-1",
+      "title": "Read the design before building it",
+      "planned_start": null,
+      "actual_start": null,
+      "actual_end": null,
+      "skill_ids": [
+        "PS-FND-01",
+        "PS-SEL-01",
+        "PS-LAY-01",
+        "PS-BLD-02",
+        "PS-LGT-02",
+        "PS-TYP-01",
+        "PS-SHP-01",
+        "PS-OUT-01",
+        "PS-DES-01"
+      ],
+      "design_skill_ids": [
+        "GD-COL-01",
+        "GD-TYP-01",
+        "GD-AUD-01",
+        "GD-CRIT-01"
+      ],
+      "evidence_ids": [],
+      "refresher_links": []
+    },
+    {
+      "chapter_id": "VID-CB-S02",
+      "project_step_id": "CB-S02",
+      "anchor": "step-2",
+      "title": "Create the front-panel document",
+      "planned_start": null,
+      "actual_start": null,
+      "actual_end": null,
+      "skill_ids": [
+        "PS-FND-01",
+        "PS-SEL-01",
+        "PS-LAY-01",
+        "PS-BLD-02"
+      ],
+      "design_skill_ids": [
+        "GD-COL-01",
+        "GD-CRIT-01"
+      ],
+      "evidence_ids": [],
+      "refresher_links": []
+    },
+    {
+      "chapter_id": "VID-CB-S03",
+      "project_step_id": "CB-S03",
+      "anchor": "step-3",
+      "title": "Organize the layers and tracing guide",
+      "planned_start": null,
+      "actual_start": null,
+      "actual_end": null,
+      "skill_ids": [
+        "PS-FND-01",
+        "PS-SEL-01",
+        "PS-LAY-01",
+        "PS-TRN-01",
+        "PS-BLD-02",
+        "PS-LGT-02",
+        "PS-TYP-01",
+        "PS-SHP-01",
+        "PS-OUT-01"
+      ],
+      "design_skill_ids": [
+        "GD-COL-01",
+        "GD-TYP-01",
+        "GD-CRIT-01"
+      ],
+      "evidence_ids": [],
+      "refresher_links": []
+    },
+    {
+      "chapter_id": "VID-CB-S04",
+      "project_step_id": "CB-S04",
+      "anchor": "step-4",
+      "title": "Build the background and tabletop",
+      "planned_start": null,
+      "actual_start": null,
+      "actual_end": null,
+      "skill_ids": [
+        "PS-FND-01",
+        "PS-SEL-01",
+        "PS-LAY-01",
+        "PS-TRN-01",
+        "PS-BLD-02",
+        "PS-LGT-02",
+        "PS-SHP-01"
+      ],
+      "design_skill_ids": [
+        "GD-COL-01",
+        "GD-CRIT-01",
+        "GD-CON-01"
+      ],
+      "evidence_ids": [],
+      "refresher_links": []
+    },
+    {
+      "chapter_id": "VID-CB-S05",
+      "project_step_id": "CB-S05",
+      "anchor": "step-5",
+      "title": "Give the bowl a body",
+      "planned_start": null,
+      "actual_start": null,
+      "actual_end": null,
+      "skill_ids": [
+        "PS-FND-01",
+        "PS-SEL-01",
+        "PS-LAY-01",
+        "PS-TRN-01",
+        "PS-BLD-02",
+        "PS-SHP-01"
+      ],
+      "design_skill_ids": [
+        "GD-COL-01",
+        "GD-CRIT-01",
+        "GD-CON-01"
+      ],
+      "evidence_ids": [],
+      "refresher_links": []
+    },
+    {
+      "chapter_id": "VID-CB-S06",
+      "project_step_id": "CB-S06",
+      "anchor": "step-6",
+      "title": "Build a rim from nested ellipses",
+      "planned_start": null,
+      "actual_start": null,
+      "actual_end": null,
+      "skill_ids": [
+        "PS-FND-01",
+        "PS-SEL-01",
+        "PS-LAY-01",
+        "PS-BLD-02",
+        "PS-LGT-02",
+        "PS-SHP-01"
+      ],
+      "design_skill_ids": [
+        "GD-CRIT-01",
+        "GD-CON-01"
+      ],
+      "evidence_ids": [],
+      "refresher_links": []
+    },
+    {
+      "chapter_id": "VID-CB-S07",
+      "project_step_id": "CB-S07",
+      "anchor": "step-7",
+      "title": "Add milk with a soft depth cue",
+      "planned_start": null,
+      "actual_start": null,
+      "actual_end": null,
+      "skill_ids": [
+        "PS-FND-01",
+        "PS-SEL-01",
+        "PS-LAY-01",
+        "PS-TRN-01",
+        "PS-BLD-02",
+        "PS-LGT-02",
+        "PS-TYP-01",
+        "PS-SHP-01"
+      ],
+      "design_skill_ids": [
+        "GD-TYP-01",
+        "GD-CRIT-01",
+        "GD-CON-01"
+      ],
+      "evidence_ids": [],
+      "refresher_links": []
+    },
+    {
+      "chapter_id": "VID-CB-S08",
+      "project_step_id": "CB-S08",
+      "anchor": "step-8",
+      "title": "Draw the main milk splash",
+      "planned_start": null,
+      "actual_start": null,
+      "actual_end": null,
+      "skill_ids": [
+        "PS-FND-01",
+        "PS-SEL-01",
+        "PS-LAY-01",
+        "PS-SEL-02",
+        "PS-TRN-01",
+        "PS-BLD-02",
+        "PS-SHP-01"
+      ],
+      "design_skill_ids": [
+        "GD-CRIT-01",
+        "GD-CON-01"
+      ],
+      "evidence_ids": [],
+      "refresher_links": []
+    },
+    {
+      "chapter_id": "VID-CB-S09",
+      "project_step_id": "CB-S09",
+      "anchor": "step-9",
+      "title": "Build a small family of droplets",
+      "planned_start": null,
+      "actual_start": null,
+      "actual_end": null,
+      "skill_ids": [
+        "PS-FND-01",
+        "PS-SEL-01",
+        "PS-LAY-01",
+        "PS-TRN-01",
+        "PS-BLD-02",
+        "PS-SHP-01"
+      ],
+      "design_skill_ids": [
+        "GD-CRIT-01",
+        "GD-REP-01"
+      ],
+      "evidence_ids": [],
+      "refresher_links": []
+    },
+    {
+      "chapter_id": "VID-CB-S10",
+      "project_step_id": "CB-S10",
+      "anchor": "step-10",
+      "title": "Make a ring with a real hole",
+      "planned_start": null,
+      "actual_start": null,
+      "actual_end": null,
+      "skill_ids": [
+        "PS-FND-01",
+        "PS-SEL-01",
+        "PS-LAY-01",
+        "PS-TRN-01",
+        "PS-BLD-02",
+        "PS-SHP-01"
+      ],
+      "design_skill_ids": [
+        "GD-COL-01",
+        "GD-CRIT-01"
+      ],
+      "evidence_ids": [
+        "CB-OBS-01"
+      ],
+      "refresher_links": []
+    },
+    {
+      "chapter_id": "VID-CB-S11",
+      "project_step_id": "CB-S11",
+      "anchor": "step-11",
+      "title": "Light the ring with a bevel",
+      "planned_start": null,
+      "actual_start": null,
+      "actual_end": null,
+      "skill_ids": [
+        "PS-FND-01",
+        "PS-SEL-01",
+        "PS-LAY-01",
+        "PS-BLD-02",
+        "PS-LGT-02",
+        "PS-EFX-01"
+      ],
+      "design_skill_ids": [
+        "GD-COL-01",
+        "GD-MET-01",
+        "GD-CRIT-01"
+      ],
+      "evidence_ids": [],
+      "refresher_links": []
+    },
+    {
+      "chapter_id": "VID-CB-S12",
+      "project_step_id": "CB-S12",
+      "anchor": "step-12",
+      "title": "Add editable grain, not coloured static",
+      "planned_start": null,
+      "actual_start": null,
+      "actual_end": null,
+      "skill_ids": [
+        "PS-FND-01",
+        "PS-SEL-01",
+        "PS-LAY-01",
+        "PS-SMO-01",
+        "PS-TRN-01",
+        "PS-BLD-02",
+        "PS-LGT-02",
+        "PS-FLT-01"
+      ],
+      "design_skill_ids": [
+        "GD-COL-01",
+        "GD-CRIT-01",
+        "GD-CON-01"
+      ],
+      "evidence_ids": [],
+      "refresher_links": []
+    },
+    {
+      "chapter_id": "VID-CB-S13",
+      "project_step_id": "CB-S13",
+      "anchor": "step-13",
+      "title": "Wrap the construction in a Smart Object",
+      "planned_start": null,
+      "actual_start": null,
+      "actual_end": null,
+      "skill_ids": [
+        "PS-FND-01",
+        "PS-SEL-01",
+        "PS-LAY-01",
+        "PS-SMO-01",
+        "PS-TRN-02",
+        "PS-BLD-02",
+        "PS-FLT-01",
+        "PS-TYP-01",
+        "PS-EFX-01"
+      ],
+      "design_skill_ids": [
+        "GD-COL-01",
+        "GD-TYP-01",
+        "GD-CRIT-01"
+      ],
+      "evidence_ids": [],
+      "refresher_links": []
+    },
+    {
+      "chapter_id": "VID-CB-S14",
+      "project_step_id": "CB-S14",
+      "anchor": "step-14",
+      "title": "Make the outline slightly irregular",
+      "planned_start": null,
+      "actual_start": null,
+      "actual_end": null,
+      "skill_ids": [
+        "PS-FND-01",
+        "PS-SEL-01",
+        "PS-LAY-01",
+        "PS-SMO-01",
+        "PS-TRN-02",
+        "PS-BLD-02",
+        "PS-LGT-02",
+        "PS-FLT-01"
+      ],
+      "design_skill_ids": [
+        "GD-CRIT-01",
+        "GD-REP-01"
+      ],
+      "evidence_ids": [],
+      "refresher_links": []
+    },
+    {
+      "chapter_id": "VID-CB-S15",
+      "project_step_id": "CB-S15",
+      "anchor": "step-15",
+      "title": "Bring an editable master into the cover",
+      "planned_start": null,
+      "actual_start": null,
+      "actual_end": null,
+      "skill_ids": [
+        "PS-FND-01",
+        "PS-SEL-01",
+        "PS-LAY-01",
+        "PS-SMO-01",
+        "PS-TRN-01",
+        "PS-BLD-02",
+        "PS-TYP-01"
+      ],
+      "design_skill_ids": [
+        "GD-COL-01",
+        "GD-TYP-01",
+        "GD-CRIT-01"
+      ],
+      "evidence_ids": [
+        "CB-OBS-02"
+      ],
+      "refresher_links": []
+    },
+    {
+      "chapter_id": "VID-CB-S16",
+      "project_step_id": "CB-S16",
+      "anchor": "step-16",
+      "title": "Finish the four-colour master set",
+      "planned_start": null,
+      "actual_start": null,
+      "actual_end": null,
+      "skill_ids": [
+        "PS-FND-01",
+        "PS-SEL-01",
+        "PS-LAY-01",
+        "PS-SMO-01",
+        "PS-TRN-01",
+        "PS-BLD-02",
+        "PS-LGT-02",
+        "PS-FLT-01",
+        "PS-TYP-01",
+        "PS-EFX-01"
+      ],
+      "design_skill_ids": [
+        "GD-COL-01",
+        "GD-TYP-01",
+        "GD-CRIT-01",
+        "GD-REP-01"
+      ],
+      "evidence_ids": [],
+      "refresher_links": []
+    },
+    {
+      "chapter_id": "VID-CB-S17",
+      "project_step_id": "CB-S17",
+      "anchor": "step-17",
+      "title": "Place the first ring on the milk plane",
+      "planned_start": null,
+      "actual_start": null,
+      "actual_end": null,
+      "skill_ids": [
+        "PS-FND-01",
+        "PS-SEL-01",
+        "PS-LAY-01",
+        "PS-SMO-01",
+        "PS-TRN-01",
+        "PS-BLD-02",
+        "PS-LGT-02",
+        "PS-TYP-01",
+        "PS-SHP-01"
+      ],
+      "design_skill_ids": [
+        "GD-TYP-01",
+        "GD-CRIT-01"
+      ],
+      "evidence_ids": [],
+      "refresher_links": []
+    },
+    {
+      "chapter_id": "VID-CB-S18",
+      "project_step_id": "CB-S18",
+      "anchor": "step-18",
+      "title": "Populate the bowl without making a grid",
+      "planned_start": null,
+      "actual_start": null,
+      "actual_end": null,
+      "skill_ids": [
+        "PS-FND-01",
+        "PS-SEL-01",
+        "PS-LAY-01",
+        "PS-SMO-01",
+        "PS-TRN-01",
+        "PS-BLD-02",
+        "PS-SHP-01"
+      ],
+      "design_skill_ids": [
+        "GD-COL-01",
+        "GD-CRIT-01",
+        "GD-REP-01"
+      ],
+      "evidence_ids": [],
+      "refresher_links": []
+    },
+    {
+      "chapter_id": "VID-CB-S19",
+      "project_step_id": "CB-S19",
+      "anchor": "step-19",
+      "title": "Paint close contact shadows",
+      "planned_start": null,
+      "actual_start": null,
+      "actual_end": null,
+      "skill_ids": [
+        "PS-FND-01",
+        "PS-SEL-01",
+        "PS-LAY-01",
+        "PS-TRN-01",
+        "PS-BLD-02",
+        "PS-LGT-02",
+        "PS-FLT-01",
+        "PS-SHP-01"
+      ],
+      "design_skill_ids": [
+        "GD-COL-01",
+        "GD-CRIT-01",
+        "GD-CON-01",
+        "GD-REP-01"
+      ],
+      "evidence_ids": [
+        "CB-OBS-03"
+      ],
+      "refresher_links": []
+    },
+    {
+      "chapter_id": "VID-CB-S20",
+      "project_step_id": "CB-S20",
+      "anchor": "step-20",
+      "title": "Sink two cereal edges into the milk",
+      "planned_start": null,
+      "actual_start": null,
+      "actual_end": null,
+      "skill_ids": [
+        "PS-FND-01",
+        "PS-SEL-01",
+        "PS-LAY-01",
+        "PS-TRN-01",
+        "PS-BLD-02",
+        "PS-LGT-02",
+        "PS-TYP-01",
+        "PS-SHP-01"
+      ],
+      "design_skill_ids": [
+        "GD-COL-01",
+        "GD-TYP-01",
+        "GD-CRIT-01"
+      ],
+      "evidence_ids": [],
+      "refresher_links": []
+    },
+    {
+      "chapter_id": "VID-CB-S21",
+      "project_step_id": "CB-S21",
+      "anchor": "step-21",
+      "title": "Send a few rings into the air",
+      "planned_start": null,
+      "actual_start": null,
+      "actual_end": null,
+      "skill_ids": [
+        "PS-FND-01",
+        "PS-SEL-01",
+        "PS-LAY-01",
+        "PS-SMO-01",
+        "PS-TRN-01",
+        "PS-BLD-02",
+        "PS-LGT-02",
+        "PS-SHP-01",
+        "PS-EFX-01"
+      ],
+      "design_skill_ids": [
+        "GD-COL-01",
+        "GD-CRIT-01",
+        "GD-CON-01"
+      ],
+      "evidence_ids": [],
+      "refresher_links": []
+    },
+    {
+      "chapter_id": "VID-CB-S22",
+      "project_step_id": "CB-S22",
+      "anchor": "step-22",
+      "title": "Build an original dinosaur silhouette",
+      "planned_start": null,
+      "actual_start": null,
+      "actual_end": null,
+      "skill_ids": [
+        "PS-FND-01",
+        "PS-SEL-01",
+        "PS-LAY-01",
+        "PS-SEL-02",
+        "PS-TRN-01",
+        "PS-BLD-02",
+        "PS-TYP-01",
+        "PS-SHP-01"
+      ],
+      "design_skill_ids": [
+        "GD-TYP-01",
+        "GD-CRIT-01"
+      ],
+      "evidence_ids": [],
+      "refresher_links": []
+    },
+    {
+      "chapter_id": "VID-CB-S23",
+      "project_step_id": "CB-S23",
+      "anchor": "step-23",
+      "title": "Shade the dinosaur and add a belly",
+      "planned_start": null,
+      "actual_start": null,
+      "actual_end": null,
+      "skill_ids": [
+        "PS-FND-01",
+        "PS-SEL-01",
+        "PS-LAY-01",
+        "PS-TRN-01",
+        "PS-BLD-02",
+        "PS-LGT-02",
+        "PS-SHP-01"
+      ],
+      "design_skill_ids": [
+        "GD-CRIT-01",
+        "GD-CON-01",
+        "GD-REP-01"
+      ],
+      "evidence_ids": [],
+      "refresher_links": []
+    },
+    {
+      "chapter_id": "VID-CB-S24",
+      "project_step_id": "CB-S24",
+      "anchor": "step-24",
+      "title": "Give the mascot a face and an arm",
+      "planned_start": null,
+      "actual_start": null,
+      "actual_end": null,
+      "skill_ids": [
+        "PS-FND-01",
+        "PS-SEL-01",
+        "PS-LAY-01",
+        "PS-SEL-02",
+        "PS-BLD-02",
+        "PS-LGT-02",
+        "PS-SHP-01"
+      ],
+      "design_skill_ids": [
+        "GD-CRIT-01",
+        "GD-CON-01"
+      ],
+      "evidence_ids": [],
+      "refresher_links": []
+    },
+    {
+      "chapter_id": "VID-CB-S25",
+      "project_step_id": "CB-S25",
+      "anchor": "step-25",
+      "title": "Ground the bowl and audit the scene",
+      "planned_start": null,
+      "actual_start": null,
+      "actual_end": null,
+      "skill_ids": [
+        "PS-FND-01",
+        "PS-SEL-01",
+        "PS-LAY-01",
+        "PS-SMO-01",
+        "PS-BLD-02",
+        "PS-LGT-02",
+        "PS-FLT-01",
+        "PS-TYP-01",
+        "PS-SHP-01"
+      ],
+      "design_skill_ids": [
+        "GD-COL-01",
+        "GD-TYP-01",
+        "GD-CRIT-01",
+        "GD-CON-01"
+      ],
+      "evidence_ids": [],
+      "refresher_links": []
+    },
+    {
+      "chapter_id": "VID-CB-S26",
+      "project_step_id": "CB-S26",
+      "anchor": "step-26",
+      "title": "Set the six live letters",
+      "planned_start": null,
+      "actual_start": null,
+      "actual_end": null,
+      "skill_ids": [
+        "PS-FND-01",
+        "PS-SEL-01",
+        "PS-LAY-01",
+        "PS-TRN-01",
+        "PS-TRN-02",
+        "PS-BLD-02",
+        "PS-TYP-01",
+        "PS-DES-01"
+      ],
+      "design_skill_ids": [
+        "GD-COL-01",
+        "GD-TYP-01",
+        "GD-BRD-01",
+        "GD-CRIT-01",
+        "GD-REP-01"
+      ],
+      "evidence_ids": [],
+      "refresher_links": []
+    },
+    {
+      "chapter_id": "VID-CB-S27",
+      "project_step_id": "CB-S27",
+      "anchor": "step-27",
+      "title": "Give the letters a controlled depth edge",
+      "planned_start": null,
+      "actual_start": null,
+      "actual_end": null,
+      "skill_ids": [
+        "PS-FND-01",
+        "PS-SEL-01",
+        "PS-LAY-01",
+        "PS-TRN-01",
+        "PS-BLD-02",
+        "PS-LGT-02",
+        "PS-FLT-01",
+        "PS-TYP-01",
+        "PS-SHP-01",
+        "PS-EFX-01",
+        "PS-DES-01"
+      ],
+      "design_skill_ids": [
+        "GD-COL-01",
+        "GD-TYP-01",
+        "GD-BRD-01",
+        "GD-CRIT-01",
+        "GD-CON-01",
+        "GD-REP-01"
+      ],
+      "evidence_ids": [],
+      "refresher_links": []
+    },
+    {
+      "chapter_id": "VID-CB-S28",
+      "project_step_id": "CB-S28",
+      "anchor": "step-28",
+      "title": "Replace all three O letters with cereal",
+      "planned_start": null,
+      "actual_start": null,
+      "actual_end": null,
+      "skill_ids": [
+        "PS-FND-01",
+        "PS-SEL-01",
+        "PS-LAY-01",
+        "PS-TRN-01",
+        "PS-BLD-02",
+        "PS-LGT-02",
+        "PS-TYP-01",
+        "PS-EFX-01",
+        "PS-DES-01"
+      ],
+      "design_skill_ids": [
+        "GD-COL-01",
+        "GD-TYP-01",
+        "GD-BRD-01",
+        "GD-CRIT-01"
+      ],
+      "evidence_ids": [],
+      "refresher_links": []
+    },
+    {
+      "chapter_id": "VID-CB-S29",
+      "project_step_id": "CB-S29",
+      "anchor": "step-29",
+      "title": "Unify the wordmark with a backing panel",
+      "planned_start": null,
+      "actual_start": null,
+      "actual_end": null,
+      "skill_ids": [
+        "PS-FND-01",
+        "PS-SEL-01",
+        "PS-LAY-01",
+        "PS-TRN-01",
+        "PS-BLD-02",
+        "PS-LGT-02",
+        "PS-TYP-01",
+        "PS-DES-01"
+      ],
+      "design_skill_ids": [
+        "GD-ALN-01",
+        "GD-TYP-01",
+        "GD-BRD-01",
+        "GD-CRIT-01"
+      ],
+      "evidence_ids": [],
+      "refresher_links": []
+    },
+    {
+      "chapter_id": "VID-CB-S30",
+      "project_step_id": "CB-S30",
+      "anchor": "step-30",
+      "title": "Add copy with a clear hierarchy",
+      "planned_start": null,
+      "actual_start": null,
+      "actual_end": null,
+      "skill_ids": [
+        "PS-FND-01",
+        "PS-SEL-01",
+        "PS-LAY-01",
+        "PS-TRN-01",
+        "PS-BLD-02",
+        "PS-RET-01",
+        "PS-TYP-01",
+        "PS-SHP-01",
+        "PS-DES-01"
+      ],
+      "design_skill_ids": [
+        "GD-HIE-01",
+        "GD-ALN-01",
+        "GD-TYP-01",
+        "GD-BRD-01",
+        "GD-CRIT-01"
+      ],
+      "evidence_ids": [],
+      "refresher_links": []
+    },
+    {
+      "chapter_id": "VID-CB-S31",
+      "project_step_id": "CB-S31",
+      "anchor": "step-31",
+      "title": "Add one restrained finishing highlight",
+      "planned_start": null,
+      "actual_start": null,
+      "actual_end": null,
+      "skill_ids": [
+        "PS-FND-01",
+        "PS-SEL-01",
+        "PS-LAY-01",
+        "PS-SEL-02",
+        "PS-BLD-02",
+        "PS-LGT-02",
+        "PS-FLT-01",
+        "PS-TYP-01",
+        "PS-SHP-01",
+        "PS-OUT-01"
+      ],
+      "design_skill_ids": [
+        "GD-TYP-01",
+        "GD-CRIT-01",
+        "GD-REP-01"
+      ],
+      "evidence_ids": [],
+      "refresher_links": []
+    },
+    {
+      "chapter_id": "VID-CB-S32",
+      "project_step_id": "CB-S32",
+      "anchor": "step-32",
+      "title": "Check colour without tinting the milk",
+      "planned_start": null,
+      "actual_start": null,
+      "actual_end": null,
+      "skill_ids": [
+        "PS-FND-01",
+        "PS-SEL-01",
+        "PS-LAY-01",
+        "PS-SMO-01",
+        "PS-BLD-02",
+        "PS-LGT-02",
+        "PS-TYP-01",
+        "PS-OUT-01"
+      ],
+      "design_skill_ids": [
+        "GD-COL-01",
+        "GD-TYP-01",
+        "GD-CRIT-01",
+        "GD-CON-01"
+      ],
+      "evidence_ids": [],
+      "refresher_links": []
+    },
+    {
+      "chapter_id": "VID-CB-S33",
+      "project_step_id": "CB-S33",
+      "anchor": "step-33",
+      "title": "Run the five-second readability test",
+      "planned_start": null,
+      "actual_start": null,
+      "actual_end": null,
+      "skill_ids": [
+        "PS-FND-01",
+        "PS-SEL-01",
+        "PS-LAY-01",
+        "PS-TRN-01",
+        "PS-BLD-02",
+        "PS-TYP-01",
+        "PS-OUT-01",
+        "PS-DES-01"
+      ],
+      "design_skill_ids": [
+        "GD-HIE-01",
+        "GD-ALN-01",
+        "GD-TYP-01",
+        "GD-CRIT-01"
+      ],
+      "evidence_ids": [
+        "CB-CON-01"
+      ],
+      "refresher_links": []
+    },
+    {
+      "chapter_id": "VID-CB-S34",
+      "project_step_id": "CB-S34",
+      "anchor": "step-34",
+      "title": "Inspect edges, holes and layer structure",
+      "planned_start": null,
+      "actual_start": null,
+      "actual_end": null,
+      "skill_ids": [
+        "PS-FND-01",
+        "PS-SEL-01",
+        "PS-LAY-01",
+        "PS-SMO-01",
+        "PS-BLD-02",
+        "PS-LGT-02",
+        "PS-RET-01",
+        "PS-TYP-01",
+        "PS-SHP-01",
+        "PS-OUT-01"
+      ],
+      "design_skill_ids": [
+        "GD-COL-01",
+        "GD-TYP-01",
+        "GD-CRIT-01"
+      ],
+      "evidence_ids": [
+        "CB-PRO-01"
+      ],
+      "refresher_links": []
+    },
+    {
+      "chapter_id": "VID-CB-S35",
+      "project_step_id": "CB-S35",
+      "anchor": "step-35",
+      "title": "Export the front and reopen it",
+      "planned_start": null,
+      "actual_start": null,
+      "actual_end": null,
+      "skill_ids": [
+        "PS-FND-01",
+        "PS-SEL-01",
+        "PS-LAY-01",
+        "PS-TRN-01",
+        "PS-BLD-02",
+        "PS-OUT-01"
+      ],
+      "design_skill_ids": [
+        "GD-COL-01",
+        "GD-CRIT-01"
+      ],
+      "evidence_ids": [
+        "CB-PRO-02",
+        "CB-PRO-03"
+      ],
+      "refresher_links": []
+    },
+    {
+      "chapter_id": "VID-CB-S36",
+      "project_step_id": "CB-S36",
+      "anchor": "step-36",
+      "title": "Submit evidence and explain your decisions",
+      "planned_start": null,
+      "actual_start": null,
+      "actual_end": null,
+      "skill_ids": [
+        "PS-FND-01",
+        "PS-SEL-01",
+        "PS-LAY-01",
+        "PS-BLD-02",
+        "PS-LGT-02",
+        "PS-OUT-01",
+        "PS-DES-01"
+      ],
+      "design_skill_ids": [
+        "GD-HIE-01",
+        "GD-CRIT-01"
+      ],
+      "evidence_ids": [
+        "CB-CON-01",
+        "CB-CON-02"
+      ],
+      "refresher_links": []
+    },
+    {
+      "chapter_id": "VID-CB-S37",
+      "project_step_id": "CB-S37",
+      "anchor": "step-37",
+      "title": "Prepare an optional presentation mockup",
+      "planned_start": null,
+      "actual_start": null,
+      "actual_end": null,
+      "skill_ids": [
+        "PS-FND-01",
+        "PS-SEL-01",
+        "PS-LAY-01",
+        "PS-SMO-01",
+        "PS-TRN-01",
+        "PS-BLD-02"
+      ],
+      "design_skill_ids": [
+        "GD-CRIT-01"
+      ],
+      "evidence_ids": [],
+      "refresher_links": []
+    },
+    {
+      "chapter_id": "VID-CB-S38",
+      "project_step_id": "CB-S38",
+      "anchor": "step-38",
+      "title": "Fit the front to four exact corners",
+      "planned_start": null,
+      "actual_start": null,
+      "actual_end": null,
+      "skill_ids": [
+        "PS-FND-01",
+        "PS-SEL-01",
+        "PS-LAY-01",
+        "PS-SMO-01",
+        "PS-TRN-01",
+        "PS-TRN-02",
+        "PS-BLD-02",
+        "PS-TYP-01",
+        "PS-OUT-01"

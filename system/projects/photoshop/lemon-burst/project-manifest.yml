@@ -1,0 +1,63 @@
+id: PS-LEMON-BURST
+title: Lemon Burst
+domain: Photoshop
+status: release_candidate_unverified
+truck_standard_version: 2.0+assessment
+courses:
+- MM12
+- COM11
+outcomes:
+- MM12 1.1
+- MM12 1.3
+- MM12 1.4
+- MM12 1.5
+- MM12 4.1
+- CT11 4.1
+- CT11 4.2
+- CT11 4.3
+- CT11 4.4
+- CT11 4.5
+technical_skills:
+- PS-SEL-02
+- PS-LAY-01
+- PS-TRN-02
+- PS-TON-01
+- PS-LGT-02
+- PS-FLT-01
+- PS-OUT-01
+design_skills:
+- GD-HIE-01
+- GD-COL-01
+- GD-TYP-01
+- GD-BRD-01
+- GD-AUD-01
+- GD-CRIT-01
+assessment:
+  forms_spec: assessment/forms-spec.json
+  student_launcher: https://script.google.com/a/macros/gnspes.ca/s/AKfycbxqHbAwEwbvdMrOGY4eP4Yu-z8PXqMsA-MfMGBFoTA5CoDbOA4sUv1LsXbYfFMWmrcP/exec?project=PS-LEMON-BURST&type=student
+industry_connection:
+  title: Fanta Citrus key visual · bright fruit, burst, splash and product hierarchy
+  url: https://www.behance.net/gallery/9064097/Fanta-Citrus
+qa:
+  source_traceability: pass_or_preserved_from_existing
+  assets: existing_pack_requires_rights_review_where_not_teacher_owned
+  technical_preflight: required_on_school_installation
+  html_pdf_structure: release_candidate
+  truck_standard_layout_lock: true
+  video_alignment_metadata: true
+  verified: false
+resources:
+  workbook_html: workbook.html
+  step_map: Step_Map.csv
+  video_manifest: video-manifest.json
+  video_contract: ../../../integration/VIDEO_WORKBOOK_CONTRACT.md
+steps:
+  core_count: 14
+  project_step_id_range: LB-S01..LB-S14
+  anchor_range: '#step-1..#step-14'
+video:
+  status: awaiting_recording
+  provider: Scribe It / YouTube
+  manifest: video-manifest.json
+  contract: ../../../integration/VIDEO_WORKBOOK_CONTRACT.md
+  video_url: null

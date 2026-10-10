@@ -1,0 +1,22 @@
+project_id,canonical_id,step_id,form_type,evidence_type,skill_ids,outcome_codes,route
+mm12-design-story-v1,MM12-DESIGN-K01,01-poster-promise,student,Knowledge,mm12-skill-hierarchy,MM12-1.4;MM12-1.5,Knowledge check
+mm12-design-story-v1,MM12-DESIGN-K02,01-poster-promise,student,Knowledge,mm12-skill-hierarchy,MM12-1.4;MM12-1.5,Knowledge check
+mm12-design-story-v1,MM12-DESIGN-K03,01-poster-promise,student,Knowledge,mm12-skill-hierarchy,MM12-1.4;MM12-1.5,Knowledge check
+mm12-design-story-v1,MM12-DESIGN-K04,02-believable-composite,student,Knowledge,mm12-skill-layers;mm12-skill-integration,MM12-1.1;MM12-1.3,Knowledge check
+mm12-design-story-v1,MM12-DESIGN-K05,01-poster-promise,student,Knowledge,mm12-skill-meaning,MM12-1.2,Knowledge check
+mm12-design-story-v1,MM12-DESIGN-K06,03-art-director,student,Knowledge,mm12-skill-delivery,MM12-1.3,Knowledge check
+mm12-design-story-v1,MM12-DESIGN-LAB01,design-lab,student,Reflection,mm12-skill-hierarchy,MM12-1.4;MM12-1.5,Design Lab reflection
+mm12-design-story-v1,MM12-DESIGN-LAB02,design-lab,student,Reflection,mm12-skill-delivery,MM12-1.3,Design Lab reflection
+mm12-design-story-v1,MM12-DESIGN-LAB03,design-lab,student,Reflection,mm12-skill-hierarchy,MM12-1.4;MM12-1.5,Design Lab reflection
+mm12-design-story-v1,MM12-DESIGN-PROP01,proposal,student,Reflection,mm12-skill-delivery,MM12-1.3,Proposal and planning
+mm12-design-story-v1,MM12-DESIGN-PROP02,proposal,student,Reflection,mm12-skill-hierarchy;mm12-skill-meaning,MM12-1.2;MM12-1.4;MM12-1.5,Proposal and planning
+mm12-design-story-v1,MM12-DESIGN-FINAL00,03-art-director,student,Reflection,mm12-skill-delivery;mm12-skill-layers,MM12-1.1;MM12-1.3,Final reflection and evidence handoff
+mm12-design-story-v1,MM12-DESIGN-FINAL01,03-art-director,student,Reflection,mm12-skill-hierarchy,MM12-1.4;MM12-1.5,Final reflection and evidence handoff
+mm12-design-story-v1,MM12-DESIGN-FINAL02,02-believable-composite,student,Reflection,mm12-skill-layers;mm12-skill-integration,MM12-1.1;MM12-1.3,Final reflection and evidence handoff
+mm12-design-story-v1,MM12-DESIGN-FINAL03,03-art-director,student,Reflection,mm12-skill-delivery,MM12-1.3,Final reflection and evidence handoff
+mm12-design-story-v1,MM12-DESIGN-O01,02-believable-composite,teacher,Observation,mm12-skill-layers,MM12-1.1;MM12-1.3,private teacher capture
+mm12-design-story-v1,MM12-DESIGN-P01,02-believable-composite,teacher,Product,mm12-skill-integration,MM12-1.1;MM12-1.4,private teacher capture
+mm12-design-story-v1,MM12-DESIGN-P02,01-poster-promise,teacher,Product,mm12-skill-hierarchy,MM12-1.4;MM12-1.5,private teacher capture
+mm12-design-story-v1,MM12-DESIGN-C01,01-poster-promise,teacher,Conversation,mm12-skill-meaning,MM12-1.2,private teacher capture
+mm12-design-story-v1,MM12-DESIGN-P03,03-art-director,teacher,Product,mm12-skill-delivery,MM12-1.3,private teacher capture
+mm12-design-story-v1,MM12-DESIGN-C02,03-art-director,teacher,Conversation,mm12-skill-hierarchy,MM12-1.4;MM12-1.5,private teacher capture

@@ -1,0 +1,4208 @@
+{
+  "schema_version": "1.0",
+  "plan_version": "2026.09.22-aligned-1",
+  "courses": {
+    "MM12": "Multimedia 12",
+    "COM11": "Communications Technology 11",
+    "IBDS": "IB Digital Society SL"
+  },
+  "outcomes": [
+    {
+      "course_id": "COM11",
+      "outcome_id": "communications-technology-11-1-1",
+      "outcome_code": "COM11-1-1",
+      "ps_outcome_code": "CT11-1-1",
+      "display_code": "1.1",
+      "outcome_title": "History of communication",
+      "active": "true",
+      "aliases": [
+        "communications-technology-11-1-1"
+      ],
+      "authority": "Nova Scotia curriculum code; short planning title",
+      "active_in_plan": true
+    },
+    {
+      "course_id": "COM11",
+      "outcome_id": "communications-technology-11-1-2",
+      "outcome_code": "COM11-1-2",
+      "ps_outcome_code": "CT11-1-2",
+      "display_code": "1.2",
+      "outcome_title": "Career strengths (comm tech)",
+      "active": "true",
+      "aliases": [
+        "communications-technology-11-1-2"
+      ],
+      "authority": "Nova Scotia curriculum code; short planning title",
+      "active_in_plan": true
+    },
+    {
+      "course_id": "COM11",
+      "outcome_id": "communications-technology-11-1-3",
+      "outcome_code": "COM11-1-3",
+      "ps_outcome_code": "CT11-1-3",
+      "display_code": "1.3",
+      "outcome_title": "Professional portfolio",
+      "active": "true",
+      "aliases": [
+        "communications-technology-11-1-3"
+      ],
+      "authority": "Nova Scotia curriculum code; short planning title",
+      "active_in_plan": true
+    },
+    {
+      "course_id": "COM11",
+      "outcome_id": "communications-technology-11-1-4",
+      "outcome_code": "COM11-1-4",
+      "ps_outcome_code": "CT11-1-4",
+      "display_code": "1.4",
+      "outcome_title": "Persuade / entertain an audience",
+      "active": "true",
+      "aliases": [
+        "communications-technology-11-1-4"
+      ],
+      "authority": "Nova Scotia curriculum code; short planning title",
+      "active_in_plan": true
+    },
+    {
+      "course_id": "COM11",
+      "outcome_id": "communications-technology-11-1-5",
+      "outcome_code": "COM11-1-5",
+      "ps_outcome_code": "CT11-1-5",
+      "display_code": "1.5",
+      "outcome_title": "Social & environmental impact",
+      "active": "true",
+      "aliases": [
+        "communications-technology-11-1-5"
+      ],
+      "authority": "Nova Scotia curriculum code; short planning title",
+      "active_in_plan": true
+    },
+    {
+      "course_id": "COM11",
+      "outcome_id": "communications-technology-11-1-6",
+      "outcome_code": "COM11-1-6",
+      "ps_outcome_code": "CT11-1-6",
+      "display_code": "1.6",
+      "outcome_title": "Life-cycle analysis",
+      "active": "true",
+      "aliases": [
+        "communications-technology-11-1-6"
+      ],
+      "authority": "Nova Scotia curriculum code; short planning title",
+      "active_in_plan": true
+    },
+    {
+      "course_id": "COM11",
+      "outcome_id": "communications-technology-11-1-7",
+      "outcome_code": "COM11-1-7",
+      "ps_outcome_code": "CT11-1-7",
+      "display_code": "1.7",
+      "outcome_title": "Safe practices",
+      "active": "true",
+      "aliases": [
+        "communications-technology-11-1-7"
+      ],
+      "authority": "Nova Scotia curriculum code; short planning title",
+      "active_in_plan": true
+    },
+    {
+      "course_id": "COM11",
+      "outcome_id": "communications-technology-11-2-1",
+      "outcome_code": "COM11-2-1",
+      "ps_outcome_code": "CT11-2-1",
+      "display_code": "2.1",
+      "outcome_title": "Camera operation & care",
+      "active": "true",
+      "aliases": [
+        "communications-technology-11-2-1"
+      ],
+      "authority": "Nova Scotia curriculum code; short planning title",
+      "active_in_plan": true
+    },
+    {
+      "course_id": "COM11",
+      "outcome_id": "communications-technology-11-2-2",
+      "outcome_code": "COM11-2-2",
+      "ps_outcome_code": "CT11-2-2",
+      "display_code": "2.2",
+      "outcome_title": "Photo technique & composition",
+      "active": "true",
+      "aliases": [
+        "communications-technology-11-2-2"
+      ],
+      "authority": "Nova Scotia curriculum code; short planning title",
+      "active_in_plan": true
+    },
+    {
+      "course_id": "COM11",
+      "outcome_id": "communications-technology-11-2-3",
+      "outcome_code": "COM11-2-3",
+      "ps_outcome_code": "CT11-2-3",
+      "display_code": "2.3",
+      "outcome_title": "Scene lighting",
+      "active": "true",
+      "aliases": [
+        "communications-technology-11-2-3"
+      ],
+      "authority": "Nova Scotia curriculum code; short planning title",
+      "active_in_plan": true
+    },
+    {
+      "course_id": "COM11",
+      "outcome_id": "communications-technology-11-2-4",
+      "outcome_code": "COM11-2-4",
+      "ps_outcome_code": "CT11-2-4",
+      "display_code": "2.4",
+      "outcome_title": "Resolution & file formats",
+      "active": "true",
+      "aliases": [
+        "communications-technology-11-2-4"
+      ],
+      "authority": "Nova Scotia curriculum code; short planning title",
+      "active_in_plan": true
+    },
+    {
+      "course_id": "COM11",
+      "outcome_id": "communications-technology-11-4-1",
+      "outcome_code": "COM11-4-1",
+      "ps_outcome_code": "CT11-4-1",
+      "display_code": "4.1",
+      "outcome_title": "Principles & elements of design",
+      "active": "true",
+      "aliases": [
+        "communications-technology-11-4-1"
+      ],
+      "authority": "Nova Scotia curriculum code; short planning title",
+      "active_in_plan": true
+    },
+    {
+      "course_id": "COM11",
+      "outcome_id": "communications-technology-11-4-2",
+      "outcome_code": "COM11-4-2",
+      "ps_outcome_code": "CT11-4-2",
+      "display_code": "4.2",
+      "outcome_title": "Colour theory",
+      "active": "true",
+      "aliases": [
+        "communications-technology-11-4-2"
+      ],
+      "authority": "Nova Scotia curriculum code; short planning title",
+      "active_in_plan": true
+    },
+    {
+      "course_id": "COM11",
+      "outcome_id": "communications-technology-11-4-3",
+      "outcome_code": "COM11-4-3",
+      "ps_outcome_code": "CT11-4-3",
+      "display_code": "4.3",
+      "outcome_title": "Typography",
+      "active": "true",
+      "aliases": [
+        "communications-technology-11-4-3"
+      ],
+      "authority": "Nova Scotia curriculum code; short planning title",
+      "active_in_plan": true
+    },
+    {
+      "course_id": "COM11",
+      "outcome_id": "communications-technology-11-4-4",
+      "outcome_code": "COM11-4-4",
+      "ps_outcome_code": "CT11-4-4",
+      "display_code": "4.4",
+      "outcome_title": "Message with image + word",
+      "active": "true",
+      "aliases": [
+        "communications-technology-11-4-4"
+      ],
+      "authority": "Nova Scotia curriculum code; short planning title",
+      "active_in_plan": true
+    },
+    {
+      "course_id": "COM11",
+      "outcome_id": "communications-technology-11-4-5",
+      "outcome_code": "COM11-4-5",
+      "ps_outcome_code": "CT11-4-5",
+      "display_code": "4.5",
+      "outcome_title": "Web image output",
+      "active": "true",
+      "aliases": [
+        "communications-technology-11-4-5"
+      ],
+      "authority": "Nova Scotia curriculum code; short planning title",
+      "active_in_plan": true
+    },
+    {
+      "course_id": "COM11",
+      "outcome_id": "communications-technology-11-6-1",
+      "outcome_code": "COM11-6-1",
+      "ps_outcome_code": "CT11-6-1",
+      "display_code": "6.1",
+      "outcome_title": "Capture video safely",
+      "active": "true",
+      "aliases": [
+        "communications-technology-11-6-1"
+      ],
+      "authority": "Nova Scotia curriculum code; short planning title",
+      "active_in_plan": true
+    },
+    {
+      "course_id": "COM11",
+      "outcome_id": "communications-technology-11-6-2",
+      "outcome_code": "COM11-6-2",
+      "ps_outcome_code": "CT11-6-2",
+      "display_code": "6.2",
+      "outcome_title": "Sound tracks in video",
+      "active": "true",
+      "aliases": [
+        "communications-technology-11-6-2"
+      ],
+      "authority": "Nova Scotia curriculum code; short planning title",
+      "active_in_plan": true
+    },
+    {
+      "course_id": "COM11",
+      "outcome_id": "communications-technology-11-6-3",
+      "outcome_code": "COM11-6-3",
+      "ps_outcome_code": "CT11-6-3",
+      "display_code": "6.3",
+      "outcome_title": "Edit video",
+      "active": "true",
+      "aliases": [
+        "communications-technology-11-6-3"
+      ],
+      "authority": "Nova Scotia curriculum code; short planning title",
+      "active_in_plan": true
+    },
+    {
+      "course_id": "COM11",
+      "outcome_id": "communications-technology-11-6-4",
+      "outcome_code": "COM11-6-4",
+      "ps_outcome_code": "CT11-6-4",
+      "display_code": "6.4",
+      "outcome_title": "Compress for distribution",
+      "active": "true",
+      "aliases": [
+        "communications-technology-11-6-4"
+      ],
+      "authority": "Nova Scotia curriculum code; short planning title",
+      "active_in_plan": true
+    },
+    {
+      "course_id": "COM11",
+      "outcome_id": "communications-technology-11-7-1",
+      "outcome_code": "COM11-7-1",
+      "ps_outcome_code": "CT11-7-1",
+      "display_code": "7.1",
+      "outcome_title": "Studio roles & modalities",
+      "active": "true",
+      "aliases": [
+        "communications-technology-11-7-1"
+      ],
+      "authority": "Nova Scotia curriculum code; short planning title",
+      "active_in_plan": false
+    },
+    {
+      "course_id": "COM11",
+      "outcome_id": "communications-technology-11-7-2",
+      "outcome_code": "COM11-7-2",
+      "ps_outcome_code": "CT11-7-2",
+      "display_code": "7.2",
+      "outcome_title": "Broadcast equipment & signals",
+      "active": "true",
+      "aliases": [
+        "communications-technology-11-7-2"
+      ],
+      "authority": "Nova Scotia curriculum code; short planning title",
+      "active_in_plan": false
+    },
+    {
+      "course_id": "COM11",
+      "outcome_id": "communications-technology-11-7-3",
+      "outcome_code": "COM11-7-3",
+      "ps_outcome_code": "CT11-7-3",
+      "display_code": "7.3",
+      "outcome_title": "Produce a broadcast",
+      "active": "true",
+      "aliases": [
+        "communications-technology-11-7-3"
+      ],
+      "authority": "Nova Scotia curriculum code; short planning title",
+      "active_in_plan": false
+    },
+    {
+      "course_id": "COM11",
+      "outcome_id": "communications-technology-11-7-4",
+      "outcome_code": "COM11-7-4",
+      "ps_outcome_code": "CT11-7-4",
+      "display_code": "7.4",
+      "outcome_title": "Journalism story form",
+      "active": "true",
+      "aliases": [
+        "communications-technology-11-7-4"
+      ],
+      "authority": "Nova Scotia curriculum code; short planning title",
+      "active_in_plan": false
+    },
+    {
+      "course_id": "COM11",
+      "outcome_id": "communications-technology-11-8-1",
+      "outcome_code": "COM11-8-1",
+      "ps_outcome_code": "CT11-8-1",
+      "display_code": "8.1",
+      "outcome_title": "Storyboarding",
+      "active": "true",
+      "aliases": [
+        "communications-technology-11-8-1"
+      ],
+      "authority": "Nova Scotia curriculum code; short planning title",
+      "active_in_plan": false
+    },
+    {
+      "course_id": "COM11",
+      "outcome_id": "communications-technology-11-8-2",
+      "outcome_code": "COM11-8-2",
+      "ps_outcome_code": "CT11-8-2",
+      "display_code": "8.2",
+      "outcome_title": "Sequencing moving images",
+      "active": "true",
+      "aliases": [
+        "communications-technology-11-8-2"
+      ],
+      "authority": "Nova Scotia curriculum code; short planning title",
+      "active_in_plan": false
+    },
+    {
+      "course_id": "COM11",
+      "outcome_id": "communications-technology-11-8-3",
+      "outcome_code": "COM11-8-3",
+      "ps_outcome_code": "CT11-8-3",
+      "display_code": "8.3",
+      "outcome_title": "Create an animation",
+      "active": "true",
+      "aliases": [
+        "communications-technology-11-8-3"
+      ],
+      "authority": "Nova Scotia curriculum code; short planning title",
+      "active_in_plan": false
+    },
+    {
+      "course_id": "MM12",
+      "outcome_id": "ns-mm12-2015-1.1",
+      "outcome_code": "MM12-1.1",
+      "ps_outcome_code": "MM12-1.1",
+      "display_code": "1.1",
+      "outcome_title": "Image techniques and editing",
+      "active": "true",
+      "aliases": [
+        "mm12-o1"
+      ],
+      "authority": "Nova Scotia curriculum code; short planning title",
+      "active_in_plan": true
+    },
+    {
+      "course_id": "MM12",
+      "outcome_id": "ns-mm12-2015-1.2",
+      "outcome_code": "MM12-1.2",
+      "ps_outcome_code": "MM12-1.2",
+      "display_code": "1.2",
+      "outcome_title": "Image context and meaning",
+      "active": "true",
+      "aliases": [
+        "mm12-o2"
+      ],
+      "authority": "Nova Scotia curriculum code; short planning title",
+      "active_in_plan": true
+    },
+    {
+      "course_id": "MM12",
+      "outcome_id": "ns-mm12-2015-1.3",
+      "outcome_code": "MM12-1.3",
+      "ps_outcome_code": "MM12-1.3",
+      "display_code": "1.3",
+      "outcome_title": "Image production workflow",
+      "active": "true",
+      "aliases": [
+        "mm12-o3"
+      ],
+      "authority": "Nova Scotia curriculum code; short planning title",
+      "active_in_plan": true
+    },
+    {
+      "course_id": "MM12",
+      "outcome_id": "ns-mm12-2015-1.4",
+      "outcome_code": "MM12-1.4",
+      "ps_outcome_code": "MM12-1.4",
+      "display_code": "1.4",
+      "outcome_title": "Art and design principles for images",
+      "active": "true",
+      "aliases": [
+        "mm12-o4"
+      ],
+      "authority": "Nova Scotia curriculum code; short planning title",
+      "active_in_plan": true
+    },
+    {
+      "course_id": "MM12",
+      "outcome_id": "ns-mm12-2015-1.5",
+      "outcome_code": "MM12-1.5",
+      "ps_outcome_code": "MM12-1.5",
+      "display_code": "1.5",
+      "outcome_title": "Communicating through images",
+      "active": "true",
+      "aliases": [
+        "mm12-o5"
+      ],
+      "authority": "Nova Scotia curriculum code; short planning title",
+      "active_in_plan": true
+    },
+    {
+      "course_id": "MM12",
+      "outcome_id": "ns-mm12-2015-2.1",
+      "outcome_code": "MM12-2.1",
+      "ps_outcome_code": "MM12-2.1",
+      "display_code": "2.1",
+      "outcome_title": "Motion graphics techniques",
+      "active": "true",
+      "aliases": [
+        "mm12-o6"
+      ],
+      "authority": "Nova Scotia curriculum code; short planning title",
+      "active_in_plan": true
+    },
+    {
+      "course_id": "MM12",
+      "outcome_id": "ns-mm12-2015-2.2",
+      "outcome_code": "MM12-2.2",
+      "ps_outcome_code": "MM12-2.2",
+      "display_code": "2.2",
+      "outcome_title": "Motion graphics context and meaning",
+      "active": "true",
+      "aliases": [
+        "mm12-o7"
+      ],
+      "authority": "Nova Scotia curriculum code; short planning title",
+      "active_in_plan": true
+    },
+    {
+      "course_id": "MM12",
+      "outcome_id": "ns-mm12-2015-2.3",
+      "outcome_code": "MM12-2.3",
+      "ps_outcome_code": "MM12-2.3",
+      "display_code": "2.3",
+      "outcome_title": "Motion graphics production workflow",
+      "active": "true",
+      "aliases": [
+        "mm12-o8"
+      ],
+      "authority": "Nova Scotia curriculum code; short planning title",
+      "active_in_plan": true
+    },
+    {
+      "course_id": "MM12",
+      "outcome_id": "ns-mm12-2015-2.4",
+      "outcome_code": "MM12-2.4",
+      "ps_outcome_code": "MM12-2.4",
+      "display_code": "2.4",
+      "outcome_title": "Art and design principles for motion",
+      "active": "true",
+      "aliases": [
+        "mm12-o9"
+      ],
+      "authority": "Nova Scotia curriculum code; short planning title",
+      "active_in_plan": true
+    },
+    {
+      "course_id": "MM12",
+      "outcome_id": "ns-mm12-2015-2.5",
+      "outcome_code": "MM12-2.5",
+      "ps_outcome_code": "MM12-2.5",
+      "display_code": "2.5",
+      "outcome_title": "Communicating through motion graphics",
+      "active": "true",
+      "aliases": [
+        "mm12-o10"
+      ],
+      "authority": "Nova Scotia curriculum code; short planning title",
+      "active_in_plan": true
+    },
+    {
+      "course_id": "IBDS",
+      "outcome_id": "ds-u01-001",
+      "outcome_code": "DS-U01-001",
+      "ps_outcome_code": "DS-U01-001",
+      "display_code": "U1.1",
+      "outcome_title": "Explain that 'digital society' is a conteste…",
+      "active": "true",
+      "aliases": [
+        "ds-u01-001"
+      ],
+      "authority": "Local capability mapped to IB syllabus; not an IB-issued outcome ID",
+      "active_in_plan": true
+    },
+    {
+      "course_id": "IBDS",
+      "outcome_id": "ds-u02-001",
+      "outcome_code": "DS-U02-001",
+      "ps_outcome_code": "DS-U02-001",
+      "display_code": "U2.1",
+      "outcome_title": "",
+      "active": "false",
+      "aliases": [
+        "ds-u02-001"
+      ],
+      "authority": "Local capability mapped to IB syllabus; not an IB-issued outcome ID",
+      "active_in_plan": true
+    },
+    {
+      "course_id": "IBDS",
+      "outcome_id": "ds-u02-002",
+      "outcome_code": "DS-U02-002",
+      "ps_outcome_code": "DS-U02-002",
+      "display_code": "U2.2",
+      "outcome_title": "Explain the concept of identity and how digi…",
+      "active": "true",
+      "aliases": [
+        "ds-u02-002"
+      ],
+      "authority": "Local capability mapped to IB syllabus; not an IB-issued outcome ID",
+      "active_in_plan": true
+    },
+    {
+      "course_id": "IBDS",
+      "outcome_id": "ds-u02-003",
+      "outcome_code": "DS-U02-003",
+      "ps_outcome_code": "DS-U02-003",
+      "display_code": "U2.3",
+      "outcome_title": "Explain how digital systems can redistribute…",
+      "active": "true",
+      "aliases": [
+        "ds-u02-003"
+      ],
+      "authority": "Local capability mapped to IB syllabus; not an IB-issued outcome ID",
+      "active_in_plan": true
+    },
+    {
+      "course_id": "IBDS",
+      "outcome_id": "ds-u02-004",
+      "outcome_code": "DS-U02-004",
+      "ps_outcome_code": "DS-U02-004",
+      "display_code": "U2.4",
+      "outcome_title": "Explain space as both physical and virtual i…",
+      "active": "true",
+      "aliases": [
+        "ds-u02-004"
+      ],
+      "authority": "Local capability mapped to IB syllabus; not an IB-issued outcome ID",
+      "active_in_plan": true
+    },
+    {
+      "course_id": "IBDS",
+      "outcome_id": "ds-u02-005",
+      "outcome_code": "DS-U02-005",
+      "ps_outcome_code": "DS-U02-005",
+      "display_code": "U2.5",
+      "outcome_title": "Explain systems thinking and how digital sys…",
+      "active": "true",
+      "aliases": [
+        "ds-u02-005"
+      ],
+      "authority": "Local capability mapped to IB syllabus; not an IB-issued outcome ID",
+      "active_in_plan": true
+    },
+    {
+      "course_id": "IBDS",
+      "outcome_id": "ds-u02-006",
+      "outcome_code": "DS-U02-006",
+      "ps_outcome_code": "DS-U02-006",
+      "display_code": "U2.6",
+      "outcome_title": "Explain how values and ethics are embedded i…",
+      "active": "true",
+      "aliases": [
+        "ds-u02-006"
+      ],
+      "authority": "Local capability mapped to IB syllabus; not an IB-issued outcome ID",
+      "active_in_plan": true
+    },
+    {
+      "course_id": "IBDS",
+      "outcome_id": "ds-u03-001",
+      "outcome_code": "DS-U03-001",
+      "ps_outcome_code": "DS-U03-001",
+      "display_code": "U3.1",
+      "outcome_title": "Explain how data is generated by individuals…",
+      "active": "true",
+      "aliases": [
+        "ds-u03-001"
+      ],
+      "authority": "Local capability mapped to IB syllabus; not an IB-issued outcome ID",
+      "active_in_plan": true
+    },
+    {
+      "course_id": "IBDS",
+      "outcome_id": "ds-u03-002",
+      "outcome_code": "DS-U03-002",
+      "ps_outcome_code": "DS-U03-002",
+      "display_code": "U3.2",
+      "outcome_title": "Explain how data is collected, stored and pr…",
+      "active": "true",
+      "aliases": [
+        "ds-u03-002"
+      ],
+      "authority": "Local capability mapped to IB syllabus; not an IB-issued outcome ID",
+      "active_in_plan": true
+    },
+    {
+      "course_id": "IBDS",
+      "outcome_id": "ds-u03-003",
+      "outcome_code": "DS-U03-003",
+      "ps_outcome_code": "DS-U03-003",
+      "display_code": "U3.3",
+      "outcome_title": "Distinguish between different types of data …",
+      "active": "true",
+      "aliases": [
+        "ds-u03-003"
+      ],
+      "authority": "Local capability mapped to IB syllabus; not an IB-issued outcome ID",
+      "active_in_plan": true
+    },
+    {
+      "course_id": "IBDS",
+      "outcome_id": "ds-u03-004",
+      "outcome_code": "DS-U03-004",
+      "ps_outcome_code": "DS-U03-004",
+      "display_code": "U3.4",
+      "outcome_title": "Explain how data can be aggregated, analysed…",
+      "active": "true",
+      "aliases": [
+        "ds-u03-004"
+      ],
+      "authority": "Local capability mapped to IB syllabus; not an IB-issued outcome ID",
+      "active_in_plan": true
+    },
+    {
+      "course_id": "IBDS",
+      "outcome_id": "ds-u03-005",
+      "outcome_code": "DS-U03-005",
+      "ps_outcome_code": "DS-U03-005",
+      "display_code": "U3.5",
+      "outcome_title": "Explain the concept of big data and how it c…",
+      "active": "true",
+      "aliases": [
+        "ds-u03-005"
+      ],
+      "authority": "Local capability mapped to IB syllabus; not an IB-issued outcome ID",
+      "active_in_plan": true
+    },
+    {
+      "course_id": "IBDS",
+      "outcome_id": "ds-u03-006",
+      "outcome_code": "DS-U03-006",
+      "ps_outcome_code": "DS-U03-006",
+      "display_code": "U3.6",
+      "outcome_title": "Analyse privacy, consent and surveillance is…",
+      "active": "true",
+      "aliases": [
+        "ds-u03-006"
+      ],
+      "authority": "Local capability mapped to IB syllabus; not an IB-issued outcome ID",
+      "active_in_plan": true
+    },
+    {
+      "course_id": "IBDS",
+      "outcome_id": "ds-u04-001",
+      "outcome_code": "DS-U04-001",
+      "ps_outcome_code": "DS-U04-001",
+      "display_code": "U4.1",
+      "outcome_title": "Explain what an algorithm is in the context …",
+      "active": "true",
+      "aliases": [
+        "ds-u04-001"
+      ],
+      "authority": "Local capability mapped to IB syllabus; not an IB-issued outcome ID",
+      "active_in_plan": true
+    },
+    {
+      "course_id": "IBDS",
+      "outcome_id": "ds-u04-002",
+      "outcome_code": "DS-U04-002",
+      "ps_outcome_code": "DS-U04-002",
+      "display_code": "U4.2",
+      "outcome_title": "Explain how algorithms are used to search, f…",
+      "active": "true",
+      "aliases": [
+        "ds-u04-002"
+      ],
+      "authority": "Local capability mapped to IB syllabus; not an IB-issued outcome ID",
+      "active_in_plan": true
+    },
+    {
+      "course_id": "IBDS",
+      "outcome_id": "ds-u04-003",
+      "outcome_code": "DS-U04-003",
+      "ps_outcome_code": "DS-U04-003",
+      "display_code": "U4.3",
+      "outcome_title": "Explain how machine learning systems can lea…",
+      "active": "true",
+      "aliases": [
+        "ds-u04-003"
+      ],
+      "authority": "Local capability mapped to IB syllabus; not an IB-issued outcome ID",
+      "active_in_plan": true
+    },
+    {
+      "course_id": "IBDS",
+      "outcome_id": "ds-u04-004",
+      "outcome_code": "DS-U04-004",
+      "ps_outcome_code": "DS-U04-004",
+      "display_code": "U4.4",
+      "outcome_title": "Analyse how recommender systems influence wh…",
+      "active": "true",
+      "aliases": [
+        "ds-u04-004"
+      ],
+      "authority": "Local capability mapped to IB syllabus; not an IB-issued outcome ID",
+      "active_in_plan": true
+    },
+    {
+      "course_id": "IBDS",
+      "outcome_id": "ds-u04-005",
+      "outcome_code": "DS-U04-005",
+      "ps_outcome_code": "DS-U04-005",
+      "display_code": "U4.5",
+      "outcome_title": "Explain how bias can enter algorithms and ma…",
+      "active": "true",
+      "aliases": [
+        "ds-u04-005"
+      ],
+      "authority": "Local capability mapped to IB syllabus; not an IB-issued outcome ID",
+      "active_in_plan": true
+    },
+    {
+      "course_id": "IBDS",
+      "outcome_id": "ds-u04-006",
+      "outcome_code": "DS-U04-006",
+      "ps_outcome_code": "DS-U04-006",
+      "display_code": "U4.6",
+      "outcome_title": "Evaluate impacts of algorithmic decision-mak…",
+      "active": "true",
+      "aliases": [
+        "ds-u04-006"
+      ],
+      "authority": "Local capability mapped to IB syllabus; not an IB-issued outcome ID",
+      "active_in_plan": true
+    },
+    {
+      "course_id": "IBDS",
+      "outcome_id": "ds-u05-001",
+      "outcome_code": "DS-U05-001",
+      "ps_outcome_code": "DS-U05-001",
+      "display_code": "U5.1",
+      "outcome_title": "Explain the basic components of a computer s…",
+      "active": "true",
+      "aliases": [
+        "ds-u05-001"
+      ],
+      "authority": "Local capability mapped to IB syllabus; not an IB-issued outcome ID",
+      "active_in_plan": true
+    },
+    {
+      "course_id": "IBDS",
+      "outcome_id": "ds-u05-002",
+      "outcome_code": "DS-U05-002",
+      "ps_outcome_code": "DS-U05-002",
+      "display_code": "U5.2",
+      "outcome_title": "Explain how software and hardware interact t…",
+      "active": "true",
+      "aliases": [
+        "ds-u05-002"
+      ],
+      "authority": "Local capability mapped to IB syllabus; not an IB-issued outcome ID",
+      "active_in_plan": true
+    },
+    {
+      "course_id": "IBDS",
+      "outcome_id": "ds-u05-003",
+      "outcome_code": "DS-U05-003",
+      "ps_outcome_code": "DS-U05-003",
+      "display_code": "U5.3",
+      "outcome_title": "Explain how operating systems manage resourc…",
+      "active": "true",
+      "aliases": [
+        "ds-u05-003"
+      ],
+      "authority": "Local capability mapped to IB syllabus; not an IB-issued outcome ID",
+      "active_in_plan": true
+    },
+    {
+      "course_id": "IBDS",
+      "outcome_id": "ds-u05-004",
+      "outcome_code": "DS-U05-004",
+      "ps_outcome_code": "DS-U05-004",
+      "display_code": "U5.4",
+      "outcome_title": "Explain how different types of devices (for …",
+      "active": "true",
+      "aliases": [
+        "ds-u05-004"
+      ],
+      "authority": "Local capability mapped to IB syllabus; not an IB-issued outcome ID",
+      "active_in_plan": true
+    },
+    {
+      "course_id": "IBDS",
+      "outcome_id": "ds-u05-005",
+      "outcome_code": "DS-U05-005",
+      "ps_outcome_code": "DS-U05-005",
+      "display_code": "U5.5",
+      "outcome_title": "Explain how computer performance and limitat…",
+      "active": "true",
+      "aliases": [
+        "ds-u05-005"
+      ],
+      "authority": "Local capability mapped to IB syllabus; not an IB-issued outcome ID",
+      "active_in_plan": true
+    },
+    {
+      "course_id": "IBDS",
+      "outcome_id": "ds-u06-001",
+      "outcome_code": "DS-U06-001",
+      "ps_outcome_code": "DS-U06-001",
+      "display_code": "U6.1",
+      "outcome_title": "Explain basic network concepts (for example,…",
+      "active": "true",
+      "aliases": [
+        "ds-u06-001"
+      ],
+      "authority": "Local capability mapped to IB syllabus; not an IB-issued outcome ID",
+      "active_in_plan": true
+    },
+    {
+      "course_id": "IBDS",
+      "outcome_id": "ds-u06-002",
+      "outcome_code": "DS-U06-002",
+      "ps_outcome_code": "DS-U06-002",
+      "display_code": "U6.2",
+      "outcome_title": "Explain differences between types of network…",
+      "active": "true",
+      "aliases": [
+        "ds-u06-002"
+      ],
+      "authority": "Local capability mapped to IB syllabus; not an IB-issued outcome ID",
+      "active_in_plan": true
+    },
+    {
+      "course_id": "IBDS",
+      "outcome_id": "ds-u06-003",
+      "outcome_code": "DS-U06-003",
+      "ps_outcome_code": "DS-U06-003",
+      "display_code": "U6.3",
+      "outcome_title": "Explain how the internet enables communicati…",
+      "active": "true",
+      "aliases": [
+        "ds-u06-003"
+      ],
+      "authority": "Local capability mapped to IB syllabus; not an IB-issued outcome ID",
+      "active_in_plan": true
+    },
+    {
+      "course_id": "IBDS",
+      "outcome_id": "ds-u06-004",
+      "outcome_code": "DS-U06-004",
+      "ps_outcome_code": "DS-U06-004",
+      "display_code": "U6.4",
+      "outcome_title": "Explain how data is transmitted across netwo…",
+      "active": "true",
+      "aliases": [
+        "ds-u06-004"
+      ],
+      "authority": "Local capability mapped to IB syllabus; not an IB-issued outcome ID",
+      "active_in_plan": true
+    },
+    {
+      "course_id": "IBDS",
+      "outcome_id": "ds-u06-005",
+      "outcome_code": "DS-U06-005",
+      "ps_outcome_code": "DS-U06-005",
+      "display_code": "U6.5",
+      "outcome_title": "Explain how wireless and mobile networks ena…",
+      "active": "true",
+      "aliases": [
+        "ds-u06-005"
+      ],
+      "authority": "Local capability mapped to IB syllabus; not an IB-issued outcome ID",
+      "active_in_plan": true
+    },
+    {
+      "course_id": "IBDS",
+      "outcome_id": "ds-u06-006",
+      "outcome_code": "DS-U06-006",
+      "ps_outcome_code": "DS-U06-006",
+      "display_code": "U6.6",
+      "outcome_title": "Explain basic cybersecurity risks (for examp…",
+      "active": "true",
+      "aliases": [
+        "ds-u06-006"
+      ],
+      "authority": "Local capability mapped to IB syllabus; not an IB-issued outcome ID",
+      "active_in_plan": true
+    },
+    {
+      "course_id": "IBDS",
+      "outcome_id": "ds-u07-001",
+      "outcome_code": "DS-U07-001",
+      "ps_outcome_code": "DS-U07-001",
+      "display_code": "U7.1",
+      "outcome_title": "Explain how digital media platforms host, di…",
+      "active": "true",
+      "aliases": [
+        "ds-u07-001"
+      ],
+      "authority": "Local capability mapped to IB syllabus; not an IB-issued outcome ID",
+      "active_in_plan": true
+    },
+    {
+      "course_id": "IBDS",
+      "outcome_id": "ds-u07-002",
+      "outcome_code": "DS-U07-002",
+      "ps_outcome_code": "DS-U07-002",
+      "display_code": "U7.2",
+      "outcome_title": "Explain how attention is measured and commod…",
+      "active": "true",
+      "aliases": [
+        "ds-u07-002"
+      ],
+      "authority": "Local capability mapped to IB syllabus; not an IB-issued outcome ID",
+      "active_in_plan": true
+    },
+    {
+      "course_id": "IBDS",
+      "outcome_id": "ds-u07-003",
+      "outcome_code": "DS-U07-003",
+      "ps_outcome_code": "DS-U07-003",
+      "display_code": "U7.3",
+      "outcome_title": "Analyse how digital media platforms shape ex…",
+      "active": "true",
+      "aliases": [
+        "ds-u07-003"
+      ],
+      "authority": "Local capability mapped to IB syllabus; not an IB-issued outcome ID",
+      "active_in_plan": true
+    },
+    {
+      "course_id": "IBDS",
+      "outcome_id": "ds-u07-004",
+      "outcome_code": "DS-U07-004",
+      "ps_outcome_code": "DS-U07-004",
+      "display_code": "U7.4",
+      "outcome_title": "Explain how misinformation, disinformation a…",
+      "active": "true",
+      "aliases": [
+        "ds-u07-004"
+      ],
+      "authority": "Local capability mapped to IB syllabus; not an IB-issued outcome ID",
+      "active_in_plan": true
+    },
+    {
+      "course_id": "IBDS",
+      "outcome_id": "ds-u07-005",
+      "outcome_code": "DS-U07-005",
+      "ps_outcome_code": "DS-U07-005",
+      "display_code": "U7.5",
+      "outcome_title": "Evaluate responses to harmful or misleading …",
+      "active": "true",
+      "aliases": [
+        "ds-u07-005"
+      ],
+      "authority": "Local capability mapped to IB syllabus; not an IB-issued outcome ID",
+      "active_in_plan": true
+    },
+    {
+      "course_id": "IBDS",
+      "outcome_id": "ds-u08-001",
+      "outcome_code": "DS-U08-001",
+      "ps_outcome_code": "DS-U08-001",
+      "display_code": "U8.1",
+      "outcome_title": "",
+      "active": "false",
+      "aliases": [
+        "ds-u08-001"
+      ],
+      "authority": "Local capability mapped to IB syllabus; not an IB-issued outcome ID",
+      "active_in_plan": true
+    },
+    {
+      "course_id": "IBDS",
+      "outcome_id": "ds-u08-002",
+      "outcome_code": "DS-U08-002",
+      "ps_outcome_code": "DS-U08-002",
+      "display_code": "U8.2",
+      "outcome_title": "",
+      "active": "false",
+      "aliases": [
+        "ds-u08-002"
+      ],
+      "authority": "Local capability mapped to IB syllabus; not an IB-issued outcome ID",
+      "active_in_plan": true
+    },
+    {
+      "course_id": "IBDS",
+      "outcome_id": "ds-u08-003",
+      "outcome_code": "DS-U08-003",
+      "ps_outcome_code": "DS-U08-003",
+      "display_code": "U8.3",
+      "outcome_title": "",
+      "active": "false",
+      "aliases": [
+        "ds-u08-003"
+      ],
+      "authority": "Local capability mapped to IB syllabus; not an IB-issued outcome ID",
+      "active_in_plan": true
+    },
+    {
+      "course_id": "IBDS",
+      "outcome_id": "ds-u08-004",
+      "outcome_code": "DS-U08-004",
+      "ps_outcome_code": "DS-U08-004",
+      "display_code": "U8.4",
+      "outcome_title": "",
+      "active": "false",
+      "aliases": [
+        "ds-u08-004"
+      ],
+      "authority": "Local capability mapped to IB syllabus; not an IB-issued outcome ID",
+      "active_in_plan": true
+    },
+    {
+      "course_id": "IBDS",
+      "outcome_id": "ds-u08-005",
+      "outcome_code": "DS-U08-005",
+      "ps_outcome_code": "DS-U08-005",
+      "display_code": "U8.5",
+      "outcome_title": "",
+      "active": "false",
+      "aliases": [
+        "ds-u08-005"
+      ],
+      "authority": "Local capability mapped to IB syllabus; not an IB-issued outcome ID",
+      "active_in_plan": true
+    },
+    {
+      "course_id": "IBDS",
+      "outcome_id": "ds-u08-006",
+      "outcome_code": "DS-U08-006",
+      "ps_outcome_code": "DS-U08-006",
+      "display_code": "U8.6",
+      "outcome_title": "",
+      "active": "false",
+      "aliases": [
+        "ds-u08-006"
+      ],
+      "authority": "Local capability mapped to IB syllabus; not an IB-issued outcome ID",
+      "active_in_plan": true
+    },
+    {
+      "course_id": "IBDS",
+      "outcome_id": "ds-u09-001",
+      "outcome_code": "DS-U09-001",
+      "ps_outcome_code": "DS-U09-001",
+      "display_code": "U9.1",
+      "outcome_title": "",
+      "active": "false",
+      "aliases": [
+        "ds-u09-001"
+      ],
+      "authority": "Local capability mapped to IB syllabus; not an IB-issued outcome ID",
+      "active_in_plan": true
+    },
+    {
+      "course_id": "IBDS",
+      "outcome_id": "ds-u09-002",
+      "outcome_code": "DS-U09-002",
+      "ps_outcome_code": "DS-U09-002",
+      "display_code": "U9.2",
+      "outcome_title": "",
+      "active": "false",
+      "aliases": [
+        "ds-u09-002"
+      ],
+      "authority": "Local capability mapped to IB syllabus; not an IB-issued outcome ID",
+      "active_in_plan": true
+    },
+    {
+      "course_id": "IBDS",
+      "outcome_id": "ds-u09-003",
+      "outcome_code": "DS-U09-003",
+      "ps_outcome_code": "DS-U09-003",
+      "display_code": "U9.3",
+      "outcome_title": "",
+      "active": "false",
+      "aliases": [
+        "ds-u09-003"
+      ],
+      "authority": "Local capability mapped to IB syllabus; not an IB-issued outcome ID",
+      "active_in_plan": true
+    },
+    {
+      "course_id": "IBDS",
+      "outcome_id": "ds-u09-004",
+      "outcome_code": "DS-U09-004",
+      "ps_outcome_code": "DS-U09-004",
+      "display_code": "U9.4",
+      "outcome_title": "",
+      "active": "false",
+      "aliases": [
+        "ds-u09-004"
+      ],
+      "authority": "Local capability mapped to IB syllabus; not an IB-issued outcome ID",
+      "active_in_plan": true
+    },
+    {
+      "course_id": "IBDS",
+      "outcome_id": "ds-u09-005",
+      "outcome_code": "DS-U09-005",
+      "ps_outcome_code": "DS-U09-005",
+      "display_code": "U9.5",
+      "outcome_title": "",
+      "active": "false",
+      "aliases": [
+        "ds-u09-005"
+      ],
+      "authority": "Local capability mapped to IB syllabus; not an IB-issued outcome ID",
+      "active_in_plan": true
+    },
+    {
+      "course_id": "IBDS",
+      "outcome_id": "ds-u10-001",
+      "outcome_code": "DS-U10-001",
+      "ps_outcome_code": "DS-U10-001",
+      "display_code": "U10.1",
+      "outcome_title": "",
+      "active": "false",
+      "aliases": [
+        "ds-u10-001"
+      ],
+      "authority": "Local capability mapped to IB syllabus; not an IB-issued outcome ID",
+      "active_in_plan": true
+    },
+    {
+      "course_id": "IBDS",
+      "outcome_id": "ds-u10-002",
+      "outcome_code": "DS-U10-002",
+      "ps_outcome_code": "DS-U10-002",
+      "display_code": "U10.2",
+      "outcome_title": "",
+      "active": "false",
+      "aliases": [
+        "ds-u10-002"
+      ],
+      "authority": "Local capability mapped to IB syllabus; not an IB-issued outcome ID",
+      "active_in_plan": true
+    },
+    {
+      "course_id": "IBDS",
+      "outcome_id": "ds-u10-003",
+      "outcome_code": "DS-U10-003",
+      "ps_outcome_code": "DS-U10-003",
+      "display_code": "U10.3",
+      "outcome_title": "",
+      "active": "false",
+      "aliases": [
+        "ds-u10-003"
+      ],
+      "authority": "Local capability mapped to IB syllabus; not an IB-issued outcome ID",
+      "active_in_plan": true
+    },
+    {
+      "course_id": "IBDS",
+      "outcome_id": "ds-u10-004",
+      "outcome_code": "DS-U10-004",
+      "ps_outcome_code": "DS-U10-004",
+      "display_code": "U10.4",
+      "outcome_title": "",
+      "active": "false",
+      "aliases": [
+        "ds-u10-004"
+      ],
+      "authority": "Local capability mapped to IB syllabus; not an IB-issued outcome ID",
+      "active_in_plan": true
+    },
+    {
+      "course_id": "IBDS",
+      "outcome_id": "ds-u10-005",
+      "outcome_code": "DS-U10-005",
+      "ps_outcome_code": "DS-U10-005",
+      "display_code": "U10.5",
+      "outcome_title": "",
+      "active": "false",
+      "aliases": [
+        "ds-u10-005"
+      ],
+      "authority": "Local capability mapped to IB syllabus; not an IB-issued outcome ID",
+      "active_in_plan": true
+    },
+    {
+      "course_id": "IBDS",
+      "outcome_id": "ds-u10-006",
+      "outcome_code": "DS-U10-006",
+      "ps_outcome_code": "DS-U10-006",
+      "display_code": "U10.6",
+      "outcome_title": "",
+      "active": "false",
+      "aliases": [
+        "ds-u10-006"
+      ],
+      "authority": "Local capability mapped to IB syllabus; not an IB-issued outcome ID",
+      "active_in_plan": true
+    },
+    {
+      "course_id": "IBDS",
+      "outcome_id": "ds-u10-007",
+      "outcome_code": "DS-U10-007",
+      "ps_outcome_code": "DS-U10-007",
+      "display_code": "U10.7",
+      "outcome_title": "",
+      "active": "false",
+      "aliases": [
+        "ds-u10-007"
+      ],
+      "authority": "Local capability mapped to IB syllabus; not an IB-issued outcome ID",
+      "active_in_plan": true
+    },
+    {
+      "course_id": "IBDS",
+      "outcome_id": "ds-u10-008",
+      "outcome_code": "DS-U10-008",
+      "ps_outcome_code": "DS-U10-008",
+      "display_code": "U10.8",
+      "outcome_title": "",
+      "active": "false",
+      "aliases": [
+        "ds-u10-008"
+      ],
+      "authority": "Local capability mapped to IB syllabus; not an IB-issued outcome ID",
+      "active_in_plan": true
+    },
+    {
+      "course_id": "IBDS",
+      "outcome_id": "ds-u12-001",
+      "outcome_code": "DS-U12-001",
+      "ps_outcome_code": "DS-U12-001",
+      "display_code": "U12.1",
+      "outcome_title": "",
+      "active": "false",
+      "aliases": [
+        "ds-u12-001"
+      ],
+      "authority": "Local capability mapped to IB syllabus; not an IB-issued outcome ID",
+      "active_in_plan": true
+    },
+    {
+      "course_id": "IBDS",
+      "outcome_id": "ds-u12-002",
+      "outcome_code": "DS-U12-002",
+      "ps_outcome_code": "DS-U12-002",
+      "display_code": "U12.2",
+      "outcome_title": "",
+      "active": "false",
+      "aliases": [
+        "ds-u12-002"
+      ],
+      "authority": "Local capability mapped to IB syllabus; not an IB-issued outcome ID",
+      "active_in_plan": true
+    },
+    {
+      "course_id": "IBDS",
+      "outcome_id": "ds-u12-003",
+      "outcome_code": "DS-U12-003",
+      "ps_outcome_code": "DS-U12-003",
+      "display_code": "U12.3",
+      "outcome_title": "Locate, select and evaluate diverse sources …",
+      "active": "true",
+      "aliases": [
+        "ds-u12-003"
+      ],
+      "authority": "Local capability mapped to IB syllabus; not an IB-issued outcome ID",
+      "active_in_plan": true
+    },
+    {
+      "course_id": "IBDS",
+      "outcome_id": "ds-u12-004",
+      "outcome_code": "DS-U12-004",
+      "ps_outcome_code": "DS-U12-004",
+      "display_code": "U12.4",
+      "outcome_title": "",
+      "active": "false",
+      "aliases": [
+        "ds-u12-004"
+      ],
+      "authority": "Local capability mapped to IB syllabus; not an IB-issued outcome ID",
+      "active_in_plan": true
+    },
+    {
+      "course_id": "IBDS",
+      "outcome_id": "ds-u12-005",
+      "outcome_code": "DS-U12-005",
+      "ps_outcome_code": "DS-U12-005",
+      "display_code": "U12.5",
+      "outcome_title": "",
+      "active": "false",
+      "aliases": [
+        "ds-u12-005"
+      ],
+      "authority": "Local capability mapped to IB syllabus; not an IB-issued outcome ID",
+      "active_in_plan": true
+    },
+    {
+      "course_id": "IBDS",
+      "outcome_id": "ds-u12-006",
+      "outcome_code": "DS-U12-006",
+      "ps_outcome_code": "DS-U12-006",
+      "display_code": "U12.6",
+      "outcome_title": "",
+      "active": "false",
+      "aliases": [
+        "ds-u12-006"
+      ],
+      "authority": "Local capability mapped to IB syllabus; not an IB-issued outcome ID",
+      "active_in_plan": true
+    },
+    {
+      "course_id": "IBDS",
+      "outcome_id": "ds-u12-007",
+      "outcome_code": "DS-U12-007",
+      "ps_outcome_code": "DS-U12-007",
+      "display_code": "U12.7",
+      "outcome_title": "",
+      "active": "false",
+      "aliases": [
+        "ds-u12-007"
+      ],
+      "authority": "Local capability mapped to IB syllabus; not an IB-issued outcome ID",
+      "active_in_plan": true
+    },
+    {
+      "course_id": "MM12",
+      "outcome_id": "ns-mm12-2015-3.1",
+      "outcome_code": "MM12-3.1",
+      "ps_outcome_code": "MM12-3.1",
+      "display_code": "3.1",
+      "outcome_title": "Sound capture and editing",
+      "aliases": [],
+      "authority": "Nova Scotia curriculum code; short planning title",
+      "active_in_plan": true
+    },
+    {
+      "course_id": "MM12",
+      "outcome_id": "ns-mm12-2015-3.2",
+      "outcome_code": "MM12-3.2",
+      "ps_outcome_code": "MM12-3.2",
+      "display_code": "3.2",
+      "outcome_title": "Sound context and meaning",
+      "aliases": [],
+      "authority": "Nova Scotia curriculum code; short planning title",
+      "active_in_plan": true
+    },
+    {
+      "course_id": "MM12",
+      "outcome_id": "ns-mm12-2015-3.3",
+      "outcome_code": "MM12-3.3",
+      "ps_outcome_code": "MM12-3.3",
+      "display_code": "3.3",
+      "outcome_title": "Sound workflow",
+      "aliases": [],
+      "authority": "Nova Scotia curriculum code; short planning title",
+      "active_in_plan": true
+    },
+    {
+      "course_id": "MM12",
+      "outcome_id": "ns-mm12-2015-3.4",
+      "outcome_code": "MM12-3.4",
+      "ps_outcome_code": "MM12-3.4",
+      "display_code": "3.4",
+      "outcome_title": "Sonic design decisions",
+      "aliases": [],
+      "authority": "Nova Scotia curriculum code; short planning title",
+      "active_in_plan": true
+    },
+    {
+      "course_id": "MM12",
+      "outcome_id": "ns-mm12-2015-3.5",
+      "outcome_code": "MM12-3.5",
+      "ps_outcome_code": "MM12-3.5",
+      "display_code": "3.5",
+      "outcome_title": "Audio message",
+      "aliases": [],
+      "authority": "Nova Scotia curriculum code; short planning title",
+      "active_in_plan": true
+    },
+    {
+      "course_id": "MM12",
+      "outcome_id": "ns-mm12-2015-4.1",
+      "outcome_code": "MM12-4.1",
+      "ps_outcome_code": "MM12-4.1",
+      "display_code": "4.1",
+      "outcome_title": "Audience and purpose",
+      "aliases": [],
+      "authority": "Nova Scotia curriculum code; short planning title",
+      "active_in_plan": true
+    },
+    {
+      "course_id": "MM12",
+      "outcome_id": "ns-mm12-2015-4.2",
+      "outcome_code": "MM12-4.2",
+      "ps_outcome_code": "MM12-4.2",
+      "display_code": "4.2",
+      "outcome_title": "Multimedia context and meaning",
+      "aliases": [],
+      "authority": "Nova Scotia curriculum code; short planning title",
+      "active_in_plan": true
+    },
+    {
+      "course_id": "MM12",
+      "outcome_id": "ns-mm12-2015-4.3",
+      "outcome_code": "MM12-4.3",
+      "ps_outcome_code": "MM12-4.3",
+      "display_code": "4.3",
+      "outcome_title": "Collaborative production",
+      "aliases": [],
+      "authority": "Nova Scotia curriculum code; short planning title",
+      "active_in_plan": true
+    },
+    {
+      "course_id": "MM12",
+      "outcome_id": "ns-mm12-2015-4.4",
+      "outcome_code": "MM12-4.4",
+      "ps_outcome_code": "MM12-4.4",
+      "display_code": "4.4",
+      "outcome_title": "Individual portfolio",
+      "aliases": [],
+      "authority": "Nova Scotia curriculum code; short planning title",
+      "active_in_plan": true
+    },
+    {
+      "course_id": "MM12",
+      "outcome_id": "ns-mm12-2015-4.5",
+      "outcome_code": "MM12-4.5",
+      "ps_outcome_code": "MM12-4.5",
+      "display_code": "4.5",
+      "outcome_title": "Career pathways",
+      "aliases": [],
+      "authority": "Nova Scotia curriculum code; short planning title",
+      "active_in_plan": true
+    },
+    {
+      "course_id": "COM11",
+      "outcome_id": "communications-technology-11-3-1",
+      "outcome_code": "COM11-3-1",
+      "ps_outcome_code": "CT11-3-1",
+      "display_code": "3.1",
+      "outcome_title": "Digital 3D modelling",
+      "aliases": [],
+      "authority": "Nova Scotia curriculum code; short planning title",
+      "active_in_plan": true
+    },
+    {
+      "course_id": "COM11",
+      "outcome_id": "communications-technology-11-3-2",
+      "outcome_code": "COM11-3-2",
+      "ps_outcome_code": "CT11-3-2",
+      "display_code": "3.2",
+      "outcome_title": "Orthographic and isometric views",
+      "aliases": [],
+      "authority": "Nova Scotia curriculum code; short planning title",
+      "active_in_plan": true
+    },
+    {
+      "course_id": "COM11",
+      "outcome_id": "communications-technology-11-3-3",
+      "outcome_code": "COM11-3-3",
+      "ps_outcome_code": "CT11-3-3",
+      "display_code": "3.3",
+      "outcome_title": "Technical symbols and language",
+      "aliases": [],
+      "authority": "Nova Scotia curriculum code; short planning title",
+      "active_in_plan": true
+    }
+  ],
+  "rubrics": [
+    {
+      "id": "MM12-R01",
+      "course": "MM12",
+      "title": "Original portal advertisement",
+      "type": "local_analytic_studio",
+      "bands": [
+        "Beginning",
+        "Developing",
+        "Secure",
+        "Extending"
+      ],
+      "missing": "Insufficient evidence — no level inferred",
+      "criteria": [
+        {
+          "id": "MM12-R01-C1",
+          "name": "Editable image control",
+          "outcome_codes": [
+            "MM12-1.1",
+            "MM12-1.3"
+          ],
+          "descriptors": {
+            "Beginning": "Missing subject areas or background fragments interrupt the image; cannot yet locate the controlling edit.",
+            "Developing": "Uses layers/mask but repairs require modelling or leave visible problems at output size.",
+            "Secure": "Independently selects the correct layer/mask and repairs relevant edges while preserving editable sources.",
+            "Extending": "Adapts edge/placement method to a changed source and explains why that repair suits the new condition."
+          },
+          "collection": "P: PSD/export; O: independent repair; C: locate controlling edit.",
+          "repair": "Revisit a single mask-error example; make a fresh independent repair.",
+          "mapping_ready": true
+        },
+        {
+          "id": "MM12-R01-C2",
+          "name": "Hierarchy and design",
+          "outcome_codes": [
+            "MM12-1.4"
+          ],
+          "descriptors": {
+            "Beginning": "Reader cannot identify the main message; type or contrast prevents reading.",
+            "Developing": "Main message emerges but spacing, contrast or competing elements still distract; revision needs prompting.",
+            "Secure": "Type roles, spacing, contrast and arrangement establish the intended first-read message at output size.",
+            "Extending": "Adapts hierarchy to a changed audience/format and uses a reader comparison to justify the choice."
+          },
+          "collection": "P: advert/A-B; C: explain reader test.",
+          "repair": "Change one hierarchy variable and repeat the five-second read test.",
+          "mapping_ready": true
+        },
+        {
+          "id": "MM12-R01-C3",
+          "name": "Communication and judgement",
+          "outcome_codes": [
+            "MM12-1.5"
+          ],
+          "descriptors": {
+            "Beginning": "Image/message lacks a clear link to the supplied audience or purpose.",
+            "Developing": "Some choices fit the brief but explanation names preferences without showing their effect.",
+            "Secure": "Image and message suit the brief; explanation points to visible evidence and a useful revision.",
+            "Extending": "Weighs two plausible treatments, tests the choice and explains a condition where the alternative would work better."
+          },
+          "collection": "P: original/revision; C: design defence.",
+          "repair": "Identify intended action, point to supporting visual evidence and revise a conflicting element.",
+          "mapping_ready": true
+        }
+      ],
+      "conversion": "No automatic percentage or IB grade conversion; teacher applies approved reporting policy",
+      "version": "2026-09-23-adapted.1",
+      "status": "draft",
+      "review_note": "Recovered existing rubric. Review terminology, support language and outcome links before approving for field capture.",
+      "original_version": "legacy-2026-09-13",
+      "review_ready": false,
+      "capture_ready": false,
+      "readiness_issues": [
+        "MM12-R01-C1: link the taught skills.",
+        "MM12-R01-C2: link the taught skills.",
+        "MM12-R01-C3: link the taught skills."
+      ]
+    },
+    {
+      "id": "MM12-R02",
+      "course": "MM12",
+      "title": "Independent surface mockup",
+      "type": "local_analytic_studio",
+      "bands": [
+        "Beginning",
+        "Developing",
+        "Secure",
+        "Extending"
+      ],
+      "missing": "Insufficient evidence — no level inferred",
+      "criteria": [
+        {
+          "id": "MM12-R02-C1",
+          "name": "Surface integration",
+          "outcome_codes": [
+            "MM12-1.1",
+            "MM12-1.4"
+          ],
+          "descriptors": {
+            "Beginning": "Graphic conflicts with obvious edges, scale or surface cues and cannot yet be repaired.",
+            "Developing": "Placement is plausible in part; integration needs prompting or causes unexplained colour/detail loss.",
+            "Secure": "Independently adapts placement and tonal/mask treatment to the supplied surface with coherent visible form.",
+            "Extending": "Handles a changed surface condition, compares alternatives and repairs side effects while preserving the intended identity."
+          },
+          "collection": "P: surface PSD/export; O: repair; C: explain method.",
+          "repair": "Compare flat/integrated versions; repair one cue without changing every control.",
+          "mapping_ready": true
+        },
+        {
+          "id": "MM12-R02-C2",
+          "name": "Reversible production",
+          "outcome_codes": [
+            "MM12-1.3"
+          ],
+          "descriptors": {
+            "Beginning": "Only flattened/destructive result available; key source or edit cannot be located.",
+            "Developing": "Some editable structure remains but inconsistent layer naming or destructive edits limit changes.",
+            "Secure": "Named layers and editable sources allow an independent requested change and a usable handoff.",
+            "Extending": "Organises variations and source dependencies so another person can make a specified change without rebuilding."
+          },
+          "collection": "P: source structure; O: requested edit.",
+          "repair": "Rebuild a minimal layered example and test a changed colour/placement request.",
+          "mapping_ready": true
+        },
+        {
+          "id": "MM12-R02-C3",
+          "name": "Brand and audience",
+          "outcome_codes": [
+            "MM12-1.4",
+            "MM12-1.5"
+          ],
+          "descriptors": {
+            "Beginning": "Graphic choices obscure the message or have no identifiable relationship to the brief.",
+            "Developing": "Recognisable identity is present but colour/type/placement rules conflict in places.",
+            "Secure": "Surface treatment and brand rules support readable identity and the brief’s audience.",
+            "Extending": "Adapts brand rules purposefully across advert and object and defends the adaptation with comparison evidence."
+          },
+          "collection": "P: brand card/mockup; C: defence.",
+          "repair": "Name three brand rules; repair one inconsistency and verify at intended size.",
+          "mapping_ready": true
+        }
+      ],
+      "conversion": "No automatic percentage or IB grade conversion; teacher applies approved reporting policy",
+      "version": "2026-09-23-adapted.1",
+      "status": "draft",
+      "review_note": "Recovered existing rubric. Review terminology, support language and outcome links before approving for field capture.",
+      "original_version": "legacy-2026-09-13",
+      "review_ready": false,
+      "capture_ready": false,
+      "readiness_issues": [
+        "MM12-R02-C1: link the taught skills.",
+        "MM12-R02-C2: link the taught skills.",
+        "MM12-R02-C3: link the taught skills."
+      ]
+    },
+    {
+      "id": "COM11-R01",
+      "course": "COM11",
+      "title": "Independent micro-market advert",
+      "type": "local_analytic_studio",
+      "bands": [
+        "Beginning",
+        "Developing",
+        "Secure",
+        "Extending"
+      ],
+      "missing": "Insufficient evidence — no level inferred",
+      "criteria": [
+        {
+          "id": "COM11-R01-C1",
+          "name": "Image and message",
+          "outcome_codes": [
+            "COM11-1-4",
+            "COM11-4-4"
+          ],
+          "descriptors": {
+            "Beginning": "Image/text does not yet communicate the required offer or action.",
+            "Developing": "Offer is partly clear but image/message relationship or editable control needs prompting.",
+            "Secure": "Independently combines taught image/text methods into a clear response to the brief.",
+            "Extending": "Adapts the image/message to a changed audience and explains the resulting change in emphasis."
+          },
+          "collection": "P: PSD/export; O: edit; C: audience explanation.",
+          "repair": "Reduce to one offer and one hero image, then restore only necessary detail.",
+          "mapping_ready": true
+        },
+        {
+          "id": "COM11-R01-C2",
+          "name": "Type, colour and hierarchy",
+          "outcome_codes": [
+            "COM11-4-1",
+            "COM11-4-2",
+            "COM11-4-3"
+          ],
+          "descriptors": {
+            "Beginning": "Key information cannot be read or has no visible order.",
+            "Developing": "Some order exists but type roles or contrast/spacing remain inconsistent.",
+            "Secure": "Uses purposeful type and colour roles so the reader identifies main and supporting information.",
+            "Extending": "Uses a controlled comparison and reader evidence to adapt hierarchy to new constraints."
+          },
+          "collection": "P: advert/variants; C: explain colour-wheel relationship and contrast decision.",
+          "repair": "Change one type or colour variable and rerun the reading test.",
+          "mapping_ready": true
+        },
+        {
+          "id": "COM11-R01-C3",
+          "name": "Output and revision",
+          "outcome_codes": [
+            "COM11-4-5",
+            "COM11-1-3"
+          ],
+          "descriptors": {
+            "Beginning": "Required source/output is missing or cannot be used at the specified screen destination.",
+            "Developing": "Export/source exists but dimensions or readability require help to correct.",
+            "Secure": "Retains editable source, exports to the stated screen specification and documents a purposeful revision.",
+            "Extending": "Diagnoses a changed output constraint and verifies the adapted result at its destination."
+          },
+          "collection": "P: source/export/revision; O: export check.",
+          "repair": "Compare actual file properties with the brief; correct and view at destination.",
+          "mapping_ready": true
+        }
+      ],
+      "conversion": "No automatic percentage or IB grade conversion; teacher applies approved reporting policy",
+      "version": "2026-09-23-adapted.1",
+      "status": "draft",
+      "review_note": "Recovered existing rubric. Review terminology, support language and outcome links before approving for field capture.",
+      "original_version": "legacy-2026-09-13",
+      "review_ready": false,
+      "capture_ready": false,
+      "readiness_issues": [
+        "COM11-R01-C1: link the taught skills.",
+        "COM11-R01-C2: link the taught skills.",
+        "COM11-R01-C3: link the taught skills."
+      ]
+    },
+    {
+      "id": "COM11-R02",
+      "course": "COM11",
+      "title": "Advert-to-physical design transfer",
+      "type": "local_analytic_studio",
+      "bands": [
+        "Beginning",
+        "Developing",
+        "Secure",
+        "Extending"
+      ],
+      "missing": "Insufficient evidence — no level inferred",
+      "criteria": [
+        {
+          "id": "COM11-R02-C1",
+          "name": "Design continuity and fit",
+          "outcome_codes": [
+            "COM11-1-3",
+            "COM11-4-4"
+          ],
+          "descriptors": {
+            "Beginning": "Sign/model does not fit or communicate the intended place/message.",
+            "Developing": "Graphic and physical form connect partly; measurements or placement need substantial prompting.",
+            "Secure": "Uses measured dimensions to fit a recognisable, readable identity to the model.",
+            "Extending": "Adapts sign/form to a changed dimension or viewing condition and verifies the result."
+          },
+          "collection": "P: sign/model/dimensions; O: fit test; C: trace decision.",
+          "repair": "Measure the interface, make a paper proof and change one dimension.",
+          "mapping_ready": true
+        },
+        {
+          "id": "COM11-R02-C2",
+          "name": "Testing and improvement",
+          "outcome_codes": [
+            "COM11-1-3"
+          ],
+          "descriptors": {
+            "Beginning": "No usable test observation links to a design change.",
+            "Developing": "Records a problem/change but test criterion or before/after comparison is unclear.",
+            "Secure": "Uses a named criterion, records observations, makes a relevant change and retests.",
+            "Extending": "Chooses a test that distinguishes competing explanations and justifies a further adaptation from results."
+          },
+          "collection": "P: test record; O: test; C: rationale.",
+          "repair": "Replace “better” with a concrete observation and repeat the same test.",
+          "mapping_ready": true
+        },
+        {
+          "id": "COM11-R02-C3",
+          "name": "Safe, explainable process",
+          "outcome_codes": [
+            "COM11-1-7",
+            "COM11-1-3"
+          ],
+          "descriptors": {
+            "Beginning": "Has not yet demonstrated the approved process; intervention is required before continuing.",
+            "Developing": "Follows the process with reminders and can explain some steps.",
+            "Secure": "Uses approved materials/tools safely and explains the assembly sequence and a design decision.",
+            "Extending": "Anticipates a relevant process constraint and adapts the plan within approved procedures, explaining the effect."
+          },
+          "collection": "O: process across lessons; C: sequence; P: documentation.",
+          "repair": "Reteach and observe the specific procedure before access; safety cannot be compensated by a polished product.",
+          "mapping_ready": true
+        }
+      ],
+      "conversion": "No automatic percentage or IB grade conversion; teacher applies approved reporting policy",
+      "version": "2026-09-23-adapted.1",
+      "status": "draft",
+      "review_note": "Recovered existing rubric. Review terminology, support language and outcome links before approving for field capture.",
+      "original_version": "legacy-2026-09-13",
+      "review_ready": false,
+      "capture_ready": false,
+      "readiness_issues": [
+        "COM11-R02-C1: link the taught skills.",
+        "COM11-R02-C2: link the taught skills.",
+        "COM11-R02-C3: link the taught skills."
+      ]
+    },
+    {
+      "id": "IBDS-R01",
+      "course": "IBDS",
+      "title": "Early Operation 7 transfer diagnostic — not an IB markscheme",
+      "type": "local_analytic_diagnostic",
+      "bands": [
+        "Beginning",
+        "Developing",
+        "Secure",
+        "Extending"
+      ],
+      "missing": "Insufficient evidence — no level inferred",
+      "criteria": [
+        {
+          "id": "IBDS-R01-C1",
+          "name": "Mechanism and contextual application",
+          "outcome_codes": [
+            "3.1",
+            "3.2",
+            "3.6"
+          ],
+          "descriptors": {
+            "Beginning": "Explanation contains a central misconception or does not address the scenario’s system.",
+            "Developing": "Names stages accurately in part but causal links or scenario application are missing.",
+            "Secure": "Explains relevant stages causally and applies them to distinctive facts of this scenario.",
+            "Extending": "Uses the mechanism to explain a changed condition or limitation and avoids overgeneralising the model."
+          },
+          "collection": "P: timed response; C: explain a stage without headings.",
+          "repair": "Reconstruct the pipeline and explain the change caused by one altered input/control.",
+          "mapping_ready": false
+        },
+        {
+          "id": "IBDS-R01-C2",
+          "name": "Evidence and conceptual analysis",
+          "outcome_codes": [
+            "2.4",
+            "2.7"
+          ],
+          "descriptors": {
+            "Beginning": "Claims lack support or concepts appear only as labels.",
+            "Developing": "Some evidence and stakeholder effects appear but their analytical relationship is weak.",
+            "Secure": "Uses relevant evidence to explain stakeholder control/values relationships and distinguishes fact from inference.",
+            "Extending": "Connects evidence and perspective limits to a concept-driven interpretation of the unfamiliar situation."
+          },
+          "collection": "P: response/evidence links; C: what establishes that claim?",
+          "repair": "Rewrite one concept label as a mechanism–control–consequence explanation.",
+          "mapping_ready": false
+        },
+        {
+          "id": "IBDS-R01-C3",
+          "name": "Weighing and conditional judgement",
+          "outcome_codes": [
+            "2.4",
+            "2.7"
+          ],
+          "descriptors": {
+            "Beginning": "Gives an unsupported preference or a list of pros/cons without answering extent/conditions.",
+            "Developing": "Offers counter-perspective or a condition but weighs reasons weakly or generically.",
+            "Secure": "Weighs a credible counter-perspective against evidence and answers with a justified condition.",
+            "Extending": "Explains why one consideration carries more weight here and what evidence/condition would change the judgement."
+          },
+          "collection": "P: conclusion; C: strongest objection/change your mind.",
+          "repair": "Identify competing reasons, state the weighing criterion and test a changed condition.",
+          "mapping_ready": false
+        }
+      ],
+      "conversion": "No automatic percentage or IB grade conversion; teacher applies approved reporting policy",
+      "version": "2026-09-23-adapted.1",
+      "status": "draft",
+      "review_note": "Recovered existing rubric. Review terminology, support language and outcome links before approving for field capture.",
+      "original_version": "legacy-2026-09-13",
+      "review_ready": false,
+      "capture_ready": false,
+      "readiness_issues": [
+        "IBDS-R01-C1: resolve the course outcome mapping.",
+        "IBDS-R01-C1: link the taught skills.",
+        "IBDS-R01-C2: resolve the course outcome mapping.",
+        "IBDS-R01-C2: link the taught skills.",
+        "IBDS-R01-C3: resolve the course outcome mapping.",
+        "IBDS-R01-C3: link the taught skills."
+      ]
+    },
+    {
+      "id": "mm12-citrus-rush-rubric-v1",
+      "course": "MM12",
+      "type": "Local analytic rubric; criterion judgement, not an automatic percentage",
+      "criteria": [
+        {
+          "id": "mm12-citrus-c1",
+          "name": "Image integration",
+          "outcome_ids": [
+            "ns-mm12-2015-1.1"
+          ],
+          "descriptors": {
+            "Beginning": "Major mask, overlap or light errors prevent the intended image from working.",
+            "Developing": "The build works in part, but visible edge, depth or tonal conflicts remain.",
+            "Secure": "Masks, overlap and relevant light/tonal cues support a coherent composition; source content remains editable.",
+            "Extending": "A changed arrangement is resolved convincingly and the student explains why the new relationships work."
+          },
+          "outcome_codes": [
+            "MM12-1.1"
+          ],
+          "mapping_ready": true
+        },
+        {
+          "id": "mm12-citrus-c2",
+          "name": "Visual message and design",
+          "outcome_ids": [
+            "ns-mm12-2015-1.4",
+            "ns-mm12-2015-1.5"
+          ],
+          "descriptors": {
+            "Beginning": "The intended product/message or reading order is unclear.",
+            "Developing": "The message is identifiable, but competing type or effects weaken the intended visual idea.",
+            "Secure": "Composition, type and image treatment communicate a deliberate idea to the stated audience.",
+            "Extending": "The idea remains effective through a justified adaptation to a new constraint or format."
+          },
+          "outcome_codes": [
+            "MM12-1.4",
+            "MM12-1.5"
+          ],
+          "mapping_ready": true
+        },
+        {
+          "id": "mm12-citrus-c3",
+          "name": "Workflow and revision",
+          "outcome_ids": [
+            "ns-mm12-2015-1.3"
+          ],
+          "descriptors": {
+            "Beginning": "The source cannot be meaningfully revised or the required output is absent.",
+            "Developing": "An editable file and output exist, but organisation, output checks or the reason for revision is incomplete.",
+            "Secure": "The editable source, checked output and traceable revision support a clear handoff.",
+            "Extending": "The student handles an unfamiliar but related client change efficiently and explains the production trade-off."
+          },
+          "outcome_codes": [
+            "MM12-1.3"
+          ],
+          "mapping_ready": true
+        }
+      ],
+      "insufficient_evidence": "Leave achievement blank and identify the next evidence opportunity.",
+      "assistance": "Record guidance and approved accommodations separately. Following the first demonstration does not by itself establish independent transfer.",
+      "version": "2026-09-23-adapted.1",
+      "status": "draft",
+      "review_note": "Recovered existing rubric. Review terminology, support language and outcome links before approving for field capture.",
+      "title": "Citrus Rush — MM12 recovered rubric",
+      "original_version": "legacy-2026-09-13",
+      "bands": [
+        "Beginning",
+        "Developing",
+        "Secure",
+        "Extending"
+      ],
+      "review_ready": false,
+      "capture_ready": false,
+      "readiness_issues": [
+        "mm12-citrus-c1: link the taught skills.",
+        "mm12-citrus-c1: specify the evidence to collect.",
+        "mm12-citrus-c2: link the taught skills.",
+        "mm12-citrus-c2: specify the evidence to collect.",
+        "mm12-citrus-c3: link the taught skills.",
+        "mm12-citrus-c3: specify the evidence to collect."
+      ]
+    },
+    {
+      "id": "com11-citrus-rush-rubric-v1",
+      "course": "COM11",
+      "type": "Local analytic rubric; criterion judgement, not an automatic percentage",
+      "criteria": [
+        {
+          "id": "com11-citrus-c1",
+          "name": "Complete digital advertisement",
+          "outcome_ids": [
+            "communications-technology-11-1-4",
+            "communications-technology-11-4-4"
+          ],
+          "descriptors": {
+            "Beginning": "The digital message is incomplete or cannot be understood.",
+            "Developing": "Product and message are present, but cutout, arrangement or text treatment interferes with communication.",
+            "Secure": "Images and editable text form a complete, readable advertisement for the stated purpose.",
+            "Extending": "The student applies the taught process to a changed audience or arrangement and explains the improvement."
+          },
+          "outcome_codes": [
+            "COM11-1-4",
+            "COM11-4-4"
+          ],
+          "mapping_ready": true
+        },
+        {
+          "id": "com11-citrus-c2",
+          "name": "Design and typography",
+          "outcome_ids": [
+            "communications-technology-11-4-1",
+            "communications-technology-11-4-3"
+          ],
+          "descriptors": {
+            "Beginning": "There is no usable reading order or important text is unreadable.",
+            "Developing": "Some hierarchy is evident, but type, contrast or spacing causes confusion.",
+            "Secure": "Hierarchy, contrast and type choices make the main message and supporting information readable.",
+            "Extending": "An audience test leads to a specific, effective adjustment, with the reason demonstrated."
+          },
+          "outcome_codes": [
+            "COM11-4-1",
+            "COM11-4-3"
+          ],
+          "mapping_ready": true
+        },
+        {
+          "id": "com11-citrus-c3",
+          "name": "Application and revision",
+          "outcome_ids": [
+            "communications-technology-11-1-4"
+          ],
+          "descriptors": {
+            "Beginning": "The student cannot yet connect the attempted change to the communication problem.",
+            "Developing": "A change is made, but its relationship to the brief or feedback is only partly explained.",
+            "Secure": "The student makes a relevant taught change and explains the visible effect using the actual file.",
+            "Extending": "The student transfers the design to a related label/sign or new viewing context and identifies what needed to change."
+          },
+          "outcome_codes": [
+            "COM11-1-4"
+          ],
+          "mapping_ready": true
+        }
+      ],
+      "insufficient_evidence": "Leave achievement blank and identify the next evidence opportunity.",
+      "assistance": "Record guidance and approved accommodations separately. Following the first demonstration does not by itself establish independent transfer.",
+      "version": "2026-09-23-adapted.1",
+      "status": "draft",
+      "review_note": "Recovered existing rubric. Review terminology, support language and outcome links before approving for field capture.",
+      "title": "Citrus Rush — COM11 recovered rubric",
+      "original_version": "legacy-2026-09-13",
+      "bands": [
+        "Beginning",
+        "Developing",
+        "Secure",
+        "Extending"
+      ],
+      "review_ready": false,
+      "capture_ready": false,
+      "readiness_issues": [
+        "com11-citrus-c1: link the taught skills.",
+        "com11-citrus-c1: specify the evidence to collect.",
+        "com11-citrus-c2: link the taught skills.",
+        "com11-citrus-c2: specify the evidence to collect.",
+        "com11-citrus-c3: link the taught skills.",
+        "com11-citrus-c3: specify the evidence to collect."
+      ]
+    },
+    {
+      "id": "MM12-TRUCK-AD-R1",
+      "version": "2026-09-25.2",
+      "course": "MM12",
+      "project_id": "PS-TRUCK-AD",
+      "title": "Truck Ad — editable image, visual hierarchy and changed brief",
+      "status": "draft",
+      "bands": [
+        "Beginning",
+        "Developing",
+        "Secure",
+        "Extending"
+      ],
+      "missing": "IE — insufficient evidence; not zero",
+      "review_note": "Skill and checkpoint mappings reconciled with the original Truck Ad step map and Form specification. Guided work remains practice; assess the changed brief, editable file and explanation. Teacher approval and classroom moderation remain pending.",
+      "criteria": [
+        {
+          "id": "TA-MM-C1",
+          "name": "Editable image construction",
+          "outcome_codes": [
+            "MM12-1.1",
+            "MM12-1.3"
+          ],
+          "skill_ids": [
+            "PS-LAY-01",
+            "PS-SMO-01",
+            "PS-FLT-01",
+            "PS-BLD-02"
+          ],
+          "descriptors": {
+            "Beginning": "The intended composite is incomplete or visible edge, placement or editability problems prevent its use.",
+            "Developing": "The image is assembled and partly editable; visible edge or treatment inconsistencies remain at the intended output size.",
+            "Secure": "The composite reads coherently at the intended size. Masks and adjustment controls preserve the source and allow a targeted revision; the learner locates and explains those controls.",
+            "Extending": "The learner adapts the editable construction to a substantially changed source or constraint and demonstrates why the revised method better meets that condition."
+          },
+          "collection": "Product: layered master and export. Observation: locate and revise one controlling mask or adjustment. Conversation: explain why the edit is reversible.",
+          "repair": "Compare the edge at output size; change one controlling mask and verify both versions.",
+          "step_ids": [
+            "TA-S02",
+            "TA-S04",
+            "TA-S05",
+            "TA-S08",
+            "TA-S15"
+          ],
+          "checkpoint_ids": [
+            "TA-OBS-01",
+            "TA-CON-01",
+            "TA-PRO-01"
+          ],
+          "mapping_ready": true
+        },
+        {
+          "id": "TA-MM-C2",
+          "name": "Hierarchy and visual design",
+          "outcome_codes": [
+            "MM12-1.4"
+          ],
+          "skill_ids": [
+            "PS-TYP-01",
+            "GD-HIE-01",
+            "GD-ALN-01",
+            "GD-TYP-01",
+            "GD-CRIT-01"
+          ],
+          "descriptors": {
+            "Beginning": "The intended first-read message is unclear or essential text cannot be read at the required size.",
+            "Developing": "The main message is visible, but type, contrast, spacing or competing elements weaken the reading order.",
+            "Secure": "Type roles, scale, contrast and spacing establish a purposeful reading order. An audience read test supports the final revision.",
+            "Extending": "A changed audience or format requires a materially different hierarchy; the learner compares alternatives and uses audience evidence to justify the adaptation."
+          },
+          "collection": "Product: original and revised export. Conversation: identify the first read and point to the design choices that create it.",
+          "repair": "Change one hierarchy variable, repeat the five-second read test and explain the result.",
+          "step_ids": [
+            "TA-S09",
+            "TA-S12",
+            "TA-S13"
+          ],
+          "checkpoint_ids": [
+            "TA-OBS-02",
+            "TA-PRO-02",
+            "TA-QA-01"
+          ],
+          "mapping_ready": true
+        },
+        {
+          "id": "TA-MM-C3",
+          "name": "Communicating a message for an audience",
+          "outcome_codes": [
+            "MM12-1.5"
+          ],
+          "skill_ids": [
+            "GD-AUD-01",
+            "GD-MET-01",
+            "GD-CRIT-01",
+            "PS-DES-01"
+          ],
+          "descriptors": {
+            "Beginning": "The visual treatment and words do not yet communicate the intended message to the specified audience.",
+            "Developing": "Some choices fit the audience and purpose, but the explanation does not connect those choices to their likely effect.",
+            "Secure": "Image and words work together for the stated audience and purpose. The learner supports the design explanation with visible evidence and a purposeful revision.",
+            "Extending": "The learner evaluates two plausible treatments under a changed brief, explains a trade-off and identifies when the rejected alternative could be more effective."
+          },
+          "collection": "Product: independent variant. Conversation: a 60–90 second changed-brief defence.",
+          "repair": "State the audience's intended response, identify one conflicting choice and test a revision.",
+          "step_ids": [
+            "TA-S07",
+            "TA-S13",
+            "TA-S14",
+            "TA-S16"
+          ],
+          "checkpoint_ids": [
+            "TA-CON-02",
+            "TA-PRO-02",
+            "TA-QA-01"
+          ],
+          "mapping_ready": true
+        }
+      ],
+      "support_rule": "Record Guided, Supported, Independent or Transfer separately. Do not lower the descriptor because access support was used.",
+      "knowledge_rule": "Knowledge and reflection guide follow-up; no automatic arithmetic contribution to outcome achievement.",
+      "powerschool": "Teacher confirms each outcome and writes the reporting comment; no automatic percentage conversion.",
+      "previous_version": "2026-09-23.1",
+      "original_version": "2026-09-25.2",
+      "review_ready": true,
+      "capture_ready": false,
+      "readiness_issues": []
+    },
+    {
+      "id": "COM11-TRUCK-AD-R1",
+      "version": "2026-09-23.1",
+      "course": "COM11",
+      "project_id": "PS-TRUCK-AD",
+      "title": "Truck Ad — graphic message and transfer to village signage",
+      "status": "draft",
+      "bands": [
+        "Beginning",
+        "Developing",
+        "Secure",
+        "Extending"
+      ],
+      "missing": "IE — insufficient evidence; not zero",
+      "review_note": "Use the shared workbook as design practice. Assess the independent graphic message and its adaptation to a Snowy Village sign. This assesses graphic communication; technical drawing and fabrication need their own later evidence.",
+      "criteria": [
+        {
+          "id": "TA-CT-C1",
+          "name": "Design and colour choices",
+          "outcome_codes": [
+            "COM11-4-1",
+            "COM11-4-2"
+          ],
+          "descriptors": {
+            "Beginning": "Arrangement or colour relationships obstruct the intended visual message.",
+            "Developing": "Design principles and colour are visible in places but competing choices weaken emphasis or readability.",
+            "Secure": "Arrangement, contrast and colour relationships support a clear emphasis and coherent message; the learner explains their effect using the work.",
+            "Extending": "The learner tests and adapts design and colour choices for a different viewing context and justifies the trade-off with comparison evidence."
+          },
+          "collection": "Product: two exports. Conversation: identify emphasis and explain one colour decision.",
+          "mapping_ready": true
+        },
+        {
+          "id": "TA-CT-C2",
+          "name": "Typography for reading conditions",
+          "outcome_codes": [
+            "COM11-4-3"
+          ],
+          "descriptors": {
+            "Beginning": "Type choices or spacing prevent essential information from being read.",
+            "Developing": "Text is readable in the main working view but hierarchy or spacing fails in the intended viewing conditions.",
+            "Secure": "Type roles, scale and spacing communicate a clear reading order at the intended size and distance; testing informs a revision.",
+            "Extending": "The learner adapts typography to the smaller physical sign or another changed viewing condition and explains what had to change and why."
+          },
+          "collection": "Product: design and sign proof at actual size. Observation: viewing-distance test.",
+          "mapping_ready": true
+        },
+        {
+          "id": "TA-CT-C3",
+          "name": "Image and word communicate together",
+          "outcome_codes": [
+            "COM11-4-4"
+          ],
+          "descriptors": {
+            "Beginning": "Image and words convey conflicting or incomplete messages.",
+            "Developing": "The intended message is identifiable, but image and word choices make the audience work to understand it.",
+            "Secure": "Image and words reinforce one clear message suited to the specified audience; the learner identifies evidence of audience response.",
+            "Extending": "The learner transfers the message to a changed medium or audience, evaluates two alternatives and explains a defensible design decision."
+          },
+          "collection": "Product: independent advert and village-sign adaptation. Conversation: changed-medium defence.",
+          "mapping_ready": true
+        }
+      ],
+      "support_rule": "Support context is recorded separately from achievement.",
+      "powerschool": "Report teacher-confirmed COM11 outcomes with local PowerSchool code mapping; CT11 is an export alias, not another course.",
+      "original_version": "2026-09-23.1",
+      "review_ready": false,
+      "capture_ready": false,
+      "readiness_issues": [
+        "TA-CT-C1: link the taught skills.",
+        "TA-CT-C2: link the taught skills.",
+        "TA-CT-C3: link the taught skills."
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "id": "mm12-skill-layers",
+      "course": "MM12",
+      "name": "Editable layers and masks",
+      "outcome_codes": [
+        "1.1",
+        "1.3"
+      ],
+      "domain": "Course skill",
+      "evidence": "Selects the intended layer or mask, hides and restores an area, and reopens a layered master.",
+      "next_step": "Practise one conceal/restore repair on the correct thumbnail.",
+      "descriptors": [
+        "Required evidence is not yet demonstrated: Selects the intended layer or mask, hides and restores an area, and reopens a layered master.",
+        "Parts of the task work; the learner uses specific prompts to complete or explain the decision.",
+        "Independently demonstrates: Selects the intended layer or mask, hides and restores an area, and reopens a layered master.",
+        "Repairs a changed edge or overlap and explains why the chosen control works."
+      ],
+      "authority": "Teacher-designed skill; proposed outcome links, not official rubric wording"
+    },
+    {
+      "id": "mm12-skill-hierarchy",
+      "course": "MM12",
+      "name": "Visual hierarchy and typography",
+      "outcome_codes": [
+        "1.4",
+        "1.5"
+      ],
+      "domain": "Course skill",
+      "evidence": "Makes the message, supporting information and action readable in the intended order.",
+      "next_step": "Change one size, contrast or spacing variable and repeat the reader test.",
+      "descriptors": [
+        "Required evidence is not yet demonstrated: Makes the message, supporting information and action readable in the intended order.",
+        "Parts of the task work; the learner uses specific prompts to complete or explain the decision.",
+        "Independently demonstrates: Makes the message, supporting information and action readable in the intended order.",
+        "Recomposes for a different format while preserving and defending the reading order."
+      ],
+      "authority": "Teacher-designed skill; proposed outcome links, not official rubric wording"
+    },
+    {
+      "id": "mm12-skill-integration",
+      "course": "MM12",
+      "name": "Image integration and lighting",
+      "outcome_codes": [
+        "1.1",
+        "1.4"
+      ],
+      "domain": "Course skill",
+      "evidence": "Uses consistent overlap, relative scale and light cues to place a subject in a scene.",
+      "next_step": "Identify one conflicting light or depth cue before editing.",
+      "descriptors": [
+        "Required evidence is not yet demonstrated: Uses consistent overlap, relative scale and light cues to place a subject in a scene.",
+        "Parts of the task work; the learner uses specific prompts to complete or explain the decision.",
+        "Independently demonstrates: Uses consistent overlap, relative scale and light cues to place a subject in a scene.",
+        "Adapts to a new source angle or light direction and explains the trade-off."
+      ],
+      "authority": "Teacher-designed skill; proposed outcome links, not official rubric wording"
+    },
+    {
+      "id": "mm12-skill-capture",
+      "course": "MM12",
+      "name": "Original image capture",
+      "outcome_codes": [
+        "1.1",
+        "1.3"
+      ],
+      "domain": "Course skill",
+      "evidence": "Produces a focused, intentionally exposed source image and explains its intended use.",
+      "next_step": "Compare two exposures or light positions using a stable camera.",
+      "descriptors": [
+        "Required evidence is not yet demonstrated: Produces a focused, intentionally exposed source image and explains its intended use.",
+        "Parts of the task work; the learner uses specific prompts to complete or explain the decision.",
+        "Independently demonstrates: Produces a focused, intentionally exposed source image and explains its intended use.",
+        "Adjusts capture decisions for a changed production brief and defends the selected source."
+      ],
+      "authority": "Teacher-designed skill; proposed outcome links, not official rubric wording"
+    },
+    {
+      "id": "mm12-skill-meaning",
+      "course": "MM12",
+      "name": "Context and representation",
+      "outcome_codes": [
+        "1.2",
+        "4.2"
+      ],
+      "domain": "Course skill",
+      "evidence": "Uses visible features and source context to explain how an image represents an idea.",
+      "next_step": "Separate what is visible from an inference about audience response.",
+      "descriptors": [
+        "Required evidence is not yet demonstrated: Uses visible features and source context to explain how an image represents an idea.",
+        "Parts of the task work; the learner uses specific prompts to complete or explain the decision.",
+        "Independently demonstrates: Uses visible features and source context to explain how an image represents an idea.",
+        "Compares two contextual readings and explains the limits of the evidence."
+      ],
+      "authority": "Teacher-designed skill; proposed outcome links, not official rubric wording"
+    },
+    {
+      "id": "mm12-skill-motion",
+      "course": "MM12",
+      "name": "Motion and timing",
+      "outcome_codes": [
+        "2.1",
+        "2.4",
+        "2.5"
+      ],
+      "domain": "Course skill",
+      "evidence": "Uses timed movement and transitions to communicate an intended sequence.",
+      "next_step": "Compare two timings and predict how the emphasis changes.",
+      "descriptors": [
+        "Required evidence is not yet demonstrated: Uses timed movement and transitions to communicate an intended sequence.",
+        "Parts of the task work; the learner uses specific prompts to complete or explain the decision.",
+        "Independently demonstrates: Uses timed movement and transitions to communicate an intended sequence.",
+        "Adapts timing to a changed duration while retaining the communication goal."
+      ],
+      "authority": "Teacher-designed skill; proposed outcome links, not official rubric wording"
+    },
+    {
+      "id": "mm12-skill-motion-workflow",
+      "course": "MM12",
+      "name": "Motion production workflow",
+      "outcome_codes": [
+        "2.3"
+      ],
+      "domain": "Course skill",
+      "evidence": "Organises a timeline and assets and checks a rendered output against the brief.",
+      "next_step": "Name sources, locate a missing asset and inspect the actual render.",
+      "descriptors": [
+        "Required evidence is not yet demonstrated: Organises a timeline and assets and checks a rendered output against the brief.",
+        "Parts of the task work; the learner uses specific prompts to complete or explain the decision.",
+        "Independently demonstrates: Organises a timeline and assets and checks a rendered output against the brief.",
+        "Diagnoses a changed frame size or duration requirement and delivers a working revision."
+      ],
+      "authority": "Teacher-designed skill; proposed outcome links, not official rubric wording"
+    },
+    {
+      "id": "mm12-skill-audio",
+      "course": "MM12",
+      "name": "Sound capture and editing",
+      "outcome_codes": [
+        "3.1",
+        "3.3"
+      ],
+      "domain": "Course skill",
+      "evidence": "Creates an intelligible sound sequence with deliberate edits and usable levels.",
+      "next_step": "Record a short test, listen for the fault and change one cause.",
+      "descriptors": [
+        "Required evidence is not yet demonstrated: Creates an intelligible sound sequence with deliberate edits and usable levels.",
+        "Parts of the task work; the learner uses specific prompts to complete or explain the decision.",
+        "Independently demonstrates: Creates an intelligible sound sequence with deliberate edits and usable levels.",
+        "Repairs an unfamiliar noise or timing problem and explains the compromise."
+      ],
+      "authority": "Teacher-designed skill; proposed outcome links, not official rubric wording"
+    },
+    {
+      "id": "mm12-skill-sound-meaning",
+      "course": "MM12",
+      "name": "Sound and image relationships",
+      "outcome_codes": [
+        "3.2",
+        "3.4",
+        "3.5"
+      ],
+      "domain": "Course skill",
+      "evidence": "Explains how a sound choice changes the meaning of the same image sequence.",
+      "next_step": "Compare the same scene with two sound treatments.",
+      "descriptors": [
+        "Required evidence is not yet demonstrated: Explains how a sound choice changes the meaning of the same image sequence.",
+        "Parts of the task work; the learner uses specific prompts to complete or explain the decision.",
+        "Independently demonstrates: Explains how a sound choice changes the meaning of the same image sequence.",
+        "Creates and defends an alternate sound treatment for a new audience or mood."
+      ],
+      "authority": "Teacher-designed skill; proposed outcome links, not official rubric wording"
+    },
+    {
+      "id": "mm12-skill-delivery",
+      "course": "MM12",
+      "name": "Production delivery and source log",
+      "outcome_codes": [
+        "1.3",
+        "2.3",
+        "3.3",
+        "4.4"
+      ],
+      "domain": "Course skill",
+      "evidence": "Delivers editable sources, a checked viewing copy and a usable asset/source log.",
+      "next_step": "Reopen the exported file and verify dimensions, links and source credits.",
+      "descriptors": [
+        "Required evidence is not yet demonstrated: Delivers editable sources, a checked viewing copy and a usable asset/source log.",
+        "Parts of the task work; the learner uses specific prompts to complete or explain the decision.",
+        "Independently demonstrates: Delivers editable sources, a checked viewing copy and a usable asset/source log.",
+        "Solves a changed delivery requirement without losing the editable master or provenance."
+      ],
+      "authority": "Teacher-designed skill; proposed outcome links, not official rubric wording"
+    },
+    {
+      "id": "mm12-skill-collaboration",
+      "course": "MM12",
+      "name": "Individual contribution to a production",
+      "outcome_codes": [
+        "4.3"
+      ],
+      "domain": "Course skill",
+      "evidence": "Identifies their own contribution and supplies a version or observed action that demonstrates it.",
+      "next_step": "Allocate a small production responsibility and record the handoff.",
+      "descriptors": [
+        "Required evidence is not yet demonstrated: Identifies their own contribution and supplies a version or observed action that demonstrates it.",
+        "Parts of the task work; the learner uses specific prompts to complete or explain the decision.",
+        "Independently demonstrates: Identifies their own contribution and supplies a version or observed action that demonstrates it.",
+        "Coordinates an unfamiliar dependency and shows how others can continue from the handoff."
+      ],
+      "authority": "Teacher-designed skill; proposed outcome links, not official rubric wording"
+    },
+    {
+      "id": "mm12-skill-portfolio",
+      "course": "MM12",
+      "name": "Portfolio and next pathway",
+      "outcome_codes": [
+        "4.4",
+        "4.5"
+      ],
+      "domain": "Course skill",
+      "evidence": "Selects contrasting work, explains growth and connects one skill to an actual pathway.",
+      "next_step": "Choose a before/after pair and name the next action.",
+      "descriptors": [
+        "Required evidence is not yet demonstrated: Selects contrasting work, explains growth and connects one skill to an actual pathway.",
+        "Parts of the task work; the learner uses specific prompts to complete or explain the decision.",
+        "Independently demonstrates: Selects contrasting work, explains growth and connects one skill to an actual pathway.",
+        "Recurates for a different audience and supports a realistic next training or career decision."
+      ],
+      "authority": "Teacher-designed skill; proposed outcome links, not official rubric wording"
+    },
+    {
+      "id": "com11-skill-brief",
+      "course": "COM11",
+      "name": "Audience and design brief",
+      "outcome_codes": [
+        "1.4"
+      ],
+      "domain": "Course skill",
+      "evidence": "States the audience, intended action and a testable success criterion.",
+      "next_step": "Ask a peer to interpret the message before explaining it.",
+      "descriptors": [
+        "Required evidence is not yet demonstrated: States the audience, intended action and a testable success criterion.",
+        "Parts of the task work; the learner uses specific prompts to complete or explain the decision.",
+        "Independently demonstrates: States the audience, intended action and a testable success criterion.",
+        "Revises a design for a changed audience and explains why the earlier solution no longer fits."
+      ],
+      "authority": "Teacher-designed skill; proposed outcome links, not official rubric wording"
+    },
+    {
+      "id": "com11-skill-mask",
+      "course": "COM11",
+      "name": "Editable image and text construction",
+      "outcome_codes": [
+        "4.4"
+      ],
+      "domain": "Course skill",
+      "evidence": "Keeps image and text editable and repairs a relevant mask or layer.",
+      "next_step": "Practise selecting the correct layer and restoring one hidden area.",
+      "descriptors": [
+        "Required evidence is not yet demonstrated: Keeps image and text editable and repairs a relevant mask or layer.",
+        "Parts of the task work; the learner uses specific prompts to complete or explain the decision.",
+        "Independently demonstrates: Keeps image and text editable and repairs a relevant mask or layer.",
+        "Transfers the process from an advertisement to a label or sign with a new layout constraint."
+      ],
+      "authority": "Teacher-designed skill; proposed outcome links, not official rubric wording"
+    },
+    {
+      "id": "com11-skill-type",
+      "course": "COM11",
+      "name": "Typography and hierarchy",
+      "outcome_codes": [
+        "4.1",
+        "4.3"
+      ],
+      "domain": "Course skill",
+      "evidence": "Uses legible type, contrast and spacing to give the design a clear reading order.",
+      "next_step": "Test the smallest text at the real viewing size.",
+      "descriptors": [
+        "Required evidence is not yet demonstrated: Uses legible type, contrast and spacing to give the design a clear reading order.",
+        "Parts of the task work; the learner uses specific prompts to complete or explain the decision.",
+        "Independently demonstrates: Uses legible type, contrast and spacing to give the design a clear reading order.",
+        "Adapts typography for a new viewing distance and justifies the changes."
+      ],
+      "authority": "Teacher-designed skill; proposed outcome links, not official rubric wording"
+    },
+    {
+      "id": "com11-skill-colour",
+      "course": "COM11",
+      "name": "Colour choices",
+      "outcome_codes": [
+        "4.2"
+      ],
+      "domain": "Course skill",
+      "evidence": "Selects a colour relationship and checks that foreground content remains readable.",
+      "next_step": "Compare the design in greyscale and adjust contrast.",
+      "descriptors": [
+        "Required evidence is not yet demonstrated: Selects a colour relationship and checks that foreground content remains readable.",
+        "Parts of the task work; the learner uses specific prompts to complete or explain the decision.",
+        "Independently demonstrates: Selects a colour relationship and checks that foreground content remains readable.",
+        "Changes a palette for a new brief while preserving readable information."
+      ],
+      "authority": "Teacher-designed skill; proposed outcome links, not official rubric wording"
+    },
+    {
+      "id": "com11-skill-camera",
+      "course": "COM11",
+      "name": "Camera care and composition",
+      "outcome_codes": [
+        "2.1",
+        "2.2"
+      ],
+      "domain": "Course skill",
+      "evidence": "Handles the camera and tripod correctly and makes an intentional composition.",
+      "next_step": "Rehearse care and a stable framing procedure under supervision.",
+      "descriptors": [
+        "Required evidence is not yet demonstrated: Handles the camera and tripod correctly and makes an intentional composition.",
+        "Parts of the task work; the learner uses specific prompts to complete or explain the decision.",
+        "Independently demonstrates: Handles the camera and tripod correctly and makes an intentional composition.",
+        "Selects and defends a different capture setup for a changed subject."
+      ],
+      "authority": "Teacher-designed skill; proposed outcome links, not official rubric wording"
+    },
+    {
+      "id": "com11-skill-light",
+      "course": "COM11",
+      "name": "Lighting comparison",
+      "outcome_codes": [
+        "2.3"
+      ],
+      "domain": "Course skill",
+      "evidence": "Records two light setups and explains the visible effect on the subject.",
+      "next_step": "Change one light variable while keeping camera and subject fixed.",
+      "descriptors": [
+        "Required evidence is not yet demonstrated: Records two light setups and explains the visible effect on the subject.",
+        "Parts of the task work; the learner uses specific prompts to complete or explain the decision.",
+        "Independently demonstrates: Records two light setups and explains the visible effect on the subject.",
+        "Selects a setup for a new mood or surface and explains a limitation."
+      ],
+      "authority": "Teacher-designed skill; proposed outcome links, not official rubric wording"
+    },
+    {
+      "id": "com11-skill-output",
+      "course": "COM11",
+      "name": "Image resolution and export",
+      "outcome_codes": [
+        "2.4",
+        "4.5"
+      ],
+      "domain": "Course skill",
+      "evidence": "Chooses dimensions and a file format for the actual destination and checks the export.",
+      "next_step": "Reopen the viewing copy and compare its properties with the brief.",
+      "descriptors": [
+        "Required evidence is not yet demonstrated: Chooses dimensions and a file format for the actual destination and checks the export.",
+        "Parts of the task work; the learner uses specific prompts to complete or explain the decision.",
+        "Independently demonstrates: Chooses dimensions and a file format for the actual destination and checks the export.",
+        "Adapts a design to another delivery context and explains quality/file-size trade-offs."
+      ],
+      "authority": "Teacher-designed skill; proposed outcome links, not official rubric wording"
+    },
+    {
+      "id": "com11-skill-scale",
+      "course": "COM11",
+      "name": "Technical modelling and scale",
+      "outcome_codes": [
+        "3.1",
+        "3.2",
+        "3.3"
+      ],
+      "domain": "Course skill",
+      "evidence": "Creates a dimensioned model or drawing whose units and views agree.",
+      "next_step": "Check one real dimension against the drawing before producing material.",
+      "descriptors": [
+        "Required evidence is not yet demonstrated: Creates a dimensioned model or drawing whose units and views agree.",
+        "Parts of the task work; the learner uses specific prompts to complete or explain the decision.",
+        "Independently demonstrates: Creates a dimensioned model or drawing whose units and views agree.",
+        "Adapts a component to a new size and checks fit without silently changing units."
+      ],
+      "authority": "Teacher-designed skill; proposed outcome links, not official rubric wording"
+    },
+    {
+      "id": "com11-skill-safety",
+      "course": "COM11",
+      "name": "Tool-specific safety demonstration",
+      "outcome_codes": [
+        "1.7"
+      ],
+      "domain": "Course skill",
+      "evidence": "Demonstrates the named tool procedure, required protection and stop condition under teacher observation.",
+      "next_step": "Reteach the exact missed safety action and observe another attempt.",
+      "descriptors": [
+        "Required evidence is not yet demonstrated: Demonstrates the named tool procedure, required protection and stop condition under teacher observation.",
+        "Parts of the task work; the learner uses specific prompts to complete or explain the decision.",
+        "Independently demonstrates: Demonstrates the named tool procedure, required protection and stop condition under teacher observation.",
+        "Identifies a changed unsafe condition and stops or seeks authorisation before continuing."
+      ],
+      "authority": "Teacher-designed skill; proposed outcome links, not official rubric wording"
+    },
+    {
+      "id": "com11-skill-prototype",
+      "course": "COM11",
+      "name": "Prototype, fit and revision",
+      "outcome_codes": [
+        "1.3",
+        "1.4"
+      ],
+      "domain": "Course skill",
+      "evidence": "Measures a prototype against a success criterion and documents one justified revision.",
+      "next_step": "Test a small paper or material coupon before the full build.",
+      "descriptors": [
+        "Required evidence is not yet demonstrated: Measures a prototype against a success criterion and documents one justified revision.",
+        "Parts of the task work; the learner uses specific prompts to complete or explain the decision.",
+        "Independently demonstrates: Measures a prototype against a success criterion and documents one justified revision.",
+        "Explains a failed fit or function and changes the relevant dimension or process."
+      ],
+      "authority": "Teacher-designed skill; proposed outcome links, not official rubric wording"
+    },
+    {
+      "id": "com11-skill-lifecycle",
+      "course": "COM11",
+      "name": "Materials and life cycle",
+      "outcome_codes": [
+        "1.5",
+        "1.6"
+      ],
+      "domain": "Course skill",
+      "evidence": "Compares sourcing, use and end-of-life consequences of a design material or device.",
+      "next_step": "Trace one material through production, use and disposal.",
+      "descriptors": [
+        "Required evidence is not yet demonstrated: Compares sourcing, use and end-of-life consequences of a design material or device.",
+        "Parts of the task work; the learner uses specific prompts to complete or explain the decision.",
+        "Independently demonstrates: Compares sourcing, use and end-of-life consequences of a design material or device.",
+        "Uses evidence to defend a different material choice under a changed constraint."
+      ],
+      "authority": "Teacher-designed skill; proposed outcome links, not official rubric wording"
+    },
+    {
+      "id": "com11-skill-portfolio",
+      "course": "COM11",
+      "name": "Documenting production and pathways",
+      "outcome_codes": [
+        "1.2",
+        "1.3"
+      ],
+      "domain": "Course skill",
+      "evidence": "Keeps process evidence and explains a personal skill goal connected to a pathway.",
+      "next_step": "Select a process photo and annotate the decision it proves.",
+      "descriptors": [
+        "Required evidence is not yet demonstrated: Keeps process evidence and explains a personal skill goal connected to a pathway.",
+        "Parts of the task work; the learner uses specific prompts to complete or explain the decision.",
+        "Independently demonstrates: Keeps process evidence and explains a personal skill goal connected to a pathway.",
+        "Curates evidence for a new audience and identifies a realistic next training step."
+      ],
+      "authority": "Teacher-designed skill; proposed outcome links, not official rubric wording"
+    },
+    {
+      "id": "ibds-skill-mechanism",
+      "course": "IBDS",
+      "name": "Explain a digital mechanism",
+      "outcome_codes": [
+        "3.1",
+        "3.2",
+        "2.6"
+      ],
+      "domain": "Course skill",
+      "evidence": "Traces input, processing, output and a meaningful feedback or decision point.",
+      "next_step": "Draw the steps and identify where a human rule enters the system.",
+      "descriptors": [
+        "Required evidence is not yet demonstrated: Traces input, processing, output and a meaningful feedback or decision point.",
+        "Parts of the task work; the learner uses specific prompts to complete or explain the decision.",
+        "Independently demonstrates: Traces input, processing, output and a meaningful feedback or decision point.",
+        "Transfers the mechanism explanation to an unfamiliar system and states a limitation."
+      ],
+      "authority": "Teacher-designed skill; proposed outcome links, not official rubric wording"
+    },
+    {
+      "id": "ibds-skill-data",
+      "course": "IBDS",
+      "name": "Data quality and representation",
+      "outcome_codes": [
+        "3.1",
+        "2.3"
+      ],
+      "domain": "Course skill",
+      "evidence": "Distinguishes recorded data, a derived inference and an omitted perspective.",
+      "next_step": "Identify one way collection or labelling can change the result.",
+      "descriptors": [
+        "Required evidence is not yet demonstrated: Distinguishes recorded data, a derived inference and an omitted perspective.",
+        "Parts of the task work; the learner uses specific prompts to complete or explain the decision.",
+        "Independently demonstrates: Distinguishes recorded data, a derived inference and an omitted perspective.",
+        "Predicts how a new collection rule would change a stakeholder outcome."
+      ],
+      "authority": "Teacher-designed skill; proposed outcome links, not official rubric wording"
+    },
+    {
+      "id": "ibds-skill-algorithm",
+      "course": "IBDS",
+      "name": "Rules, thresholds and trade-offs",
+      "outcome_codes": [
+        "3.2",
+        "2.4",
+        "2.7"
+      ],
+      "domain": "Course skill",
+      "evidence": "Applies a stated decision rule and explains who experiences each type of error.",
+      "next_step": "Trace one case just below and one just above the threshold.",
+      "descriptors": [
+        "Required evidence is not yet demonstrated: Applies a stated decision rule and explains who experiences each type of error.",
+        "Parts of the task work; the learner uses specific prompts to complete or explain the decision.",
+        "Independently demonstrates: Applies a stated decision rule and explains who experiences each type of error.",
+        "Explains the costs of changing the rule without calling a score a probability."
+      ],
+      "authority": "Teacher-designed skill; proposed outcome links, not official rubric wording"
+    },
+    {
+      "id": "ibds-skill-network",
+      "course": "IBDS",
+      "name": "Computers, networks and dependencies",
+      "outcome_codes": [
+        "3.3",
+        "3.4",
+        "2.6"
+      ],
+      "domain": "Course skill",
+      "evidence": "Explains how a dependency or access control changes the delivery of a digital service.",
+      "next_step": "Map one service path and identify a failure point.",
+      "descriptors": [
+        "Required evidence is not yet demonstrated: Explains how a dependency or access control changes the delivery of a digital service.",
+        "Parts of the task work; the learner uses specific prompts to complete or explain the decision.",
+        "Independently demonstrates: Explains how a dependency or access control changes the delivery of a digital service.",
+        "Predicts effects of an unfamiliar outage or access change with a clear causal chain."
+      ],
+      "authority": "Teacher-designed skill; proposed outcome links, not official rubric wording"
+    },
+    {
+      "id": "ibds-skill-sources",
+      "course": "IBDS",
+      "name": "Source credibility and provenance",
+      "outcome_codes": [
+        "3.5",
+        "4.5"
+      ],
+      "domain": "Course skill",
+      "evidence": "Identifies author, purpose, date, evidence and a limitation of a source.",
+      "next_step": "Separate a supported claim from a promotional or unsupported statement.",
+      "descriptors": [
+        "Required evidence is not yet demonstrated: Identifies author, purpose, date, evidence and a limitation of a source.",
+        "Parts of the task work; the learner uses specific prompts to complete or explain the decision.",
+        "Independently demonstrates: Identifies author, purpose, date, evidence and a limitation of a source.",
+        "Weighs conflicting sources and states what further evidence would change the conclusion."
+      ],
+      "authority": "Teacher-designed skill; proposed outcome links, not official rubric wording"
+    },
+    {
+      "id": "ibds-skill-stakeholders",
+      "course": "IBDS",
+      "name": "Stakeholder consequences",
+      "outcome_codes": [
+        "2.4",
+        "2.7",
+        "4.7"
+      ],
+      "domain": "Course skill",
+      "evidence": "Links a digital-system feature to a specific consequence for named stakeholders.",
+      "next_step": "Replace a list of benefits/risks with one because/therefore explanation.",
+      "descriptors": [
+        "Required evidence is not yet demonstrated: Links a digital-system feature to a specific consequence for named stakeholders.",
+        "Parts of the task work; the learner uses specific prompts to complete or explain the decision.",
+        "Independently demonstrates: Links a digital-system feature to a specific consequence for named stakeholders.",
+        "Explains an unequal effect and tests a plausible mitigation against another stakeholder."
+      ],
+      "authority": "Teacher-designed skill; proposed outcome links, not official rubric wording"
+    },
+    {
+      "id": "ibds-skill-concepts",
+      "course": "IBDS",
+      "name": "Use concepts to explain",
+      "outcome_codes": [
+        "2.1",
+        "2.4",
+        "2.6",
+        "2.7"
+      ],
+      "domain": "Course skill",
+      "evidence": "Uses a relevant concept to explain a relationship within the case.",
+      "next_step": "Explain how power, systems or values changes the interpretation.",
+      "descriptors": [
+        "Required evidence is not yet demonstrated: Uses a relevant concept to explain a relationship within the case.",
+        "Parts of the task work; the learner uses specific prompts to complete or explain the decision.",
+        "Independently demonstrates: Uses a relevant concept to explain a relationship within the case.",
+        "Connects two concepts without merely listing their names and defends the connection."
+      ],
+      "authority": "Teacher-designed skill; proposed outcome links, not official rubric wording"
+    },
+    {
+      "id": "ibds-skill-judgement",
+      "course": "IBDS",
+      "name": "Evidence-based judgement",
+      "outcome_codes": [
+        "2.7",
+        "4.7"
+      ],
+      "domain": "Course skill",
+      "evidence": "Makes a supported judgement and names a condition under which it should change.",
+      "next_step": "Link claim, case evidence, reasoning and qualification.",
+      "descriptors": [
+        "Required evidence is not yet demonstrated: Makes a supported judgement and names a condition under which it should change.",
+        "Parts of the task work; the learner uses specific prompts to complete or explain the decision.",
+        "Independently demonstrates: Makes a supported judgement and names a condition under which it should change.",
+        "Weighs competing criteria and explains why one carries more weight in a changed context."
+      ],
+      "authority": "Teacher-designed skill; proposed outcome links, not official rubric wording"
+    },
+    {
+      "id": "ibds-skill-synthesis",
+      "course": "IBDS",
+      "name": "Synthesis across sources",
+      "outcome_codes": [
+        "3.5",
+        "4.5"
+      ],
+      "domain": "Course skill",
+      "evidence": "Combines two sources around one claim while distinguishing their contributions.",
+      "next_step": "Write a sentence showing agreement, tension or complementarity between sources.",
+      "descriptors": [
+        "Required evidence is not yet demonstrated: Combines two sources around one claim while distinguishing their contributions.",
+        "Parts of the task work; the learner uses specific prompts to complete or explain the decision.",
+        "Independently demonstrates: Combines two sources around one claim while distinguishing their contributions.",
+        "Builds a qualified conclusion that neither source supports on its own."
+      ],
+      "authority": "Teacher-designed skill; proposed outcome links, not official rubric wording"
+    },
+    {
+      "id": "ibds-skill-inquiry",
+      "course": "IBDS",
+      "name": "Focused inquiry and ethics",
+      "outcome_codes": [
+        "2.6",
+        "2.7",
+        "4.5"
+      ],
+      "domain": "Course skill",
+      "evidence": "Frames a bounded inquiry around a real system, stakeholders and an evidence need.",
+      "next_step": "Narrow the place, system, group or period and identify what can be investigated.",
+      "descriptors": [
+        "Required evidence is not yet demonstrated: Frames a bounded inquiry around a real system, stakeholders and an evidence need.",
+        "Parts of the task work; the learner uses specific prompts to complete or explain the decision.",
+        "Independently demonstrates: Frames a bounded inquiry around a real system, stakeholders and an evidence need.",
+        "Refines the question when evidence exposes an assumption without changing to an unbounded topic."
+      ],
+      "authority": "Teacher-designed skill; proposed outcome links, not official rubric wording"
+    },
+    {
+      "id": "ibds-skill-futures",
+      "course": "IBDS",
+      "name": "Trends and plausible futures",
+      "outcome_codes": [
+        "2.1",
+        "3.6",
+        "3.7"
+      ],
+      "domain": "Course skill",
+      "evidence": "Distinguishes a sourced trend from a prediction and states its assumptions.",
+      "next_step": "Identify the mechanism that could extend or interrupt a trend.",
+      "descriptors": [
+        "Required evidence is not yet demonstrated: Distinguishes a sourced trend from a prediction and states its assumptions.",
+        "Parts of the task work; the learner uses specific prompts to complete or explain the decision.",
+        "Independently demonstrates: Distinguishes a sourced trend from a prediction and states its assumptions.",
+        "Compares plausible scenarios and explains the evidence that would favour each."
+      ],
+      "authority": "Teacher-designed skill; proposed outcome links, not official rubric wording"
+    },
+    {
+      "id": "ibds-skill-communication",
+      "course": "IBDS",
+      "name": "Communicate and defend reasoning",
+      "outcome_codes": [
+        "3.5",
+        "4.5"
+      ],
+      "domain": "Course skill",
+      "evidence": "Communicates a causal argument and answers a neutral follow-up using evidence.",
+      "next_step": "Annotate one claim and rehearse pointing to its supporting evidence.",
+      "descriptors": [
+        "Required evidence is not yet demonstrated: Communicates a causal argument and answers a neutral follow-up using evidence.",
+        "Parts of the task work; the learner uses specific prompts to complete or explain the decision.",
+        "Independently demonstrates: Communicates a causal argument and answers a neutral follow-up using evidence.",
+        "Adapts the explanation to a new audience or question without losing accuracy."
+      ],
+      "authority": "Teacher-designed skill; proposed outcome links, not official rubric wording"
+    },
+    {
+      "id": "all-skill-turns",
+      "course": "ALL",
+      "name": "Balanced participation",
+      "outcome_codes": [],
+      "domain": "Learning and cooperation",
+      "evidence": "Takes an agreed turn and makes space for another contribution.",
+      "next_step": "Use a visible turn order and a brief think/write pause.",
+      "descriptors": [
+        "Required evidence is not yet demonstrated: Takes an agreed turn and makes space for another contribution.",
+        "Parts of the task work; the learner uses specific prompts to complete or explain the decision.",
+        "Independently demonstrates: Takes an agreed turn and makes space for another contribution.",
+        "Helps the team restore balanced participation without taking over."
+      ],
+      "authority": "Teacher-designed skill; proposed outcome links, not official rubric wording"
+    },
+    {
+      "id": "all-skill-coach",
+      "course": "ALL",
+      "name": "Coach without taking over",
+      "outcome_codes": [],
+      "domain": "Learning and cooperation",
+      "evidence": "Asks a useful question while the partner controls their own work.",
+      "next_step": "Use a question or checkpoint before offering a solution.",
+      "descriptors": [
+        "Required evidence is not yet demonstrated: Asks a useful question while the partner controls their own work.",
+        "Parts of the task work; the learner uses specific prompts to complete or explain the decision.",
+        "Independently demonstrates: Asks a useful question while the partner controls their own work.",
+        "Adapts coaching to a new difficulty and checks that the partner can act independently."
+      ],
+      "authority": "Teacher-designed skill; proposed outcome links, not official rubric wording"
+    },
+    {
+      "id": "all-skill-feedback",
+      "course": "ALL",
+      "name": "Use feedback and revise",
+      "outcome_codes": [],
+      "domain": "Learning and cooperation",
+      "evidence": "Identifies feedback, makes a relevant change and explains its effect.",
+      "next_step": "Record one before/after comparison and the reason for the edit.",
+      "descriptors": [
+        "Required evidence is not yet demonstrated: Identifies feedback, makes a relevant change and explains its effect.",
+        "Parts of the task work; the learner uses specific prompts to complete or explain the decision.",
+        "Independently demonstrates: Identifies feedback, makes a relevant change and explains its effect.",
+        "Tests conflicting feedback and defends the revision against the brief."
+      ],
+      "authority": "Teacher-designed skill; proposed outcome links, not official rubric wording"
+    },
+    {
+      "id": "all-skill-goal",
+      "course": "ALL",
+      "name": "Plan a small next step",
+      "outcome_codes": [],
+      "domain": "Learning and cooperation",
+      "evidence": "Names a feasible next action and the evidence that will show it happened.",
+      "next_step": "Choose one action for the next lesson and a check date.",
+      "descriptors": [
+        "Required evidence is not yet demonstrated: Names a feasible next action and the evidence that will show it happened.",
+        "Parts of the task work; the learner uses specific prompts to complete or explain the decision.",
+        "Independently demonstrates: Names a feasible next action and the evidence that will show it happened.",
+        "Revises the goal using evidence and explains what support helped."
+      ],
+      "authority": "Teacher-designed skill; proposed outcome links, not official rubric wording"
+    }
+  ],
+  "crosswalk": {
+    "artifact": "skill-crosswalk",
+    "version": 2,
+    "generated": "2026-09-21",
+    "source_of_truth": "Evidence Map SKILLS_RAW (ct-*/mm-*/ds-*) owns competency IDs and the grade path. PS-*/GD-* are the Truck Standard tutorial registry (PHOTOSHOP_SKILLS.md / DESIGN_FOUNDATIONS_SKILLS.md) and map IN via outcomes. Cross-system join = outcome code, never skill_id.",
+    "outcome_slug_rule": {
+      "COM11": "communications-technology-11-<strand>-<n>",
+      "MM12": "mm12-o<N> (o1..o5 = images 1.1-1.5; o6..o10 = 2.1-2.5; Sound module = sound-2015-<code>)",
+      "IBDS": "ds-u<unit2>-<n3>"
+    },
+    "rung_rule": "Tutorial tier normalised to F/G/I/A; competency rung lives on the SKILLS_RAW card and may differ.",
+    "known_gaps": [
+      "Multimedia image module has no competency skills; 21 PS rows join to MM via mm12-oN outcomes only.",
+      "GD-CRIT-01 spans all tiers."
+    ],
+    "crosswalk": [
+      {
+        "tutorial_skill_id": "PS-FND-01",
+        "tutorial_label": "Interface, workspace, file organization",
+        "family": "Foundation & Workflow",
+        "evidence_skill_ids": [
+          "ct-image-software-layers"
+        ],
+        "outcome_codes": [
+          "communications-technology-11-4-4",
+          "mm12-o1",
+          "mm12-o5"
+        ],
+        "rung": "F",
+        "notes": "Umbrella tool competency (4.4). File-org has no 1:1 competency; MM join is outcome-only (no mm image skill)."
+      },
+      {
+        "tutorial_skill_id": "PS-LAY-01",
+        "tutorial_label": "Layers and layer masks",
+        "family": "Non-destructive Construction",
+        "evidence_skill_ids": [
+          "ct-image-software-layers"
+        ],
+        "outcome_codes": [
+          "communications-technology-11-4-4",
+          "mm12-o1"
+        ],
+        "rung": "F",
+        "notes": "MM = outcome-only."
+      },
+      {
+        "tutorial_skill_id": "PS-ADJ-01",
+        "tutorial_label": "Adjustment layers",
+        "family": "Colour, Light & Integration",
+        "evidence_skill_ids": [
+          "ct-image-software-layers",
+          "ct-color-wheel"
+        ],
+        "outcome_codes": [
+          "communications-technology-11-4-4",
+          "communications-technology-11-4-2",
+          "mm12-o1"
+        ],
+        "rung": "F",
+        "notes": "MM = outcome-only."
+      },
+      {
+        "tutorial_skill_id": "PS-TON-01",
+        "tutorial_label": "Levels and Curves",
+        "family": "Colour, Light & Integration",
+        "evidence_skill_ids": [
+          "ct-image-software-layers",
+          "ct-color-wheel"
+        ],
+        "outcome_codes": [
+          "communications-technology-11-4-4",
+          "communications-technology-11-4-2",
+          "mm12-o1"
+        ],
+        "rung": "I",
+        "notes": "MM = outcome-only."
+      },
+      {
+        "tutorial_skill_id": "PS-COL-01",
+        "tutorial_label": "Colour replacement / control",
+        "family": "Colour, Light & Integration",
+        "evidence_skill_ids": [
+          "ct-color-wheel",
+          "ct-image-software-layers"
+        ],
+        "outcome_codes": [
+          "communications-technology-11-4-2",
+          "communications-technology-11-4-4",
+          "mm12-o1"
+        ],
+        "rung": "F",
+        "notes": "MM = outcome-only."
+      },
+      {
+        "tutorial_skill_id": "PS-SEL-01",
+        "tutorial_label": "Select Subject / Object Selection",
+        "family": "Selection & Isolation",
+        "evidence_skill_ids": [
+          "ct-image-software-layers"
+        ],
+        "outcome_codes": [
+          "communications-technology-11-4-4",
+          "mm12-o1"
+        ],
+        "rung": "F",
+        "notes": "MM = outcome-only."
+      },
+      {
+        "tutorial_skill_id": "PS-BRS-01",
+        "tutorial_label": "Brush control",
+        "family": "Foundation & Workflow",
+        "evidence_skill_ids": [
+          "ct-image-software-layers"
+        ],
+        "outcome_codes": [
+          "communications-technology-11-4-4",
+          "mm12-o1"
+        ],
+        "rung": "F",
+        "notes": "No dedicated brush competency; rolls up to 4.4. MM = outcome-only."
+      },
+      {
+        "tutorial_skill_id": "PS-SEL-02",
+        "tutorial_label": "Pen Tool selection",
+        "family": "Selection & Isolation",
+        "evidence_skill_ids": [
+          "ct-image-software-layers"
+        ],
+        "outcome_codes": [
+          "communications-technology-11-4-4",
+          "mm12-o1"
+        ],
+        "rung": "I",
+        "notes": "MM = outcome-only."
+      },
+      {
+        "tutorial_skill_id": "PS-TRN-01",
+        "tutorial_label": "Scale, rotate, align",
+        "family": "Transform & Perspective",
+        "evidence_skill_ids": [
+          "ct-image-software-layers",
+          "ct-design-principles"
+        ],
+        "outcome_codes": [
+          "communications-technology-11-4-4",
+          "communications-technology-11-4-1",
+          "mm12-o1"
+        ],
+        "rung": "F",
+        "notes": "Align touches design principles (4.1). MM = outcome-only."
+      },
+      {
+        "tutorial_skill_id": "PS-TRN-02",
+        "tutorial_label": "Distort / Perspective / Warp",
+        "family": "Transform & Perspective",
+        "evidence_skill_ids": [
+          "ct-image-software-layers"
+        ],
+        "outcome_codes": [
+          "communications-technology-11-4-4",
+          "mm12-o1"
+        ],
+        "rung": "I",
+        "notes": "MM = outcome-only."
+      },
+      {
+        "tutorial_skill_id": "PS-TYP-01",
+        "tutorial_label": "Photoshop type construction",
+        "family": "Graphic Communication",
+        "evidence_skill_ids": [
+          "ct-typography",
+          "ct-image-software-layers"
+        ],
+        "outcome_codes": [
+          "communications-technology-11-4-3",
+          "communications-technology-11-4-4",
+          "mm12-o1"
+        ],
+        "rung": "F",
+        "notes": "MM = outcome-only."
+      },
+      {
+        "tutorial_skill_id": "PS-SMO-01",
+        "tutorial_label": "Smart Objects",
+        "family": "Non-destructive Construction",
+        "evidence_skill_ids": [
+          "ct-image-software-layers"
+        ],
+        "outcome_codes": [
+          "communications-technology-11-4-4",
+          "mm12-o5",
+          "mm12-o1"
+        ],
+        "rung": "I",
+        "notes": "Non-destructive process (1.5). MM = outcome-only."
+      },
+      {
+        "tutorial_skill_id": "PS-BLD-01",
+        "tutorial_label": "Blend If",
+        "family": "Colour, Light & Integration",
+        "evidence_skill_ids": [
+          "ct-image-software-layers"
+        ],
+        "outcome_codes": [
+          "communications-technology-11-4-4",
+          "mm12-o1"
+        ],
+        "rung": "I",
+        "notes": "MM = outcome-only."
+      },
+      {
+        "tutorial_skill_id": "PS-BLD-02",
+        "tutorial_label": "Blending modes",
+        "family": "Colour, Light & Integration",
+        "evidence_skill_ids": [
+          "ct-image-software-layers"
+        ],
+        "outcome_codes": [
+          "communications-technology-11-4-4",
+          "mm12-o1"
+        ],
+        "rung": "I",
+        "notes": "MM = outcome-only."
+      },
+      {
+        "tutorial_skill_id": "PS-LGT-01",
+        "tutorial_label": "Dodge and Burn",
+        "family": "Colour, Light & Integration",
+        "evidence_skill_ids": [
+          "ct-image-software-layers",
+          "ct-photo-lighting"
+        ],
+        "outcome_codes": [
+          "communications-technology-11-4-4",
+          "communications-technology-11-2-3",
+          "mm12-o1"
+        ],
+        "rung": "I",
+        "notes": "Also photography lighting (2.3). MM = outcome-only."
+      },
+      {
+        "tutorial_skill_id": "PS-LGT-02",
+        "tutorial_label": "Match light and colour",
+        "family": "Colour, Light & Integration",
+        "evidence_skill_ids": [
+          "ct-image-software-layers",
+          "ct-photo-lighting",
+          "ct-color-wheel"
+        ],
+        "outcome_codes": [
+          "communications-technology-11-4-4",
+          "communications-technology-11-2-3",
+          "communications-technology-11-4-2",
+          "mm12-o1"
+        ],
+        "rung": "I",
+        "notes": "Compositing integration. MM = outcome-only."
+      },
+      {
+        "tutorial_skill_id": "PS-RET-01",
+        "tutorial_label": "Clone Stamp",
+        "family": "Retouching & Effects",
+        "evidence_skill_ids": [
+          "ct-image-software-layers"
+        ],
+        "outcome_codes": [
+          "communications-technology-11-4-4",
+          "mm12-o1"
+        ],
+        "rung": "F",
+        "notes": "Retouching rolls up to 4.4. MM = outcome-only."
+      },
+      {
+        "tutorial_skill_id": "PS-CAM-01",
+        "tutorial_label": "Adobe Camera Raw",
+        "family": "Colour, Light & Integration",
+        "evidence_skill_ids": [
+          "ct-photo-camera",
+          "ct-image-software-layers"
+        ],
+        "outcome_codes": [
+          "communications-technology-11-2-1",
+          "communications-technology-11-4-4",
+          "mm12-o1"
+        ],
+        "rung": "I",
+        "notes": "Closest to camera capture (2.1). MM = outcome-only."
+      },
+      {
+        "tutorial_skill_id": "PS-FLT-01",
+        "tutorial_label": "Filters and Smart Filters",
+        "family": "Retouching & Effects",
+        "evidence_skill_ids": [
+          "ct-image-software-layers"
+        ],
+        "outcome_codes": [
+          "communications-technology-11-4-4",
+          "mm12-o5"
+        ],
+        "rung": "I",
+        "notes": "Smart Filters -> 1.5 process. MM = outcome-only."
+      },
+      {
+        "tutorial_skill_id": "PS-DES-01",
+        "tutorial_label": "Visual hierarchy and composition in Photoshop",
+        "family": "Graphic Communication",
+        "evidence_skill_ids": [
+          "ct-design-principles",
+          "ct-compose-message"
+        ],
+        "outcome_codes": [
+          "communications-technology-11-4-1",
+          "communications-technology-11-4-4",
+          "mm12-o4"
+        ],
+        "rung": "I",
+        "notes": "Design principles applied in-tool; audience (1.4). MM = outcome-only."
+      },
+      {
+        "tutorial_skill_id": "PS-OUT-01",
+        "tutorial_label": "Web/export settings",
+        "family": "Output & Delivery",
+        "evidence_skill_ids": [
+          "ct-export-output"
+        ],
+        "outcome_codes": [
+          "communications-technology-11-4-5",
+          "mm12-o5"
+        ],
+        "rung": "F",
+        "notes": "Output competency (4.5). MM = outcome-only."
+      },
+      {
+        "tutorial_skill_id": "GD-CON-01",
+        "tutorial_label": "Contrast",
+        "family": "Bootcamp",
+        "evidence_skill_ids": [
+          "ct-design-principles"
+        ],
+        "outcome_codes": [
+          "communications-technology-11-4-1"
+        ],
+        "rung": "F",
+        "notes": "Confirmed vs DESIGN_FOUNDATIONS_SKILLS.md."
+      },
+      {
+        "tutorial_skill_id": "GD-HIE-01",
+        "tutorial_label": "Visual hierarchy",
+        "family": "Bootcamp",
+        "evidence_skill_ids": [
+          "ct-design-principles",
+          "ct-compose-message"
+        ],
+        "outcome_codes": [
+          "communications-technology-11-4-1",
+          "communications-technology-11-4-4"
+        ],
+        "rung": "F",
+        "notes": ""
+      },
+      {
+        "tutorial_skill_id": "GD-ALN-01",
+        "tutorial_label": "Alignment",
+        "family": "Bootcamp",
+        "evidence_skill_ids": [
+          "ct-design-principles"
+        ],
+        "outcome_codes": [
+          "communications-technology-11-4-1"
+        ],
+        "rung": "F",
+        "notes": ""
+      },
+      {
+        "tutorial_skill_id": "GD-PRO-01",
+        "tutorial_label": "Proximity / grouping",
+        "family": "Bootcamp",
+        "evidence_skill_ids": [
+          "ct-design-principles"
+        ],
+        "outcome_codes": [
+          "communications-technology-11-4-1"
+        ],
+        "rung": "F",
+        "notes": "Was not in the original map list; added from registry."
+      },
+      {
+        "tutorial_skill_id": "GD-REP-01",
+        "tutorial_label": "Repetition / consistency",
+        "family": "Bootcamp",
+        "evidence_skill_ids": [
+          "ct-design-principles"
+        ],
+        "outcome_codes": [
+          "communications-technology-11-4-1"
+        ],
+        "rung": "F",
+        "notes": ""
+      },
+      {
+        "tutorial_skill_id": "GD-COL-01",
+        "tutorial_label": "Colour relationships and readability",
+        "family": "Bootcamp",
+        "evidence_skill_ids": [
+          "ct-color-wheel"
+        ],
+        "outcome_codes": [
+          "communications-technology-11-4-2"
+        ],
+        "rung": "F",
+        "notes": ""
+      },
+      {
+        "tutorial_skill_id": "GD-TYP-01",
+        "tutorial_label": "Typography as communication",
+        "family": "Bootcamp",
+        "evidence_skill_ids": [
+          "ct-typography"
+        ],
+        "outcome_codes": [
+          "communications-technology-11-4-3"
+        ],
+        "rung": "F",
+        "notes": ""
+      },
+      {
+        "tutorial_skill_id": "GD-AUD-01",
+        "tutorial_label": "Audience and purpose",
+        "family": "Guided Projects",
+        "evidence_skill_ids": [
+          "ct-design-brief",
+          "ct-compose-message"
+        ],
+        "outcome_codes": [
+          "communications-technology-11-1-4",
+          "communications-technology-11-4-4"
+        ],
+        "rung": "G",
+        "notes": "Audience/purpose = design brief (1.4)."
+      },
+      {
+        "tutorial_skill_id": "GD-MET-01",
+        "tutorial_label": "Visual metaphor",
+        "family": "Guided Projects",
+        "evidence_skill_ids": [
+          "ct-compose-message"
+        ],
+        "outcome_codes": [
+          "communications-technology-11-4-4"
+        ],
+        "rung": "G",
+        "notes": "Communicate a message (4.4)."
+      },
+      {
+        "tutorial_skill_id": "GD-BRD-01",
+        "tutorial_label": "Brand consistency",
+        "family": "Client/Branding",
+        "evidence_skill_ids": [
+          "ct-brand-identity"
+        ],
+        "outcome_codes": [
+          "communications-technology-11-4-4",
+          "communications-technology-11-4-1"
+        ],
+        "rung": "I",
+        "notes": "Added from registry. Brand identity competency (I)."
+      },
+      {
+        "tutorial_skill_id": "GD-DEM-01",
+        "tutorial_label": "Demographic fit",
+        "family": "Client/Branding",
+        "evidence_skill_ids": [
+          "ct-design-brief"
+        ],
+        "outcome_codes": [
+          "communications-technology-11-1-4"
+        ],
+        "rung": "I",
+        "notes": "Added from registry. Audience evidence -> design brief (1.4)."
+      },
+      {
+        "tutorial_skill_id": "GD-CTA-01",
+        "tutorial_label": "Message / call to action",
+        "family": "Client/Branding",
+        "evidence_skill_ids": [
+          "ct-compose-message"
+        ],
+        "outcome_codes": [
+          "communications-technology-11-4-4"
+        ],
+        "rung": "I",
+        "notes": "Added from registry."
+      },
+      {
+        "tutorial_skill_id": "GD-CRIT-01",
+        "tutorial_label": "Critique and revision",
+        "family": "All stages",
+        "evidence_skill_ids": [
+          "ct-design-iterate",
+          "ct-design-defend"
+        ],
+        "outcome_codes": [
+          "communications-technology-11-1-4"
+        ],
+        "rung": "I",
+        "notes": "Iterate (G) + defend (I)."
+      }
+    ]
+  },
+  "assignment_links": {
+    "version": "2026-09-25",
+    "note": "Explicit links into the existing course map. Missing links are preparation work, not permission to invent IDs or URLs.",
+    "sprints": [
+      {
+        "sprint_id": "mm12-26-s01",
+        "projects": [
+          {
+            "project_id": "PS-DROP-DAY",
+            "title": "Drop Day",
+            "role": "Classes 4–6 · repair, isolate and style a sneaker advertisement",
+            "workbook_url": "https://ctwadden.github.io/multimedia-12/photoshop/studio/drop-day/?course=MM12",
+            "coach_url": "https://gemini.google.com/gem/1ySXJPfNy0hCfESu8EzsD3vuexPiuKQKo?usp=sharing",
+            "assessment_url": "https://script.google.com/a/macros/gnspes.ca/s/AKfycbxqHbAwEwbvdMrOGY4eP4Yu-z8PXqMsA-MfMGBFoTA5CoDbOA4sUv1LsXbYfFMWmrcP/exec?project=PS-DROP-DAY&type=student",
+            "rubric_ids": [],
+            "preparation": "Published workbook, coach and assessment links inspected on 24 September. A downloadable criterion-level rubric still needs reconciliation with this workbook; the full Bootcamp package is not certified.",
+            "order": 2
+          }
+        ],
+        "resources": [
+          {
+            "resource_key": "BOOT",
+            "order": 1,
+            "title": "Below the Surface",
+            "role": "Classes 1–3 · construct, integrate and animate a shark documentary identity",
+            "workbook_url": "https://outcome-evidence-map.netlify.app/outputs/recovered-teaching-materials-2026-09-23/guides/Below_the_Surface_Student_Guide.html",
+            "pdf_url": "https://outcome-evidence-map.netlify.app/outputs/recovered-teaching-materials-2026-09-23/guides/Below_the_Surface_Student_Guide.pdf",
+            "preparation": "Existing 24-step student guide, with embedded source images and motion reference, restored unchanged. The guide includes practical checks; its saved responses stay in that browser. Coach, Google Forms and shared rubric connections still need registration. Photoshop rehearsal remains pending."
+          },
+          {
+            "resource_key": "COVER",
+            "order": 3,
+            "title": "On the Cover",
+            "role": "Classes 7–9 · refine a portrait and build an editable magazine cover",
+            "workbook_url": "https://outcome-evidence-map.netlify.app/outputs/recovered-teaching-materials-2026-09-23/guides/On_the_Cover_Student_Guide.html",
+            "pdf_url": "https://outcome-evidence-map.netlify.app/outputs/recovered-teaching-materials-2026-09-23/guides/On_the_Cover_Student_Guide.pdf",
+            "preparation": "Existing 24-stage student guide, with embedded portrait, cover copy and construction references, restored unchanged. Its saved reflection stays in that browser. Coach, Google Forms and shared rubric connections still need registration. Photoshop rehearsal remains pending."
+          },
+          {
+            "order": 4,
+            "title": "Photoshop Foundations — Decode the Impossible",
+            "role": "Optional prerequisite or support lesson · gallery, layer simulator, phone portal and out-of-bounds effect",
+            "workbook_url": "https://ctwadden.github.io/ps-01-photoshop-foundations/",
+            "preparation": "Existing published lesson with student source downloads. Use selectively for prerequisite practice; it is not an additional required class in the ten-class Bootcamp sequence."
+          }
+        ]
+      },
+      {
+        "sprint_id": "com11-26-s01",
+        "projects": [
+          {
+            "project_id": "PS-DROP-DAY",
+            "title": "Drop Day",
+            "role": "Classes 4–6 · repair, isolate and style a sneaker advertisement",
+            "workbook_url": "https://ctwadden.github.io/multimedia-12/photoshop/studio/drop-day/?course=COM11",
+            "coach_url": "https://gemini.google.com/gem/1ySXJPfNy0hCfESu8EzsD3vuexPiuKQKo?usp=sharing",
+            "assessment_url": "https://script.google.com/a/macros/gnspes.ca/s/AKfycbxqHbAwEwbvdMrOGY4eP4Yu-z8PXqMsA-MfMGBFoTA5CoDbOA4sUv1LsXbYfFMWmrcP/exec?project=PS-DROP-DAY&type=student",
+            "rubric_ids": [],
+            "preparation": "Use the COM11 route and select the correct course in the assessment launcher. Shared instruction does not imply shared course outcome judgments. The shared criterion-level rubric is still to be reconciled.",
+            "order": 2
+          }
+        ],
+        "resources": [
+          {
+            "resource_key": "BOOT",
+            "order": 1,
+            "title": "Below the Surface",
+            "role": "Classes 1–3 · construct, integrate and animate a shark documentary identity",
+            "workbook_url": "https://outcome-evidence-map.netlify.app/outputs/recovered-teaching-materials-2026-09-23/guides/Below_the_Surface_Student_Guide.html",
+            "pdf_url": "https://outcome-evidence-map.netlify.app/outputs/recovered-teaching-materials-2026-09-23/guides/Below_the_Surface_Student_Guide.pdf",
+            "preparation": "Existing 24-step student guide, with embedded source images and motion reference, restored unchanged. The guide includes practical checks; its saved responses stay in that browser. Coach, Google Forms and shared rubric connections still need registration. Photoshop rehearsal remains pending."
+          },
+          {
+            "resource_key": "COVER",
+            "order": 3,
+            "title": "On the Cover",
+            "role": "Classes 7–9 · refine a portrait and build an editable magazine cover",
+            "workbook_url": "https://outcome-evidence-map.netlify.app/outputs/recovered-teaching-materials-2026-09-23/guides/On_the_Cover_Student_Guide.html",
+            "pdf_url": "https://outcome-evidence-map.netlify.app/outputs/recovered-teaching-materials-2026-09-23/guides/On_the_Cover_Student_Guide.pdf",
+            "preparation": "Existing 24-stage student guide, with embedded portrait, cover copy and construction references, restored unchanged. Its saved reflection stays in that browser. Coach, Google Forms and shared rubric connections still need registration. Photoshop rehearsal remains pending."
+          },
+          {
+            "order": 4,
+            "title": "Photoshop Foundations — Decode the Impossible",
+            "role": "Optional prerequisite or support lesson · gallery, layer simulator, phone portal and out-of-bounds effect",
+            "workbook_url": "https://ctwadden.github.io/ps-01-photoshop-foundations/",
+            "preparation": "Existing published lesson with student source downloads. Use selectively for prerequisite practice; it is not an additional required class in the ten-class Bootcamp sequence."
+          }
+        ]
+      },
+      {
+        "sprint_id": "mm12-26-s02",
+        "projects": [
+          {
+            "project_id": "PS-TRUCK-AD",
+            "title": "Truck Ad",
+            "role": "Guided construction and an independent changed-audience version",
+            "workbook_url": "https://outcome-evidence-map.netlify.app/outputs/recovered-teaching-materials-2026-09-23/guides/Truck_Ad_Complete_Guide_v2_RC2.html",
+            "coach_url": "https://gemini.google.com/gem/1ySXJPfNy0hCfESu8EzsD3vuexPiuKQKo?usp=sharing",
+            "assessment_url": "https://docs.google.com/forms/d/e/1FAIpQLSfnm2tVKK_795ELevF44ywk1DxYCLlZad03ANGpsdSTWtxH4g/viewform",
+            "rubric_ids": [
+              "MM12-TRUCK-AD-R1"
+            ],
+            "recovered_reference": "outputs/recovered-teaching-materials-2026-09-23/guides/Truck_Ad_Complete_Guide_v2_RC2.html",
+            "preparation": "Recovered RC2 guide with the existing Coach and registered knowledge/reflection Form. The revised MM12 rubric maps original checkpoints and taught skills; teacher approval remains pending. Native Photoshop rehearsal and the supplied hero-image asset still require completion before classroom release.",
+            "source_url": "https://github.com/ctwadden/classroom-tools/blob/technology-learning-system-v3/system/projects/photoshop/truck-ad/project-manifest.yml",
+            "forms_spec_url": "https://raw.githubusercontent.com/ctwadden/classroom-tools/technology-learning-system-v3/system/projects/photoshop/truck-ad/assessment/forms-spec.json",
+            "original_rubric_url": "https://github.com/ctwadden/classroom-tools/blob/technology-learning-system-v3/system/audits/photoshop/truck-ad/TRUCK_AD_EVIDENCE_RUBRICS.md",
+            "source_checkpoints": [
+              {
+                "evidence_id": "TA-OBS-01",
+                "evidence_type": "Observation",
+                "title": "Smart Filter mask repair",
+                "skill_ids": [
+                  "PS-FLT-01",
+                  "PS-LAY-01"
+                ],
+                "criterion_ids": [
+                  "TA-MM-C1"
+                ]
+              },
+              {
+                "evidence_id": "TA-CON-01",
+                "evidence_type": "Conversation",
+                "title": "Blend-mode reasoning",
+                "skill_ids": [
+                  "PS-BLD-02"
+                ],
+                "criterion_ids": [
+                  "TA-MM-C1"
+                ]
+              },
+              {
+                "evidence_id": "TA-OBS-02",
+                "evidence_type": "Observation",
+                "title": "Typography / hierarchy revision",
+                "skill_ids": [
+                  "PS-TYP-01",
+                  "GD-HIE-01",
+                  "GD-ALN-01"
+                ],
+                "criterion_ids": [
+                  "TA-MM-C2"
+                ]
+              },
+              {
+                "evidence_id": "TA-CON-02",
+                "evidence_type": "Conversation",
+                "title": "Audience / message defence",
+                "skill_ids": [
+                  "GD-AUD-01",
+                  "GD-MET-01"
+                ],
+                "criterion_ids": [
+                  "TA-MM-C3"
+                ]
+              },
+              {
+                "evidence_id": "TA-PRO-02",
+                "evidence_type": "Product",
+                "title": "Final advertisement",
+                "skill_ids": [
+                  "PS-DES-01",
+                  "PS-BLD-02",
+                  "PS-TYP-01",
+                  "GD-HIE-01",
+                  "GD-AUD-01"
+                ],
+                "criterion_ids": [
+                  "TA-MM-C2",
+                  "TA-MM-C3"
+                ]
+              },
+              {
+                "evidence_id": "TA-QA-01",
+                "evidence_type": "Observation+Conversation",
+                "title": "Critique and revision",
+                "skill_ids": [
+                  "GD-CRIT-01",
+                  "PS-DES-01"
+                ],
+                "criterion_ids": [
+                  "TA-MM-C2",
+                  "TA-MM-C3"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "project_steps": {
+    "PS-TRUCK-AD": [
+      {
+        "step_id": "TA-S01",
+        "title": "Download the approved assets and create the working file",
+        "skill_ids": [
+          "PS-FND-01"
+        ],
+        "checkpoint_ids": []
+      },
+      {
+        "step_id": "TA-S02",
+        "title": "Make the truck editable and apply the Cutout look",
+        "skill_ids": [
+          "PS-SMO-01",
+          "PS-FLT-01"
+        ],
+        "checkpoint_ids": []
+      },
+      {
+        "step_id": "TA-S03",
+        "title": "Add controlled grain without flattening",
+        "skill_ids": [
+          "PS-FLT-01",
+          "PS-SMO-01"
+        ],
+        "checkpoint_ids": []
+      },
+      {
+        "step_id": "TA-S04",
+        "title": "Protect the truck detail with the Smart Filter mask",
+        "skill_ids": [
+          "PS-FLT-01",
+          "PS-LAY-01"
+        ],
+        "checkpoint_ids": [
+          "TA-OBS-01"
+        ]
+      },
+      {
+        "step_id": "TA-S05",
+        "title": "Blend the paper texture over the scene",
+        "skill_ids": [
+          "PS-BLD-02",
+          "PS-LAY-01",
+          "GD-CON-01"
+        ],
+        "checkpoint_ids": []
+      },
+      {
+        "step_id": "TA-S06",
+        "title": "Add the source-style vignette",
+        "skill_ids": [
+          "PS-TON-01",
+          "PS-LAY-01",
+          "GD-HIE-01"
+        ],
+        "checkpoint_ids": []
+      },
+      {
+        "step_id": "TA-S07",
+        "title": "Create the bull halftone treatment",
+        "skill_ids": [
+          "PS-FLT-01",
+          "PS-SMO-01",
+          "GD-MET-01"
+        ],
+        "checkpoint_ids": []
+      },
+      {
+        "step_id": "TA-S08",
+        "title": "Blend the bull into the ad",
+        "skill_ids": [
+          "PS-BLD-02",
+          "PS-LAY-01",
+          "GD-MET-01"
+        ],
+        "checkpoint_ids": [
+          "TA-CON-01"
+        ]
+      },
+      {
+        "step_id": "TA-S09",
+        "title": "Build the first headline block with alignment, not guessing",
+        "skill_ids": [
+          "PS-TYP-01",
+          "GD-HIE-01",
+          "GD-ALN-01",
+          "GD-TYP-01"
+        ],
+        "checkpoint_ids": [
+          "TA-OBS-02"
+        ]
+      },
+      {
+        "step_id": "TA-S10",
+        "title": "Make one reusable halftone type texture",
+        "skill_ids": [
+          "PS-FLT-01",
+          "PS-TYP-01",
+          "GD-REP-01"
+        ],
+        "checkpoint_ids": []
+      },
+      {
+        "step_id": "TA-S11",
+        "title": "Add oversized ghost type for depth",
+        "skill_ids": [
+          "PS-TYP-01",
+          "PS-BLD-02",
+          "GD-HIE-01",
+          "GD-REP-01"
+        ],
+        "checkpoint_ids": []
+      },
+      {
+        "step_id": "TA-S12",
+        "title": "Create the secondary type block and reuse the dot method",
+        "skill_ids": [
+          "PS-TYP-01",
+          "PS-FLT-01",
+          "GD-HIE-01",
+          "GD-ALN-01",
+          "GD-TYP-01"
+        ],
+        "checkpoint_ids": []
+      },
+      {
+        "step_id": "TA-S13",
+        "title": "Audit visual hierarchy and revise one decision",
+        "skill_ids": [
+          "PS-DES-01",
+          "GD-HIE-01",
+          "GD-CRIT-01"
+        ],
+        "checkpoint_ids": [
+          "TA-OBS-02",
+          "TA-QA-01"
+        ]
+      },
+      {
+        "step_id": "TA-S14",
+        "title": "Complete the evidence conversation",
+        "skill_ids": [
+          "PS-DES-01",
+          "GD-AUD-01",
+          "GD-MET-01"
+        ],
+        "checkpoint_ids": [
+          "TA-CON-02"
+        ]
+      },
+      {
+        "step_id": "TA-S15",
+        "title": "Inspect the layered product at 100%",
+        "skill_ids": [
+          "PS-SMO-01",
+          "PS-FLT-01",
+          "GD-CRIT-01"
+        ],
+        "checkpoint_ids": [
+          "TA-PRO-01",
+          "TA-QA-01"
+        ]
+      },
+      {
+        "step_id": "TA-S16",
+        "title": "Export, submit and connect the evidence",
+        "skill_ids": [
+          "PS-OUT-01"
+        ],
+        "checkpoint_ids": [
+          "TA-PRO-02",
+          "TA-PRO-03"
+        ]
+      }
+    ],
+    "PS-DROP-DAY": [
+      {
+        "step_id": "DD-S01",
+        "title": "Open the product job and protect the source",
+        "skill_ids": [
+          "PS-FND-01"
+        ],
+        "checkpoint_ids": [
+          "DD-PRO-01"
+        ]
+      },
+      {
+        "step_id": "DD-S02",
+        "title": "Remove a small spot with automatic sampling",
+        "skill_ids": [
+          "PS-RET-01",
+          "PS-BRS-01"
+        ],
+        "checkpoint_ids": []
+      },
+      {
+        "step_id": "DD-S03",
+        "title": "Choose your own sample for the thread repair",
+        "skill_ids": [
+          "PS-RET-01",
+          "PS-BRS-01"
+        ],
+        "checkpoint_ids": [
+          "DD-CON-01"
+        ]
+      },
+      {
+        "step_id": "DD-S04",
+        "title": "Rebuild the pale sole with Clone Stamp",
+        "skill_ids": [
+          "PS-RET-01",
+          "PS-BRS-01"
+        ],
+        "checkpoint_ids": [
+          "DD-OBS-01",
+          "DD-CON-01"
+        ]
+      },
+      {
+        "step_id": "DD-S05",
+        "title": "Make a selection of the whole shoe",
+        "skill_ids": [
+          "PS-SEL-01"
+        ],
+        "checkpoint_ids": []
+      },
+      {
+        "step_id": "DD-S06",
+        "title": "Refine a manufactured edge—not hair",
+        "skill_ids": [
+          "PS-SEL-01"
+        ],
+        "checkpoint_ids": []
+      },
+      {
+        "step_id": "DD-S07",
+        "title": "Mask the photograph and its repairs together",
+        "skill_ids": [
+          "PS-LAY-01",
+          "PS-SEL-01"
+        ],
+        "checkpoint_ids": [
+          "DD-PRO-01"
+        ]
+      },
+      {
+        "step_id": "DD-S08",
+        "title": "Start the advertisement with a clear document size",
+        "skill_ids": [
+          "PS-FND-01",
+          "PS-OUT-01",
+          "GD-ALN-01"
+        ],
+        "checkpoint_ids": []
+      },
+      {
+        "step_id": "DD-S09",
+        "title": "Build the studio background and floor",
+        "skill_ids": [
+          "PS-SHP-01",
+          "PS-ADJ-01",
+          "PS-DES-01",
+          "GD-COL-01",
+          "GD-HIE-01"
+        ],
+        "checkpoint_ids": []
+      },
+      {
+        "step_id": "DD-S10",
+        "title": "Add the accent disc and a soft display shadow",
+        "skill_ids": [
+          "PS-SHP-01",
+          "PS-FLT-01",
+          "PS-BLD-02",
+          "GD-COL-01",
+          "GD-CON-01"
+        ],
+        "checkpoint_ids": []
+      },
+      {
+        "step_id": "DD-S11",
+        "title": "Construct a three-face product display",
+        "skill_ids": [
+          "PS-SHP-01",
+          "PS-DES-01",
+          "GD-CON-01",
+          "GD-HIE-01"
+        ],
+        "checkpoint_ids": []
+      },
+      {
+        "step_id": "DD-S12",
+        "title": "Place the prepared shoe without flattening your work",
+        "skill_ids": [
+          "PS-SMO-01",
+          "PS-TRN-01"
+        ],
+        "checkpoint_ids": []
+      },
+      {
+        "step_id": "DD-S13",
+        "title": "Add a broad ambient shadow beneath the shoe",
+        "skill_ids": [
+          "PS-FLT-01",
+          "PS-BLD-02",
+          "PS-LGT-02",
+          "GD-CON-01"
+        ],
+        "checkpoint_ids": []
+      },
+      {
+        "step_id": "DD-S14",
+        "title": "Make contact at the heel and forefoot",
+        "skill_ids": [
+          "PS-BRS-01",
+          "PS-BLD-02",
+          "PS-LGT-02",
+          "GD-CON-01"
+        ],
+        "checkpoint_ids": []
+      },
+      {
+        "step_id": "DD-S15",
+        "title": "Select the accent colour—not the whole product",
+        "skill_ids": [
+          "PS-COL-01",
+          "PS-SEL-01",
+          "GD-COL-01"
+        ],
+        "checkpoint_ids": [
+          "DD-OBS-02"
+        ]
+      },
+      {
+        "step_id": "DD-S16",
+        "title": "Create the teal colourway and a controlled contrast adjustment",
+        "skill_ids": [
+          "PS-COL-01",
+          "PS-ADJ-01",
+          "PS-TON-01",
+          "PS-LAY-01",
+          "GD-COL-01",
+          "GD-CON-01"
+        ],
+        "checkpoint_ids": [
+          "DD-OBS-02",
+          "DD-CON-02"
+        ]
+      },
+      {
+        "step_id": "DD-S17",
+        "title": "Build a live, outline headline",
+        "skill_ids": [
+          "PS-TYP-01",
+          "PS-EFX-01",
+          "GD-HIE-01",
+          "GD-CON-01",
+          "GD-TYP-01"
+        ],
+        "checkpoint_ids": []
+      },
+      {
+        "step_id": "DD-S18",
+        "title": "Add the solid headline and the message",
+        "skill_ids": [
+          "PS-TYP-01",
+          "GD-HIE-01",
+          "GD-ALN-01",
+          "GD-TYP-01"
+        ],
+        "checkpoint_ids": []
+      },
+      {
+        "step_id": "DD-S19",
+        "title": "Add the studio identity, rule and colour accents",
+        "skill_ids": [
+          "PS-TYP-01",
+          "PS-SHP-01",
+          "GD-ALN-01",
+          "GD-REP-01",
+          "GD-COL-01",
+          "GD-BRD-01"
+        ],
+        "checkpoint_ids": []
+      },
+      {
+        "step_id": "DD-S20",
+        "title": "Complete the action panel and honest footer",
+        "skill_ids": [
+          "PS-TYP-01",
+          "PS-SHP-01",
+          "GD-HIE-01",
+          "GD-CTA-01",
+          "GD-AUD-01"
+        ],
+        "checkpoint_ids": []
+      },
+      {
+        "step_id": "DD-S21",
+        "title": "Run the craft check before the revision",
+        "skill_ids": [
+          "GEN-QA-01",
+          "PS-LAY-01",
+          "PS-SMO-01",
+          "GD-CRIT-01"
+        ],
+        "checkpoint_ids": [
+          "DD-QA-01"
+        ]
+      },
+      {
+        "step_id": "DD-S22",
+        "title": "Respond to the client: create a coral colourway",
+        "skill_ids": [
+          "PS-COL-01",
+          "PS-ADJ-01",
+          "GD-COL-01",
+          "GD-BRD-01",
+          "GD-AUD-01"
+        ],
+        "checkpoint_ids": [
+          "DD-PRO-02"
+        ]
+      },
+      {
+        "step_id": "DD-S23",
+        "title": "Show that you understand the technique",
+        "skill_ids": [
+          "PS-LAY-01",
+          "PS-COL-01",
+          "PS-TYP-01",
+          "GEN-EVD-01",
+          "GEN-QA-01",
+          "GD-CRIT-01",
+          "GD-AUD-01"
+        ],
+        "checkpoint_ids": [
+          "DD-TRF-01",
+          "DD-CON-02"
+        ]
+      },
+      {
+        "step_id": "DD-S24",
+        "title": "Export, reopen and hand over the work",
+        "skill_ids": [
+          "PS-OUT-01",
+          "GEN-QA-01"
+        ],
+        "checkpoint_ids": [
+          "DD-PRO-03"
+        ]
+      }
+    ]
+  },
+  "course_map_url": "/outputs/connected-course-map-2026-09-23/index.html",
+  "sprint_counts": {
+    "MM12": 9,
+    "COM11": 9,
+    "IBDS": 16
+  },
+  "teaching_package_status": "Course sequence is mapped. Existing teaching assets and draft rubrics are retained; full-year lesson packages are not complete."
+}

@@ -1,0 +1,466 @@
+{
+  "spec_version": "2026-10-01.1",
+  "project_id": "mm12-blender-bootcamp-v2",
+  "project_title": "Blender Bootcamp v2: Winter Cottage — MM12 Sprint 6",
+  "course_configs": [
+    {
+      "course_id": "MM12",
+      "module_id": "M2",
+      "outcome_codes": [
+        "MM12-2.1",
+        "MM12-2.2",
+        "MM12-2.3",
+        "MM12-2.4",
+        "MM12-2.5"
+      ]
+    }
+  ],
+  "assessment_bundle_by_course": {
+    "MM12": "mm12-26-s06-bundle"
+  },
+  "student_form": {
+    "description": "Eight knowledge questions from Knowledge first, five guide evidence questions, and a skill reflection. Verified school email required. Self-report is not achievement confirmation."
+  },
+  "knowledge_check": {
+    "items": [
+      {
+        "id": "mm12-blender-bootcamp-v2:k01",
+        "type": "multiple_choice",
+        "prompt": "Which axes in Blender are red, green and blue?",
+        "choices": [
+          "X, Y and Z",
+          "Y, X and Z",
+          "Z, Y and X",
+          "X, Z and Y"
+        ],
+        "correct_index": 0,
+        "points": 1,
+        "correct_feedback": "Blender marks X red, Y green and Z blue.",
+        "incorrect_feedback": "Blender marks X red, Y green and Z blue.",
+        "skill_ids": [
+          "BL-NAV-01"
+        ],
+        "outcome_codes": [
+          "MM12-2.1",
+          "MM12-2.2",
+          "MM12-2.3",
+          "MM12-2.4",
+          "MM12-2.5"
+        ],
+        "step_id": "step-2",
+        "lesson_id": "mm12-26-s06-d01"
+      },
+      {
+        "id": "mm12-blender-bootcamp-v2:k02",
+        "type": "multiple_choice",
+        "prompt": "What is the main reason to shape vertices, edges and faces in Edit Mode?",
+        "choices": [
+          "To change only the camera view",
+          "To export an MP4",
+          "To bake smoke",
+          "To change the mesh geometry"
+        ],
+        "correct_index": 3,
+        "points": 1,
+        "correct_feedback": "Edit Mode changes the mesh; Object Mode transforms the object.",
+        "incorrect_feedback": "Edit Mode changes the mesh; Object Mode transforms the object.",
+        "skill_ids": [
+          "BL-TRN-01"
+        ],
+        "outcome_codes": [
+          "MM12-2.1",
+          "MM12-2.2",
+          "MM12-2.3",
+          "MM12-2.4",
+          "MM12-2.5"
+        ],
+        "step_id": "step-4",
+        "lesson_id": "mm12-26-s06-d02"
+      },
+      {
+        "id": "mm12-blender-bootcamp-v2:k03",
+        "type": "multiple_choice",
+        "prompt": "What does a UV map provide for an image texture?",
+        "choices": [
+          "An animation soundtrack",
+          "A camera focal length",
+          "A flat mapping of the model surface",
+          "A smoke cache"
+        ],
+        "correct_index": 2,
+        "points": 1,
+        "correct_feedback": "UVs map points on the 3D surface to points in a flat image.",
+        "incorrect_feedback": "UVs map points on the 3D surface to points in a flat image.",
+        "skill_ids": [
+          "BL-TRN-01"
+        ],
+        "outcome_codes": [
+          "MM12-2.1",
+          "MM12-2.2",
+          "MM12-2.3",
+          "MM12-2.4",
+          "MM12-2.5"
+        ],
+        "step_id": "step-6",
+        "lesson_id": "mm12-26-s06-d03"
+      },
+      {
+        "id": "mm12-blender-bootcamp-v2:k04",
+        "type": "multiple_choice",
+        "prompt": "Which material setting makes a window appear to emit light?",
+        "choices": [
+          "Normal map only",
+          "Emission",
+          "Roughness only",
+          "Metallic only"
+        ],
+        "correct_index": 1,
+        "points": 1,
+        "correct_feedback": "Emission makes the window material glow; scene lighting may still need another source.",
+        "incorrect_feedback": "Emission makes the window material glow; scene lighting may still need another source.",
+        "skill_ids": [
+          "BL-LGT-01"
+        ],
+        "outcome_codes": [
+          "MM12-2.1",
+          "MM12-2.2",
+          "MM12-2.3",
+          "MM12-2.4",
+          "MM12-2.5"
+        ],
+        "step_id": "step-7",
+        "lesson_id": "mm12-26-s06-d03"
+      },
+      {
+        "id": "mm12-blender-bootcamp-v2:k05",
+        "type": "multiple_choice",
+        "prompt": "What controls where the forest particle instances appear?",
+        "choices": [
+          "Vertex-group weights",
+          "Camera focal length",
+          "Render filename",
+          "Sound volume"
+        ],
+        "correct_index": 0,
+        "points": 1,
+        "correct_feedback": "Weight painting stores values on vertices that can control particle density.",
+        "incorrect_feedback": "Weight painting stores values on vertices that can control particle density.",
+        "skill_ids": [],
+        "outcome_codes": [
+          "MM12-2.1",
+          "MM12-2.2",
+          "MM12-2.3",
+          "MM12-2.4",
+          "MM12-2.5"
+        ],
+        "step_id": "step-11",
+        "lesson_id": "mm12-26-s06-d05"
+      },
+      {
+        "id": "mm12-blender-bootcamp-v2:k06",
+        "type": "multiple_choice",
+        "prompt": "Before smoke is played back reliably, what must be prepared?",
+        "choices": [
+          "A mouth chart",
+          "A GIF export",
+          "A second camera only",
+          "A simulation domain and bake/cache"
+        ],
+        "correct_index": 3,
+        "points": 1,
+        "correct_feedback": "The smoke simulation runs inside a domain and is calculated into a cache.",
+        "incorrect_feedback": "The smoke simulation runs inside a domain and is calculated into a cache.",
+        "skill_ids": [],
+        "outcome_codes": [
+          "MM12-2.1",
+          "MM12-2.2",
+          "MM12-2.3",
+          "MM12-2.4",
+          "MM12-2.5"
+        ],
+        "step_id": "step-13",
+        "lesson_id": "mm12-26-s06-d06"
+      },
+      {
+        "id": "mm12-blender-bootcamp-v2:k07",
+        "type": "multiple_choice",
+        "prompt": "What do keyframes store?",
+        "choices": [
+          "The material licence",
+          "The project folder name",
+          "Property values at particular frames",
+          "Only a still image"
+        ],
+        "correct_index": 2,
+        "points": 1,
+        "correct_feedback": "Keyframes save values over time; interpolation controls change between them.",
+        "incorrect_feedback": "Keyframes save values over time; interpolation controls change between them.",
+        "skill_ids": [],
+        "outcome_codes": [
+          "MM12-2.1",
+          "MM12-2.2",
+          "MM12-2.3",
+          "MM12-2.4",
+          "MM12-2.5"
+        ],
+        "step_id": "step-14",
+        "lesson_id": "mm12-26-s06-d07"
+      },
+      {
+        "id": "mm12-blender-bootcamp-v2:k08",
+        "type": "multiple_choice",
+        "prompt": "Where does compositor glow enter the pipeline?",
+        "choices": [
+          "In the audio track",
+          "After rendering as a controlled finishing effect",
+          "Before modelling, as geometry",
+          "Only in the UV map"
+        ],
+        "correct_index": 1,
+        "points": 1,
+        "correct_feedback": "The compositor processes the rendered image and can add restrained glow and colour.",
+        "incorrect_feedback": "The compositor processes the rendered image and can add restrained glow and colour.",
+        "skill_ids": [
+          "BL-RND-01"
+        ],
+        "outcome_codes": [
+          "MM12-2.1",
+          "MM12-2.2",
+          "MM12-2.3",
+          "MM12-2.4",
+          "MM12-2.5"
+        ],
+        "step_id": "step-15",
+        "lesson_id": "mm12-26-s06-d07"
+      }
+    ]
+  },
+  "evidence_questions": [
+    {
+      "id": "mm12-blender-bootcamp-v2:e01",
+      "prompt": "Which modifier or tool saved you the most time, and why?",
+      "step_id": "step-16",
+      "lesson_id": "mm12-26-s06-d08",
+      "skill_ids": [
+        "BL-NAV-01",
+        "BL-TRN-01",
+        "BL-CAM-01",
+        "BL-LGT-01",
+        "BL-RND-01",
+        "PS-LGT-02",
+        "GD-HIE-01"
+      ],
+      "outcome_codes": [
+        "MM12-2.1",
+        "MM12-2.2",
+        "MM12-2.3",
+        "MM12-2.4",
+        "MM12-2.5"
+      ]
+    },
+    {
+      "id": "mm12-blender-bootcamp-v2:e02",
+      "prompt": "How did weight painting control your forest?",
+      "step_id": "step-16",
+      "lesson_id": "mm12-26-s06-d08",
+      "skill_ids": [
+        "BL-NAV-01",
+        "BL-TRN-01",
+        "BL-CAM-01",
+        "BL-LGT-01",
+        "BL-RND-01",
+        "PS-LGT-02",
+        "GD-HIE-01"
+      ],
+      "outcome_codes": [
+        "MM12-2.1",
+        "MM12-2.2",
+        "MM12-2.3",
+        "MM12-2.4",
+        "MM12-2.5"
+      ]
+    },
+    {
+      "id": "mm12-blender-bootcamp-v2:e03",
+      "prompt": "What settings made the snow feel like snow, not rain?",
+      "step_id": "step-16",
+      "lesson_id": "mm12-26-s06-d08",
+      "skill_ids": [
+        "BL-NAV-01",
+        "BL-TRN-01",
+        "BL-CAM-01",
+        "BL-LGT-01",
+        "BL-RND-01",
+        "PS-LGT-02",
+        "GD-HIE-01"
+      ],
+      "outcome_codes": [
+        "MM12-2.1",
+        "MM12-2.2",
+        "MM12-2.3",
+        "MM12-2.4",
+        "MM12-2.5"
+      ]
+    },
+    {
+      "id": "mm12-blender-bootcamp-v2:e04",
+      "prompt": "What did the compositor add, and how did you keep it subtle?",
+      "step_id": "step-16",
+      "lesson_id": "mm12-26-s06-d08",
+      "skill_ids": [
+        "BL-NAV-01",
+        "BL-TRN-01",
+        "BL-CAM-01",
+        "BL-LGT-01",
+        "BL-RND-01",
+        "PS-LGT-02",
+        "GD-HIE-01"
+      ],
+      "outcome_codes": [
+        "MM12-2.1",
+        "MM12-2.2",
+        "MM12-2.3",
+        "MM12-2.4",
+        "MM12-2.5"
+      ]
+    },
+    {
+      "id": "mm12-blender-bootcamp-v2:e05",
+      "prompt": "What did the producer card change, and which tools did you use?",
+      "step_id": "step-16",
+      "lesson_id": "mm12-26-s06-d08",
+      "skill_ids": [
+        "BL-NAV-01",
+        "BL-TRN-01",
+        "BL-CAM-01",
+        "BL-LGT-01",
+        "BL-RND-01",
+        "PS-LGT-02",
+        "GD-HIE-01"
+      ],
+      "outcome_codes": [
+        "MM12-2.1",
+        "MM12-2.2",
+        "MM12-2.3",
+        "MM12-2.4",
+        "MM12-2.5"
+      ]
+    }
+  ],
+  "skill_reflection": {
+    "technical_skills": [
+      {
+        "id": "BL-NAV-01",
+        "label": "BL-NAV-01"
+      },
+      {
+        "id": "BL-TRN-01",
+        "label": "BL-TRN-01"
+      },
+      {
+        "id": "BL-CAM-01",
+        "label": "BL-CAM-01"
+      },
+      {
+        "id": "BL-LGT-01",
+        "label": "BL-LGT-01"
+      },
+      {
+        "id": "BL-RND-01",
+        "label": "BL-RND-01"
+      },
+      {
+        "id": "PS-LGT-02",
+        "label": "PS-LGT-02"
+      }
+    ],
+    "design_skills": [
+      {
+        "id": "GD-HIE-01",
+        "label": "GD-HIE-01"
+      }
+    ],
+    "independence_options": [
+      "Followed the example closely",
+      "Needed some prompts/checkpoints",
+      "Worked independently",
+      "Adapted or extended the skill"
+    ]
+  },
+  "transfer": {
+    "id": "mm12-blender-bootcamp-v2:next-target",
+    "prompt": "Name one skill, locate its evidence in your files, explain when you used it, and choose a next target after the changed brief.",
+    "skill_ids": [
+      "BL-NAV-01",
+      "BL-TRN-01",
+      "BL-CAM-01",
+      "BL-LGT-01",
+      "BL-RND-01",
+      "PS-LGT-02",
+      "GD-HIE-01"
+    ],
+    "outcome_codes": [
+      "MM12-2.1",
+      "MM12-2.2",
+      "MM12-2.3",
+      "MM12-2.4",
+      "MM12-2.5"
+    ],
+    "step_id": "step-16",
+    "lesson_id": "mm12-26-s06-d08",
+    "teacher_verification_required": true
+  },
+  "teacher_evidence": {
+    "owner_only": true,
+    "checkpoints": [
+      {
+        "evidence_id": "mm12-blender-bootcamp-v2:step-16",
+        "evidence_type": "Product",
+        "title": "Step 16: Practical check: the producer changes the brief",
+        "skill_ids": [
+          "BL-NAV-01",
+          "BL-TRN-01",
+          "BL-CAM-01",
+          "BL-LGT-01",
+          "BL-RND-01",
+          "PS-LGT-02",
+          "GD-HIE-01"
+        ],
+        "outcome_codes": [
+          "MM12-2.1",
+          "MM12-2.2",
+          "MM12-2.3",
+          "MM12-2.4",
+          "MM12-2.5"
+        ],
+        "step_id": "step-16",
+        "lesson_id": "mm12-26-s06-d08",
+        "practical_check": true
+      },
+      {
+        "evidence_id": "mm12-blender-bootcamp-v2:step-17",
+        "evidence_type": "Conversation",
+        "title": "Step 17: Render the animation and defend it. Licence 3.",
+        "skill_ids": [
+          "BL-NAV-01",
+          "BL-TRN-01",
+          "BL-CAM-01",
+          "BL-LGT-01",
+          "BL-RND-01",
+          "PS-LGT-02",
+          "GD-HIE-01"
+        ],
+        "outcome_codes": [
+          "MM12-2.1",
+          "MM12-2.2",
+          "MM12-2.3",
+          "MM12-2.4",
+          "MM12-2.5"
+        ],
+        "step_id": "step-17",
+        "lesson_id": "mm12-26-s06-d09",
+        "practical_check": false
+      }
+    ]
+  }
+}

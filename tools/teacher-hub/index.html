@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Teacher Hub</title>
+<style>
+:root{--ink:#102b3a;--blue:#1769aa;--paper:#f4f8fb;--card:#fff;--muted:#607583;--line:#d9e5ec}
+*{box-sizing:border-box}body{margin:0;font-family:Inter,ui-sans-serif,system-ui,-apple-system,Segoe UI,sans-serif;background:linear-gradient(135deg,#edf6fb,#f8fbfd);color:var(--ink)}
+header{background:#153c4e;color:white;padding:32px max(24px,6vw)}header p{color:#d7e7ef;margin:6px 0 0}
+main{max-width:1150px;margin:0 auto;padding:28px}.notice{background:#fff7d9;border:1px solid #ecd98a;border-radius:14px;padding:14px 16px;margin-bottom:22px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:18px}.card{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:20px;box-shadow:0 8px 30px rgba(16,43,58,.06)}
+h2{margin:0 0 6px;font-size:1.1rem}.tag{display:inline-block;background:#eaf3f8;color:#24536a;border-radius:999px;padding:5px 9px;font-size:.75rem;font-weight:700;margin-bottom:12px}
+p{line-height:1.45;color:var(--muted)}button,a.btn{display:inline-block;border:0;border-radius:10px;background:var(--blue);color:white;padding:10px 13px;text-decoration:none;font-weight:750;cursor:pointer}
+button.secondary{background:#e8f0f4;color:#163b4e}.config{margin-top:26px}.row{display:grid;grid-template-columns:180px 1fr;gap:10px;align-items:center;margin:9px 0}.row input{width:100%;padding:10px;border:1px solid var(--line);border-radius:9px}
+small{color:var(--muted)}@media(max-width:650px){.row{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<header><div class="tag">PRIVATE-LINK TEACHER LAUNCHER</div><h1>Technology Teacher Hub</h1><p>One launch page for evidence, support and curriculum systems. Student data never lives in this GitHub page.</p></header>
+<main>
+<div class="notice"><strong>Privacy design:</strong> this page can be public as a shell. Your private Google dashboard/support URLs are saved only in this browser's local storage and are not committed to GitHub.</div>
+<div class="grid">
+  <section class="card"><div class="tag">LIVE EVIDENCE</div><h2>Evidence Dashboard</h2><p>Roster, Evidence_Log, Obs/Con/Pro coverage, review-ready signals and recent evidence.</p><button onclick="openKey('evidenceDashboard')">Open Evidence Dashboard</button></section>
+  <section class="card"><div class="tag">SUPPORT</div><h2>Student Support Dashboard</h2><p>Support level, barriers, strategies attempted, successful supports, check-in requests and scaffold fading.</p><button onclick="openKey('supportDashboard')">Open Support Dashboard</button></section>
+  <section class="card"><div class="tag">JUDGEMENT</div><h2>Outcome Evidence Map</h2><p>Teacher-confirmed competency evidence, next steps and reporting handoff.</p><button onclick="openKey('evidenceMap')">Open Evidence Map</button></section>
+  <section class="card"><div class="tag">CURRICULUM</div><h2>Technology Evidence System</h2><p>Forms, project registry, roster, normalized evidence log and automation configuration.</p><button onclick="openKey('evidenceSheet')">Open Evidence System</button></section>
+</div>
+<section class="card config">
+<h2>Private links for this browser</h2>
+<p>Paste each private URL once on your teacher computer. The values stay in this browser only.</p>
+<div class="row"><label>Evidence dashboard</label><input id="evidenceDashboard"></div>
+<div class="row"><label>Support dashboard</label><input id="supportDashboard"></div>
+<div class="row"><label>Evidence Map</label><input id="evidenceMap"></div>
+<div class="row"><label>Evidence Sheet</label><input id="evidenceSheet"></div>
+<button onclick="save()">Save private links</button> <button class="secondary" onclick="clearLinks()">Clear</button>
+<p><small>Do not use this page as the student record. It is a launcher only.</small></p>
+</section>
+</main>
+<script>
+const keys=['evidenceDashboard','supportDashboard','evidenceMap','evidenceSheet'];
+function load(){keys.forEach(k=>document.getElementById(k).value=localStorage.getItem('teacherHub:'+k)||'')}
+function save(){keys.forEach(k=>localStorage.setItem('teacherHub:'+k,document.getElementById(k).value.trim()));alert('Saved in this browser only.')}
+function clearLinks(){keys.forEach(k=>localStorage.removeItem('teacherHub:'+k));load()}
+function openKey(k){const u=localStorage.getItem('teacherHub:'+k);if(!u){alert('Add this private URL in the configuration section first.');return}window.open(u,'_blank','noopener')}
+load();
+</script>
+</body>
+</html>

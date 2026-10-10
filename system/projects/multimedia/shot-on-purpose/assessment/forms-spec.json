@@ -1,0 +1,782 @@
+{
+  "spec_version": "2026-09-28.1",
+  "project_id": "mm12-26-s03-bundle",
+  "project_title": "MM12 Sprint 3 \u2014 Shot on Purpose",
+  "course_configs": [
+    {
+      "course_id": "MM12",
+      "module_id": "M1",
+      "outcome_codes": [
+        "MM12-1.1",
+        "MM12-1.2",
+        "MM12-1.3",
+        "MM12-1.4",
+        "MM12-1.5",
+        "MM12-4.4",
+        "MM12-4.5"
+      ]
+    }
+  ],
+  "student_form": {
+    "description": "Complete the eight-item knowledge check, then name a skill, locate evidence in your own files, explain how you used it, and choose a next target. Guided practice and support use remain separate from teacher-confirmed achievement."
+  },
+  "knowledge_check": {
+    "items": [
+      {
+        "id": "MM12-S03-K01",
+        "type": "multiple_choice",
+        "prompt": "Which camera change is most likely to freeze fast motion?",
+        "choices": [
+          "Use a faster shutter speed, such as 1/1000 s",
+          "Use a slower shutter speed, such as 1/15 s",
+          "Raise the f-number only",
+          "Lower ISO only"
+        ],
+        "correct_index": 0,
+        "points": 1,
+        "correct_feedback": "A faster shutter exposes each frame for less time, so movement is frozen more clearly.",
+        "incorrect_feedback": "A faster shutter exposes each frame for less time, so movement is frozen more clearly.",
+        "skill_ids": [
+          "PS-CAM-01"
+        ],
+        "outcome_codes": [
+          "MM12-1.1",
+          "MM12-1.2",
+          "MM12-1.3",
+          "MM12-1.4",
+          "MM12-1.5",
+          "MM12-4.4",
+          "MM12-4.5"
+        ],
+        "step_id": "step-4",
+        "lesson_id": "mm12-26-s03-d02"
+      },
+      {
+        "id": "MM12-S03-K02",
+        "type": "multiple_choice",
+        "prompt": "What usually happens when you change from f/11 to f/2.8 while keeping the subject distance similar?",
+        "choices": [
+          "The background becomes more blurred and more light enters",
+          "The background becomes sharper and less light enters",
+          "Motion is automatically frozen",
+          "ISO noise disappears"
+        ],
+        "correct_index": 0,
+        "points": 1,
+        "correct_feedback": "A smaller f-number means a wider aperture: shallower depth of field and more light.",
+        "incorrect_feedback": "A smaller f-number means a wider aperture: shallower depth of field and more light.",
+        "skill_ids": [
+          "PS-CAM-01"
+        ],
+        "outcome_codes": [
+          "MM12-1.1",
+          "MM12-1.2",
+          "MM12-1.3",
+          "MM12-1.4",
+          "MM12-1.5",
+          "MM12-4.4",
+          "MM12-4.5"
+        ],
+        "step_id": "step-3",
+        "lesson_id": "mm12-26-s03-d02"
+      },
+      {
+        "id": "MM12-S03-K03",
+        "type": "multiple_choice",
+        "prompt": "What is the common image-quality side effect of raising ISO?",
+        "choices": [
+          "More noise or grain",
+          "More depth of field",
+          "Less motion blur in every situation",
+          "Perfect highlight recovery"
+        ],
+        "correct_index": 0,
+        "points": 1,
+        "correct_feedback": "Higher ISO amplifies the signal and usually makes noise or grain more visible.",
+        "incorrect_feedback": "Higher ISO amplifies the signal and usually makes noise or grain more visible.",
+        "skill_ids": [
+          "PS-CAM-01"
+        ],
+        "outcome_codes": [
+          "MM12-1.1",
+          "MM12-1.2",
+          "MM12-1.3",
+          "MM12-1.4",
+          "MM12-1.5",
+          "MM12-4.4",
+          "MM12-4.5"
+        ],
+        "step_id": "step-2",
+        "lesson_id": "mm12-26-s03-d02"
+      },
+      {
+        "id": "MM12-S03-K04",
+        "type": "multiple_choice",
+        "prompt": "What does a histogram piled against the right edge warn you about?",
+        "choices": [
+          "Clipped highlights with lost detail",
+          "A colour profile mismatch only",
+          "A file that is too small",
+          "Motion blur"
+        ],
+        "correct_index": 0,
+        "points": 1,
+        "correct_feedback": "Values against the right edge may be clipped, meaning important highlight detail is gone.",
+        "incorrect_feedback": "Values against the right edge may be clipped, meaning important highlight detail is gone.",
+        "skill_ids": [
+          "PS-CAM-01",
+          "PS-TON-01"
+        ],
+        "outcome_codes": [
+          "MM12-1.1",
+          "MM12-1.2",
+          "MM12-1.3",
+          "MM12-1.4",
+          "MM12-1.5",
+          "MM12-4.4",
+          "MM12-4.5"
+        ],
+        "step_id": "step-5",
+        "lesson_id": "mm12-26-s03-d02"
+      },
+      {
+        "id": "MM12-S03-K05",
+        "type": "multiple_choice",
+        "prompt": "Which lighting direction is usually strongest for showing surface texture?",
+        "choices": [
+          "Side light",
+          "Flat front light",
+          "Only ambient ceiling light",
+          "No light"
+        ],
+        "correct_index": 0,
+        "points": 1,
+        "correct_feedback": "Side light creates small shadows across texture, making form and surface more visible.",
+        "incorrect_feedback": "Side light creates small shadows across texture, making form and surface more visible.",
+        "skill_ids": [
+          "PS-LGT-02"
+        ],
+        "outcome_codes": [
+          "MM12-1.1",
+          "MM12-1.2",
+          "MM12-1.3",
+          "MM12-1.4",
+          "MM12-1.5",
+          "MM12-4.4",
+          "MM12-4.5"
+        ],
+        "step_id": "step-7",
+        "lesson_id": "mm12-26-s03-d03"
+      },
+      {
+        "id": "MM12-S03-K06",
+        "type": "multiple_choice",
+        "prompt": "Why should tonal corrections be made with adjustment layers?",
+        "choices": [
+          "They keep the change reversible and leave original pixels untouched",
+          "They permanently flatten the image",
+          "They automatically fix composition",
+          "They remove the need for masks"
+        ],
+        "correct_index": 0,
+        "points": 1,
+        "correct_feedback": "Adjustment layers remain editable and can be limited with masks.",
+        "incorrect_feedback": "Adjustment layers remain editable and can be limited with masks.",
+        "skill_ids": [
+          "PS-ADJ-01",
+          "PS-LAY-01",
+          "PS-TON-01"
+        ],
+        "outcome_codes": [
+          "MM12-1.1",
+          "MM12-1.2",
+          "MM12-1.3",
+          "MM12-1.4",
+          "MM12-1.5",
+          "MM12-4.4",
+          "MM12-4.5"
+        ],
+        "step_id": "step-14",
+        "lesson_id": "mm12-26-s03-d06"
+      },
+      {
+        "id": "MM12-S03-K07",
+        "type": "multiple_choice",
+        "prompt": "Why place the lead photograph as a Smart Object before repeated scaling?",
+        "choices": [
+          "It preserves the source so repeated scaling does not permanently discard the original pixel data",
+          "It turns the photo into vector art",
+          "It automatically writes the headline",
+          "It removes all file-size limits"
+        ],
+        "correct_index": 0,
+        "points": 1,
+        "correct_feedback": "A Smart Object preserves the embedded source so transforms remain editable.",
+        "incorrect_feedback": "A Smart Object preserves the embedded source so transforms remain editable.",
+        "skill_ids": [
+          "PS-TRN-01",
+          "PS-LAY-01"
+        ],
+        "outcome_codes": [
+          "MM12-1.1",
+          "MM12-1.2",
+          "MM12-1.3",
+          "MM12-1.4",
+          "MM12-1.5",
+          "MM12-4.4",
+          "MM12-4.5"
+        ],
+        "step_id": "step-13",
+        "lesson_id": "mm12-26-s03-d06"
+      },
+      {
+        "id": "MM12-S03-K08",
+        "type": "multiple_choice",
+        "prompt": "Which edit would mislead viewers if the campaign is presented as a real photograph?",
+        "choices": [
+          "Adding people or objects from another photograph without labelling the composite",
+          "Correcting white balance",
+          "Cropping to remove empty space",
+          "Using a reversible Curves adjustment"
+        ],
+        "correct_index": 0,
+        "points": 1,
+        "correct_feedback": "A hidden composite changes what viewers believe was actually photographed and must be clearly labelled or avoided.",
+        "incorrect_feedback": "A hidden composite changes what viewers believe was actually photographed and must be clearly labelled or avoided.",
+        "skill_ids": [
+          "GD-CRIT-01",
+          "GD-AUD-01"
+        ],
+        "outcome_codes": [
+          "MM12-1.1",
+          "MM12-1.2",
+          "MM12-1.3",
+          "MM12-1.4",
+          "MM12-1.5",
+          "MM12-4.4",
+          "MM12-4.5"
+        ],
+        "step_id": "step-9",
+        "lesson_id": "mm12-26-s03-d04"
+      }
+    ]
+  },
+  "skill_reflection": {
+    "technical_skills": [
+      {
+        "id": "PS-CAM-01",
+        "label": "PS-CAM-01"
+      },
+      {
+        "id": "PS-LGT-02",
+        "label": "PS-LGT-02"
+      },
+      {
+        "id": "PS-ADJ-01",
+        "label": "PS-ADJ-01"
+      },
+      {
+        "id": "PS-TON-01",
+        "label": "PS-TON-01"
+      },
+      {
+        "id": "PS-LAY-01",
+        "label": "PS-LAY-01"
+      },
+      {
+        "id": "PS-TRN-01",
+        "label": "PS-TRN-01"
+      },
+      {
+        "id": "PS-TYP-01",
+        "label": "PS-TYP-01"
+      },
+      {
+        "id": "PS-OUT-01",
+        "label": "PS-OUT-01"
+      }
+    ],
+    "design_skills": [
+      {
+        "id": "GD-HIE-01",
+        "label": "GD-HIE-01"
+      },
+      {
+        "id": "GD-AUD-01",
+        "label": "GD-AUD-01"
+      },
+      {
+        "id": "GD-COL-01",
+        "label": "GD-COL-01"
+      },
+      {
+        "id": "GD-CRIT-01",
+        "label": "GD-CRIT-01"
+      }
+    ],
+    "independence_options": [
+      "Followed the example closely",
+      "Needed some prompts/checkpoints",
+      "Worked independently",
+      "Adapted or extended the skill"
+    ]
+  },
+  "transfer": {
+    "id": "MM12-S03-NEXT-TARGET",
+    "prompt": "Choose your next target. Name the skill, describe the next unfamiliar photo or format where you will use it, and state what evidence will show improvement.",
+    "skill_ids": [
+      "PS-CAM-01",
+      "PS-LGT-02",
+      "PS-ADJ-01",
+      "PS-TON-01",
+      "PS-LAY-01",
+      "PS-TRN-01",
+      "PS-TYP-01",
+      "PS-OUT-01",
+      "GD-HIE-01",
+      "GD-AUD-01",
+      "GD-COL-01",
+      "GD-CRIT-01"
+    ],
+    "outcome_codes": [
+      "MM12-1.1",
+      "MM12-1.2",
+      "MM12-1.3",
+      "MM12-1.4",
+      "MM12-1.5",
+      "MM12-4.4",
+      "MM12-4.5"
+    ],
+    "step_id": "step-21",
+    "lesson_id": "mm12-26-s03-d09",
+    "teacher_verification_required": true
+  },
+  "teacher_evidence": {
+    "checkpoints": [
+      {
+        "evidence_id": "MM12-S03-STEP-01",
+        "evidence_type": "Conversation",
+        "title": "Step 1: Choose a real message you can actually photograph",
+        "skill_ids": [
+          "GD-AUD-01",
+          "GD-CRIT-01"
+        ],
+        "outcome_codes": [
+          "MM12-1.1",
+          "MM12-1.2",
+          "MM12-1.3",
+          "MM12-1.4",
+          "MM12-1.5",
+          "MM12-4.4",
+          "MM12-4.5"
+        ],
+        "step_id": "step-1",
+        "lesson_id": "mm12-26-s03-d01"
+      },
+      {
+        "evidence_id": "MM12-S03-STEP-02",
+        "evidence_type": "Observation",
+        "title": "Step 2: Set up the camera and record a clean baseline",
+        "skill_ids": [
+          "PS-CAM-01"
+        ],
+        "outcome_codes": [
+          "MM12-1.1",
+          "MM12-1.2",
+          "MM12-1.3",
+          "MM12-1.4",
+          "MM12-1.5",
+          "MM12-4.4",
+          "MM12-4.5"
+        ],
+        "step_id": "step-2",
+        "lesson_id": "mm12-26-s03-d02"
+      },
+      {
+        "evidence_id": "MM12-S03-STEP-03",
+        "evidence_type": "Observation",
+        "title": "Step 3: Change aperture and compare depth of field",
+        "skill_ids": [
+          "PS-CAM-01"
+        ],
+        "outcome_codes": [
+          "MM12-1.1",
+          "MM12-1.2",
+          "MM12-1.3",
+          "MM12-1.4",
+          "MM12-1.5",
+          "MM12-4.4",
+          "MM12-4.5"
+        ],
+        "step_id": "step-3",
+        "lesson_id": "mm12-26-s03-d02"
+      },
+      {
+        "evidence_id": "MM12-S03-STEP-04",
+        "evidence_type": "Observation",
+        "title": "Step 4: Freeze and blur motion deliberately",
+        "skill_ids": [
+          "PS-CAM-01"
+        ],
+        "outcome_codes": [
+          "MM12-1.1",
+          "MM12-1.2",
+          "MM12-1.3",
+          "MM12-1.4",
+          "MM12-1.5",
+          "MM12-4.4",
+          "MM12-4.5"
+        ],
+        "step_id": "step-4",
+        "lesson_id": "mm12-26-s03-d02"
+      },
+      {
+        "evidence_id": "MM12-S03-STEP-05",
+        "evidence_type": "Conversation",
+        "title": "Step 5: Read the histogram before trusting the screen",
+        "skill_ids": [
+          "PS-CAM-01",
+          "PS-TON-01"
+        ],
+        "outcome_codes": [
+          "MM12-1.1",
+          "MM12-1.2",
+          "MM12-1.3",
+          "MM12-1.4",
+          "MM12-1.5",
+          "MM12-4.4",
+          "MM12-4.5"
+        ],
+        "step_id": "step-5",
+        "lesson_id": "mm12-26-s03-d02"
+      },
+      {
+        "evidence_id": "MM12-S03-STEP-06",
+        "evidence_type": "Observation",
+        "title": "Step 6: Make a soft-light study",
+        "skill_ids": [
+          "PS-LGT-02"
+        ],
+        "outcome_codes": [
+          "MM12-1.1",
+          "MM12-1.2",
+          "MM12-1.3",
+          "MM12-1.4",
+          "MM12-1.5",
+          "MM12-4.4",
+          "MM12-4.5"
+        ],
+        "step_id": "step-6",
+        "lesson_id": "mm12-26-s03-d03"
+      },
+      {
+        "evidence_id": "MM12-S03-STEP-07",
+        "evidence_type": "Observation",
+        "title": "Step 7: Make a hard side-light study",
+        "skill_ids": [
+          "PS-LGT-02"
+        ],
+        "outcome_codes": [
+          "MM12-1.1",
+          "MM12-1.2",
+          "MM12-1.3",
+          "MM12-1.4",
+          "MM12-1.5",
+          "MM12-4.4",
+          "MM12-4.5"
+        ],
+        "step_id": "step-7",
+        "lesson_id": "mm12-26-s03-d03"
+      },
+      {
+        "evidence_id": "MM12-S03-STEP-08",
+        "evidence_type": "Product",
+        "title": "Step 8: Plan shots that leave room for the message",
+        "skill_ids": [
+          "GD-HIE-01",
+          "GD-AUD-01"
+        ],
+        "outcome_codes": [
+          "MM12-1.1",
+          "MM12-1.2",
+          "MM12-1.3",
+          "MM12-1.4",
+          "MM12-1.5",
+          "MM12-4.4",
+          "MM12-4.5"
+        ],
+        "step_id": "step-8",
+        "lesson_id": "mm12-26-s03-d04"
+      },
+      {
+        "evidence_id": "MM12-S03-STEP-09",
+        "evidence_type": "Conversation",
+        "title": "Step 9: Confirm permission, ownership and honest-editing limits",
+        "skill_ids": [
+          "GD-CRIT-01",
+          "GD-AUD-01"
+        ],
+        "outcome_codes": [
+          "MM12-1.1",
+          "MM12-1.2",
+          "MM12-1.3",
+          "MM12-1.4",
+          "MM12-1.5",
+          "MM12-4.4",
+          "MM12-4.5"
+        ],
+        "step_id": "step-9",
+        "lesson_id": "mm12-26-s03-d04"
+      },
+      {
+        "evidence_id": "MM12-S03-STEP-10",
+        "evidence_type": "Observation",
+        "title": "Step 10: Shoot the lead image with deliberate capture choices",
+        "skill_ids": [
+          "PS-CAM-01",
+          "PS-LGT-02"
+        ],
+        "outcome_codes": [
+          "MM12-1.1",
+          "MM12-1.2",
+          "MM12-1.3",
+          "MM12-1.4",
+          "MM12-1.5",
+          "MM12-4.4",
+          "MM12-4.5"
+        ],
+        "step_id": "step-10",
+        "lesson_id": "mm12-26-s03-d05"
+      },
+      {
+        "evidence_id": "MM12-S03-STEP-11",
+        "evidence_type": "Product",
+        "title": "Step 11: Capture alternates, details and a background plate",
+        "skill_ids": [
+          "PS-CAM-01"
+        ],
+        "outcome_codes": [
+          "MM12-1.1",
+          "MM12-1.2",
+          "MM12-1.3",
+          "MM12-1.4",
+          "MM12-1.5",
+          "MM12-4.4",
+          "MM12-4.5"
+        ],
+        "step_id": "step-11",
+        "lesson_id": "mm12-26-s03-d05"
+      },
+      {
+        "evidence_id": "MM12-S03-STEP-12",
+        "evidence_type": "Conversation",
+        "title": "Step 12: Select, reshoot if needed and back up originals",
+        "skill_ids": [
+          "GD-CRIT-01"
+        ],
+        "outcome_codes": [
+          "MM12-1.1",
+          "MM12-1.2",
+          "MM12-1.3",
+          "MM12-1.4",
+          "MM12-1.5",
+          "MM12-4.4",
+          "MM12-4.5"
+        ],
+        "step_id": "step-12",
+        "lesson_id": "mm12-26-s03-d05"
+      },
+      {
+        "evidence_id": "MM12-S03-STEP-13",
+        "evidence_type": "Product",
+        "title": "Step 13: Open the lead photograph as a Camera Raw Smart Object",
+        "skill_ids": [
+          "PS-ADJ-01",
+          "PS-TON-01",
+          "PS-TRN-01"
+        ],
+        "outcome_codes": [
+          "MM12-1.1",
+          "MM12-1.2",
+          "MM12-1.3",
+          "MM12-1.4",
+          "MM12-1.5",
+          "MM12-4.4",
+          "MM12-4.5"
+        ],
+        "step_id": "step-13",
+        "lesson_id": "mm12-26-s03-d06"
+      },
+      {
+        "evidence_id": "MM12-S03-STEP-14",
+        "evidence_type": "Observation",
+        "title": "Step 14: Correct tone with adjustment layers and masks",
+        "skill_ids": [
+          "PS-ADJ-01",
+          "PS-LAY-01",
+          "PS-TON-01"
+        ],
+        "outcome_codes": [
+          "MM12-1.1",
+          "MM12-1.2",
+          "MM12-1.3",
+          "MM12-1.4",
+          "MM12-1.5",
+          "MM12-4.4",
+          "MM12-4.5"
+        ],
+        "step_id": "step-14",
+        "lesson_id": "mm12-26-s03-d06"
+      },
+      {
+        "evidence_id": "MM12-S03-STEP-15",
+        "evidence_type": "Product",
+        "title": "Step 15: Make a non-destructive 4:5 crop and complete the edit log",
+        "skill_ids": [
+          "PS-TRN-01",
+          "PS-OUT-01"
+        ],
+        "outcome_codes": [
+          "MM12-1.1",
+          "MM12-1.2",
+          "MM12-1.3",
+          "MM12-1.4",
+          "MM12-1.5",
+          "MM12-4.4",
+          "MM12-4.5"
+        ],
+        "step_id": "step-15",
+        "lesson_id": "mm12-26-s03-d06"
+      },
+      {
+        "evidence_id": "MM12-S03-STEP-16",
+        "evidence_type": "Product",
+        "title": "Step 16: Build the campaign document and guides",
+        "skill_ids": [
+          "PS-LAY-01",
+          "PS-TRN-01",
+          "GD-HIE-01"
+        ],
+        "outcome_codes": [
+          "MM12-1.1",
+          "MM12-1.2",
+          "MM12-1.3",
+          "MM12-1.4",
+          "MM12-1.5",
+          "MM12-4.4",
+          "MM12-4.5"
+        ],
+        "step_id": "step-16",
+        "lesson_id": "mm12-26-s03-d07"
+      },
+      {
+        "evidence_id": "MM12-S03-STEP-17",
+        "evidence_type": "Product",
+        "title": "Step 17: Add headline, support line and call to action",
+        "skill_ids": [
+          "PS-TYP-01",
+          "GD-HIE-01",
+          "GD-COL-01"
+        ],
+        "outcome_codes": [
+          "MM12-1.1",
+          "MM12-1.2",
+          "MM12-1.3",
+          "MM12-1.4",
+          "MM12-1.5",
+          "MM12-4.4",
+          "MM12-4.5"
+        ],
+        "step_id": "step-17",
+        "lesson_id": "mm12-26-s03-d07"
+      },
+      {
+        "evidence_id": "MM12-S03-STEP-18",
+        "evidence_type": "Conversation",
+        "title": "Step 18: Run a five-second audience test and revise readability",
+        "skill_ids": [
+          "GD-AUD-01",
+          "GD-CRIT-01",
+          "GD-HIE-01"
+        ],
+        "outcome_codes": [
+          "MM12-1.1",
+          "MM12-1.2",
+          "MM12-1.3",
+          "MM12-1.4",
+          "MM12-1.5",
+          "MM12-4.4",
+          "MM12-4.5"
+        ],
+        "step_id": "step-18",
+        "lesson_id": "mm12-26-s03-d07"
+      },
+      {
+        "evidence_id": "MM12-S03-STEP-19",
+        "evidence_type": "Product",
+        "title": "Step 19: Complete the independent format change",
+        "skill_ids": [
+          "PS-LAY-01",
+          "PS-TRN-01",
+          "PS-TYP-01",
+          "PS-OUT-01",
+          "GD-HIE-01",
+          "GD-AUD-01",
+          "GD-COL-01",
+          "GD-CRIT-01"
+        ],
+        "outcome_codes": [
+          "MM12-1.1",
+          "MM12-1.2",
+          "MM12-1.3",
+          "MM12-1.4",
+          "MM12-1.5",
+          "MM12-4.4",
+          "MM12-4.5"
+        ],
+        "step_id": "step-19",
+        "lesson_id": "mm12-26-s03-d08"
+      },
+      {
+        "evidence_id": "MM12-S03-STEP-20",
+        "evidence_type": "Product",
+        "title": "Step 20: Export for screen and package the job",
+        "skill_ids": [
+          "PS-OUT-01"
+        ],
+        "outcome_codes": [
+          "MM12-1.1",
+          "MM12-1.2",
+          "MM12-1.3",
+          "MM12-1.4",
+          "MM12-1.5",
+          "MM12-4.4",
+          "MM12-4.5"
+        ],
+        "step_id": "step-20",
+        "lesson_id": "mm12-26-s03-d09"
+      },
+      {
+        "evidence_id": "MM12-S03-STEP-21",
+        "evidence_type": "Observation+Conversation",
+        "title": "Step 21: Hand over motion-ready layers and defend two decisions",
+        "skill_ids": [
+          "PS-LAY-01",
+          "PS-OUT-01",
+          "GD-CRIT-01"
+        ],
+        "outcome_codes": [
+          "MM12-1.1",
+          "MM12-1.2",
+          "MM12-1.3",
+          "MM12-1.4",
+          "MM12-1.5",
+          "MM12-4.4",
+          "MM12-4.5"
+        ],
+        "step_id": "step-21",
+        "lesson_id": "mm12-26-s03-d09"
+      }
+    ]
+  }
+}

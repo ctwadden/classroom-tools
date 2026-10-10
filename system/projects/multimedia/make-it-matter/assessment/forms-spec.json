@@ -1,0 +1,528 @@
+{
+  "spec_version": "2026-09-30.1",
+  "project_id": "make-it-matter-v2",
+  "project_title": "Make It Matter — MM12 Sprint 4",
+  "course_configs": [
+    {
+      "course_id": "MM12",
+      "module_id": "M1",
+      "outcome_codes": [
+        "MM12-2.1",
+        "MM12-2.2",
+        "MM12-2.3",
+        "MM12-2.4",
+        "MM12-2.5",
+        "MM12-3.3"
+      ]
+    }
+  ],
+  "assessment_bundle_by_course": {
+    "MM12": "mm12-26-s04-bundle"
+  },
+  "student_form": {
+    "description": "Eight knowledge questions from Knowledge first, then the guide's five evidence questions and a skill reflection. Verified school email required. Student answers are not achievement confirmation."
+  },
+  "knowledge_check": {
+    "items": [
+      {
+        "id": "make-it-matter-v2:k01",
+        "type": "multiple_choice",
+        "prompt": "What is the relationship between an audience insight and a PSA's big idea?",
+        "choices": [
+          "The big idea expresses a true audience insight in a clear image",
+          "The big idea is the export filename",
+          "The insight is only the colour palette",
+          "They are unrelated"
+        ],
+        "correct_index": 0,
+        "points": 1,
+        "correct_feedback": "An insight drives the visual idea and action.",
+        "incorrect_feedback": "An insight drives the visual idea and action.",
+        "skill_ids": [
+          "GD-AUD-01",
+          "GD-MET-01"
+        ],
+        "outcome_codes": [
+          "MM12-2.1",
+          "MM12-2.2",
+          "MM12-2.3",
+          "MM12-2.4",
+          "MM12-2.5",
+          "MM12-3.3"
+        ],
+        "step_id": "step-2",
+        "lesson_id": "mm12-26-s04-d05"
+      },
+      {
+        "id": "make-it-matter-v2:k02",
+        "type": "multiple_choice",
+        "prompt": "What should a PSA call to action give the viewer?",
+        "choices": [
+          "Several unverified helplines",
+          "Only a mood",
+          "A hidden message",
+          "One realistic next step"
+        ],
+        "correct_index": 3,
+        "points": 1,
+        "correct_feedback": "A clear next step makes the message actionable.",
+        "incorrect_feedback": "A clear next step makes the message actionable.",
+        "skill_ids": [
+          "GD-CTA-01"
+        ],
+        "outcome_codes": [
+          "MM12-2.1",
+          "MM12-2.2",
+          "MM12-2.3",
+          "MM12-2.4",
+          "MM12-2.5",
+          "MM12-3.3"
+        ],
+        "step_id": "step-2",
+        "lesson_id": "mm12-26-s04-d05"
+      },
+      {
+        "id": "make-it-matter-v2:k03",
+        "type": "multiple_choice",
+        "prompt": "Why should photographic plates share a plausible direction of light?",
+        "choices": [
+          "It removes the need for consent",
+          "It changes the frame rate",
+          "The composite will feel like one space",
+          "It makes every file smaller"
+        ],
+        "correct_index": 2,
+        "points": 1,
+        "correct_feedback": "Light agreement helps separate plates belong together.",
+        "incorrect_feedback": "Light agreement helps separate plates belong together.",
+        "skill_ids": [
+          "PS-LGT-02"
+        ],
+        "outcome_codes": [
+          "MM12-2.1",
+          "MM12-2.2",
+          "MM12-2.3",
+          "MM12-2.4",
+          "MM12-2.5",
+          "MM12-3.3"
+        ],
+        "step_id": "step-4",
+        "lesson_id": "mm12-26-s04-d06"
+      },
+      {
+        "id": "make-it-matter-v2:k04",
+        "type": "multiple_choice",
+        "prompt": "When integrating plates, what should be matched first?",
+        "choices": [
+          "Every layer's opacity to zero",
+          "Luminosity or value",
+          "The soundtrack",
+          "The export filename"
+        ],
+        "correct_index": 1,
+        "points": 1,
+        "correct_feedback": "The guide teaches value match before colour and directed light.",
+        "incorrect_feedback": "The guide teaches value match before colour and directed light.",
+        "skill_ids": [
+          "PS-LGT-02"
+        ],
+        "outcome_codes": [
+          "MM12-2.1",
+          "MM12-2.2",
+          "MM12-2.3",
+          "MM12-2.4",
+          "MM12-2.5",
+          "MM12-3.3"
+        ],
+        "step_id": "step-6",
+        "lesson_id": "mm12-26-s04-d07"
+      },
+      {
+        "id": "make-it-matter-v2:k05",
+        "type": "multiple_choice",
+        "prompt": "Which technique can let a textured foreground show through part of a composite layer?",
+        "choices": [
+          "Blend If with a refined mask",
+          "Flatten Image",
+          "Delete the foreground",
+          "Only increase canvas size"
+        ],
+        "correct_index": 0,
+        "points": 1,
+        "correct_feedback": "Blend If can integrate tonal ranges while retaining an editable mask.",
+        "incorrect_feedback": "Blend If can integrate tonal ranges while retaining an editable mask.",
+        "skill_ids": [
+          "PS-BLD-01"
+        ],
+        "outcome_codes": [
+          "MM12-2.1",
+          "MM12-2.2",
+          "MM12-2.3",
+          "MM12-2.4",
+          "MM12-2.5",
+          "MM12-3.3"
+        ],
+        "step_id": "step-7",
+        "lesson_id": "mm12-26-s04-d07"
+      },
+      {
+        "id": "make-it-matter-v2:k06",
+        "type": "multiple_choice",
+        "prompt": "For reflective rather than urgent motion, which pacing choice is more fitting?",
+        "choices": [
+          "Random fast cuts",
+          "No readable text",
+          "Every frame changing colour",
+          "Slow parallax with readable holds"
+        ],
+        "correct_index": 3,
+        "points": 1,
+        "correct_feedback": "Movement and hold time change interpretation.",
+        "incorrect_feedback": "Movement and hold time change interpretation.",
+        "skill_ids": [
+          "GD-HIE-01"
+        ],
+        "outcome_codes": [
+          "MM12-2.1",
+          "MM12-2.2",
+          "MM12-2.3",
+          "MM12-2.4",
+          "MM12-2.5",
+          "MM12-3.3"
+        ],
+        "step_id": "step-11",
+        "lesson_id": "mm12-26-s04-d09"
+      },
+      {
+        "id": "make-it-matter-v2:k07",
+        "type": "multiple_choice",
+        "prompt": "What must remain exact when adapting a PSA to a new format or audience?",
+        "choices": [
+          "Every word of the original layout",
+          "The first export filename",
+          "The approved helpline and core idea",
+          "The original canvas dimensions"
+        ],
+        "correct_index": 2,
+        "points": 1,
+        "correct_feedback": "The client change tests flexible execution while protecting the message and accurate support.",
+        "incorrect_feedback": "The client change tests flexible execution while protecting the message and accurate support.",
+        "skill_ids": [
+          "GD-CTA-01",
+          "GD-CRIT-01"
+        ],
+        "outcome_codes": [
+          "MM12-2.1",
+          "MM12-2.2",
+          "MM12-2.3",
+          "MM12-2.4",
+          "MM12-2.5",
+          "MM12-3.3"
+        ],
+        "step_id": "step-13",
+        "lesson_id": "mm12-26-s04-d10"
+      },
+      {
+        "id": "make-it-matter-v2:k08",
+        "type": "multiple_choice",
+        "prompt": "Which defence best explains safe messaging?",
+        "choices": [
+          "Skip the call to action",
+          "Name what you chose not to show and why the support appears clearly",
+          "Describe only the font menu",
+          "Claim every dramatic image is safe"
+        ],
+        "correct_index": 1,
+        "points": 1,
+        "correct_feedback": "A responsible defence explains both omission and accurate help-seeking.",
+        "incorrect_feedback": "A responsible defence explains both omission and accurate help-seeking.",
+        "skill_ids": [
+          "GD-AUD-01",
+          "GD-CRIT-01"
+        ],
+        "outcome_codes": [
+          "MM12-2.1",
+          "MM12-2.2",
+          "MM12-2.3",
+          "MM12-2.4",
+          "MM12-2.5",
+          "MM12-3.3"
+        ],
+        "step_id": "step-14",
+        "lesson_id": "mm12-26-s04-d10"
+      }
+    ]
+  },
+  "evidence_questions": [
+    {
+      "id": "make-it-matter-v2:e01",
+      "prompt": "What is your insight, and how does your big idea show it?",
+      "step_id": "step-13",
+      "lesson_id": "mm12-26-s04-d10",
+      "skill_ids": [
+        "GD-AUD-01",
+        "GD-MET-01",
+        "GD-CTA-01",
+        "GD-HIE-01",
+        "GD-COL-01",
+        "GD-CRIT-01",
+        "PS-BLD-01",
+        "PS-LGT-02",
+        "PS-TRN-02",
+        "PS-OUT-01"
+      ],
+      "outcome_codes": [
+        "MM12-2.1",
+        "MM12-2.2",
+        "MM12-2.3",
+        "MM12-2.4",
+        "MM12-2.5",
+        "MM12-3.3"
+      ]
+    },
+    {
+      "id": "make-it-matter-v2:e02",
+      "prompt": "Which professional technique made the biggest difference, and where did you apply it?",
+      "step_id": "step-13",
+      "lesson_id": "mm12-26-s04-d10",
+      "skill_ids": [
+        "GD-AUD-01",
+        "GD-MET-01",
+        "GD-CTA-01",
+        "GD-HIE-01",
+        "GD-COL-01",
+        "GD-CRIT-01",
+        "PS-BLD-01",
+        "PS-LGT-02",
+        "PS-TRN-02",
+        "PS-OUT-01"
+      ],
+      "outcome_codes": [
+        "MM12-2.1",
+        "MM12-2.2",
+        "MM12-2.3",
+        "MM12-2.4",
+        "MM12-2.5",
+        "MM12-3.3"
+      ]
+    },
+    {
+      "id": "make-it-matter-v2:e03",
+      "prompt": "How do frames 1 and 2 use contrast to tell the story?",
+      "step_id": "step-13",
+      "lesson_id": "mm12-26-s04-d10",
+      "skill_ids": [
+        "GD-AUD-01",
+        "GD-MET-01",
+        "GD-CTA-01",
+        "GD-HIE-01",
+        "GD-COL-01",
+        "GD-CRIT-01",
+        "PS-BLD-01",
+        "PS-LGT-02",
+        "PS-TRN-02",
+        "PS-OUT-01"
+      ],
+      "outcome_codes": [
+        "MM12-2.1",
+        "MM12-2.2",
+        "MM12-2.3",
+        "MM12-2.4",
+        "MM12-2.5",
+        "MM12-3.3"
+      ]
+    },
+    {
+      "id": "make-it-matter-v2:e04",
+      "prompt": "What did you choose not to show, and why?",
+      "step_id": "step-13",
+      "lesson_id": "mm12-26-s04-d10",
+      "skill_ids": [
+        "GD-AUD-01",
+        "GD-MET-01",
+        "GD-CTA-01",
+        "GD-HIE-01",
+        "GD-COL-01",
+        "GD-CRIT-01",
+        "PS-BLD-01",
+        "PS-LGT-02",
+        "PS-TRN-02",
+        "PS-OUT-01"
+      ],
+      "outcome_codes": [
+        "MM12-2.1",
+        "MM12-2.2",
+        "MM12-2.3",
+        "MM12-2.4",
+        "MM12-2.5",
+        "MM12-3.3"
+      ]
+    },
+    {
+      "id": "make-it-matter-v2:e05",
+      "prompt": "What did you change for the client card, and what did you protect?",
+      "step_id": "step-13",
+      "lesson_id": "mm12-26-s04-d10",
+      "skill_ids": [
+        "GD-AUD-01",
+        "GD-MET-01",
+        "GD-CTA-01",
+        "GD-HIE-01",
+        "GD-COL-01",
+        "GD-CRIT-01",
+        "PS-BLD-01",
+        "PS-LGT-02",
+        "PS-TRN-02",
+        "PS-OUT-01"
+      ],
+      "outcome_codes": [
+        "MM12-2.1",
+        "MM12-2.2",
+        "MM12-2.3",
+        "MM12-2.4",
+        "MM12-2.5",
+        "MM12-3.3"
+      ]
+    }
+  ],
+  "skill_reflection": {
+    "technical_skills": [
+      {
+        "id": "PS-BLD-01",
+        "label": "PS-BLD-01"
+      },
+      {
+        "id": "PS-LGT-02",
+        "label": "PS-LGT-02"
+      },
+      {
+        "id": "PS-TRN-02",
+        "label": "PS-TRN-02"
+      },
+      {
+        "id": "PS-OUT-01",
+        "label": "PS-OUT-01"
+      }
+    ],
+    "design_skills": [
+      {
+        "id": "GD-AUD-01",
+        "label": "GD-AUD-01"
+      },
+      {
+        "id": "GD-MET-01",
+        "label": "GD-MET-01"
+      },
+      {
+        "id": "GD-CTA-01",
+        "label": "GD-CTA-01"
+      },
+      {
+        "id": "GD-HIE-01",
+        "label": "GD-HIE-01"
+      },
+      {
+        "id": "GD-COL-01",
+        "label": "GD-COL-01"
+      },
+      {
+        "id": "GD-CRIT-01",
+        "label": "GD-CRIT-01"
+      }
+    ],
+    "independence_options": [
+      "Followed the example closely",
+      "Needed some prompts/checkpoints",
+      "Worked independently",
+      "Adapted or extended the skill"
+    ]
+  },
+  "transfer": {
+    "id": "make-it-matter-v2:next-target",
+    "prompt": "Name one skill, locate its evidence in your files, explain when you used it, and choose your next target after the changed brief.",
+    "skill_ids": [
+      "GD-AUD-01",
+      "GD-MET-01",
+      "GD-CTA-01",
+      "GD-HIE-01",
+      "GD-COL-01",
+      "GD-CRIT-01",
+      "PS-BLD-01",
+      "PS-LGT-02",
+      "PS-TRN-02",
+      "PS-OUT-01"
+    ],
+    "outcome_codes": [
+      "MM12-2.1",
+      "MM12-2.2",
+      "MM12-2.3",
+      "MM12-2.4",
+      "MM12-2.5",
+      "MM12-3.3"
+    ],
+    "step_id": "step-13",
+    "lesson_id": "mm12-26-s04-d10",
+    "teacher_verification_required": true
+  },
+  "teacher_evidence": {
+    "owner_only": true,
+    "checkpoints": [
+      {
+        "evidence_id": "make-it-matter-v2:step-13",
+        "evidence_type": "Product",
+        "title": "Step 13: Practical check: adapt the PSA to the changed brief",
+        "skill_ids": [
+          "GD-AUD-01",
+          "GD-MET-01",
+          "GD-CTA-01",
+          "GD-HIE-01",
+          "GD-COL-01",
+          "GD-CRIT-01",
+          "PS-BLD-01",
+          "PS-LGT-02",
+          "PS-TRN-02",
+          "PS-OUT-01"
+        ],
+        "outcome_codes": [
+          "MM12-2.1",
+          "MM12-2.2",
+          "MM12-2.3",
+          "MM12-2.4",
+          "MM12-2.5",
+          "MM12-3.3"
+        ],
+        "step_id": "step-13",
+        "lesson_id": "mm12-26-s04-d10",
+        "practical_check": true
+      },
+      {
+        "evidence_id": "make-it-matter-v2:step-14",
+        "evidence_type": "Conversation",
+        "title": "Step 14: Defend your PSA and plan its sound",
+        "skill_ids": [
+          "GD-AUD-01",
+          "GD-MET-01",
+          "GD-CTA-01",
+          "GD-HIE-01",
+          "GD-COL-01",
+          "GD-CRIT-01",
+          "PS-BLD-01",
+          "PS-LGT-02",
+          "PS-TRN-02",
+          "PS-OUT-01"
+        ],
+        "outcome_codes": [
+          "MM12-2.1",
+          "MM12-2.2",
+          "MM12-2.3",
+          "MM12-2.4",
+          "MM12-2.5",
+          "MM12-3.3"
+        ],
+        "step_id": "step-14",
+        "lesson_id": "mm12-26-s04-d10",
+        "practical_check": false
+      }
+    ]
+  }
+}

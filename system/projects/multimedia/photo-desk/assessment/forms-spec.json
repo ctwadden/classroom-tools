@@ -1,0 +1,950 @@
+{
+  "spec_version": "2026-09-29.1",
+  "project_id": "camera-lab-photo-desk-v1",
+  "project_title": "Photo Desk — shared camera lab",
+  "course_configs": [
+    {
+      "course_id": "MM12",
+      "module_id": "M1",
+      "outcome_codes": [
+        "MM12-1.1",
+        "MM12-1.2",
+        "MM12-1.3",
+        "MM12-1.4",
+        "MM12-1.5",
+        "MM12-4.4",
+        "MM12-4.5"
+      ]
+    },
+    {
+      "course_id": "COM11",
+      "module_id": "M1",
+      "outcome_codes": [
+        "COM11-1-7",
+        "COM11-2-1",
+        "COM11-2-2",
+        "COM11-2-3",
+        "COM11-2-4",
+        "COM11-4-5",
+        "COM11-1-3",
+        "COM11-3-3"
+      ]
+    }
+  ],
+  "assessment_bundle_by_course": {
+    "MM12": "mm12-26-s03-bundle",
+    "COM11": "com11-26-s03-bundle"
+  },
+  "student_form": {
+    "description": "Eight camera and newsroom knowledge questions, followed by evidence-linked skill reflection. Verified school email required. The Camera Licence is teacher-confirmed."
+  },
+  "knowledge_check": {
+    "items": [
+      {
+        "id": "PHOTO-DESK-K01",
+        "type": "multiple_choice",
+        "prompt": "Which setting makes more of a still subject sharp, with framing held constant?",
+        "choices": [
+          "f/11 rather than f/2.8",
+          "f/2.8 rather than f/11",
+          "A faster shutter by itself",
+          "A higher ISO by itself"
+        ],
+        "correct_index": 0,
+        "points": 1,
+        "correct_feedback": "A smaller aperture (larger f-number) increases depth of field when other factors are controlled.",
+        "incorrect_feedback": "A smaller aperture (larger f-number) increases depth of field when other factors are controlled.",
+        "skill_ids": [
+          "PS-CAM-01"
+        ],
+        "outcome_codes": [
+          "MM12-1.1",
+          "MM12-1.2",
+          "MM12-1.3",
+          "MM12-1.4",
+          "MM12-1.5",
+          "MM12-4.4",
+          "MM12-4.5",
+          "COM11-1-7",
+          "COM11-2-1",
+          "COM11-2-2",
+          "COM11-2-3",
+          "COM11-2-4",
+          "COM11-4-5",
+          "COM11-1-3",
+          "COM11-3-3"
+        ],
+        "step_id": "step-4",
+        "lesson_id": "mm12-26-s03-d02;com11-26-s03-d02",
+        "course_lesson_ids": {
+          "MM12": "mm12-26-s03-d02",
+          "COM11": "com11-26-s03-d02"
+        }
+      },
+      {
+        "id": "PHOTO-DESK-K02",
+        "type": "multiple_choice",
+        "prompt": "Which shutter choice is most likely to freeze a moving player?",
+        "choices": [
+          "1/1000 s",
+          "1/15 s",
+          "1 s",
+          "Bulb"
+        ],
+        "correct_index": 0,
+        "points": 1,
+        "correct_feedback": "A short exposure records less movement during the frame.",
+        "incorrect_feedback": "A short exposure records less movement during the frame.",
+        "skill_ids": [
+          "PS-CAM-01"
+        ],
+        "outcome_codes": [
+          "MM12-1.1",
+          "MM12-1.2",
+          "MM12-1.3",
+          "MM12-1.4",
+          "MM12-1.5",
+          "MM12-4.4",
+          "MM12-4.5",
+          "COM11-1-7",
+          "COM11-2-1",
+          "COM11-2-2",
+          "COM11-2-3",
+          "COM11-2-4",
+          "COM11-4-5",
+          "COM11-1-3",
+          "COM11-3-3"
+        ],
+        "step_id": "step-5",
+        "lesson_id": "mm12-26-s03-d02;com11-26-s03-d02",
+        "course_lesson_ids": {
+          "MM12": "mm12-26-s03-d02",
+          "COM11": "com11-26-s03-d02"
+        }
+      },
+      {
+        "id": "PHOTO-DESK-K03",
+        "type": "multiple_choice",
+        "prompt": "In a dim gym, raising ISO allows a faster shutter. What is the usual trade-off?",
+        "choices": [
+          "More visible noise",
+          "More depth of field",
+          "A wider lens",
+          "The RAW file becomes a JPEG"
+        ],
+        "correct_index": 0,
+        "points": 1,
+        "correct_feedback": "Higher ISO amplifies the signal and can make noise more visible.",
+        "incorrect_feedback": "Higher ISO amplifies the signal and can make noise more visible.",
+        "skill_ids": [
+          "PS-CAM-01"
+        ],
+        "outcome_codes": [
+          "MM12-1.1",
+          "MM12-1.2",
+          "MM12-1.3",
+          "MM12-1.4",
+          "MM12-1.5",
+          "MM12-4.4",
+          "MM12-4.5",
+          "COM11-1-7",
+          "COM11-2-1",
+          "COM11-2-2",
+          "COM11-2-3",
+          "COM11-2-4",
+          "COM11-4-5",
+          "COM11-1-3",
+          "COM11-3-3"
+        ],
+        "step_id": "step-8",
+        "lesson_id": "mm12-26-s03-d02;com11-26-s03-d02",
+        "course_lesson_ids": {
+          "MM12": "mm12-26-s03-d02",
+          "COM11": "com11-26-s03-d02"
+        }
+      },
+      {
+        "id": "PHOTO-DESK-K04",
+        "type": "multiple_choice",
+        "prompt": "The meter is one stop under. With other settings unchanged, which shutter adjustment doubles light?",
+        "choices": [
+          "1/250 s to 1/125 s",
+          "1/250 s to 1/500 s",
+          "1/250 s to 1/1000 s",
+          "No shutter adjustment can change light"
+        ],
+        "correct_index": 0,
+        "points": 1,
+        "correct_feedback": "Doubling exposure time from 1/250 to 1/125 second adds one stop.",
+        "incorrect_feedback": "Doubling exposure time from 1/250 to 1/125 second adds one stop.",
+        "skill_ids": [
+          "PS-CAM-01"
+        ],
+        "outcome_codes": [
+          "MM12-1.1",
+          "MM12-1.2",
+          "MM12-1.3",
+          "MM12-1.4",
+          "MM12-1.5",
+          "MM12-4.4",
+          "MM12-4.5",
+          "COM11-1-7",
+          "COM11-2-1",
+          "COM11-2-2",
+          "COM11-2-3",
+          "COM11-2-4",
+          "COM11-4-5",
+          "COM11-1-3",
+          "COM11-3-3"
+        ],
+        "step_id": "step-9",
+        "lesson_id": "mm12-26-s03-d02;com11-26-s03-d03",
+        "course_lesson_ids": {
+          "MM12": "mm12-26-s03-d02",
+          "COM11": "com11-26-s03-d03"
+        }
+      },
+      {
+        "id": "PHOTO-DESK-K05",
+        "type": "multiple_choice",
+        "prompt": "Why keep a RAW capture when recovering a bright window?",
+        "choices": [
+          "It retains more editable sensor data than a camera-processed JPEG",
+          "It guarantees unlimited detail in clipped highlights",
+          "It automatically adds consent metadata",
+          "It is always smaller than JPEG"
+        ],
+        "correct_index": 0,
+        "points": 1,
+        "correct_feedback": "RAW gives more latitude but cannot recreate information completely clipped at capture.",
+        "incorrect_feedback": "RAW gives more latitude but cannot recreate information completely clipped at capture.",
+        "skill_ids": [
+          "PS-CAM-01"
+        ],
+        "outcome_codes": [
+          "MM12-1.1",
+          "MM12-1.2",
+          "MM12-1.3",
+          "MM12-1.4",
+          "MM12-1.5",
+          "MM12-4.4",
+          "MM12-4.5",
+          "COM11-1-7",
+          "COM11-2-1",
+          "COM11-2-2",
+          "COM11-2-3",
+          "COM11-2-4",
+          "COM11-4-5",
+          "COM11-1-3",
+          "COM11-3-3"
+        ],
+        "step_id": "step-11",
+        "lesson_id": "mm12-26-s03-d02;com11-26-s03-d03",
+        "course_lesson_ids": {
+          "MM12": "mm12-26-s03-d02",
+          "COM11": "com11-26-s03-d03"
+        }
+      },
+      {
+        "id": "PHOTO-DESK-K06",
+        "type": "multiple_choice",
+        "prompt": "A school newsletter caption needs to let readers verify an event. Which draft best starts that job?",
+        "choices": [
+          "Names who, what, when, where and why with confirmed facts",
+          "Says “great shot!” without context",
+          "Invents a quote to make the image vivid",
+          "Names an unverified student from appearance"
+        ],
+        "correct_index": 0,
+        "points": 1,
+        "correct_feedback": "The 5Ws anchor the caption to checked facts.",
+        "incorrect_feedback": "The 5Ws anchor the caption to checked facts.",
+        "skill_ids": [
+          "GD-AUD-01",
+          "GD-CRIT-01"
+        ],
+        "outcome_codes": [
+          "MM12-1.1",
+          "MM12-1.2",
+          "MM12-1.3",
+          "MM12-1.4",
+          "MM12-1.5",
+          "MM12-4.4",
+          "MM12-4.5",
+          "COM11-1-7",
+          "COM11-2-1",
+          "COM11-2-2",
+          "COM11-2-3",
+          "COM11-2-4",
+          "COM11-4-5",
+          "COM11-1-3",
+          "COM11-3-3"
+        ],
+        "step_id": "step-16",
+        "lesson_id": "mm12-26-s03-d08;com11-26-s03-d09",
+        "course_lesson_ids": {
+          "MM12": "mm12-26-s03-d08",
+          "COM11": "com11-26-s03-d09"
+        }
+      },
+      {
+        "id": "PHOTO-DESK-K07",
+        "type": "multiple_choice",
+        "prompt": "A student agreed to be photographed but the photo is for publication. What must happen next?",
+        "choices": [
+          "Teacher checks the school publication permission list",
+          "Publish because the camera has a memory card",
+          "Assume consent also covers every online use",
+          "Remove the photo date and post it"
+        ],
+        "correct_index": 0,
+        "points": 1,
+        "correct_feedback": "The school publication permission check is separate from a momentary agreement to be photographed.",
+        "incorrect_feedback": "The school publication permission check is separate from a momentary agreement to be photographed.",
+        "skill_ids": [
+          "GD-AUD-01",
+          "GD-CRIT-01"
+        ],
+        "outcome_codes": [
+          "MM12-1.1",
+          "MM12-1.2",
+          "MM12-1.3",
+          "MM12-1.4",
+          "MM12-1.5",
+          "MM12-4.4",
+          "MM12-4.5",
+          "COM11-1-7",
+          "COM11-2-1",
+          "COM11-2-2",
+          "COM11-2-3",
+          "COM11-2-4",
+          "COM11-4-5",
+          "COM11-1-3",
+          "COM11-3-3"
+        ],
+        "step_id": "step-13",
+        "lesson_id": "mm12-26-s03-d08;com11-26-s03-d09",
+        "course_lesson_ids": {
+          "MM12": "mm12-26-s03-d08",
+          "COM11": "com11-26-s03-d09"
+        }
+      },
+      {
+        "id": "PHOTO-DESK-K08",
+        "type": "multiple_choice",
+        "prompt": "Which edit best preserves the truth of a school news photo?",
+        "choices": [
+          "Correct overall exposure while keeping the scene and relevant context intact",
+          "Remove a person who changes the story",
+          "Add an object not present in the scene",
+          "Replace the background to imply a different event"
+        ],
+        "correct_index": 0,
+        "points": 1,
+        "correct_feedback": "Global tonal correction can be disclosed; altering the scene to mislead readers fails the news purpose.",
+        "incorrect_feedback": "Global tonal correction can be disclosed; altering the scene to mislead readers fails the news purpose.",
+        "skill_ids": [
+          "GD-AUD-01",
+          "GD-CRIT-01"
+        ],
+        "outcome_codes": [
+          "MM12-1.1",
+          "MM12-1.2",
+          "MM12-1.3",
+          "MM12-1.4",
+          "MM12-1.5",
+          "MM12-4.4",
+          "MM12-4.5",
+          "COM11-1-7",
+          "COM11-2-1",
+          "COM11-2-2",
+          "COM11-2-3",
+          "COM11-2-4",
+          "COM11-4-5",
+          "COM11-1-3",
+          "COM11-3-3"
+        ],
+        "step_id": "step-15",
+        "lesson_id": "mm12-26-s03-d08;com11-26-s03-d09",
+        "course_lesson_ids": {
+          "MM12": "mm12-26-s03-d08",
+          "COM11": "com11-26-s03-d09"
+        }
+      }
+    ]
+  },
+  "skill_reflection": {
+    "technical_skills": [
+      {
+        "id": "PS-CAM-01",
+        "label": "Camera control and safe routine"
+      }
+    ],
+    "design_skills": [
+      {
+        "id": "GD-AUD-01",
+        "label": "GD-AUD-01"
+      },
+      {
+        "id": "GD-CRIT-01",
+        "label": "GD-CRIT-01"
+      }
+    ],
+    "independence_options": [
+      "Followed the example closely",
+      "Needed some prompts/checkpoints",
+      "Worked independently",
+      "Adapted or extended the skill"
+    ]
+  },
+  "transfer": {
+    "id": "camera-lab-photo-desk-v1:next-target",
+    "prompt": "Name one camera or publication skill, locate evidence in your own Photo Desk files, explain your use, and choose a changed Torch assignment where you will improve it.",
+    "skill_ids": [
+      "PS-CAM-01",
+      "GD-AUD-01",
+      "GD-CRIT-01"
+    ],
+    "outcome_codes": [
+      "MM12-1.1",
+      "MM12-1.2",
+      "MM12-1.3",
+      "MM12-1.4",
+      "MM12-1.5",
+      "MM12-4.4",
+      "MM12-4.5",
+      "COM11-1-7",
+      "COM11-2-1",
+      "COM11-2-2",
+      "COM11-2-3",
+      "COM11-2-4",
+      "COM11-4-5",
+      "COM11-1-3",
+      "COM11-3-3"
+    ],
+    "step_id": "step-16",
+    "lesson_id": "mm12-26-s03-d08;com11-26-s03-d09",
+    "teacher_verification_required": true
+  },
+  "teacher_evidence": {
+    "checkpoints": [
+      {
+        "evidence_id": "camera-lab-photo-desk-v1:step-1",
+        "evidence_type": "Conversation",
+        "title": "Step 1: Read the job board and your licence",
+        "skill_ids": [
+          "PS-CAM-01"
+        ],
+        "outcome_codes": [
+          "MM12-1.1",
+          "MM12-1.2",
+          "MM12-1.3",
+          "MM12-1.4",
+          "MM12-1.5",
+          "MM12-4.4",
+          "MM12-4.5",
+          "COM11-1-7",
+          "COM11-2-1",
+          "COM11-2-2",
+          "COM11-2-3",
+          "COM11-2-4",
+          "COM11-4-5",
+          "COM11-1-3",
+          "COM11-3-3"
+        ],
+        "step_id": "step-1",
+        "lesson_id": "mm12-26-s03-d02;com11-26-s03-d01",
+        "course_lesson_ids": {
+          "MM12": "mm12-26-s03-d02",
+          "COM11": "com11-26-s03-d01"
+        },
+        "badge_gate": null
+      },
+      {
+        "evidence_id": "camera-lab-photo-desk-v1:step-2",
+        "evidence_type": "Observation",
+        "title": "Step 2: Pass the safe-handling check",
+        "skill_ids": [
+          "PS-CAM-01"
+        ],
+        "outcome_codes": [
+          "MM12-1.1",
+          "MM12-1.2",
+          "MM12-1.3",
+          "MM12-1.4",
+          "MM12-1.5",
+          "MM12-4.4",
+          "MM12-4.5",
+          "COM11-1-7",
+          "COM11-2-1",
+          "COM11-2-2",
+          "COM11-2-3",
+          "COM11-2-4",
+          "COM11-4-5",
+          "COM11-1-3",
+          "COM11-3-3"
+        ],
+        "step_id": "step-2",
+        "lesson_id": "mm12-26-s03-d02;com11-26-s03-d01",
+        "course_lesson_ids": {
+          "MM12": "mm12-26-s03-d02",
+          "COM11": "com11-26-s03-d01"
+        },
+        "badge_gate": "Camera Licence Level 1"
+      },
+      {
+        "evidence_id": "camera-lab-photo-desk-v1:step-3",
+        "evidence_type": "Conversation",
+        "title": "Step 3: Mode hunt: what does the camera decide for you?",
+        "skill_ids": [
+          "PS-CAM-01"
+        ],
+        "outcome_codes": [
+          "MM12-1.1",
+          "MM12-1.2",
+          "MM12-1.3",
+          "MM12-1.4",
+          "MM12-1.5",
+          "MM12-4.4",
+          "MM12-4.5",
+          "COM11-1-7",
+          "COM11-2-1",
+          "COM11-2-2",
+          "COM11-2-3",
+          "COM11-2-4",
+          "COM11-4-5",
+          "COM11-1-3",
+          "COM11-3-3"
+        ],
+        "step_id": "step-3",
+        "lesson_id": "mm12-26-s03-d02;com11-26-s03-d01",
+        "course_lesson_ids": {
+          "MM12": "mm12-26-s03-d02",
+          "COM11": "com11-26-s03-d01"
+        },
+        "badge_gate": null
+      },
+      {
+        "evidence_id": "camera-lab-photo-desk-v1:step-4",
+        "evidence_type": "Observation",
+        "title": "Step 4: Job 01 · Museum catalogue: everything sharp",
+        "skill_ids": [
+          "PS-CAM-01"
+        ],
+        "outcome_codes": [
+          "MM12-1.1",
+          "MM12-1.2",
+          "MM12-1.3",
+          "MM12-1.4",
+          "MM12-1.5",
+          "MM12-4.4",
+          "MM12-4.5",
+          "COM11-1-7",
+          "COM11-2-1",
+          "COM11-2-2",
+          "COM11-2-3",
+          "COM11-2-4",
+          "COM11-4-5",
+          "COM11-1-3",
+          "COM11-3-3"
+        ],
+        "step_id": "step-4",
+        "lesson_id": "mm12-26-s03-d02;com11-26-s03-d02",
+        "course_lesson_ids": {
+          "MM12": "mm12-26-s03-d02",
+          "COM11": "com11-26-s03-d02"
+        },
+        "badge_gate": "Camera Licence Level 2"
+      },
+      {
+        "evidence_id": "camera-lab-photo-desk-v1:step-5",
+        "evidence_type": "Observation",
+        "title": "Step 5: Job 02 · Sports desk: freeze the play",
+        "skill_ids": [
+          "PS-CAM-01"
+        ],
+        "outcome_codes": [
+          "MM12-1.1",
+          "MM12-1.2",
+          "MM12-1.3",
+          "MM12-1.4",
+          "MM12-1.5",
+          "MM12-4.4",
+          "MM12-4.5",
+          "COM11-1-7",
+          "COM11-2-1",
+          "COM11-2-2",
+          "COM11-2-3",
+          "COM11-2-4",
+          "COM11-4-5",
+          "COM11-1-3",
+          "COM11-3-3"
+        ],
+        "step_id": "step-5",
+        "lesson_id": "mm12-26-s03-d02;com11-26-s03-d02",
+        "course_lesson_ids": {
+          "MM12": "mm12-26-s03-d02",
+          "COM11": "com11-26-s03-d02"
+        },
+        "badge_gate": "Camera Licence Level 2"
+      },
+      {
+        "evidence_id": "camera-lab-photo-desk-v1:step-6",
+        "evidence_type": "Observation",
+        "title": "Step 6: Job 03 · Tourism board: make the water silky",
+        "skill_ids": [
+          "PS-CAM-01"
+        ],
+        "outcome_codes": [
+          "MM12-1.1",
+          "MM12-1.2",
+          "MM12-1.3",
+          "MM12-1.4",
+          "MM12-1.5",
+          "MM12-4.4",
+          "MM12-4.5",
+          "COM11-1-7",
+          "COM11-2-1",
+          "COM11-2-2",
+          "COM11-2-3",
+          "COM11-2-4",
+          "COM11-4-5",
+          "COM11-1-3",
+          "COM11-3-3"
+        ],
+        "step_id": "step-6",
+        "lesson_id": "mm12-26-s03-d02;com11-26-s03-d02",
+        "course_lesson_ids": {
+          "MM12": "mm12-26-s03-d02",
+          "COM11": "com11-26-s03-d02"
+        },
+        "badge_gate": "Camera Licence Level 2"
+      },
+      {
+        "evidence_id": "camera-lab-photo-desk-v1:step-7",
+        "evidence_type": "Observation",
+        "title": "Step 7: Job 04 · Night market poster: paint with light",
+        "skill_ids": [
+          "PS-CAM-01"
+        ],
+        "outcome_codes": [
+          "MM12-1.1",
+          "MM12-1.2",
+          "MM12-1.3",
+          "MM12-1.4",
+          "MM12-1.5",
+          "MM12-4.4",
+          "MM12-4.5",
+          "COM11-1-7",
+          "COM11-2-1",
+          "COM11-2-2",
+          "COM11-2-3",
+          "COM11-2-4",
+          "COM11-4-5",
+          "COM11-1-3",
+          "COM11-3-3"
+        ],
+        "step_id": "step-7",
+        "lesson_id": "mm12-26-s03-d02;com11-26-s03-d02",
+        "course_lesson_ids": {
+          "MM12": "mm12-26-s03-d02",
+          "COM11": "com11-26-s03-d02"
+        },
+        "badge_gate": "Camera Licence Level 2"
+      },
+      {
+        "evidence_id": "camera-lab-photo-desk-v1:step-8",
+        "evidence_type": "Observation",
+        "title": "Step 8: Job 05 · Gym editor: noise or blur?",
+        "skill_ids": [
+          "PS-CAM-01"
+        ],
+        "outcome_codes": [
+          "MM12-1.1",
+          "MM12-1.2",
+          "MM12-1.3",
+          "MM12-1.4",
+          "MM12-1.5",
+          "MM12-4.4",
+          "MM12-4.5",
+          "COM11-1-7",
+          "COM11-2-1",
+          "COM11-2-2",
+          "COM11-2-3",
+          "COM11-2-4",
+          "COM11-4-5",
+          "COM11-1-3",
+          "COM11-3-3"
+        ],
+        "step_id": "step-8",
+        "lesson_id": "mm12-26-s03-d02;com11-26-s03-d02",
+        "course_lesson_ids": {
+          "MM12": "mm12-26-s03-d02",
+          "COM11": "com11-26-s03-d02"
+        },
+        "badge_gate": "Camera Licence Level 2"
+      },
+      {
+        "evidence_id": "camera-lab-photo-desk-v1:step-9",
+        "evidence_type": "Product",
+        "title": "Step 9: Job 06 · Editor’s puzzle: two ways to the same exposure",
+        "skill_ids": [
+          "PS-CAM-01"
+        ],
+        "outcome_codes": [
+          "MM12-1.1",
+          "MM12-1.2",
+          "MM12-1.3",
+          "MM12-1.4",
+          "MM12-1.5",
+          "MM12-4.4",
+          "MM12-4.5",
+          "COM11-1-7",
+          "COM11-2-1",
+          "COM11-2-2",
+          "COM11-2-3",
+          "COM11-2-4",
+          "COM11-4-5",
+          "COM11-1-3",
+          "COM11-3-3"
+        ],
+        "step_id": "step-9",
+        "lesson_id": "mm12-26-s03-d02;com11-26-s03-d03",
+        "course_lesson_ids": {
+          "MM12": "mm12-26-s03-d02",
+          "COM11": "com11-26-s03-d03"
+        },
+        "badge_gate": null
+      },
+      {
+        "evidence_id": "camera-lab-photo-desk-v1:step-10",
+        "evidence_type": "Observation",
+        "title": "Step 10: Practical check: your challenge card",
+        "skill_ids": [
+          "PS-CAM-01"
+        ],
+        "outcome_codes": [
+          "MM12-1.1",
+          "MM12-1.2",
+          "MM12-1.3",
+          "MM12-1.4",
+          "MM12-1.5",
+          "MM12-4.4",
+          "MM12-4.5",
+          "COM11-1-7",
+          "COM11-2-1",
+          "COM11-2-2",
+          "COM11-2-3",
+          "COM11-2-4",
+          "COM11-4-5",
+          "COM11-1-3",
+          "COM11-3-3"
+        ],
+        "step_id": "step-10",
+        "lesson_id": "mm12-26-s03-d02;com11-26-s03-d03",
+        "course_lesson_ids": {
+          "MM12": "mm12-26-s03-d02",
+          "COM11": "com11-26-s03-d03"
+        },
+        "badge_gate": "Camera Licence Level 3"
+      },
+      {
+        "evidence_id": "camera-lab-photo-desk-v1:step-11",
+        "evidence_type": "Product",
+        "title": "Step 11: Job 08 · RAW rescue: bring back the window",
+        "skill_ids": [
+          "PS-CAM-01"
+        ],
+        "outcome_codes": [
+          "MM12-1.1",
+          "MM12-1.2",
+          "MM12-1.3",
+          "MM12-1.4",
+          "MM12-1.5",
+          "MM12-4.4",
+          "MM12-4.5",
+          "COM11-1-7",
+          "COM11-2-1",
+          "COM11-2-2",
+          "COM11-2-3",
+          "COM11-2-4",
+          "COM11-4-5",
+          "COM11-1-3",
+          "COM11-3-3"
+        ],
+        "step_id": "step-11",
+        "lesson_id": "mm12-26-s03-d02;com11-26-s03-d03",
+        "course_lesson_ids": {
+          "MM12": "mm12-26-s03-d02",
+          "COM11": "com11-26-s03-d03"
+        },
+        "badge_gate": null
+      },
+      {
+        "evidence_id": "camera-lab-photo-desk-v1:step-12",
+        "evidence_type": "Conversation",
+        "title": "Step 12: Choose two briefs from the editors’ board",
+        "skill_ids": [
+          "GD-AUD-01",
+          "GD-CRIT-01"
+        ],
+        "outcome_codes": [
+          "MM12-1.1",
+          "MM12-1.2",
+          "MM12-1.3",
+          "MM12-1.4",
+          "MM12-1.5",
+          "MM12-4.4",
+          "MM12-4.5",
+          "COM11-1-7",
+          "COM11-2-1",
+          "COM11-2-2",
+          "COM11-2-3",
+          "COM11-2-4",
+          "COM11-4-5",
+          "COM11-1-3",
+          "COM11-3-3"
+        ],
+        "step_id": "step-12",
+        "lesson_id": "mm12-26-s03-d08;com11-26-s03-d09",
+        "course_lesson_ids": {
+          "MM12": "mm12-26-s03-d08",
+          "COM11": "com11-26-s03-d09"
+        },
+        "badge_gate": null
+      },
+      {
+        "evidence_id": "camera-lab-photo-desk-v1:step-13",
+        "evidence_type": "Conversation",
+        "title": "Step 13: Get permission and protect privacy",
+        "skill_ids": [
+          "GD-AUD-01",
+          "GD-CRIT-01"
+        ],
+        "outcome_codes": [
+          "MM12-1.1",
+          "MM12-1.2",
+          "MM12-1.3",
+          "MM12-1.4",
+          "MM12-1.5",
+          "MM12-4.4",
+          "MM12-4.5",
+          "COM11-1-7",
+          "COM11-2-1",
+          "COM11-2-2",
+          "COM11-2-3",
+          "COM11-2-4",
+          "COM11-4-5",
+          "COM11-1-3",
+          "COM11-3-3"
+        ],
+        "step_id": "step-13",
+        "lesson_id": "mm12-26-s03-d08;com11-26-s03-d09",
+        "course_lesson_ids": {
+          "MM12": "mm12-26-s03-d08",
+          "COM11": "com11-26-s03-d09"
+        },
+        "badge_gate": null
+      },
+      {
+        "evidence_id": "camera-lab-photo-desk-v1:step-14",
+        "evidence_type": "Observation",
+        "title": "Step 14: Shoot on assignment",
+        "skill_ids": [
+          "GD-AUD-01",
+          "GD-CRIT-01"
+        ],
+        "outcome_codes": [
+          "MM12-1.1",
+          "MM12-1.2",
+          "MM12-1.3",
+          "MM12-1.4",
+          "MM12-1.5",
+          "MM12-4.4",
+          "MM12-4.5",
+          "COM11-1-7",
+          "COM11-2-1",
+          "COM11-2-2",
+          "COM11-2-3",
+          "COM11-2-4",
+          "COM11-4-5",
+          "COM11-1-3",
+          "COM11-3-3"
+        ],
+        "step_id": "step-14",
+        "lesson_id": "mm12-26-s03-d08;com11-26-s03-d09",
+        "course_lesson_ids": {
+          "MM12": "mm12-26-s03-d08",
+          "COM11": "com11-26-s03-d09"
+        },
+        "badge_gate": null
+      },
+      {
+        "evidence_id": "camera-lab-photo-desk-v1:step-15",
+        "evidence_type": "Product",
+        "title": "Step 15: Edit honestly and add Content Credentials",
+        "skill_ids": [
+          "GD-AUD-01",
+          "GD-CRIT-01"
+        ],
+        "outcome_codes": [
+          "MM12-1.1",
+          "MM12-1.2",
+          "MM12-1.3",
+          "MM12-1.4",
+          "MM12-1.5",
+          "MM12-4.4",
+          "MM12-4.5",
+          "COM11-1-7",
+          "COM11-2-1",
+          "COM11-2-2",
+          "COM11-2-3",
+          "COM11-2-4",
+          "COM11-4-5",
+          "COM11-1-3",
+          "COM11-3-3"
+        ],
+        "step_id": "step-15",
+        "lesson_id": "mm12-26-s03-d08;com11-26-s03-d09",
+        "course_lesson_ids": {
+          "MM12": "mm12-26-s03-d08",
+          "COM11": "com11-26-s03-d09"
+        },
+        "badge_gate": null
+      },
+      {
+        "evidence_id": "camera-lab-photo-desk-v1:step-16",
+        "evidence_type": "Product",
+        "title": "Step 16: Write the caption and file to The Torch",
+        "skill_ids": [
+          "GD-AUD-01",
+          "GD-CRIT-01"
+        ],
+        "outcome_codes": [
+          "MM12-1.1",
+          "MM12-1.2",
+          "MM12-1.3",
+          "MM12-1.4",
+          "MM12-1.5",
+          "MM12-4.4",
+          "MM12-4.5",
+          "COM11-1-7",
+          "COM11-2-1",
+          "COM11-2-2",
+          "COM11-2-3",
+          "COM11-2-4",
+          "COM11-4-5",
+          "COM11-1-3",
+          "COM11-3-3"
+        ],
+        "step_id": "step-16",
+        "lesson_id": "mm12-26-s03-d08;com11-26-s03-d09",
+        "course_lesson_ids": {
+          "MM12": "mm12-26-s03-d08",
+          "COM11": "com11-26-s03-d09"
+        },
+        "badge_gate": null
+      }
+    ]
+  }
+}

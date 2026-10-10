@@ -1,0 +1,407 @@
+{
+  "spec_version": "2026-10-02.1",
+  "project_id": "mm12-vfx-shot-library-v1",
+  "project_title": "VFX Shot Library — MM12 Sprint 8",
+  "course_configs": [
+    {
+      "course_id": "MM12",
+      "module_id": "M2",
+      "outcome_codes": [
+        "MM12-2.1",
+        "MM12-2.2",
+        "MM12-2.3",
+        "MM12-2.4",
+        "MM12-2.5",
+        "MM12-4.1",
+        "MM12-4.2",
+        "MM12-4.4"
+      ]
+    }
+  ],
+  "assessment_bundle_by_course": {
+    "MM12": "mm12-26-s08-bundle"
+  },
+  "student_form": {
+    "description": "Choose one of the six VFX shot tutorials. Name it exactly, then reflect on your source, technical decisions, changed brief and next target. Verified school email required."
+  },
+  "knowledge_check": {
+    "items": []
+  },
+  "evidence_questions": [
+    {
+      "id": "mm12-vfx-shot-library-v1:tutorial",
+      "prompt": "Which tutorial did you complete? Choose one exact title: Laser Sword; Blaster; Helmet; Dinosaur Chase; Cockpit; Through the Window.",
+      "step_id": "",
+      "lesson_id": "mm12-26-s08-d09",
+      "skill_ids": [],
+      "outcome_codes": [
+        "MM12-2.1",
+        "MM12-2.2",
+        "MM12-2.3",
+        "MM12-2.4",
+        "MM12-2.5",
+        "MM12-4.1",
+        "MM12-4.2",
+        "MM12-4.4"
+      ]
+    },
+    {
+      "id": "mm12-vfx-shot-library-v1:e01",
+      "prompt": "What did the original plate show, and what was the shot brief?",
+      "step_id": "",
+      "lesson_id": "mm12-26-s08-d09",
+      "skill_ids": [
+        "BL-CAM-01",
+        "BL-LGT-01",
+        "BL-RND-01",
+        "GD-AUD-01",
+        "GD-HIE-01",
+        "GD-CRIT-01",
+        "PS-LGT-02"
+      ],
+      "outcome_codes": [
+        "MM12-2.1",
+        "MM12-2.2",
+        "MM12-2.3",
+        "MM12-2.4",
+        "MM12-2.5",
+        "MM12-4.1",
+        "MM12-4.2",
+        "MM12-4.4"
+      ]
+    },
+    {
+      "id": "mm12-vfx-shot-library-v1:e02",
+      "prompt": "Which tracking, keying or compositing method did you choose, and why?",
+      "step_id": "",
+      "lesson_id": "mm12-26-s08-d09",
+      "skill_ids": [
+        "BL-CAM-01",
+        "BL-LGT-01",
+        "BL-RND-01",
+        "GD-AUD-01",
+        "GD-HIE-01",
+        "GD-CRIT-01",
+        "PS-LGT-02"
+      ],
+      "outcome_codes": [
+        "MM12-2.1",
+        "MM12-2.2",
+        "MM12-2.3",
+        "MM12-2.4",
+        "MM12-2.5",
+        "MM12-4.1",
+        "MM12-4.2",
+        "MM12-4.4"
+      ]
+    },
+    {
+      "id": "mm12-vfx-shot-library-v1:e03",
+      "prompt": "What visual mismatch did you find when you reviewed the whole shot?",
+      "step_id": "",
+      "lesson_id": "mm12-26-s08-d09",
+      "skill_ids": [
+        "BL-CAM-01",
+        "BL-LGT-01",
+        "BL-RND-01",
+        "GD-AUD-01",
+        "GD-HIE-01",
+        "GD-CRIT-01",
+        "PS-LGT-02"
+      ],
+      "outcome_codes": [
+        "MM12-2.1",
+        "MM12-2.2",
+        "MM12-2.3",
+        "MM12-2.4",
+        "MM12-2.5",
+        "MM12-4.1",
+        "MM12-4.2",
+        "MM12-4.4"
+      ]
+    },
+    {
+      "id": "mm12-vfx-shot-library-v1:e04",
+      "prompt": "What did the director change, and how did you respond independently?",
+      "step_id": "",
+      "lesson_id": "mm12-26-s08-d09",
+      "skill_ids": [
+        "BL-CAM-01",
+        "BL-LGT-01",
+        "BL-RND-01",
+        "GD-AUD-01",
+        "GD-HIE-01",
+        "GD-CRIT-01",
+        "PS-LGT-02"
+      ],
+      "outcome_codes": [
+        "MM12-2.1",
+        "MM12-2.2",
+        "MM12-2.3",
+        "MM12-2.4",
+        "MM12-2.5",
+        "MM12-4.1",
+        "MM12-4.2",
+        "MM12-4.4"
+      ]
+    },
+    {
+      "id": "mm12-vfx-shot-library-v1:e05",
+      "prompt": "Where in your file and render can your teacher see the revised result?",
+      "step_id": "",
+      "lesson_id": "mm12-26-s08-d09",
+      "skill_ids": [
+        "BL-CAM-01",
+        "BL-LGT-01",
+        "BL-RND-01",
+        "GD-AUD-01",
+        "GD-HIE-01",
+        "GD-CRIT-01",
+        "PS-LGT-02"
+      ],
+      "outcome_codes": [
+        "MM12-2.1",
+        "MM12-2.2",
+        "MM12-2.3",
+        "MM12-2.4",
+        "MM12-2.5",
+        "MM12-4.1",
+        "MM12-4.2",
+        "MM12-4.4"
+      ]
+    }
+  ],
+  "skill_reflection": {
+    "technical_skills": [
+      {
+        "id": "BL-CAM-01",
+        "label": "BL-CAM-01"
+      },
+      {
+        "id": "BL-LGT-01",
+        "label": "BL-LGT-01"
+      },
+      {
+        "id": "BL-RND-01",
+        "label": "BL-RND-01"
+      },
+      {
+        "id": "PS-LGT-02",
+        "label": "PS-LGT-02"
+      }
+    ],
+    "design_skills": [
+      {
+        "id": "GD-AUD-01",
+        "label": "GD-AUD-01"
+      },
+      {
+        "id": "GD-HIE-01",
+        "label": "GD-HIE-01"
+      },
+      {
+        "id": "GD-CRIT-01",
+        "label": "GD-CRIT-01"
+      }
+    ],
+    "independence_options": [
+      "Followed the example closely",
+      "Needed some prompts/checkpoints",
+      "Worked independently",
+      "Adapted or extended the skill"
+    ]
+  },
+  "transfer": {
+    "id": "mm12-vfx-shot-library-v1:next-target",
+    "prompt": "Name the tutorial, identify one reusable VFX skill, locate its evidence, and set a next target.",
+    "skill_ids": [
+      "BL-CAM-01",
+      "BL-LGT-01",
+      "BL-RND-01",
+      "GD-AUD-01",
+      "GD-HIE-01",
+      "GD-CRIT-01",
+      "PS-LGT-02"
+    ],
+    "outcome_codes": [
+      "MM12-2.1",
+      "MM12-2.2",
+      "MM12-2.3",
+      "MM12-2.4",
+      "MM12-2.5",
+      "MM12-4.1",
+      "MM12-4.2",
+      "MM12-4.4"
+    ],
+    "step_id": "",
+    "lesson_id": "mm12-26-s08-d09",
+    "teacher_verification_required": true
+  },
+  "teacher_evidence": {
+    "owner_only": true,
+    "checkpoints": [
+      {
+        "evidence_id": "mm12-vfx-laser-sword-v1:step-9",
+        "evidence_type": "Product",
+        "title": "Laser Sword: final practical step 9",
+        "skill_ids": [
+          "BL-CAM-01",
+          "BL-LGT-01",
+          "BL-RND-01",
+          "GD-AUD-01",
+          "GD-HIE-01",
+          "GD-CRIT-01",
+          "PS-LGT-02"
+        ],
+        "outcome_codes": [
+          "MM12-2.1",
+          "MM12-2.2",
+          "MM12-2.3",
+          "MM12-2.4",
+          "MM12-2.5",
+          "MM12-4.1",
+          "MM12-4.2",
+          "MM12-4.4"
+        ],
+        "step_id": "step-9",
+        "lesson_id": "mm12-26-s08-d09",
+        "practical_check": true
+      },
+      {
+        "evidence_id": "mm12-vfx-blaster-v1:step-9",
+        "evidence_type": "Product",
+        "title": "Blaster: final practical step 9",
+        "skill_ids": [
+          "BL-CAM-01",
+          "BL-LGT-01",
+          "BL-RND-01",
+          "GD-AUD-01",
+          "GD-HIE-01",
+          "GD-CRIT-01",
+          "PS-LGT-02"
+        ],
+        "outcome_codes": [
+          "MM12-2.1",
+          "MM12-2.2",
+          "MM12-2.3",
+          "MM12-2.4",
+          "MM12-2.5",
+          "MM12-4.1",
+          "MM12-4.2",
+          "MM12-4.4"
+        ],
+        "step_id": "step-9",
+        "lesson_id": "mm12-26-s08-d09",
+        "practical_check": true
+      },
+      {
+        "evidence_id": "mm12-vfx-helmet-v1:step-6",
+        "evidence_type": "Product",
+        "title": "Helmet: final practical step 6",
+        "skill_ids": [
+          "BL-CAM-01",
+          "BL-LGT-01",
+          "BL-RND-01",
+          "GD-AUD-01",
+          "GD-HIE-01",
+          "GD-CRIT-01",
+          "PS-LGT-02"
+        ],
+        "outcome_codes": [
+          "MM12-2.1",
+          "MM12-2.2",
+          "MM12-2.3",
+          "MM12-2.4",
+          "MM12-2.5",
+          "MM12-4.1",
+          "MM12-4.2",
+          "MM12-4.4"
+        ],
+        "step_id": "step-6",
+        "lesson_id": "mm12-26-s08-d09",
+        "practical_check": true
+      },
+      {
+        "evidence_id": "mm12-vfx-dino-chase-v1:step-5",
+        "evidence_type": "Product",
+        "title": "Dinosaur Chase: final practical step 5",
+        "skill_ids": [
+          "BL-CAM-01",
+          "BL-LGT-01",
+          "BL-RND-01",
+          "GD-AUD-01",
+          "GD-HIE-01",
+          "GD-CRIT-01",
+          "PS-LGT-02"
+        ],
+        "outcome_codes": [
+          "MM12-2.1",
+          "MM12-2.2",
+          "MM12-2.3",
+          "MM12-2.4",
+          "MM12-2.5",
+          "MM12-4.1",
+          "MM12-4.2",
+          "MM12-4.4"
+        ],
+        "step_id": "step-5",
+        "lesson_id": "mm12-26-s08-d09",
+        "practical_check": true
+      },
+      {
+        "evidence_id": "mm12-vfx-cockpit-v1:step-5",
+        "evidence_type": "Product",
+        "title": "Cockpit: final practical step 5",
+        "skill_ids": [
+          "BL-CAM-01",
+          "BL-LGT-01",
+          "BL-RND-01",
+          "GD-AUD-01",
+          "GD-HIE-01",
+          "GD-CRIT-01",
+          "PS-LGT-02"
+        ],
+        "outcome_codes": [
+          "MM12-2.1",
+          "MM12-2.2",
+          "MM12-2.3",
+          "MM12-2.4",
+          "MM12-2.5",
+          "MM12-4.1",
+          "MM12-4.2",
+          "MM12-4.4"
+        ],
+        "step_id": "step-5",
+        "lesson_id": "mm12-26-s08-d09",
+        "practical_check": true
+      },
+      {
+        "evidence_id": "mm12-vfx-window-v1:step-5",
+        "evidence_type": "Product",
+        "title": "Through the Window: final practical step 5",
+        "skill_ids": [
+          "BL-CAM-01",
+          "BL-LGT-01",
+          "BL-RND-01",
+          "GD-AUD-01",
+          "GD-HIE-01",
+          "GD-CRIT-01",
+          "PS-LGT-02"
+        ],
+        "outcome_codes": [
+          "MM12-2.1",
+          "MM12-2.2",
+          "MM12-2.3",
+          "MM12-2.4",
+          "MM12-2.5",
+          "MM12-4.1",
+          "MM12-4.2",
+          "MM12-4.4"
+        ],
+        "step_id": "step-5",
+        "lesson_id": "mm12-26-s08-d09",
+        "practical_check": true
+      }
+    ]
+  }
+}

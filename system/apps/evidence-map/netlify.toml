@@ -1,0 +1,32 @@
+# Connected Evidence Map — static teacher tools and authenticated evidence functions
+[build]
+  publish   = "dist"
+  command   = "npm ci --prefix field-app --ignore-scripts && python3 tools/build_public.py"
+  functions = "netlify/functions"
+
+[functions]
+  node_bundler = "esbuild"
+  included_files = ["connected-catalogue.json", "OUTCOME_CODE_MAP.json"]
+
+[[redirects]]
+  from = "/"
+  to = "/connected.html"
+  status = 302
+  force = true
+
+[[redirects]]
+  from = "/api/gemini"
+  to   = "/.netlify/functions/gemini"
+  status = 200
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    Referrer-Policy = "no-referrer"
+    X-Content-Type-Options = "nosniff"
+
+[[headers]]
+  for = "/field/sw.js"
+  [headers.values]
+    Cache-Control = "no-cache"
+    Service-Worker-Allowed = "/field/"

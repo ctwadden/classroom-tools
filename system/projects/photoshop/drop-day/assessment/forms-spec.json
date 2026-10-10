@@ -1,0 +1,439 @@
+{
+  "spec_version": "1.0",
+  "project_id": "PS-DROP-DAY",
+  "project_title": "Drop Day",
+  "course_configs": [
+    {
+      "course_id": "MM12",
+      "module_id": "M1",
+      "outcome_codes": [
+        "MM12-1.1",
+        "MM12-1.3",
+        "MM12-1.4",
+        "MM12-1.5",
+        "MM12-4.1"
+      ]
+    },
+    {
+      "course_id": "COM11",
+      "module_id": "M4",
+      "outcome_codes": [
+        "COM11-1.4",
+        "COM11-4.1",
+        "COM11-4.2",
+        "COM11-4.3",
+        "COM11-4.4",
+        "COM11-4.5"
+      ]
+    }
+  ],
+  "student_form": {
+    "description": "Complete the Drop Day knowledge check, bounded skill reflection and transfer prompt. Guided workbook completion is practice; this form provides supporting evidence only."
+  },
+  "knowledge_check": {
+    "items": [
+      {
+        "id": "DD-KC-01",
+        "type": "multiple_choice",
+        "prompt": "Why is Spot Healing a sensible first choice for the small isolated speck in the Drop Day source?",
+        "choices": [
+          "It automatically creates a vector mask",
+          "It can use nearby image information without requiring a manually chosen sample point",
+          "It preserves text as live type",
+          "It converts the source into a Smart Object"
+        ],
+        "correct_index": 1,
+        "points": 1,
+        "skill_ids": [
+          "PS-RET-01"
+        ],
+        "outcome_codes": [
+          "MM12-1.1",
+          "COM11-4.4"
+        ],
+        "step_id": "DD-S02"
+      },
+      {
+        "id": "DD-KC-02",
+        "type": "multiple_choice",
+        "prompt": "What is the key advantage of the Healing Brush used on the pale thread repair?",
+        "choices": [
+          "You choose the source area and Photoshop blends it with the destination",
+          "It always copies pixels exactly with no blending",
+          "It changes only hue and saturation",
+          "It automatically creates a clipping mask"
+        ],
+        "correct_index": 0,
+        "points": 1,
+        "skill_ids": [
+          "PS-RET-01"
+        ],
+        "outcome_codes": [
+          "MM12-1.1",
+          "MM12-1.3",
+          "COM11-4.4"
+        ],
+        "step_id": "DD-S03"
+      },
+      {
+        "id": "DD-KC-03",
+        "type": "multiple_choice",
+        "prompt": "Why is the SHOE CUTOUT mask placed on the group containing both Source and Retouch?",
+        "choices": [
+          "So the same silhouette controls both the original pixels and the repair strokes",
+          "So every layer becomes rasterized",
+          "So the group automatically changes colour",
+          "So the mask controls only typography"
+        ],
+        "correct_index": 0,
+        "points": 1,
+        "skill_ids": [
+          "PS-LAY-01",
+          "PS-SEL-01"
+        ],
+        "outcome_codes": [
+          "MM12-1.1",
+          "MM12-1.3",
+          "COM11-4.4"
+        ],
+        "step_id": "DD-S07"
+      },
+      {
+        "id": "DD-KC-04",
+        "type": "multiple_choice",
+        "prompt": "What is different about the Accent colour mask compared with the SHOE CUTOUT mask?",
+        "choices": [
+          "The accent mask controls selected colour areas; the cutout mask controls the outer product silhouette",
+          "The accent mask changes document size; the cutout mask changes resolution",
+          "They perform exactly the same job",
+          "The accent mask is only for text"
+        ],
+        "correct_index": 0,
+        "points": 1,
+        "skill_ids": [
+          "PS-COL-01",
+          "PS-LAY-01"
+        ],
+        "outcome_codes": [
+          "MM12-1.1",
+          "COM11-4.2",
+          "COM11-4.4"
+        ],
+        "step_id": "DD-S16"
+      },
+      {
+        "id": "DD-KC-05",
+        "type": "multiple_choice",
+        "prompt": "Why are the Hue/Saturation and Curves adjustments clipped to Shoe master?",
+        "choices": [
+          "To limit those adjustments to the product relationship beneath them",
+          "To flatten the document",
+          "To export automatically",
+          "To make every layer use the same opacity"
+        ],
+        "correct_index": 0,
+        "points": 1,
+        "skill_ids": [
+          "PS-ADJ-01",
+          "PS-LAY-01"
+        ],
+        "outcome_codes": [
+          "MM12-1.1",
+          "COM11-4.4"
+        ],
+        "step_id": "DD-S16"
+      },
+      {
+        "id": "DD-KC-06",
+        "type": "multiple_choice",
+        "prompt": "In the outline headline, why is Fill set to 0% while layer Opacity stays at 100%?",
+        "choices": [
+          "Fill can hide the type fill while leaving the Stroke layer style visible",
+          "Opacity keeps only the text fill and removes the Stroke",
+          "Fill converts the text to pixels",
+          "Opacity changes tracking"
+        ],
+        "correct_index": 0,
+        "points": 1,
+        "skill_ids": [
+          "PS-TYP-01",
+          "PS-EFX-01"
+        ],
+        "outcome_codes": [
+          "MM12-1.4",
+          "COM11-4.3",
+          "COM11-4.4"
+        ],
+        "step_id": "DD-S17"
+      },
+      {
+        "id": "DD-KC-07",
+        "type": "multiple_choice",
+        "prompt": "What makes the coral revision a controlled colourway rather than a global colour filter?",
+        "choices": [
+          "Only intended product accents and matching campaign accents change while neutral materials/background remain controlled",
+          "Every pixel in the poster shifts hue",
+          "The product is re-cut from the source",
+          "All typography is rasterized"
+        ],
+        "correct_index": 0,
+        "points": 1,
+        "skill_ids": [
+          "PS-COL-01",
+          "GD-BRD-01",
+          "GD-COL-01"
+        ],
+        "outcome_codes": [
+          "MM12-1.4",
+          "MM12-1.5",
+          "COM11-4.2",
+          "COM11-4.4"
+        ],
+        "step_id": "DD-S22"
+      },
+      {
+        "id": "DD-KC-08",
+        "type": "multiple_choice",
+        "prompt": "Why does the final handover include both layered PSD files and exported PNG files?",
+        "choices": [
+          "The PSD preserves editable production controls; the PNG is the checked viewing/output file",
+          "The PNG preserves more layers than the PSD",
+          "Both files are identical in purpose",
+          "The PSD is only for web publishing"
+        ],
+        "correct_index": 0,
+        "points": 1,
+        "skill_ids": [
+          "PS-OUT-01"
+        ],
+        "outcome_codes": [
+          "MM12-1.3",
+          "COM11-4.5"
+        ],
+        "step_id": "DD-S24"
+      }
+    ]
+  },
+  "skill_reflection": {
+    "technical_skills": [
+      {
+        "id": "PS-RET-01",
+        "label": "Retouching / Clone Stamp"
+      },
+      {
+        "id": "PS-SEL-01",
+        "label": "Selection and isolation"
+      },
+      {
+        "id": "PS-LAY-01",
+        "label": "Layers and masks"
+      },
+      {
+        "id": "PS-SMO-01",
+        "label": "Smart Objects"
+      },
+      {
+        "id": "PS-COL-01",
+        "label": "Selective colour control"
+      },
+      {
+        "id": "PS-TYP-01",
+        "label": "Photoshop typography"
+      },
+      {
+        "id": "PS-OUT-01",
+        "label": "Export / output"
+      }
+    ],
+    "design_skills": [
+      {
+        "id": "GD-HIE-01",
+        "label": "Visual hierarchy"
+      },
+      {
+        "id": "GD-ALN-01",
+        "label": "Alignment"
+      },
+      {
+        "id": "GD-CON-01",
+        "label": "Contrast"
+      },
+      {
+        "id": "GD-COL-01",
+        "label": "Colour relationships"
+      },
+      {
+        "id": "GD-TYP-01",
+        "label": "Typography as communication"
+      },
+      {
+        "id": "GD-BRD-01",
+        "label": "Brand consistency"
+      },
+      {
+        "id": "GD-AUD-01",
+        "label": "Audience and purpose"
+      },
+      {
+        "id": "GD-CRIT-01",
+        "label": "Critique and revision"
+      }
+    ],
+    "independence_options": [
+      "Followed the example closely",
+      "Needed some prompts/checkpoints",
+      "Worked independently",
+      "Adapted or extended the skill"
+    ]
+  },
+  "transfer": {
+    "id": "DD-TRF-01",
+    "prompt": "A client wants one accent returned to the original lime while the rest of the colourway remains teal or coral, and a small live label must change. Identify the existing controls you would use and explain what should remain unchanged.",
+    "skill_ids": [
+      "PS-COL-01",
+      "PS-LAY-01",
+      "PS-TYP-01",
+      "GEN-EVD-01"
+    ],
+    "outcome_codes": [
+      "MM12-1.1",
+      "MM12-1.4",
+      "MM12-1.5",
+      "COM11-1.4",
+      "COM11-4.2",
+      "COM11-4.3",
+      "COM11-4.4"
+    ],
+    "teacher_verification_required": true
+  },
+  "teacher_evidence": {
+    "checkpoints": [
+      {
+        "evidence_id": "DD-OBS-01",
+        "evidence_type": "Observation",
+        "title": "Sampled repair control",
+        "skill_ids": [
+          "PS-RET-01",
+          "PS-BRS-01"
+        ],
+        "outcome_codes": [
+          "MM12-1.1",
+          "MM12-1.3",
+          "COM11-4.4"
+        ]
+      },
+      {
+        "evidence_id": "DD-CON-01",
+        "evidence_type": "Conversation",
+        "title": "Repair-tool reasoning",
+        "skill_ids": [
+          "PS-RET-01"
+        ],
+        "outcome_codes": [
+          "MM12-1.1",
+          "MM12-1.3",
+          "COM11-4.4"
+        ]
+      },
+      {
+        "evidence_id": "DD-OBS-02",
+        "evidence_type": "Observation",
+        "title": "Selective colour control",
+        "skill_ids": [
+          "PS-COL-01",
+          "PS-SEL-01",
+          "PS-ADJ-01",
+          "PS-LAY-01"
+        ],
+        "outcome_codes": [
+          "MM12-1.1",
+          "MM12-1.4",
+          "COM11-4.2",
+          "COM11-4.4"
+        ]
+      },
+      {
+        "evidence_id": "DD-CON-02",
+        "evidence_type": "Conversation",
+        "title": "Mask and control reasoning",
+        "skill_ids": [
+          "PS-LAY-01",
+          "PS-COL-01"
+        ],
+        "outcome_codes": [
+          "MM12-1.1",
+          "MM12-1.3",
+          "COM11-4.2",
+          "COM11-4.4"
+        ]
+      },
+      {
+        "evidence_id": "DD-PRO-01",
+        "evidence_type": "Product",
+        "title": "Prepared editable product asset",
+        "skill_ids": [
+          "PS-FND-01",
+          "PS-RET-01",
+          "PS-SEL-01",
+          "PS-LAY-01"
+        ],
+        "outcome_codes": [
+          "MM12-1.1",
+          "MM12-1.3",
+          "COM11-4.4"
+        ]
+      },
+      {
+        "evidence_id": "DD-PRO-02",
+        "evidence_type": "Product",
+        "title": "Layered teal and coral campaign",
+        "skill_ids": [
+          "PS-TYP-01",
+          "PS-COL-01",
+          "PS-SHP-01",
+          "PS-LGT-02",
+          "PS-DES-01"
+        ],
+        "outcome_codes": [
+          "MM12-1.4",
+          "MM12-1.5",
+          "MM12-4.1",
+          "COM11-1.4",
+          "COM11-4.1",
+          "COM11-4.2",
+          "COM11-4.3",
+          "COM11-4.4"
+        ]
+      },
+      {
+        "evidence_id": "DD-PRO-03",
+        "evidence_type": "Product",
+        "title": "Checked handover files",
+        "skill_ids": [
+          "PS-OUT-01",
+          "GEN-QA-01"
+        ],
+        "outcome_codes": [
+          "MM12-1.3",
+          "COM11-4.5"
+        ]
+      },
+      {
+        "evidence_id": "DD-QA-01",
+        "evidence_type": "Observation+Conversation",
+        "title": "Craft check and revision",
+        "skill_ids": [
+          "GEN-QA-01",
+          "PS-LAY-01",
+          "PS-SMO-01"
+        ],
+        "outcome_codes": [
+          "MM12-1.3",
+          "MM12-1.4",
+          "COM11-4.1",
+          "COM11-4.4"
+        ]
+      }
+    ]
+  }
+}

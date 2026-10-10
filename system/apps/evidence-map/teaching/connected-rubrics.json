@@ -1,0 +1,185 @@
+[
+  {
+    "id": "MM12-TRUCK-AD-R1",
+    "version": "2026-09-25.2",
+    "course": "MM12",
+    "project_id": "PS-TRUCK-AD",
+    "title": "Truck Ad \u2014 editable image, visual hierarchy and changed brief",
+    "status": "draft",
+    "bands": [
+      "Beginning",
+      "Developing",
+      "Secure",
+      "Extending"
+    ],
+    "missing": "IE \u2014 insufficient evidence; not zero",
+    "review_note": "Skill and checkpoint mappings reconciled with the original Truck Ad step map and Form specification. Guided work remains practice; assess the changed brief, editable file and explanation. Teacher approval and classroom moderation remain pending.",
+    "criteria": [
+      {
+        "id": "TA-MM-C1",
+        "name": "Editable image construction",
+        "outcome_codes": [
+          "MM12-1.1",
+          "MM12-1.3"
+        ],
+        "skill_ids": [
+          "PS-LAY-01",
+          "PS-SMO-01",
+          "PS-FLT-01",
+          "PS-BLD-02"
+        ],
+        "descriptors": {
+          "Beginning": "The intended composite is incomplete or visible edge, placement or editability problems prevent its use.",
+          "Developing": "The image is assembled and partly editable; visible edge or treatment inconsistencies remain at the intended output size.",
+          "Secure": "The composite reads coherently at the intended size. Masks and adjustment controls preserve the source and allow a targeted revision; the learner locates and explains those controls.",
+          "Extending": "The learner adapts the editable construction to a substantially changed source or constraint and demonstrates why the revised method better meets that condition."
+        },
+        "collection": "Product: layered master and export. Observation: locate and revise one controlling mask or adjustment. Conversation: explain why the edit is reversible.",
+        "repair": "Compare the edge at output size; change one controlling mask and verify both versions.",
+        "step_ids": [
+          "TA-S02",
+          "TA-S04",
+          "TA-S05",
+          "TA-S08",
+          "TA-S15"
+        ],
+        "checkpoint_ids": [
+          "TA-OBS-01",
+          "TA-CON-01",
+          "TA-PRO-01"
+        ]
+      },
+      {
+        "id": "TA-MM-C2",
+        "name": "Hierarchy and visual design",
+        "outcome_codes": [
+          "MM12-1.4"
+        ],
+        "skill_ids": [
+          "PS-TYP-01",
+          "GD-HIE-01",
+          "GD-ALN-01",
+          "GD-TYP-01",
+          "GD-CRIT-01"
+        ],
+        "descriptors": {
+          "Beginning": "The intended first-read message is unclear or essential text cannot be read at the required size.",
+          "Developing": "The main message is visible, but type, contrast, spacing or competing elements weaken the reading order.",
+          "Secure": "Type roles, scale, contrast and spacing establish a purposeful reading order. An audience read test supports the final revision.",
+          "Extending": "A changed audience or format requires a materially different hierarchy; the learner compares alternatives and uses audience evidence to justify the adaptation."
+        },
+        "collection": "Product: original and revised export. Conversation: identify the first read and point to the design choices that create it.",
+        "repair": "Change one hierarchy variable, repeat the five-second read test and explain the result.",
+        "step_ids": [
+          "TA-S09",
+          "TA-S12",
+          "TA-S13"
+        ],
+        "checkpoint_ids": [
+          "TA-OBS-02",
+          "TA-PRO-02",
+          "TA-QA-01"
+        ]
+      },
+      {
+        "id": "TA-MM-C3",
+        "name": "Communicating a message for an audience",
+        "outcome_codes": [
+          "MM12-1.5"
+        ],
+        "skill_ids": [
+          "GD-AUD-01",
+          "GD-MET-01",
+          "GD-CRIT-01",
+          "PS-DES-01"
+        ],
+        "descriptors": {
+          "Beginning": "The visual treatment and words do not yet communicate the intended message to the specified audience.",
+          "Developing": "Some choices fit the audience and purpose, but the explanation does not connect those choices to their likely effect.",
+          "Secure": "Image and words work together for the stated audience and purpose. The learner supports the design explanation with visible evidence and a purposeful revision.",
+          "Extending": "The learner evaluates two plausible treatments under a changed brief, explains a trade-off and identifies when the rejected alternative could be more effective."
+        },
+        "collection": "Product: independent variant. Conversation: a 60\u201390 second changed-brief defence.",
+        "repair": "State the audience's intended response, identify one conflicting choice and test a revision.",
+        "step_ids": [
+          "TA-S07",
+          "TA-S13",
+          "TA-S14",
+          "TA-S16"
+        ],
+        "checkpoint_ids": [
+          "TA-CON-02",
+          "TA-PRO-02",
+          "TA-QA-01"
+        ]
+      }
+    ],
+    "support_rule": "Record Guided, Supported, Independent or Transfer separately. Do not lower the descriptor because access support was used.",
+    "knowledge_rule": "Knowledge and reflection guide follow-up; no automatic arithmetic contribution to outcome achievement.",
+    "powerschool": "Teacher confirms each outcome and writes the reporting comment; no automatic percentage conversion.",
+    "previous_version": "2026-09-23.1"
+  },
+  {
+    "id": "COM11-TRUCK-AD-R1",
+    "version": "2026-09-23.1",
+    "course": "COM11",
+    "project_id": "PS-TRUCK-AD",
+    "title": "Truck Ad \u2014 graphic message and transfer to village signage",
+    "status": "draft",
+    "bands": [
+      "Beginning",
+      "Developing",
+      "Secure",
+      "Extending"
+    ],
+    "missing": "IE \u2014 insufficient evidence; not zero",
+    "review_note": "Use the shared workbook as design practice. Assess the independent graphic message and its adaptation to a Snowy Village sign. This assesses graphic communication; technical drawing and fabrication need their own later evidence.",
+    "criteria": [
+      {
+        "id": "TA-CT-C1",
+        "name": "Design and colour choices",
+        "outcome_codes": [
+          "COM11-4-1",
+          "COM11-4-2"
+        ],
+        "descriptors": {
+          "Beginning": "Arrangement or colour relationships obstruct the intended visual message.",
+          "Developing": "Design principles and colour are visible in places but competing choices weaken emphasis or readability.",
+          "Secure": "Arrangement, contrast and colour relationships support a clear emphasis and coherent message; the learner explains their effect using the work.",
+          "Extending": "The learner tests and adapts design and colour choices for a different viewing context and justifies the trade-off with comparison evidence."
+        },
+        "collection": "Product: two exports. Conversation: identify emphasis and explain one colour decision."
+      },
+      {
+        "id": "TA-CT-C2",
+        "name": "Typography for reading conditions",
+        "outcome_codes": [
+          "COM11-4-3"
+        ],
+        "descriptors": {
+          "Beginning": "Type choices or spacing prevent essential information from being read.",
+          "Developing": "Text is readable in the main working view but hierarchy or spacing fails in the intended viewing conditions.",
+          "Secure": "Type roles, scale and spacing communicate a clear reading order at the intended size and distance; testing informs a revision.",
+          "Extending": "The learner adapts typography to the smaller physical sign or another changed viewing condition and explains what had to change and why."
+        },
+        "collection": "Product: design and sign proof at actual size. Observation: viewing-distance test."
+      },
+      {
+        "id": "TA-CT-C3",
+        "name": "Image and word communicate together",
+        "outcome_codes": [
+          "COM11-4-4"
+        ],
+        "descriptors": {
+          "Beginning": "Image and words convey conflicting or incomplete messages.",
+          "Developing": "The intended message is identifiable, but image and word choices make the audience work to understand it.",
+          "Secure": "Image and words reinforce one clear message suited to the specified audience; the learner identifies evidence of audience response.",
+          "Extending": "The learner transfers the message to a changed medium or audience, evaluates two alternatives and explains a defensible design decision."
+        },
+        "collection": "Product: independent advert and village-sign adaptation. Conversation: changed-medium defence."
+      }
+    ],
+    "support_rule": "Support context is recorded separately from achievement.",
+    "powerschool": "Report teacher-confirmed COM11 outcomes with local PowerSchool code mapping; CT11 is an export alias, not another course."
+  }
+]

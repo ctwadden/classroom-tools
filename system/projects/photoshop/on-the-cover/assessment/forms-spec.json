@@ -1,0 +1,328 @@
+{
+  "spec_version": "2026-09-28.1",
+  "project_id": "PS-ON-COVER",
+  "project_title": "On the Cover",
+  "course_configs": [
+    {
+      "course_id": "MM12",
+      "module_id": "M1",
+      "outcome_codes": [
+        "MM12-1.1",
+        "MM12-1.3",
+        "MM12-1.4",
+        "MM12-1.5"
+      ]
+    },
+    {
+      "course_id": "COM11",
+      "module_id": "M4",
+      "outcome_codes": [
+        "COM11-1-4",
+        "COM11-4-1",
+        "COM11-4-2",
+        "COM11-4-3",
+        "COM11-4-4",
+        "COM11-4-5"
+      ]
+    }
+  ],
+  "student_form": {
+    "description": "Complete the On the Cover knowledge check, identify evidence in your editable file, and explain transfer. Guided tutorial completion is practice; teacher-reviewed evidence determines achievement."
+  },
+  "knowledge_check": {
+    "items": [
+      {
+        "id": "OC-KC-01",
+        "type": "multiple_choice",
+        "prompt": "Why are guides useful before placing cover lines?",
+        "choices": [
+          "They create repeatable alignment edges and margins",
+          "They rasterize type",
+          "They increase portrait resolution",
+          "They select hair"
+        ],
+        "correct_index": 0,
+        "points": 1,
+        "skill_ids": [
+          "PS-SEL-01",
+          "PS-LAY-01",
+          "PS-ADJ-01"
+        ],
+        "outcome_codes": [
+          "MM12-1.1",
+          "MM12-1.3",
+          "MM12-1.4"
+        ],
+        "step_id": "step-2"
+      },
+      {
+        "id": "OC-KC-02",
+        "type": "multiple_choice",
+        "prompt": "What is the purpose of testing the portrait mask on light and dark backgrounds?",
+        "choices": [
+          "Different backgrounds reveal missed halos and cut edges",
+          "It changes the portrait colour",
+          "It creates the masthead",
+          "It exports the cover"
+        ],
+        "correct_index": 0,
+        "points": 1,
+        "skill_ids": [
+          "PS-SEL-01",
+          "PS-LAY-01",
+          "PS-ADJ-01"
+        ],
+        "outcome_codes": [
+          "MM12-1.1",
+          "MM12-1.3",
+          "MM12-1.4"
+        ],
+        "step_id": "step-7"
+      },
+      {
+        "id": "OC-KC-03",
+        "type": "multiple_choice",
+        "prompt": "Why are Black & White and Curves added as adjustment layers?",
+        "choices": [
+          "They keep tone decisions editable and maskable",
+          "They permanently erase colour pixels",
+          "They create paragraph type",
+          "They flatten the cover"
+        ],
+        "correct_index": 0,
+        "points": 1,
+        "skill_ids": [
+          "PS-SEL-01",
+          "PS-LAY-01",
+          "PS-ADJ-01"
+        ],
+        "outcome_codes": [
+          "MM12-1.1",
+          "MM12-1.3",
+          "MM12-1.4"
+        ],
+        "step_id": "step-9"
+      },
+      {
+        "id": "OC-KC-04",
+        "type": "multiple_choice",
+        "prompt": "How can the portrait overlap the masthead while both remain editable?",
+        "choices": [
+          "Use layer order and masks while keeping the masthead live",
+          "Rasterize all type",
+          "Erase the masthead letters",
+          "Merge the portrait and type"
+        ],
+        "correct_index": 0,
+        "points": 1,
+        "skill_ids": [
+          "PS-SEL-01",
+          "PS-LAY-01",
+          "PS-ADJ-01"
+        ],
+        "outcome_codes": [
+          "MM12-1.1",
+          "MM12-1.3",
+          "MM12-1.4"
+        ],
+        "step_id": "step-14"
+      },
+      {
+        "id": "OC-KC-05",
+        "type": "multiple_choice",
+        "prompt": "What makes one cover line the lead story?",
+        "choices": [
+          "A purposeful contrast in scale, weight, position and spacing",
+          "Using a different font on every line",
+          "Placing all text at the same size",
+          "Hiding the portrait"
+        ],
+        "correct_index": 0,
+        "points": 1,
+        "skill_ids": [
+          "PS-SEL-01",
+          "PS-LAY-01",
+          "PS-ADJ-01"
+        ],
+        "outcome_codes": [
+          "MM12-1.1",
+          "MM12-1.3",
+          "MM12-1.4"
+        ],
+        "step_id": "step-19"
+      },
+      {
+        "id": "OC-KC-06",
+        "type": "multiple_choice",
+        "prompt": "What is the strongest evidence for the night-edition revision?",
+        "choices": [
+          "Before/after exports plus an editable master and explanation of the changed reading conditions",
+          "Only the original screenshot",
+          "A list of tools with no result",
+          "A flattened PSD"
+        ],
+        "correct_index": 0,
+        "points": 1,
+        "skill_ids": [
+          "PS-SEL-01",
+          "PS-LAY-01",
+          "PS-ADJ-01"
+        ],
+        "outcome_codes": [
+          "MM12-1.1",
+          "MM12-1.3",
+          "MM12-1.4"
+        ],
+        "step_id": "step-22"
+      }
+    ]
+  },
+  "skill_reflection": {
+    "technical_skills": [
+      {
+        "id": "PS-SEL-01",
+        "label": "PS-SEL-01"
+      },
+      {
+        "id": "PS-LAY-01",
+        "label": "PS-LAY-01"
+      },
+      {
+        "id": "PS-ADJ-01",
+        "label": "PS-ADJ-01"
+      },
+      {
+        "id": "PS-TYP-01",
+        "label": "PS-TYP-01"
+      },
+      {
+        "id": "PS-OUT-01",
+        "label": "PS-OUT-01"
+      }
+    ],
+    "design_skills": [
+      {
+        "id": "GD-HIE-01",
+        "label": "GD-HIE-01"
+      },
+      {
+        "id": "GD-ALN-01",
+        "label": "GD-ALN-01"
+      },
+      {
+        "id": "GD-AUD-01",
+        "label": "GD-AUD-01"
+      }
+    ],
+    "independence_options": [
+      "Followed the example closely",
+      "Needed some prompts/checkpoints",
+      "Worked independently",
+      "Adapted or extended the skill"
+    ]
+  },
+  "transfer": {
+    "id": "OC-TRANSFER",
+    "prompt": "Choose one technique from this project. Explain how you would adapt it for a different source, audience or production condition, what would stay editable, and what evidence would show the change worked.",
+    "skill_ids": [
+      "PS-SEL-01",
+      "PS-LAY-01",
+      "PS-ADJ-01",
+      "PS-TYP-01",
+      "GD-HIE-01",
+      "GD-ALN-01",
+      "GD-AUD-01",
+      "PS-OUT-01"
+    ],
+    "outcome_codes": [
+      "MM12-1.1",
+      "MM12-1.3",
+      "MM12-1.4",
+      "MM12-1.5",
+      "COM11-1-4",
+      "COM11-4-1",
+      "COM11-4-2",
+      "COM11-4-3",
+      "COM11-4-4",
+      "COM11-4-5"
+    ],
+    "teacher_verification_required": true
+  },
+  "teacher_evidence": {
+    "checkpoints": [
+      {
+        "evidence_id": "OC-OBS-01",
+        "evidence_type": "Observation",
+        "title": "Editable technical control",
+        "skill_ids": [
+          "PS-SEL-01",
+          "PS-LAY-01",
+          "PS-ADJ-01"
+        ],
+        "outcome_codes": [
+          "MM12-1.1",
+          "MM12-1.3"
+        ]
+      },
+      {
+        "evidence_id": "OC-CON-01",
+        "evidence_type": "Conversation",
+        "title": "Tool and design reasoning",
+        "skill_ids": [
+          "PS-LAY-01",
+          "PS-ADJ-01",
+          "PS-TYP-01",
+          "GD-HIE-01"
+        ],
+        "outcome_codes": [
+          "MM12-1.3",
+          "MM12-1.4",
+          "MM12-1.5"
+        ]
+      },
+      {
+        "evidence_id": "OC-PRO-01",
+        "evidence_type": "Product",
+        "title": "Layered master and checked output",
+        "skill_ids": [
+          "PS-SEL-01",
+          "PS-LAY-01",
+          "PS-ADJ-01",
+          "PS-TYP-01",
+          "GD-HIE-01",
+          "GD-ALN-01",
+          "GD-AUD-01",
+          "PS-OUT-01"
+        ],
+        "outcome_codes": [
+          "MM12-1.1",
+          "MM12-1.3",
+          "MM12-1.4",
+          "MM12-1.5",
+          "COM11-1-4",
+          "COM11-4-1",
+          "COM11-4-2",
+          "COM11-4-3",
+          "COM11-4-4",
+          "COM11-4-5"
+        ]
+      },
+      {
+        "evidence_id": "OC-TRF-01",
+        "evidence_type": "Observation+Conversation",
+        "title": "Independent changed-condition revision",
+        "skill_ids": [
+          "GD-HIE-01",
+          "GD-ALN-01",
+          "GD-AUD-01",
+          "PS-OUT-01"
+        ],
+        "outcome_codes": [
+          "COM11-4-3",
+          "COM11-4-4",
+          "COM11-4-5"
+        ]
+      }
+    ]
+  }
+}

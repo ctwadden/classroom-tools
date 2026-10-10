@@ -1,0 +1,704 @@
+{
+  "spec_version": "2026-09-29.1",
+  "project_id": "com11-s03-document-it-v1",
+  "project_title": "Document It — COM11 Sprint 3",
+  "course_configs": [
+    {
+      "course_id": "COM11",
+      "module_id": "M1",
+      "outcome_codes": [
+        "COM11-1-7",
+        "COM11-2-1",
+        "COM11-2-2",
+        "COM11-2-3",
+        "COM11-2-4",
+        "COM11-4-5",
+        "COM11-1-3",
+        "COM11-3-3"
+      ]
+    }
+  ],
+  "assessment_bundle_by_course": {
+    "COM11": "com11-26-s03-bundle"
+  },
+  "student_form": {
+    "description": "Eight knowledge questions from the Sprint 3 teacher assessment, then name a skill, locate evidence, explain its use and choose the next target. Verified school email required."
+  },
+  "knowledge_check": {
+    "items": [
+      {
+        "id": "com11-s03-document-it-v1:k01",
+        "type": "multiple_choice",
+        "prompt": "First thing when picking up the camera?",
+        "choices": [
+          "Put the strap on.",
+          "Pick the most colourful setting.",
+          "Start recording before checking the kit.",
+          "Leave the camera unstrapped."
+        ],
+        "correct_index": 0,
+        "points": 1,
+        "correct_feedback": "Put the strap on.",
+        "incorrect_feedback": "Put the strap on.",
+        "skill_ids": [
+          "PS-CAM-01"
+        ],
+        "outcome_codes": [
+          "COM11-1-7",
+          "COM11-2-1",
+          "COM11-2-2",
+          "COM11-2-3",
+          "COM11-2-4",
+          "COM11-4-5",
+          "COM11-1-3",
+          "COM11-3-3"
+        ],
+        "step_id": "step-2",
+        "lesson_id": "com11-26-s03-d02"
+      },
+      {
+        "id": "com11-s03-document-it-v1:k02",
+        "type": "multiple_choice",
+        "prompt": "Which f-number keeps more of an object sharp?",
+        "choices": [
+          "f/11 (a larger number).",
+          "f/2.8 (a smaller number).",
+          "1/1000 s.",
+          "A higher ISO."
+        ],
+        "correct_index": 0,
+        "points": 1,
+        "correct_feedback": "f/11 (a larger number).",
+        "incorrect_feedback": "f/11 (a larger number).",
+        "skill_ids": [
+          "PS-CAM-01"
+        ],
+        "outcome_codes": [
+          "COM11-1-7",
+          "COM11-2-1",
+          "COM11-2-2",
+          "COM11-2-3",
+          "COM11-2-4",
+          "COM11-4-5",
+          "COM11-1-3",
+          "COM11-3-3"
+        ],
+        "step_id": "step-4",
+        "lesson_id": "com11-26-s03-d03"
+      },
+      {
+        "id": "com11-s03-document-it-v1:k03",
+        "type": "multiple_choice",
+        "prompt": "Why use a tripod for documentation?",
+        "choices": [
+          "A steady, repeatable position and slower shutter speeds without blur.",
+          "A tripod automatically selects the exposure.",
+          "It increases pixel dimensions.",
+          "It changes the focal length."
+        ],
+        "correct_index": 0,
+        "points": 1,
+        "correct_feedback": "A steady, repeatable position and slower shutter speeds without blur.",
+        "incorrect_feedback": "A steady, repeatable position and slower shutter speeds without blur.",
+        "skill_ids": [
+          "PS-CAM-01"
+        ],
+        "outcome_codes": [
+          "COM11-1-7",
+          "COM11-2-1",
+          "COM11-2-2",
+          "COM11-2-3",
+          "COM11-2-4",
+          "COM11-4-5",
+          "COM11-1-3",
+          "COM11-3-3"
+        ],
+        "step_id": "step-2",
+        "lesson_id": "com11-26-s03-d02"
+      },
+      {
+        "id": "com11-s03-document-it-v1:k04",
+        "type": "multiple_choice",
+        "prompt": "Best light for showing every edge?",
+        "choices": [
+          "Soft, even (diffused) light.",
+          "Hard direct light from one side.",
+          "A coloured spotlight.",
+          "No light."
+        ],
+        "correct_index": 0,
+        "points": 1,
+        "correct_feedback": "Soft, even (diffused) light.",
+        "incorrect_feedback": "Soft, even (diffused) light.",
+        "skill_ids": [
+          "GD-HIE-01"
+        ],
+        "outcome_codes": [
+          "COM11-1-7",
+          "COM11-2-1",
+          "COM11-2-2",
+          "COM11-2-3",
+          "COM11-2-4",
+          "COM11-4-5",
+          "COM11-1-3",
+          "COM11-3-3"
+        ],
+        "step_id": "step-6",
+        "lesson_id": "com11-26-s03-d04"
+      },
+      {
+        "id": "com11-s03-document-it-v1:k05",
+        "type": "multiple_choice",
+        "prompt": "What does a ruler in frame add?",
+        "choices": [
+          "Scale for measuring.",
+          "A stronger colour contrast.",
+          "A faster shutter speed.",
+          "A bigger JPEG."
+        ],
+        "correct_index": 0,
+        "points": 1,
+        "correct_feedback": "Scale for measuring.",
+        "incorrect_feedback": "Scale for measuring.",
+        "skill_ids": [
+          "PS-CAM-01"
+        ],
+        "outcome_codes": [
+          "COM11-1-7",
+          "COM11-2-1",
+          "COM11-2-2",
+          "COM11-2-3",
+          "COM11-2-4",
+          "COM11-4-5",
+          "COM11-1-3",
+          "COM11-3-3"
+        ],
+        "step_id": "step-4",
+        "lesson_id": "com11-26-s03-d03"
+      },
+      {
+        "id": "com11-s03-document-it-v1:k06",
+        "type": "multiple_choice",
+        "prompt": "3000 px at 300 PPI prints how wide?",
+        "choices": [
+          "10 inches.",
+          "30 inches.",
+          "1 inch.",
+          "300 inches."
+        ],
+        "correct_index": 0,
+        "points": 1,
+        "correct_feedback": "10 inches.",
+        "incorrect_feedback": "10 inches.",
+        "skill_ids": [
+          "PS-OUT-01"
+        ],
+        "outcome_codes": [
+          "COM11-1-7",
+          "COM11-2-1",
+          "COM11-2-2",
+          "COM11-2-3",
+          "COM11-2-4",
+          "COM11-4-5",
+          "COM11-1-3",
+          "COM11-3-3"
+        ],
+        "step_id": "step-9",
+        "lesson_id": "com11-26-s03-d05"
+      },
+      {
+        "id": "com11-s03-document-it-v1:k07",
+        "type": "multiple_choice",
+        "prompt": "Best web format for a photo?",
+        "choices": [
+          "JPG.",
+          "Layered PSD.",
+          "WAV.",
+          "CSV."
+        ],
+        "correct_index": 0,
+        "points": 1,
+        "correct_feedback": "JPG.",
+        "incorrect_feedback": "JPG.",
+        "skill_ids": [
+          "PS-OUT-01"
+        ],
+        "outcome_codes": [
+          "COM11-1-7",
+          "COM11-2-1",
+          "COM11-2-2",
+          "COM11-2-3",
+          "COM11-2-4",
+          "COM11-4-5",
+          "COM11-1-3",
+          "COM11-3-3"
+        ],
+        "step_id": "step-8",
+        "lesson_id": "com11-26-s03-d05"
+      },
+      {
+        "id": "com11-s03-document-it-v1:k08",
+        "type": "multiple_choice",
+        "prompt": "Why keep annotations on separate layers?",
+        "choices": [
+          "The original photo stays unchanged and labels can be edited.",
+          "The photo gains more pixels.",
+          "The export becomes a video.",
+          "The background becomes transparent."
+        ],
+        "correct_index": 0,
+        "points": 1,
+        "correct_feedback": "The original photo stays unchanged and labels can be edited.",
+        "incorrect_feedback": "The original photo stays unchanged and labels can be edited.",
+        "skill_ids": [
+          "PS-LAY-01"
+        ],
+        "outcome_codes": [
+          "COM11-1-7",
+          "COM11-2-1",
+          "COM11-2-2",
+          "COM11-2-3",
+          "COM11-2-4",
+          "COM11-4-5",
+          "COM11-1-3",
+          "COM11-3-3"
+        ],
+        "step_id": "step-13",
+        "lesson_id": "com11-26-s03-d08"
+      }
+    ]
+  },
+  "skill_reflection": {
+    "technical_skills": [
+      {
+        "id": "PS-CAM-01",
+        "label": "PS-CAM-01"
+      },
+      {
+        "id": "PS-OUT-01",
+        "label": "PS-OUT-01"
+      },
+      {
+        "id": "PS-FND-01",
+        "label": "PS-FND-01"
+      },
+      {
+        "id": "PS-LAY-01",
+        "label": "PS-LAY-01"
+      },
+      {
+        "id": "PS-BRS-01",
+        "label": "PS-BRS-01"
+      },
+      {
+        "id": "PS-TRN-01",
+        "label": "PS-TRN-01"
+      },
+      {
+        "id": "PS-ADJ-01",
+        "label": "PS-ADJ-01"
+      },
+      {
+        "id": "PS-TON-01",
+        "label": "PS-TON-01"
+      },
+      {
+        "id": "PS-TYP-01",
+        "label": "PS-TYP-01"
+      }
+    ],
+    "design_skills": [
+      {
+        "id": "GD-HIE-01",
+        "label": "GD-HIE-01"
+      },
+      {
+        "id": "GD-AUD-01",
+        "label": "GD-AUD-01"
+      }
+    ],
+    "independence_options": [
+      "Followed the example closely",
+      "Needed some prompts/checkpoints",
+      "Worked independently",
+      "Adapted or extended the skill"
+    ]
+  },
+  "transfer": {
+    "id": "com11-s03-document-it-v1:next-target",
+    "prompt": "Name one documentation or design skill, locate evidence in your own files, explain its use, and choose a next target for the Snowy Village modelling handover.",
+    "skill_ids": [
+      "GD-HIE-01",
+      "GD-AUD-01",
+      "PS-CAM-01",
+      "PS-OUT-01",
+      "PS-FND-01",
+      "PS-LAY-01",
+      "PS-BRS-01",
+      "PS-TRN-01",
+      "PS-ADJ-01",
+      "PS-TON-01",
+      "PS-TYP-01"
+    ],
+    "outcome_codes": [
+      "COM11-1-7",
+      "COM11-2-1",
+      "COM11-2-2",
+      "COM11-2-3",
+      "COM11-2-4",
+      "COM11-4-5",
+      "COM11-1-3",
+      "COM11-3-3"
+    ],
+    "step_id": "step-15",
+    "lesson_id": "com11-26-s03-d09",
+    "teacher_verification_required": true
+  },
+  "teacher_evidence": {
+    "checkpoints": [
+      {
+        "evidence_id": "com11-s03-document-it-v1:step-1",
+        "evidence_type": "Conversation",
+        "title": "Step 1: Know what documentation photography is for",
+        "skill_ids": [
+          "GD-AUD-01",
+          "PS-CAM-01"
+        ],
+        "outcome_codes": [
+          "COM11-1-7",
+          "COM11-2-1",
+          "COM11-2-2",
+          "COM11-2-3",
+          "COM11-2-4",
+          "COM11-4-5",
+          "COM11-1-3",
+          "COM11-3-3"
+        ],
+        "step_id": "step-1",
+        "lesson_id": "com11-26-s03-d01",
+        "practical_check": false
+      },
+      {
+        "evidence_id": "com11-s03-document-it-v1:step-2",
+        "evidence_type": "Observation",
+        "title": "Step 2: Bring your Photo Desk licence",
+        "skill_ids": [
+          "GD-AUD-01",
+          "PS-CAM-01"
+        ],
+        "outcome_codes": [
+          "COM11-1-7",
+          "COM11-2-1",
+          "COM11-2-2",
+          "COM11-2-3",
+          "COM11-2-4",
+          "COM11-4-5",
+          "COM11-1-3",
+          "COM11-3-3"
+        ],
+        "step_id": "step-2",
+        "lesson_id": "com11-26-s03-d02",
+        "practical_check": false
+      },
+      {
+        "evidence_id": "com11-s03-document-it-v1:step-3",
+        "evidence_type": "Product",
+        "title": "Step 3: Take a baseline photo of your object",
+        "skill_ids": [
+          "GD-AUD-01",
+          "PS-CAM-01"
+        ],
+        "outcome_codes": [
+          "COM11-1-7",
+          "COM11-2-1",
+          "COM11-2-2",
+          "COM11-2-3",
+          "COM11-2-4",
+          "COM11-4-5",
+          "COM11-1-3",
+          "COM11-3-3"
+        ],
+        "step_id": "step-3",
+        "lesson_id": "com11-26-s03-d02",
+        "practical_check": false
+      },
+      {
+        "evidence_id": "com11-s03-document-it-v1:step-4",
+        "evidence_type": "Product",
+        "title": "Step 4: Shoot straight-on views with a scale",
+        "skill_ids": [
+          "PS-CAM-01",
+          "GD-HIE-01"
+        ],
+        "outcome_codes": [
+          "COM11-1-7",
+          "COM11-2-1",
+          "COM11-2-2",
+          "COM11-2-3",
+          "COM11-2-4",
+          "COM11-4-5",
+          "COM11-1-3",
+          "COM11-3-3"
+        ],
+        "step_id": "step-4",
+        "lesson_id": "com11-26-s03-d03",
+        "practical_check": false
+      },
+      {
+        "evidence_id": "com11-s03-document-it-v1:step-5",
+        "evidence_type": "Product",
+        "title": "Step 5: Take one dramatic view and compare",
+        "skill_ids": [
+          "PS-CAM-01",
+          "GD-HIE-01"
+        ],
+        "outcome_codes": [
+          "COM11-1-7",
+          "COM11-2-1",
+          "COM11-2-2",
+          "COM11-2-3",
+          "COM11-2-4",
+          "COM11-4-5",
+          "COM11-1-3",
+          "COM11-3-3"
+        ],
+        "step_id": "step-5",
+        "lesson_id": "com11-26-s03-d03",
+        "practical_check": false
+      },
+      {
+        "evidence_id": "com11-s03-document-it-v1:step-6",
+        "evidence_type": "Product",
+        "title": "Step 6: Light the object evenly for documentation",
+        "skill_ids": [
+          "PS-CAM-01",
+          "GD-HIE-01"
+        ],
+        "outcome_codes": [
+          "COM11-1-7",
+          "COM11-2-1",
+          "COM11-2-2",
+          "COM11-2-3",
+          "COM11-2-4",
+          "COM11-4-5",
+          "COM11-1-3",
+          "COM11-3-3"
+        ],
+        "step_id": "step-6",
+        "lesson_id": "com11-26-s03-d04",
+        "practical_check": false
+      },
+      {
+        "evidence_id": "com11-s03-document-it-v1:step-7",
+        "evidence_type": "Product",
+        "title": "Step 7: Compare a hard light setup and fix glare",
+        "skill_ids": [
+          "PS-CAM-01",
+          "GD-HIE-01"
+        ],
+        "outcome_codes": [
+          "COM11-1-7",
+          "COM11-2-1",
+          "COM11-2-2",
+          "COM11-2-3",
+          "COM11-2-4",
+          "COM11-4-5",
+          "COM11-1-3",
+          "COM11-3-3"
+        ],
+        "step_id": "step-7",
+        "lesson_id": "com11-26-s03-d04",
+        "practical_check": false
+      },
+      {
+        "evidence_id": "com11-s03-document-it-v1:step-8",
+        "evidence_type": "Product",
+        "title": "Step 8: Export a photo for the web",
+        "skill_ids": [
+          "PS-OUT-01"
+        ],
+        "outcome_codes": [
+          "COM11-1-7",
+          "COM11-2-1",
+          "COM11-2-2",
+          "COM11-2-3",
+          "COM11-2-4",
+          "COM11-4-5",
+          "COM11-1-3",
+          "COM11-3-3"
+        ],
+        "step_id": "step-8",
+        "lesson_id": "com11-26-s03-d05",
+        "practical_check": false
+      },
+      {
+        "evidence_id": "com11-s03-document-it-v1:step-9",
+        "evidence_type": "Product",
+        "title": "Step 9: Set a print size and check you have enough pixels",
+        "skill_ids": [
+          "PS-OUT-01"
+        ],
+        "outcome_codes": [
+          "COM11-1-7",
+          "COM11-2-1",
+          "COM11-2-2",
+          "COM11-2-3",
+          "COM11-2-4",
+          "COM11-4-5",
+          "COM11-1-3",
+          "COM11-3-3"
+        ],
+        "step_id": "step-9",
+        "lesson_id": "com11-26-s03-d05",
+        "practical_check": false
+      },
+      {
+        "evidence_id": "com11-s03-document-it-v1:step-10",
+        "evidence_type": "Observation",
+        "title": "Step 10: Plan the stages before you shoot",
+        "skill_ids": [
+          "PS-CAM-01"
+        ],
+        "outcome_codes": [
+          "COM11-1-7",
+          "COM11-2-1",
+          "COM11-2-2",
+          "COM11-2-3",
+          "COM11-2-4",
+          "COM11-4-5",
+          "COM11-1-3",
+          "COM11-3-3"
+        ],
+        "step_id": "step-10",
+        "lesson_id": "com11-26-s03-d06",
+        "practical_check": false
+      },
+      {
+        "evidence_id": "com11-s03-document-it-v1:step-11",
+        "evidence_type": "Product",
+        "title": "Step 11: Shoot the sequence from a locked tripod",
+        "skill_ids": [
+          "PS-CAM-01"
+        ],
+        "outcome_codes": [
+          "COM11-1-7",
+          "COM11-2-1",
+          "COM11-2-2",
+          "COM11-2-3",
+          "COM11-2-4",
+          "COM11-4-5",
+          "COM11-1-3",
+          "COM11-3-3"
+        ],
+        "step_id": "step-11",
+        "lesson_id": "com11-26-s03-d06",
+        "practical_check": false
+      },
+      {
+        "evidence_id": "com11-s03-document-it-v1:step-12",
+        "evidence_type": "Product",
+        "title": "Step 12: Practical check: independent capture challenge",
+        "skill_ids": [
+          "PS-CAM-01"
+        ],
+        "outcome_codes": [
+          "COM11-1-7",
+          "COM11-2-1",
+          "COM11-2-2",
+          "COM11-2-3",
+          "COM11-2-4",
+          "COM11-4-5",
+          "COM11-1-3",
+          "COM11-3-3"
+        ],
+        "step_id": "step-12",
+        "lesson_id": "com11-26-s03-d07",
+        "practical_check": true
+      },
+      {
+        "evidence_id": "com11-s03-document-it-v1:step-13",
+        "evidence_type": "Product",
+        "title": "Step 13: Build a labelled reference sheet",
+        "skill_ids": [
+          "PS-FND-01",
+          "PS-LAY-01",
+          "PS-BRS-01",
+          "PS-TRN-01",
+          "PS-ADJ-01",
+          "PS-TON-01",
+          "PS-TYP-01",
+          "PS-OUT-01"
+        ],
+        "outcome_codes": [
+          "COM11-1-7",
+          "COM11-2-1",
+          "COM11-2-2",
+          "COM11-2-3",
+          "COM11-2-4",
+          "COM11-4-5",
+          "COM11-1-3",
+          "COM11-3-3"
+        ],
+        "step_id": "step-13",
+        "lesson_id": "com11-26-s03-d08",
+        "practical_check": false
+      },
+      {
+        "evidence_id": "com11-s03-document-it-v1:step-14",
+        "evidence_type": "Product",
+        "title": "Step 14: Export the sheet and package the handover folder",
+        "skill_ids": [
+          "PS-FND-01",
+          "PS-LAY-01",
+          "PS-BRS-01",
+          "PS-TRN-01",
+          "PS-ADJ-01",
+          "PS-TON-01",
+          "PS-TYP-01",
+          "PS-OUT-01"
+        ],
+        "outcome_codes": [
+          "COM11-1-7",
+          "COM11-2-1",
+          "COM11-2-2",
+          "COM11-2-3",
+          "COM11-2-4",
+          "COM11-4-5",
+          "COM11-1-3",
+          "COM11-3-3"
+        ],
+        "step_id": "step-14",
+        "lesson_id": "com11-26-s03-d08",
+        "practical_check": false
+      },
+      {
+        "evidence_id": "com11-s03-document-it-v1:step-15",
+        "evidence_type": "Conversation",
+        "title": "Step 15: Defend your choices and share one photo",
+        "skill_ids": [
+          "PS-FND-01",
+          "PS-LAY-01",
+          "PS-BRS-01",
+          "PS-TRN-01",
+          "PS-ADJ-01",
+          "PS-TON-01",
+          "PS-TYP-01",
+          "PS-OUT-01"
+        ],
+        "outcome_codes": [
+          "COM11-1-7",
+          "COM11-2-1",
+          "COM11-2-2",
+          "COM11-2-3",
+          "COM11-2-4",
+          "COM11-4-5",
+          "COM11-1-3",
+          "COM11-3-3"
+        ],
+        "step_id": "step-15",
+        "lesson_id": "com11-26-s03-d09",
+        "practical_check": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "spec_version":"1.0",
+  "project_id":"PS-ZEBRA-IRONING",
+  "project_title":"Press Your Stripes - Zebra Ironing Composite",
+  "course_configs":[
+    {"course_id":"MM12","module_id":"M1","outcome_codes":["1.1","1.3","1.4","1.5","4.1"]},
+    {"course_id":"COM11","module_id":"M4","outcome_codes":["1.4","4.1","4.2","4.3","4.4","4.5"]}
+  ],
+  "student_form":{"description":"Complete the knowledge check, select evidence of the technical/design skills you used, and answer one transfer prompt."},
+  "knowledge_check":{"items":[
+    {"id":"ZI-KC-01","type":"multiple_choice","prompt":"Why keep the zebra and foreleg work non-destructive with masks and Smart Objects?","choices":["It makes the file smaller","It preserves source pixels and lets you revise edges or pose","It automatically fixes lighting","It converts the image to vector"],"correct_index":1,"points":1,"skill_ids":["PS-LAY-01","PS-SMO-01"],"outcome_codes":["MM12 1.1","CT11 4.4"],"step_id":"ZI-S04-ZI-S14"},
+    {"id":"ZI-KC-02","type":"multiple_choice","prompt":"Why place Puppet Warp pins near major joints and areas that should remain controlled?","choices":["To create random distortion","To control where deformation happens and protect important areas","To sharpen the image","To change colour"],"correct_index":1,"points":1,"skill_ids":["PS-WRP-01"],"outcome_codes":["MM12 1.1","CT11 4.4"],"step_id":"ZI-S13"},
+    {"id":"ZI-KC-03","type":"multiple_choice","prompt":"Why hide the loose iron cable with a mask instead of erasing it permanently?","choices":["Masks increase resolution","A mask is recoverable if you need hidden pixels later","Erasing always causes colour shifts","Masks automatically add shadows"],"correct_index":1,"points":1,"skill_ids":["PS-LAY-01"],"outcome_codes":["MM12 1.1","CT11 4.4"],"step_id":"ZI-S09"},
+    {"id":"ZI-KC-04","type":"multiple_choice","prompt":"Why is one continuous stripe patch useful for the hanging coat?","choices":["It keeps stripe direction and continuity more believable across the fold","It guarantees perfect lighting","It prevents all distortion","It removes the need for masks"],"correct_index":0,"points":1,"skill_ids":["PS-TRN-02","PS-WRP-01"],"outcome_codes":["MM12 1.1","CT11 4.4"],"step_id":"ZI-S15-ZI-S18"},
+    {"id":"ZI-KC-05","type":"multiple_choice","prompt":"What is the main job of the tight shadow directly under the iron?","choices":["Decoration","To create contact so the iron feels seated on the fabric","To make the whole image darker","To hide the handle"],"correct_index":1,"points":1,"skill_ids":["PS-LGT-02"],"outcome_codes":["MM12 1.4","CT11 4.1"],"step_id":"ZI-S21"},
+    {"id":"ZI-KC-06","type":"multiple_choice","prompt":"Why inspect cutout edges on both light and dark temporary backgrounds?","choices":["To compare file sizes","Different backgrounds reveal halos or fringes that may be invisible on one tone","To flatten the document","To change the zebra pattern"],"correct_index":1,"points":1,"skill_ids":["PS-LAY-01","GD-CRIT-01"],"outcome_codes":["MM12 1.1","CT11 4.4"],"step_id":"ZI-S26"},
+    {"id":"ZI-KC-07","type":"multiple_choice","prompt":"What turns the zebra/ironing scene into a visual metaphor rather than only a Photoshop trick?","choices":["The animal is large","The impossible action connects the zebra's stripes/coat to the fabric-care message","The background is beige","The file has many layers"],"correct_index":1,"points":1,"skill_ids":["GD-MET-01","GD-AUD-01"],"outcome_codes":["MM12 1.5","CT11 1.4","CT11 4.4"],"step_id":"ZI-S27"},
+    {"id":"ZI-KC-08","type":"multiple_choice","prompt":"If the headline becomes more visually dominant than the zebra/iron action, what should you reconsider first?","choices":["Hierarchy and scale/contrast relationships","Only the filename","Only image resolution","Nothing"],"correct_index":0,"points":1,"skill_ids":["GD-HIE-01","PS-DES-01"],"outcome_codes":["MM12 1.4","CT11 4.1"],"step_id":"ZI-S27"}
+  ]},
+  "skill_reflection":{
+    "technical_skills":[
+      {"id":"PS-LAY-01","label":"Layers / masks"},{"id":"PS-SMO-01","label":"Smart Objects"},{"id":"PS-WRP-01","label":"Puppet Warp / controlled deformation"},{"id":"PS-TRN-02","label":"Warp / form fitting"},{"id":"PS-LGT-02","label":"Light / colour / contact integration"},{"id":"PS-OUT-01","label":"Export / delivery"}
+    ],
+    "design_skills":[
+      {"id":"GD-HIE-01","label":"Visual hierarchy"},{"id":"GD-ALN-01","label":"Alignment"},{"id":"GD-MET-01","label":"Visual metaphor"},{"id":"GD-AUD-01","label":"Audience and purpose"},{"id":"GD-CRIT-01","label":"Critique and revision"}
+    ],
+    "independence_options":["Followed the example closely","Needed some prompts/checkpoints","Worked independently","Adapted or extended the skill"]
+  },
+  "transfer":{"id":"ZI-TRF-01","prompt":"Describe a new impossible advertising scene for a different client. Identify one Photoshop construction skill you would keep and one design strategy you would change for the new audience. Explain why.","skill_ids":["PS-WRP-01","GD-AUD-01","GD-MET-01"],"outcome_codes":["MM12 1.5","CT11 1.4","CT11 4.4"]},
+  "teacher_evidence":{"checkpoints":[
+    {"evidence_id":"ZI-OBS-01","evidence_type":"Observation","title":"Selection / mask repair","skill_ids":["PS-SEL-01","PS-LAY-01"],"outcome_codes":["MM12 1.1","CT11 4.4"]},
+    {"evidence_id":"ZI-OBS-02","evidence_type":"Observation","title":"Controlled deformation / pose","skill_ids":["PS-WRP-01","PS-TRN-02"],"outcome_codes":["MM12 1.1","CT11 4.4"]},
+    {"evidence_id":"ZI-OBS-03","evidence_type":"Observation","title":"Contact / light integration","skill_ids":["PS-LGT-02","GD-CRIT-01"],"outcome_codes":["MM12 1.4","CT11 4.1"]},
+    {"evidence_id":"ZI-CON-01","evidence_type":"Conversation","title":"Visual metaphor / audience reasoning","skill_ids":["GD-MET-01","GD-AUD-01"],"outcome_codes":["MM12 1.5","CT11 1.4","CT11 4.4"]},
+    {"evidence_id":"ZI-CON-02","evidence_type":"Conversation","title":"Troubleshooting / revision explanation","skill_ids":["GD-CRIT-01"],"outcome_codes":["MM12 1.4","CT11 1.4"]},
+    {"evidence_id":"ZI-PRO-01","evidence_type":"Product","title":"Layered master","skill_ids":["PS-LAY-01","PS-SMO-01","PS-WRP-01"],"outcome_codes":["MM12 1.1","MM12 1.3","CT11 4.4"]},
+    {"evidence_id":"ZI-PRO-02","evidence_type":"Product","title":"Final surreal advertisement","skill_ids":["PS-DES-01","PS-LGT-02","GD-HIE-01","GD-MET-01","GD-AUD-01"],"outcome_codes":["MM12 1.4","MM12 1.5","CT11 4.1","CT11 4.4"]},
+    {"evidence_id":"ZI-PRO-03","evidence_type":"Product","title":"Final export","skill_ids":["PS-OUT-01"],"outcome_codes":["MM12 1.3","CT11 4.5"]}
+  ]}
+}
