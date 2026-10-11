@@ -1,0 +1,47 @@
+# Connected Evidence Map — static teacher tools and authenticated evidence functions
+[build]
+  publish   = "dist"
+  command   = "npm ci --prefix field-app --ignore-scripts && python3 tools/build_public.py"
+  functions = "netlify/functions"
+
+[functions]
+  node_bundler = "esbuild"
+  included_files = ["connected-catalogue.json", "OUTCOME_CODE_MAP.json", "outputs/connected-course-map-2026-09-23/Course_Map.json"]
+
+[[redirects]]
+  from = "/"
+  to = "/teacher.html"
+  status = 302
+  force = true
+
+[[redirects]]
+  from = "/api/gemini"
+  to   = "/.netlify/functions/gemini"
+  status = 200
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    Referrer-Policy = "no-referrer"
+    X-Content-Type-Options = "nosniff"
+
+[[headers]]
+  for = "/field/sw.js"
+  [headers.values]
+    Cache-Control = "no-cache"
+    Service-Worker-Allowed = "/field/"
+
+[functions."teacher-resource"]
+  included_files = ["netlify/functions/_private/service-offline/**", "netlify/functions/_private/redesign-the-feed/**"]
+
+[[redirects]]
+  from = "/teacher-resources/service-offline/*"
+  to = "/.netlify/functions/teacher-resource?package=service-offline&asset=:splat"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/teacher-resources/redesign-the-feed/*"
+  to = "/.netlify/functions/teacher-resource?package=redesign-the-feed&asset=:splat"
+  status = 200
+  force = true

@@ -1,0 +1,13 @@
+{
+  "name": "claude-student-os-pilot",
+  "private": true,
+  "description": "Student OS pilot — local demonstration and proposed Apps Script source. No dependencies.",
+  "scripts": {
+    "demo": "node local/server.mjs",
+    "test": "node --test --test-concurrency=1 tests/*.test.cjs tests/*.test.mjs",
+    "test:browser": "python3 tests/browser_check.py",
+    "build:apps-script": "node tools/build_apps_script.mjs",
+    "build:snapshot": "python3 tools/build_assignment_snapshot.py",
+    "baseline:check": "python3 tools/check_baseline.py"
+  }
+}

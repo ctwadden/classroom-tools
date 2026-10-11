@@ -1,0 +1,428 @@
+{
+  "version": "2026-09-25",
+  "note": "Explicit links into the existing course map. Missing links are preparation work, not permission to invent IDs or URLs.",
+  "sprints": [
+    {
+      "sprint_id": "mm12-26-s01",
+      "projects": [
+        {
+          "project_id": "PS-DROP-DAY",
+          "title": "Drop Day",
+          "role": "Classes 4\u20136 \u00b7 repair, isolate and style a sneaker advertisement",
+          "workbook_url": "https://ctwadden.github.io/multimedia-12/photoshop/studio/drop-day/?course=MM12",
+          "coach_url": "https://gemini.google.com/gem/1ySXJPfNy0hCfESu8EzsD3vuexPiuKQKo?usp=sharing",
+          "assessment_url": "https://script.google.com/a/macros/gnspes.ca/s/AKfycbxqHbAwEwbvdMrOGY4eP4Yu-z8PXqMsA-MfMGBFoTA5CoDbOA4sUv1LsXbYfFMWmrcP/exec?project=PS-DROP-DAY&type=student",
+          "rubric_ids": [],
+          "preparation": "Published workbook, coach and assessment links inspected on 24 September. A downloadable criterion-level rubric still needs reconciliation with this workbook; the full Bootcamp package is not certified.",
+          "order": 2
+        }
+      ],
+      "resources": [
+        {
+          "resource_key": "BOOT",
+          "order": 1,
+          "title": "Below the Surface",
+          "role": "Classes 1\u20133 \u00b7 construct, integrate and animate a shark documentary identity",
+          "workbook_url": "https://outcome-evidence-map.netlify.app/outputs/recovered-teaching-materials-2026-09-23/guides/Below_the_Surface_Student_Guide.html",
+          "pdf_url": "https://outcome-evidence-map.netlify.app/outputs/recovered-teaching-materials-2026-09-23/guides/Below_the_Surface_Student_Guide.pdf",
+          "preparation": "Existing 24-step student guide, with embedded source images and motion reference, restored unchanged. The guide includes practical checks; its saved responses stay in that browser. Coach, Google Forms and shared rubric connections still need registration. Photoshop rehearsal remains pending."
+        },
+        {
+          "resource_key": "COVER",
+          "order": 3,
+          "title": "On the Cover",
+          "role": "Classes 7\u20139 \u00b7 refine a portrait and build an editable magazine cover",
+          "workbook_url": "https://outcome-evidence-map.netlify.app/outputs/recovered-teaching-materials-2026-09-23/guides/On_the_Cover_Student_Guide.html",
+          "pdf_url": "https://outcome-evidence-map.netlify.app/outputs/recovered-teaching-materials-2026-09-23/guides/On_the_Cover_Student_Guide.pdf",
+          "preparation": "Existing 24-stage student guide, with embedded portrait, cover copy and construction references, restored unchanged. Its saved reflection stays in that browser. Coach, Google Forms and shared rubric connections still need registration. Photoshop rehearsal remains pending."
+        },
+        {
+          "order": 4,
+          "title": "Photoshop Foundations \u2014 Decode the Impossible",
+          "role": "Optional prerequisite or support lesson \u00b7 gallery, layer simulator, phone portal and out-of-bounds effect",
+          "workbook_url": "https://ctwadden.github.io/ps-01-photoshop-foundations/",
+          "preparation": "Existing published lesson with student source downloads. Use selectively for prerequisite practice; it is not an additional required class in the ten-class Bootcamp sequence."
+        }
+      ]
+    },
+    {
+      "sprint_id": "com11-26-s01",
+      "projects": [
+        {
+          "project_id": "PS-DROP-DAY",
+          "title": "Drop Day",
+          "role": "Classes 4\u20136 \u00b7 repair, isolate and style a sneaker advertisement",
+          "workbook_url": "https://ctwadden.github.io/multimedia-12/photoshop/studio/drop-day/?course=COM11",
+          "coach_url": "https://gemini.google.com/gem/1ySXJPfNy0hCfESu8EzsD3vuexPiuKQKo?usp=sharing",
+          "assessment_url": "https://script.google.com/a/macros/gnspes.ca/s/AKfycbxqHbAwEwbvdMrOGY4eP4Yu-z8PXqMsA-MfMGBFoTA5CoDbOA4sUv1LsXbYfFMWmrcP/exec?project=PS-DROP-DAY&type=student",
+          "rubric_ids": [],
+          "preparation": "Use the COM11 route and select the correct course in the assessment launcher. Shared instruction does not imply shared course outcome judgments. The shared criterion-level rubric is still to be reconciled.",
+          "order": 2
+        }
+      ],
+      "resources": [
+        {
+          "resource_key": "BOOT",
+          "order": 1,
+          "title": "Below the Surface",
+          "role": "Classes 1\u20133 \u00b7 construct, integrate and animate a shark documentary identity",
+          "workbook_url": "https://outcome-evidence-map.netlify.app/outputs/recovered-teaching-materials-2026-09-23/guides/Below_the_Surface_Student_Guide.html",
+          "pdf_url": "https://outcome-evidence-map.netlify.app/outputs/recovered-teaching-materials-2026-09-23/guides/Below_the_Surface_Student_Guide.pdf",
+          "preparation": "Existing 24-step student guide, with embedded source images and motion reference, restored unchanged. The guide includes practical checks; its saved responses stay in that browser. Coach, Google Forms and shared rubric connections still need registration. Photoshop rehearsal remains pending."
+        },
+        {
+          "resource_key": "COVER",
+          "order": 3,
+          "title": "On the Cover",
+          "role": "Classes 7\u20139 \u00b7 refine a portrait and build an editable magazine cover",
+          "workbook_url": "https://outcome-evidence-map.netlify.app/outputs/recovered-teaching-materials-2026-09-23/guides/On_the_Cover_Student_Guide.html",
+          "pdf_url": "https://outcome-evidence-map.netlify.app/outputs/recovered-teaching-materials-2026-09-23/guides/On_the_Cover_Student_Guide.pdf",
+          "preparation": "Existing 24-stage student guide, with embedded portrait, cover copy and construction references, restored unchanged. Its saved reflection stays in that browser. Coach, Google Forms and shared rubric connections still need registration. Photoshop rehearsal remains pending."
+        },
+        {
+          "order": 4,
+          "title": "Photoshop Foundations \u2014 Decode the Impossible",
+          "role": "Optional prerequisite or support lesson \u00b7 gallery, layer simulator, phone portal and out-of-bounds effect",
+          "workbook_url": "https://ctwadden.github.io/ps-01-photoshop-foundations/",
+          "preparation": "Existing published lesson with student source downloads. Use selectively for prerequisite practice; it is not an additional required class in the ten-class Bootcamp sequence."
+        }
+      ]
+    },
+    {
+      "sprint_id": "mm12-26-s02",
+      "projects": [
+        {
+          "project_id": "PS-TRUCK-AD",
+          "title": "Truck Ad",
+          "role": "Guided construction and an independent changed-audience version",
+          "workbook_url": "https://outcome-evidence-map.netlify.app/outputs/recovered-teaching-materials-2026-09-23/guides/Truck_Ad_Complete_Guide_v2_RC2.html",
+          "coach_url": "https://gemini.google.com/gem/1ySXJPfNy0hCfESu8EzsD3vuexPiuKQKo?usp=sharing",
+          "assessment_url": "https://docs.google.com/forms/d/e/1FAIpQLSfnm2tVKK_795ELevF44ywk1DxYCLlZad03ANGpsdSTWtxH4g/viewform",
+          "rubric_ids": [
+            "MM12-TRUCK-AD-R1"
+          ],
+          "recovered_reference": "outputs/recovered-teaching-materials-2026-09-23/guides/Truck_Ad_Complete_Guide_v2_RC2.html",
+          "preparation": "Recovered RC2 guide with the existing Coach and registered knowledge/reflection Form. The revised MM12 rubric maps original checkpoints and taught skills; teacher approval remains pending. Native Photoshop rehearsal and the supplied hero-image asset still require completion before classroom release.",
+          "source_url": "https://github.com/ctwadden/classroom-tools/blob/technology-learning-system-v3/system/projects/photoshop/truck-ad/project-manifest.yml",
+          "forms_spec_url": "https://raw.githubusercontent.com/ctwadden/classroom-tools/technology-learning-system-v3/system/projects/photoshop/truck-ad/assessment/forms-spec.json",
+          "original_rubric_url": "https://github.com/ctwadden/classroom-tools/blob/technology-learning-system-v3/system/audits/photoshop/truck-ad/TRUCK_AD_EVIDENCE_RUBRICS.md",
+          "source_checkpoints": [
+            {
+              "evidence_id": "TA-OBS-01",
+              "evidence_type": "Observation",
+              "title": "Smart Filter mask repair",
+              "skill_ids": [
+                "PS-FLT-01",
+                "PS-LAY-01"
+              ],
+              "criterion_ids": [
+                "TA-MM-C1"
+              ]
+            },
+            {
+              "evidence_id": "TA-CON-01",
+              "evidence_type": "Conversation",
+              "title": "Blend-mode reasoning",
+              "skill_ids": [
+                "PS-BLD-02"
+              ],
+              "criterion_ids": [
+                "TA-MM-C1"
+              ]
+            },
+            {
+              "evidence_id": "TA-OBS-02",
+              "evidence_type": "Observation",
+              "title": "Typography / hierarchy revision",
+              "skill_ids": [
+                "PS-TYP-01",
+                "GD-HIE-01",
+                "GD-ALN-01"
+              ],
+              "criterion_ids": [
+                "TA-MM-C2"
+              ]
+            },
+            {
+              "evidence_id": "TA-CON-02",
+              "evidence_type": "Conversation",
+              "title": "Audience / message defence",
+              "skill_ids": [
+                "GD-AUD-01",
+                "GD-MET-01"
+              ],
+              "criterion_ids": [
+                "TA-MM-C3"
+              ]
+            },
+            {
+              "evidence_id": "TA-PRO-02",
+              "evidence_type": "Product",
+              "title": "Final advertisement",
+              "skill_ids": [
+                "PS-DES-01",
+                "PS-BLD-02",
+                "PS-TYP-01",
+                "GD-HIE-01",
+                "GD-AUD-01"
+              ],
+              "criterion_ids": [
+                "TA-MM-C2",
+                "TA-MM-C3"
+              ]
+            },
+            {
+              "evidence_id": "TA-QA-01",
+              "evidence_type": "Observation+Conversation",
+              "title": "Critique and revision",
+              "skill_ids": [
+                "GD-CRIT-01",
+                "PS-DES-01"
+              ],
+              "criterion_ids": [
+                "TA-MM-C2",
+                "TA-MM-C3"
+              ]
+            }
+          ]
+        }
+      ],
+      "resources": [
+        {
+          "resource_key": "BRIEF",
+          "title": "The Brief Has Changed",
+          "role": "Sprint 2 independent Smart Object client-change evidence, lessons d08\u2013d09",
+          "workbook_url": "https://ctwadden.github.io/multimedia-12/sprints/brief-has-changed/guide.html",
+          "planning_bundle_id": "mm12-26-s02-bundle",
+          "assessment_id": "mm12-26-s02-bundle",
+          "status": "published"
+        }
+      ]
+    },
+    {
+      "sprint_id": "mm12-26-s03",
+      "projects": [
+        {
+          "project_id": "camera-lab-photo-desk-v1",
+          "title": "Photo Desk",
+          "role": "Published Sprint 3 guide; teacher-reviewed evidence routes to mm12-26-s03-bundle",
+          "workbook_url": "https://ctwadden.github.io/multimedia-12/sprints/photo-desk/guide.html",
+          "coach_url": "https://gemini.google.com/gem/1ySXJPfNy0hCfESu8EzsD3vuexPiuKQKo?usp=sharing",
+          "assessment_url": "https://docs.google.com/forms/d/e/1FAIpQLSfo1CYBMlVWhCuzftjnS16aSvbVEu44l8ZCQy_Pw06xG0inwA/viewform",
+          "rubric_ids": [],
+          "planning_bundle_id": "mm12-26-s03-bundle",
+          "preparation": "Student Form registered. Teacher Form is restricted in use; criterion rubric remains draft.",
+          "order": 1
+        },
+        {
+          "project_id": "mm12-26-s03-bundle",
+          "title": "Shot on Purpose",
+          "role": "Published Sprint 3 guide; teacher-reviewed evidence routes to mm12-26-s03-bundle",
+          "workbook_url": "https://ctwadden.github.io/multimedia-12/sprints/shot-on-purpose/guide.html",
+          "coach_url": "https://gemini.google.com/gem/1ySXJPfNy0hCfESu8EzsD3vuexPiuKQKo?usp=sharing",
+          "assessment_url": "https://docs.google.com/forms/d/e/1FAIpQLSfcrLVnqwThj6mduDqHaBzdN3Ocp_NHRi7lm_4LsVuA1MMsAA/viewform",
+          "rubric_ids": [],
+          "planning_bundle_id": "mm12-26-s03-bundle",
+          "preparation": "Student Form registered. Teacher Form is restricted in use; criterion rubric remains draft.",
+          "order": 2
+        }
+      ],
+      "resources": []
+    },
+    {
+      "sprint_id": "com11-26-s03",
+      "projects": [
+        {
+          "project_id": "camera-lab-photo-desk-v1",
+          "title": "Photo Desk",
+          "role": "Published Sprint 3 guide; teacher-reviewed evidence routes to com11-26-s03-bundle",
+          "workbook_url": "https://ctwadden.github.io/communication-technology-11/sprints/photo-desk/guide.html",
+          "coach_url": "https://gemini.google.com/gem/1ySXJPfNy0hCfESu8EzsD3vuexPiuKQKo?usp=sharing",
+          "assessment_url": "https://docs.google.com/forms/d/e/1FAIpQLSfo1CYBMlVWhCuzftjnS16aSvbVEu44l8ZCQy_Pw06xG0inwA/viewform",
+          "rubric_ids": [],
+          "planning_bundle_id": "com11-26-s03-bundle",
+          "preparation": "Student Form registered. Teacher Form is restricted in use; criterion rubric remains draft.",
+          "order": 1
+        },
+        {
+          "project_id": "com11-s03-document-it-v1",
+          "title": "Document It",
+          "role": "Published Sprint 3 guide; teacher-reviewed evidence routes to com11-26-s03-bundle",
+          "workbook_url": "https://ctwadden.github.io/communication-technology-11/sprints/document-it/guide.html",
+          "coach_url": "https://gemini.google.com/gem/1ySXJPfNy0hCfESu8EzsD3vuexPiuKQKo?usp=sharing",
+          "assessment_url": "https://docs.google.com/forms/d/e/1FAIpQLSd4G9NuIxS2PVdx3syAB7bn61Q0PzjD9ue_3teKCHMCWvYx-Q/viewform",
+          "rubric_ids": [],
+          "planning_bundle_id": "com11-26-s03-bundle",
+          "preparation": "Student Form registered. Teacher Form is restricted in use; criterion rubric remains draft.",
+          "order": 2
+        }
+      ],
+      "resources": []
+    },
+    {
+      "sprint_id": "com11-26-s02",
+      "projects": [],
+      "resources": [
+        {
+          "resource_key": "BRIEF",
+          "title": "The Brief Has Changed",
+          "role": "Sprint 2 independent Smart Object client-change evidence, lessons d08\u2013d09",
+          "workbook_url": "https://ctwadden.github.io/communication-technology-11/sprints/brief-has-changed/guide.html",
+          "planning_bundle_id": "com11-26-s02-bundle",
+          "assessment_id": "com11-26-s02-bundle",
+          "status": "published"
+        }
+      ]
+    },
+    {
+      "sprint_id": "mm12-26-s04",
+      "projects": [],
+      "resources": [
+        {
+          "resource_key": "LASTLIGHT",
+          "title": "Last Light",
+          "role": "Sprint 4 workbook; in preparation for course release",
+          "status": "in preparation",
+          "planning_bundle_id": "mm12-26-s04-bundle",
+          "preparation": "Unlisted source: https://ctwadden.github.io/multimedia-12/sprints/last-light/. Do not show as a released student resource until approved and linked."
+        },
+        {
+          "resource_key": "MATTER",
+          "title": "Make It Matter",
+          "role": "Sprint 4 workbook; in preparation for course release",
+          "status": "in preparation",
+          "planning_bundle_id": "mm12-26-s04-bundle",
+          "preparation": "Unlisted source: https://ctwadden.github.io/multimedia-12/sprints/make-it-matter/. Do not show as a released student resource until approved and linked."
+        }
+      ]
+    },
+    {
+      "sprint_id": "mm12-26-s06",
+      "projects": [],
+      "resources": [
+        {
+          "resource_key": "BOOTCAMP",
+          "project_id": "mm12-blender-bootcamp-v2",
+          "title": "Blender Bootcamp v2: Winter Cottage",
+          "role": "Published student workbook",
+          "status": "published",
+          "planning_bundle_id": "mm12-26-s06-bundle",
+          "workbook_url": "https://ctwadden.github.io/multimedia-12/sprints/blender-bootcamp/guide.html",
+          "assessment_url": "https://docs.google.com/forms/d/e/1FAIpQLSfpt6UhJXTt-mFRSUiMUohDnpyd9RFsKc0dJXrWn5wZRqYb-g/viewform",
+          "form_status": "registered; student closed until scheduled lesson"
+        }
+      ]
+    },
+    {
+      "sprint_id": "mm12-26-s07",
+      "projects": [],
+      "resources": [
+        {
+          "resource_key": "GP2D",
+          "project_id": "mm12-2d-animation-studio-v1",
+          "title": "2D Animation Studio",
+          "role": "Published student workbook",
+          "status": "published",
+          "planning_bundle_id": "mm12-26-s07-bundle",
+          "workbook_url": "https://ctwadden.github.io/multimedia-12/sprints/2d-animation-studio/guide.html",
+          "assessment_url": "https://docs.google.com/forms/d/e/1FAIpQLScT-4MUdd0GZBOQbKxnq05UYxEuQ9JwKfXM4aGUB9Q4T8xMAA/viewform",
+          "form_status": "registered; student closed until scheduled lesson"
+        }
+      ]
+    },
+    {
+      "sprint_id": "mm12-26-s08",
+      "projects": [],
+      "resources": [
+        {
+          "resource_key": "VPWORLD",
+          "project_id": "mm12-into-the-world-v1",
+          "title": "Into the World",
+          "role": "Core Sprint 8 student workbook; unlisted until Chad approves home card",
+          "status": "published unlisted",
+          "planning_bundle_id": "mm12-26-s08-bundle",
+          "workbook_url": "https://ctwadden.github.io/multimedia-12/sprints/into-the-world/guide.html",
+          "form_status": "registered; verified email; student closed until 2026-12-16",
+          "assessment_url": "https://docs.google.com/forms/d/e/1FAIpQLSe7VBBzNwZ9FPCdyvCuICBmfBD3r3zTXp8NZ_LD1RCGZ4YDrA/viewform"
+        },
+        {
+          "resource_key": "VFX-SWORD",
+          "project_id": "mm12-vfx-laser-sword-v1",
+          "title": "Laser Sword",
+          "role": "Optional Sprint 8 shot-library tutorial; no separate lesson or assessment",
+          "status": "published unlisted",
+          "planning_bundle_id": "mm12-26-s08-bundle",
+          "workbook_url": "https://ctwadden.github.io/multimedia-12/sprints/vfx-laser-sword/guide.html",
+          "form_status": "registered; verified email; student closed until 2026-12-16",
+          "assessment_url": "https://docs.google.com/forms/d/e/1FAIpQLSeqW-q-JPPzaYvk8J0St_nk0SnqhEyGd9aCxRfGS-9waX4CgA/viewform"
+        },
+        {
+          "resource_key": "VFX-BLASTER",
+          "project_id": "mm12-vfx-blaster-v1",
+          "title": "Blaster",
+          "role": "Optional Sprint 8 shot-library tutorial; no separate lesson or assessment",
+          "status": "published unlisted",
+          "planning_bundle_id": "mm12-26-s08-bundle",
+          "workbook_url": "https://ctwadden.github.io/multimedia-12/sprints/vfx-blaster/guide.html",
+          "form_status": "registered; verified email; student closed until 2026-12-16",
+          "assessment_url": "https://docs.google.com/forms/d/e/1FAIpQLSeqW-q-JPPzaYvk8J0St_nk0SnqhEyGd9aCxRfGS-9waX4CgA/viewform"
+        },
+        {
+          "resource_key": "VFX-HELMET",
+          "project_id": "mm12-vfx-helmet-v1",
+          "title": "Helmet",
+          "role": "Optional Sprint 8 shot-library tutorial; no separate lesson or assessment",
+          "status": "published unlisted",
+          "planning_bundle_id": "mm12-26-s08-bundle",
+          "workbook_url": "https://ctwadden.github.io/multimedia-12/sprints/vfx-helmet/guide.html",
+          "form_status": "registered; verified email; student closed until 2026-12-16",
+          "assessment_url": "https://docs.google.com/forms/d/e/1FAIpQLSeqW-q-JPPzaYvk8J0St_nk0SnqhEyGd9aCxRfGS-9waX4CgA/viewform"
+        },
+        {
+          "resource_key": "VFX-DINO",
+          "project_id": "mm12-vfx-dino-chase-v1",
+          "title": "Dinosaur Chase",
+          "role": "Optional Sprint 8 shot-library tutorial; no separate lesson or assessment",
+          "status": "published unlisted",
+          "planning_bundle_id": "mm12-26-s08-bundle",
+          "workbook_url": "https://ctwadden.github.io/multimedia-12/sprints/vfx-dinosaur-chase/guide.html",
+          "form_status": "registered; verified email; student closed until 2026-12-16",
+          "assessment_url": "https://docs.google.com/forms/d/e/1FAIpQLSeqW-q-JPPzaYvk8J0St_nk0SnqhEyGd9aCxRfGS-9waX4CgA/viewform"
+        },
+        {
+          "resource_key": "VFX-COCKPIT",
+          "project_id": "mm12-vfx-cockpit-v1",
+          "title": "Cockpit",
+          "role": "Optional Sprint 8 shot-library tutorial; no separate lesson or assessment",
+          "status": "published unlisted",
+          "planning_bundle_id": "mm12-26-s08-bundle",
+          "workbook_url": "https://ctwadden.github.io/multimedia-12/sprints/vfx-cockpit/guide.html",
+          "form_status": "registered; verified email; student closed until 2026-12-16",
+          "assessment_url": "https://docs.google.com/forms/d/e/1FAIpQLSeqW-q-JPPzaYvk8J0St_nk0SnqhEyGd9aCxRfGS-9waX4CgA/viewform"
+        },
+        {
+          "resource_key": "VFX-WINDOW",
+          "project_id": "mm12-vfx-window-v1",
+          "title": "Through the Window",
+          "role": "Optional Sprint 8 shot-library tutorial; no separate lesson or assessment",
+          "status": "published unlisted",
+          "planning_bundle_id": "mm12-26-s08-bundle",
+          "workbook_url": "https://ctwadden.github.io/multimedia-12/sprints/vfx-window/guide.html",
+          "form_status": "registered; verified email; student closed until 2026-12-16",
+          "assessment_url": "https://docs.google.com/forms/d/e/1FAIpQLSeqW-q-JPPzaYvk8J0St_nk0SnqhEyGd9aCxRfGS-9waX4CgA/viewform"
+        }
+      ]
+    }
+  ],
+  "additional_projects": [
+    {
+      "course_id": "MM12",
+      "project_id": "mm12-design-story-v1",
+      "title": "Design a Story \u2014 client assignment",
+      "sprint_id": null,
+      "workbook_url": "https://ctwadden.github.io/multimedia-12/graphic-design/design-a-story/client-assignment/",
+      "assessment_url": "https://docs.google.com/forms/d/e/1FAIpQLSeUkJ-AOivQ1CCj9ometEPVboCCGLUxaOVgfbIZT7w5U7LFyw/viewform",
+      "note": "Existing Google Form Registry project identity, verified 10 October 2026. Additional graphic design project; no sprint/date or achievement invented."
+    }
+  ]
+}
