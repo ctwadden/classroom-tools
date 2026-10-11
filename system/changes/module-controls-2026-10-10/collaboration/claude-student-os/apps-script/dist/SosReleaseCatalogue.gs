@@ -714,6 +714,64 @@ var SOS_RELEASE_CATALOGUE = {
         "workbook_marker": "graphic-design/design-a-story/client-assignment/",
         "detail_url": "https://ctwadden.github.io/multimedia-12/graphic-design/design-a-story/client-assignment/"
       }
+    },
+    {
+      "assignment_key": "IBDS:IBDS-REDESIGN-FEED:ibds-26-s03-d07",
+      "ref": {
+        "course_id": "IBDS",
+        "project_id": "IBDS-REDESIGN-FEED",
+        "task_id": "ibds-26-s03-d07",
+        "sprint_id": "ibds-26-s03",
+        "lesson_id": "ibds-26-s03-d07",
+        "planning_bundle_id": "ibds-26-s03-bundle",
+        "id_note": "Existing unscored synthesis task is the practice bridge; individual Form canonical IDs identify knowledge evidence, not new scored tasks."
+      },
+      "course_id": "IBDS",
+      "title": "Algorithms, Data and Business \u2014 chapter checks",
+      "purpose": "Explain mechanisms from the revised chapter teaching, then submit the short route assigned by your teacher.",
+      "purpose_source": "Sprint 3 teaching revision 6 and chapter Form revision 2026-10-11.2",
+      "instructions": [
+        "Open the chapter teaching decks; complete only the assigned reading and Form route.",
+        "Submit separate Data foundations, organization, security and dilemmas routes across lessons. Algorithms and Business extension routes cover the added concepts.",
+        "Keep your first attempt and add a correction after feedback. Teacher-reviewed feedback is released separately; knowledge responses do not automatically change assessment marks."
+      ],
+      "workbook_url": "https://ctwadden.github.io/digital-society-sl/sprints/redesign-the-feed/teaching-decks/",
+      "resources": [
+        {
+          "label": "Chapter teaching decks and downloads",
+          "url": "https://ctwadden.github.io/digital-society-sl/sprints/redesign-the-feed/teaching-decks/"
+        }
+      ],
+      "deadline": {
+        "date": null,
+        "label": "Teacher assigns the route; no new deadline"
+      },
+      "submission": {
+        "method": "Registered Google Form (formative knowledge + reflection)",
+        "title": "Sprint 3 chapter Knowledge + Reflection",
+        "url": "https://docs.google.com/forms/d/e/1FAIpQLSfZw7KL9rpJyUGUocyPxkXaPBVcX-UEpalevlmg2exOAdXg8g/viewform"
+      },
+      "criteria": {
+        "status": "unscored",
+        "summary": "Collected brief explanation/repair with one evidence-linked comment; unscored unless a separate calibrated task is explicitly selected.",
+        "rubric_id": null,
+        "items": []
+      },
+      "conditions": null,
+      "max_marks": null,
+      "provenance": [
+        {
+          "path": "ibds-workbook-studio/packages/ibds-26-s03/teacher/chapter-forms-spec-v4.json",
+          "project_id": "IBDS-REDESIGN-FEED"
+        }
+      ],
+      "release_match": {
+        "kind": "ds_sprint",
+        "sprint_id": "ibds-26-s03",
+        "workbook_path": "sprints/redesign-the-feed/",
+        "source_url": "https://raw.githubusercontent.com/ctwadden/digital-society-sl/main/course-home/sprints.json",
+        "detail_url": "https://ctwadden.github.io/digital-society-sl/sprints/redesign-the-feed/teaching-decks/index.html"
+      }
     }
   ],
   "sprints": [

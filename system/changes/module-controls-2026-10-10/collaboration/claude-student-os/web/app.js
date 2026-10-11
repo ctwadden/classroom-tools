@@ -822,7 +822,7 @@
               var next = !item.released;
               if (next && !confirm('Release this reviewed result to this student?')) return;
               button.disabled = true;
-              call('setResultRelease', { course_id: course, learner_id: learner, key: item.key, released: next }).then(function () {
+              call('setResultRelease', { course_id: course, learner_id: learner, key: item.key, source: item.source, released: next }).then(function () {
                 announce(next ? 'Result released to student.' : 'Result withdrawn from student view.'); load();
               }, function (e) { button.disabled = false; toast(errMsg(e)); });
             } }, item.released ? 'Un-release' : 'Release to student');

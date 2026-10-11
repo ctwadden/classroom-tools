@@ -63,21 +63,21 @@ function sosReleasedResults_(cfg, learnerId, courses) {
       });
     }
   }
-  if (courses.indexOf('MM12') >= 0 || courses.indexOf('COM11') >= 0) {
+  if (courses.indexOf('IBDS') >= 0 || courses.indexOf('MM12') >= 0 || courses.indexOf('COM11') >= 0) {
     var sh = sosKnowledgeSheet_(cfg);
     if (sh && sh.getLastRow() >= 2) {
       var c = sosResultHeaders_(sh, 1), rows = sh.getRange(2, 1, sh.getLastRow() - 1, sh.getLastColumn()).getValues();
       rows.forEach(function (r) {
         var course = sosNormalizeCourseId_(r[c('course_id')]);
-        if (courses.indexOf(course) < 0 || course === 'IBDS' || String(r[c('student_email')] || '').trim().toLowerCase() !== email ||
+        if (courses.indexOf(course) < 0 || (course === 'IBDS' && String(r[c('project_id')]) !== 'IBDS-REDESIGN-FEED') || String(r[c('student_email')] || '').trim().toLowerCase() !== email ||
             !sosReleased_(r[c(SOS_RELEASE_HEADER)]) || !sosVerified_(r[c('teacher_verified')]) || String(r[c('evidence_type')]).toLowerCase() !== 'knowledge') return;
         var task = String(r[c('canonical_id')] || '').trim(), project = String(r[c('project_id')] || '').trim();
         var score = sosScore_(r[c('auto_score')]);
-        if (!task || !project || !score) return;
+        if (!task || !project || (!score && course !== 'IBDS')) return;
         var source = [r[c('source_form_id')], r[c('source_response_id')], task].map(String).join(':');
         out.push({ learner_id: learnerId, course_id: course, task_id: task, source_id: source, title: project + ' · ' + task,
-          raw_earned: score.earned, raw_possible: score.possible, approved_feedback: String(r[c('teacher_note')] || ''),
-          missed_questions: score.earned < score.possible ? ['Review question ' + task] : [],
+          raw_earned: score ? score.earned : null, raw_possible: score ? score.possible : null, approved_feedback: String(r[c('teacher_note')] || ''),
+          missed_questions: score && score.earned < score.possible ? ['Review question ' + task] : [],
           released_at: sosResultDate_(r[c(SOS_RELEASE_AT_HEADER)]), released: true });
       });
     }
@@ -90,21 +90,23 @@ function sosTeacherResultCandidates_(id, args) {
   if (id.kind !== 'teacher') throw SOS.SosError('FORBIDDEN', 'Teacher account required.', 403);
   var course = sosNormalizeCourseId_(args.course_id), learner = String(args.learner_id || '').trim();
   if (id.courses.indexOf(course) < 0 || !learner || !sosLearnerEmail_(learner, [course])) throw SOS.SosError('FORBIDDEN', 'Learner is not in this course.', 403);
-  var cfg = sosConfig_(), sh = course === 'IBDS' ? sosGradebookSheet_() : sosKnowledgeSheet_(cfg), header = course === 'IBDS' ? 4 : 1;
-  if (!sh || sh.getLastRow() <= header) return [];
+  var cfg = sosConfig_(), knowledge = args.source === 'knowledge' || course !== 'IBDS', sh = knowledge ? sosKnowledgeSheet_(cfg) : sosGradebookSheet_(), header = knowledge ? 1 : 4;
+  if (!sh || sh.getLastRow() <= header) return course === 'IBDS' && !knowledge ? sosTeacherResultCandidates_(id,{course_id:course,learner_id:learner,source:'knowledge'}) : [];
   var c = sosResultHeaders_(sh, header), rows = sh.getRange(header + 1, 1, sh.getLastRow() - header, sh.getLastColumn()).getValues();
   var email = sosLearnerEmail_(learner, [course]);
-  return rows.map(function (r, i) {
-    var match = course === 'IBDS' ? String(r[c('Student ID')] || '').trim() === learner :
-      sosNormalizeCourseId_(r[c('course_id')]) === course && String(r[c('student_email')] || '').trim().toLowerCase() === email && String(r[c('evidence_type')]).toLowerCase() === 'knowledge';
+  var found = rows.map(function (r, i) {
+    var match = !knowledge ? String(r[c('Student ID')] || '').trim() === learner :
+      sosNormalizeCourseId_(r[c('course_id')]) === course && (course !== 'IBDS' || String(r[c('project_id')]) === 'IBDS-REDESIGN-FEED') && String(r[c('student_email')] || '').trim().toLowerCase() === email && String(r[c('evidence_type')]).toLowerCase() === 'knowledge';
     if (!match) return null;
-    var key = course === 'IBDS' ? String(r[c('Evidence ID')] || '') : [r[c('source_form_id')], r[c('source_response_id')], r[c('canonical_id')]].map(String).join(':');
+    var key = !knowledge ? String(r[c('Evidence ID')] || '') : [r[c('source_form_id')], r[c('source_response_id')], r[c('canonical_id')]].map(String).join(':');
     if (!key) return null;
-    return { source: course === 'IBDS' ? 'ds' : 'knowledge', key: key, course_id: course, learner_id: learner,
-      task_id: String(r[c(course === 'IBDS' ? 'Task ID' : 'canonical_id')] || ''),
-      verified: sosVerified_(r[c(course === 'IBDS' ? 'Teacher verified?' : 'teacher_verified')]),
+    return { source: !knowledge ? 'ds' : 'knowledge', key: key, course_id: course, learner_id: learner,
+      task_id: String(r[c(!knowledge ? 'Task ID' : 'canonical_id')] || ''),
+      verified: sosVerified_(r[c(!knowledge ? 'Teacher verified?' : 'teacher_verified')]),
       released: sosReleased_(r[c(SOS_RELEASE_HEADER)]), released_at: sosResultDate_(r[c(SOS_RELEASE_AT_HEADER)]) };
   }).filter(Boolean);
+  if (course === 'IBDS' && !knowledge) found = found.concat(sosTeacherResultCandidates_(id, {course_id:course,learner_id:learner,source:'knowledge'}));
+  return found;
 }
 
 function sosSetResultRelease_(id, args) {
@@ -112,17 +114,17 @@ function sosSetResultRelease_(id, args) {
   if (typeof args.released !== 'boolean') throw SOS.SosError('INVALID', 'Choose release or withdraw.', 400);
   var course = sosNormalizeCourseId_(args.course_id), learner = String(args.learner_id || '').trim(), key = String(args.key || '');
   if (id.courses.indexOf(course) < 0 || !learner || !key || !sosLearnerEmail_(learner, [course])) throw SOS.SosError('FORBIDDEN', 'Learner is not in this course.', 403);
-  var cfg = sosConfig_(), sh = course === 'IBDS' ? sosGradebookSheet_() : sosKnowledgeSheet_(cfg), header = course === 'IBDS' ? 4 : 1;
+  var cfg = sosConfig_(), knowledge = args.source === 'knowledge' || course !== 'IBDS', sh = knowledge ? sosKnowledgeSheet_(cfg) : sosGradebookSheet_(), header = knowledge ? 1 : 4;
   if (!sh) throw SOS.SosError('SERVER', 'Result source is unavailable.', 500);
   var c = sosResultHeaders_(sh, header), rows = sh.getRange(header + 1, 1, Math.max(0, sh.getLastRow() - header), sh.getLastColumn()).getValues();
   var email = sosLearnerEmail_(learner, [course]), hit = -1;
   rows.forEach(function (r, i) {
-    var rowKey = course === 'IBDS' ? String(r[c('Evidence ID')] || '') : [r[c('source_form_id')], r[c('source_response_id')], r[c('canonical_id')]].map(String).join(':');
+    var rowKey = !knowledge ? String(r[c('Evidence ID')] || '') : [r[c('source_form_id')], r[c('source_response_id')], r[c('canonical_id')]].map(String).join(':');
     if (rowKey !== key) return;
-    var owned = course === 'IBDS' ? String(r[c('Student ID')] || '').trim() === learner :
-      sosNormalizeCourseId_(r[c('course_id')]) === course && String(r[c('student_email')] || '').trim().toLowerCase() === email && String(r[c('evidence_type')]).toLowerCase() === 'knowledge';
+    var owned = !knowledge ? String(r[c('Student ID')] || '').trim() === learner :
+      sosNormalizeCourseId_(r[c('course_id')]) === course && (course !== 'IBDS' || String(r[c('project_id')]) === 'IBDS-REDESIGN-FEED') && String(r[c('student_email')] || '').trim().toLowerCase() === email && String(r[c('evidence_type')]).toLowerCase() === 'knowledge';
     if (!owned || hit >= 0) throw SOS.SosError('CONFLICT', 'Result identity is ambiguous.', 409);
-    if (args.released && !sosVerified_(r[c(course === 'IBDS' ? 'Teacher verified?' : 'teacher_verified')])) throw SOS.SosError('INVALID', 'Teacher verification is required before release.', 400);
+    if (args.released && !sosVerified_(r[c(!knowledge ? 'Teacher verified?' : 'teacher_verified')])) throw SOS.SosError('INVALID', 'Teacher verification is required before release.', 400);
     hit = i + header + 1;
   });
   if (hit < 0) throw SOS.SosError('NOT_FOUND', 'Result row was not found.', 404);
@@ -130,16 +132,16 @@ function sosSetResultRelease_(id, args) {
   try {
     var cell = sh.getRange(hit, c(SOS_RELEASE_HEADER) + 1), stamp = sh.getRange(hit, c(SOS_RELEASE_AT_HEADER) + 1);
     var current = sh.getRange(hit, 1, 1, sh.getLastColumn()).getValues()[0];
-    var currentKey = course === 'IBDS' ? String(current[c('Evidence ID')] || '') :
+    var currentKey = !knowledge ? String(current[c('Evidence ID')] || '') :
       [current[c('source_form_id')], current[c('source_response_id')], current[c('canonical_id')]].map(String).join(':');
-    var currentOwner = course === 'IBDS' ? String(current[c('Student ID')] || '').trim() === learner :
-      sosNormalizeCourseId_(current[c('course_id')]) === course && String(current[c('student_email')] || '').trim().toLowerCase() === email;
+    var currentOwner = !knowledge ? String(current[c('Student ID')] || '').trim() === learner :
+      sosNormalizeCourseId_(current[c('course_id')]) === course && (course !== 'IBDS' || String(current[c('project_id')]) === 'IBDS-REDESIGN-FEED') && String(current[c('evidence_type')]).toLowerCase() === 'knowledge' && String(current[c('student_email')] || '').trim().toLowerCase() === email;
     if (currentKey !== key || !currentOwner) throw SOS.SosError('CONFLICT', 'Result row changed during release. Reload it.', 409);
-    if (args.released && !sosVerified_(current[c(course === 'IBDS' ? 'Teacher verified?' : 'teacher_verified')]))
+    if (args.released && !sosVerified_(current[c(!knowledge ? 'Teacher verified?' : 'teacher_verified')]))
       throw SOS.SosError('INVALID', 'Teacher verification is required before release.', 400);
     cell.setValue(args.released); stamp.setValue(args.released ? new Date() : '');
   } finally { lock.releaseLock(); }
-  return { course_id: course, task_id: rows[hit - header - 1][c(course === 'IBDS' ? 'Task ID' : 'canonical_id')], released: args.released };
+  return { course_id: course, task_id: rows[hit - header - 1][c(!knowledge ? 'Task ID' : 'canonical_id')], released: args.released };
 }
 
 /** Installable edit trigger: a teacher's checkbox edit receives/clears the audit timestamp. */

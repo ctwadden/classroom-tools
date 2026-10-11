@@ -501,3 +501,21 @@ test('Apps Script (mocked): explicit On releases an already hosted registered mo
  assert.equal(w.call(A,'listAssignments',{}).result.some(a=>a.assignment_key===target.assignment_key),true);
  const missing=world({multiCourseRoster:true,moduleSettings:{'syn-learner-a':[r]}});assert.equal(missing.call(A,'listAssignments',{}).result.some(a=>a.assignment_key===target.assignment_key),false);
 });
+
+test('IBDS chapter feedback release preserves marks and isolates verified knowledge', () => {
+ const base=['',A,'','IBDS','IBDS-REDESIGN-FEED','IBDS-S03-DATA-15','Knowledge','','','PRIVATE FIRST ANSWER','','','','Teacher-approved key-role correction.',true,'chapter-form','chapter-response','',false,''];
+ const other=base.slice();other[1]=B;other[16]='other-response';other[18]=true;
+ const unverified=base.slice();unverified[16]='unverified-response';unverified[14]=false;unverified[18]=true;
+ const unrelated=base.slice();unrelated[4]='OTHER-PROJECT';unrelated[16]='unrelated';unrelated[18]=true;
+ const w=world({confirmedEvidenceRows:[base,other,unverified,unrelated]});const before=JSON.stringify(w.gradebook);
+ const own=()=>w.call(A,'studentDashboard',{}).result.courses.find(c=>c.course_id==='IBDS').released_results.items;
+ assert.equal(own().length,0);
+ const candidates=w.call(T,'teacherResultCandidates',{course_id:'IBDS',learner_id:'syn-learner-a'}).result;
+ assert.equal(candidates.length,2);assert.equal(candidates[0].source,'knowledge');
+ assert.equal(w.call(T,'setResultRelease',{course_id:'IBDS',learner_id:'syn-learner-a',source:'knowledge',key:'chapter-form:unverified-response:IBDS-S03-DATA-15',released:true}).error.code,'INVALID');
+ assert.equal(w.call(A,'setResultRelease',{course_id:'IBDS',learner_id:'syn-learner-a',source:'knowledge',key:'chapter-form:chapter-response:IBDS-S03-DATA-15',released:true}).error.code,'FORBIDDEN');
+ assert.equal(w.call(T,'setResultRelease',{course_id:'IBDS',learner_id:'syn-learner-a',source:'knowledge',key:'chapter-form:chapter-response:IBDS-S03-DATA-15',released:true}).ok,true);
+ assert.equal(own().length,1);assert.equal(own()[0].raw_earned,null);assert.equal(own()[0].raw_possible,null);
+ assert.equal(own()[0].approved_feedback,'Teacher-approved key-role correction.');assert.doesNotMatch(JSON.stringify(own()),/PRIVATE FIRST ANSWER|other-response|unrelated/);
+ assert.equal(w.call(T,'setResultRelease',{course_id:'IBDS',learner_id:'syn-learner-a',source:'knowledge',key:'chapter-form:chapter-response:IBDS-S03-DATA-15',released:false}).ok,true);assert.equal(own().length,0);assert.equal(JSON.stringify(w.gradebook),before);
+});
