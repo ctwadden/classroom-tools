@@ -19,7 +19,8 @@ var SOS_RPC_METHODS = ['setPreview', 'whoami', 'home', 'studentDashboard', 'read
   'studentSupports', 'setStudentSupports', 'logSupportUse', 'teacherAdaptations', 'setTeacherSupports', 'createCustomVersionDraft',
   'teacherResultCandidates', 'setResultRelease'];
 
-function doGet() {
+function doGet(request) {
+  if (request && request.parameter && request.parameter.check === 'signin') return sosSignInCheckPage_();
   var identity, setupError = null;
   try { sosEnsureSetup_(); } catch (e) { setupError = e; console.error('Student OS setup failed: ' + (e && e.stack || e)); }
   try {
@@ -39,6 +40,12 @@ function doGet() {
 /** Single RPC entry point for google.script.run. Never throws: returns {ok,result} or {ok:false,error}. */
 function rpc(method, args) {
   try {
+    // This pre-access check uses Google's real session and returns only the caller's identity.
+    // It neither opens the workspace nor accepts a learner/email supplied by the browser.
+    if (method === 'checkSchoolSignIn') {
+      if (args && (typeof args !== 'object' || Array.isArray(args) || Object.keys(args).length)) throw SOS.SosError('INVALID', 'The account check does not accept identity fields.', 400);
+      return { ok: true, result: sosCheckSchoolSignIn_() };
+    }
     if (SOS_RPC_METHODS.indexOf(method) < 0) throw SOS.SosError('NOT_FOUND', 'Unknown action.', 404);
     if (args !== undefined && (args === null || typeof args !== 'object' || Array.isArray(args))) throw SOS.SosError('INVALID', 'Invalid request.', 400);
     if (method === 'setPreview') return { ok: true, result: sosSetPreview_(args || {}) };

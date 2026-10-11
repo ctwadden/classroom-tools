@@ -32,6 +32,8 @@ const files = {
   'ModulePolicy.gs': fs.readFileSync(path.join(ROOT, '../../evidence-map/module-policy.js'),'utf8'),
   'SosAdapters.gs': read('core/sos-adapters.js'),
   'Code.gs': read('apps-script/src/Code.gs'),
+  'ClassAccess.gs': read('apps-script/src/ClassAccess.gs'),
+  'SignInCheck.html': read('apps-script/src/SignInCheck.html'),
   'Config.gs': read('apps-script/src/Config.gs'),
   'SheetRepo.gs': read('apps-script/src/SheetRepo.gs'),
   'Adapters.gs': read('apps-script/src/Adapters.gs'),

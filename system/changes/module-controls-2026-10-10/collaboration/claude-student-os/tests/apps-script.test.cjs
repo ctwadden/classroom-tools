@@ -91,13 +91,60 @@ function world({ email = '', live = false, fetch, moduleSettings = {}, moduleUna
     __email: email
   };
   vm.createContext(ctx);
-  for (const f of ['ModulePolicy.gs', 'SosCore.gs', 'SosAdapters.gs', 'SosReleaseCatalogue.gs', 'SosCrosswalk.gs', 'SosDsQuizSpec.gs', 'Config.gs', 'SheetRepo.gs', 'Adapters.gs', 'Results.gs', 'Code.gs'])
+  for (const f of ['ModulePolicy.gs', 'SosCore.gs', 'SosAdapters.gs', 'SosReleaseCatalogue.gs', 'SosCrosswalk.gs', 'SosDsQuizSpec.gs', 'Config.gs', 'SheetRepo.gs', 'Adapters.gs', 'Results.gs', 'ClassAccess.gs', 'Code.gs'])
     vm.runInContext(fs.readFileSync(path.join(DIST, f), 'utf8'), ctx, { filename: f });
   // Each google.script.run call is a new Apps Script execution: global memo state is not shared.
   const call = (as, method, args) => { ctx.__email = as; vm.runInContext('SOS_SERVICE_ = null', ctx); return ctx.rpc(method, args); };
   return { ctx, call, store, evidence, gradebook, locks, cache, props, fetched, created: () => created };
 }
 const A = 'student.a@synthetic.example.test', B = 'student.b@synthetic.example.test', T = 'teacher.demo@synthetic.example.test';
+
+test('school-session check works while access is closed without loading work or marks', () => {
+  const w = world({pilotAllowlist: []});
+  const before = JSON.stringify({store:w.store,evidence:w.evidence,gradebook:w.gradebook});
+  const result = w.call(A, 'checkSchoolSignIn', {});
+  assert.equal(result.ok, true);
+  assert.equal(result.result.workspace_enabled, false);
+  assert.equal(result.result.display_name, 'Avery Sample (synthetic)');
+  assert.deepEqual(JSON.parse(JSON.stringify(result.result.courses)), ['IBDS']);
+  assert.doesNotMatch(JSON.stringify(result), /syn-learner|student\.b|secret|teacher_note/);
+  assert.equal(w.props.SOS_PILOT_ALLOWLIST_JSON, '[]');
+  assert.equal(w.call(A,'whoami',{}).error.code,'DENIED');
+  assert.equal(JSON.stringify({store:w.store,evidence:w.evidence,gradebook:w.gradebook}), before);
+  assert.equal(Object.keys(w.props).filter(k=>k.startsWith('SOS_SIGNIN_CHECK:')).length,1);
+  assert.equal(w.call('', 'checkSchoolSignIn', {}).ok,false);
+  assert.equal(w.call(T, 'checkSchoolSignIn', {}).error.code,'FORBIDDEN');
+  assert.equal(w.call('unknown@synthetic.example.test', 'checkSchoolSignIn', {}).ok,false);
+  assert.equal(w.call(A, 'checkSchoolSignIn', {email:B}).error.code,'INVALID');
+  w.ctx.__email=A;
+  assert.equal(w.ctx.doGet({parameter:{check:'signin'}}).content,'FILE:SignInCheck');
+});
+
+test('class access preparation needs two distinct recent sessions and never changes the allowlist', () => {
+  const w = world({pilotAllowlist:[]});
+  w.ctx.__email=T;
+  assert.throws(()=>w.ctx.sosPrepareClassAccess_('IBDS'),/Two students/);
+  w.call(A,'checkSchoolSignIn',{}); w.call(A,'checkSchoolSignIn',{});
+  w.ctx.__email=T; assert.throws(()=>w.ctx.sosPrepareClassAccess_('IBDS'),/Two students/);
+  w.call(B,'checkSchoolSignIn',{}); w.ctx.__email=T;
+  const before=JSON.stringify({store:w.store,evidence:w.evidence,gradebook:w.gradebook});
+  const prepared=w.ctx.sosPrepareClassAccess_('IBDS');
+  assert.equal(prepared.checked_sessions,2);
+  assert.equal(prepared.proposed_allowlist.length,2);
+  assert.equal(w.props.SOS_PILOT_ALLOWLIST_JSON,'[]');
+  assert.equal(JSON.stringify({store:w.store,evidence:w.evidence,gradebook:w.gradebook}),before);
+  assert.throws(()=>w.ctx.sosPrepareClassAccess_('MM12'),/not assigned/);
+  w.ctx.__email=A; assert.throws(()=>w.ctx.sosPrepareClassAccess_('IBDS'));
+  w.ctx.__email=T;
+  const report=w.ctx.auditStudentClassAccess();
+  assert.equal(report.courses.IBDS.checked_school_sessions,2);
+  assert.equal(report.courses.IBDS.enabled_students,0);
+  assert.doesNotMatch(JSON.stringify(report),/student\.[ab]|syn-learner|secret/);
+  const proofKey=Object.keys(w.props).find(k=>k.startsWith('SOS_SIGNIN_CHECK:'));
+  const old=JSON.parse(w.props[proofKey]); old.checked_at='2020-01-01T00:00:00Z';w.props[proofKey]=JSON.stringify(old);
+  assert.throws(()=>w.ctx.sosPrepareClassAccess_('IBDS'),/Two students/);
+  assert.equal(w.call(T,'auditStudentClassAccess',{}).error.code,'NOT_FOUND');
+});
 
 test('Apps Script (mocked): IBDS release is own, verified, reversible and excludes drafts and prediction fields', () => {
   const row = (id, learner, released, verified = 'Yes') => [id, learner, '', 'Readiness', 'ibds-26-quiz-w07', '', 12, 9,
